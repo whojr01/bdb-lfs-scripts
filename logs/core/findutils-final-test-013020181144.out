@@ -1,0 +1,1634 @@
+Making check in gl
+make[1]: Entering directory '/sources/findutils-4.6.0/build/gl'
+Making check in lib
+make[2]: Entering directory '/sources/findutils-4.6.0/build/gl/lib'
+make  check-recursive
+make[3]: Entering directory '/sources/findutils-4.6.0/build/gl/lib'
+make[4]: Entering directory '/sources/findutils-4.6.0/build/gl/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/findutils-4.6.0/build/gl/lib'
+make[3]: Leaving directory '/sources/findutils-4.6.0/build/gl/lib'
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/gl/lib'
+make[2]: Entering directory '/sources/findutils-4.6.0/build/gl'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/gl'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/gl'
+Making check in tests
+make[1]: Entering directory '/sources/findutils-4.6.0/build/tests'
+make  check-recursive
+make[2]: Entering directory '/sources/findutils-4.6.0/build/tests'
+Making check in .
+make[3]: Entering directory '/sources/findutils-4.6.0/build/tests'
+make  libtests.a test-accept test-alloca-opt test-areadlink test-areadlink-with-size test-areadlinkat test-argmatch test-arpa_inet test-binary-io test-bind test-bitrotate test-btowc test-byteswap test-c-ctype test-c-strcasecmp test-c-strncasecmp test-c-strcasestr test-c-strstr test-canonicalize test-chdir test-cloexec test-close test-closein test-connect test-ctype test-dirent-safer test-dirent test-dirname test-dup test-dup2 test-environ test-errno test-faccessat test-fchdir test-fcntl-h test-fcntl-safer test-fcntl test-fdopen test-fdopendir test-fflush test-fflush2 test-fgetc test-float test-fnmatch test-fopen-safer test-fopen test-fpending test-fpurge test-fputc test-fread test-freadahead test-freading test-fseek test-fseeko test-fseeko3 test-fseeko4 test-fstat test-fstatat test-ftell test-ftell3 test-ftello test-ftello3 test-ftello4 test-ftruncate test-fwrite test-getcwd-lgpl test-getcwd test-getdelim test-getdtablesize test-getgroups test-gethostname test-getline test-getopt test-gettimeofday test-hash test-i-ring test-ignore-value test-inet_pton test-intprops test-inttostr test-inttypes test-ioctl test-isblank test-isfinite test-isinf test-isnand-nolibm test-isnanf-nolibm test-isnanl-nolibm test-iswblank test-langinfo test-listen test-locale test-localeconv test-localename test-lseek test-lstat test-malloc-gnu test-malloca test-math test-mbrtowc test-mbrtowc-w32 test-mbscasestr1 test-mbscasestr2 test-mbscasestr3 test-mbscasestr4 test-mbsinit test-mbsrtowcs test-mbsstr1 test-mbsstr2 test-mbsstr3 test-memchr test-memrchr test-modf test-nanosleep test-netinet_in test-nl_langinfo test-open test-openat-safer test-openat test-parse-datetime test-pathmax test-perror test-perror2 test-pipe test-priv-set test-quotearg-simple test-raise test-read test-readlink test-readlinkat test-realloc-gnu test-regex test-rmdir test-select test-select-fd test-select-stdin test-setenv test-setlocale1 test-setlocale2 test-setsockopt test-sigaction test-signal-h test-sigprocmask test-sleep test-snprintf test-sockets test-stat test-stat-time test-statat test-stdalign test-stdbool test-stddef test-stdint test-stdio test-stdlib test-strcasestr test-strerror test-strerror_r test-strftime test-string test-strings test-strnlen test-strstr test-strtoull test-strtoumax test-symlink test-symlinkat test-sys_ioctl test-sys_select test-sys_socket test-sys_stat test-sys_time test-sys_types test-sys_uio test-sys_utsname test-sys_wait test-thread_self test-thread_create test-time test-timespec test-trunc1 test-trunc2 test-uname test-dup-safer test-unistd test-uc_width test-uc_width2 test-unlink test-unlinkat test-unsetenv test-vasnprintf test-verify test-version-etc test-wchar test-wcrtomb test-wcrtomb-w32 test-wctype-h test-wcwidth test-xalloc-die test-xstrtol test-xstrtoul test-xstrtoumax test-yesno
+make[4]: Entering directory '/sources/findutils-4.6.0/build/tests'
+depbase=`echo binary-io.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT binary-io.o -MD -MP -MF $depbase.Tpo -c -o binary-io.o ../../tests/binary-io.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo dtotimespec.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT dtotimespec.o -MD -MP -MF $depbase.Tpo -c -o dtotimespec.o ../../tests/dtotimespec.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo fd-safer-flag.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT fd-safer-flag.o -MD -MP -MF $depbase.Tpo -c -o fd-safer-flag.o ../../tests/fd-safer-flag.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo dup-safer-flag.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT dup-safer-flag.o -MD -MP -MF $depbase.Tpo -c -o dup-safer-flag.o ../../tests/dup-safer-flag.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo imaxtostr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT imaxtostr.o -MD -MP -MF $depbase.Tpo -c -o imaxtostr.o ../../tests/imaxtostr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo inttostr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT inttostr.o -MD -MP -MF $depbase.Tpo -c -o inttostr.o ../../tests/inttostr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo offtostr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT offtostr.o -MD -MP -MF $depbase.Tpo -c -o offtostr.o ../../tests/offtostr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo uinttostr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT uinttostr.o -MD -MP -MF $depbase.Tpo -c -o uinttostr.o ../../tests/uinttostr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo umaxtostr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT umaxtostr.o -MD -MP -MF $depbase.Tpo -c -o umaxtostr.o ../../tests/umaxtostr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo localename.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT localename.o -MD -MP -MF $depbase.Tpo -c -o localename.o ../../tests/localename.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo priv-set.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT priv-set.o -MD -MP -MF $depbase.Tpo -c -o priv-set.o ../../tests/priv-set.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo sig-handler.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT sig-handler.o -MD -MP -MF $depbase.Tpo -c -o sig-handler.o ../../tests/sig-handler.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo glthread/thread.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT glthread/thread.o -MD -MP -MF $depbase.Tpo -c -o glthread/thread.o ../../tests/glthread/thread.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo timespec-add.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT timespec-add.o -MD -MP -MF $depbase.Tpo -c -o timespec-add.o ../../tests/timespec-add.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo timespec-sub.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT timespec-sub.o -MD -MP -MF $depbase.Tpo -c -o timespec-sub.o ../../tests/timespec-sub.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo unlinkdir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT unlinkdir.o -MD -MP -MF $depbase.Tpo -c -o unlinkdir.o ../../tests/unlinkdir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo ioctl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT ioctl.o -MD -MP -MF $depbase.Tpo -c -o ioctl.o ../../tests/ioctl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo nanosleep.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT nanosleep.o -MD -MP -MF $depbase.Tpo -c -o nanosleep.o ../../tests/nanosleep.c &&\
+mv -f $depbase.Tpo $depbase.Po
+rm -f libtests.a
+ar cr libtests.a binary-io.o dtotimespec.o fd-safer-flag.o dup-safer-flag.o imaxtostr.o inttostr.o offtostr.o uinttostr.o umaxtostr.o localename.o priv-set.o sig-handler.o glthread/thread.o timespec-add.o timespec-sub.o unlinkdir.o ioctl.o nanosleep.o
+ranlib libtests.a
+depbase=`echo test-accept.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-accept.o -MD -MP -MF $depbase.Tpo -c -o test-accept.o ../../tests/test-accept.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-accept test-accept.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-alloca-opt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-alloca-opt.o -MD -MP -MF $depbase.Tpo -c -o test-alloca-opt.o ../../tests/test-alloca-opt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-alloca-opt test-alloca-opt.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-areadlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-areadlink.o -MD -MP -MF $depbase.Tpo -c -o test-areadlink.o ../../tests/test-areadlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-areadlink test-areadlink.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-areadlink-with-size.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-areadlink-with-size.o -MD -MP -MF $depbase.Tpo -c -o test-areadlink-with-size.o ../../tests/test-areadlink-with-size.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-areadlink-with-size test-areadlink-with-size.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-areadlinkat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-areadlinkat.o -MD -MP -MF $depbase.Tpo -c -o test-areadlinkat.o ../../tests/test-areadlinkat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-areadlinkat test-areadlinkat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-argmatch.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-argmatch.o -MD -MP -MF $depbase.Tpo -c -o test-argmatch.o ../../tests/test-argmatch.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-argmatch test-argmatch.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-arpa_inet.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-arpa_inet.o -MD -MP -MF $depbase.Tpo -c -o test-arpa_inet.o ../../tests/test-arpa_inet.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-arpa_inet test-arpa_inet.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-binary-io.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-binary-io.o -MD -MP -MF $depbase.Tpo -c -o test-binary-io.o ../../tests/test-binary-io.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-binary-io test-binary-io.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-bind.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-bind.o -MD -MP -MF $depbase.Tpo -c -o test-bind.o ../../tests/test-bind.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-bind test-bind.o libtests.a ../gl/lib/libgnulib.a libtests.a    
+depbase=`echo test-bitrotate.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-bitrotate.o -MD -MP -MF $depbase.Tpo -c -o test-bitrotate.o ../../tests/test-bitrotate.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-bitrotate test-bitrotate.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-btowc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-btowc.o -MD -MP -MF $depbase.Tpo -c -o test-btowc.o ../../tests/test-btowc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-btowc test-btowc.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-byteswap.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-byteswap.o -MD -MP -MF $depbase.Tpo -c -o test-byteswap.o ../../tests/test-byteswap.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-byteswap test-byteswap.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-c-ctype.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-c-ctype.o -MD -MP -MF $depbase.Tpo -c -o test-c-ctype.o ../../tests/test-c-ctype.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-c-ctype test-c-ctype.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-c-strcasecmp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-c-strcasecmp.o -MD -MP -MF $depbase.Tpo -c -o test-c-strcasecmp.o ../../tests/test-c-strcasecmp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-c-strcasecmp test-c-strcasecmp.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-c-strncasecmp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-c-strncasecmp.o -MD -MP -MF $depbase.Tpo -c -o test-c-strncasecmp.o ../../tests/test-c-strncasecmp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-c-strncasecmp test-c-strncasecmp.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-c-strcasestr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-c-strcasestr.o -MD -MP -MF $depbase.Tpo -c -o test-c-strcasestr.o ../../tests/test-c-strcasestr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-c-strcasestr test-c-strcasestr.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-c-strstr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-c-strstr.o -MD -MP -MF $depbase.Tpo -c -o test-c-strstr.o ../../tests/test-c-strstr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-c-strstr test-c-strstr.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-canonicalize.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-canonicalize.o -MD -MP -MF $depbase.Tpo -c -o test-canonicalize.o ../../tests/test-canonicalize.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-canonicalize test-canonicalize.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-chdir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-chdir.o -MD -MP -MF $depbase.Tpo -c -o test-chdir.o ../../tests/test-chdir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-chdir test-chdir.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-cloexec.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-cloexec.o -MD -MP -MF $depbase.Tpo -c -o test-cloexec.o ../../tests/test-cloexec.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-cloexec test-cloexec.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-close.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-close.o -MD -MP -MF $depbase.Tpo -c -o test-close.o ../../tests/test-close.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-close test-close.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-closein.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-closein.o -MD -MP -MF $depbase.Tpo -c -o test-closein.o ../../tests/test-closein.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-closein test-closein.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-connect.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-connect.o -MD -MP -MF $depbase.Tpo -c -o test-connect.o ../../tests/test-connect.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-connect test-connect.o libtests.a ../gl/lib/libgnulib.a libtests.a    
+depbase=`echo test-ctype.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ctype.o -MD -MP -MF $depbase.Tpo -c -o test-ctype.o ../../tests/test-ctype.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ctype test-ctype.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-dirent-safer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-dirent-safer.o -MD -MP -MF $depbase.Tpo -c -o test-dirent-safer.o ../../tests/test-dirent-safer.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-dirent-safer test-dirent-safer.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-dirent.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-dirent.o -MD -MP -MF $depbase.Tpo -c -o test-dirent.o ../../tests/test-dirent.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-dirent test-dirent.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-dirname.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-dirname.o -MD -MP -MF $depbase.Tpo -c -o test-dirname.o ../../tests/test-dirname.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-dirname test-dirname.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-dup.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-dup.o -MD -MP -MF $depbase.Tpo -c -o test-dup.o ../../tests/test-dup.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-dup test-dup.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-dup2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-dup2.o -MD -MP -MF $depbase.Tpo -c -o test-dup2.o ../../tests/test-dup2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-dup2 test-dup2.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-environ.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-environ.o -MD -MP -MF $depbase.Tpo -c -o test-environ.o ../../tests/test-environ.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-environ test-environ.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-errno.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-errno.o -MD -MP -MF $depbase.Tpo -c -o test-errno.o ../../tests/test-errno.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-errno test-errno.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-faccessat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-faccessat.o -MD -MP -MF $depbase.Tpo -c -o test-faccessat.o ../../tests/test-faccessat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-faccessat test-faccessat.o libtests.a ../gl/lib/libgnulib.a libtests.a    
+depbase=`echo test-fchdir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fchdir.o -MD -MP -MF $depbase.Tpo -c -o test-fchdir.o ../../tests/test-fchdir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fchdir test-fchdir.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-fcntl-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fcntl-h.o -MD -MP -MF $depbase.Tpo -c -o test-fcntl-h.o ../../tests/test-fcntl-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fcntl-h test-fcntl-h.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fcntl-safer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fcntl-safer.o -MD -MP -MF $depbase.Tpo -c -o test-fcntl-safer.o ../../tests/test-fcntl-safer.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fcntl-safer test-fcntl-safer.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fcntl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fcntl.o -MD -MP -MF $depbase.Tpo -c -o test-fcntl.o ../../tests/test-fcntl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fcntl test-fcntl.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fdopen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fdopen.o -MD -MP -MF $depbase.Tpo -c -o test-fdopen.o ../../tests/test-fdopen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fdopen test-fdopen.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fdopendir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fdopendir.o -MD -MP -MF $depbase.Tpo -c -o test-fdopendir.o ../../tests/test-fdopendir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fdopendir test-fdopendir.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-fflush.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fflush.o -MD -MP -MF $depbase.Tpo -c -o test-fflush.o ../../tests/test-fflush.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fflush test-fflush.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fflush2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fflush2.o -MD -MP -MF $depbase.Tpo -c -o test-fflush2.o ../../tests/test-fflush2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fflush2 test-fflush2.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fgetc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fgetc.o -MD -MP -MF $depbase.Tpo -c -o test-fgetc.o ../../tests/test-fgetc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fgetc test-fgetc.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-float.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-float.o -MD -MP -MF $depbase.Tpo -c -o test-float.o ../../tests/test-float.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-float test-float.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fnmatch.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fnmatch.o -MD -MP -MF $depbase.Tpo -c -o test-fnmatch.o ../../tests/test-fnmatch.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fnmatch test-fnmatch.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fopen-safer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fopen-safer.o -MD -MP -MF $depbase.Tpo -c -o test-fopen-safer.o ../../tests/test-fopen-safer.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fopen-safer test-fopen-safer.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fopen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fopen.o -MD -MP -MF $depbase.Tpo -c -o test-fopen.o ../../tests/test-fopen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fopen test-fopen.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fpending.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fpending.o -MD -MP -MF $depbase.Tpo -c -o test-fpending.o ../../tests/test-fpending.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fpending test-fpending.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fpurge.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fpurge.o -MD -MP -MF $depbase.Tpo -c -o test-fpurge.o ../../tests/test-fpurge.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fpurge test-fpurge.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fputc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fputc.o -MD -MP -MF $depbase.Tpo -c -o test-fputc.o ../../tests/test-fputc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fputc test-fputc.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fread.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fread.o -MD -MP -MF $depbase.Tpo -c -o test-fread.o ../../tests/test-fread.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fread test-fread.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-freadahead.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-freadahead.o -MD -MP -MF $depbase.Tpo -c -o test-freadahead.o ../../tests/test-freadahead.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-freadahead test-freadahead.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-freading.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-freading.o -MD -MP -MF $depbase.Tpo -c -o test-freading.o ../../tests/test-freading.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-freading test-freading.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fseek.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fseek.o -MD -MP -MF $depbase.Tpo -c -o test-fseek.o ../../tests/test-fseek.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fseek test-fseek.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fseeko.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fseeko.o -MD -MP -MF $depbase.Tpo -c -o test-fseeko.o ../../tests/test-fseeko.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fseeko test-fseeko.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fseeko3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fseeko3.o -MD -MP -MF $depbase.Tpo -c -o test-fseeko3.o ../../tests/test-fseeko3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fseeko3 test-fseeko3.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fseeko4.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fseeko4.o -MD -MP -MF $depbase.Tpo -c -o test-fseeko4.o ../../tests/test-fseeko4.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fseeko4 test-fseeko4.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fstat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fstat.o -MD -MP -MF $depbase.Tpo -c -o test-fstat.o ../../tests/test-fstat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fstat test-fstat.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fstatat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fstatat.o -MD -MP -MF $depbase.Tpo -c -o test-fstatat.o ../../tests/test-fstatat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fstatat test-fstatat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-ftell.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ftell.o -MD -MP -MF $depbase.Tpo -c -o test-ftell.o ../../tests/test-ftell.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ftell test-ftell.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-ftell3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ftell3.o -MD -MP -MF $depbase.Tpo -c -o test-ftell3.o ../../tests/test-ftell3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ftell3 test-ftell3.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-ftello.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ftello.o -MD -MP -MF $depbase.Tpo -c -o test-ftello.o ../../tests/test-ftello.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ftello test-ftello.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-ftello3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ftello3.o -MD -MP -MF $depbase.Tpo -c -o test-ftello3.o ../../tests/test-ftello3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ftello3 test-ftello3.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-ftello4.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ftello4.o -MD -MP -MF $depbase.Tpo -c -o test-ftello4.o ../../tests/test-ftello4.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ftello4 test-ftello4.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-ftruncate.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ftruncate.o -MD -MP -MF $depbase.Tpo -c -o test-ftruncate.o ../../tests/test-ftruncate.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ftruncate test-ftruncate.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-fwrite.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-fwrite.o -MD -MP -MF $depbase.Tpo -c -o test-fwrite.o ../../tests/test-fwrite.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-fwrite test-fwrite.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-getcwd-lgpl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-getcwd-lgpl.o -MD -MP -MF $depbase.Tpo -c -o test-getcwd-lgpl.o ../../tests/test-getcwd-lgpl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-getcwd-lgpl test-getcwd-lgpl.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-getcwd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-getcwd.o -MD -MP -MF $depbase.Tpo -c -o test-getcwd.o ../../tests/test-getcwd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-getcwd test-getcwd.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-getdelim.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-getdelim.o -MD -MP -MF $depbase.Tpo -c -o test-getdelim.o ../../tests/test-getdelim.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-getdelim test-getdelim.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-getdtablesize.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-getdtablesize.o -MD -MP -MF $depbase.Tpo -c -o test-getdtablesize.o ../../tests/test-getdtablesize.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-getdtablesize test-getdtablesize.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-getgroups.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-getgroups.o -MD -MP -MF $depbase.Tpo -c -o test-getgroups.o ../../tests/test-getgroups.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-getgroups test-getgroups.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-gethostname.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-gethostname.o -MD -MP -MF $depbase.Tpo -c -o test-gethostname.o ../../tests/test-gethostname.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-gethostname test-gethostname.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-getline.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-getline.o -MD -MP -MF $depbase.Tpo -c -o test-getline.o ../../tests/test-getline.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-getline test-getline.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-getopt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-getopt.o -MD -MP -MF $depbase.Tpo -c -o test-getopt.o ../../tests/test-getopt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-getopt test-getopt.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-gettimeofday.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-gettimeofday.o -MD -MP -MF $depbase.Tpo -c -o test-gettimeofday.o ../../tests/test-gettimeofday.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-gettimeofday test-gettimeofday.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-hash.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-hash.o -MD -MP -MF $depbase.Tpo -c -o test-hash.o ../../tests/test-hash.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-hash test-hash.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-i-ring.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-i-ring.o -MD -MP -MF $depbase.Tpo -c -o test-i-ring.o ../../tests/test-i-ring.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-i-ring test-i-ring.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-ignore-value.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ignore-value.o -MD -MP -MF $depbase.Tpo -c -o test-ignore-value.o ../../tests/test-ignore-value.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ignore-value test-ignore-value.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-inet_pton.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-inet_pton.o -MD -MP -MF $depbase.Tpo -c -o test-inet_pton.o ../../tests/test-inet_pton.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-inet_pton test-inet_pton.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-intprops.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-intprops.o -MD -MP -MF $depbase.Tpo -c -o test-intprops.o ../../tests/test-intprops.c &&\
+mv -f $depbase.Tpo $depbase.Po
+In file included from ../../tests/test-intprops.c:43:0:
+../../tests/test-intprops.c: In function 'main':
+../../tests/test-intprops.c:346:35: warning: integer overflow in expression [-Woverflow]
+             || result == LONG_MAX * (long long int) LONG_MAX);
+                                   ^
+../../tests/macros.h:49:13: note: in definition of macro 'ASSERT'
+       if (!(expr))                                                           \
+             ^~~~
+../../tests/test-intprops.c:348:35: warning: integer overflow in expression [-Woverflow]
+             || result == LONG_MIN * (long long int) LONG_MIN);
+                                   ^
+../../tests/macros.h:49:13: note: in definition of macro 'ASSERT'
+       if (!(expr))                                                           \
+             ^~~~
+gcc  -g -O2   -o test-intprops test-intprops.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-inttostr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-inttostr.o -MD -MP -MF $depbase.Tpo -c -o test-inttostr.o ../../tests/test-inttostr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-inttostr test-inttostr.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-inttypes.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-inttypes.o -MD -MP -MF $depbase.Tpo -c -o test-inttypes.o ../../tests/test-inttypes.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-inttypes test-inttypes.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-ioctl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-ioctl.o -MD -MP -MF $depbase.Tpo -c -o test-ioctl.o ../../tests/test-ioctl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-ioctl test-ioctl.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-isblank.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-isblank.o -MD -MP -MF $depbase.Tpo -c -o test-isblank.o ../../tests/test-isblank.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-isblank test-isblank.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-isfinite.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-isfinite.o -MD -MP -MF $depbase.Tpo -c -o test-isfinite.o ../../tests/test-isfinite.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-isfinite test-isfinite.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-isinf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-isinf.o -MD -MP -MF $depbase.Tpo -c -o test-isinf.o ../../tests/test-isinf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-isinf test-isinf.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-isnand-nolibm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-isnand-nolibm.o -MD -MP -MF $depbase.Tpo -c -o test-isnand-nolibm.o ../../tests/test-isnand-nolibm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-isnand-nolibm test-isnand-nolibm.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-isnanf-nolibm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-isnanf-nolibm.o -MD -MP -MF $depbase.Tpo -c -o test-isnanf-nolibm.o ../../tests/test-isnanf-nolibm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-isnanf-nolibm test-isnanf-nolibm.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-isnanl-nolibm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-isnanl-nolibm.o -MD -MP -MF $depbase.Tpo -c -o test-isnanl-nolibm.o ../../tests/test-isnanl-nolibm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-isnanl-nolibm test-isnanl-nolibm.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-iswblank.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-iswblank.o -MD -MP -MF $depbase.Tpo -c -o test-iswblank.o ../../tests/test-iswblank.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-iswblank test-iswblank.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-langinfo.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-langinfo.o -MD -MP -MF $depbase.Tpo -c -o test-langinfo.o ../../tests/test-langinfo.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-langinfo test-langinfo.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-listen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-listen.o -MD -MP -MF $depbase.Tpo -c -o test-listen.o ../../tests/test-listen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-listen test-listen.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-locale.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-locale.o -MD -MP -MF $depbase.Tpo -c -o test-locale.o ../../tests/test-locale.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-locale test-locale.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-localeconv.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-localeconv.o -MD -MP -MF $depbase.Tpo -c -o test-localeconv.o ../../tests/test-localeconv.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-localeconv test-localeconv.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-localename.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-localename.o -MD -MP -MF $depbase.Tpo -c -o test-localename.o ../../tests/test-localename.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-localename test-localename.o libtests.a ../gl/lib/libgnulib.a libtests.a    
+depbase=`echo test-lseek.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-lseek.o -MD -MP -MF $depbase.Tpo -c -o test-lseek.o ../../tests/test-lseek.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-lseek test-lseek.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-lstat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-lstat.o -MD -MP -MF $depbase.Tpo -c -o test-lstat.o ../../tests/test-lstat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-lstat test-lstat.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-malloc-gnu.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-malloc-gnu.o -MD -MP -MF $depbase.Tpo -c -o test-malloc-gnu.o ../../tests/test-malloc-gnu.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-malloc-gnu test-malloc-gnu.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-malloca.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-malloca.o -MD -MP -MF $depbase.Tpo -c -o test-malloca.o ../../tests/test-malloca.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-malloca test-malloca.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-math.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-math.o -MD -MP -MF $depbase.Tpo -c -o test-math.o ../../tests/test-math.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-math test-math.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbrtowc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbrtowc.o -MD -MP -MF $depbase.Tpo -c -o test-mbrtowc.o ../../tests/test-mbrtowc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbrtowc test-mbrtowc.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbrtowc-w32.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbrtowc-w32.o -MD -MP -MF $depbase.Tpo -c -o test-mbrtowc-w32.o ../../tests/test-mbrtowc-w32.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbrtowc-w32 test-mbrtowc-w32.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbscasestr1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbscasestr1.o -MD -MP -MF $depbase.Tpo -c -o test-mbscasestr1.o ../../tests/test-mbscasestr1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbscasestr1 test-mbscasestr1.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbscasestr2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbscasestr2.o -MD -MP -MF $depbase.Tpo -c -o test-mbscasestr2.o ../../tests/test-mbscasestr2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbscasestr2 test-mbscasestr2.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbscasestr3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbscasestr3.o -MD -MP -MF $depbase.Tpo -c -o test-mbscasestr3.o ../../tests/test-mbscasestr3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbscasestr3 test-mbscasestr3.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbscasestr4.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbscasestr4.o -MD -MP -MF $depbase.Tpo -c -o test-mbscasestr4.o ../../tests/test-mbscasestr4.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbscasestr4 test-mbscasestr4.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbsinit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbsinit.o -MD -MP -MF $depbase.Tpo -c -o test-mbsinit.o ../../tests/test-mbsinit.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbsinit test-mbsinit.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbsrtowcs.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbsrtowcs.o -MD -MP -MF $depbase.Tpo -c -o test-mbsrtowcs.o ../../tests/test-mbsrtowcs.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbsrtowcs test-mbsrtowcs.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbsstr1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbsstr1.o -MD -MP -MF $depbase.Tpo -c -o test-mbsstr1.o ../../tests/test-mbsstr1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbsstr1 test-mbsstr1.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbsstr2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbsstr2.o -MD -MP -MF $depbase.Tpo -c -o test-mbsstr2.o ../../tests/test-mbsstr2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbsstr2 test-mbsstr2.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-mbsstr3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-mbsstr3.o -MD -MP -MF $depbase.Tpo -c -o test-mbsstr3.o ../../tests/test-mbsstr3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-mbsstr3 test-mbsstr3.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-memchr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-memchr.o -MD -MP -MF $depbase.Tpo -c -o test-memchr.o ../../tests/test-memchr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-memchr test-memchr.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-memrchr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-memrchr.o -MD -MP -MF $depbase.Tpo -c -o test-memrchr.o ../../tests/test-memrchr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-memrchr test-memrchr.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-modf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-modf.o -MD -MP -MF $depbase.Tpo -c -o test-modf.o ../../tests/test-modf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo randomd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT randomd.o -MD -MP -MF $depbase.Tpo -c -o randomd.o ../../tests/randomd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-modf test-modf.o randomd.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-nanosleep.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-nanosleep.o -MD -MP -MF $depbase.Tpo -c -o test-nanosleep.o ../../tests/test-nanosleep.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-nanosleep test-nanosleep.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-netinet_in.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-netinet_in.o -MD -MP -MF $depbase.Tpo -c -o test-netinet_in.o ../../tests/test-netinet_in.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-netinet_in test-netinet_in.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-nl_langinfo.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-nl_langinfo.o -MD -MP -MF $depbase.Tpo -c -o test-nl_langinfo.o ../../tests/test-nl_langinfo.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-nl_langinfo test-nl_langinfo.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-open.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-open.o -MD -MP -MF $depbase.Tpo -c -o test-open.o ../../tests/test-open.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-open test-open.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-openat-safer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-openat-safer.o -MD -MP -MF $depbase.Tpo -c -o test-openat-safer.o ../../tests/test-openat-safer.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-openat-safer test-openat-safer.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-openat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-openat.o -MD -MP -MF $depbase.Tpo -c -o test-openat.o ../../tests/test-openat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-openat test-openat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-parse-datetime.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-parse-datetime.o -MD -MP -MF $depbase.Tpo -c -o test-parse-datetime.o ../../tests/test-parse-datetime.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-parse-datetime test-parse-datetime.o libtests.a ../gl/lib/libgnulib.a libtests.a    
+depbase=`echo test-pathmax.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-pathmax.o -MD -MP -MF $depbase.Tpo -c -o test-pathmax.o ../../tests/test-pathmax.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-pathmax test-pathmax.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-perror.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-perror.o -MD -MP -MF $depbase.Tpo -c -o test-perror.o ../../tests/test-perror.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-perror test-perror.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-perror2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-perror2.o -MD -MP -MF $depbase.Tpo -c -o test-perror2.o ../../tests/test-perror2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-perror2 test-perror2.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-pipe.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-pipe.o -MD -MP -MF $depbase.Tpo -c -o test-pipe.o ../../tests/test-pipe.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-pipe test-pipe.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-priv-set.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-priv-set.o -MD -MP -MF $depbase.Tpo -c -o test-priv-set.o ../../tests/test-priv-set.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-priv-set test-priv-set.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-quotearg-simple.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-quotearg-simple.o -MD -MP -MF $depbase.Tpo -c -o test-quotearg-simple.o ../../tests/test-quotearg-simple.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-quotearg-simple test-quotearg-simple.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-raise.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-raise.o -MD -MP -MF $depbase.Tpo -c -o test-raise.o ../../tests/test-raise.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-raise test-raise.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-read.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-read.o -MD -MP -MF $depbase.Tpo -c -o test-read.o ../../tests/test-read.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-read test-read.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-readlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-readlink.o -MD -MP -MF $depbase.Tpo -c -o test-readlink.o ../../tests/test-readlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-readlink test-readlink.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-readlinkat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-readlinkat.o -MD -MP -MF $depbase.Tpo -c -o test-readlinkat.o ../../tests/test-readlinkat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-readlinkat test-readlinkat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-realloc-gnu.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-realloc-gnu.o -MD -MP -MF $depbase.Tpo -c -o test-realloc-gnu.o ../../tests/test-realloc-gnu.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-realloc-gnu test-realloc-gnu.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-regex.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-regex.o -MD -MP -MF $depbase.Tpo -c -o test-regex.o ../../tests/test-regex.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-regex test-regex.o libtests.a ../gl/lib/libgnulib.a libtests.a     
+depbase=`echo test-rmdir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-rmdir.o -MD -MP -MF $depbase.Tpo -c -o test-rmdir.o ../../tests/test-rmdir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-rmdir test-rmdir.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-select.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-select.o -MD -MP -MF $depbase.Tpo -c -o test-select.o ../../tests/test-select.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-select test-select.o libtests.a ../gl/lib/libgnulib.a libtests.a     
+depbase=`echo test-select-fd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-select-fd.o -MD -MP -MF $depbase.Tpo -c -o test-select-fd.o ../../tests/test-select-fd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-select-fd test-select-fd.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-select-stdin.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-select-stdin.o -MD -MP -MF $depbase.Tpo -c -o test-select-stdin.o ../../tests/test-select-stdin.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-select-stdin test-select-stdin.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-setenv.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-setenv.o -MD -MP -MF $depbase.Tpo -c -o test-setenv.o ../../tests/test-setenv.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-setenv test-setenv.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-setlocale1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-setlocale1.o -MD -MP -MF $depbase.Tpo -c -o test-setlocale1.o ../../tests/test-setlocale1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-setlocale1 test-setlocale1.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-setlocale2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-setlocale2.o -MD -MP -MF $depbase.Tpo -c -o test-setlocale2.o ../../tests/test-setlocale2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-setlocale2 test-setlocale2.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-setsockopt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-setsockopt.o -MD -MP -MF $depbase.Tpo -c -o test-setsockopt.o ../../tests/test-setsockopt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-setsockopt test-setsockopt.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-sigaction.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sigaction.o -MD -MP -MF $depbase.Tpo -c -o test-sigaction.o ../../tests/test-sigaction.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sigaction test-sigaction.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-signal-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-signal-h.o -MD -MP -MF $depbase.Tpo -c -o test-signal-h.o ../../tests/test-signal-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-signal-h test-signal-h.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sigprocmask.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sigprocmask.o -MD -MP -MF $depbase.Tpo -c -o test-sigprocmask.o ../../tests/test-sigprocmask.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sigprocmask test-sigprocmask.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sleep.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sleep.o -MD -MP -MF $depbase.Tpo -c -o test-sleep.o ../../tests/test-sleep.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sleep test-sleep.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-snprintf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-snprintf.o -MD -MP -MF $depbase.Tpo -c -o test-snprintf.o ../../tests/test-snprintf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-snprintf test-snprintf.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sockets.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sockets.o -MD -MP -MF $depbase.Tpo -c -o test-sockets.o ../../tests/test-sockets.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sockets test-sockets.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-stat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stat.o -MD -MP -MF $depbase.Tpo -c -o test-stat.o ../../tests/test-stat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stat test-stat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-stat-time.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stat-time.o -MD -MP -MF $depbase.Tpo -c -o test-stat-time.o ../../tests/test-stat-time.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stat-time test-stat-time.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-statat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-statat.o -MD -MP -MF $depbase.Tpo -c -o test-statat.o ../../tests/test-statat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-statat test-statat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-stdalign.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stdalign.o -MD -MP -MF $depbase.Tpo -c -o test-stdalign.o ../../tests/test-stdalign.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stdalign test-stdalign.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-stdbool.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stdbool.o -MD -MP -MF $depbase.Tpo -c -o test-stdbool.o ../../tests/test-stdbool.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stdbool test-stdbool.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-stddef.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stddef.o -MD -MP -MF $depbase.Tpo -c -o test-stddef.o ../../tests/test-stddef.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stddef test-stddef.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-stdint.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stdint.o -MD -MP -MF $depbase.Tpo -c -o test-stdint.o ../../tests/test-stdint.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stdint test-stdint.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-stdio.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stdio.o -MD -MP -MF $depbase.Tpo -c -o test-stdio.o ../../tests/test-stdio.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stdio test-stdio.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-stdlib.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-stdlib.o -MD -MP -MF $depbase.Tpo -c -o test-stdlib.o ../../tests/test-stdlib.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-stdlib test-stdlib.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strcasestr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strcasestr.o -MD -MP -MF $depbase.Tpo -c -o test-strcasestr.o ../../tests/test-strcasestr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strcasestr test-strcasestr.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strerror.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strerror.o -MD -MP -MF $depbase.Tpo -c -o test-strerror.o ../../tests/test-strerror.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strerror test-strerror.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strerror_r.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strerror_r.o -MD -MP -MF $depbase.Tpo -c -o test-strerror_r.o ../../tests/test-strerror_r.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strerror_r test-strerror_r.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strftime.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strftime.o -MD -MP -MF $depbase.Tpo -c -o test-strftime.o ../../tests/test-strftime.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strftime test-strftime.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-string.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-string.o -MD -MP -MF $depbase.Tpo -c -o test-string.o ../../tests/test-string.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-string test-string.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strings.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strings.o -MD -MP -MF $depbase.Tpo -c -o test-strings.o ../../tests/test-strings.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strings test-strings.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strnlen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strnlen.o -MD -MP -MF $depbase.Tpo -c -o test-strnlen.o ../../tests/test-strnlen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strnlen test-strnlen.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strstr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strstr.o -MD -MP -MF $depbase.Tpo -c -o test-strstr.o ../../tests/test-strstr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strstr test-strstr.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strtoull.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strtoull.o -MD -MP -MF $depbase.Tpo -c -o test-strtoull.o ../../tests/test-strtoull.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strtoull test-strtoull.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-strtoumax.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-strtoumax.o -MD -MP -MF $depbase.Tpo -c -o test-strtoumax.o ../../tests/test-strtoumax.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-strtoumax test-strtoumax.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-symlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-symlink.o -MD -MP -MF $depbase.Tpo -c -o test-symlink.o ../../tests/test-symlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-symlink test-symlink.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-symlinkat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-symlinkat.o -MD -MP -MF $depbase.Tpo -c -o test-symlinkat.o ../../tests/test-symlinkat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-symlinkat test-symlinkat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-sys_ioctl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_ioctl.o -MD -MP -MF $depbase.Tpo -c -o test-sys_ioctl.o ../../tests/test-sys_ioctl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_ioctl test-sys_ioctl.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_select.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_select.o -MD -MP -MF $depbase.Tpo -c -o test-sys_select.o ../../tests/test-sys_select.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_select test-sys_select.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_socket.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_socket.o -MD -MP -MF $depbase.Tpo -c -o test-sys_socket.o ../../tests/test-sys_socket.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_socket test-sys_socket.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_stat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_stat.o -MD -MP -MF $depbase.Tpo -c -o test-sys_stat.o ../../tests/test-sys_stat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_stat test-sys_stat.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_time.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_time.o -MD -MP -MF $depbase.Tpo -c -o test-sys_time.o ../../tests/test-sys_time.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_time test-sys_time.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_types.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_types.o -MD -MP -MF $depbase.Tpo -c -o test-sys_types.o ../../tests/test-sys_types.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_types test-sys_types.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_uio.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_uio.o -MD -MP -MF $depbase.Tpo -c -o test-sys_uio.o ../../tests/test-sys_uio.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_uio test-sys_uio.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_utsname.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_utsname.o -MD -MP -MF $depbase.Tpo -c -o test-sys_utsname.o ../../tests/test-sys_utsname.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_utsname test-sys_utsname.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-sys_wait.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-sys_wait.o -MD -MP -MF $depbase.Tpo -c -o test-sys_wait.o ../../tests/test-sys_wait.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-sys_wait test-sys_wait.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-thread_self.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-thread_self.o -MD -MP -MF $depbase.Tpo -c -o test-thread_self.o ../../tests/test-thread_self.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-thread_self test-thread_self.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-thread_create.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-thread_create.o -MD -MP -MF $depbase.Tpo -c -o test-thread_create.o ../../tests/test-thread_create.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-thread_create test-thread_create.o libtests.a ../gl/lib/libgnulib.a libtests.a  -pthread 
+depbase=`echo test-time.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-time.o -MD -MP -MF $depbase.Tpo -c -o test-time.o ../../tests/test-time.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-time test-time.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-timespec.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-timespec.o -MD -MP -MF $depbase.Tpo -c -o test-timespec.o ../../tests/test-timespec.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-timespec test-timespec.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-trunc1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-trunc1.o -MD -MP -MF $depbase.Tpo -c -o test-trunc1.o ../../tests/test-trunc1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-trunc1 test-trunc1.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-trunc2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-trunc2.o -MD -MP -MF $depbase.Tpo -c -o test-trunc2.o ../../tests/test-trunc2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-trunc2 test-trunc2.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-uname.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-uname.o -MD -MP -MF $depbase.Tpo -c -o test-uname.o ../../tests/test-uname.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-uname test-uname.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-dup-safer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-dup-safer.o -MD -MP -MF $depbase.Tpo -c -o test-dup-safer.o ../../tests/test-dup-safer.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-dup-safer test-dup-safer.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-unistd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-unistd.o -MD -MP -MF $depbase.Tpo -c -o test-unistd.o ../../tests/test-unistd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-unistd test-unistd.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo uniwidth/test-uc_width.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT uniwidth/test-uc_width.o -MD -MP -MF $depbase.Tpo -c -o uniwidth/test-uc_width.o ../../tests/uniwidth/test-uc_width.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-uc_width uniwidth/test-uc_width.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo uniwidth/test-uc_width2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT uniwidth/test-uc_width2.o -MD -MP -MF $depbase.Tpo -c -o uniwidth/test-uc_width2.o ../../tests/uniwidth/test-uc_width2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-uc_width2 uniwidth/test-uc_width2.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-unlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-unlink.o -MD -MP -MF $depbase.Tpo -c -o test-unlink.o ../../tests/test-unlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-unlink test-unlink.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-unlinkat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-unlinkat.o -MD -MP -MF $depbase.Tpo -c -o test-unlinkat.o ../../tests/test-unlinkat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-unlinkat test-unlinkat.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-unsetenv.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-unsetenv.o -MD -MP -MF $depbase.Tpo -c -o test-unsetenv.o ../../tests/test-unsetenv.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-unsetenv test-unsetenv.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-vasnprintf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-vasnprintf.o -MD -MP -MF $depbase.Tpo -c -o test-vasnprintf.o ../../tests/test-vasnprintf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-vasnprintf test-vasnprintf.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-verify.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-verify.o -MD -MP -MF $depbase.Tpo -c -o test-verify.o ../../tests/test-verify.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-verify test-verify.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-version-etc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-version-etc.o -MD -MP -MF $depbase.Tpo -c -o test-version-etc.o ../../tests/test-version-etc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-version-etc test-version-etc.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-wchar.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-wchar.o -MD -MP -MF $depbase.Tpo -c -o test-wchar.o ../../tests/test-wchar.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-wchar test-wchar.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-wcrtomb.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-wcrtomb.o -MD -MP -MF $depbase.Tpo -c -o test-wcrtomb.o ../../tests/test-wcrtomb.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-wcrtomb test-wcrtomb.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-wcrtomb-w32.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-wcrtomb-w32.o -MD -MP -MF $depbase.Tpo -c -o test-wcrtomb-w32.o ../../tests/test-wcrtomb-w32.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-wcrtomb-w32 test-wcrtomb-w32.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-wctype-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-wctype-h.o -MD -MP -MF $depbase.Tpo -c -o test-wctype-h.o ../../tests/test-wctype-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-wctype-h test-wctype-h.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-wcwidth.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-wcwidth.o -MD -MP -MF $depbase.Tpo -c -o test-wcwidth.o ../../tests/test-wcwidth.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-wcwidth test-wcwidth.o libtests.a ../gl/lib/libgnulib.a libtests.a  
+depbase=`echo test-xalloc-die.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-xalloc-die.o -MD -MP -MF $depbase.Tpo -c -o test-xalloc-die.o ../../tests/test-xalloc-die.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-xalloc-die test-xalloc-die.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-xstrtol.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-xstrtol.o -MD -MP -MF $depbase.Tpo -c -o test-xstrtol.o ../../tests/test-xstrtol.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-xstrtol test-xstrtol.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-xstrtoul.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-xstrtoul.o -MD -MP -MF $depbase.Tpo -c -o test-xstrtoul.o ../../tests/test-xstrtoul.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-xstrtoul test-xstrtoul.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-xstrtoumax.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-xstrtoumax.o -MD -MP -MF $depbase.Tpo -c -o test-xstrtoumax.o ../../tests/test-xstrtoumax.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-xstrtoumax test-xstrtoumax.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+depbase=`echo test-yesno.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -DIN_FINDUTILS_GNULIB_TESTS=1 -I. -I../../tests -I.. -I../../tests/.. -I../gl/lib -I../../tests/../gl/lib   -g -O2 -MT test-yesno.o -MD -MP -MF $depbase.Tpo -c -o test-yesno.o ../../tests/test-yesno.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2   -o test-yesno test-yesno.o libtests.a ../gl/lib/libgnulib.a libtests.a   
+make[4]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/findutils-4.6.0/build/tests'
+make[5]: Entering directory '/sources/findutils-4.6.0/build/tests'
+PASS: test-accept
+PASS: test-alloca-opt
+PASS: test-areadlink
+PASS: test-areadlink-with-size
+PASS: test-areadlinkat
+PASS: test-argmatch
+PASS: test-arpa_inet
+PASS: test-binary-io.sh
+PASS: test-bind
+PASS: test-bitrotate
+PASS: test-btowc1.sh
+PASS: test-btowc2.sh
+PASS: test-byteswap
+PASS: test-c-ctype
+PASS: test-c-strcase.sh
+PASS: test-c-strcasestr
+PASS: test-c-strstr
+PASS: test-canonicalize
+PASS: test-chdir
+PASS: test-cloexec
+PASS: test-close
+PASS: test-closein.sh
+PASS: test-connect
+PASS: test-ctype
+PASS: test-dirent-safer
+PASS: test-dirent
+PASS: test-dirname
+PASS: test-dup
+PASS: test-dup2
+PASS: test-environ
+PASS: test-errno
+PASS: test-faccessat
+PASS: test-fchdir
+PASS: test-fcntl-h
+PASS: test-fcntl-safer
+PASS: test-fcntl
+PASS: test-fdopen
+PASS: test-fdopendir
+PASS: test-fflush
+PASS: test-fflush2.sh
+PASS: test-fgetc
+PASS: test-float
+PASS: test-fnmatch
+PASS: test-fopen-safer
+PASS: test-fopen
+PASS: test-fpending.sh
+PASS: test-fpurge
+PASS: test-fputc
+PASS: test-fread
+PASS: test-freadahead.sh
+PASS: test-freading
+PASS: test-fseek.sh
+PASS: test-fseek2.sh
+PASS: test-fseeko.sh
+PASS: test-fseeko2.sh
+PASS: test-fseeko3.sh
+PASS: test-fseeko4.sh
+PASS: test-fstat
+PASS: test-fstatat
+PASS: test-ftell.sh
+PASS: test-ftell2.sh
+PASS: test-ftell3
+PASS: test-ftello.sh
+PASS: test-ftello2.sh
+PASS: test-ftello3
+PASS: test-ftello4.sh
+PASS: test-ftruncate.sh
+PASS: test-fwrite
+PASS: test-getcwd-lgpl
+PASS: test-getcwd.sh
+PASS: test-getdelim
+PASS: test-getdtablesize
+PASS: test-getgroups
+PASS: test-gethostname
+PASS: test-getline
+PASS: test-getopt
+PASS: test-gettimeofday
+PASS: test-hash
+PASS: test-i-ring
+PASS: test-ignore-value
+PASS: test-inet_pton
+PASS: test-intprops
+PASS: test-inttostr
+PASS: test-inttypes
+PASS: test-ioctl
+PASS: test-isblank
+PASS: test-isfinite
+PASS: test-isinf
+PASS: test-isnand-nolibm
+PASS: test-isnanf-nolibm
+PASS: test-isnanl-nolibm
+PASS: test-iswblank
+PASS: test-langinfo
+PASS: test-listen
+PASS: test-locale
+PASS: test-localeconv
+PASS: test-localename
+PASS: test-lseek.sh
+PASS: test-lstat
+PASS: test-malloc-gnu
+PASS: test-malloca
+PASS: test-math
+PASS: test-mbrtowc1.sh
+PASS: test-mbrtowc2.sh
+PASS: test-mbrtowc3.sh
+PASS: test-mbrtowc4.sh
+SKIP: test-mbrtowc-w32-1.sh
+SKIP: test-mbrtowc-w32-2.sh
+SKIP: test-mbrtowc-w32-3.sh
+SKIP: test-mbrtowc-w32-4.sh
+SKIP: test-mbrtowc-w32-5.sh
+PASS: test-mbscasestr1
+PASS: test-mbscasestr2.sh
+PASS: test-mbscasestr3.sh
+PASS: test-mbscasestr4.sh
+PASS: test-mbsinit.sh
+PASS: test-mbsrtowcs1.sh
+PASS: test-mbsrtowcs2.sh
+PASS: test-mbsrtowcs3.sh
+PASS: test-mbsrtowcs4.sh
+PASS: test-mbsstr1
+PASS: test-mbsstr2.sh
+PASS: test-mbsstr3.sh
+PASS: test-memchr
+PASS: test-memrchr
+PASS: test-modf
+PASS: test-nanosleep
+PASS: test-netinet_in
+PASS: test-nl_langinfo.sh
+PASS: test-open
+PASS: test-openat-safer
+PASS: test-openat
+PASS: test-parse-datetime
+PASS: test-pathmax
+PASS: test-perror.sh
+PASS: test-perror2
+PASS: test-pipe
+PASS: test-priv-set
+PASS: test-quotearg-simple
+PASS: test-raise
+PASS: test-read
+PASS: test-readlink
+PASS: test-readlinkat
+PASS: test-realloc-gnu
+PASS: test-regex
+PASS: test-rmdir
+PASS: test-select
+PASS: test-select-in.sh
+PASS: test-select-out.sh
+PASS: test-setenv
+PASS: test-setlocale1.sh
+PASS: test-setlocale2.sh
+PASS: test-setsockopt
+PASS: test-sigaction
+PASS: test-signal-h
+PASS: test-sigprocmask
+PASS: test-sleep
+PASS: test-snprintf
+PASS: test-sockets
+PASS: test-stat
+PASS: test-stat-time
+PASS: test-statat
+PASS: test-stdalign
+PASS: test-stdbool
+PASS: test-stddef
+PASS: test-stdint
+PASS: test-stdio
+PASS: test-stdlib
+PASS: test-strcasestr
+PASS: test-strerror
+PASS: test-strerror_r
+PASS: test-strftime
+PASS: test-string
+PASS: test-strings
+PASS: test-strnlen
+PASS: test-strstr
+PASS: test-strtoull
+PASS: test-strtoumax
+PASS: test-symlink
+PASS: test-symlinkat
+PASS: test-sys_ioctl
+PASS: test-sys_select
+PASS: test-sys_socket
+PASS: test-sys_stat
+PASS: test-sys_time
+PASS: test-sys_types
+PASS: test-sys_uio
+PASS: test-sys_utsname
+PASS: test-sys_wait
+PASS: test-init.sh
+PASS: test-thread_self
+PASS: test-thread_create
+PASS: test-time
+PASS: test-timespec
+PASS: test-trunc1
+PASS: test-trunc2
+PASS: test-uname
+PASS: test-dup-safer
+PASS: test-unistd
+PASS: test-uc_width
+PASS: uniwidth/test-uc_width2.sh
+PASS: test-unlink
+PASS: test-unlinkat
+PASS: test-unsetenv
+PASS: test-update-copyright.sh
+PASS: test-vasnprintf
+SKIP: test-vc-list-files-git.sh
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-verify
+PASS: test-verify.sh
+PASS: test-version-etc.sh
+PASS: test-wchar
+PASS: test-wcrtomb.sh
+SKIP: test-wcrtomb-w32-1.sh
+SKIP: test-wcrtomb-w32-2.sh
+SKIP: test-wcrtomb-w32-3.sh
+SKIP: test-wcrtomb-w32-4.sh
+SKIP: test-wcrtomb-w32-5.sh
+PASS: test-wctype-h
+PASS: test-wcwidth
+PASS: test-xalloc-die.sh
+PASS: test-xstrtol.sh
+PASS: test-xstrtoumax.sh
+PASS: test-yesno.sh
+make[6]: Entering directory '/sources/findutils-4.6.0/build/tests'
+make  all-recursive
+make[7]: Entering directory '/sources/findutils-4.6.0/build/tests'
+Making all in .
+make[8]: Entering directory '/sources/findutils-4.6.0/build/tests'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+make[7]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+make[6]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+============================================================================
+Testsuite summary for GNU findutils 4.6.0
+============================================================================
+# TOTAL: 224
+# PASS:  212
+# SKIP:  12
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+make[4]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+make[3]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/tests'
+Making check in build-aux
+make[1]: Entering directory '/sources/findutils-4.6.0/build/build-aux'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/build-aux'
+Making check in lib
+make[1]: Entering directory '/sources/findutils-4.6.0/build/lib'
+make  regexprops test_splitstring check-regexprops
+make[2]: Entering directory '/sources/findutils-4.6.0/build/lib'
+gcc -DHAVE_CONFIG_H -I. -I../../lib -I..  -I../gl/lib -I../../gl/lib   -g -O2 -MT regexprops.o -MD -MP -MF .deps/regexprops.Tpo -c -o regexprops.o ../../lib/regexprops.c
+mv -f .deps/regexprops.Tpo .deps/regexprops.Po
+gcc  -g -O2   -o regexprops regexprops.o regextype.o ../gl/lib/libgnulib.a  
+gcc -DHAVE_CONFIG_H -I. -I../../lib -I..  -I../gl/lib -I../../gl/lib   -g -O2 -MT test_splitstring.o -MD -MP -MF .deps/test_splitstring.Tpo -c -o test_splitstring.o ../../lib/test_splitstring.c
+mv -f .deps/test_splitstring.Tpo .deps/test_splitstring.Po
+gcc  -g -O2   -o test_splitstring test_splitstring.o splitstring.o ../gl/lib/libgnulib.a  
+cp  ../../lib/check-regexprops.sh check-regexprops
+chmod +x check-regexprops
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/lib'
+make  check-TESTS
+make[2]: Entering directory '/sources/findutils-4.6.0/build/lib'
+make[3]: Entering directory '/sources/findutils-4.6.0/build/lib'
+PASS: check-regexprops
+PASS: test_splitstring
+make[4]: Entering directory '/sources/findutils-4.6.0/build/lib'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/findutils-4.6.0/build/lib'
+============================================================================
+Testsuite summary for GNU findutils 4.6.0
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/findutils-4.6.0/build/lib'
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/lib'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/lib'
+Making check in find
+make[1]: Entering directory '/sources/findutils-4.6.0/build/find'
+Making check in .
+make[2]: Entering directory '/sources/findutils-4.6.0/build/find'
+make  oldfind
+make[3]: Entering directory '/sources/findutils-4.6.0/build/find'
+gcc -DHAVE_CONFIG_H -I. -I../../find -I..  -I../gl/lib -I../../lib -I../../gl/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT oldfind.o -MD -MP -MF .deps/oldfind.Tpo -c -o oldfind.o ../../find/oldfind.c
+mv -f .deps/oldfind.Tpo .deps/oldfind.Po
+gcc  -g -O2   -o oldfind oldfind.o ./libfindtools.a ../lib/libfind.a ../gl/lib/libgnulib.a       -lm -lm    
+make[3]: Leaving directory '/sources/findutils-4.6.0/build/find'
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/find'
+Making check in testsuite
+make[2]: Entering directory '/sources/findutils-4.6.0/build/find/testsuite'
+make  check-DEJAGNU check-TESTS check-local
+make[3]: Entering directory '/sources/findutils-4.6.0/build/find/testsuite'
+Making a new site.exp file ...
+srcdir='../../../find/testsuite'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='find'; for tool in $l; do \
+    if runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find the global config file.
+WARNING: Couldn't find tool init file
+Test run by root on Tue Jan 30 16:42:47 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== find tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../../find/testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../../find/testsuite/find.gnu/access.exp ...
+WARNING: You have superuser privileges, skipping this test.
+Running ../../../find/testsuite/find.gnu/comma.exp ...
+Running ../../../find/testsuite/find.gnu/delete.exp ...
+Running ../../../find/testsuite/find.gnu/deletedir.exp ...
+Running ../../../find/testsuite/find.gnu/deletefile.exp ...
+Running ../../../find/testsuite/find.gnu/depth-d.exp ...
+Running ../../../find/testsuite/find.gnu/depth.exp ...
+Running ../../../find/testsuite/find.gnu/empty.exp ...
+Running ../../../find/testsuite/find.gnu/exec-many-rtn-failure.exp ...
+Running ../../../find/testsuite/find.gnu/exec-many-rtn-success.exp ...
+Running ../../../find/testsuite/find.gnu/exec-one-rtn-fail.exp ...
+Running ../../../find/testsuite/find.gnu/exec-one-rtn-success.exp ...
+Running ../../../find/testsuite/find.gnu/execdir-hier.exp ...
+Running ../../../find/testsuite/find.gnu/execdir-in-unreadable.exp ...
+Running ../../../find/testsuite/find.gnu/execdir-multiple.exp ...
+Running ../../../find/testsuite/find.gnu/execdir-one.exp ...
+Running ../../../find/testsuite/find.gnu/execdir-pwd.exp ...
+Running ../../../find/testsuite/find.gnu/execdir-pwd1.exp ...
+Running ../../../find/testsuite/find.gnu/execdir-root-only.exp ...
+Running ../../../find/testsuite/find.gnu/false.exp ...
+Running ../../../find/testsuite/find.gnu/follow-arg-parent-symlink.exp ...
+Running ../../../find/testsuite/find.gnu/follow-basic.exp ...
+Running ../../../find/testsuite/find.gnu/fprint-unwritable.exp ...
+WARNING: You have superuser privileges, skipping this test.
+Running ../../../find/testsuite/find.gnu/fprint0_stdout.exp ...
+Running ../../../find/testsuite/find.gnu/fprintf-samefile.exp ...
+Running ../../../find/testsuite/find.gnu/gnu-or.exp ...
+Running ../../../find/testsuite/find.gnu/gnuand.exp ...
+Running ../../../find/testsuite/find.gnu/gnunot.exp ...
+Running ../../../find/testsuite/find.gnu/ilname.exp ...
+Running ../../../find/testsuite/find.gnu/iname.exp ...
+Running ../../../find/testsuite/find.gnu/inum.exp ...
+Running ../../../find/testsuite/find.gnu/ipath.exp ...
+Running ../../../find/testsuite/find.gnu/iregex1.exp ...
+Running ../../../find/testsuite/find.gnu/iwholename.exp ...
+Running ../../../find/testsuite/find.gnu/lname.exp ...
+Running ../../../find/testsuite/find.gnu/mindepth-arg.exp ...
+Running ../../../find/testsuite/find.gnu/mindepth-badarg.exp ...
+Running ../../../find/testsuite/find.gnu/name-opt.exp ...
+Running ../../../find/testsuite/find.gnu/name-period.exp ...
+Running ../../../find/testsuite/find.gnu/name-slash.exp ...
+Running ../../../find/testsuite/find.gnu/no-fdleak-test.exp ...
+Running ../../../find/testsuite/find.gnu/path.exp ...
+Running ../../../find/testsuite/find.gnu/perm-slash.exp ...
+Running ../../../find/testsuite/find.gnu/perm.exp ...
+Running ../../../find/testsuite/find.gnu/perm000.exp ...
+Running ../../../find/testsuite/find.gnu/posix-dflt.exp ...
+Running ../../../find/testsuite/find.gnu/posix-h.exp ...
+Running ../../../find/testsuite/find.gnu/posix-l.exp ...
+Running ../../../find/testsuite/find.gnu/posix-perminvalid.exp ...
+Running ../../../find/testsuite/find.gnu/print0.exp ...
+Running ../../../find/testsuite/find.gnu/print_stdout.exp ...
+Running ../../../find/testsuite/find.gnu/printf-h.exp ...
+Running ../../../find/testsuite/find.gnu/printf-nonlocal-symlink.exp ...
+Running ../../../find/testsuite/find.gnu/printf-reserved.exp ...
+Running ../../../find/testsuite/find.gnu/printf-slash.exp ...
+Running ../../../find/testsuite/find.gnu/printf-symlink.exp ...
+Running ../../../find/testsuite/find.gnu/printf.exp ...
+Running ../../../find/testsuite/find.gnu/printfHdfl.exp ...
+Running ../../../find/testsuite/find.gnu/prune-default-print.exp ...
+Running ../../../find/testsuite/find.gnu/quit.exp ...
+Running ../../../find/testsuite/find.gnu/regex1.exp ...
+Running ../../../find/testsuite/find.gnu/regex2.exp ...
+Running ../../../find/testsuite/find.gnu/samefile-copy.exp ...
+Running ../../../find/testsuite/find.gnu/samefile-link.exp ...
+Running ../../../find/testsuite/find.gnu/samefile-missing.exp ...
+Running ../../../find/testsuite/find.gnu/samefile-p-brokenlink.exp ...
+Running ../../../find/testsuite/find.gnu/samefile-same.exp ...
+Running ../../../find/testsuite/find.gnu/samefile-symlink.exp ...
+Running ../../../find/testsuite/find.gnu/sv-bug-12230.exp ...
+Running ../../../find/testsuite/find.gnu/sv-bug-17477.exp ...
+Running ../../../find/testsuite/find.gnu/sv-bug-17490.exp ...
+Running ../../../find/testsuite/find.gnu/sv-bug-17782.exp ...
+Running ../../../find/testsuite/find.gnu/sv-bug-18222.exp ...
+Running ../../../find/testsuite/find.gnu/sv-bug-24169.exp ...
+Running ../../../find/testsuite/find.gnu/sv-bug-27563-execdir.exp ...
+Running ../../../find/testsuite/find.gnu/true.exp ...
+Running ../../../find/testsuite/find.gnu/used-invarg.exp ...
+Running ../../../find/testsuite/find.gnu/used-missing.exp ...
+Running ../../../find/testsuite/find.gnu/user-invalid.exp ...
+Running ../../../find/testsuite/find.gnu/wholename.exp ...
+Running ../../../find/testsuite/find.gnu/xtype-symlink.exp ...
+Running ../../../find/testsuite/find.gnu/xtype.exp ...
+Running ../../../find/testsuite/find.posix/and.exp ...
+Running ../../../find/testsuite/find.posix/bracket-depth.exp ...
+Running ../../../find/testsuite/find.posix/depth1.exp ...
+Running ../../../find/testsuite/find.posix/dotdotfiles.exp ...
+Running ../../../find/testsuite/find.posix/empty-parens.exp ...
+Running ../../../find/testsuite/find.posix/exec-nogaps.exp ...
+Running ../../../find/testsuite/find.posix/exec-one.exp ...
+Running ../../../find/testsuite/find.posix/files-not-expressions1.exp ...
+Running ../../../find/testsuite/find.posix/files-not-expressions2.exp ...
+Running ../../../find/testsuite/find.posix/files-not-expressions3.exp ...
+Running ../../../find/testsuite/find.posix/group-empty.exp ...
+Running ../../../find/testsuite/find.posix/group-missing.exp ...
+Running ../../../find/testsuite/find.posix/grouping.exp ...
+Running ../../../find/testsuite/find.posix/links.exp ...
+Running ../../../find/testsuite/find.posix/mtime0.exp ...
+Running ../../../find/testsuite/find.posix/name-missing.exp ...
+Running ../../../find/testsuite/find.posix/name.exp ...
+Running ../../../find/testsuite/find.posix/nameslash.exp ...
+Running ../../../find/testsuite/find.posix/parent.exp ...
+Running ../../../find/testsuite/find.posix/perm-X.exp ...
+Running ../../../find/testsuite/find.posix/perm-vanilla.exp ...
+Running ../../../find/testsuite/find.posix/posixnot.exp ...
+Running ../../../find/testsuite/find.posix/prune-result.exp ...
+Running ../../../find/testsuite/find.posix/prune-stat.exp ...
+Running ../../../find/testsuite/find.posix/prune.exp ...
+Running ../../../find/testsuite/find.posix/size-invalid.exp ...
+Running ../../../find/testsuite/find.posix/size-missing.exp ...
+Running ../../../find/testsuite/find.posix/sizes.exp ...
+Running ../../../find/testsuite/find.posix/sizetype.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-11175.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-12181.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-15235.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-19605.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-19613.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-19617.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-25359.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-27563-exec.exp ...
+Running ../../../find/testsuite/find.posix/sv-bug-30777.exp ...
+Running ../../../find/testsuite/find.posix/typearg.exp ...
+Running ../../../find/testsuite/find.posix/typesize.exp ...
+Running ../../../find/testsuite/find.posix/user-empty.exp ...
+Running ../../../find/testsuite/find.posix/user-missing.exp ...
+
+		=== find Summary ===
+
+# of expected passes		941
+# of untested testcases		2
+find (GNU findutils) 4.6.0
+make[4]: Entering directory '/sources/findutils-4.6.0/build/find/testsuite'
+PASS: sv-bug-32043.sh
+PASS: test_escapechars.sh
+PASS: test_escape_c.sh
+PASS: test_inode.sh
+PASS: sv-34079.sh
+PASS: sv-34976-execdir-fd-leak.sh
+make[5]: Entering directory '/sources/findutils-4.6.0/build/find/testsuite'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/findutils-4.6.0/build/find/testsuite'
+============================================================================
+Testsuite summary for GNU findutils 4.6.0
+============================================================================
+# TOTAL: 6
+# PASS:  6
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/findutils-4.6.0/build/find/testsuite'
+Generating configured-testfiles.txt
+/usr/bin/python3 ../../../find/testsuite/checklists.py configured-testfiles.txt ../../../find/testsuite config find.gnu find.posix
+220 test files configured for find, 220 files on-diskmake[3]: Leaving directory '/sources/findutils-4.6.0/build/find/testsuite'
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/find/testsuite'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/find'
+Making check in xargs
+make[1]: Entering directory '/sources/findutils-4.6.0/build/xargs'
+Making check in .
+make[2]: Entering directory '/sources/findutils-4.6.0/build/xargs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/xargs'
+Making check in testsuite
+make[2]: Entering directory '/sources/findutils-4.6.0/build/xargs/testsuite'
+make  check-DEJAGNU
+make[3]: Entering directory '/sources/findutils-4.6.0/build/xargs/testsuite'
+Making a new site.exp file ...
+srcdir='../../../xargs/testsuite'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='xargs'; for tool in $l; do \
+    if runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find the global config file.
+WARNING: Couldn't find tool init file
+Test run by root on Tue Jan 30 16:43:01 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== xargs tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../../xargs/testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../../xargs/testsuite/xargs.gnu/0n3.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/E_-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/L2-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/L2_2-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/L3-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/P3-n1-IARG.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/delim-o.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/empty-r.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/empty_def-r.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/idef-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/idef-s26-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/l1-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/l1_2-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/n1-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/n2-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/n2-s21-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/n2-s21-x-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/n3-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/n3-s31-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/noeof-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/nothing.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/r.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/s118-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/s14-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/s14_2-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/s15-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/s25-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/space-0.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/space-r.exp ...
+Running ../../../xargs/testsuite/xargs.gnu/space-t-0.exp ...
+Running ../../../xargs/testsuite/xargs.posix/EEOF.exp ...
+Running ../../../xargs/testsuite/xargs.posix/EEOFb.exp ...
+Running ../../../xargs/testsuite/xargs.posix/EEOFe.exp ...
+Running ../../../xargs/testsuite/xargs.posix/E_-IARG.exp ...
+Running ../../../xargs/testsuite/xargs.posix/E_.exp ...
+Running ../../../xargs/testsuite/xargs.posix/IARG-E_.exp ...
+Running ../../../xargs/testsuite/xargs.posix/IARG-s15.exp ...
+Running ../../../xargs/testsuite/xargs.posix/IARG.exp ...
+Running ../../../xargs/testsuite/xargs.posix/L2-n2.exp ...
+Running ../../../xargs/testsuite/xargs.posix/L2_2.exp ...
+Running ../../../xargs/testsuite/xargs.posix/L3.exp ...
+Running ../../../xargs/testsuite/xargs.posix/arg_max_32bit_linux_bug.exp ...
+Running ../../../xargs/testsuite/xargs.posix/arg_max_64bit_linux_bug.exp ...
+Running ../../../xargs/testsuite/xargs.posix/childfail.exp ...
+Running ../../../xargs/testsuite/xargs.posix/empty.exp ...
+Running ../../../xargs/testsuite/xargs.posix/empty_def.exp ...
+Running ../../../xargs/testsuite/xargs.posix/hithere.exp ...
+Running ../../../xargs/testsuite/xargs.posix/n1.exp ...
+Running ../../../xargs/testsuite/xargs.posix/n2-s21-x.exp ...
+Running ../../../xargs/testsuite/xargs.posix/n2-s21.exp ...
+Running ../../../xargs/testsuite/xargs.posix/n2.exp ...
+Running ../../../xargs/testsuite/xargs.posix/n3-s31.exp ...
+Running ../../../xargs/testsuite/xargs.posix/n3.exp ...
+Running ../../../xargs/testsuite/xargs.posix/noeof.exp ...
+Running ../../../xargs/testsuite/xargs.posix/quotes.exp ...
+Running ../../../xargs/testsuite/xargs.posix/rc-123.exp ...
+Running ../../../xargs/testsuite/xargs.posix/rc-124.exp ...
+Running ../../../xargs/testsuite/xargs.posix/rc-125.exp ...
+Running ../../../xargs/testsuite/xargs.posix/rc-126.exp ...
+Running ../../../xargs/testsuite/xargs.posix/rc-127.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s118.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s14.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s14_2.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s15.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s25.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s42.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s470.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s48.exp ...
+Running ../../../xargs/testsuite/xargs.posix/s6.exp ...
+Running ../../../xargs/testsuite/xargs.posix/savannah-11865.exp ...
+Running ../../../xargs/testsuite/xargs.posix/space-I.exp ...
+Running ../../../xargs/testsuite/xargs.posix/space.exp ...
+Running ../../../xargs/testsuite/xargs.posix/sv-bug-18714.exp ...
+Running ../../../xargs/testsuite/xargs.posix/sv-bug-18714b.exp ...
+Running ../../../xargs/testsuite/xargs.posix/sv-bug-20273.exp ...
+Running ../../../xargs/testsuite/xargs.posix/uc_L2.exp ...
+Running ../../../xargs/testsuite/xargs.posix/unmatched-n2-x.exp ...
+Running ../../../xargs/testsuite/xargs.posix/unmatched.exp ...
+Running ../../../xargs/testsuite/xargs.posix/unmatched2.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/e.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/eEOF.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/empty-t.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/empty_def-t.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/eof1.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/iARG.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/idef-s26.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/idef.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/iquotes.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/l1.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/l1_2.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/l1n4.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/lc_l2.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/s25-t.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/space-t.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/sv-bug-18713.exp ...
+Running ../../../xargs/testsuite/xargs.sysv/trace.exp ...
+
+		=== xargs Summary ===
+
+# of expected passes		96
+xargs (GNU findutils) 4.6.0
+make[3]: Leaving directory '/sources/findutils-4.6.0/build/xargs/testsuite'
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/xargs/testsuite'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/xargs'
+Making check in locate
+make[1]: Entering directory '/sources/findutils-4.6.0/build/locate'
+echo '@set LOCATE_DB /var/lib/locate/locatedb' > dblocation.texi.tmp
+if test -f dblocation.texi && cmp dblocation.texi.tmp dblocation.texi >/dev/null ; then \
+    rm dblocation.texi.tmp ; \
+else \
+    mv dblocation.texi.tmp dblocation.texi ; \
+fi
+make  check-recursive
+make[2]: Entering directory '/sources/findutils-4.6.0/build/locate'
+Making check in .
+make[3]: Entering directory '/sources/findutils-4.6.0/build/locate'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/findutils-4.6.0/build/locate'
+Making check in testsuite
+make[3]: Entering directory '/sources/findutils-4.6.0/build/locate/testsuite'
+make  check-DEJAGNU
+make[4]: Entering directory '/sources/findutils-4.6.0/build/locate/testsuite'
+Making a new site.exp file ...
+srcdir='../../../locate/testsuite'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='locate'; for tool in $l; do \
+    if runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find the global config file.
+WARNING: Couldn't find tool init file
+Test run by root on Tue Jan 30 16:43:05 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== locate tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../../locate/testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../../locate/testsuite/locate.gnu/bigendian.exp ...
+Running ../../../locate/testsuite/locate.gnu/bigprefix1.exp ...
+Running ../../../locate/testsuite/locate.gnu/exceedshort.exp ...
+Running ../../../locate/testsuite/locate.gnu/exists1.exp ...
+Running ../../../locate/testsuite/locate.gnu/exists2.exp ...
+Running ../../../locate/testsuite/locate.gnu/exists3.exp ...
+Running ../../../locate/testsuite/locate.gnu/ignore_case1.exp ...
+Running ../../../locate/testsuite/locate.gnu/ignore_case2.exp ...
+Running ../../../locate/testsuite/locate.gnu/ignore_case3.exp ...
+Running ../../../locate/testsuite/locate.gnu/littleendian.exp ...
+Running ../../../locate/testsuite/locate.gnu/notexists1.exp ...
+Running ../../../locate/testsuite/locate.gnu/notexists2.exp ...
+Running ../../../locate/testsuite/locate.gnu/notexists3.exp ...
+Running ../../../locate/testsuite/locate.gnu/old_prefix.exp ...
+Running ../../../locate/testsuite/locate.gnu/oldformat.exp ...
+Running ../../../locate/testsuite/locate.gnu/regex1.exp ...
+Running ../../../locate/testsuite/locate.gnu/slocate.exp ...
+Running ../../../locate/testsuite/locate.gnu/space1st.exp ...
+Running ../../../locate/testsuite/locate.gnu/sv-bug-14535.exp ...
+
+		=== locate Summary ===
+
+# of expected passes		34
+locate (GNU findutils) 4.6.0
+make[4]: Leaving directory '/sources/findutils-4.6.0/build/locate/testsuite'
+make[3]: Leaving directory '/sources/findutils-4.6.0/build/locate/testsuite'
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/locate'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/locate'
+Making check in doc
+make[1]: Entering directory '/sources/findutils-4.6.0/build/doc'
+make  check-am
+make[2]: Entering directory '/sources/findutils-4.6.0/build/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/findutils-4.6.0/build/doc'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/doc'
+Making check in po
+make[1]: Entering directory '/sources/findutils-4.6.0/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/po'
+Making check in m4
+make[1]: Entering directory '/sources/findutils-4.6.0/build/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/findutils-4.6.0/build/m4'
+make[1]: Entering directory '/sources/findutils-4.6.0/build'
+make[1]: Leaving directory '/sources/findutils-4.6.0/build'
+if test -d ../.git				\
+	&& git --version >/dev/null 2>&1; then			\
+  cd .. &&						\
+  git submodule --quiet foreach					\
+      'test "$(git rev-parse "$sha1")"			\
+	  = "$(git merge-base origin "$sha1")"'		\
+    || { echo 'maint.mk: found non-public submodule commit' >&2;	\
+	 exit 1; };						\
+else								\
+  : ;								\
+fi

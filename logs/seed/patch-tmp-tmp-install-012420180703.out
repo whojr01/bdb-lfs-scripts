@@ -1,0 +1,60 @@
+make  install-recursive
+make[1]: Entering directory '/lfsbuild/sources/patch-2.7.5/build'
+Making install in lib
+make[2]: Entering directory '/lfsbuild/sources/patch-2.7.5/build/lib'
+make  install-am
+make[3]: Entering directory '/lfsbuild/sources/patch-2.7.5/build/lib'
+make[4]: Entering directory '/lfsbuild/sources/patch-2.7.5/build/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /lfsbuild/sources/patch-2.7.5/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /tools/lib/charset.tmp ; \
+    /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build/lib'
+make[3]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build/lib'
+make[2]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build/lib'
+Making install in src
+make[2]: Entering directory '/lfsbuild/sources/patch-2.7.5/build/src'
+make[3]: Entering directory '/lfsbuild/sources/patch-2.7.5/build/src'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c patch '/tools/bin'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build/src'
+make[2]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build/src'
+Making install in tests
+make[2]: Entering directory '/lfsbuild/sources/patch-2.7.5/build/tests'
+make[3]: Entering directory '/lfsbuild/sources/patch-2.7.5/build/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build/tests'
+make[2]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build/tests'
+make[2]: Entering directory '/lfsbuild/sources/patch-2.7.5/build'
+make[3]: Entering directory '/lfsbuild/sources/patch-2.7.5/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 '../patch.man' '/tools/share/man/man1/patch.1'
+make[3]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build'
+make[2]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build'
+make[1]: Leaving directory '/lfsbuild/sources/patch-2.7.5/build'

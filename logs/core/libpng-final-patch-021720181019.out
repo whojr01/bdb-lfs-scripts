@@ -1,0 +1,160 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/png.h libpng-1.6.34/png.h
+|--- libpng-1.6.34.org/png.h	2017-09-29 18:55:30.653711999 +0900
+|+++ libpng-1.6.34/png.h	2017-09-29 18:56:30.306850103 +0900
+--------------------------
+patching file png.h
+Using Plan A...
+Hunk #1 succeeded at 361.
+Hunk #2 succeeded at 460.
+Hunk #3 succeeded at 792.
+Hunk #4 succeeded at 833.
+Hunk #5 succeeded at 3280.
+Hunk #6 succeeded at 3357.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngget.c libpng-1.6.34/pngget.c
+|--- libpng-1.6.34.org/pngget.c	2017-09-29 18:53:22.698691668 +0900
+|+++ libpng-1.6.34/pngget.c	2017-09-29 18:56:30.286848380 +0900
+--------------------------
+patching file pngget.c
+Using Plan A...
+Hunk #1 succeeded at 1245.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pnginfo.h libpng-1.6.34/pnginfo.h
+|--- libpng-1.6.34.org/pnginfo.h	2017-09-29 18:53:22.698691668 +0900
+|+++ libpng-1.6.34/pnginfo.h	2017-09-29 18:56:30.286848380 +0900
+--------------------------
+patching file pnginfo.h
+Using Plan A...
+Hunk #1 succeeded at 263.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngpread.c libpng-1.6.34/pngpread.c
+|--- libpng-1.6.34.org/pngpread.c	2017-09-29 18:53:22.698691668 +0900
+|+++ libpng-1.6.34/pngpread.c	2017-09-29 18:56:30.286848380 +0900
+--------------------------
+patching file pngpread.c
+Using Plan A...
+Hunk #1 succeeded at 195.
+Hunk #2 succeeded at 361.
+Hunk #3 succeeded at 509.
+Hunk #4 succeeded at 666.
+Hunk #5 succeeded at 678.
+Hunk #6 succeeded at 809.
+Hunk #7 succeeded at 1272.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngpriv.h libpng-1.6.34/pngpriv.h
+|--- libpng-1.6.34.org/pngpriv.h	2017-09-29 18:53:22.699691754 +0900
+|+++ libpng-1.6.34/pngpriv.h	2017-09-29 18:56:30.286848380 +0900
+--------------------------
+patching file pngpriv.h
+Using Plan A...
+Hunk #1 succeeded at 628.
+Hunk #2 succeeded at 868.
+Hunk #3 succeeded at 1649.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngread.c libpng-1.6.34/pngread.c
+|--- libpng-1.6.34.org/pngread.c	2017-09-29 18:53:22.699691754 +0900
+|+++ libpng-1.6.34/pngread.c	2017-09-29 18:56:30.286848380 +0900
+--------------------------
+patching file pngread.c
+Using Plan A...
+Hunk #1 succeeded at 161.
+Hunk #2 succeeded at 258.
+Hunk #3 succeeded at 276.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngrutil.c libpng-1.6.34/pngrutil.c
+|--- libpng-1.6.34.org/pngrutil.c	2017-09-29 18:53:22.701691926 +0900
+|+++ libpng-1.6.34/pngrutil.c	2017-09-29 18:56:30.287848466 +0900
+--------------------------
+patching file pngrutil.c
+Using Plan A...
+Hunk #1 succeeded at 865.
+Hunk #2 succeeded at 2845.
+Hunk #3 succeeded at 4323.
+Hunk #4 succeeded at 4366.
+Hunk #5 succeeded at 4429.
+Hunk #6 succeeded at 4870.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngset.c libpng-1.6.34/pngset.c
+|--- libpng-1.6.34.org/pngset.c	2017-09-29 18:53:22.701691926 +0900
+|+++ libpng-1.6.34/pngset.c	2017-09-29 18:56:30.292848897 +0900
+--------------------------
+patching file pngset.c
+Using Plan A...
+Hunk #1 succeeded at 288.
+Hunk #2 succeeded at 1163.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngstruct.h libpng-1.6.34/pngstruct.h
+|--- libpng-1.6.34.org/pngstruct.h	2017-09-29 18:53:22.701691926 +0900
+|+++ libpng-1.6.34/pngstruct.h	2017-09-29 18:56:30.287848466 +0900
+--------------------------
+patching file pngstruct.h
+Using Plan A...
+Hunk #1 succeeded at 403.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngtest.c libpng-1.6.34/pngtest.c
+|--- libpng-1.6.34.org/pngtest.c	2017-09-29 18:55:30.654712085 +0900
+|+++ libpng-1.6.34/pngtest.c	2017-09-29 18:56:30.287848466 +0900
+--------------------------
+patching file pngtest.c
+Using Plan A...
+Hunk #1 succeeded at 875.
+Hunk #2 succeeded at 1385.
+Hunk #3 succeeded at 1481.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngwrite.c libpng-1.6.34/pngwrite.c
+|--- libpng-1.6.34.org/pngwrite.c	2017-09-29 18:53:22.702692013 +0900
+|+++ libpng-1.6.34/pngwrite.c	2017-09-29 18:56:30.288848552 +0900
+--------------------------
+patching file pngwrite.c
+Using Plan A...
+Hunk #1 succeeded at 128.
+Hunk #2 succeeded at 374.
+Hunk #3 succeeded at 1470.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/pngwutil.c libpng-1.6.34/pngwutil.c
+|--- libpng-1.6.34.org/pngwutil.c	2017-09-29 18:53:22.703692099 +0900
+|+++ libpng-1.6.34/pngwutil.c	2017-09-29 18:56:30.302849758 +0900
+--------------------------
+patching file pngwutil.c
+Using Plan A...
+Hunk #1 succeeded at 822.
+Hunk #2 succeeded at 1008.
+Hunk #3 succeeded at 1065.
+Hunk #4 succeeded at 1911.
+Hunk #5 succeeded at 2881.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naru libpng-1.6.34.org/scripts/symbols.def libpng-1.6.34/scripts/symbols.def
+|--- libpng-1.6.34.org/scripts/symbols.def	2017-09-29 18:55:30.655712171 +0900
+|+++ libpng-1.6.34/scripts/symbols.def	2017-09-29 18:56:30.289848638 +0900
+--------------------------
+patching file scripts/symbols.def
+Using Plan A...
+Hunk #1 succeeded at 254.
+done

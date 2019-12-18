@@ -1,0 +1,194 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+Making all in libxslt
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+  CC       attrvt.lo
+  CC       xslt.lo
+  CC       xsltlocale.lo
+  CC       xsltutils.lo
+  CC       pattern.lo
+  CC       templates.lo
+  CC       variables.lo
+  CC       keys.lo
+  CC       numbers.lo
+  CC       extensions.lo
+  CC       extra.lo
+  CC       functions.lo
+  CC       namespaces.lo
+  CC       imports.lo
+  CC       attributes.lo
+  CC       documents.lo
+  CC       preproc.lo
+  CC       transform.lo
+  CC       security.lo
+  CCLD     libxslt.la
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+Making all in libexslt
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+  CC       exslt.lo
+  CC       common.lo
+  CC       crypto.lo
+  CC       math.lo
+  CC       sets.lo
+  CC       functions.lo
+  CC       strings.lo
+  CC       date.lo
+  CC       saxon.lo
+  CC       dynamic.lo
+  CCLD     libexslt.la
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+Making all in xsltproc
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+  CC       xsltproc.o
+  CCLD     xsltproc
+  CC       testThreads.o
+  CCLD     testThreads
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+Making all in python
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making all in .
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+SRCDIR=../../python /usr/bin/python ../../python/generator.py
+Found 244 functions in libxslt-api.xml
+Found 32 functions in libxslt-python-api.xml
+Generated 143 wrapper functions, 100 failed, 33 skipped
+
+Missing type converters:
+xsltTopLevelFunction:2  xmlXPathObjectPtr:2  xsltDecimalFormatPtr:3  xmlChar **:2  xmlXPathCompExprPtr:5  xsltPreComputeFunction:1  xsltElemPreCompPtr:2  xsltDebugTraceCodes:2  xsltDocumentPtr:8  xsltSecurityPrefsPtr:11  xsltTemplatePtr:4  pythonObject *:5  ...:1  xsltNumberDataPtr:1  xmlHashTablePtr:1  xmlNodePtr *:3  xsltExtInitFunction:2  xsltCompilerCtxtPtr:2  char **:2  xmlXPathObjectPtr *:1  xmlNodeSetPtr:2  xmlXPathFunction:3  xsltTransformFunction:5  xsltCompMatchPtr:3  void *:11  xsltLocale:4  xmlOutputBufferPtr:1  xsltPointerListPtr:4  xmlDictPtr:1  xsltSortFunc:2  xsltNsMapPtr:1  xsltStackElemPtr:3 
+touch gen_prog
+  CC       libxsltmod_la-libxslt.lo
+  CC       libxsltmod_la-types.lo
+  CC       libxsltmod_la-libxslt-py.lo
+  CCLD     libxsltmod.la
+cat ../../python/libxsl.py libxsltclass.py > libxslt.py
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making all in tests
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+Making all in docs
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+Making all in REC1
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+Making all in REC2
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+Making all in REC
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+Making all in general
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+Making all in namespaces
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+Making all in keys
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+Making all in numbers
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+Making all in documents
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+Making all in extensions
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+Making all in reports
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+Making all in xmlspec
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+Making all in multiple
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+Making all in xinclude
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+Making all in XSLTMark
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+Making all in docbook
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+Making all in exslt
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+Making all in common
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+Making all in functions
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+Making all in math
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+Making all in saxon
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+Making all in sets
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+Making all in strings
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+Making all in dynamic
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+Making all in date
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+Making all in plugins
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+  CC       xmlsoft_org_xslt_testplugin_la-testplugin.lo
+  CCLD     xmlsoft_org_xslt_testplugin.la
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+sed -e 's?\@XSLT_LIBDIR\@?-L/usr/lib?g' \
+    -e 's?\@XSLT_INCLUDEDIR\@?-I/usr/include?g' \
+    -e 's?\@VERSION\@?1.1.32?g' \
+    -e 's?\@XSLT_LIBS\@?-lxslt -lxml2 -lm ?g' \
+       < ../xsltConf.sh.in > xsltConf.tmp \
+&& mv xsltConf.tmp xsltConf.sh
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build'

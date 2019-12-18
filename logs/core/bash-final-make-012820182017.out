@@ -1,0 +1,394 @@
+rm -f mksyntax
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security   -rdynamic  -g -O2 -Wno-parentheses -Wno-format-security -rdynamic -g -O2 -Wno-parentheses -Wno-format-security  -o mksyntax ../mksyntax.c 
+rm -f syntax.c
+./mksyntax -o syntax.c
+/bin/sh ../support/mkversion.sh -b -S .. -s release -d 4.4 -o newversion.h \
+	&& mv newversion.h version.h
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security  -DBUILDTOOL -c -o buildversion.o ../version.c
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security   -rdynamic  -g -O2 -Wno-parentheses -Wno-format-security -rdynamic -g -O2 -Wno-parentheses -Wno-format-security  -o bashversion ../support/bashversion.c buildversion.o 
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.4.12(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+rm -f shell.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../shell.c
+rm -f eval.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../eval.c
+make[1]: Entering directory '/sources/bash-4.4.12/build/builtins'
+rm -f mkbuiltins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security  ../../builtins/mkbuiltins.c
+gcc -rdynamic -g -O2 -Wno-parentheses -Wno-format-security -rdynamic -g -O2 -Wno-parentheses -Wno-format-security  -o mkbuiltins mkbuiltins.o -ldl 
+./mkbuiltins -externfile builtext.h -structfile builtins.c \
+    -noproduction -D ../../builtins   ../../builtins/alias.def ../../builtins/bind.def ../../builtins/break.def ../../builtins/builtin.def ../../builtins/caller.def ../../builtins/cd.def ../../builtins/colon.def ../../builtins/command.def ../../builtins/declare.def ../../builtins/echo.def ../../builtins/enable.def ../../builtins/eval.def ../../builtins/getopts.def ../../builtins/exec.def ../../builtins/exit.def ../../builtins/fc.def ../../builtins/fg_bg.def ../../builtins/hash.def ../../builtins/help.def ../../builtins/history.def ../../builtins/jobs.def ../../builtins/kill.def ../../builtins/let.def ../../builtins/read.def ../../builtins/return.def ../../builtins/set.def ../../builtins/setattr.def ../../builtins/shift.def ../../builtins/source.def ../../builtins/suspend.def ../../builtins/test.def ../../builtins/times.def ../../builtins/trap.def ../../builtins/type.def ../../builtins/ulimit.def ../../builtins/umask.def ../../builtins/wait.def ../../builtins/reserved.def ../../builtins/pushd.def ../../builtins/shopt.def ../../builtins/printf.def ../../builtins/complete.def ../../builtins/mapfile.def
+make[1]: Leaving directory '/sources/bash-4.4.12/build/builtins'
+rm -f y.tab.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../y.tab.c
+rm -f general.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../general.c
+rm -f make_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../make_cmd.c
+rm -f print_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../print_cmd.c
+rm -f dispose_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../dispose_cmd.c
+rm -f execute_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../execute_cmd.c
+rm -f variables.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../variables.c
+rm -f copy_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../copy_cmd.c
+rm -f error.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../error.c
+rm -f expr.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../expr.c
+../expr.c:210:17: warning: conflicting types for built-in function 'exp2' [-Wbuiltin-declaration-mismatch]
+ static intmax_t exp2 __P((void));
+                 ^~~~
+rm -f flags.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../flags.c
+rm -f jobs.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../jobs.c
+rm -f subst.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../subst.c
+rm -f hashcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../hashcmd.c
+rm -f hashlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../hashlib.c
+rm -f mailcheck.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../mailcheck.c
+rm -f mksignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security  -DBUILDTOOL -c ../support/mksignames.c
+rm -f buildsignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security  -DBUILDTOOL -o buildsignames.o -c ../support/signames.c
+rm -f mksignames
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security   -rdynamic  -g -O2 -Wno-parentheses -Wno-format-security -rdynamic -g -O2 -Wno-parentheses -Wno-format-security  -o mksignames mksignames.o buildsignames.o 
+rm -f lsignames.h
+./mksignames lsignames.h
+if cmp -s lsignames.h signames.h ; then :; else rm -f signames.h ; cp lsignames.h signames.h ; fi
+rm -f trap.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../trap.c
+rm -f input.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../input.c
+rm -f unwind_prot.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../unwind_prot.c
+rm -f pathexp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../pathexp.c
+rm -f sig.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../sig.c
+rm -f test.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../test.c
+rm -f version.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../version.c
+rm -f alias.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../alias.c
+rm -f array.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../array.c
+rm -f arrayfunc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../arrayfunc.c
+rm -f assoc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../assoc.c
+rm -f braces.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../braces.c
+rm -f bracecomp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../bracecomp.c
+rm -f bashhist.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../bashhist.c
+rm -f bashline.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../bashline.c
+rm -f list.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../list.c
+rm -f stringlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../stringlib.c
+rm -f locale.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../locale.c
+rm -f findcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../findcmd.c
+rm -f redir.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../redir.c
+rm -f pcomplete.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../pcomplete.c
+rm -f pcomplib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../pcomplib.c
+rm -f syntax.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c syntax.c
+rm -f xmalloc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I.. -I../include -I../lib   -g -O2 -Wno-parentheses -Wno-format-security -c ../xmalloc.c
+make[1]: Entering directory '/sources/bash-4.4.12/build/builtins'
+rm -f builtins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security builtins.c
+rm -f alias.o
+./mkbuiltins -D ../../builtins ../../builtins/alias.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security alias.c || ( rm -f alias.c ; exit 1 )
+rm -f alias.c
+rm -f bind.o
+./mkbuiltins -D ../../builtins ../../builtins/bind.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security bind.c || ( rm -f bind.c ; exit 1 )
+rm -f bind.c
+rm -f break.o
+./mkbuiltins -D ../../builtins ../../builtins/break.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security break.c || ( rm -f break.c ; exit 1 )
+rm -f break.c
+rm -f builtin.o
+./mkbuiltins -D ../../builtins ../../builtins/builtin.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security builtin.c || ( rm -f builtin.c ; exit 1 )
+rm -f builtin.c
+rm -f caller.o
+./mkbuiltins -D ../../builtins ../../builtins/caller.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security caller.c || ( rm -f caller.c ; exit 1 )
+rm -f caller.c
+rm -f cd.o
+./mkbuiltins -D ../../builtins ../../builtins/cd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security cd.c || ( rm -f cd.c ; exit 1 )
+rm -f cd.c
+rm -f colon.o
+./mkbuiltins -D ../../builtins ../../builtins/colon.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security colon.c || ( rm -f colon.c ; exit 1 )
+rm -f colon.c
+rm -f command.o
+./mkbuiltins -D ../../builtins ../../builtins/command.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security command.c || ( rm -f command.c ; exit 1 )
+rm -f command.c
+rm -f common.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security ../../builtins/common.c
+rm -f declare.o
+./mkbuiltins -D ../../builtins ../../builtins/declare.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security declare.c || ( rm -f declare.c ; exit 1 )
+rm -f declare.c
+rm -f echo.o
+./mkbuiltins -D ../../builtins ../../builtins/echo.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security echo.c || ( rm -f echo.c ; exit 1 )
+rm -f echo.c
+rm -f enable.o
+./mkbuiltins -D ../../builtins ../../builtins/enable.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security enable.c || ( rm -f enable.c ; exit 1 )
+rm -f enable.c
+rm -f eval.o
+./mkbuiltins -D ../../builtins ../../builtins/eval.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security eval.c || ( rm -f eval.c ; exit 1 )
+rm -f eval.c
+rm -f evalfile.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security ../../builtins/evalfile.c
+rm -f evalstring.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security ../../builtins/evalstring.c
+rm -f exec.o
+./mkbuiltins -D ../../builtins ../../builtins/exec.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security exec.c || ( rm -f exec.c ; exit 1 )
+rm -f exec.c
+rm -f exit.o
+./mkbuiltins -D ../../builtins ../../builtins/exit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security exit.c || ( rm -f exit.c ; exit 1 )
+rm -f exit.c
+rm -f fc.o
+./mkbuiltins -D ../../builtins ../../builtins/fc.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security fc.c || ( rm -f fc.c ; exit 1 )
+rm -f fc.c
+rm -f fg_bg.o
+./mkbuiltins -D ../../builtins ../../builtins/fg_bg.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security fg_bg.c || ( rm -f fg_bg.c ; exit 1 )
+rm -f fg_bg.c
+rm -f hash.o
+./mkbuiltins -D ../../builtins ../../builtins/hash.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security hash.c || ( rm -f hash.c ; exit 1 )
+rm -f hash.c
+rm -f help.o
+./mkbuiltins -D ../../builtins ../../builtins/help.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security help.c || ( rm -f help.c ; exit 1 )
+rm -f help.c
+rm -f history.o
+./mkbuiltins -D ../../builtins ../../builtins/history.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security history.c || ( rm -f history.c ; exit 1 )
+rm -f history.c
+rm -f jobs.o
+./mkbuiltins -D ../../builtins ../../builtins/jobs.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security jobs.c || ( rm -f jobs.c ; exit 1 )
+rm -f jobs.c
+rm -f kill.o
+./mkbuiltins -D ../../builtins ../../builtins/kill.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security kill.c || ( rm -f kill.c ; exit 1 )
+rm -f kill.c
+rm -f let.o
+./mkbuiltins -D ../../builtins ../../builtins/let.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security let.c || ( rm -f let.c ; exit 1 )
+rm -f let.c
+rm -f mapfile.o
+./mkbuiltins -D ../../builtins ../../builtins/mapfile.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security mapfile.c || ( rm -f mapfile.c ; exit 1 )
+rm -f mapfile.c
+rm -f pushd.o
+./mkbuiltins -D ../../builtins ../../builtins/pushd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security pushd.c || ( rm -f pushd.c ; exit 1 )
+rm -f pushd.c
+rm -f read.o
+./mkbuiltins -D ../../builtins ../../builtins/read.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security read.c || ( rm -f read.c ; exit 1 )
+rm -f read.c
+rm -f return.o
+./mkbuiltins -D ../../builtins ../../builtins/return.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security return.c || ( rm -f return.c ; exit 1 )
+rm -f return.c
+rm -f set.o
+./mkbuiltins -D ../../builtins ../../builtins/set.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security set.c || ( rm -f set.c ; exit 1 )
+rm -f set.c
+rm -f setattr.o
+./mkbuiltins -D ../../builtins ../../builtins/setattr.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security setattr.c || ( rm -f setattr.c ; exit 1 )
+rm -f setattr.c
+rm -f shift.o
+./mkbuiltins -D ../../builtins ../../builtins/shift.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security shift.c || ( rm -f shift.c ; exit 1 )
+rm -f shift.c
+rm -f source.o
+./mkbuiltins -D ../../builtins ../../builtins/source.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security source.c || ( rm -f source.c ; exit 1 )
+rm -f source.c
+rm -f suspend.o
+./mkbuiltins -D ../../builtins ../../builtins/suspend.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security suspend.c || ( rm -f suspend.c ; exit 1 )
+rm -f suspend.c
+rm -f test.o
+./mkbuiltins -D ../../builtins ../../builtins/test.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security test.c || ( rm -f test.c ; exit 1 )
+rm -f test.c
+rm -f times.o
+./mkbuiltins -D ../../builtins ../../builtins/times.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security times.c || ( rm -f times.c ; exit 1 )
+rm -f times.c
+rm -f trap.o
+./mkbuiltins -D ../../builtins ../../builtins/trap.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security trap.c || ( rm -f trap.c ; exit 1 )
+rm -f trap.c
+rm -f type.o
+./mkbuiltins -D ../../builtins ../../builtins/type.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security type.c || ( rm -f type.c ; exit 1 )
+rm -f type.c
+gcc  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security  -rdynamic -g -O2 -Wno-parentheses -Wno-format-security -rdynamic -g -O2 -Wno-parentheses -Wno-format-security  -o psize.aux ../../builtins/psize.c
+/bin/sh ../../builtins/psize.sh > pipesize.h
+rm -f ulimit.o
+./mkbuiltins -D ../../builtins ../../builtins/ulimit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security ulimit.c || ( rm -f ulimit.c ; exit 1 )
+rm -f ulimit.c
+rm -f umask.o
+./mkbuiltins -D ../../builtins ../../builtins/umask.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security umask.c || ( rm -f umask.c ; exit 1 )
+rm -f umask.c
+rm -f wait.o
+./mkbuiltins -D ../../builtins ../../builtins/wait.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security wait.c || ( rm -f wait.c ; exit 1 )
+rm -f wait.c
+rm -f getopts.o
+./mkbuiltins -D ../../builtins ../../builtins/getopts.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security getopts.c || ( rm -f getopts.c ; exit 1 )
+rm -f getopts.c
+rm -f shopt.o
+./mkbuiltins -D ../../builtins ../../builtins/shopt.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security shopt.c || ( rm -f shopt.c ; exit 1 )
+rm -f shopt.c
+rm -f printf.o
+./mkbuiltins -D ../../builtins ../../builtins/printf.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security printf.c || ( rm -f printf.c ; exit 1 )
+rm -f printf.c
+rm -f getopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security ../../builtins/getopt.c
+rm -f bashgetopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security ../../builtins/bashgetopt.c
+rm -f complete.o
+./mkbuiltins -D ../../builtins ../../builtins/complete.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I../.. -I../../include -I../../lib -I../../builtins    -g -O2 -Wno-parentheses -Wno-format-security complete.c || ( rm -f complete.c ; exit 1 )
+rm -f complete.c
+rm -f libbuiltins.a
+ar cr libbuiltins.a builtins.o alias.o bind.o break.o builtin.o caller.o cd.o colon.o command.o common.o declare.o echo.o enable.o eval.o evalfile.o evalstring.o exec.o exit.o fc.o fg_bg.o hash.o help.o history.o jobs.o kill.o let.o mapfile.o pushd.o read.o return.o set.o setattr.o shift.o source.o suspend.o test.o times.o trap.o type.o ulimit.o umask.o wait.o getopts.o shopt.o printf.o getopt.o bashgetopt.o complete.o
+ranlib libbuiltins.a
+make[1]: Leaving directory '/sources/bash-4.4.12/build/builtins'
+making lib/glob/libglob.a in ./lib/glob
+make[1]: Entering directory '/sources/bash-4.4.12/build/lib/glob'
+rm -f glob.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL -I. -I../.. -I../../.. -I../../../include -I../../../lib   -g -O2 -Wno-parentheses -Wno-format-security ../../../lib/glob/glob.c
+rm -f strmatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL -I. -I../.. -I../../.. -I../../../include -I../../../lib   -g -O2 -Wno-parentheses -Wno-format-security ../../../lib/glob/strmatch.c
+rm -f smatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL -I. -I../.. -I../../.. -I../../../include -I../../../lib   -g -O2 -Wno-parentheses -Wno-format-security ../../../lib/glob/smatch.c
+rm -f xmbsrtowcs.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL -I. -I../.. -I../../.. -I../../../include -I../../../lib   -g -O2 -Wno-parentheses -Wno-format-security ../../../lib/glob/xmbsrtowcs.c
+rm -f gmisc.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL -I. -I../.. -I../../.. -I../../../include -I../../../lib   -g -O2 -Wno-parentheses -Wno-format-security ../../../lib/glob/gmisc.c
+rm -f -f libglob.a
+ar cr libglob.a glob.o strmatch.o smatch.o xmbsrtowcs.o gmisc.o
+test -n "ranlib" && ranlib libglob.a
+make[1]: Leaving directory '/sources/bash-4.4.12/build/lib/glob'
+making lib/sh/libsh.a in ./lib/sh
+make[1]: Entering directory '/sources/bash-4.4.12/build/lib/sh'
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/clktck.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/clock.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/getenv.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/oslib.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/setlinebuf.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/strnlen.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/itos.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/zread.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/zwrite.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/shtty.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/shmatch.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/eaccess.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/netconn.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/netopen.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/timeval.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/makepath.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/pathcanon.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/pathphys.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/tmpfile.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/stringlist.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/stringvec.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/spell.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/shquote.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/strtrans.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/snprintf.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/mailstat.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/fmtulong.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/fmtullong.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/fmtumax.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/zcatfd.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/zmapfd.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/winsize.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/wcsdup.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/fpurge.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/zgetline.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/mbscmp.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/uconvert.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/ufuncs.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/casemod.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/input_avail.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/mbscasecmp.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/fnxform.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/unicode.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/shmbchar.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/wcsnwidth.c
+gcc -c  -I. -I../.. -I../../.. -I../../../lib -I../../../include -I../../../lib/sh  -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security   ../../../lib/sh/mbschr.c
+rm -f libsh.a
+ar cr libsh.a clktck.o clock.o getenv.o oslib.o setlinebuf.o strnlen.o itos.o zread.o zwrite.o shtty.o shmatch.o eaccess.o netconn.o netopen.o timeval.o makepath.o pathcanon.o pathphys.o tmpfile.o stringlist.o stringvec.o spell.o shquote.o strtrans.o snprintf.o mailstat.o fmtulong.o fmtullong.o fmtumax.o zcatfd.o zmapfd.o winsize.o wcsdup.o fpurge.o zgetline.o mbscmp.o uconvert.o ufuncs.o casemod.o input_avail.o mbscasecmp.o fnxform.o unicode.o shmbchar.o wcsnwidth.o mbschr.o
+test -n "ranlib" && ranlib libsh.a
+make[1]: Leaving directory '/sources/bash-4.4.12/build/lib/sh'
+making lib/tilde/libtilde.a in ./lib/tilde
+make[1]: Entering directory '/sources/bash-4.4.12/build/lib/tilde'
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../../.. -I../../../include -I../../../lib  -g -O2 -Wno-parentheses -Wno-format-security ../../../lib/tilde/tilde.c
+rm -f libtilde.a
+ar cr libtilde.a tilde.o
+test -n "ranlib" && ranlib libtilde.a
+make[1]: Leaving directory '/sources/bash-4.4.12/build/lib/tilde'
+rm -f bash
+gcc -L./builtins -L/usr/lib -L/usr/lib -L./lib/glob -L./lib/tilde  -L./lib/sh  -rdynamic  -g -O2 -Wno-parentheses -Wno-format-security -o bash shell.o eval.o y.tab.o general.o make_cmd.o print_cmd.o  dispose_cmd.o execute_cmd.o variables.o copy_cmd.o error.o expr.o flags.o jobs.o subst.o hashcmd.o hashlib.o mailcheck.o trap.o input.o unwind_prot.o pathexp.o sig.o test.o version.o alias.o array.o arrayfunc.o assoc.o braces.o bracecomp.o bashhist.o bashline.o  list.o stringlib.o locale.o findcmd.o redir.o pcomplete.o pcomplib.o syntax.o xmalloc.o  -lbuiltins -lglob -lsh -lreadline -lhistory -lncurses -ltilde     -ldl 
+./lib/sh/libsh.a(tmpfile.o): In function `sh_mktmpname':
+/sources/bash-4.4.12/build/lib/sh/../../../lib/sh/tmpfile.c:152: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+ls -l bash
+-rwxr-xr-x 1 root root 3410248 Jan 28 20:08 bash
+size bash
+   text	   data	    bss	    dec	    hex	filename
+ 789612	  15720	  55632	 860964	  d2324	bash
+make[1]: Entering directory '/sources/bash-4.4.12/build/support'
+rm -f man2html.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I/sources/bash-4.4.12/build -I../..   -g -O2 -Wno-parentheses -Wno-format-security ../../support/man2html.c
+gcc  -DHAVE_CONFIG_H -DSHELL  -I/sources/bash-4.4.12/build -I../..   -g -O2 -Wno-parentheses -Wno-format-security man2html.o -o man2html -ldl 		
+make[1]: Leaving directory '/sources/bash-4.4.12/build/support'

@@ -1,0 +1,135 @@
+Making install in include
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/reiserfs'
+ /usr/bin/install -c -m 644 io.h misc.h reiserfs_fs.h reiserfs_lib.h swab.h '/usr/include/reiserfs'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+Making install in lib
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/lib'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/lib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/lib'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/lib'
+Making install in reiserfscore
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+make  install-am
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+make[3]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libreiserfscore.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libreiserfscore.so.0.0.0 /usr/lib/libreiserfscore.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libreiserfscore.so.0.0.0 libreiserfscore.so.0 || { rm -f libreiserfscore.so.0 && ln -s libreiserfscore.so.0.0.0 libreiserfscore.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libreiserfscore.so.0.0.0 libreiserfscore.so || { rm -f libreiserfscore.so && ln -s libreiserfscore.so.0.0.0 libreiserfscore.so; }; })
+libtool: install: /usr/bin/install -c .libs/libreiserfscore.lai /usr/lib/libreiserfscore.la
+libtool: install: /usr/bin/install -c .libs/libreiserfscore.a /usr/lib/libreiserfscore.a
+libtool: install: chmod 644 /usr/lib/libreiserfscore.a
+libtool: install: ranlib /usr/lib/libreiserfscore.a
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 reiserfscore.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/reiserfs'
+ /usr/bin/install -c -m 644 reiserfs_err.h '/usr/include/reiserfs'
+make[3]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+Making install in fsck
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+ /bin/mkdir -p '/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c reiserfsck '/sbin'
+libtool: install: /usr/bin/install -c .libs/reiserfsck /sbin/reiserfsck
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+ln -s reiserfsck /sbin/fsck.reiserfs
+/usr/bin/install -c -m 755 -d /usr/share/man/man8
+ln -s reiserfsck.8 /usr/share/man/man8/fsck.reiserfs.8
+make[3]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 reiserfsck.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+Making install in debugreiserfs
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+ /bin/mkdir -p '/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c debugreiserfs '/sbin'
+libtool: install: /usr/bin/install -c .libs/debugreiserfs /sbin/debugreiserfs
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+ln -s debugreiserfs /sbin/debugfs.reiserfs
+/usr/bin/install -c -m 755 -d /usr/share/man/man8
+ln -s debugreiserfs.8 /usr/share/man/man8/debugfs.reiserfs.8
+make[3]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 debugreiserfs.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+Making install in resize_reiserfs
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/resize_reiserfs'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/resize_reiserfs'
+ /bin/mkdir -p '/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c resize_reiserfs '/sbin'
+libtool: install: /usr/bin/install -c .libs/resize_reiserfs /sbin/resize_reiserfs
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 resize_reiserfs.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/resize_reiserfs'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/resize_reiserfs'
+Making install in mkreiserfs
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+ /bin/mkdir -p '/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c mkreiserfs '/sbin'
+libtool: install: /usr/bin/install -c .libs/mkreiserfs /sbin/mkreiserfs
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+ln -s mkreiserfs /sbin/mkfs.reiserfs
+/usr/bin/install -c -m 755 -d /usr/share/man/man8
+ln -s mkreiserfs.8 /usr/share/man/man8/mkfs.reiserfs.8
+make[3]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 mkreiserfs.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+Making install in tune
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+ /bin/mkdir -p '/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c reiserfstune '/sbin'
+libtool: install: /usr/bin/install -c .libs/reiserfstune /sbin/reiserfstune
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+ln -s reiserfstune /sbin/tunefs.reiserfs
+/usr/bin/install -c -m 755 -d /usr/share/man/man8
+ln -s reiserfstune.8 /usr/share/man/man8/tunefs.reiserfs.8
+make[3]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 reiserfstune.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27'
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27'

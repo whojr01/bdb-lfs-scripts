@@ -1,0 +1,58 @@
+###############################
+# Make libFS-1.0.7.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/src'
+  CC       FSCloseFt.lo
+  CC       FSClServ.lo
+  CC       FSConnServ.lo
+  CC       FSErrDis.lo
+  CC       FSErrHndlr.lo
+  CC       FSFlush.lo
+  CC       FSFontInfo.lo
+  CC       FSFtNames.lo
+  CC       FSGetCats.lo
+  CC       FSlibInt.lo
+FSlibInt.c: In function '_FSPrintDefaultError':
+FSlibInt.c:843:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->request_code);
+                        ^~~~
+FSlibInt.c:864:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->minor_code);
+                        ^~~~
+FSlibInt.c:874:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->resourceid);
+                        ^~~~
+FSlibInt.c:878:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->serial);
+                        ^~~~
+FSlibInt.c:882:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, svr->request);
+                        ^~~~
+  CC       FSListCats.lo
+  CC       FSListExt.lo
+  CC       FSMisc.lo
+  CC       FSNextEv.lo
+  CC       FSOpenFont.lo
+  CC       FSOpenServ.lo
+  CC       FSQGlyphs.lo
+  CC       FSQuExt.lo
+  CC       FSQXExt.lo
+  CC       FSQXInfo.lo
+  CC       FSServName.lo
+  CC       FSSetCats.lo
+  CC       FSSync.lo
+  CC       FSSynchro.lo
+  CC       fs_transport.lo
+  CCLD     libFS.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/src'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/test'
+  CC       FSGetErrorText.o
+  CCLD     FSGetErrorText
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/test'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'

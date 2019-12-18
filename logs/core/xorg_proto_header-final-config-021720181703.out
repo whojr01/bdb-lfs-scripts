@@ -1,0 +1,2458 @@
+###############################
+# bigreqsproto-1.1.2.tar.bz2 #
+###############################
+bigreqsproto-1.1.2/Makefile.in
+bigreqsproto-1.1.2/README
+bigreqsproto-1.1.2/INSTALL
+bigreqsproto-1.1.2/Makefile.am
+bigreqsproto-1.1.2/bigreqsproto.pc.in
+bigreqsproto-1.1.2/bigreqstr.h
+bigreqsproto-1.1.2/bigreqsproto.h
+bigreqsproto-1.1.2/config.guess
+bigreqsproto-1.1.2/config.sub
+bigreqsproto-1.1.2/ChangeLog
+bigreqsproto-1.1.2/COPYING
+bigreqsproto-1.1.2/specs/bigreq.xml
+bigreqsproto-1.1.2/specs/Makefile.in
+bigreqsproto-1.1.2/specs/Makefile.am
+bigreqsproto-1.1.2/configure.ac
+bigreqsproto-1.1.2/configure
+bigreqsproto-1.1.2/docbook.am
+bigreqsproto-1.1.2/install-sh
+bigreqsproto-1.1.2/aclocal.m4
+bigreqsproto-1.1.2/missing
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports-Wall... yes
+checking if gcc supports-Wpointer-arith... yes
+checking if gcc supports-Wmissing-declarations... yes
+checking if gcc supports-Wformat=2... yes
+checking if gcc supports-Wstrict-prototypes... yes
+checking if gcc supports-Wmissing-prototypes... yes
+checking if gcc supports-Wnested-externs... yes
+checking if gcc supports-Wbad-function-cast... yes
+checking if gcc supports-Wold-style-definition... yes
+checking if gcc supports-Wdeclaration-after-statement... yes
+checking if gcc supports-Wunused... yes
+checking if gcc supports-Wuninitialized... yes
+checking if gcc supports-Wshadow... yes
+checking if gcc supports-Wcast-qual... yes
+checking if gcc supports-Wmissing-noreturn... yes
+checking if gcc supports-Wmissing-format-attribute... yes
+checking if gcc supports-Wredundant-decls... yes
+checking if gcc supports-Werror=implicit... yes
+checking if gcc supports-Werror=nonnull... yes
+checking if gcc supports-Werror=init-self... yes
+checking if gcc supports-Werror=main... yes
+checking if gcc supports-Werror=missing-braces... yes
+checking if gcc supports-Werror=sequence-point... yes
+checking if gcc supports-Werror=return-type... yes
+checking if gcc supports-Werror=trigraphs... yes
+checking if gcc supports-Werror=array-bounds... yes
+checking if gcc supports-Werror=write-strings... yes
+checking if gcc supports-Werror=address... yes
+checking if gcc supports-Werror=int-to-pointer-cast... yes
+checking if gcc supports-Werror=pointer-to-int-cast... yes
+checking if gcc supports-pedantic... yes
+checking if gcc supports-Werror... yes
+checking if gcc supports-Werror=attributes... yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating bigreqsproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# compositeproto-0.4.2.tar.bz2 #
+###############################
+compositeproto-0.4.2/README
+compositeproto-0.4.2/ChangeLog
+compositeproto-0.4.2/config.guess
+compositeproto-0.4.2/COPYING
+compositeproto-0.4.2/AUTHORS
+compositeproto-0.4.2/config.sub
+compositeproto-0.4.2/configure
+compositeproto-0.4.2/composite.h
+compositeproto-0.4.2/missing
+compositeproto-0.4.2/aclocal.m4
+compositeproto-0.4.2/compositeproto.txt
+compositeproto-0.4.2/install-sh
+compositeproto-0.4.2/compositeproto.pc.in
+compositeproto-0.4.2/INSTALL
+compositeproto-0.4.2/Makefile.in
+compositeproto-0.4.2/Makefile.am
+compositeproto-0.4.2/configure.ac
+compositeproto-0.4.2/compositeproto.h
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating compositeproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# damageproto-1.2.1.tar.bz2 #
+###############################
+damageproto-1.2.1/damageproto.txt
+damageproto-1.2.1/COPYING
+damageproto-1.2.1/AUTHORS
+damageproto-1.2.1/missing
+damageproto-1.2.1/aclocal.m4
+damageproto-1.2.1/config.guess
+damageproto-1.2.1/install-sh
+damageproto-1.2.1/Makefile.am
+damageproto-1.2.1/configure.ac
+damageproto-1.2.1/configure
+damageproto-1.2.1/ChangeLog
+damageproto-1.2.1/damagewire.h
+damageproto-1.2.1/INSTALL
+damageproto-1.2.1/config.sub
+damageproto-1.2.1/README
+damageproto-1.2.1/Makefile.in
+damageproto-1.2.1/damageproto.pc.in
+damageproto-1.2.1/damageproto.h
+damageproto-1.2.1/NEWS
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating damageproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# dmxproto-2.3.1.tar.bz2 #
+###############################
+dmxproto-2.3.1/README
+dmxproto-2.3.1/missing
+dmxproto-2.3.1/dmxproto.pc.in
+dmxproto-2.3.1/dmxproto.h
+dmxproto-2.3.1/install-sh
+dmxproto-2.3.1/aclocal.m4
+dmxproto-2.3.1/config.guess
+dmxproto-2.3.1/COPYING
+dmxproto-2.3.1/ChangeLog
+dmxproto-2.3.1/Makefile.am
+dmxproto-2.3.1/configure.ac
+dmxproto-2.3.1/configure
+dmxproto-2.3.1/INSTALL
+dmxproto-2.3.1/Makefile.in
+dmxproto-2.3.1/dmx.h
+dmxproto-2.3.1/config.sub
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating dmxproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# dri2proto-2.8.tar.bz2 #
+###############################
+dri2proto-2.8/
+dri2proto-2.8/dri2proto.txt
+dri2proto-2.8/install-sh
+dri2proto-2.8/dri2tokens.h
+dri2proto-2.8/configure
+dri2proto-2.8/INSTALL
+dri2proto-2.8/README
+dri2proto-2.8/dri2proto.h
+dri2proto-2.8/COPYING
+dri2proto-2.8/Makefile.in
+dri2proto-2.8/Makefile.am
+dri2proto-2.8/config.sub
+dri2proto-2.8/ChangeLog
+dri2proto-2.8/missing
+dri2proto-2.8/configure.ac
+dri2proto-2.8/dri2proto.pc.in
+dri2proto-2.8/config.guess
+dri2proto-2.8/aclocal.m4
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports-Wall... yes
+checking if gcc supports-Wpointer-arith... yes
+checking if gcc supports-Wmissing-declarations... yes
+checking if gcc supports-Wformat=2... yes
+checking if gcc supports-Wstrict-prototypes... yes
+checking if gcc supports-Wmissing-prototypes... yes
+checking if gcc supports-Wnested-externs... yes
+checking if gcc supports-Wbad-function-cast... yes
+checking if gcc supports-Wold-style-definition... yes
+checking if gcc supports-Wdeclaration-after-statement... yes
+checking if gcc supports-Wunused... yes
+checking if gcc supports-Wuninitialized... yes
+checking if gcc supports-Wshadow... yes
+checking if gcc supports-Wcast-qual... yes
+checking if gcc supports-Wmissing-noreturn... yes
+checking if gcc supports-Wmissing-format-attribute... yes
+checking if gcc supports-Wredundant-decls... yes
+checking if gcc supports-Werror=implicit... yes
+checking if gcc supports-Werror=nonnull... yes
+checking if gcc supports-Werror=init-self... yes
+checking if gcc supports-Werror=main... yes
+checking if gcc supports-Werror=missing-braces... yes
+checking if gcc supports-Werror=sequence-point... yes
+checking if gcc supports-Werror=return-type... yes
+checking if gcc supports-Werror=trigraphs... yes
+checking if gcc supports-Werror=array-bounds... yes
+checking if gcc supports-Werror=write-strings... yes
+checking if gcc supports-Werror=address... yes
+checking if gcc supports-Werror=int-to-pointer-cast... yes
+checking if gcc supports-Werror=pointer-to-int-cast... yes
+checking if gcc supports-pedantic... yes
+checking if gcc supports-Werror... yes
+checking if gcc supports-Werror=attributes... yes
+checking whether make supports nested variables... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating dri2proto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# dri3proto-1.0.tar.bz2 #
+###############################
+dri3proto-1.0/
+dri3proto-1.0/configure
+dri3proto-1.0/ChangeLog
+dri3proto-1.0/missing
+dri3proto-1.0/config.guess
+dri3proto-1.0/Makefile.am
+dri3proto-1.0/dri3proto.pc.in
+dri3proto-1.0/aclocal.m4
+dri3proto-1.0/INSTALL
+dri3proto-1.0/configure.ac
+dri3proto-1.0/dri3proto.h
+dri3proto-1.0/dri3proto.txt
+dri3proto-1.0/config.sub
+dri3proto-1.0/Makefile.in
+dri3proto-1.0/install-sh
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+/sources/boot/X11/protocol_headers/dri3proto-1.0/missing: Unknown `--is-lightweight' option
+Try `/sources/boot/X11/protocol_headers/dri3proto-1.0/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wcast-qual... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating dri3proto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# fixesproto-5.0.tar.bz2 #
+###############################
+fixesproto-5.0/
+fixesproto-5.0/xfixeswire.h
+fixesproto-5.0/configure
+fixesproto-5.0/config.sub
+fixesproto-5.0/COPYING
+fixesproto-5.0/install-sh
+fixesproto-5.0/fixesproto.pc.in
+fixesproto-5.0/aclocal.m4
+fixesproto-5.0/ChangeLog
+fixesproto-5.0/Makefile.am
+fixesproto-5.0/xfixesproto.h
+fixesproto-5.0/configure.ac
+fixesproto-5.0/Makefile.in
+fixesproto-5.0/INSTALL
+fixesproto-5.0/config.guess
+fixesproto-5.0/README
+fixesproto-5.0/fixesproto.txt
+fixesproto-5.0/AUTHORS
+fixesproto-5.0/missing
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating fixesproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# fontsproto-2.1.3.tar.bz2 #
+###############################
+fontsproto-2.1.3/
+fontsproto-2.1.3/README
+fontsproto-2.1.3/config.sub
+fontsproto-2.1.3/configure
+fontsproto-2.1.3/font.h
+fontsproto-2.1.3/fontsproto.pc.in
+fontsproto-2.1.3/INSTALL
+fontsproto-2.1.3/fsmasks.h
+fontsproto-2.1.3/compile
+fontsproto-2.1.3/ChangeLog
+fontsproto-2.1.3/Makefile.am
+fontsproto-2.1.3/FSproto.h
+fontsproto-2.1.3/fontstruct.h
+fontsproto-2.1.3/install-sh
+fontsproto-2.1.3/fontproto.h
+fontsproto-2.1.3/config.guess
+fontsproto-2.1.3/COPYING
+fontsproto-2.1.3/aclocal.m4
+fontsproto-2.1.3/specs/
+fontsproto-2.1.3/specs/Makefile.am
+fontsproto-2.1.3/specs/fsproto.xml
+fontsproto-2.1.3/specs/Makefile.in
+fontsproto-2.1.3/missing
+fontsproto-2.1.3/FS.h
+fontsproto-2.1.3/docbook.am
+fontsproto-2.1.3/configure.ac
+fontsproto-2.1.3/Makefile.in
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating fontsproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# glproto-1.4.17.tar.bz2 #
+###############################
+glproto-1.4.17/
+glproto-1.4.17/glxmd.h
+glproto-1.4.17/configure
+glproto-1.4.17/README
+glproto-1.4.17/ChangeLog
+glproto-1.4.17/missing
+glproto-1.4.17/glxtokens.h
+glproto-1.4.17/config.guess
+glproto-1.4.17/Makefile.am
+glproto-1.4.17/glxint.h
+glproto-1.4.17/glxproto.h
+glproto-1.4.17/COPYING
+glproto-1.4.17/aclocal.m4
+glproto-1.4.17/INSTALL
+glproto-1.4.17/configure.ac
+glproto-1.4.17/compile
+glproto-1.4.17/glproto.pc.in
+glproto-1.4.17/config.sub
+glproto-1.4.17/Makefile.in
+glproto-1.4.17/glcore.h
+glproto-1.4.17/install-sh
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating glproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# inputproto-2.3.2.tar.bz2 #
+###############################
+inputproto-2.3.2/
+inputproto-2.3.2/configure
+inputproto-2.3.2/config.sub
+inputproto-2.3.2/specs/
+inputproto-2.3.2/specs/XIproto.txt
+inputproto-2.3.2/specs/Makefile.in
+inputproto-2.3.2/specs/XI2proto.txt
+inputproto-2.3.2/specs/Makefile.am
+inputproto-2.3.2/XI2.h
+inputproto-2.3.2/configure.ac
+inputproto-2.3.2/XI2proto.h
+inputproto-2.3.2/ChangeLog
+inputproto-2.3.2/aclocal.m4
+inputproto-2.3.2/Makefile.in
+inputproto-2.3.2/inputproto.pc.in
+inputproto-2.3.2/XIproto.h
+inputproto-2.3.2/COPYING
+inputproto-2.3.2/config.guess
+inputproto-2.3.2/install-sh
+inputproto-2.3.2/XI.h
+inputproto-2.3.2/missing
+inputproto-2.3.2/Makefile.am
+inputproto-2.3.2/README
+inputproto-2.3.2/INSTALL
+inputproto-2.3.2/compile
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to build functional specifications... yes
+checking for asciidoc... /usr/bin/asciidoc
+checking the asciidoc version... 8.6.9
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating inputproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# kbproto-1.0.7.tar.bz2 #
+###############################
+kbproto-1.0.7/config.sub
+kbproto-1.0.7/XKBsrv.h
+kbproto-1.0.7/configure.ac
+kbproto-1.0.7/INSTALL
+kbproto-1.0.7/README
+kbproto-1.0.7/Makefile.in
+kbproto-1.0.7/configure
+kbproto-1.0.7/XKBstr.h
+kbproto-1.0.7/missing
+kbproto-1.0.7/aclocal.m4
+kbproto-1.0.7/ChangeLog
+kbproto-1.0.7/install-sh
+kbproto-1.0.7/XKBproto.h
+kbproto-1.0.7/docbook.am
+kbproto-1.0.7/config.guess
+kbproto-1.0.7/Makefile.am
+kbproto-1.0.7/XKB.h
+kbproto-1.0.7/COPYING
+kbproto-1.0.7/XKBgeom.h
+kbproto-1.0.7/compile
+kbproto-1.0.7/kbproto.pc.in
+kbproto-1.0.7/specs/acknowledgements.xml
+kbproto-1.0.7/specs/appC.xml
+kbproto-1.0.7/specs/ch10.xml
+kbproto-1.0.7/specs/appD.xml
+kbproto-1.0.7/specs/XKBproto-9.svg
+kbproto-1.0.7/specs/xkbproto.xml
+kbproto-1.0.7/specs/XKBproto-7.svg
+kbproto-1.0.7/specs/ch06.xml
+kbproto-1.0.7/specs/ch01.xml
+kbproto-1.0.7/specs/ch08.xml
+kbproto-1.0.7/specs/ch16.xml
+kbproto-1.0.7/specs/appB.xml
+kbproto-1.0.7/specs/ch11.xml
+kbproto-1.0.7/specs/ch09.xml
+kbproto-1.0.7/specs/ch07.xml
+kbproto-1.0.7/specs/XKBproto-6.svg
+kbproto-1.0.7/specs/XKBproto-1.svg
+kbproto-1.0.7/specs/XKBproto-8.svg
+kbproto-1.0.7/specs/Makefile.am
+kbproto-1.0.7/specs/ch04.xml
+kbproto-1.0.7/specs/ch03.xml
+kbproto-1.0.7/specs/XKBproto-2.svg
+kbproto-1.0.7/specs/XKBproto-5.svg
+kbproto-1.0.7/specs/XKBproto-10.svg
+kbproto-1.0.7/specs/appA.xml
+kbproto-1.0.7/specs/ch12.xml
+kbproto-1.0.7/specs/ch15.xml
+kbproto-1.0.7/specs/XKBproto-4.svg
+kbproto-1.0.7/specs/XKBproto-11.svg
+kbproto-1.0.7/specs/XKBproto-3.svg
+kbproto-1.0.7/specs/ch02.xml
+kbproto-1.0.7/specs/ch05.xml
+kbproto-1.0.7/specs/Makefile.in
+kbproto-1.0.7/specs/ch14.xml
+kbproto-1.0.7/specs/ch13.xml
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating kbproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# presentproto-1.1.tar.bz2 #
+###############################
+presentproto-1.1/
+presentproto-1.1/presenttokens.h
+presentproto-1.1/README
+presentproto-1.1/config.sub
+presentproto-1.1/configure
+presentproto-1.1/presentproto.txt
+presentproto-1.1/INSTALL
+presentproto-1.1/compile
+presentproto-1.1/ChangeLog
+presentproto-1.1/Makefile.am
+presentproto-1.1/presentproto.pc.in
+presentproto-1.1/presentproto.h
+presentproto-1.1/install-sh
+presentproto-1.1/config.guess
+presentproto-1.1/COPYING
+presentproto-1.1/aclocal.m4
+presentproto-1.1/missing
+presentproto-1.1/configure.ac
+presentproto-1.1/Makefile.in
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating presentproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# randrproto-1.5.0.tar.bz2 #
+###############################
+randrproto-1.5.0/
+randrproto-1.5.0/configure.ac
+randrproto-1.5.0/randrproto.pc.in
+randrproto-1.5.0/Makefile.in
+randrproto-1.5.0/COPYING
+randrproto-1.5.0/aclocal.m4
+randrproto-1.5.0/randrproto.txt
+randrproto-1.5.0/config.guess
+randrproto-1.5.0/config.sub
+randrproto-1.5.0/ChangeLog
+randrproto-1.5.0/randrproto.h
+randrproto-1.5.0/missing
+randrproto-1.5.0/configure
+randrproto-1.5.0/Makefile.am
+randrproto-1.5.0/randr.h
+randrproto-1.5.0/install-sh
+randrproto-1.5.0/README
+randrproto-1.5.0/INSTALL
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating randrproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# recordproto-1.14.2.tar.bz2 #
+###############################
+recordproto-1.14.2/Makefile.am
+recordproto-1.14.2/INSTALL
+recordproto-1.14.2/config.guess
+recordproto-1.14.2/config.sub
+recordproto-1.14.2/recordproto.h
+recordproto-1.14.2/recordconst.h
+recordproto-1.14.2/Makefile.in
+recordproto-1.14.2/docbook.am
+recordproto-1.14.2/missing
+recordproto-1.14.2/configure.ac
+recordproto-1.14.2/README
+recordproto-1.14.2/recordstr.h
+recordproto-1.14.2/configure
+recordproto-1.14.2/specs/record.xml
+recordproto-1.14.2/specs/Makefile.in
+recordproto-1.14.2/specs/Makefile.am
+recordproto-1.14.2/recordproto.pc.in
+recordproto-1.14.2/COPYING
+recordproto-1.14.2/ChangeLog
+recordproto-1.14.2/install-sh
+recordproto-1.14.2/aclocal.m4
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports-Wall... yes
+checking if gcc supports-Wpointer-arith... yes
+checking if gcc supports-Wmissing-declarations... yes
+checking if gcc supports-Wformat=2... yes
+checking if gcc supports-Wstrict-prototypes... yes
+checking if gcc supports-Wmissing-prototypes... yes
+checking if gcc supports-Wnested-externs... yes
+checking if gcc supports-Wbad-function-cast... yes
+checking if gcc supports-Wold-style-definition... yes
+checking if gcc supports-Wdeclaration-after-statement... yes
+checking if gcc supports-Wunused... yes
+checking if gcc supports-Wuninitialized... yes
+checking if gcc supports-Wshadow... yes
+checking if gcc supports-Wcast-qual... yes
+checking if gcc supports-Wmissing-noreturn... yes
+checking if gcc supports-Wmissing-format-attribute... yes
+checking if gcc supports-Wredundant-decls... yes
+checking if gcc supports-Werror=implicit... yes
+checking if gcc supports-Werror=nonnull... yes
+checking if gcc supports-Werror=init-self... yes
+checking if gcc supports-Werror=main... yes
+checking if gcc supports-Werror=missing-braces... yes
+checking if gcc supports-Werror=sequence-point... yes
+checking if gcc supports-Werror=return-type... yes
+checking if gcc supports-Werror=trigraphs... yes
+checking if gcc supports-Werror=array-bounds... yes
+checking if gcc supports-Werror=write-strings... yes
+checking if gcc supports-Werror=address... yes
+checking if gcc supports-Werror=int-to-pointer-cast... yes
+checking if gcc supports-Werror=pointer-to-int-cast... yes
+checking if gcc supports-pedantic... yes
+checking if gcc supports-Werror... yes
+checking if gcc supports-Werror=attributes... yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating recordproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# renderproto-0.11.1.tar.bz2 #
+###############################
+renderproto-0.11.1/
+renderproto-0.11.1/renderproto.h
+renderproto-0.11.1/Makefile.in
+renderproto-0.11.1/ChangeLog
+renderproto-0.11.1/configure.ac
+renderproto-0.11.1/missing
+renderproto-0.11.1/Makefile.am
+renderproto-0.11.1/config.guess
+renderproto-0.11.1/renderproto.txt
+renderproto-0.11.1/README
+renderproto-0.11.1/COPYING
+renderproto-0.11.1/render.h
+renderproto-0.11.1/install-sh
+renderproto-0.11.1/aclocal.m4
+renderproto-0.11.1/renderproto.pc.in
+renderproto-0.11.1/INSTALL
+renderproto-0.11.1/configure
+renderproto-0.11.1/config.sub
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating renderproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# resourceproto-1.2.0.tar.bz2 #
+###############################
+resourceproto-1.2.0/README
+resourceproto-1.2.0/Makefile.am
+resourceproto-1.2.0/INSTALL
+resourceproto-1.2.0/Makefile.in
+resourceproto-1.2.0/resourceproto.pc.in
+resourceproto-1.2.0/resproto.txt
+resourceproto-1.2.0/config.guess
+resourceproto-1.2.0/install-sh
+resourceproto-1.2.0/aclocal.m4
+resourceproto-1.2.0/ChangeLog
+resourceproto-1.2.0/COPYING
+resourceproto-1.2.0/configure.ac
+resourceproto-1.2.0/XResproto.h
+resourceproto-1.2.0/configure
+resourceproto-1.2.0/config.sub
+resourceproto-1.2.0/missing
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=attributes... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating resourceproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# scrnsaverproto-1.2.2.tar.bz2 #
+###############################
+scrnsaverproto-1.2.2/INSTALL
+scrnsaverproto-1.2.2/aclocal.m4
+scrnsaverproto-1.2.2/install-sh
+scrnsaverproto-1.2.2/saver.h
+scrnsaverproto-1.2.2/configure
+scrnsaverproto-1.2.2/README
+scrnsaverproto-1.2.2/docbook.am
+scrnsaverproto-1.2.2/ChangeLog
+scrnsaverproto-1.2.2/config.guess
+scrnsaverproto-1.2.2/configure.ac
+scrnsaverproto-1.2.2/saverproto.h
+scrnsaverproto-1.2.2/Makefile.in
+scrnsaverproto-1.2.2/config.sub
+scrnsaverproto-1.2.2/COPYING
+scrnsaverproto-1.2.2/specs/Makefile.am
+scrnsaverproto-1.2.2/specs/saver.xml
+scrnsaverproto-1.2.2/specs/Makefile.in
+scrnsaverproto-1.2.2/missing
+scrnsaverproto-1.2.2/Makefile.am
+scrnsaverproto-1.2.2/scrnsaverproto.pc.in
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports-Wall... yes
+checking if gcc supports-Wpointer-arith... yes
+checking if gcc supports-Wmissing-declarations... yes
+checking if gcc supports-Wformat=2... yes
+checking if gcc supports-Wstrict-prototypes... yes
+checking if gcc supports-Wmissing-prototypes... yes
+checking if gcc supports-Wnested-externs... yes
+checking if gcc supports-Wbad-function-cast... yes
+checking if gcc supports-Wold-style-definition... yes
+checking if gcc supports-Wdeclaration-after-statement... yes
+checking if gcc supports-Wunused... yes
+checking if gcc supports-Wuninitialized... yes
+checking if gcc supports-Wshadow... yes
+checking if gcc supports-Wcast-qual... yes
+checking if gcc supports-Wmissing-noreturn... yes
+checking if gcc supports-Wmissing-format-attribute... yes
+checking if gcc supports-Wredundant-decls... yes
+checking if gcc supports-Werror=implicit... yes
+checking if gcc supports-Werror=nonnull... yes
+checking if gcc supports-Werror=init-self... yes
+checking if gcc supports-Werror=main... yes
+checking if gcc supports-Werror=missing-braces... yes
+checking if gcc supports-Werror=sequence-point... yes
+checking if gcc supports-Werror=return-type... yes
+checking if gcc supports-Werror=trigraphs... yes
+checking if gcc supports-Werror=array-bounds... yes
+checking if gcc supports-Werror=write-strings... yes
+checking if gcc supports-Werror=address... yes
+checking if gcc supports-Werror=int-to-pointer-cast... yes
+checking if gcc supports-Werror=pointer-to-int-cast... yes
+checking if gcc supports-pedantic... yes
+checking if gcc supports-Werror... yes
+checking if gcc supports-Werror=attributes... yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating scrnsaverproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# videoproto-2.3.3.tar.bz2 #
+###############################
+videoproto-2.3.3/
+videoproto-2.3.3/Makefile.am
+videoproto-2.3.3/configure
+videoproto-2.3.3/configure.ac
+videoproto-2.3.3/aclocal.m4
+videoproto-2.3.3/xv-protocol-v2.txt
+videoproto-2.3.3/vldXvMC.h
+videoproto-2.3.3/Xv.h
+videoproto-2.3.3/XvMC.h
+videoproto-2.3.3/XvMCproto.h
+videoproto-2.3.3/Xvproto.h
+videoproto-2.3.3/Makefile.in
+videoproto-2.3.3/videoproto.pc.in
+videoproto-2.3.3/COPYING
+videoproto-2.3.3/ChangeLog
+videoproto-2.3.3/INSTALL
+videoproto-2.3.3/README
+videoproto-2.3.3/compile
+videoproto-2.3.3/config.guess
+videoproto-2.3.3/config.sub
+videoproto-2.3.3/install-sh
+videoproto-2.3.3/missing
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating videoproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xcmiscproto-1.2.2.tar.bz2 #
+###############################
+xcmiscproto-1.2.2/specs/Makefile.am
+xcmiscproto-1.2.2/specs/Makefile.in
+xcmiscproto-1.2.2/specs/xc-misc.xml
+xcmiscproto-1.2.2/configure
+xcmiscproto-1.2.2/xcmiscproto.pc.in
+xcmiscproto-1.2.2/xcmiscproto.h
+xcmiscproto-1.2.2/config.sub
+xcmiscproto-1.2.2/ChangeLog
+xcmiscproto-1.2.2/xcmiscstr.h
+xcmiscproto-1.2.2/INSTALL
+xcmiscproto-1.2.2/README
+xcmiscproto-1.2.2/config.guess
+xcmiscproto-1.2.2/configure.ac
+xcmiscproto-1.2.2/install-sh
+xcmiscproto-1.2.2/Makefile.in
+xcmiscproto-1.2.2/missing
+xcmiscproto-1.2.2/aclocal.m4
+xcmiscproto-1.2.2/Makefile.am
+xcmiscproto-1.2.2/COPYING
+xcmiscproto-1.2.2/docbook.am
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports-Wall... yes
+checking if gcc supports-Wpointer-arith... yes
+checking if gcc supports-Wmissing-declarations... yes
+checking if gcc supports-Wformat=2... yes
+checking if gcc supports-Wstrict-prototypes... yes
+checking if gcc supports-Wmissing-prototypes... yes
+checking if gcc supports-Wnested-externs... yes
+checking if gcc supports-Wbad-function-cast... yes
+checking if gcc supports-Wold-style-definition... yes
+checking if gcc supports-Wdeclaration-after-statement... yes
+checking if gcc supports-Wunused... yes
+checking if gcc supports-Wuninitialized... yes
+checking if gcc supports-Wshadow... yes
+checking if gcc supports-Wcast-qual... yes
+checking if gcc supports-Wmissing-noreturn... yes
+checking if gcc supports-Wmissing-format-attribute... yes
+checking if gcc supports-Wredundant-decls... yes
+checking if gcc supports-Werror=implicit... yes
+checking if gcc supports-Werror=nonnull... yes
+checking if gcc supports-Werror=init-self... yes
+checking if gcc supports-Werror=main... yes
+checking if gcc supports-Werror=missing-braces... yes
+checking if gcc supports-Werror=sequence-point... yes
+checking if gcc supports-Werror=return-type... yes
+checking if gcc supports-Werror=trigraphs... yes
+checking if gcc supports-Werror=array-bounds... yes
+checking if gcc supports-Werror=write-strings... yes
+checking if gcc supports-Werror=address... yes
+checking if gcc supports-Werror=int-to-pointer-cast... yes
+checking if gcc supports-Werror=pointer-to-int-cast... yes
+checking if gcc supports-pedantic... yes
+checking if gcc supports-Werror... yes
+checking if gcc supports-Werror=attributes... yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating xcmiscproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xextproto-7.3.0.tar.bz2 #
+###############################
+xextproto-7.3.0/
+xextproto-7.3.0/agproto.h
+xextproto-7.3.0/dbe.h
+xextproto-7.3.0/multibufproto.h
+xextproto-7.3.0/mitmiscconst.h
+xextproto-7.3.0/multibufconst.h
+xextproto-7.3.0/configure
+xextproto-7.3.0/shmproto.h
+xextproto-7.3.0/README
+xextproto-7.3.0/ChangeLog
+xextproto-7.3.0/missing
+xextproto-7.3.0/ag.h
+xextproto-7.3.0/dpmsproto.h
+xextproto-7.3.0/docbook.am
+xextproto-7.3.0/xtestext1proto.h
+xextproto-7.3.0/shmstr.h
+xextproto-7.3.0/dpmsconst.h
+xextproto-7.3.0/cup.h
+xextproto-7.3.0/xtestconst.h
+xextproto-7.3.0/config.guess
+xextproto-7.3.0/EVI.h
+xextproto-7.3.0/cupproto.h
+xextproto-7.3.0/securproto.h
+xextproto-7.3.0/syncconst.h
+xextproto-7.3.0/mitmiscproto.h
+xextproto-7.3.0/syncproto.h
+xextproto-7.3.0/Makefile.am
+xextproto-7.3.0/xextproto.pc.in
+xextproto-7.3.0/COPYING
+xextproto-7.3.0/shapeproto.h
+xextproto-7.3.0/xtestproto.h
+xextproto-7.3.0/ge.h
+xextproto-7.3.0/shm.h
+xextproto-7.3.0/syncstr.h
+xextproto-7.3.0/aclocal.m4
+xextproto-7.3.0/xtestext1const.h
+xextproto-7.3.0/INSTALL
+xextproto-7.3.0/geproto.h
+xextproto-7.3.0/configure.ac
+xextproto-7.3.0/shapeconst.h
+xextproto-7.3.0/lbx.h
+xextproto-7.3.0/dbeproto.h
+xextproto-7.3.0/compile
+xextproto-7.3.0/shapestr.h
+xextproto-7.3.0/EVIproto.h
+xextproto-7.3.0/lbxproto.h
+xextproto-7.3.0/config.sub
+xextproto-7.3.0/secur.h
+xextproto-7.3.0/Makefile.in
+xextproto-7.3.0/specs/
+xextproto-7.3.0/specs/appgrp.xml
+xextproto-7.3.0/specs/lbx.xml
+xextproto-7.3.0/specs/security.xml
+xextproto-7.3.0/specs/Makefile.am
+xextproto-7.3.0/specs/sync.xml
+xextproto-7.3.0/specs/shm.xml
+xextproto-7.3.0/specs/dpms.xml
+xextproto-7.3.0/specs/shape.xml
+xextproto-7.3.0/specs/geproto.xml
+xextproto-7.3.0/specs/multibuf.xml
+xextproto-7.3.0/specs/dbe.xml
+xextproto-7.3.0/specs/appendix.xml
+xextproto-7.3.0/specs/tog-cup.xml
+xextproto-7.3.0/specs/evi.xml
+xextproto-7.3.0/specs/Makefile.in
+xextproto-7.3.0/specs/xtest.xml
+xextproto-7.3.0/install-sh
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+/sources/boot/X11/protocol_headers/xextproto-7.3.0/missing: Unknown `--is-lightweight' option
+Try `/sources/boot/X11/protocol_headers/xextproto-7.3.0/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating xextproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xf86bigfontproto-1.2.0.tar.bz2 #
+###############################
+xf86bigfontproto-1.2.0/
+xf86bigfontproto-1.2.0/COPYING
+xf86bigfontproto-1.2.0/xf86bigfont.h
+xf86bigfontproto-1.2.0/Makefile.am
+xf86bigfontproto-1.2.0/aclocal.m4
+xf86bigfontproto-1.2.0/xf86bigfstr.h
+xf86bigfontproto-1.2.0/missing
+xf86bigfontproto-1.2.0/ChangeLog
+xf86bigfontproto-1.2.0/xf86bigfproto.h
+xf86bigfontproto-1.2.0/xf86bigfontproto.pc.in
+xf86bigfontproto-1.2.0/Makefile.in
+xf86bigfontproto-1.2.0/configure.ac
+xf86bigfontproto-1.2.0/install-sh
+xf86bigfontproto-1.2.0/configure
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating xf86bigfontproto.pc
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xf86dgaproto-2.1.tar.bz2 #
+###############################
+xf86dgaproto-2.1/
+xf86dgaproto-2.1/COPYING
+xf86dgaproto-2.1/Makefile.am
+xf86dgaproto-2.1/xf86dga1str.h
+xf86dgaproto-2.1/xf86dgaproto.h
+xf86dgaproto-2.1/xf86dga.h
+xf86dgaproto-2.1/aclocal.m4
+xf86dgaproto-2.1/config.sub
+xf86dgaproto-2.1/missing
+xf86dgaproto-2.1/ChangeLog
+xf86dgaproto-2.1/xf86dgastr.h
+xf86dgaproto-2.1/config.guess
+xf86dgaproto-2.1/xf86dgaproto.pc.in
+xf86dgaproto-2.1/xf86dga1const.h
+xf86dgaproto-2.1/Makefile.in
+xf86dgaproto-2.1/configure.ac
+xf86dgaproto-2.1/install-sh
+xf86dgaproto-2.1/xf86dgaconst.h
+xf86dgaproto-2.1/xf86dga1proto.h
+xf86dgaproto-2.1/configure
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for gcc option to accept ISO C99... none needed
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating xf86dgaproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xf86driproto-2.1.1.tar.bz2 #
+###############################
+xf86driproto-2.1.1/xf86dri.h
+xf86driproto-2.1.1/ChangeLog
+xf86driproto-2.1.1/configure
+xf86driproto-2.1.1/xf86driproto.pc.in
+xf86driproto-2.1.1/xf86dristr.h
+xf86driproto-2.1.1/configure.ac
+xf86driproto-2.1.1/INSTALL
+xf86driproto-2.1.1/config.sub
+xf86driproto-2.1.1/xf86driproto.h
+xf86driproto-2.1.1/missing
+xf86driproto-2.1.1/README
+xf86driproto-2.1.1/Makefile.in
+xf86driproto-2.1.1/config.guess
+xf86driproto-2.1.1/install-sh
+xf86driproto-2.1.1/aclocal.m4
+xf86driproto-2.1.1/Makefile.am
+xf86driproto-2.1.1/COPYING
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating xf86driproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xf86vidmodeproto-2.3.1.tar.bz2 #
+###############################
+xf86vidmodeproto-2.3.1/config.guess
+xf86vidmodeproto-2.3.1/Makefile.am
+xf86vidmodeproto-2.3.1/INSTALL
+xf86vidmodeproto-2.3.1/Makefile.in
+xf86vidmodeproto-2.3.1/config.sub
+xf86vidmodeproto-2.3.1/README
+xf86vidmodeproto-2.3.1/xf86vidmodeproto.pc.in
+xf86vidmodeproto-2.3.1/xf86vm.h
+xf86vidmodeproto-2.3.1/xf86vmproto.h
+xf86vidmodeproto-2.3.1/configure
+xf86vidmodeproto-2.3.1/xf86vmstr.h
+xf86vidmodeproto-2.3.1/COPYING
+xf86vidmodeproto-2.3.1/ChangeLog
+xf86vidmodeproto-2.3.1/missing
+xf86vidmodeproto-2.3.1/install-sh
+xf86vidmodeproto-2.3.1/configure.ac
+xf86vidmodeproto-2.3.1/aclocal.m4
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating xf86vidmodeproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xineramaproto-1.2.1.tar.bz2 #
+###############################
+xineramaproto-1.2.1/COPYING
+xineramaproto-1.2.1/Makefile.am
+xineramaproto-1.2.1/panoramiXproto.h
+xineramaproto-1.2.1/config.guess
+xineramaproto-1.2.1/Makefile.in
+xineramaproto-1.2.1/config.sub
+xineramaproto-1.2.1/missing
+xineramaproto-1.2.1/xineramaproto.pc.in
+xineramaproto-1.2.1/README
+xineramaproto-1.2.1/configure.ac
+xineramaproto-1.2.1/INSTALL
+xineramaproto-1.2.1/configure
+xineramaproto-1.2.1/install-sh
+xineramaproto-1.2.1/ChangeLog
+xineramaproto-1.2.1/aclocal.m4
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating xineramaproto.pc
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static
+###############################
+# xproto-7.0.31.tar.bz2 #
+###############################
+xproto-7.0.31/
+xproto-7.0.31/Makefile.am
+xproto-7.0.31/README
+xproto-7.0.31/do-not-use-config.h.in
+xproto-7.0.31/ChangeLog
+xproto-7.0.31/ap_keysym.h
+xproto-7.0.31/Xalloca.h
+xproto-7.0.31/Xos_r.h
+xproto-7.0.31/configure
+xproto-7.0.31/Xprotostr.h
+xproto-7.0.31/Xfuncproto.h.in
+xproto-7.0.31/xproto.pc.in
+xproto-7.0.31/Xw32defs.h
+xproto-7.0.31/aclocal.m4
+xproto-7.0.31/compile
+xproto-7.0.31/docbook.am
+xproto-7.0.31/Xos.h
+xproto-7.0.31/install-sh
+xproto-7.0.31/config.sub
+xproto-7.0.31/Xdefs.h
+xproto-7.0.31/missing
+xproto-7.0.31/Xosdefs.h
+xproto-7.0.31/Xmd.h
+xproto-7.0.31/DECkeysym.h
+xproto-7.0.31/Sunkeysym.h
+xproto-7.0.31/XWDFile.h
+xproto-7.0.31/keysym.h
+xproto-7.0.31/INSTALL
+xproto-7.0.31/config.guess
+xproto-7.0.31/Xwinsock.h
+xproto-7.0.31/Xarch.h
+xproto-7.0.31/Xatom.h
+xproto-7.0.31/Makefile.in
+xproto-7.0.31/specs/
+xproto-7.0.31/specs/encoding.xml
+xproto-7.0.31/specs/Makefile.am
+xproto-7.0.31/specs/SIAddresses/
+xproto-7.0.31/specs/SIAddresses/Makefile.am
+xproto-7.0.31/specs/SIAddresses/README
+xproto-7.0.31/specs/SIAddresses/localuser.txt
+xproto-7.0.31/specs/SIAddresses/hostname.txt
+xproto-7.0.31/specs/SIAddresses/Makefile.in
+xproto-7.0.31/specs/SIAddresses/IPv6.txt
+xproto-7.0.31/specs/x11protocol.xml
+xproto-7.0.31/specs/Makefile.in
+xproto-7.0.31/specs/sect1-9.xml
+xproto-7.0.31/specs/glossary.xml
+xproto-7.0.31/specs/keysyms.xml
+xproto-7.0.31/configure.ac
+xproto-7.0.31/XF86keysym.h
+xproto-7.0.31/Xpoll.h.in
+xproto-7.0.31/COPYING
+xproto-7.0.31/AUTHORS
+xproto-7.0.31/keysymdef.h
+xproto-7.0.31/Xwindows.h
+xproto-7.0.31/Xthreads.h
+xproto-7.0.31/Xfuncs.h
+xproto-7.0.31/X.h
+xproto-7.0.31/HPkeysym.h
+xproto-7.0.31/Xproto.h
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+/sources/boot/X11/protocol_headers/xproto-7.0.31/missing: Unknown `--is-lightweight' option
+Try `/sources/boot/X11/protocol_headers/xproto-7.0.31/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to build functional specifications... yes
+checking for xmlto... /usr/bin/xmlto
+checking the xmlto version... 0.0.28
+configure: WARNING: xmlto cannot generate text format, this format skipped
+checking for fop... no
+configure: WARNING: fop not found - documentation targets will be skipped
+checking for xsltproc... /usr/bin/xsltproc
+checking for X.Org SGML entities >= 1.8... no
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for fd_set.fds_bits... no
+checking for fd_set.__fds_bits... yes
+checking whether const prototypes are supported... yes
+checking whether varargs prototypes are supported... yes
+checking whether nested prototypes are supported... yes
+checking whether to force function prototypes... yes
+checking whether to widen function prototypes... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating specs/Makefile
+config.status: creating specs/SIAddresses/Makefile
+config.status: creating Xpoll.h
+config.status: creating xproto.pc
+config.status: creating do-not-use-config.h
+config.status: creating Xfuncproto.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-static

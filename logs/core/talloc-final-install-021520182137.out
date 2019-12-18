@@ -1,0 +1,20 @@
+WAF_MAKE=1 PATH=buildtools/bin:../../buildtools/bin:$PATH waf install
+Waf: Entering directory `/lfskernel/sources/boot/talloc-2.1.10/bin'
+* installing bin/default/talloc.pc as /usr/lib/pkgconfig/talloc.pc
+* installing bin/default/pytalloc-util.pc as /usr/lib/pkgconfig/pytalloc-util.pc
+[21/28] Linking default/talloc_test_magic_differs_helper.inst
+[25/28] Linking default/libtalloc.inst.so
+[26/28] Linking default/libpytalloc-util.inst.so
+[27/28] Linking default/pytalloc.inst.so
+[28/28] Linking default/talloc_testsuite.inst
+* installing bin/default/libtalloc.inst.so as /usr/lib/libtalloc.so.2.1.10
+* symlink /usr/lib/libtalloc.so.2 (-> libtalloc.so.2.1.10)
+* symlink /usr/lib/libtalloc.so (-> libtalloc.so.2.1.10)
+* installing bin/default/libpytalloc-util.inst.so as /usr/lib/libpytalloc-util.so.2.1.10
+* symlink /usr/lib/libpytalloc-util.so.2 (-> libpytalloc-util.so.2.1.10)
+* symlink /usr/lib/libpytalloc-util.so (-> libpytalloc-util.so.2.1.10)
+* installing bin/default/pytalloc.inst.so as /usr/lib/python2.7/site-packages/talloc.so
+* installing talloc.h as /usr/include/talloc.h
+* installing pytalloc.h as /usr/include/pytalloc.h
+Waf: Leaving directory `/lfskernel/sources/boot/talloc-2.1.10/bin'
+'install' finished successfully (0.153s)

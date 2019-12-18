@@ -1,0 +1,561 @@
+WAF_MAKE=1 PATH=buildtools/bin:../../buildtools/bin:$PATH waf test 
+test: ref1
+# SINGLE REFERENCE FREE
+full talloc report on 'root' (total      9 bytes in   8 blocks)
+    r1                             contains      1 bytes in   2 blocks (ref 0) 0xd4f940
+        reference to: p2
+    p1                             contains      8 bytes in   5 blocks (ref 0) 0xd4f710
+        x3                             contains      3 bytes in   1 blocks (ref 0) 0xd4f8d0
+        x2                             contains      2 bytes in   1 blocks (ref 0) 0xd4f860
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+        p2                             contains      1 bytes in   1 blocks (ref 1) 0xd4f780
+Freeing p2
+full talloc report on 'root' (total      9 bytes in   7 blocks)
+    r1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f940
+    p1                             contains      8 bytes in   5 blocks (ref 0) 0xd4f710
+        x3                             contains      3 bytes in   1 blocks (ref 0) 0xd4f8d0
+        x2                             contains      2 bytes in   1 blocks (ref 0) 0xd4f860
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+        p2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f780
+Freeing p1
+full talloc report on 'root' (total      1 bytes in   2 blocks)
+    r1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f940
+Freeing r1
+full talloc report on 'null_context' (total      0 bytes in   2 blocks)
+    root                           contains      0 bytes in   1 blocks (ref 0) 0xd4f6a0
+Testing NULL
+success: ref1
+test: ref2
+# DOUBLE REFERENCE FREE
+full talloc report on 'root' (total      6 bytes in   8 blocks)
+    r1                             contains      1 bytes in   2 blocks (ref 0) 0xd4e2c0
+        reference to: p2
+    p1                             contains      5 bytes in   5 blocks (ref 0) 0xd4f710
+        p2                             contains      1 bytes in   1 blocks (ref 1) 0xd4f8d0
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f780
+Freeing ref
+full talloc report on 'root' (total      6 bytes in   7 blocks)
+    r1                             contains      1 bytes in   1 blocks (ref 0) 0xd4e2c0
+    p1                             contains      5 bytes in   5 blocks (ref 0) 0xd4f710
+        p2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f8d0
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f780
+Freeing p2
+full talloc report on 'root' (total      5 bytes in   6 blocks)
+    r1                             contains      1 bytes in   1 blocks (ref 0) 0xd4e2c0
+    p1                             contains      4 bytes in   4 blocks (ref 0) 0xd4f710
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f780
+Freeing p1
+full talloc report on 'root' (total      1 bytes in   2 blocks)
+    r1                             contains      1 bytes in   1 blocks (ref 0) 0xd4e2c0
+Freeing r1
+full talloc report on 'root' (total      0 bytes in   1 blocks)
+success: ref2
+test: ref3
+# PARENT REFERENCE FREE
+full talloc report on 'root' (total      3 bytes in   5 blocks)
+    p2                             contains      1 bytes in   2 blocks (ref 0) 0xd4f780
+        reference to: r1
+    p1                             contains      2 bytes in   2 blocks (ref 0) 0xd4f710
+        r1                             contains      1 bytes in   1 blocks (ref 1) 0xd4f7f0
+Freeing p1
+full talloc report on 'root' (total      2 bytes in   3 blocks)
+    p2                             contains      2 bytes in   2 blocks (ref 0) 0xd4f780
+        r1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+Freeing p2
+full talloc report on 'root' (total      0 bytes in   1 blocks)
+success: ref3
+test: ref4
+# REFERRER REFERENCE FREE
+full talloc report on 'root' (total      6 bytes in   8 blocks)
+    r1                             contains      1 bytes in   2 blocks (ref 0) 0xd4f6a0
+        reference to: p2
+    p1                             contains      5 bytes in   5 blocks (ref 0) 0xd4f780
+        p2                             contains      1 bytes in   1 blocks (ref 1) 0xd4f8d0
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f710
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+Freeing r1
+full talloc report on 'root' (total      5 bytes in   6 blocks)
+    p1                             contains      5 bytes in   5 blocks (ref 0) 0xd4f780
+        p2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f8d0
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f710
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+Freeing p2
+full talloc report on 'root' (total      4 bytes in   5 blocks)
+    p1                             contains      4 bytes in   4 blocks (ref 0) 0xd4f780
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f710
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f7f0
+Freeing p1
+full talloc report on 'root' (total      0 bytes in   1 blocks)
+success: ref4
+test: unlink
+# UNLINK
+full talloc report on 'root' (total      6 bytes in   8 blocks)
+    p1                             contains      6 bytes in   7 blocks (ref 0) 0xd4f7f0
+        r1                             contains      1 bytes in   2 blocks (ref 0) 0xd4f940
+            reference to: p2
+        p2                             contains      1 bytes in   1 blocks (ref 1) 0xd4f6a0
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f8d0
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f710
+Unreferencing r1
+full talloc report on 'root' (total      6 bytes in   7 blocks)
+    p1                             contains      6 bytes in   6 blocks (ref 0) 0xd4f7f0
+        r1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f940
+        p2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f6a0
+        x3                             contains      1 bytes in   1 blocks (ref 0) 0xd4f8d0
+        x2                             contains      1 bytes in   1 blocks (ref 0) 0xd4f860
+        x1                             contains      1 bytes in   1 blocks (ref 0) 0xd4f710
+Freeing p1
+full talloc report on 'root' (total      0 bytes in   1 blocks)
+success: unlink
+test: misc
+# MISCELLANEOUS
+talloc report on 'talloc_new: ../testsuite.c:400' (total     19 bytes in   3 blocks)
+    UNNAMED                        contains     19 bytes in   2 blocks (ref 0) 0xd4f710
+full talloc report on 'talloc_new: ../testsuite.c:400' (total     30 bytes in   4 blocks)
+    p2                             contains     20 bytes in   1 blocks (ref 1) 0xd4fbe0
+    p1                             contains     10 bytes in   2 blocks (ref 0) 0xd4fb60
+        reference to: p2
+full talloc report on 'talloc_new: ../testsuite.c:400' (total     30 bytes in   3 blocks)
+    p1                             contains     30 bytes in   2 blocks (ref 0) 0xd4fb60
+        p2                             contains     20 bytes in   1 blocks (ref 0) 0xd4fbe0
+full talloc report on 'talloc_new: ../testsuite.c:400' (total     30 bytes in   3 blocks)
+    p2                             contains     20 bytes in   1 blocks (ref 1) 0xd4fbe0
+    p1                             contains     10 bytes in   1 blocks (ref 0) 0xd4fb60
+full talloc report on 'talloc_new: ../testsuite.c:400' (total     10 bytes in   2 blocks)
+    p1                             contains     10 bytes in   1 blocks (ref 0) 0xd4fb60
+talloc report on 'talloc_new: ../testsuite.c:400' (total      0 bytes in   1 blocks)
+talloc report on 'null_context' (total      0 bytes in   2 blocks)
+    talloc_new: ../testsuite.c:400 contains      0 bytes in   1 blocks (ref 0) 0xd4f7f0
+success: misc
+test: realloc
+# REALLOC
+success: realloc
+test: REALLOC WITH CHILD
+success: REALLOC WITH CHILD
+test: steal
+# STEAL
+full talloc report on 'null_context' (total      3 bytes in   2 blocks)
+    ../testsuite.c:751             contains      3 bytes in   1 blocks (ref 0) 0xd4fe10
+success: steal
+test: move
+# MOVE
+success: move
+test: unref_reparent
+# UNREFERENCE AFTER PARENT FREED
+success: unref_reparent
+test: realloc_fn
+# talloc_realloc_fn
+success: realloc_fn
+test: type
+# talloc type checking
+success: type
+test: lifeless
+# TALLOC_UNLINK LOOP
+full talloc report on 'talloc_new: ../testsuite.c:928' (total     13 bytes in   4 blocks)
+    parent                         contains     13 bytes in   3 blocks (ref 1) 0xd4e2c0
+        child                          contains      6 bytes in   2 blocks (ref 1) 0xd4fd30
+            reference to: parent
+full talloc report on 'talloc_new: ../testsuite.c:928' (total      0 bytes in   1 blocks)
+success: lifeless
+test: loop
+# TALLOC LOOP DESTRUCTION
+full talloc report on 'talloc_new: ../testsuite.c:960' (total     33 bytes in   6 blocks)
+    parent                         contains     33 bytes in   5 blocks (ref 0) 0xd4e2c0
+        struct req1                    contains     26 bytes in   4 blocks (ref 1) 0xd4fbe0
+            req3                           contains      5 bytes in   2 blocks (ref 0) 0xd4fe10
+                reference to: struct req1
+            req2                           contains      5 bytes in   1 blocks (ref 0) 0xd4fe80
+full talloc report on 'talloc_new: ../testsuite.c:960' (total      0 bytes in   1 blocks)
+full talloc report on 'null_context' (total      0 bytes in   2 blocks)
+    talloc_new: ../testsuite.c:960 contains      0 bytes in   1 blocks (ref 0) 0xd4fd30
+success: loop
+test: free_parent_deny_child
+# TALLOC FREE PARENT DENY CHILD
+success: free_parent_deny_child
+test: free_for_exit
+# TALLOC FREE FOR EXIT
+success: free_for_exit
+test: free_parent_reparent_child
+# TALLOC FREE PARENT REPARENT CHILD
+success: free_parent_reparent_child
+test: free_parent_reparent_child_in_pool
+# TALLOC FREE PARENT REPARENT CHILD IN POOL
+success: free_parent_reparent_child_in_pool
+test: ptrtype
+# TALLOC PTRTYPE
+success: ptrtype
+test: free_in_destructor
+# TALLOC FREE IN DESTRUCTOR
+success: free_in_destructor
+full talloc report on 'talloc_new: ../testsuite.c:1538' (total      4 bytes in   2 blocks)
+    foo                            contains      4 bytes in   1 blocks (ref 1) 0xd4f940
+full talloc report on 'talloc_new: ../testsuite.c:1554' (total      5 bytes in   2 blocks)
+    testname2                      contains      5 bytes in   1 blocks (ref 0) 0xd4f710
+test: memlimit
+# MEMORY LIMITS
+==== talloc_new(NULL)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      0 bytes in   1 blocks)
+==== talloc_size(root, 2048)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total   2048 bytes in   2 blocks)
+    ../testsuite.c:1607            contains   2048 bytes in   1 blocks (ref 0) 0xd503b0
+==== talloc_free(l1)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      0 bytes in   1 blocks)
+==== talloc_strdup(root, level 1)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      8 bytes in   2 blocks)
+    level 1                        contains      8 bytes in   1 blocks (ref 0) 0xd4f710
+==== talloc_set_memlimit(l1, 2048)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      8 bytes in   2 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 104 bytes)
+    level 1                        contains      8 bytes in   1 blocks (ref 0) 0xd4f710
+==== talloc_size(root, 2048)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      8 bytes in   2 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 104 bytes)
+    level 1                        contains      8 bytes in   1 blocks (ref 0) 0xd4f710
+==== talloc_strdup(l1, level 2)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     16 bytes in   3 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 208 bytes)
+    level 1                        contains     16 bytes in   2 blocks (ref 0) 0xd4f710
+        level 2                        contains      8 bytes in   1 blocks (ref 0) 0xd50340
+==== talloc_free(l2)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      8 bytes in   2 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 104 bytes)
+    level 1                        contains      8 bytes in   1 blocks (ref 0) 0xd4f710
+==== talloc_size(NULL, 2048)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      8 bytes in   2 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 104 bytes)
+    level 1                        contains      8 bytes in   1 blocks (ref 0) 0xd4f710
+==== talloc_steal(l1, l2)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total   2056 bytes in   3 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 2248 bytes)
+    level 1                        contains   2056 bytes in   2 blocks (ref 0) 0xd4f710
+        ../testsuite.c:1651            contains   2048 bytes in   1 blocks (ref 0) 0xd503b0
+==== talloc_strdup(l2, level 3)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total   2056 bytes in   3 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 2248 bytes)
+    level 1                        contains   2056 bytes in   2 blocks (ref 0) 0xd4f710
+        ../testsuite.c:1651            contains   2048 bytes in   1 blocks (ref 0) 0xd503b0
+==== talloc_free(l2)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total      8 bytes in   2 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 104 bytes)
+    level 1                        contains      8 bytes in   1 blocks (ref 0) 0xd4f710
+==== talloc_strdup(NULL, level 2)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     16 bytes in   3 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 208 bytes)
+    level 1                        contains     16 bytes in   2 blocks (ref 0) 0xd4f710
+        level 2                        contains      8 bytes in   1 blocks (ref 0) 0xd50340
+==== talloc_strdup(l2, level 3)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     24 bytes in   4 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 312 bytes)
+    level 1                        contains     24 bytes in   3 blocks (ref 0) 0xd4f710
+        level 2                        contains     16 bytes in   2 blocks (ref 0) 0xd50340
+            level 3                        contains      8 bytes in   1 blocks (ref 0) 0xd503b0
+==== talloc_set_memlimit(l3, 1024)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     24 bytes in   4 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 312 bytes)
+    level 1                        contains     24 bytes in   3 blocks (ref 0) 0xd4f710
+        level 2                        contains     16 bytes in   2 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 104 bytes)
+            level 3                        contains      8 bytes in   1 blocks (ref 0) 0xd503b0
+==== talloc_strdup(l3, level 4)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     32 bytes in   5 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 416 bytes)
+    level 1                        contains     32 bytes in   4 blocks (ref 0) 0xd4f710
+        level 2                        contains     24 bytes in   3 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 208 bytes)
+            level 3                        contains     16 bytes in   2 blocks (ref 0) 0xd503b0
+                level 4                        contains      8 bytes in   1 blocks (ref 0) 0xd50450
+==== talloc_set_memlimit(l4, 512)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     32 bytes in   5 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 416 bytes)
+    level 1                        contains     32 bytes in   4 blocks (ref 0) 0xd4f710
+        level 2                        contains     24 bytes in   3 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 208 bytes)
+            level 3                        contains     16 bytes in   2 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 104 bytes)
+                level 4                        contains      8 bytes in   1 blocks (ref 0) 0xd50450
+==== talloc_strdup(l4, level 5)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     40 bytes in   6 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 520 bytes)
+    level 1                        contains     40 bytes in   5 blocks (ref 0) 0xd4f710
+        level 2                        contains     32 bytes in   4 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 312 bytes)
+            level 3                        contains     24 bytes in   3 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 208 bytes)
+                level 4                        contains     16 bytes in   2 blocks (ref 0) 0xd50450
+                    level 5                        contains      8 bytes in   1 blocks (ref 0) 0xd504f0
+==== talloc_realloc(NULL, l5, char, 600)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     40 bytes in   6 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 520 bytes)
+    level 1                        contains     40 bytes in   5 blocks (ref 0) 0xd4f710
+        level 2                        contains     32 bytes in   4 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 312 bytes)
+            level 3                        contains     24 bytes in   3 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 208 bytes)
+                level 4                        contains     16 bytes in   2 blocks (ref 0) 0xd50450
+                    level 5                        contains      8 bytes in   1 blocks (ref 0) 0xd504f0
+==== talloc_realloc(NULL, l5, char, 5)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     37 bytes in   6 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 517 bytes)
+    level 1                        contains     37 bytes in   5 blocks (ref 0) 0xd4f710
+        level 2                        contains     29 bytes in   4 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 309 bytes)
+            level 3                        contains     21 bytes in   3 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 205 bytes)
+                level 4                        contains     13 bytes in   2 blocks (ref 0) 0xd50450
+                    char                           contains      5 bytes in   1 blocks (ref 0) 0xd504f0
+==== talloc_strdup(l3, level 4)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     45 bytes in   7 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 621 bytes)
+    level 1                        contains     45 bytes in   6 blocks (ref 0) 0xd4f710
+        level 2                        contains     37 bytes in   5 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 413 bytes)
+            level 3                        contains     29 bytes in   4 blocks (ref 0) 0xd503b0
+                level 4                        contains      8 bytes in   1 blocks (ref 0) 0xd50560
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 205 bytes)
+                level 4                        contains     13 bytes in   2 blocks (ref 0) 0xd50450
+                    char                           contains      5 bytes in   1 blocks (ref 0) 0xd504f0
+==== talloc_set_memlimit(l4, 512)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     45 bytes in   7 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 621 bytes)
+    level 1                        contains     45 bytes in   6 blocks (ref 0) 0xd4f710
+        level 2                        contains     37 bytes in   5 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 413 bytes)
+            level 3                        contains     29 bytes in   4 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 104 bytes)
+                level 4                        contains      8 bytes in   1 blocks (ref 0) 0xd50560
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 205 bytes)
+                level 4                        contains     13 bytes in   2 blocks (ref 0) 0xd50450
+                    char                           contains      5 bytes in   1 blocks (ref 0) 0xd504f0
+==== talloc_strdup(l4, level 5)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     53 bytes in   8 blocks)
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 725 bytes)
+    level 1                        contains     53 bytes in   7 blocks (ref 0) 0xd4f710
+        level 2                        contains     45 bytes in   6 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 517 bytes)
+            level 3                        contains     37 bytes in   5 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 208 bytes)
+                level 4                        contains     16 bytes in   2 blocks (ref 0) 0xd50560
+                    level 5                        contains      8 bytes in   1 blocks (ref 0) 0xd50600
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 205 bytes)
+                level 4                        contains     13 bytes in   2 blocks (ref 0) 0xd50450
+                    char                           contains      5 bytes in   1 blocks (ref 0) 0xd504f0
+==== Make new temp context and steal l5
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total     53 bytes in   9 blocks)
+    talloc_new: ../testsuite.c:1746 contains      8 bytes in   2 blocks (ref 0) 0xd50670
+        level 5                        contains      8 bytes in   1 blocks (ref 0) 0xd50600
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 621 bytes)
+    level 1                        contains     45 bytes in   6 blocks (ref 0) 0xd4f710
+        level 2                        contains     37 bytes in   5 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 413 bytes)
+            level 3                        contains     29 bytes in   4 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 208 bytes)
+                level 4                        contains      8 bytes in   1 blocks (ref 0) 0xd50560
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 205 bytes)
+                level 4                        contains     13 bytes in   2 blocks (ref 0) 0xd50450
+                    char                           contains      5 bytes in   1 blocks (ref 0) 0xd504f0
+==== talloc_size(t, 2048)
+full talloc report on 'talloc_new: ../testsuite.c:1602' (total   2101 bytes in  10 blocks)
+    talloc_new: ../testsuite.c:1746 contains   2056 bytes in   3 blocks (ref 0) 0xd50670
+        ../testsuite.c:1752            contains   2048 bytes in   1 blocks (ref 0) 0xd506e0
+        level 5                        contains      8 bytes in   1 blocks (ref 0) 0xd50600
+    level 1                        is a memlimit context (max_size = 2048 bytes, cur_size = 621 bytes)
+    level 1                        contains     45 bytes in   6 blocks (ref 0) 0xd4f710
+        level 2                        contains     37 bytes in   5 blocks (ref 0) 0xd50340
+            level 3                        is a memlimit context (max_size = 1024 bytes, cur_size = 413 bytes)
+            level 3                        contains     29 bytes in   4 blocks (ref 0) 0xd503b0
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 208 bytes)
+                level 4                        contains      8 bytes in   1 blocks (ref 0) 0xd50560
+                level 4                        is a memlimit context (max_size = 512 bytes, cur_size = 205 bytes)
+                level 4                        contains     13 bytes in   2 blocks (ref 0) 0xd50450
+                    char                           contains      5 bytes in   1 blocks (ref 0) 0xd504f0
+success: memlimit
+test: pthread_talloc_passing
+# PTHREAD TALLOC PASSING
+Created 100 threads
+talloc report on 'toplevel' (total  10000 bytes in 101 blocks)
+    thread:84                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8025180
+    thread:64                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8024ba0
+    thread:18                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80245c0
+    thread:93                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8023fe0
+    thread:44                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8023a00
+    thread:9                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8023420
+    thread:2                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8022e40
+    thread:95                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8022860
+    thread:88                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8022280
+    thread:77                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8021ca0
+    thread:70                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80216c0
+    thread:61                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80210e0
+    thread:57                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8020b00
+    thread:55                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8020520
+    thread:50                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801ff40
+    thread:45                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801f960
+    thread:39                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801f380
+    thread:36                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801eda0
+    thread:28                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801e7c0
+    thread:26                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801e1e0
+    thread:25                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801dc00
+    thread:20                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801d620
+    thread:17                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801d040
+    thread:15                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801ca60
+    thread:10                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801c480
+    thread:7                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801bea0
+    thread:6                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801b8c0
+    thread:5                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801b2e0
+    thread:1                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801ad00
+    thread:0                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801a720
+    thread:56                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b801a140
+    thread:24                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8019b60
+    thread:4                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8019580
+    thread:3                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8018fa0
+    thread:30                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80189c0
+    thread:73                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80183e0
+    thread:34                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8017e00
+    thread:21                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8017820
+    thread:8                       contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8017240
+    thread:46                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8016c60
+    thread:12                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8016680
+    thread:79                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80160a0
+    thread:71                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8015ac0
+    thread:68                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80154e0
+    thread:67                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8014f00
+    thread:58                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8014920
+    thread:52                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8014340
+    thread:51                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8013d60
+    thread:49                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8013780
+    thread:43                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80131a0
+    thread:37                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8012bc0
+    thread:33                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80125e0
+    thread:31                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8012000
+    thread:23                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8011a20
+    thread:22                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8011440
+    thread:19                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8010e60
+    thread:16                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8010880
+    thread:14                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80102a0
+    thread:13                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800fcc0
+    thread:11                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800f6e0
+    thread:32                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800f100
+    thread:86                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800eb20
+    thread:92                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800e540
+    thread:89                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800df60
+    thread:87                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800d980
+    thread:42                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800d3a0
+    thread:41                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800cdc0
+    thread:35                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800c7e0
+    thread:29                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800c200
+    thread:27                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800bc20
+    thread:85                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800b640
+    thread:82                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800b060
+    thread:53                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800aa80
+    thread:40                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b800a4a0
+    thread:74                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8009ec0
+    thread:47                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80098e0
+    thread:72                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8009300
+    thread:62                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8008d20
+    thread:98                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8008740
+    thread:38                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8008160
+    thread:76                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8007b80
+    thread:48                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80075a0
+    thread:65                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8006fc0
+    thread:83                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80069e0
+    thread:60                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8006400
+    thread:66                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8005e20
+    thread:54                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8005840
+    thread:90                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8005260
+    thread:69                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8004c80
+    thread:97                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80046a0
+    thread:91                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80040c0
+    thread:80                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8003ae0
+    thread:75                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8003500
+    thread:63                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8002f20
+    thread:59                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8002940
+    thread:78                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8002360
+    thread:94                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8001d80
+    thread:96                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80017a0
+    thread:81                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b80011c0
+    thread:99                      contains    100 bytes in   1 blocks (ref 0) 0x7fb8b8000be0
+success: pthread_talloc_passing
+test: speed
+# TALLOC VS MALLOC SPEED
+talloc: 12204493 ops/sec
+talloc_pool: 10620419 ops/sec
+malloc: 64156774 ops/sec
+success: speed
+test: autofree
+# TALLOC AUTOFREE CONTEXT
+success: autofree
+test: magic_protection
+Bad talloc magic value - unknown value
+success: magic_protection
+test: magic differs
+success: magic differs
+test_pytalloc.py:127: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  _test_pytalloc.base_new()])
+test_pytalloc.py:128: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 == obj2)
+test_pytalloc.py:129: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 != obj2)
+test_pytalloc.py:130: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 <= obj2)
+test_pytalloc.py:131: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 < obj2)
+test_pytalloc.py:132: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 >= obj2)
+test_pytalloc.py:133: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 > obj2)
+.test_pytalloc.py:146: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 == obj2)
+test_pytalloc.py:147: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 != obj2)
+test_pytalloc.py:148: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 <= obj2)
+test_pytalloc.py:149: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 < obj2)
+test_pytalloc.py:150: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 >= obj2)
+test_pytalloc.py:151: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 > obj2)
+..test_pytalloc.py:86: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  _test_pytalloc.new()])
+test_pytalloc.py:87: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 == obj2)
+test_pytalloc.py:88: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 != obj2)
+test_pytalloc.py:89: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 <= obj2)
+test_pytalloc.py:90: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 < obj2)
+test_pytalloc.py:91: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 >= obj2)
+test_pytalloc.py:92: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 > obj2)
+.test_pytalloc.py:105: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 == obj2)
+test_pytalloc.py:106: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 != obj2)
+test_pytalloc.py:107: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 <= obj2)
+test_pytalloc.py:108: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertTrue(obj1 < obj2)
+test_pytalloc.py:109: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 >= obj2)
+test_pytalloc.py:110: RuntimeWarning: tp_compare didn't return -1, 0 or 1
+  self.assertFalse(obj1 > obj2)
+............
+----------------------------------------------------------------------
+Ran 16 tests in 0.015s
+
+OK
+testsuite returned 0
+magic differs test returned 0
+Running Python test with /usr/bin/python: test_pytalloc.py
+python testsuite returned 0

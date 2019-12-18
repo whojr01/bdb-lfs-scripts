@@ -1,0 +1,625 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build'
+Making all in compat
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/compat'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../compat -I..  -I../src -I../../src    -g -O2 -fvisibility=hidden -Wall -MT compat.lo -MD -MP -MF .deps/compat.Tpo -c -o compat.lo ../../compat/compat.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../compat -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT compat.lo -MD -MP -MF .deps/compat.Tpo -c ../../compat/compat.c  -fPIC -DPIC -o .libs/compat.o
+mv -f .deps/compat.Tpo .deps/compat.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall   -o libcompat.la  compat.lo  
+libtool: link: ar cru .libs/libcompat.a .libs/compat.o 
+libtool: link: ranlib .libs/libcompat.a
+libtool: link: ( cd ".libs" && rm -f "libcompat.la" && ln -s "../libcompat.la" "libcompat.la" )
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/compat'
+Making all in mpi
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/mpi'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-add.lo -MD -MP -MF .deps/mpi-add.Tpo -c -o mpi-add.lo ../../mpi/mpi-add.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-add.lo -MD -MP -MF .deps/mpi-add.Tpo -c ../../mpi/mpi-add.c  -fPIC -DPIC -o .libs/mpi-add.o
+mv -f .deps/mpi-add.Tpo .deps/mpi-add.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-bit.lo -MD -MP -MF .deps/mpi-bit.Tpo -c -o mpi-bit.lo ../../mpi/mpi-bit.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-bit.lo -MD -MP -MF .deps/mpi-bit.Tpo -c ../../mpi/mpi-bit.c  -fPIC -DPIC -o .libs/mpi-bit.o
+mv -f .deps/mpi-bit.Tpo .deps/mpi-bit.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-cmp.lo -MD -MP -MF .deps/mpi-cmp.Tpo -c -o mpi-cmp.lo ../../mpi/mpi-cmp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-cmp.lo -MD -MP -MF .deps/mpi-cmp.Tpo -c ../../mpi/mpi-cmp.c  -fPIC -DPIC -o .libs/mpi-cmp.o
+mv -f .deps/mpi-cmp.Tpo .deps/mpi-cmp.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-div.lo -MD -MP -MF .deps/mpi-div.Tpo -c -o mpi-div.lo ../../mpi/mpi-div.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-div.lo -MD -MP -MF .deps/mpi-div.Tpo -c ../../mpi/mpi-div.c  -fPIC -DPIC -o .libs/mpi-div.o
+mv -f .deps/mpi-div.Tpo .deps/mpi-div.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-gcd.lo -MD -MP -MF .deps/mpi-gcd.Tpo -c -o mpi-gcd.lo ../../mpi/mpi-gcd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-gcd.lo -MD -MP -MF .deps/mpi-gcd.Tpo -c ../../mpi/mpi-gcd.c  -fPIC -DPIC -o .libs/mpi-gcd.o
+mv -f .deps/mpi-gcd.Tpo .deps/mpi-gcd.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-inline.lo -MD -MP -MF .deps/mpi-inline.Tpo -c -o mpi-inline.lo ../../mpi/mpi-inline.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-inline.lo -MD -MP -MF .deps/mpi-inline.Tpo -c ../../mpi/mpi-inline.c  -fPIC -DPIC -o .libs/mpi-inline.o
+mv -f .deps/mpi-inline.Tpo .deps/mpi-inline.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-inv.lo -MD -MP -MF .deps/mpi-inv.Tpo -c -o mpi-inv.lo ../../mpi/mpi-inv.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-inv.lo -MD -MP -MF .deps/mpi-inv.Tpo -c ../../mpi/mpi-inv.c  -fPIC -DPIC -o .libs/mpi-inv.o
+mv -f .deps/mpi-inv.Tpo .deps/mpi-inv.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-mul.lo -MD -MP -MF .deps/mpi-mul.Tpo -c -o mpi-mul.lo ../../mpi/mpi-mul.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-mul.lo -MD -MP -MF .deps/mpi-mul.Tpo -c ../../mpi/mpi-mul.c  -fPIC -DPIC -o .libs/mpi-mul.o
+mv -f .deps/mpi-mul.Tpo .deps/mpi-mul.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-mod.lo -MD -MP -MF .deps/mpi-mod.Tpo -c -o mpi-mod.lo ../../mpi/mpi-mod.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-mod.lo -MD -MP -MF .deps/mpi-mod.Tpo -c ../../mpi/mpi-mod.c  -fPIC -DPIC -o .libs/mpi-mod.o
+mv -f .deps/mpi-mod.Tpo .deps/mpi-mod.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-pow.lo -MD -MP -MF .deps/mpi-pow.Tpo -c -o mpi-pow.lo ../../mpi/mpi-pow.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-pow.lo -MD -MP -MF .deps/mpi-pow.Tpo -c ../../mpi/mpi-pow.c  -fPIC -DPIC -o .libs/mpi-pow.o
+mv -f .deps/mpi-pow.Tpo .deps/mpi-pow.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-mpow.lo -MD -MP -MF .deps/mpi-mpow.Tpo -c -o mpi-mpow.lo ../../mpi/mpi-mpow.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-mpow.lo -MD -MP -MF .deps/mpi-mpow.Tpo -c ../../mpi/mpi-mpow.c  -fPIC -DPIC -o .libs/mpi-mpow.o
+mv -f .deps/mpi-mpow.Tpo .deps/mpi-mpow.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpi-scan.lo -MD -MP -MF .deps/mpi-scan.Tpo -c -o mpi-scan.lo ../../mpi/mpi-scan.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpi-scan.lo -MD -MP -MF .deps/mpi-scan.Tpo -c ../../mpi/mpi-scan.c  -fPIC -DPIC -o .libs/mpi-scan.o
+mv -f .deps/mpi-scan.Tpo .deps/mpi-scan.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpicoder.lo -MD -MP -MF .deps/mpicoder.Tpo -c -o mpicoder.lo ../../mpi/mpicoder.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpicoder.lo -MD -MP -MF .deps/mpicoder.Tpo -c ../../mpi/mpicoder.c  -fPIC -DPIC -o .libs/mpicoder.o
+mv -f .deps/mpicoder.Tpo .deps/mpicoder.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpih-div.lo -MD -MP -MF .deps/mpih-div.Tpo -c -o mpih-div.lo ../../mpi/mpih-div.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpih-div.lo -MD -MP -MF .deps/mpih-div.Tpo -c ../../mpi/mpih-div.c  -fPIC -DPIC -o .libs/mpih-div.o
+mv -f .deps/mpih-div.Tpo .deps/mpih-div.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpih-mul.lo -MD -MP -MF .deps/mpih-mul.Tpo -c -o mpih-mul.lo ../../mpi/mpih-mul.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpih-mul.lo -MD -MP -MF .deps/mpih-mul.Tpo -c ../../mpi/mpih-mul.c  -fPIC -DPIC -o .libs/mpih-mul.o
+mv -f .deps/mpih-mul.Tpo .deps/mpih-mul.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpiutil.lo -MD -MP -MF .deps/mpiutil.Tpo -c -o mpiutil.lo ../../mpi/mpiutil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mpiutil.lo -MD -MP -MF .deps/mpiutil.Tpo -c ../../mpi/mpiutil.c  -fPIC -DPIC -o .libs/mpiutil.o
+mv -f .deps/mpiutil.Tpo .deps/mpiutil.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ec.lo -MD -MP -MF .deps/ec.Tpo -c -o ec.lo ../../mpi/ec.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ec.lo -MD -MP -MF .deps/ec.Tpo -c ../../mpi/ec.c  -fPIC -DPIC -o .libs/ec.o
+mv -f .deps/ec.Tpo .deps/ec.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ec-ed25519.lo -MD -MP -MF .deps/ec-ed25519.Tpo -c -o ec-ed25519.lo ../../mpi/ec-ed25519.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ec-ed25519.lo -MD -MP -MF .deps/ec-ed25519.Tpo -c ../../mpi/ec-ed25519.c  -fPIC -DPIC -o .libs/ec-ed25519.o
+mv -f .deps/ec-ed25519.Tpo .deps/ec-ed25519.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT mpih-add1-asm.lo -MD -MP -MF .deps/mpih-add1-asm.Tpo -c -o mpih-add1-asm.lo mpih-add1-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT mpih-add1-asm.lo -MD -MP -MF .deps/mpih-add1-asm.Tpo -c mpih-add1-asm.S  -fPIC -DPIC -o .libs/mpih-add1-asm.o
+mv -f .deps/mpih-add1-asm.Tpo .deps/mpih-add1-asm.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT mpih-sub1-asm.lo -MD -MP -MF .deps/mpih-sub1-asm.Tpo -c -o mpih-sub1-asm.lo mpih-sub1-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT mpih-sub1-asm.lo -MD -MP -MF .deps/mpih-sub1-asm.Tpo -c mpih-sub1-asm.S  -fPIC -DPIC -o .libs/mpih-sub1-asm.o
+mv -f .deps/mpih-sub1-asm.Tpo .deps/mpih-sub1-asm.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT mpih-mul1-asm.lo -MD -MP -MF .deps/mpih-mul1-asm.Tpo -c -o mpih-mul1-asm.lo mpih-mul1-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT mpih-mul1-asm.lo -MD -MP -MF .deps/mpih-mul1-asm.Tpo -c mpih-mul1-asm.S  -fPIC -DPIC -o .libs/mpih-mul1-asm.o
+mv -f .deps/mpih-mul1-asm.Tpo .deps/mpih-mul1-asm.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT mpih-mul2-asm.lo -MD -MP -MF .deps/mpih-mul2-asm.Tpo -c -o mpih-mul2-asm.lo mpih-mul2-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT mpih-mul2-asm.lo -MD -MP -MF .deps/mpih-mul2-asm.Tpo -c mpih-mul2-asm.S  -fPIC -DPIC -o .libs/mpih-mul2-asm.o
+mv -f .deps/mpih-mul2-asm.Tpo .deps/mpih-mul2-asm.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT mpih-mul3-asm.lo -MD -MP -MF .deps/mpih-mul3-asm.Tpo -c -o mpih-mul3-asm.lo mpih-mul3-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT mpih-mul3-asm.lo -MD -MP -MF .deps/mpih-mul3-asm.Tpo -c mpih-mul3-asm.S  -fPIC -DPIC -o .libs/mpih-mul3-asm.o
+mv -f .deps/mpih-mul3-asm.Tpo .deps/mpih-mul3-asm.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT mpih-lshift-asm.lo -MD -MP -MF .deps/mpih-lshift-asm.Tpo -c -o mpih-lshift-asm.lo mpih-lshift-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT mpih-lshift-asm.lo -MD -MP -MF .deps/mpih-lshift-asm.Tpo -c mpih-lshift-asm.S  -fPIC -DPIC -o .libs/mpih-lshift-asm.o
+mv -f .deps/mpih-lshift-asm.Tpo .deps/mpih-lshift-asm.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../mpi -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT mpih-rshift-asm.lo -MD -MP -MF .deps/mpih-rshift-asm.Tpo -c -o mpih-rshift-asm.lo mpih-rshift-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../mpi -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT mpih-rshift-asm.lo -MD -MP -MF .deps/mpih-rshift-asm.Tpo -c mpih-rshift-asm.S  -fPIC -DPIC -o .libs/mpih-rshift-asm.o
+mv -f .deps/mpih-rshift-asm.Tpo .deps/mpih-rshift-asm.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall   -o libmpi.la  mpi-add.lo mpi-bit.lo mpi-cmp.lo mpi-div.lo mpi-gcd.lo mpi-inline.lo mpi-inv.lo mpi-mul.lo mpi-mod.lo mpi-pow.lo mpi-mpow.lo mpi-scan.lo mpicoder.lo mpih-div.lo mpih-mul.lo mpiutil.lo ec.lo ec-ed25519.lo mpih-add1-asm.lo mpih-sub1-asm.lo mpih-mul1-asm.lo mpih-mul2-asm.lo mpih-mul3-asm.lo mpih-lshift-asm.lo mpih-rshift-asm.lo    
+libtool: link: ar cru .libs/libmpi.a .libs/mpi-add.o .libs/mpi-bit.o .libs/mpi-cmp.o .libs/mpi-div.o .libs/mpi-gcd.o .libs/mpi-inline.o .libs/mpi-inv.o .libs/mpi-mul.o .libs/mpi-mod.o .libs/mpi-pow.o .libs/mpi-mpow.o .libs/mpi-scan.o .libs/mpicoder.o .libs/mpih-div.o .libs/mpih-mul.o .libs/mpiutil.o .libs/ec.o .libs/ec-ed25519.o .libs/mpih-add1-asm.o .libs/mpih-sub1-asm.o .libs/mpih-mul1-asm.o .libs/mpih-mul2-asm.o .libs/mpih-mul3-asm.o .libs/mpih-lshift-asm.o .libs/mpih-rshift-asm.o 
+libtool: link: ranlib .libs/libmpi.a
+libtool: link: ( cd ".libs" && rm -f "libmpi.la" && ln -s "../libmpi.la" "libmpi.la" )
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/mpi'
+Making all in cipher
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/cipher'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher.lo -MD -MP -MF .deps/cipher.Tpo -c -o cipher.lo ../../cipher/cipher.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher.lo -MD -MP -MF .deps/cipher.Tpo -c ../../cipher/cipher.c  -fPIC -DPIC -o .libs/cipher.o
+mv -f .deps/cipher.Tpo .deps/cipher.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-cbc.lo -MD -MP -MF .deps/cipher-cbc.Tpo -c -o cipher-cbc.lo ../../cipher/cipher-cbc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-cbc.lo -MD -MP -MF .deps/cipher-cbc.Tpo -c ../../cipher/cipher-cbc.c  -fPIC -DPIC -o .libs/cipher-cbc.o
+mv -f .deps/cipher-cbc.Tpo .deps/cipher-cbc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-cfb.lo -MD -MP -MF .deps/cipher-cfb.Tpo -c -o cipher-cfb.lo ../../cipher/cipher-cfb.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-cfb.lo -MD -MP -MF .deps/cipher-cfb.Tpo -c ../../cipher/cipher-cfb.c  -fPIC -DPIC -o .libs/cipher-cfb.o
+mv -f .deps/cipher-cfb.Tpo .deps/cipher-cfb.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-ofb.lo -MD -MP -MF .deps/cipher-ofb.Tpo -c -o cipher-ofb.lo ../../cipher/cipher-ofb.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-ofb.lo -MD -MP -MF .deps/cipher-ofb.Tpo -c ../../cipher/cipher-ofb.c  -fPIC -DPIC -o .libs/cipher-ofb.o
+mv -f .deps/cipher-ofb.Tpo .deps/cipher-ofb.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-ctr.lo -MD -MP -MF .deps/cipher-ctr.Tpo -c -o cipher-ctr.lo ../../cipher/cipher-ctr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-ctr.lo -MD -MP -MF .deps/cipher-ctr.Tpo -c ../../cipher/cipher-ctr.c  -fPIC -DPIC -o .libs/cipher-ctr.o
+mv -f .deps/cipher-ctr.Tpo .deps/cipher-ctr.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-aeswrap.lo -MD -MP -MF .deps/cipher-aeswrap.Tpo -c -o cipher-aeswrap.lo ../../cipher/cipher-aeswrap.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-aeswrap.lo -MD -MP -MF .deps/cipher-aeswrap.Tpo -c ../../cipher/cipher-aeswrap.c  -fPIC -DPIC -o .libs/cipher-aeswrap.o
+mv -f .deps/cipher-aeswrap.Tpo .deps/cipher-aeswrap.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-ccm.lo -MD -MP -MF .deps/cipher-ccm.Tpo -c -o cipher-ccm.lo ../../cipher/cipher-ccm.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-ccm.lo -MD -MP -MF .deps/cipher-ccm.Tpo -c ../../cipher/cipher-ccm.c  -fPIC -DPIC -o .libs/cipher-ccm.o
+mv -f .deps/cipher-ccm.Tpo .deps/cipher-ccm.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-cmac.lo -MD -MP -MF .deps/cipher-cmac.Tpo -c -o cipher-cmac.lo ../../cipher/cipher-cmac.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-cmac.lo -MD -MP -MF .deps/cipher-cmac.Tpo -c ../../cipher/cipher-cmac.c  -fPIC -DPIC -o .libs/cipher-cmac.o
+mv -f .deps/cipher-cmac.Tpo .deps/cipher-cmac.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-gcm.lo -MD -MP -MF .deps/cipher-gcm.Tpo -c -o cipher-gcm.lo ../../cipher/cipher-gcm.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-gcm.lo -MD -MP -MF .deps/cipher-gcm.Tpo -c ../../cipher/cipher-gcm.c  -fPIC -DPIC -o .libs/cipher-gcm.o
+mv -f .deps/cipher-gcm.Tpo .deps/cipher-gcm.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-gcm-intel-pclmul.lo -MD -MP -MF .deps/cipher-gcm-intel-pclmul.Tpo -c -o cipher-gcm-intel-pclmul.lo ../../cipher/cipher-gcm-intel-pclmul.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-gcm-intel-pclmul.lo -MD -MP -MF .deps/cipher-gcm-intel-pclmul.Tpo -c ../../cipher/cipher-gcm-intel-pclmul.c  -fPIC -DPIC -o .libs/cipher-gcm-intel-pclmul.o
+mv -f .deps/cipher-gcm-intel-pclmul.Tpo .deps/cipher-gcm-intel-pclmul.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT cipher-gcm-armv8-aarch32-ce.lo -MD -MP -MF .deps/cipher-gcm-armv8-aarch32-ce.Tpo -c -o cipher-gcm-armv8-aarch32-ce.lo ../../cipher/cipher-gcm-armv8-aarch32-ce.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT cipher-gcm-armv8-aarch32-ce.lo -MD -MP -MF .deps/cipher-gcm-armv8-aarch32-ce.Tpo -c ../../cipher/cipher-gcm-armv8-aarch32-ce.S  -fPIC -DPIC -o .libs/cipher-gcm-armv8-aarch32-ce.o
+mv -f .deps/cipher-gcm-armv8-aarch32-ce.Tpo .deps/cipher-gcm-armv8-aarch32-ce.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT cipher-gcm-armv8-aarch64-ce.lo -MD -MP -MF .deps/cipher-gcm-armv8-aarch64-ce.Tpo -c -o cipher-gcm-armv8-aarch64-ce.lo ../../cipher/cipher-gcm-armv8-aarch64-ce.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT cipher-gcm-armv8-aarch64-ce.lo -MD -MP -MF .deps/cipher-gcm-armv8-aarch64-ce.Tpo -c ../../cipher/cipher-gcm-armv8-aarch64-ce.S  -fPIC -DPIC -o .libs/cipher-gcm-armv8-aarch64-ce.o
+mv -f .deps/cipher-gcm-armv8-aarch64-ce.Tpo .deps/cipher-gcm-armv8-aarch64-ce.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-poly1305.lo -MD -MP -MF .deps/cipher-poly1305.Tpo -c -o cipher-poly1305.lo ../../cipher/cipher-poly1305.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-poly1305.lo -MD -MP -MF .deps/cipher-poly1305.Tpo -c ../../cipher/cipher-poly1305.c  -fPIC -DPIC -o .libs/cipher-poly1305.o
+mv -f .deps/cipher-poly1305.Tpo .deps/cipher-poly1305.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-ocb.lo -MD -MP -MF .deps/cipher-ocb.Tpo -c -o cipher-ocb.lo ../../cipher/cipher-ocb.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-ocb.lo -MD -MP -MF .deps/cipher-ocb.Tpo -c ../../cipher/cipher-ocb.c  -fPIC -DPIC -o .libs/cipher-ocb.o
+mv -f .deps/cipher-ocb.Tpo .deps/cipher-ocb.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-xts.lo -MD -MP -MF .deps/cipher-xts.Tpo -c -o cipher-xts.lo ../../cipher/cipher-xts.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-xts.lo -MD -MP -MF .deps/cipher-xts.Tpo -c ../../cipher/cipher-xts.c  -fPIC -DPIC -o .libs/cipher-xts.o
+mv -f .deps/cipher-xts.Tpo .deps/cipher-xts.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cipher-selftest.lo -MD -MP -MF .deps/cipher-selftest.Tpo -c -o cipher-selftest.lo ../../cipher/cipher-selftest.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cipher-selftest.lo -MD -MP -MF .deps/cipher-selftest.Tpo -c ../../cipher/cipher-selftest.c  -fPIC -DPIC -o .libs/cipher-selftest.o
+mv -f .deps/cipher-selftest.Tpo .deps/cipher-selftest.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT pubkey.lo -MD -MP -MF .deps/pubkey.Tpo -c -o pubkey.lo ../../cipher/pubkey.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT pubkey.lo -MD -MP -MF .deps/pubkey.Tpo -c ../../cipher/pubkey.c  -fPIC -DPIC -o .libs/pubkey.o
+mv -f .deps/pubkey.Tpo .deps/pubkey.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT pubkey-util.lo -MD -MP -MF .deps/pubkey-util.Tpo -c -o pubkey-util.lo ../../cipher/pubkey-util.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT pubkey-util.lo -MD -MP -MF .deps/pubkey-util.Tpo -c ../../cipher/pubkey-util.c  -fPIC -DPIC -o .libs/pubkey-util.o
+mv -f .deps/pubkey-util.Tpo .deps/pubkey-util.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT md.lo -MD -MP -MF .deps/md.Tpo -c -o md.lo ../../cipher/md.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT md.lo -MD -MP -MF .deps/md.Tpo -c ../../cipher/md.c  -fPIC -DPIC -o .libs/md.o
+mv -f .deps/md.Tpo .deps/md.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mac.lo -MD -MP -MF .deps/mac.Tpo -c -o mac.lo ../../cipher/mac.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mac.lo -MD -MP -MF .deps/mac.Tpo -c ../../cipher/mac.c  -fPIC -DPIC -o .libs/mac.o
+mv -f .deps/mac.Tpo .deps/mac.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mac-hmac.lo -MD -MP -MF .deps/mac-hmac.Tpo -c -o mac-hmac.lo ../../cipher/mac-hmac.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mac-hmac.lo -MD -MP -MF .deps/mac-hmac.Tpo -c ../../cipher/mac-hmac.c  -fPIC -DPIC -o .libs/mac-hmac.o
+mv -f .deps/mac-hmac.Tpo .deps/mac-hmac.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mac-cmac.lo -MD -MP -MF .deps/mac-cmac.Tpo -c -o mac-cmac.lo ../../cipher/mac-cmac.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mac-cmac.lo -MD -MP -MF .deps/mac-cmac.Tpo -c ../../cipher/mac-cmac.c  -fPIC -DPIC -o .libs/mac-cmac.o
+mv -f .deps/mac-cmac.Tpo .deps/mac-cmac.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mac-gmac.lo -MD -MP -MF .deps/mac-gmac.Tpo -c -o mac-gmac.lo ../../cipher/mac-gmac.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mac-gmac.lo -MD -MP -MF .deps/mac-gmac.Tpo -c ../../cipher/mac-gmac.c  -fPIC -DPIC -o .libs/mac-gmac.o
+mv -f .deps/mac-gmac.Tpo .deps/mac-gmac.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mac-poly1305.lo -MD -MP -MF .deps/mac-poly1305.Tpo -c -o mac-poly1305.lo ../../cipher/mac-poly1305.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT mac-poly1305.lo -MD -MP -MF .deps/mac-poly1305.Tpo -c ../../cipher/mac-poly1305.c  -fPIC -DPIC -o .libs/mac-poly1305.o
+mv -f .deps/mac-poly1305.Tpo .deps/mac-poly1305.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT poly1305.lo -MD -MP -MF .deps/poly1305.Tpo -c -o poly1305.lo ../../cipher/poly1305.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT poly1305.lo -MD -MP -MF .deps/poly1305.Tpo -c ../../cipher/poly1305.c  -fPIC -DPIC -o .libs/poly1305.o
+mv -f .deps/poly1305.Tpo .deps/poly1305.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT kdf.lo -MD -MP -MF .deps/kdf.Tpo -c -o kdf.lo ../../cipher/kdf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT kdf.lo -MD -MP -MF .deps/kdf.Tpo -c ../../cipher/kdf.c  -fPIC -DPIC -o .libs/kdf.o
+mv -f .deps/kdf.Tpo .deps/kdf.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT hmac-tests.lo -MD -MP -MF .deps/hmac-tests.Tpo -c -o hmac-tests.lo ../../cipher/hmac-tests.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT hmac-tests.lo -MD -MP -MF .deps/hmac-tests.Tpo -c ../../cipher/hmac-tests.c  -fPIC -DPIC -o .libs/hmac-tests.o
+mv -f .deps/hmac-tests.Tpo .deps/hmac-tests.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT primegen.lo -MD -MP -MF .deps/primegen.Tpo -c -o primegen.lo ../../cipher/primegen.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT primegen.lo -MD -MP -MF .deps/primegen.Tpo -c ../../cipher/primegen.c  -fPIC -DPIC -o .libs/primegen.o
+mv -f .deps/primegen.Tpo .deps/primegen.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT hash-common.lo -MD -MP -MF .deps/hash-common.Tpo -c -o hash-common.lo ../../cipher/hash-common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT hash-common.lo -MD -MP -MF .deps/hash-common.Tpo -c ../../cipher/hash-common.c  -fPIC -DPIC -o .libs/hash-common.o
+mv -f .deps/hash-common.Tpo .deps/hash-common.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT dsa-common.lo -MD -MP -MF .deps/dsa-common.Tpo -c -o dsa-common.lo ../../cipher/dsa-common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT dsa-common.lo -MD -MP -MF .deps/dsa-common.Tpo -c ../../cipher/dsa-common.c  -fPIC -DPIC -o .libs/dsa-common.o
+mv -f .deps/dsa-common.Tpo .deps/dsa-common.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rsa-common.lo -MD -MP -MF .deps/rsa-common.Tpo -c -o rsa-common.lo ../../cipher/rsa-common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rsa-common.lo -MD -MP -MF .deps/rsa-common.Tpo -c ../../cipher/rsa-common.c  -fPIC -DPIC -o .libs/rsa-common.o
+mv -f .deps/rsa-common.Tpo .deps/rsa-common.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT arcfour.lo -MD -MP -MF .deps/arcfour.Tpo -c -o arcfour.lo ../../cipher/arcfour.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT arcfour.lo -MD -MP -MF .deps/arcfour.Tpo -c ../../cipher/arcfour.c  -fPIC -DPIC -o .libs/arcfour.o
+mv -f .deps/arcfour.Tpo .deps/arcfour.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT arcfour-amd64.lo -MD -MP -MF .deps/arcfour-amd64.Tpo -c -o arcfour-amd64.lo ../../cipher/arcfour-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT arcfour-amd64.lo -MD -MP -MF .deps/arcfour-amd64.Tpo -c ../../cipher/arcfour-amd64.S  -fPIC -DPIC -o .libs/arcfour-amd64.o
+mv -f .deps/arcfour-amd64.Tpo .deps/arcfour-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT blowfish.lo -MD -MP -MF .deps/blowfish.Tpo -c -o blowfish.lo ../../cipher/blowfish.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT blowfish.lo -MD -MP -MF .deps/blowfish.Tpo -c ../../cipher/blowfish.c  -fPIC -DPIC -o .libs/blowfish.o
+mv -f .deps/blowfish.Tpo .deps/blowfish.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT blowfish-amd64.lo -MD -MP -MF .deps/blowfish-amd64.Tpo -c -o blowfish-amd64.lo ../../cipher/blowfish-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT blowfish-amd64.lo -MD -MP -MF .deps/blowfish-amd64.Tpo -c ../../cipher/blowfish-amd64.S  -fPIC -DPIC -o .libs/blowfish-amd64.o
+mv -f .deps/blowfish-amd64.Tpo .deps/blowfish-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT cast5.lo -MD -MP -MF .deps/cast5.Tpo -c -o cast5.lo ../../cipher/cast5.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT cast5.lo -MD -MP -MF .deps/cast5.Tpo -c ../../cipher/cast5.c  -fPIC -DPIC -o .libs/cast5.o
+mv -f .deps/cast5.Tpo .deps/cast5.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT cast5-amd64.lo -MD -MP -MF .deps/cast5-amd64.Tpo -c -o cast5-amd64.lo ../../cipher/cast5-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT cast5-amd64.lo -MD -MP -MF .deps/cast5-amd64.Tpo -c ../../cipher/cast5-amd64.S  -fPIC -DPIC -o .libs/cast5-amd64.o
+mv -f .deps/cast5-amd64.Tpo .deps/cast5-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT des.lo -MD -MP -MF .deps/des.Tpo -c -o des.lo ../../cipher/des.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT des.lo -MD -MP -MF .deps/des.Tpo -c ../../cipher/des.c  -fPIC -DPIC -o .libs/des.o
+mv -f .deps/des.Tpo .deps/des.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT des-amd64.lo -MD -MP -MF .deps/des-amd64.Tpo -c -o des-amd64.lo ../../cipher/des-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT des-amd64.lo -MD -MP -MF .deps/des-amd64.Tpo -c ../../cipher/des-amd64.S  -fPIC -DPIC -o .libs/des-amd64.o
+mv -f .deps/des-amd64.Tpo .deps/des-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rijndael.lo -MD -MP -MF .deps/rijndael.Tpo -c -o rijndael.lo ../../cipher/rijndael.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rijndael.lo -MD -MP -MF .deps/rijndael.Tpo -c ../../cipher/rijndael.c  -fPIC -DPIC -o .libs/rijndael.o
+mv -f .deps/rijndael.Tpo .deps/rijndael.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT rijndael-amd64.lo -MD -MP -MF .deps/rijndael-amd64.Tpo -c -o rijndael-amd64.lo ../../cipher/rijndael-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT rijndael-amd64.lo -MD -MP -MF .deps/rijndael-amd64.Tpo -c ../../cipher/rijndael-amd64.S  -fPIC -DPIC -o .libs/rijndael-amd64.o
+mv -f .deps/rijndael-amd64.Tpo .deps/rijndael-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rijndael-ssse3-amd64.lo -MD -MP -MF .deps/rijndael-ssse3-amd64.Tpo -c -o rijndael-ssse3-amd64.lo ../../cipher/rijndael-ssse3-amd64.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rijndael-ssse3-amd64.lo -MD -MP -MF .deps/rijndael-ssse3-amd64.Tpo -c ../../cipher/rijndael-ssse3-amd64.c  -fPIC -DPIC -o .libs/rijndael-ssse3-amd64.o
+mv -f .deps/rijndael-ssse3-amd64.Tpo .deps/rijndael-ssse3-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT rijndael-ssse3-amd64-asm.lo -MD -MP -MF .deps/rijndael-ssse3-amd64-asm.Tpo -c -o rijndael-ssse3-amd64-asm.lo ../../cipher/rijndael-ssse3-amd64-asm.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT rijndael-ssse3-amd64-asm.lo -MD -MP -MF .deps/rijndael-ssse3-amd64-asm.Tpo -c ../../cipher/rijndael-ssse3-amd64-asm.S  -fPIC -DPIC -o .libs/rijndael-ssse3-amd64-asm.o
+mv -f .deps/rijndael-ssse3-amd64-asm.Tpo .deps/rijndael-ssse3-amd64-asm.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rijndael-aesni.lo -MD -MP -MF .deps/rijndael-aesni.Tpo -c -o rijndael-aesni.lo ../../cipher/rijndael-aesni.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rijndael-aesni.lo -MD -MP -MF .deps/rijndael-aesni.Tpo -c ../../cipher/rijndael-aesni.c  -fPIC -DPIC -o .libs/rijndael-aesni.o
+mv -f .deps/rijndael-aesni.Tpo .deps/rijndael-aesni.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rijndael-padlock.lo -MD -MP -MF .deps/rijndael-padlock.Tpo -c -o rijndael-padlock.lo ../../cipher/rijndael-padlock.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rijndael-padlock.lo -MD -MP -MF .deps/rijndael-padlock.Tpo -c ../../cipher/rijndael-padlock.c  -fPIC -DPIC -o .libs/rijndael-padlock.o
+mv -f .deps/rijndael-padlock.Tpo .deps/rijndael-padlock.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT twofish.lo -MD -MP -MF .deps/twofish.Tpo -c -o twofish.lo ../../cipher/twofish.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT twofish.lo -MD -MP -MF .deps/twofish.Tpo -c ../../cipher/twofish.c  -fPIC -DPIC -o .libs/twofish.o
+mv -f .deps/twofish.Tpo .deps/twofish.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT twofish-amd64.lo -MD -MP -MF .deps/twofish-amd64.Tpo -c -o twofish-amd64.lo ../../cipher/twofish-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT twofish-amd64.lo -MD -MP -MF .deps/twofish-amd64.Tpo -c ../../cipher/twofish-amd64.S  -fPIC -DPIC -o .libs/twofish-amd64.o
+mv -f .deps/twofish-amd64.Tpo .deps/twofish-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT twofish-avx2-amd64.lo -MD -MP -MF .deps/twofish-avx2-amd64.Tpo -c -o twofish-avx2-amd64.lo ../../cipher/twofish-avx2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT twofish-avx2-amd64.lo -MD -MP -MF .deps/twofish-avx2-amd64.Tpo -c ../../cipher/twofish-avx2-amd64.S  -fPIC -DPIC -o .libs/twofish-avx2-amd64.o
+mv -f .deps/twofish-avx2-amd64.Tpo .deps/twofish-avx2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT serpent.lo -MD -MP -MF .deps/serpent.Tpo -c -o serpent.lo ../../cipher/serpent.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT serpent.lo -MD -MP -MF .deps/serpent.Tpo -c ../../cipher/serpent.c  -fPIC -DPIC -o .libs/serpent.o
+mv -f .deps/serpent.Tpo .deps/serpent.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT serpent-sse2-amd64.lo -MD -MP -MF .deps/serpent-sse2-amd64.Tpo -c -o serpent-sse2-amd64.lo ../../cipher/serpent-sse2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT serpent-sse2-amd64.lo -MD -MP -MF .deps/serpent-sse2-amd64.Tpo -c ../../cipher/serpent-sse2-amd64.S  -fPIC -DPIC -o .libs/serpent-sse2-amd64.o
+mv -f .deps/serpent-sse2-amd64.Tpo .deps/serpent-sse2-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT serpent-avx2-amd64.lo -MD -MP -MF .deps/serpent-avx2-amd64.Tpo -c -o serpent-avx2-amd64.lo ../../cipher/serpent-avx2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT serpent-avx2-amd64.lo -MD -MP -MF .deps/serpent-avx2-amd64.Tpo -c ../../cipher/serpent-avx2-amd64.S  -fPIC -DPIC -o .libs/serpent-avx2-amd64.o
+mv -f .deps/serpent-avx2-amd64.Tpo .deps/serpent-avx2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rfc2268.lo -MD -MP -MF .deps/rfc2268.Tpo -c -o rfc2268.lo ../../cipher/rfc2268.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rfc2268.lo -MD -MP -MF .deps/rfc2268.Tpo -c ../../cipher/rfc2268.c  -fPIC -DPIC -o .libs/rfc2268.o
+mv -f .deps/rfc2268.Tpo .deps/rfc2268.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT seed.lo -MD -MP -MF .deps/seed.Tpo -c -o seed.lo ../../cipher/seed.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT seed.lo -MD -MP -MF .deps/seed.Tpo -c ../../cipher/seed.c  -fPIC -DPIC -o .libs/seed.o
+mv -f .deps/seed.Tpo .deps/seed.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT camellia.lo -MD -MP -MF .deps/camellia.Tpo -c -o camellia.lo ../../cipher/camellia.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT camellia.lo -MD -MP -MF .deps/camellia.Tpo -c ../../cipher/camellia.c  -fPIC -DPIC -o .libs/camellia.o
+mv -f .deps/camellia.Tpo .deps/camellia.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT camellia-glue.lo -MD -MP -MF .deps/camellia-glue.Tpo -c -o camellia-glue.lo ../../cipher/camellia-glue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT camellia-glue.lo -MD -MP -MF .deps/camellia-glue.Tpo -c ../../cipher/camellia-glue.c  -fPIC -DPIC -o .libs/camellia-glue.o
+mv -f .deps/camellia-glue.Tpo .deps/camellia-glue.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT camellia-aesni-avx-amd64.lo -MD -MP -MF .deps/camellia-aesni-avx-amd64.Tpo -c -o camellia-aesni-avx-amd64.lo ../../cipher/camellia-aesni-avx-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT camellia-aesni-avx-amd64.lo -MD -MP -MF .deps/camellia-aesni-avx-amd64.Tpo -c ../../cipher/camellia-aesni-avx-amd64.S  -fPIC -DPIC -o .libs/camellia-aesni-avx-amd64.o
+mv -f .deps/camellia-aesni-avx-amd64.Tpo .deps/camellia-aesni-avx-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT camellia-aesni-avx2-amd64.lo -MD -MP -MF .deps/camellia-aesni-avx2-amd64.Tpo -c -o camellia-aesni-avx2-amd64.lo ../../cipher/camellia-aesni-avx2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT camellia-aesni-avx2-amd64.lo -MD -MP -MF .deps/camellia-aesni-avx2-amd64.Tpo -c ../../cipher/camellia-aesni-avx2-amd64.S  -fPIC -DPIC -o .libs/camellia-aesni-avx2-amd64.o
+mv -f .deps/camellia-aesni-avx2-amd64.Tpo .deps/camellia-aesni-avx2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT idea.lo -MD -MP -MF .deps/idea.Tpo -c -o idea.lo ../../cipher/idea.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT idea.lo -MD -MP -MF .deps/idea.Tpo -c ../../cipher/idea.c  -fPIC -DPIC -o .libs/idea.o
+mv -f .deps/idea.Tpo .deps/idea.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT salsa20.lo -MD -MP -MF .deps/salsa20.Tpo -c -o salsa20.lo ../../cipher/salsa20.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT salsa20.lo -MD -MP -MF .deps/salsa20.Tpo -c ../../cipher/salsa20.c  -fPIC -DPIC -o .libs/salsa20.o
+mv -f .deps/salsa20.Tpo .deps/salsa20.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT salsa20-amd64.lo -MD -MP -MF .deps/salsa20-amd64.Tpo -c -o salsa20-amd64.lo ../../cipher/salsa20-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT salsa20-amd64.lo -MD -MP -MF .deps/salsa20-amd64.Tpo -c ../../cipher/salsa20-amd64.S  -fPIC -DPIC -o .libs/salsa20-amd64.o
+mv -f .deps/salsa20-amd64.Tpo .deps/salsa20-amd64.Plo
+gcc -o gost-s-box ../../cipher/gost-s-box.c
+./gost-s-box gost-sb.h
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT gost28147.lo -MD -MP -MF .deps/gost28147.Tpo -c -o gost28147.lo ../../cipher/gost28147.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT gost28147.lo -MD -MP -MF .deps/gost28147.Tpo -c ../../cipher/gost28147.c  -fPIC -DPIC -o .libs/gost28147.o
+mv -f .deps/gost28147.Tpo .deps/gost28147.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT chacha20.lo -MD -MP -MF .deps/chacha20.Tpo -c -o chacha20.lo ../../cipher/chacha20.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT chacha20.lo -MD -MP -MF .deps/chacha20.Tpo -c ../../cipher/chacha20.c  -fPIC -DPIC -o .libs/chacha20.o
+mv -f .deps/chacha20.Tpo .deps/chacha20.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT chacha20-sse2-amd64.lo -MD -MP -MF .deps/chacha20-sse2-amd64.Tpo -c -o chacha20-sse2-amd64.lo ../../cipher/chacha20-sse2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT chacha20-sse2-amd64.lo -MD -MP -MF .deps/chacha20-sse2-amd64.Tpo -c ../../cipher/chacha20-sse2-amd64.S  -fPIC -DPIC -o .libs/chacha20-sse2-amd64.o
+mv -f .deps/chacha20-sse2-amd64.Tpo .deps/chacha20-sse2-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT chacha20-ssse3-amd64.lo -MD -MP -MF .deps/chacha20-ssse3-amd64.Tpo -c -o chacha20-ssse3-amd64.lo ../../cipher/chacha20-ssse3-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT chacha20-ssse3-amd64.lo -MD -MP -MF .deps/chacha20-ssse3-amd64.Tpo -c ../../cipher/chacha20-ssse3-amd64.S  -fPIC -DPIC -o .libs/chacha20-ssse3-amd64.o
+mv -f .deps/chacha20-ssse3-amd64.Tpo .deps/chacha20-ssse3-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT chacha20-avx2-amd64.lo -MD -MP -MF .deps/chacha20-avx2-amd64.Tpo -c -o chacha20-avx2-amd64.lo ../../cipher/chacha20-avx2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT chacha20-avx2-amd64.lo -MD -MP -MF .deps/chacha20-avx2-amd64.Tpo -c ../../cipher/chacha20-avx2-amd64.S  -fPIC -DPIC -o .libs/chacha20-avx2-amd64.o
+mv -f .deps/chacha20-avx2-amd64.Tpo .deps/chacha20-avx2-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT poly1305-sse2-amd64.lo -MD -MP -MF .deps/poly1305-sse2-amd64.Tpo -c -o poly1305-sse2-amd64.lo ../../cipher/poly1305-sse2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT poly1305-sse2-amd64.lo -MD -MP -MF .deps/poly1305-sse2-amd64.Tpo -c ../../cipher/poly1305-sse2-amd64.S  -fPIC -DPIC -o .libs/poly1305-sse2-amd64.o
+mv -f .deps/poly1305-sse2-amd64.Tpo .deps/poly1305-sse2-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT poly1305-avx2-amd64.lo -MD -MP -MF .deps/poly1305-avx2-amd64.Tpo -c -o poly1305-avx2-amd64.lo ../../cipher/poly1305-avx2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT poly1305-avx2-amd64.lo -MD -MP -MF .deps/poly1305-avx2-amd64.Tpo -c ../../cipher/poly1305-avx2-amd64.S  -fPIC -DPIC -o .libs/poly1305-avx2-amd64.o
+mv -f .deps/poly1305-avx2-amd64.Tpo .deps/poly1305-avx2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT dsa.lo -MD -MP -MF .deps/dsa.Tpo -c -o dsa.lo ../../cipher/dsa.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT dsa.lo -MD -MP -MF .deps/dsa.Tpo -c ../../cipher/dsa.c  -fPIC -DPIC -o .libs/dsa.o
+mv -f .deps/dsa.Tpo .deps/dsa.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rsa.lo -MD -MP -MF .deps/rsa.Tpo -c -o rsa.lo ../../cipher/rsa.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rsa.lo -MD -MP -MF .deps/rsa.Tpo -c ../../cipher/rsa.c  -fPIC -DPIC -o .libs/rsa.o
+mv -f .deps/rsa.Tpo .deps/rsa.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT elgamal.lo -MD -MP -MF .deps/elgamal.Tpo -c -o elgamal.lo ../../cipher/elgamal.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT elgamal.lo -MD -MP -MF .deps/elgamal.Tpo -c ../../cipher/elgamal.c  -fPIC -DPIC -o .libs/elgamal.o
+mv -f .deps/elgamal.Tpo .deps/elgamal.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ecc.lo -MD -MP -MF .deps/ecc.Tpo -c -o ecc.lo ../../cipher/ecc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ecc.lo -MD -MP -MF .deps/ecc.Tpo -c ../../cipher/ecc.c  -fPIC -DPIC -o .libs/ecc.o
+mv -f .deps/ecc.Tpo .deps/ecc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ecc-curves.lo -MD -MP -MF .deps/ecc-curves.Tpo -c -o ecc-curves.lo ../../cipher/ecc-curves.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ecc-curves.lo -MD -MP -MF .deps/ecc-curves.Tpo -c ../../cipher/ecc-curves.c  -fPIC -DPIC -o .libs/ecc-curves.o
+mv -f .deps/ecc-curves.Tpo .deps/ecc-curves.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ecc-misc.lo -MD -MP -MF .deps/ecc-misc.Tpo -c -o ecc-misc.lo ../../cipher/ecc-misc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ecc-misc.lo -MD -MP -MF .deps/ecc-misc.Tpo -c ../../cipher/ecc-misc.c  -fPIC -DPIC -o .libs/ecc-misc.o
+mv -f .deps/ecc-misc.Tpo .deps/ecc-misc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ecc-ecdsa.lo -MD -MP -MF .deps/ecc-ecdsa.Tpo -c -o ecc-ecdsa.lo ../../cipher/ecc-ecdsa.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ecc-ecdsa.lo -MD -MP -MF .deps/ecc-ecdsa.Tpo -c ../../cipher/ecc-ecdsa.c  -fPIC -DPIC -o .libs/ecc-ecdsa.o
+mv -f .deps/ecc-ecdsa.Tpo .deps/ecc-ecdsa.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ecc-eddsa.lo -MD -MP -MF .deps/ecc-eddsa.Tpo -c -o ecc-eddsa.lo ../../cipher/ecc-eddsa.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ecc-eddsa.lo -MD -MP -MF .deps/ecc-eddsa.Tpo -c ../../cipher/ecc-eddsa.c  -fPIC -DPIC -o .libs/ecc-eddsa.o
+mv -f .deps/ecc-eddsa.Tpo .deps/ecc-eddsa.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT ecc-gost.lo -MD -MP -MF .deps/ecc-gost.Tpo -c -o ecc-gost.lo ../../cipher/ecc-gost.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT ecc-gost.lo -MD -MP -MF .deps/ecc-gost.Tpo -c ../../cipher/ecc-gost.c  -fPIC -DPIC -o .libs/ecc-gost.o
+mv -f .deps/ecc-gost.Tpo .deps/ecc-gost.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT crc.lo -MD -MP -MF .deps/crc.Tpo -c -o crc.lo ../../cipher/crc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT crc.lo -MD -MP -MF .deps/crc.Tpo -c ../../cipher/crc.c  -fPIC -DPIC -o .libs/crc.o
+mv -f .deps/crc.Tpo .deps/crc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT crc-intel-pclmul.lo -MD -MP -MF .deps/crc-intel-pclmul.Tpo -c -o crc-intel-pclmul.lo ../../cipher/crc-intel-pclmul.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT crc-intel-pclmul.lo -MD -MP -MF .deps/crc-intel-pclmul.Tpo -c ../../cipher/crc-intel-pclmul.c  -fPIC -DPIC -o .libs/crc-intel-pclmul.o
+mv -f .deps/crc-intel-pclmul.Tpo .deps/crc-intel-pclmul.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT gostr3411-94.lo -MD -MP -MF .deps/gostr3411-94.Tpo -c -o gostr3411-94.lo ../../cipher/gostr3411-94.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT gostr3411-94.lo -MD -MP -MF .deps/gostr3411-94.Tpo -c ../../cipher/gostr3411-94.c  -fPIC -DPIC -o .libs/gostr3411-94.o
+mv -f .deps/gostr3411-94.Tpo .deps/gostr3411-94.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT stribog.lo -MD -MP -MF .deps/stribog.Tpo -c -o stribog.lo ../../cipher/stribog.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT stribog.lo -MD -MP -MF .deps/stribog.Tpo -c ../../cipher/stribog.c  -fPIC -DPIC -o .libs/stribog.o
+mv -f .deps/stribog.Tpo .deps/stribog.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT md4.lo -MD -MP -MF .deps/md4.Tpo -c -o md4.lo ../../cipher/md4.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT md4.lo -MD -MP -MF .deps/md4.Tpo -c ../../cipher/md4.c  -fPIC -DPIC -o .libs/md4.o
+mv -f .deps/md4.Tpo .deps/md4.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT md5.lo -MD -MP -MF .deps/md5.Tpo -c -o md5.lo ../../cipher/md5.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT md5.lo -MD -MP -MF .deps/md5.Tpo -c ../../cipher/md5.c  -fPIC -DPIC -o .libs/md5.o
+mv -f .deps/md5.Tpo .deps/md5.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rmd160.lo -MD -MP -MF .deps/rmd160.Tpo -c -o rmd160.lo ../../cipher/rmd160.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rmd160.lo -MD -MP -MF .deps/rmd160.Tpo -c ../../cipher/rmd160.c  -fPIC -DPIC -o .libs/rmd160.o
+mv -f .deps/rmd160.Tpo .deps/rmd160.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT sha256.lo -MD -MP -MF .deps/sha256.Tpo -c -o sha256.lo ../../cipher/sha256.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT sha256.lo -MD -MP -MF .deps/sha256.Tpo -c ../../cipher/sha256.c  -fPIC -DPIC -o .libs/sha256.o
+mv -f .deps/sha256.Tpo .deps/sha256.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha256-ssse3-amd64.lo -MD -MP -MF .deps/sha256-ssse3-amd64.Tpo -c -o sha256-ssse3-amd64.lo ../../cipher/sha256-ssse3-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha256-ssse3-amd64.lo -MD -MP -MF .deps/sha256-ssse3-amd64.Tpo -c ../../cipher/sha256-ssse3-amd64.S  -fPIC -DPIC -o .libs/sha256-ssse3-amd64.o
+mv -f .deps/sha256-ssse3-amd64.Tpo .deps/sha256-ssse3-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha256-avx-amd64.lo -MD -MP -MF .deps/sha256-avx-amd64.Tpo -c -o sha256-avx-amd64.lo ../../cipher/sha256-avx-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha256-avx-amd64.lo -MD -MP -MF .deps/sha256-avx-amd64.Tpo -c ../../cipher/sha256-avx-amd64.S  -fPIC -DPIC -o .libs/sha256-avx-amd64.o
+mv -f .deps/sha256-avx-amd64.Tpo .deps/sha256-avx-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha256-avx2-bmi2-amd64.lo -MD -MP -MF .deps/sha256-avx2-bmi2-amd64.Tpo -c -o sha256-avx2-bmi2-amd64.lo ../../cipher/sha256-avx2-bmi2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha256-avx2-bmi2-amd64.lo -MD -MP -MF .deps/sha256-avx2-bmi2-amd64.Tpo -c ../../cipher/sha256-avx2-bmi2-amd64.S  -fPIC -DPIC -o .libs/sha256-avx2-bmi2-amd64.o
+mv -f .deps/sha256-avx2-bmi2-amd64.Tpo .deps/sha256-avx2-bmi2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT sha512.lo -MD -MP -MF .deps/sha512.Tpo -c -o sha512.lo ../../cipher/sha512.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT sha512.lo -MD -MP -MF .deps/sha512.Tpo -c ../../cipher/sha512.c  -fPIC -DPIC -o .libs/sha512.o
+mv -f .deps/sha512.Tpo .deps/sha512.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha512-ssse3-amd64.lo -MD -MP -MF .deps/sha512-ssse3-amd64.Tpo -c -o sha512-ssse3-amd64.lo ../../cipher/sha512-ssse3-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha512-ssse3-amd64.lo -MD -MP -MF .deps/sha512-ssse3-amd64.Tpo -c ../../cipher/sha512-ssse3-amd64.S  -fPIC -DPIC -o .libs/sha512-ssse3-amd64.o
+mv -f .deps/sha512-ssse3-amd64.Tpo .deps/sha512-ssse3-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha512-avx-amd64.lo -MD -MP -MF .deps/sha512-avx-amd64.Tpo -c -o sha512-avx-amd64.lo ../../cipher/sha512-avx-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha512-avx-amd64.lo -MD -MP -MF .deps/sha512-avx-amd64.Tpo -c ../../cipher/sha512-avx-amd64.S  -fPIC -DPIC -o .libs/sha512-avx-amd64.o
+mv -f .deps/sha512-avx-amd64.Tpo .deps/sha512-avx-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha512-avx2-bmi2-amd64.lo -MD -MP -MF .deps/sha512-avx2-bmi2-amd64.Tpo -c -o sha512-avx2-bmi2-amd64.lo ../../cipher/sha512-avx2-bmi2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha512-avx2-bmi2-amd64.lo -MD -MP -MF .deps/sha512-avx2-bmi2-amd64.Tpo -c ../../cipher/sha512-avx2-bmi2-amd64.S  -fPIC -DPIC -o .libs/sha512-avx2-bmi2-amd64.o
+mv -f .deps/sha512-avx2-bmi2-amd64.Tpo .deps/sha512-avx2-bmi2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT keccak.lo -MD -MP -MF .deps/keccak.Tpo -c -o keccak.lo ../../cipher/keccak.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT keccak.lo -MD -MP -MF .deps/keccak.Tpo -c ../../cipher/keccak.c  -fPIC -DPIC -o .libs/keccak.o
+mv -f .deps/keccak.Tpo .deps/keccak.Plo
+`echo /bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -c ../../cipher/tiger.c | sed -e 's/-O\([2-9s][2-9s]*\)/-O1/' -e 's/-Ofast/-O1/g' `
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O1 -fvisibility=hidden -Wall -c ../../cipher/tiger.c  -fPIC -DPIC -o .libs/tiger.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT whirlpool.lo -MD -MP -MF .deps/whirlpool.Tpo -c -o whirlpool.lo ../../cipher/whirlpool.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT whirlpool.lo -MD -MP -MF .deps/whirlpool.Tpo -c ../../cipher/whirlpool.c  -fPIC -DPIC -o .libs/whirlpool.o
+mv -f .deps/whirlpool.Tpo .deps/whirlpool.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT whirlpool-sse2-amd64.lo -MD -MP -MF .deps/whirlpool-sse2-amd64.Tpo -c -o whirlpool-sse2-amd64.lo ../../cipher/whirlpool-sse2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT whirlpool-sse2-amd64.lo -MD -MP -MF .deps/whirlpool-sse2-amd64.Tpo -c ../../cipher/whirlpool-sse2-amd64.S  -fPIC -DPIC -o .libs/whirlpool-sse2-amd64.o
+mv -f .deps/whirlpool-sse2-amd64.Tpo .deps/whirlpool-sse2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT blake2.lo -MD -MP -MF .deps/blake2.Tpo -c -o blake2.lo ../../cipher/blake2.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT blake2.lo -MD -MP -MF .deps/blake2.Tpo -c ../../cipher/blake2.c  -fPIC -DPIC -o .libs/blake2.o
+mv -f .deps/blake2.Tpo .deps/blake2.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT sha1.lo -MD -MP -MF .deps/sha1.Tpo -c -o sha1.lo ../../cipher/sha1.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT sha1.lo -MD -MP -MF .deps/sha1.Tpo -c ../../cipher/sha1.c  -fPIC -DPIC -o .libs/sha1.o
+mv -f .deps/sha1.Tpo .deps/sha1.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha1-ssse3-amd64.lo -MD -MP -MF .deps/sha1-ssse3-amd64.Tpo -c -o sha1-ssse3-amd64.lo ../../cipher/sha1-ssse3-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha1-ssse3-amd64.lo -MD -MP -MF .deps/sha1-ssse3-amd64.Tpo -c ../../cipher/sha1-ssse3-amd64.S  -fPIC -DPIC -o .libs/sha1-ssse3-amd64.o
+mv -f .deps/sha1-ssse3-amd64.Tpo .deps/sha1-ssse3-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha1-avx-amd64.lo -MD -MP -MF .deps/sha1-avx-amd64.Tpo -c -o sha1-avx-amd64.lo ../../cipher/sha1-avx-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha1-avx-amd64.lo -MD -MP -MF .deps/sha1-avx-amd64.Tpo -c ../../cipher/sha1-avx-amd64.S  -fPIC -DPIC -o .libs/sha1-avx-amd64.o
+mv -f .deps/sha1-avx-amd64.Tpo .deps/sha1-avx-amd64.Plo
+/bin/sh ../libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src  -Wa,--noexecstack -g -O2 -MT sha1-avx-bmi2-amd64.lo -MD -MP -MF .deps/sha1-avx-bmi2-amd64.Tpo -c -o sha1-avx-bmi2-amd64.lo ../../cipher/sha1-avx-bmi2-amd64.S
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -Wa,--noexecstack -g -O2 -MT sha1-avx-bmi2-amd64.lo -MD -MP -MF .deps/sha1-avx-bmi2-amd64.Tpo -c ../../cipher/sha1-avx-bmi2-amd64.S  -fPIC -DPIC -o .libs/sha1-avx-bmi2-amd64.o
+mv -f .deps/sha1-avx-bmi2-amd64.Tpo .deps/sha1-avx-bmi2-amd64.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../cipher -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT scrypt.lo -MD -MP -MF .deps/scrypt.Tpo -c -o scrypt.lo ../../cipher/scrypt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../cipher -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT scrypt.lo -MD -MP -MF .deps/scrypt.Tpo -c ../../cipher/scrypt.c  -fPIC -DPIC -o .libs/scrypt.o
+mv -f .deps/scrypt.Tpo .deps/scrypt.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall   -o libcipher.la  cipher.lo cipher-cbc.lo cipher-cfb.lo cipher-ofb.lo cipher-ctr.lo cipher-aeswrap.lo cipher-ccm.lo cipher-cmac.lo cipher-gcm.lo cipher-gcm-intel-pclmul.lo cipher-gcm-armv8-aarch32-ce.lo cipher-gcm-armv8-aarch64-ce.lo cipher-poly1305.lo cipher-ocb.lo cipher-xts.lo cipher-selftest.lo pubkey.lo pubkey-util.lo md.lo mac.lo mac-hmac.lo mac-cmac.lo mac-gmac.lo mac-poly1305.lo poly1305.lo kdf.lo hmac-tests.lo primegen.lo hash-common.lo dsa-common.lo rsa-common.lo arcfour.lo arcfour-amd64.lo blowfish.lo blowfish-amd64.lo cast5.lo cast5-amd64.lo des.lo des-amd64.lo rijndael.lo rijndael-amd64.lo rijndael-ssse3-amd64.lo rijndael-ssse3-amd64-asm.lo rijndael-aesni.lo rijndael-padlock.lo twofish.lo twofish-amd64.lo twofish-avx2-amd64.lo serpent.lo serpent-sse2-amd64.lo serpent-avx2-amd64.lo rfc2268.lo seed.lo camellia.lo camellia-glue.lo camellia-aesni-avx-amd64.lo camellia-aesni-avx2-amd64.lo idea.lo salsa20.lo salsa20-amd64.lo gost28147.lo chacha20.lo chacha20-sse2-amd64.lo chacha20-ssse3-amd64.lo chacha20-avx2-amd64.lo poly1305-sse2-amd64.lo poly1305-avx2-amd64.lo  dsa.lo rsa.lo elgamal.lo                           ecc.lo ecc-curves.lo ecc-misc.lo                           ecc-ecdsa.lo ecc-eddsa.lo ecc-gost.lo crc.lo crc-intel-pclmul.lo gostr3411-94.lo stribog.lo md4.lo md5.lo rmd160.lo sha256.lo sha256-ssse3-amd64.lo sha256-avx-amd64.lo sha256-avx2-bmi2-amd64.lo sha512.lo sha512-ssse3-amd64.lo sha512-avx-amd64.lo sha512-avx2-bmi2-amd64.lo keccak.lo tiger.lo whirlpool.lo whirlpool-sse2-amd64.lo blake2.lo sha1.lo sha1-ssse3-amd64.lo sha1-avx-amd64.lo sha1-avx-bmi2-amd64.lo  scrypt.lo 
+libtool: link: ar cru .libs/libcipher.a .libs/cipher.o .libs/cipher-cbc.o .libs/cipher-cfb.o .libs/cipher-ofb.o .libs/cipher-ctr.o .libs/cipher-aeswrap.o .libs/cipher-ccm.o .libs/cipher-cmac.o .libs/cipher-gcm.o .libs/cipher-gcm-intel-pclmul.o .libs/cipher-gcm-armv8-aarch32-ce.o .libs/cipher-gcm-armv8-aarch64-ce.o .libs/cipher-poly1305.o .libs/cipher-ocb.o .libs/cipher-xts.o .libs/cipher-selftest.o .libs/pubkey.o .libs/pubkey-util.o .libs/md.o .libs/mac.o .libs/mac-hmac.o .libs/mac-cmac.o .libs/mac-gmac.o .libs/mac-poly1305.o .libs/poly1305.o .libs/kdf.o .libs/hmac-tests.o .libs/primegen.o .libs/hash-common.o .libs/dsa-common.o .libs/rsa-common.o .libs/arcfour.o .libs/arcfour-amd64.o .libs/blowfish.o .libs/blowfish-amd64.o .libs/cast5.o .libs/cast5-amd64.o .libs/des.o .libs/des-amd64.o .libs/rijndael.o .libs/rijndael-amd64.o .libs/rijndael-ssse3-amd64.o .libs/rijndael-ssse3-amd64-asm.o .libs/rijndael-aesni.o .libs/rijndael-padlock.o .libs/twofish.o .libs/twofish-amd64.o .libs/twofish-avx2-amd64.o .libs/serpent.o .libs/serpent-sse2-amd64.o .libs/serpent-avx2-amd64.o .libs/rfc2268.o .libs/seed.o .libs/camellia.o .libs/camellia-glue.o .libs/camellia-aesni-avx-amd64.o .libs/camellia-aesni-avx2-amd64.o .libs/idea.o .libs/salsa20.o .libs/salsa20-amd64.o .libs/gost28147.o .libs/chacha20.o .libs/chacha20-sse2-amd64.o .libs/chacha20-ssse3-amd64.o .libs/chacha20-avx2-amd64.o .libs/poly1305-sse2-amd64.o .libs/poly1305-avx2-amd64.o .libs/dsa.o .libs/rsa.o .libs/elgamal.o .libs/ecc.o .libs/ecc-curves.o .libs/ecc-misc.o .libs/ecc-ecdsa.o .libs/ecc-eddsa.o .libs/ecc-gost.o .libs/crc.o .libs/crc-intel-pclmul.o .libs/gostr3411-94.o .libs/stribog.o .libs/md4.o .libs/md5.o .libs/rmd160.o .libs/sha256.o .libs/sha256-ssse3-amd64.o .libs/sha256-avx-amd64.o .libs/sha256-avx2-bmi2-amd64.o .libs/sha512.o .libs/sha512-ssse3-amd64.o .libs/sha512-avx-amd64.o .libs/sha512-avx2-bmi2-amd64.o .libs/keccak.o .libs/tiger.o .libs/whirlpool.o .libs/whirlpool-sse2-amd64.o .libs/blake2.o .libs/sha1.o .libs/sha1-ssse3-amd64.o .libs/sha1-avx-amd64.o .libs/sha1-avx-bmi2-amd64.o .libs/scrypt.o 
+libtool: link: ranlib .libs/libcipher.a
+libtool: link: ( cd ".libs" && rm -f "libcipher.la" && ln -s "../libcipher.la" "libcipher.la" )
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/cipher'
+Making all in random
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/random'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../random -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT random.lo -MD -MP -MF .deps/random.Tpo -c -o random.lo ../../random/random.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../random -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT random.lo -MD -MP -MF .deps/random.Tpo -c ../../random/random.c  -fPIC -DPIC -o .libs/random.o
+mv -f .deps/random.Tpo .deps/random.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../random -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT random-csprng.lo -MD -MP -MF .deps/random-csprng.Tpo -c -o random-csprng.lo ../../random/random-csprng.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../random -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT random-csprng.lo -MD -MP -MF .deps/random-csprng.Tpo -c ../../random/random-csprng.c  -fPIC -DPIC -o .libs/random-csprng.o
+mv -f .deps/random-csprng.Tpo .deps/random-csprng.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../random -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT random-drbg.lo -MD -MP -MF .deps/random-drbg.Tpo -c -o random-drbg.lo ../../random/random-drbg.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../random -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT random-drbg.lo -MD -MP -MF .deps/random-drbg.Tpo -c ../../random/random-drbg.c  -fPIC -DPIC -o .libs/random-drbg.o
+mv -f .deps/random-drbg.Tpo .deps/random-drbg.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../random -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT random-system.lo -MD -MP -MF .deps/random-system.Tpo -c -o random-system.lo ../../random/random-system.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../random -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT random-system.lo -MD -MP -MF .deps/random-system.Tpo -c ../../random/random-system.c  -fPIC -DPIC -o .libs/random-system.o
+mv -f .deps/random-system.Tpo .deps/random-system.Plo
+`echo /bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../random -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -c ../../random/rndjent.c | sed -e 's/-O\([1-9s][1-9s]*\)/-O0/' -e 's/-Ofast/-O0/g' `
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../random -I.. -I../src -I../../src -g -O0 -fvisibility=hidden -Wall -c ../../random/rndjent.c  -fPIC -DPIC -o .libs/rndjent.o
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../random -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rndhw.lo -MD -MP -MF .deps/rndhw.Tpo -c -o rndhw.lo ../../random/rndhw.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../random -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rndhw.lo -MD -MP -MF .deps/rndhw.Tpo -c ../../random/rndhw.c  -fPIC -DPIC -o .libs/rndhw.o
+mv -f .deps/rndhw.Tpo .deps/rndhw.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../random -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rndlinux.lo -MD -MP -MF .deps/rndlinux.Tpo -c -o rndlinux.lo ../../random/rndlinux.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../random -I.. -I../src -I../../src -g -O2 -fvisibility=hidden -Wall -MT rndlinux.lo -MD -MP -MF .deps/rndlinux.Tpo -c ../../random/rndlinux.c  -fPIC -DPIC -o .libs/rndlinux.o
+mv -f .deps/rndlinux.Tpo .deps/rndlinux.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall   -o librandom.la  random.lo random-csprng.lo random-drbg.lo random-system.lo rndjent.lo rndhw.lo  rndlinux.lo 
+libtool: link: ar cru .libs/librandom.a .libs/random.o .libs/random-csprng.o .libs/random-drbg.o .libs/random-system.o .libs/rndjent.o .libs/rndhw.o .libs/rndlinux.o 
+libtool: link: ranlib .libs/librandom.a
+libtool: link: ( cd ".libs" && rm -f "librandom.la" && ln -s "../librandom.la" "librandom.la" )
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/random'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-visibility.lo -MD -MP -MF .deps/libgcrypt_la-visibility.Tpo -c -o libgcrypt_la-visibility.lo `test -f 'visibility.c' || echo '../../src/'`visibility.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-visibility.lo -MD -MP -MF .deps/libgcrypt_la-visibility.Tpo -c ../../src/visibility.c  -fPIC -DPIC -o .libs/libgcrypt_la-visibility.o
+mv -f .deps/libgcrypt_la-visibility.Tpo .deps/libgcrypt_la-visibility.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-misc.lo -MD -MP -MF .deps/libgcrypt_la-misc.Tpo -c -o libgcrypt_la-misc.lo `test -f 'misc.c' || echo '../../src/'`misc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-misc.lo -MD -MP -MF .deps/libgcrypt_la-misc.Tpo -c ../../src/misc.c  -fPIC -DPIC -o .libs/libgcrypt_la-misc.o
+mv -f .deps/libgcrypt_la-misc.Tpo .deps/libgcrypt_la-misc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-global.lo -MD -MP -MF .deps/libgcrypt_la-global.Tpo -c -o libgcrypt_la-global.lo `test -f 'global.c' || echo '../../src/'`global.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-global.lo -MD -MP -MF .deps/libgcrypt_la-global.Tpo -c ../../src/global.c  -fPIC -DPIC -o .libs/libgcrypt_la-global.o
+mv -f .deps/libgcrypt_la-global.Tpo .deps/libgcrypt_la-global.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-sexp.lo -MD -MP -MF .deps/libgcrypt_la-sexp.Tpo -c -o libgcrypt_la-sexp.lo `test -f 'sexp.c' || echo '../../src/'`sexp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-sexp.lo -MD -MP -MF .deps/libgcrypt_la-sexp.Tpo -c ../../src/sexp.c  -fPIC -DPIC -o .libs/libgcrypt_la-sexp.o
+mv -f .deps/libgcrypt_la-sexp.Tpo .deps/libgcrypt_la-sexp.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-hwfeatures.lo -MD -MP -MF .deps/libgcrypt_la-hwfeatures.Tpo -c -o libgcrypt_la-hwfeatures.lo `test -f 'hwfeatures.c' || echo '../../src/'`hwfeatures.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-hwfeatures.lo -MD -MP -MF .deps/libgcrypt_la-hwfeatures.Tpo -c ../../src/hwfeatures.c  -fPIC -DPIC -o .libs/libgcrypt_la-hwfeatures.o
+mv -f .deps/libgcrypt_la-hwfeatures.Tpo .deps/libgcrypt_la-hwfeatures.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-stdmem.lo -MD -MP -MF .deps/libgcrypt_la-stdmem.Tpo -c -o libgcrypt_la-stdmem.lo `test -f 'stdmem.c' || echo '../../src/'`stdmem.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-stdmem.lo -MD -MP -MF .deps/libgcrypt_la-stdmem.Tpo -c ../../src/stdmem.c  -fPIC -DPIC -o .libs/libgcrypt_la-stdmem.o
+mv -f .deps/libgcrypt_la-stdmem.Tpo .deps/libgcrypt_la-stdmem.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-secmem.lo -MD -MP -MF .deps/libgcrypt_la-secmem.Tpo -c -o libgcrypt_la-secmem.lo `test -f 'secmem.c' || echo '../../src/'`secmem.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-secmem.lo -MD -MP -MF .deps/libgcrypt_la-secmem.Tpo -c ../../src/secmem.c  -fPIC -DPIC -o .libs/libgcrypt_la-secmem.o
+mv -f .deps/libgcrypt_la-secmem.Tpo .deps/libgcrypt_la-secmem.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-missing-string.lo -MD -MP -MF .deps/libgcrypt_la-missing-string.Tpo -c -o libgcrypt_la-missing-string.lo `test -f 'missing-string.c' || echo '../../src/'`missing-string.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-missing-string.lo -MD -MP -MF .deps/libgcrypt_la-missing-string.Tpo -c ../../src/missing-string.c  -fPIC -DPIC -o .libs/libgcrypt_la-missing-string.o
+mv -f .deps/libgcrypt_la-missing-string.Tpo .deps/libgcrypt_la-missing-string.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-fips.lo -MD -MP -MF .deps/libgcrypt_la-fips.Tpo -c -o libgcrypt_la-fips.lo `test -f 'fips.c' || echo '../../src/'`fips.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-fips.lo -MD -MP -MF .deps/libgcrypt_la-fips.Tpo -c ../../src/fips.c  -fPIC -DPIC -o .libs/libgcrypt_la-fips.o
+mv -f .deps/libgcrypt_la-fips.Tpo .deps/libgcrypt_la-fips.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-hmac256.lo -MD -MP -MF .deps/libgcrypt_la-hmac256.Tpo -c -o libgcrypt_la-hmac256.lo `test -f 'hmac256.c' || echo '../../src/'`hmac256.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-hmac256.lo -MD -MP -MF .deps/libgcrypt_la-hmac256.Tpo -c ../../src/hmac256.c  -fPIC -DPIC -o .libs/libgcrypt_la-hmac256.o
+mv -f .deps/libgcrypt_la-hmac256.Tpo .deps/libgcrypt_la-hmac256.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-context.lo -MD -MP -MF .deps/libgcrypt_la-context.Tpo -c -o libgcrypt_la-context.lo `test -f 'context.c' || echo '../../src/'`context.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT libgcrypt_la-context.lo -MD -MP -MF .deps/libgcrypt_la-context.Tpo -c ../../src/context.c  -fPIC -DPIC -o .libs/libgcrypt_la-context.o
+mv -f .deps/libgcrypt_la-context.Tpo .deps/libgcrypt_la-context.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT hwf-x86.lo -MD -MP -MF .deps/hwf-x86.Tpo -c -o hwf-x86.lo ../../src/hwf-x86.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../src -I.. -g -O2 -fvisibility=hidden -Wall -MT hwf-x86.lo -MD -MP -MF .deps/hwf-x86.Tpo -c ../../src/hwf-x86.c  -fPIC -DPIC -o .libs/hwf-x86.o
+mv -f .deps/hwf-x86.Tpo .deps/hwf-x86.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall    -Wl,--version-script=../../src/libgcrypt.vers -version-info 22:0:2  -o libgcrypt.la -rpath /usr/lib libgcrypt_la-visibility.lo libgcrypt_la-misc.lo libgcrypt_la-global.lo libgcrypt_la-sexp.lo libgcrypt_la-hwfeatures.lo libgcrypt_la-stdmem.lo libgcrypt_la-secmem.lo libgcrypt_la-missing-string.lo libgcrypt_la-fips.lo libgcrypt_la-hmac256.lo libgcrypt_la-context.lo  hwf-x86.lo ../cipher/libcipher.la ../random/librandom.la ../mpi/libmpi.la ../compat/libcompat.la  -lgpg-error 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libgcrypt_la-visibility.o .libs/libgcrypt_la-misc.o .libs/libgcrypt_la-global.o .libs/libgcrypt_la-sexp.o .libs/libgcrypt_la-hwfeatures.o .libs/libgcrypt_la-stdmem.o .libs/libgcrypt_la-secmem.o .libs/libgcrypt_la-missing-string.o .libs/libgcrypt_la-fips.o .libs/libgcrypt_la-hmac256.o .libs/libgcrypt_la-context.o .libs/hwf-x86.o  -Wl,--whole-archive ../cipher/.libs/libcipher.a ../random/.libs/librandom.a ../mpi/.libs/libmpi.a ../compat/.libs/libcompat.a -Wl,--no-whole-archive  /usr/lib/libgpg-error.so  -O2 -Wl,--version-script=../../src/libgcrypt.vers   -Wl,-soname -Wl,libgcrypt.so.20 -o .libs/libgcrypt.so.20.2.0
+libtool: link: (cd ".libs" && rm -f "libgcrypt.so.20" && ln -s "libgcrypt.so.20.2.0" "libgcrypt.so.20")
+libtool: link: (cd ".libs" && rm -f "libgcrypt.so" && ln -s "libgcrypt.so.20.2.0" "libgcrypt.so")
+libtool: link: ( cd ".libs" && rm -f "libgcrypt.la" && ln -s "../libgcrypt.la" "libgcrypt.la" )
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT dumpsexp-dumpsexp.o -MD -MP -MF .deps/dumpsexp-dumpsexp.Tpo -c -o dumpsexp-dumpsexp.o `test -f 'dumpsexp.c' || echo '../../src/'`dumpsexp.c
+mv -f .deps/dumpsexp-dumpsexp.Tpo .deps/dumpsexp-dumpsexp.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall   -o dumpsexp dumpsexp-dumpsexp.o  
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o dumpsexp dumpsexp-dumpsexp.o 
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..    -DSTANDALONE  -g -O2 -fvisibility=hidden -Wall -MT hmac256-hmac256.o -MD -MP -MF .deps/hmac256-hmac256.Tpo -c -o hmac256-hmac256.o `test -f 'hmac256.c' || echo '../../src/'`hmac256.c
+mv -f .deps/hmac256-hmac256.Tpo .deps/hmac256-hmac256.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DSTANDALONE  -g -O2 -fvisibility=hidden -Wall   -o hmac256 hmac256-hmac256.o  
+libtool: link: gcc -DSTANDALONE -g -O2 -fvisibility=hidden -Wall -o hmac256 hmac256-hmac256.o 
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..     -g -O2 -fvisibility=hidden -Wall -MT mpicalc-mpicalc.o -MD -MP -MF .deps/mpicalc-mpicalc.Tpo -c -o mpicalc-mpicalc.o `test -f 'mpicalc.c' || echo '../../src/'`mpicalc.c
+mv -f .deps/mpicalc-mpicalc.Tpo .deps/mpicalc-mpicalc.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall   -o mpicalc mpicalc-mpicalc.o libgcrypt.la  -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o .libs/mpicalc mpicalc-mpicalc.o  ./.libs/libgcrypt.so /usr/lib/libgpg-error.so
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/src'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/doc'
+make  all-am
+make[3]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/doc'
+gcc -o yat2m ../../doc/yat2m.c
+for file in gcrypt.texi ; do \
+              ./yat2m -I ../../doc --release "Libgcrypt 1.8.0" --source "Libgcrypt" --store \
+          `test -f '$file' || echo '../../doc/'`$file ; done
+yat2m: writing 'hmac256.1'
+make[3]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/doc'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/tests'
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT version.o -MD -MP -MF .deps/version.Tpo -c -o version.o ../../tests/version.c
+mv -f .deps/version.Tpo .deps/version.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o version version.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o version version.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-secmem.o -MD -MP -MF .deps/t-secmem.Tpo -c -o t-secmem.o ../../tests/t-secmem.c
+mv -f .deps/t-secmem.Tpo .deps/t-secmem.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-secmem t-secmem.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-secmem t-secmem.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT mpitests.o -MD -MP -MF .deps/mpitests.Tpo -c -o mpitests.o ../../tests/mpitests.c
+mv -f .deps/mpitests.Tpo .deps/mpitests.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o mpitests mpitests.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o mpitests mpitests.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-sexp.o -MD -MP -MF .deps/t-sexp.Tpo -c -o t-sexp.o ../../tests/t-sexp.c
+mv -f .deps/t-sexp.Tpo .deps/t-sexp.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-sexp t-sexp.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-sexp t-sexp.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-convert.o -MD -MP -MF .deps/t-convert.Tpo -c -o t-convert.o ../../tests/t-convert.c
+mv -f .deps/t-convert.Tpo .deps/t-convert.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-convert t-convert.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-convert t-convert.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-mpi-bit.o -MD -MP -MF .deps/t-mpi-bit.Tpo -c -o t-mpi-bit.o ../../tests/t-mpi-bit.c
+mv -f .deps/t-mpi-bit.Tpo .deps/t-mpi-bit.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-mpi-bit t-mpi-bit.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-mpi-bit t-mpi-bit.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-mpi-point.o -MD -MP -MF .deps/t-mpi-point.Tpo -c -o t-mpi-point.o ../../tests/t-mpi-point.c
+mv -f .deps/t-mpi-point.Tpo .deps/t-mpi-point.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-mpi-point t-mpi-point.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-mpi-point t-mpi-point.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT curves.o -MD -MP -MF .deps/curves.Tpo -c -o curves.o ../../tests/curves.c
+mv -f .deps/curves.Tpo .deps/curves.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o curves curves.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o curves curves.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t_lock-t-lock.o -MD -MP -MF .deps/t_lock-t-lock.Tpo -c -o t_lock-t-lock.o `test -f 't-lock.c' || echo '../../tests/'`t-lock.c
+mv -f .deps/t_lock-t-lock.Tpo .deps/t_lock-t-lock.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-lock t_lock-t-lock.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error -lpthread 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-lock t_lock-t-lock.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -lpthread -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT prime.o -MD -MP -MF .deps/prime.Tpo -c -o prime.o ../../tests/prime.c
+mv -f .deps/prime.Tpo .deps/prime.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o prime prime.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o prime prime.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT basic.o -MD -MP -MF .deps/basic.Tpo -c -o basic.o ../../tests/basic.c
+mv -f .deps/basic.Tpo .deps/basic.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o basic basic.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o basic basic.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT keygen.o -MD -MP -MF .deps/keygen.Tpo -c -o keygen.o ../../tests/keygen.c
+mv -f .deps/keygen.Tpo .deps/keygen.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o keygen keygen.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o keygen keygen.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT pubkey.o -MD -MP -MF .deps/pubkey.Tpo -c -o pubkey.o ../../tests/pubkey.c
+mv -f .deps/pubkey.Tpo .deps/pubkey.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o pubkey pubkey.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o pubkey pubkey.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT hmac.o -MD -MP -MF .deps/hmac.Tpo -c -o hmac.o ../../tests/hmac.c
+mv -f .deps/hmac.Tpo .deps/hmac.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o hmac hmac.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o hmac hmac.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT hashtest.o -MD -MP -MF .deps/hashtest.Tpo -c -o hashtest.o ../../tests/hashtest.c
+mv -f .deps/hashtest.Tpo .deps/hashtest.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o hashtest hashtest.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o hashtest hashtest.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-kdf.o -MD -MP -MF .deps/t-kdf.Tpo -c -o t-kdf.o ../../tests/t-kdf.c
+mv -f .deps/t-kdf.Tpo .deps/t-kdf.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-kdf t-kdf.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-kdf t-kdf.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT keygrip.o -MD -MP -MF .deps/keygrip.Tpo -c -o keygrip.o ../../tests/keygrip.c
+mv -f .deps/keygrip.Tpo .deps/keygrip.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o keygrip keygrip.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o keygrip keygrip.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT fips186-dsa.o -MD -MP -MF .deps/fips186-dsa.Tpo -c -o fips186-dsa.o ../../tests/fips186-dsa.c
+mv -f .deps/fips186-dsa.Tpo .deps/fips186-dsa.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o fips186-dsa fips186-dsa.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o fips186-dsa fips186-dsa.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT aeswrap.o -MD -MP -MF .deps/aeswrap.Tpo -c -o aeswrap.o ../../tests/aeswrap.c
+mv -f .deps/aeswrap.Tpo .deps/aeswrap.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o aeswrap aeswrap.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o aeswrap aeswrap.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT pkcs1v2.o -MD -MP -MF .deps/pkcs1v2.Tpo -c -o pkcs1v2.o ../../tests/pkcs1v2.c
+mv -f .deps/pkcs1v2.Tpo .deps/pkcs1v2.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o pkcs1v2 pkcs1v2.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o pkcs1v2 pkcs1v2.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT random.o -MD -MP -MF .deps/random.Tpo -c -o random.o ../../tests/random.c
+mv -f .deps/random.Tpo .deps/random.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o random random.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o random random.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT dsa-rfc6979.o -MD -MP -MF .deps/dsa-rfc6979.Tpo -c -o dsa-rfc6979.o ../../tests/dsa-rfc6979.c
+mv -f .deps/dsa-rfc6979.Tpo .deps/dsa-rfc6979.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o dsa-rfc6979 dsa-rfc6979.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o dsa-rfc6979 dsa-rfc6979.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-ed25519.o -MD -MP -MF .deps/t-ed25519.Tpo -c -o t-ed25519.o ../../tests/t-ed25519.c
+mv -f .deps/t-ed25519.Tpo .deps/t-ed25519.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-ed25519 t-ed25519.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-ed25519 t-ed25519.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT t-cv25519.o -MD -MP -MF .deps/t-cv25519.Tpo -c -o t-cv25519.o ../../tests/t-cv25519.c
+mv -f .deps/t-cv25519.Tpo .deps/t-cv25519.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o t-cv25519 t-cv25519.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o t-cv25519 t-cv25519.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT benchmark.o -MD -MP -MF .deps/benchmark.Tpo -c -o benchmark.o ../../tests/benchmark.c
+mv -f .deps/benchmark.Tpo .deps/benchmark.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o benchmark benchmark.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o benchmark benchmark.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT bench-slope.o -MD -MP -MF .deps/bench-slope.Tpo -c -o bench-slope.o ../../tests/bench-slope.c
+mv -f .deps/bench-slope.Tpo .deps/bench-slope.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o bench-slope bench-slope.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o bench-slope bench-slope.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT fipsdrv.o -MD -MP -MF .deps/fipsdrv.Tpo -c -o fipsdrv.o ../../tests/fipsdrv.c
+mv -f .deps/fipsdrv.Tpo .deps/fipsdrv.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o fipsdrv fipsdrv.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o fipsdrv fipsdrv.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT rsacvt.o -MD -MP -MF .deps/rsacvt.Tpo -c -o rsacvt.o ../../tests/rsacvt.c
+mv -f .deps/rsacvt.Tpo .deps/rsacvt.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o rsacvt rsacvt.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o rsacvt rsacvt.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT genhashdata.o -MD -MP -MF .deps/genhashdata.Tpo -c -o genhashdata.o ../../tests/genhashdata.c
+mv -f .deps/genhashdata.Tpo .deps/genhashdata.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o genhashdata genhashdata.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o genhashdata genhashdata.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../src -I../../src   -g -O2 -fvisibility=hidden -Wall -MT gchash.o -MD -MP -MF .deps/gchash.Tpo -c -o gchash.o ../../tests/gchash.c
+mv -f .deps/gchash.Tpo .deps/gchash.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -fvisibility=hidden -Wall -no-install  -o gchash gchash.o ../src/libgcrypt.la  ../compat/libcompat.la -lgpg-error 
+libtool: link: gcc -g -O2 -fvisibility=hidden -Wall -o gchash gchash.o  ../src/.libs/libgcrypt.so ../compat/.libs/libcompat.a /usr/lib/libgpg-error.so -Wl,-rpath -Wl,/lfskernel/sources/boot/libgcrypt-1.8.0/build/src/.libs
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build'
+make[2]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build'
+make[1]: Leaving directory '/lfskernel/sources/boot/libgcrypt-1.8.0/build'

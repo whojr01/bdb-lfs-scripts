@@ -1,0 +1,94 @@
+/sbin:
+total 26732
+-rwxr-xr-x 1 root root  205664 Jan 30 18:38 agetty
+-rwxr-xr-x 1 root root   37200 Jan 29 21:38 badblocks
+-rwxr-xr-x 1 root root   86808 Jan 30 18:38 blkdiscard
+-rwxr-xr-x 1 root root  317784 Jan 30 18:38 blkid
+-rwxr-xr-x 1 root root  165680 Jan 30 18:38 blkzone
+-rwxr-xr-x 1 root root  119664 Jan 30 18:38 blockdev
+-rwxr-xr-x 1 root root   94792 Jan 30 13:03 bridge
+-rwxr-xr-x 1 root root  312168 Jan 30 18:38 cfdisk
+-rwxr-xr-x 1 root root   73776 Jan 30 18:38 chcpu
+-rwxr-xr-x 1 root root   61640 Jan 30 18:38 ctrlaltdel
+lrwxrwxrwx 1 root root       6 Jan 30 13:03 ctstat -> lnstat
+-rwxr-xr-x 1 root root  273640 Jan 29 21:38 debugfs
+lrwxrwxrwx 1 root root      11 Jan 29 00:45 depmod -> ../bin/kmod
+-rwxr-xr-x 1 root root   38584 Jan 29 21:38 dumpe2fs
+-rwxr-xr-x 4 root root  421352 Jan 29 21:38 e2fsck
+-rwxr-xr-x 1 root root   56144 Jan 29 21:38 e2image
+-rwxr-xr-x 2 root root  154248 Jan 29 21:38 e2label
+-rwxr-xr-x 1 root root   26752 Jan 29 21:38 e2undo
+-rwxr-xr-x 1 root root  428376 Jan 30 18:38 fdisk
+-rwxr-xr-x 1 root root   26120 Jan 30 18:38 findfs
+-rwxr-xr-x 1 root root  157760 Jan 30 18:38 fsck
+-rwxr-xr-x 1 root root  125712 Jan 30 18:38 fsck.cramfs
+-rwxr-xr-x 4 root root  421352 Jan 29 21:38 fsck.ext2
+-rwxr-xr-x 4 root root  421352 Jan 29 21:38 fsck.ext3
+-rwxr-xr-x 4 root root  421352 Jan 29 21:38 fsck.ext4
+-rwxr-xr-x 1 root root  329240 Jan 30 18:38 fsck.minix
+-rwxr-xr-x 1 root root   30144 Jan 30 18:38 fsfreeze
+-rwxr-xr-x 1 root root  151176 Jan 30 18:38 fstrim
+-rwxr-xr-x 1 root root   66232 Jan 30 13:03 genl
+-rwxr-xr-x 1 root root 1168408 Jan 30 12:38 grub-bios-setup
+-rwxr-xr-x 1 root root 1465176 Jan 30 12:38 grub-install
+-rwxr-xr-x 1 root root 1146208 Jan 30 12:38 grub-macbless
+-rwxr-xr-x 1 root root    7321 Jan 30 12:38 grub-mkconfig
+-rwxr-xr-x 1 root root  105856 Jan 30 12:38 grub-ofpathname
+-rwxr-xr-x 1 root root 1164488 Jan 30 12:38 grub-probe
+-rwxr-xr-x 1 root root    4095 Jan 30 12:38 grub-reboot
+-rwxr-xr-x 1 root root    3545 Jan 30 12:38 grub-set-default
+-rwxr-xr-x 1 root root 1169088 Jan 30 12:38 grub-sparc64-setup
+lrwxrwxrwx 1 root root      16 Jan 29 14:57 halt -> ../bin/systemctl
+-rwxr-xr-x 1 root root  177192 Jan 30 18:38 hwclock
+-rwxr-xr-x 1 root root    3058 Jan 30 13:03 ifcfg
+-rwxr-xr-x 1 root root  445168 Jan 28 21:36 ifconfig
+-rwxr-xr-x 1 root root   53216 Jan 30 13:03 ifstat
+lrwxrwxrwx 1 root root      22 Jan 29 14:57 init -> ../lib/systemd/systemd
+lrwxrwxrwx 1 root root      11 Jan 29 00:45 insmod -> ../bin/kmod
+-rwxr-xr-x 1 root root  553008 Jan 30 13:03 ip
+-rwxr-xr-x 1 root root 5889656 Jan 24 22:05 ldconfig
+-rwxr-xr-x 1 root root   28168 Jan 30 13:03 lnstat
+-rwxr-xr-x 1 root root   17840 Jan 29 21:38 logsave
+-rwxr-xr-x 1 root root  289200 Jan 30 18:38 losetup
+lrwxrwxrwx 1 root root      11 Jan 29 00:45 lsmod -> ../bin/kmod
+-rwxr-xr-x 4 root root  179696 Jan 29 21:38 mke2fs
+-rwxr-xr-x 1 root root   28160 Jan 30 18:38 mkfs
+-rwxr-xr-x 1 root root   96448 Jan 30 18:38 mkfs.bfs
+-rwxr-xr-x 1 root root  124928 Jan 30 18:38 mkfs.cramfs
+-rwxr-xr-x 4 root root  179696 Jan 29 21:38 mkfs.ext2
+-rwxr-xr-x 4 root root  179696 Jan 29 21:38 mkfs.ext3
+-rwxr-xr-x 4 root root  179696 Jan 29 21:38 mkfs.ext4
+-rwxr-xr-x 1 root root  295128 Jan 30 18:38 mkfs.minix
+-rwxr-xr-x 1 root root  280256 Jan 30 18:38 mkswap
+lrwxrwxrwx 1 root root      11 Jan 29 00:45 modinfo -> ../bin/kmod
+lrwxrwxrwx 1 root root      11 Jan 29 00:45 modprobe -> ../bin/kmod
+-rwxr-xr-x 1 root root   14824 Jan 28 00:34 nologin
+-rwxr-xr-x 1 root root   33592 Jan 30 13:03 nstat
+-rwxr-xr-x 1 root root   25992 Jan 30 18:38 pivot_root
+lrwxrwxrwx 1 root root      16 Jan 29 14:57 poweroff -> ../bin/systemctl
+-rwxr-xr-x 1 root root   32400 Jan 30 18:38 raw
+lrwxrwxrwx 1 root root      16 Jan 29 14:57 reboot -> ../bin/systemctl
+-rwxr-xr-x 1 root root   89848 Jan 29 21:38 resize2fs
+lrwxrwxrwx 1 root root      11 Jan 29 00:45 rmmod -> ../bin/kmod
+-rwxr-xr-x 1 root root     173 Jan 30 13:03 routef
+-rwxr-xr-x 1 root root    1627 Jan 30 13:03 routel
+-rwxr-xr-x 1 root root   48384 Jan 30 13:03 rtacct
+-rwxr-xr-x 1 root root   61504 Jan 30 13:03 rtmon
+-rwxr-xr-x 1 root root      37 Jan 30 13:03 rtpr
+lrwxrwxrwx 1 root root       6 Jan 30 13:03 rtstat -> lnstat
+lrwxrwxrwx 1 root root      16 Jan 29 14:57 runlevel -> ../bin/systemctl
+-rwxr-xr-x 1 root root  382456 Jan 30 18:38 sfdisk
+lrwxrwxrwx 1 root root      16 Jan 29 14:57 shutdown -> ../bin/systemctl
+-rwxr-xr-x 1 root root 4538424 Jan 24 22:05 sln
+-rwxr-xr-x 1 root root  146744 Jan 30 13:03 ss
+-rwxr-xr-x 1 root root  160872 Jan 30 18:38 sulogin
+-rwxr-xr-x 1 root root   39280 Jan 30 18:38 swaplabel
+-rwxr-xr-x 1 root root   53680 Jan 30 18:38 swapoff
+-rwxr-xr-x 1 root root  151288 Jan 30 18:38 swapon
+-rwxr-xr-x 1 root root   38456 Jan 30 18:38 switch_root
+-rwxr-xr-x 1 root root   70240 Jan 29 20:15 sysctl
+-rwxr-xr-x 1 root root  455680 Jan 30 13:03 tc
+lrwxrwxrwx 1 root root      16 Jan 29 14:57 telinit -> ../bin/systemctl
+-rwxr-xr-x 2 root root  154248 Jan 29 21:38 tune2fs
+-rwxr-xr-x 1 root root  118112 Jan 30 18:38 wipefs
+-rwxr-xr-x 1 root root  346728 Jan 30 18:38 zramctl

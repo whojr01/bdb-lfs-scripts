@@ -1,0 +1,29 @@
+###############################
+# Make xlsatoms-1.1.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xlsatoms-1.1.2'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xlsatoms-1.1.2/man'
+  GEN      xlsatoms.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xlsatoms-1.1.2/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xlsatoms-1.1.2'
+  CC       xlsatoms.o
+xlsatoms.c: In function 'do_name':
+xlsatoms.c:149:2: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+  printf (format, (unsigned long) a->atom, name);
+  ^~~~~~
+xlsatoms.c: In function 'say_batch':
+xlsatoms.c:229:6: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+      printf (format, i + low, atom_name);
+      ^~~~~~
+xlsatoms.c: In function 'main':
+xlsatoms.c:206:5: warning: 'high' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     list_atoms (c, format, mask, low, high);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xlsatoms.c:203:15: note: 'high' was declared here
+     long low, high;
+               ^~~~
+  CCLD     xlsatoms
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xlsatoms-1.1.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xlsatoms-1.1.2'

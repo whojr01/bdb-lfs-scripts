@@ -1,0 +1,44 @@
+###############################
+# Make libpciaccess-0.14.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/include'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/man'
+  GEN      scanpci.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/man'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/src'
+  CC       common_bridge.lo
+  CC       common_iterator.lo
+  CC       common_init.lo
+common_init.c: In function 'pci_system_cleanup':
+common_init.c:106:3: warning: 'pci_device_unmap_region' is deprecated [-Wdeprecated-declarations]
+   (void) pci_device_unmap_region( & pci_sys->devices[i].base, j );
+   ^
+In file included from common_init.c:38:0:
+../include/pciaccess.h:88:18: note: declared here
+ int __deprecated pci_device_unmap_region(struct pci_device *dev,
+                  ^~~~~~~~~~~~~~~~~~~~~~~
+  CC       common_interface.lo
+  CC       common_io.lo
+  CC       common_capability.lo
+  CC       common_device_name.lo
+  CC       common_map.lo
+  CC       common_vgaarb.lo
+  CC       linux_sysfs.lo
+  CC       linux_devmem.lo
+  CCLD     libpciaccess.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/src'
+Making all in scanpci
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/scanpci'
+  CC       scanpci.o
+  CCLD     scanpci
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/scanpci'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'

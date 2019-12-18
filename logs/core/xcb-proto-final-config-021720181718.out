@@ -1,0 +1,21 @@
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for xmllint... /usr/bin/xmllint
+checking for a Python interpreter with version >= 2.5... python
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/site-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/site-packages
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating xcbgen/Makefile
+config.status: creating xcb-proto.pc
+configure: WARNING: unrecognized options: --disable-static

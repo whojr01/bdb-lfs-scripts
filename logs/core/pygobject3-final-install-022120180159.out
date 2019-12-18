@@ -1,0 +1,258 @@
+Making install in .
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python2/../$f ./$f; \
+done
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+/bin/sh /sources/boot/pygobject-3.24.1/install-sh -d /usr/lib/python2.7/site-packages
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+/bin/mkdir -p '/usr/lib/python2.7/site-packages/gi'
+ /usr/bin/install -c -m 644  gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py '/usr/lib/python2.7/site-packages/gi'
+Byte-compiling python modules...
+gi/__init__.pygi/types.pygi/module.pygi/importer.pygi/pygtkcompat.pygi/docstring.pygi/_constants.pygi/_propertyhelper.pygi/_signalhelper.pygi/_option.pygi/_error.py
+Byte-compiling python modules (optimized versions) ...
+gi/__init__.pygi/types.pygi/module.pygi/importer.pygi/pygtkcompat.pygi/docstring.pygi/_constants.pygi/_propertyhelper.pygi/_signalhelper.pygi/_option.pygi/_error.py
+/bin/sh /sources/boot/pygobject-3.24.1/install-sh -d /usr/lib/python2.7/site-packages
+cp ./PKG-INFO /usr/lib/python2.7/site-packages/pygobject-3.24.1-py2.7-linux-x86_64.egg-info
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 pygobject-3.0.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+Making install in examples
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+Making install in gi
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+Making install in repository
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages/gi/repository'
+ /usr/bin/install -c -m 644 __init__.py '/usr/lib/python2.7/site-packages/gi/repository'
+Byte-compiling python modules...
+__init__.py
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+Making install in overrides
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages/gi/overrides'
+ /usr/bin/install -c -m 644 GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py '/usr/lib/python2.7/site-packages/gi/overrides'
+Byte-compiling python modules...
+GLib.pyGtk.pyGdk.pyGObject.pyGio.pyGIMarshallingTests.pyPango.pykeysyms.py__init__.py
+Byte-compiling python modules (optimized versions) ...
+GLib.pyGtk.pyGdk.pyGObject.pyGio.pyGIMarshallingTests.pyPango.pykeysyms.py__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+Making install in _gobject
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages/gi/_gobject'
+ /usr/bin/install -c -m 644 __init__.py '/usr/lib/python2.7/site-packages/gi/_gobject'
+Byte-compiling python modules...
+__init__.py
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+ln -s -f .libs/_gi.so _gi.so
+ln -s -f .libs/_gi_cairo.so _gi_cairo.so
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/pygobject-3.0'
+ /usr/bin/install -c -m 644 ../../gi/pygobject.h '/usr/include/pygobject-3.0'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages/gi'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   _gi.la _gi_cairo.la '/usr/lib/python2.7/site-packages/gi'
+libtool: install: /usr/bin/install -c .libs/_gi.so /usr/lib/python2.7/site-packages/gi/_gi.so
+libtool: install: /usr/bin/install -c .libs/_gi.lai /usr/lib/python2.7/site-packages/gi/_gi.la
+libtool: install: /usr/bin/install -c .libs/_gi_cairo.so /usr/lib/python2.7/site-packages/gi/_gi_cairo.so
+libtool: install: /usr/bin/install -c .libs/_gi_cairo.lai /usr/lib/python2.7/site-packages/gi/_gi_cairo.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages/gi
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages/gi
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+Making install in tests
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+Making install in pygtkcompat
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+for f in __init__.py generictreemodel.py pygtkcompat.py; do \
+    [ -e ./$f ] || ln -s ../../pygtkcompat/$f ./$f; \
+done
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages/pygtkcompat'
+ /usr/bin/install -c -m 644 __init__.py generictreemodel.py pygtkcompat.py '/usr/lib/python2.7/site-packages/pygtkcompat'
+Byte-compiling python modules...
+__init__.pygenerictreemodel.pypygtkcompat.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pygenerictreemodel.pypygtkcompat.py
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+Making install in .
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python3/../$f ./$f; \
+done
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+/bin/sh /sources/boot/pygobject-3.24.1/install-sh -d /usr/lib/python3.6/site-packages
+ /bin/mkdir -p '/usr/lib/python3.6/site-packages'
+/bin/mkdir -p '/usr/lib/python3.6/site-packages/gi'
+ /usr/bin/install -c -m 644  gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py '/usr/lib/python3.6/site-packages/gi'
+Byte-compiling python modules...
+gi/__init__.pygi/types.pygi/module.pygi/importer.pygi/pygtkcompat.pygi/docstring.pygi/_constants.pygi/_propertyhelper.pygi/_signalhelper.pygi/_option.pygi/_error.py
+Byte-compiling python modules (optimized versions) ...
+gi/__init__.pygi/types.pygi/module.pygi/importer.pygi/pygtkcompat.pygi/docstring.pygi/_constants.pygi/_propertyhelper.pygi/_signalhelper.pygi/_option.pygi/_error.py
+/bin/sh /sources/boot/pygobject-3.24.1/install-sh -d /usr/lib/python3.6/site-packages
+cp ./PKG-INFO /usr/lib/python3.6/site-packages/pygobject-3.24.1-py3.6-linux-x86_64.egg-info
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 pygobject-3.0.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+Making install in examples
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+Making install in gi
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+Making install in repository
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.6/site-packages/gi/repository'
+ /usr/bin/install -c -m 644 __init__.py '/usr/lib/python3.6/site-packages/gi/repository'
+Byte-compiling python modules...
+__init__.py
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+Making install in overrides
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.6/site-packages/gi/overrides'
+ /usr/bin/install -c -m 644 GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py '/usr/lib/python3.6/site-packages/gi/overrides'
+Byte-compiling python modules...
+GLib.pyGtk.pyGdk.pyGObject.pyGio.pyGIMarshallingTests.pyPango.pykeysyms.py__init__.py
+Byte-compiling python modules (optimized versions) ...
+GLib.pyGtk.pyGdk.pyGObject.pyGio.pyGIMarshallingTests.pyPango.pykeysyms.py__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+Making install in _gobject
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.6/site-packages/gi/_gobject'
+ /usr/bin/install -c -m 644 __init__.py '/usr/lib/python3.6/site-packages/gi/_gobject'
+Byte-compiling python modules...
+__init__.py
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+ln -s -f .libs/_gi.cpython-36m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so
+ln -s -f .libs/_gi_cairo.cpython-36m-x86_64-linux-gnu.so _gi_cairo.cpython-36m-x86_64-linux-gnu.so
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/pygobject-3.0'
+ /usr/bin/install -c -m 644 ../../gi/pygobject.h '/usr/include/pygobject-3.0'
+ /bin/mkdir -p '/usr/lib/python3.6/site-packages/gi'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   _gi.la _gi_cairo.la '/usr/lib/python3.6/site-packages/gi'
+libtool: install: /usr/bin/install -c .libs/_gi.cpython-36m-x86_64-linux-gnu.so /usr/lib/python3.6/site-packages/gi/_gi.cpython-36m-x86_64-linux-gnu.so
+libtool: install: /usr/bin/install -c .libs/_gi.lai /usr/lib/python3.6/site-packages/gi/_gi.la
+libtool: install: /usr/bin/install -c .libs/_gi_cairo.cpython-36m-x86_64-linux-gnu.so /usr/lib/python3.6/site-packages/gi/_gi_cairo.cpython-36m-x86_64-linux-gnu.so
+libtool: install: /usr/bin/install -c .libs/_gi_cairo.lai /usr/lib/python3.6/site-packages/gi/_gi_cairo.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python3.6/site-packages/gi
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python3.6/site-packages/gi
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+Making install in tests
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+Making install in pygtkcompat
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'
+for f in __init__.py generictreemodel.py pygtkcompat.py; do \
+    [ -e ./$f ] || ln -s ../../pygtkcompat/$f ./$f; \
+done
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.6/site-packages/pygtkcompat'
+ /usr/bin/install -c -m 644 __init__.py generictreemodel.py pygtkcompat.py '/usr/lib/python3.6/site-packages/pygtkcompat'
+Byte-compiling python modules...
+__init__.pygenerictreemodel.pypygtkcompat.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pygenerictreemodel.pypygtkcompat.py
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'

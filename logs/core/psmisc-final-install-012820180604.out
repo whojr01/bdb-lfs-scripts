@@ -1,0 +1,80 @@
+make  install-recursive
+make[1]: Entering directory '/sources/psmisc-23.1/build'
+Making install in doc
+make[2]: Entering directory '/sources/psmisc-23.1/build/doc'
+make[3]: Entering directory '/sources/psmisc-23.1/build/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/killall.1 ../../doc/peekfd.1 ../../doc/prtstat.1 ../../doc/pslog.1 ../../doc/pstree.1 ../../doc/fuser.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/psmisc-23.1/build/doc'
+make[2]: Leaving directory '/sources/psmisc-23.1/build/doc'
+Making install in po
+make[2]: Entering directory '/sources/psmisc-23.1/build/po'
+installing ../../po/bg.gmo as /usr/share/locale/bg/LC_MESSAGES/psmisc.mo
+installing ../../po/ca.gmo as /usr/share/locale/ca/LC_MESSAGES/psmisc.mo
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/psmisc.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/psmisc.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/psmisc.mo
+installing ../../po/el.gmo as /usr/share/locale/el/LC_MESSAGES/psmisc.mo
+installing ../../po/eo.gmo as /usr/share/locale/eo/LC_MESSAGES/psmisc.mo
+installing ../../po/eu.gmo as /usr/share/locale/eu/LC_MESSAGES/psmisc.mo
+installing ../../po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/psmisc.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/psmisc.mo
+installing ../../po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/psmisc.mo
+installing ../../po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/psmisc.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/psmisc.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/psmisc.mo
+installing ../../po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/psmisc.mo
+installing ../../po/nb.gmo as /usr/share/locale/nb/LC_MESSAGES/psmisc.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/psmisc.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/psmisc.mo
+installing ../../po/pt.gmo as /usr/share/locale/pt/LC_MESSAGES/psmisc.mo
+installing ../../po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/psmisc.mo
+installing ../../po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/psmisc.mo
+installing ../../po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/psmisc.mo
+installing ../../po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/psmisc.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/psmisc.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/psmisc.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/psmisc.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/psmisc.mo
+installing ../../po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/psmisc.mo
+if test "psmisc" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/psmisc-23.1/build/po'
+Making install in icons
+make[2]: Entering directory '/sources/psmisc-23.1/build/icons'
+make[3]: Entering directory '/sources/psmisc-23.1/build/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/psmisc-23.1/build/icons'
+make[2]: Leaving directory '/sources/psmisc-23.1/build/icons'
+Making install in testsuite
+make[2]: Entering directory '/sources/psmisc-23.1/build/testsuite'
+make[3]: Entering directory '/sources/psmisc-23.1/build/testsuite'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/psmisc-23.1/build/testsuite'
+make[2]: Leaving directory '/sources/psmisc-23.1/build/testsuite'
+make[2]: Entering directory '/sources/psmisc-23.1/build'
+make[3]: Entering directory '/sources/psmisc-23.1/build'
+ /tools/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c src/killall src/pslog src/prtstat src/pstree src/fuser src/peekfd '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/psmisc-23.1/build'
+cd /usr/bin && \
+		( [ -h pstree.x11 ]  || ln -s pstree pstree.x11)
+make[4]: Leaving directory '/sources/psmisc-23.1/build'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/psmisc-23.1/build'
+make[2]: Leaving directory '/sources/psmisc-23.1/build'
+make[1]: Leaving directory '/sources/psmisc-23.1/build'

@@ -1,0 +1,665 @@
+make[1]: Entering directory '/sources/binutils-2.29.1/build'
+/bin/sh ../mkinstalldirs /usr /usr
+make[2]: Entering directory '/sources/binutils-2.29.1/build/bfd'
+make  install-recursive
+make[3]: Entering directory '/sources/binutils-2.29.1/build/bfd'
+Making install in doc
+make[4]: Entering directory '/sources/binutils-2.29.1/build/bfd/doc'
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../../bfd/doc/bfd.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/bfd.info'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/bfd/doc'
+Making install in po
+make[4]: Entering directory '/sources/binutils-2.29.1/build/bfd/po'
+if test -r ../../../bfd/../mkinstalldirs; then \
+  ../../../bfd/../mkinstalldirs /usr/share; \
+else \
+  ../../../bfd/mkinstalldirs /usr/share; \
+fi
+installing ../../../bfd/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/bfd.mo
+installing ../../../bfd/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/bfd.mo
+if test "bfd" = "gettext"; then \
+  if test -r ../../../bfd/../mkinstalldirs; then \
+    ../../../bfd/../mkinstalldirs /usr/share/gettext/po; \
+  else \
+    ../../../bfd/mkinstalldirs /usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../bfd/po/Makefile.in.in \
+		  /usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/bfd/po'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/bfd'
+make[5]: Entering directory '/sources/binutils-2.29.1/build/bfd'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 bfd.h ../../bfd/../include/ansidecl.h ../../bfd/../include/symcat.h ../../bfd/../include/bfdlink.h ../../bfd/../include/plugin-api.h '/usr/include'
+ /tools/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libbfd.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libbfd-2.29.1.so /usr/lib/libbfd-2.29.1.so
+libtool: install: (cd /usr/lib && { ln -s -f libbfd-2.29.1.so libbfd.so || { rm -f libbfd.so && ln -s libbfd-2.29.1.so libbfd.so; }; })
+libtool: install: /usr/bin/install -c .libs/libbfd.lai /usr/lib/libbfd.la
+libtool: install: /usr/bin/install -c .libs/libbfd.a /usr/lib/libbfd.a
+libtool: install: chmod 644 /usr/lib/libbfd.a
+libtool: install: ranlib /usr/lib/libbfd.a
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/bfd'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/bfd'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/bfd'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/bfd'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/opcodes'
+Making install in .
+make[3]: Entering directory '/sources/binutils-2.29.1/build/opcodes'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/opcodes'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 ../../opcodes/../include/dis-asm.h '/usr/include'
+ /tools/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libopcodes.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libopcodes-2.29.1.so /usr/lib/libopcodes-2.29.1.so
+libtool: install: (cd /usr/lib && { ln -s -f libopcodes-2.29.1.so libopcodes.so || { rm -f libopcodes.so && ln -s libopcodes-2.29.1.so libopcodes.so; }; })
+libtool: install: /usr/bin/install -c .libs/libopcodes.lai /usr/lib/libopcodes.la
+libtool: install: /usr/bin/install -c .libs/libopcodes.a /usr/lib/libopcodes.a
+libtool: install: chmod 644 /usr/lib/libopcodes.a
+libtool: install: ranlib /usr/lib/libopcodes.a
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/opcodes'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/opcodes'
+Making install in po
+make[3]: Entering directory '/sources/binutils-2.29.1/build/opcodes/po'
+if test -r ../../../opcodes/../mkinstalldirs; then \
+  ../../../opcodes/../mkinstalldirs /usr/share; \
+else \
+  ../../../opcodes/mkinstalldirs /usr/share; \
+fi
+installing ../../../opcodes/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/de.gmo as /usr/share/locale/de/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/de.gmo as /usr/share/locale/de/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/opcodes.mo
+installing ../../../opcodes/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/opcodes.mo
+if test "opcodes" = "gettext"; then \
+  if test -r ../../../opcodes/../mkinstalldirs; then \
+    ../../../opcodes/../mkinstalldirs /usr/share/gettext/po; \
+  else \
+    ../../../opcodes/mkinstalldirs /usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../opcodes/po/Makefile.in.in \
+		  /usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/opcodes/po'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/opcodes'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/binutils'
+make  install-recursive
+make[3]: Entering directory '/sources/binutils-2.29.1/build/binutils'
+Making install in doc
+make[4]: Entering directory '/sources/binutils-2.29.1/build/binutils/doc'
+make[5]: Entering directory '/sources/binutils-2.29.1/build/binutils/doc'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../../binutils/doc/binutils.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/binutils.info'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../../binutils/doc/addr2line.1 ../../../binutils/doc/ar.1 ../../../binutils/doc/dlltool.1 ../../../binutils/doc/nlmconv.1 ../../../binutils/doc/nm.1 ../../../binutils/doc/objcopy.1 ../../../binutils/doc/objdump.1 ../../../binutils/doc/ranlib.1 ../../../binutils/doc/readelf.1 ../../../binutils/doc/size.1 ../../../binutils/doc/strings.1 ../../../binutils/doc/strip.1 ../../../binutils/doc/elfedit.1 ../../../binutils/doc/windres.1 ../../../binutils/doc/windmc.1 c++filt.1 '/usr/share/man/man1'
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/binutils/doc'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/binutils/doc'
+Making install in po
+make[4]: Entering directory '/sources/binutils-2.29.1/build/binutils/po'
+if test -r ../../../binutils/../mkinstalldirs; then \
+  ../../../binutils/../mkinstalldirs /usr/share; \
+else \
+  ../../../binutils/mkinstalldirs /usr/share; \
+fi
+installing ../../../binutils/po/bg.gmo as /usr/share/locale/bg/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ca.gmo as /usr/share/locale/ca/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/sk.gmo as /usr/share/locale/sk/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/bg.gmo as /usr/share/locale/bg/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ca.gmo as /usr/share/locale/ca/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/sk.gmo as /usr/share/locale/sk/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/binutils.mo
+installing ../../../binutils/po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/binutils.mo
+if test "binutils" = "gettext"; then \
+  if test -r ../../../binutils/../mkinstalldirs; then \
+    ../../../binutils/../mkinstalldirs /usr/share/gettext/po; \
+  else \
+    ../../../binutils/mkinstalldirs /usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../binutils/po/Makefile.in.in \
+		  /usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/binutils/po'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/binutils'
+make[5]: Entering directory '/sources/binutils-2.29.1/build/binutils'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c size objdump ar strings ranlib objcopy addr2line readelf elfedit '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/size /usr/bin/size
+libtool: install: /usr/bin/install -c .libs/objdump /usr/bin/objdump
+libtool: install: /usr/bin/install -c .libs/ar /usr/bin/ar
+libtool: install: /usr/bin/install -c .libs/strings /usr/bin/strings
+libtool: install: /usr/bin/install -c .libs/ranlib /usr/bin/ranlib
+libtool: install: /usr/bin/install -c .libs/objcopy /usr/bin/objcopy
+libtool: install: /usr/bin/install -c .libs/addr2line /usr/bin/addr2line
+libtool: install: /usr/bin/install -c readelf /usr/bin/readelf
+libtool: install: /usr/bin/install -c elfedit /usr/bin/elfedit
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c nm-new /usr/bin/nm
+libtool: install: /usr/bin/install -c .libs/nm-new /usr/bin/nm
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c strip-new /usr/bin/strip
+libtool: install: /usr/bin/install -c .libs/strip-new /usr/bin/strip
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c cxxfilt /usr/bin/c++filt
+libtool: install: /usr/bin/install -c .libs/cxxfilt /usr/bin/c++filt
+/bin/sh ../../binutils/../mkinstalldirs /usr/bin
+for i in nm-new strip-new ar ranlib dlltool objdump objcopy readelf; do \
+  if [ -f $i ]; then \
+    j=`echo $i | sed -e 's/-new//'`; \
+    k=`echo $j | sed 's,y,y,'`; \
+    if [ "/usr/bin/$k" != "/usr/bin/$j" ]; then \
+      rm -f /usr/bin/$j; \
+      ln /usr/bin/$k /usr/bin/$j >/dev/null 2>/dev/null \
+	||  /bin/sh ./libtool --mode=install /usr/bin/install -c $i /usr/bin/$j; \
+    fi; \
+  else true; \
+  fi; \
+done
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/binutils'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/binutils'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/binutils'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/binutils'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/etc'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/etc'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/gas'
+Making install in doc
+make[3]: Entering directory '/sources/binutils-2.29.1/build/gas/doc'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/gas/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../../gas/doc/as.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/as.info'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../../gas/doc/as.1 '/usr/share/man/man1'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/gas/doc'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/gas/doc'
+Making install in po
+make[3]: Entering directory '/sources/binutils-2.29.1/build/gas/po'
+if test -r ../../../gas/../mkinstalldirs; then \
+  ../../../gas/../mkinstalldirs /usr/share; \
+else \
+  ../../../gas/mkinstalldirs /usr/share; \
+fi
+installing ../../../gas/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/gas.mo
+installing ../../../gas/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gas.mo
+installing ../../../gas/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gas.mo
+installing ../../../gas/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/gas.mo
+installing ../../../gas/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gas.mo
+installing ../../../gas/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gas.mo
+installing ../../../gas/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/gas.mo
+installing ../../../gas/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gas.mo
+installing ../../../gas/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gas.mo
+installing ../../../gas/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gas.mo
+installing ../../../gas/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gas.mo
+installing ../../../gas/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/gas.mo
+installing ../../../gas/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gas.mo
+installing ../../../gas/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gas.mo
+installing ../../../gas/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/gas.mo
+installing ../../../gas/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gas.mo
+installing ../../../gas/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gas.mo
+installing ../../../gas/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/gas.mo
+installing ../../../gas/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gas.mo
+installing ../../../gas/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gas.mo
+installing ../../../gas/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gas.mo
+installing ../../../gas/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gas.mo
+if test "gas" = "gettext"; then \
+  if test -r ../../../gas/../mkinstalldirs; then \
+    ../../../gas/../mkinstalldirs /usr/share/gettext/po; \
+  else \
+    ../../../gas/mkinstalldirs /usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../gas/po/Makefile.in.in \
+		  /usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/gas/po'
+make[3]: Entering directory '/sources/binutils-2.29.1/build/gas'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/gas'
+/bin/sh ../../gas/../mkinstalldirs /usr/bin
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c as-new /usr/bin/as
+libtool: install: /usr/bin/install -c .libs/as-new /usr/bin/as
+/bin/sh ../../gas/../mkinstalldirs /usr/bin
+n=`echo as | sed 's,y,y,'`; \
+if [ "/usr/bin/$n" != "/usr/bin/as" ]; then \
+  rm -f /usr/bin/as; \
+  ln /usr/bin/$n /usr/bin/as >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c as-new /usr/bin/as; \
+else \
+  true ; \
+fi
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/gas'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/gas'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/gas'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/gold'
+Making install in po
+make[3]: Entering directory '/sources/binutils-2.29.1/build/gold/po'
+if test -r ../../../gold/../mkinstalldirs; then \
+  ../../../gold/../mkinstalldirs /usr/share; \
+else \
+  ../../../gold/../mkinstalldirs /usr/share; \
+fi
+installing ../../../gold/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/gold.mo
+installing ../../../gold/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gold.mo
+installing ../../../gold/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gold.mo
+installing ../../../gold/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/gold.mo
+installing ../../../gold/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/gold.mo
+installing ../../../gold/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gold.mo
+installing ../../../gold/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gold.mo
+installing ../../../gold/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gold.mo
+installing ../../../gold/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gold.mo
+installing ../../../gold/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gold.mo
+installing ../../../gold/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/gold.mo
+installing ../../../gold/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gold.mo
+installing ../../../gold/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gold.mo
+installing ../../../gold/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/gold.mo
+installing ../../../gold/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/gold.mo
+installing ../../../gold/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gold.mo
+installing ../../../gold/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gold.mo
+installing ../../../gold/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gold.mo
+installing ../../../gold/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gold.mo
+installing ../../../gold/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gold.mo
+if test "gold" = "gettext"; then \
+  if test -r ../../../gold/../mkinstalldirs; then \
+    ../../../gold/../mkinstalldirs /usr/share/gettext/po; \
+  else \
+    ../../../gold/mkinstalldirs /usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../gold/po/Makefile.in.in \
+		  /usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/gold/po'
+Making install in testsuite
+make[3]: Entering directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make  install-am
+make[4]: Entering directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make[5]: Entering directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make[3]: Entering directory '/sources/binutils-2.29.1/build/gold'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/gold'
+ /tools/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c dwp '/usr/bin'
+/bin/sh ../../gold/../mkinstalldirs /usr/bin /usr/bin
+n=`echo ld.gold | sed 's,y,y,'`; \
+ /usr/bin/install -c \
+  ld-new /usr/bin/${n}; \
+if test "/usr/bin" != "/usr/bin"; then \
+  rm -f /usr/bin/ld.gold; \
+  ln /usr/bin/${n} /usr/bin/ld.gold >/dev/null 2>/dev/null \
+  ||  /usr/bin/install -c ld-new /usr/bin/ld.gold; \
+fi; \
+if test "x" = "xyes"; then \
+  ld=`echo ld | sed 's,y,y,'`; \
+  rm -f /usr/bin/${ld}; \
+  ln /usr/bin/${n} /usr/bin/${ld} >/dev/null 2>/dev/null \
+  ||  /usr/bin/install -c ld-new /usr/bin/${ld}; \
+  if test "/usr/bin" != "/usr/bin"; then \
+    rm -f /usr/bin/ld; \
+    ln /usr/bin/${n} /usr/bin/ld >/dev/null 2>/dev/null \
+    ||  /usr/bin/install -c ld-new /usr/bin/ld; \
+  fi; \
+fi
+Making install-info in po
+make[5]: Entering directory '/sources/binutils-2.29.1/build/gold/po'
+make[5]: Nothing to be done for 'install-info'.
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/gold/po'
+Making install-info in testsuite
+make[5]: Entering directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make[5]: Nothing to be done for 'install-info'.
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/gold/testsuite'
+make[5]: Entering directory '/sources/binutils-2.29.1/build/gold'
+make[5]: Nothing to be done for 'install-info-am'.
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/gold'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/gold'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/gold'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/gold'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/gprof'
+make  install-recursive
+make[3]: Entering directory '/sources/binutils-2.29.1/build/gprof'
+Making install in po
+make[4]: Entering directory '/sources/binutils-2.29.1/build/gprof/po'
+if test -r ../../../gprof/../mkinstalldirs; then \
+  ../../../gprof/../mkinstalldirs /usr/share; \
+else \
+  ../../../gprof/mkinstalldirs /usr/share; \
+fi
+installing ../../../gprof/po/bg.gmo as /usr/share/locale/bg/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/de.gmo as /usr/share/locale/de/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ms.gmo as /usr/share/locale/ms/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/bg.gmo as /usr/share/locale/bg/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/de.gmo as /usr/share/locale/de/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ms.gmo as /usr/share/locale/ms/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/rw.gmo as /usr/share/locale/rw/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gprof.mo
+installing ../../../gprof/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gprof.mo
+if test "gprof" = "gettext"; then \
+  if test -r ../../../gprof/../mkinstalldirs; then \
+    ../../../gprof/../mkinstalldirs /usr/share/gettext/po; \
+  else \
+    ../../../gprof/mkinstalldirs /usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../gprof/po/Makefile.in.in \
+		  /usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/gprof/po'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/gprof'
+make[5]: Entering directory '/sources/binutils-2.29.1/build/gprof'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c gprof '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gprof /usr/bin/gprof
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../gprof/gprof.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/gprof.info'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../gprof/gprof.1 '/usr/share/man/man1'
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/gprof'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/gprof'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/gprof'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/gprof'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/intl'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/intl'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/ld'
+make  install-recursive
+make[3]: Entering directory '/sources/binutils-2.29.1/build/ld'
+Making install in po
+make[4]: Entering directory '/sources/binutils-2.29.1/build/ld/po'
+if test -r ../../../ld/../mkinstalldirs; then \
+  ../../../ld/../mkinstalldirs /usr/share; \
+else \
+  ../../../ld/mkinstalldirs /usr/share; \
+fi
+installing ../../../ld/po/bg.gmo as /usr/share/locale/bg/LC_MESSAGES/ld.mo
+installing ../../../ld/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/ld.mo
+installing ../../../ld/po/de.gmo as /usr/share/locale/de/LC_MESSAGES/ld.mo
+installing ../../../ld/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/ld.mo
+installing ../../../ld/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/ld.mo
+installing ../../../ld/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/ld.mo
+installing ../../../ld/po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/ld.mo
+installing ../../../ld/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/ld.mo
+installing ../../../ld/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/ld.mo
+installing ../../../ld/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/ld.mo
+installing ../../../ld/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/ld.mo
+installing ../../../ld/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/ld.mo
+installing ../../../ld/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/ld.mo
+installing ../../../ld/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/ld.mo
+installing ../../../ld/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/ld.mo
+installing ../../../ld/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/ld.mo
+installing ../../../ld/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/ld.mo
+installing ../../../ld/po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/ld.mo
+installing ../../../ld/po/bg.gmo as /usr/share/locale/bg/LC_MESSAGES/ld.mo
+installing ../../../ld/po/da.gmo as /usr/share/locale/da/LC_MESSAGES/ld.mo
+installing ../../../ld/po/de.gmo as /usr/share/locale/de/LC_MESSAGES/ld.mo
+installing ../../../ld/po/es.gmo as /usr/share/locale/es/LC_MESSAGES/ld.mo
+installing ../../../ld/po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/ld.mo
+installing ../../../ld/po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/ld.mo
+installing ../../../ld/po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/ld.mo
+installing ../../../ld/po/id.gmo as /usr/share/locale/id/LC_MESSAGES/ld.mo
+installing ../../../ld/po/it.gmo as /usr/share/locale/it/LC_MESSAGES/ld.mo
+installing ../../../ld/po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/ld.mo
+installing ../../../ld/po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/ld.mo
+installing ../../../ld/po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/ld.mo
+installing ../../../ld/po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/ld.mo
+installing ../../../ld/po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/ld.mo
+installing ../../../ld/po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/ld.mo
+installing ../../../ld/po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/ld.mo
+installing ../../../ld/po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/ld.mo
+installing ../../../ld/po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/ld.mo
+if test "ld" = "gettext"; then \
+  if test -r ../../../ld/../mkinstalldirs; then \
+    ../../../ld/../mkinstalldirs /usr/share/gettext/po; \
+  else \
+    ../../../ld/mkinstalldirs /usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../ld/po/Makefile.in.in \
+		  /usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/ld/po'
+make[4]: Entering directory '/sources/binutils-2.29.1/build/ld'
+make[5]: Entering directory '/sources/binutils-2.29.1/build/ld'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c ld-new '/usr/bin/./ld.bfd'
+libtool: install: /usr/bin/install -c .libs/ld-new /usr/bin/./ld.bfd
+/bin/sh ../../ld/../mkinstalldirs /usr/bin
+n=`echo ld.bfd | sed 's/^ld-new$/ld.bfd/;s,y,y,'`; \
+if test "/usr/bin" != "/usr/bin"; then \
+  rm -f /usr/bin/ld.bfd; \
+  ln /usr/bin/$n /usr/bin/ld.bfd >/dev/null 2>/dev/null \
+  ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/bin/ld.bfd; \
+fi; \
+if test "xyes" = "xyes"; then \
+  ld=`echo ld | sed 's/^ld-new$/ld.bfd/;s,y,y,'`; \
+  rm -f /usr/bin/$ld; \
+  ln /usr/bin/$n /usr/bin/$ld >/dev/null 2>/dev/null \
+  ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/bin/$ld; \
+  if test "/usr/bin" != "/usr/bin"; then \
+    rm -f /usr/bin/ld; \
+    ln /usr/bin/$n /usr/bin/ld >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/bin/ld; \
+  fi; \
+fi
+/bin/sh ../../ld/../mkinstalldirs /usr/lib/ldscripts
+for f in ldscripts/* ; do \
+  /usr/bin/install -c -m 644 $f /usr/lib/$f ; \
+done
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../ld/ld.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/ld.info'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../ld/ld.1 '/usr/share/man/man1'
+make[5]: Leaving directory '/sources/binutils-2.29.1/build/ld'
+make[4]: Leaving directory '/sources/binutils-2.29.1/build/ld'
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/ld'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/ld'
+make[2]: Entering directory '/sources/binutils-2.29.1/build/libiberty'
+make[3]: Entering directory '/sources/binutils-2.29.1/build/libiberty/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/libiberty/testsuite'
+if test -n ""; then \
+	/bin/sh ../../libiberty/../mkinstalldirs /usr/lib/`gcc -g -O2 -print-multi-os-directory`; \
+	/usr/bin/install -c -m 644 ./libiberty.a /usr/lib/`gcc -g -O2 -print-multi-os-directory`/./libiberty.an; \
+	( cd /usr/lib/`gcc -g -O2 -print-multi-os-directory` ; chmod 644 ./libiberty.an ;ranlib ./libiberty.an ); \
+	mv -f /usr/lib/`gcc -g -O2 -print-multi-os-directory`/./libiberty.an /usr/lib/`gcc -g -O2 -print-multi-os-directory`/./libiberty.a; \
+	case "" in \
+	  /*)    thd=;; \
+	  *)     thd=/usr/include/;; \
+	esac; \
+	/bin/sh ../../libiberty/../mkinstalldirs ${thd}; \
+	for h in ../../libiberty/../include/ansidecl.h ../../libiberty/../include/demangle.h ../../libiberty/../include/dyn-string.h ../../libiberty/../include/fibheap.h ../../libiberty/../include/floatformat.h ../../libiberty/../include/hashtab.h ../../libiberty/../include/libiberty.h ../../libiberty/../include/objalloc.h ../../libiberty/../include/partition.h ../../libiberty/../include/safe-ctype.h ../../libiberty/../include/sort.h ../../libiberty/../include/splay-tree.h ../../libiberty/../include/timeval-utils.h; do \
+	  /usr/bin/install -c -m 644 $h ${thd}; \
+	done; \
+fi
+make[3]: Entering directory '/sources/binutils-2.29.1/build/libiberty/testsuite'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/sources/binutils-2.29.1/build/libiberty/testsuite'
+make[2]: Leaving directory '/sources/binutils-2.29.1/build/libiberty'
+make[1]: Nothing to be done for 'install-target'.
+make[1]: Leaving directory '/sources/binutils-2.29.1/build'

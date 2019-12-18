@@ -1,0 +1,77 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for whoami... /usr/bin/whoami
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for ranlib... ranlib
+checking for as... /usr/bin/as
+checking for ar... /usr/bin/ar
+checking for ld... /usr/bin/ld
+checking for strip... /usr/bin/strip
+checking for windres... no
+checking how to run the C preprocessor... gcc -E
+checking for gcc -pipe support... no
+checking for pragma diagnostic... no
+checking whether C compiler supports -fprofile-generate... yes
+checking for visibility(hidden) attribute... yes
+checking for visibility pragma support... yes
+checking for perl5... no
+checking for perl... /usr/bin/perl
+checking for dlopen in -ldl... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking whether gcc needs -traditional... no
+checking for dladdr... yes
+checking for gettid... no
+checking for lchown... yes
+checking for setpriority... yes
+checking for strerror... yes
+checking for syscall... yes
+checking for secure_getenv... yes
+checking for __secure_getenv... no
+checking for pthread_create in -lpthreads... no
+checking for pthread_create in -lpthread... yes
+checking whether gcc accepts -pthread... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config/Makefile
+config.status: creating config/autoconf.mk
+config.status: creating config/nsprincl.mk
+config.status: creating config/nsprincl.sh
+config.status: creating config/nspr-config
+config.status: creating config/nspr.pc
+config.status: creating lib/Makefile
+config.status: creating lib/ds/Makefile
+config.status: creating lib/libc/Makefile
+config.status: creating lib/libc/include/Makefile
+config.status: creating lib/libc/src/Makefile
+config.status: creating lib/tests/Makefile
+config.status: creating pkg/Makefile
+config.status: creating pr/Makefile
+config.status: creating pr/include/Makefile
+config.status: creating pr/include/md/Makefile
+config.status: creating pr/include/obsolete/Makefile
+config.status: creating pr/include/private/Makefile
+config.status: creating pr/src/Makefile
+config.status: creating pr/src/io/Makefile
+config.status: creating pr/src/linking/Makefile
+config.status: creating pr/src/malloc/Makefile
+config.status: creating pr/src/md/Makefile
+config.status: creating pr/src/md/unix/Makefile
+config.status: creating pr/src/memory/Makefile
+config.status: creating pr/src/misc/Makefile
+config.status: creating pr/src/threads/Makefile
+config.status: creating pr/tests/Makefile
+config.status: creating pr/tests/dll/Makefile
+config.status: creating pkg/linux/Makefile
+config.status: creating pr/src/pthreads/Makefile
+config.status: executing default commands

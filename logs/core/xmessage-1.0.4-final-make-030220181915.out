@@ -1,0 +1,167 @@
+###############################
+# Make xmessage-1.0.4.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4/man'
+  GEN    xmessage.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'
+  CC     makeform.o
+makeform.c: In function 'make_queryform':
+makeform.c:315:5: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     XtSetArg (args[n], XtNleft, XtChainLeft); n++;
+     ^~~~~~~~
+makeform.c:316:5: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     XtSetArg (args[n], XtNright, XtChainLeft); n++;
+     ^~~~~~~~
+makeform.c:318:5: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     XtSetArg (args[n], XtNbottom, XtChainBottom); n++;
+     ^~~~~~~~
+makeform.c:319:5: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     XtSetArg (args[n], XtNfromVert, text); n++;
+     ^~~~~~~~
+makeform.c:320:5: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     XtSetArg (args[n], XtNvertDistance, 5); n++;
+     ^~~~~~~~
+makeform.c:325:2: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  XtSetArg (args[thisn], XtNfromHoriz, prev); thisn++;
+  ^~~~~~~~
+  CC     readfile.o
+  CC     xmessage.o
+xmessage.c:62:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "file", "File", XtRString, sizeof (char *),
+       ^~~~~~
+xmessage.c:62:15: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "file", "File", XtRString, sizeof (char *),
+               ^~~~~~
+xmessage.c:64:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "buttons", "Buttons", XtRString, sizeof (char *),
+       ^~~~~~~~~
+xmessage.c:64:18: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "buttons", "Buttons", XtRString, sizeof (char *),
+                  ^~~~~~~~~
+xmessage.c:65:39: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+       offset(button_list), XtRString, (XtPointer) "okay:0" },
+                                       ^
+xmessage.c:66:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "defaultButton", "DefaultButton", XtRString, sizeof (char *),
+       ^~~~~~~~~~~~~~~
+xmessage.c:66:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "defaultButton", "DefaultButton", XtRString, sizeof (char *),
+                        ^~~~~~~~~~~~~~~
+xmessage.c:68:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "printValue", "PrintValue", XtRBoolean, sizeof (Boolean),
+       ^~~~~~~~~~~~
+xmessage.c:68:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "printValue", "PrintValue", XtRBoolean, sizeof (Boolean),
+                     ^~~~~~~~~~~~
+xmessage.c:69:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       offset(print_value), XtRString, "false" },
+                                       ^~~~~~~
+xmessage.c:70:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "center", "Center", XtRBoolean, sizeof (Boolean),
+       ^~~~~~~~
+xmessage.c:70:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "center", "Center", XtRBoolean, sizeof (Boolean),
+                 ^~~~~~~~
+xmessage.c:71:34: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       offset(center), XtRString, "false" },
+                                  ^~~~~~~
+xmessage.c:72:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "nearMouse", "NearMouse", XtRBoolean, sizeof (Boolean),
+       ^~~~~~~~~~~
+xmessage.c:72:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "nearMouse", "NearMouse", XtRBoolean, sizeof (Boolean),
+                    ^~~~~~~~~~~
+xmessage.c:73:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       offset(nearmouse), XtRString, "false" },
+                                     ^~~~~~~
+xmessage.c:74:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "timeout", "Timeout", XtRInt, sizeof (int),
+       ^~~~~~~~~
+xmessage.c:74:18: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "timeout", "Timeout", XtRInt, sizeof (int),
+                  ^~~~~~~~~
+xmessage.c:76:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "maxHeight", "Maximum", XtRDimension, sizeof (Dimension),
+       ^~~~~~~~~~~
+xmessage.c:76:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "maxHeight", "Maximum", XtRDimension, sizeof (Dimension),
+                    ^~~~~~~~~
+xmessage.c:78:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "maxWidth", "Maximum", XtRDimension, sizeof (Dimension),
+       ^~~~~~~~~~
+xmessage.c:78:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "maxWidth", "Maximum", XtRDimension, sizeof (Dimension),
+                   ^~~~~~~~~
+xmessage.c:84:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-file",    ".file", XrmoptionSepArg, (XPointer) NULL },
+       ^~~~~~~
+xmessage.c:84:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-file",    ".file", XrmoptionSepArg, (XPointer) NULL },
+                   ^~~~~~~
+xmessage.c:85:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-buttons", ".buttons", XrmoptionSepArg, (XPointer) NULL },
+       ^~~~~~~~~~
+xmessage.c:85:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-buttons", ".buttons", XrmoptionSepArg, (XPointer) NULL },
+                   ^~~~~~~~~~
+xmessage.c:86:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-default", ".defaultButton", XrmoptionSepArg, (XPointer) NULL },
+       ^~~~~~~~~~
+xmessage.c:86:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-default", ".defaultButton", XrmoptionSepArg, (XPointer) NULL },
+                   ^~~~~~~~~~~~~~~~
+xmessage.c:87:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-print",   ".printValue", XrmoptionNoArg, (XPointer) "on" },
+       ^~~~~~~~
+xmessage.c:87:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-print",   ".printValue", XrmoptionNoArg, (XPointer) "on" },
+                   ^~~~~~~~~~~~~
+xmessage.c:87:50: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     { "-print",   ".printValue", XrmoptionNoArg, (XPointer) "on" },
+                                                  ^
+xmessage.c:88:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-center",  ".center", XrmoptionNoArg, (XPointer) "on" },
+       ^~~~~~~~~
+xmessage.c:88:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-center",  ".center", XrmoptionNoArg, (XPointer) "on" },
+                   ^~~~~~~~~
+xmessage.c:88:46: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     { "-center",  ".center", XrmoptionNoArg, (XPointer) "on" },
+                                              ^
+xmessage.c:89:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-nearmouse", ".nearMouse", XrmoptionNoArg, (XPointer) "on" },
+       ^~~~~~~~~~~~
+xmessage.c:89:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-nearmouse", ".nearMouse", XrmoptionNoArg, (XPointer) "on" },
+                     ^~~~~~~~~~~~
+xmessage.c:89:51: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     { "-nearmouse", ".nearMouse", XrmoptionNoArg, (XPointer) "on" },
+                                                   ^
+xmessage.c:90:7: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-timeout", ".timeout", XrmoptionSepArg, (XPointer) NULL },
+       ^~~~~~~~~~
+xmessage.c:90:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     { "-timeout", ".timeout", XrmoptionSepArg, (XPointer) NULL },
+                   ^~~~~~~~~~
+xmessage.c:94:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "*baseTranslations: #override :<Key>Return: default-exit()",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmessage.c:95:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "*message.Scroll: whenNeeded",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xmessage.c:211:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"exit", exit_action},
+      ^~~~~~
+xmessage.c:212:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"default-exit", default_exit_action},
+      ^~~~~~~~~~~~~~
+xmessage.c:216:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "<ClientMessage>WM_PROTOCOLS: exit(1)\n";
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD   xmessage
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'

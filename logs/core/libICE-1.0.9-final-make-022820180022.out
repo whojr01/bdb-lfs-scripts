@@ -1,0 +1,65 @@
+###############################
+# Make libICE-1.0.9.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/doc'
+Making all in specs
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/specs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/specs'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/src'
+  CC       accept.lo
+  CC       authutil.lo
+  CC       connect.lo
+connect.c: In function 'IceOpenConnection':
+connect.c:106:11: warning: declaration of 'iceConn' shadows a previous local [-Wshadow]
+   IceConn iceConn = _IceConnectionObjs[i];
+           ^~~~~~~
+connect.c:52:15: note: shadowed declaration is here
+     IceConn   iceConn;
+               ^~~~~~~
+  CC       error.lo
+  CC       getauth.lo
+  CC       iceauth.lo
+  CC       icetrans.lo
+  CC       listen.lo
+  CC       listenwk.lo
+  CC       locking.lo
+  CC       misc.lo
+  CC       ping.lo
+  CC       process.lo
+process.c: In function 'ProcessError':
+process.c:718:23: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      char *errorStr = "";
+                       ^~
+process.c: In function 'ProcessAuthReply':
+process.c:1471:13: warning: declaration of 'status' shadows a previous local [-Wshadow]
+      Status status = 1;
+             ^~~~~~
+process.c:1418:18: note: shadowed declaration is here
+  IcePaAuthStatus status =
+                  ^~~~~~
+process.c: In function 'ProcessConnectionReply':
+process.c:1799:32: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      errorReply->error_message =
+                                ^
+process.c: In function 'ProcessProtocolReply':
+process.c:2302:32: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      errorReply->error_message =
+                                ^
+  CC       protosetup.lo
+  CC       register.lo
+  CC       replywait.lo
+  CC       setauth.lo
+  CC       shutdown.lo
+  CC       watch.lo
+  CCLD     libICE.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'

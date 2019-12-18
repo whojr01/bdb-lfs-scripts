@@ -1,0 +1,345 @@
+Making install in docs
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make  install-am
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/gtk-doc/html/pygobject" || /bin/mkdir -p "/usr/share/gtk-doc/html/pygobject"
+ /usr/bin/install -c -m 644 style.css '/usr/share/gtk-doc/html/pygobject'
+test -z "/usr/share/pygobject/xsl" || /bin/mkdir -p "/usr/share/pygobject/xsl"
+ /usr/bin/install -c -m 644 xsl/common.xsl xsl/devhelp.xsl xsl/html.xsl xsl/pdf-style.xsl xsl/pdf.xsl xsl/ref-html-style.xsl xsl/fixxref.py '/usr/share/pygobject/xsl'
+installfiles=`echo ./html/*`; \
+if test "$installfiles" = './html/*'; \
+then echo '-- Nothing to install' ; \
+else \
+  /bin/sh /sources/boot/pygobject-2.28.6/install-sh -d /usr/share/gtk-doc/html/pygobject; \
+  for i in $installfiles; do \
+    echo '-- Installing '$i ; \
+    /usr/bin/install -c -m 644 $i /usr/share/gtk-doc/html/pygobject; \
+  done; \
+  echo '-- Installing ./html/index.sgml' ; \
+  /usr/bin/install -c -m 644 ./html/index.sgml /usr/share/gtk-doc/html/pygobject || :; \
+fi
+-- Installing ./html/class-gioappinfo.html
+-- Installing ./html/class-gioapplaunchcontext.html
+-- Installing ./html/class-gioasyncresult.html
+-- Installing ./html/class-giobufferedinputstream.html
+-- Installing ./html/class-giobufferedoutputstream.html
+-- Installing ./html/class-giocancellable.html
+-- Installing ./html/class-giodatainputstream.html
+-- Installing ./html/class-giodataoutputstream.html
+-- Installing ./html/class-giodrive.html
+-- Installing ./html/class-gioemblem.html
+-- Installing ./html/class-gioemblemedicon.html
+-- Installing ./html/class-giofile.html
+-- Installing ./html/class-giofileattributeinfo.html
+-- Installing ./html/class-giofileenumerator.html
+-- Installing ./html/class-giofileicon.html
+-- Installing ./html/class-giofileinfo.html
+-- Installing ./html/class-giofileinputstream.html
+-- Installing ./html/class-giofilemonitor.html
+-- Installing ./html/class-giofileoutputstream.html
+-- Installing ./html/class-giofilterinputstream.html
+-- Installing ./html/class-giofilteroutputstream.html
+-- Installing ./html/class-gioicon.html
+-- Installing ./html/class-gioinputstream.html
+-- Installing ./html/class-gioloadableicon.html
+-- Installing ./html/class-giomemoryinputstream.html
+-- Installing ./html/class-giomemoryoutputstream.html
+-- Installing ./html/class-giomount.html
+-- Installing ./html/class-giomountoperation.html
+-- Installing ./html/class-giooutputstream.html
+-- Installing ./html/class-gioseekable.html
+-- Installing ./html/class-giosimpleasyncresult.html
+-- Installing ./html/class-giothemedicon.html
+-- Installing ./html/class-giounixinputstream.html
+-- Installing ./html/class-giounixoutputstream.html
+-- Installing ./html/class-giovolume.html
+-- Installing ./html/class-giovolumemonitor.html
+-- Installing ./html/class-glibmaincontext.html
+-- Installing ./html/class-glibmainloop.html
+-- Installing ./html/class-gobject.html
+-- Installing ./html/class-gobjectgboxed.html
+-- Installing ./html/class-gobjectginterface.html
+-- Installing ./html/class-gobjectgpointer.html
+-- Installing ./html/gio-class-reference.html
+-- Installing ./html/gio-constants.html
+-- Installing ./html/gio-functions.html
+-- Installing ./html/giounix-class-reference.html
+-- Installing ./html/glib-class-reference.html
+-- Installing ./html/glib-constants.html
+-- Installing ./html/glib-functions.html
+-- Installing ./html/gobject-class-reference.html
+-- Installing ./html/gobject-constants.html
+-- Installing ./html/gobject-functions.html
+-- Installing ./html/index.html
+-- Installing ./html/index.sgml
+-- Installing ./html/pygobject-introduction.html
+-- Installing ./html/pygobject.devhelp
+-- Installing ./html/index.sgml
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+Making install in codegen
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/codegen'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/codegen'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+ /usr/bin/install -c pygobject-codegen-2.0 '/usr/bin'
+test -z "/usr/share/pygobject/2.0/codegen" || /bin/mkdir -p "/usr/share/pygobject/2.0/codegen"
+ /usr/bin/install -c -m 644 __init__.py argtypes.py definitions.py defsparser.py docextract.py override.py reversewrapper.py '/usr/share/pygobject/2.0/codegen'
+Byte-compiling python modules...
+__init__.pyargtypes.pydefinitions.pydefsparser.pydocextract.pyoverride.pyreversewrapper.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pyargtypes.pydefinitions.pydefsparser.pydocextract.pyoverride.pyreversewrapper.py
+test -z "/usr/share/pygobject/2.0/codegen" || /bin/mkdir -p "/usr/share/pygobject/2.0/codegen"
+ /usr/bin/install -c code-coverage.py codegen.py createdefs.py defsconvert.py defsgen.py docextract_to_xml.py docgen.py h2def.py mergedefs.py missingdefs.py mkskel.py scanvirtuals.py scmexpr.py '/usr/share/pygobject/2.0/codegen'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/codegen'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/codegen'
+Making install in glib
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/glib'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/glib'
+test -z "/usr/lib" || /bin/mkdir -p "/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpyglib-2.0-python.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libpyglib-2.0-python.so.0.0.0 /usr/lib/libpyglib-2.0-python.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libpyglib-2.0-python.so.0.0.0 libpyglib-2.0-python.so.0 || { rm -f libpyglib-2.0-python.so.0 && ln -s libpyglib-2.0-python.so.0.0.0 libpyglib-2.0-python.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpyglib-2.0-python.so.0.0.0 libpyglib-2.0-python.so || { rm -f libpyglib-2.0-python.so && ln -s libpyglib-2.0-python.so.0.0.0 libpyglib-2.0-python.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpyglib-2.0-python.lai /usr/lib/libpyglib-2.0-python.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/include/pygtk-2.0" || /bin/mkdir -p "/usr/include/pygtk-2.0"
+ /usr/bin/install -c -m 644 pyglib.h '/usr/include/pygtk-2.0'
+test -z "/usr/lib/python2.7/site-packages/glib" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/glib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   _glib.la '/usr/lib/python2.7/site-packages/glib'
+libtool: install: warning: relinking `_glib.la'
+libtool: install: (cd /sources/boot/pygobject-2.28.6/glib; /bin/sh /sources/boot/pygobject-2.28.6/libtool  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -Wall -fno-strict-aliasing -std=c9x -module -avoid-version -export-symbols-regex "_glib|PyInit__glib" -o _glib.la -rpath /usr/lib/python2.7/site-packages/glib _glib_la-glibmodule.lo _glib_la-pygiochannel.lo _glib_la-pygoptioncontext.lo _glib_la-pygoptiongroup.lo _glib_la-pygmaincontext.lo _glib_la-pygmainloop.lo _glib_la-pygsource.lo _glib_la-pygspawn.lo -lgobject-2.0 -lgthread-2.0 -pthread -lglib-2.0 libpyglib-2.0-python.la )
+libtool: install: /usr/bin/install -c .libs/_glib.soT /usr/lib/python2.7/site-packages/glib/_glib.so
+libtool: install: /usr/bin/install -c .libs/_glib.lai /usr/lib/python2.7/site-packages/glib/_glib.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages/glib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages/glib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/lib/python2.7/site-packages/glib" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/glib"
+ /usr/bin/install -c -m 644 __init__.py option.py '/usr/lib/python2.7/site-packages/glib'
+Byte-compiling python modules...
+__init__.pyoption.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pyoption.py
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/glib'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/glib'
+Making install in gobject
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gobject'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gobject'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/include/pygtk-2.0" || /bin/mkdir -p "/usr/include/pygtk-2.0"
+ /usr/bin/install -c -m 644 pygobject.h '/usr/include/pygtk-2.0'
+test -z "/usr/lib/python2.7/site-packages/gobject" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gobject"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   _gobject.la '/usr/lib/python2.7/site-packages/gobject'
+libtool: install: warning: relinking `_gobject.la'
+libtool: install: (cd /sources/boot/pygobject-2.28.6/gobject; /bin/sh /sources/boot/pygobject-2.28.6/libtool  --silent --tag CC --mode=relink gcc -I../glib -I../gi -I/usr/include/python2.7 -I/usr/include/python2.7 -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPY_SSIZE_T_CLEAN -pthread -I/usr/include/gobject-introspection-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -Wall -fno-strict-aliasing -std=c9x -module -avoid-version -export-symbols-regex "_gobject|PyInit__gobject" -o _gobject.la -rpath /usr/lib/python2.7/site-packages/gobject _gobject_la-gobjectmodule.lo _gobject_la-pygboxed.lo _gobject_la-pygenum.lo _gobject_la-pygflags.lo _gobject_la-pyginterface.lo _gobject_la-pygobject.lo _gobject_la-pygparamspec.lo _gobject_la-pygpointer.lo _gobject_la-pygtype.lo _gobject_la-ffi-marshaller.lo -lgobject-2.0 -lgthread-2.0 -pthread -lglib-2.0 -L/usr/lib/../lib -lffi ../glib/libpyglib-2.0-python.la )
+libtool: install: /usr/bin/install -c .libs/_gobject.soT /usr/lib/python2.7/site-packages/gobject/_gobject.so
+libtool: install: /usr/bin/install -c .libs/_gobject.lai /usr/lib/python2.7/site-packages/gobject/_gobject.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages/gobject
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages/gobject
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/lib/python2.7/site-packages/gobject" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gobject"
+ /usr/bin/install -c -m 644 __init__.py constants.py propertyhelper.py '/usr/lib/python2.7/site-packages/gobject'
+Byte-compiling python modules...
+__init__.pyconstants.pypropertyhelper.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pyconstants.pypropertyhelper.py
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gobject'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gobject'
+Making install in gio
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gio'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gio'
+test -z "/usr/lib/python2.7/site-packages/gtk-2.0/gio" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gtk-2.0/gio"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   _gio.la unix.la '/usr/lib/python2.7/site-packages/gtk-2.0/gio'
+libtool: install: warning: relinking `_gio.la'
+libtool: install: (cd /sources/boot/pygobject-2.28.6/gio; /bin/sh /sources/boot/pygobject-2.28.6/libtool  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -Wall -fno-strict-aliasing -std=c9x -module -avoid-version -export-symbols-regex init_gio -o _gio.la -rpath /usr/lib/python2.7/site-packages/gtk-2.0/gio _gio_la-giomodule.lo _gio_la-pygio-utils.lo _gio_la-gio.lo -lgio-2.0 -lgobject-2.0 -lglib-2.0 ../glib/libpyglib-2.0-python.la )
+libtool: install: /usr/bin/install -c .libs/_gio.soT /usr/lib/python2.7/site-packages/gtk-2.0/gio/_gio.so
+libtool: install: /usr/bin/install -c .libs/_gio.lai /usr/lib/python2.7/site-packages/gtk-2.0/gio/_gio.la
+libtool: install: /usr/bin/install -c .libs/unix.so /usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.so
+libtool: install: /usr/bin/install -c .libs/unix.lai /usr/lib/python2.7/site-packages/gtk-2.0/gio/unix.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages/gtk-2.0/gio
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages/gtk-2.0/gio
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/lib/python2.7/site-packages" || /bin/mkdir -p "/usr/lib/python2.7/site-packages"
+test -z "/usr/share/pygobject/2.0/defs" || /bin/mkdir -p "/usr/share/pygobject/2.0/defs"
+ /usr/bin/install -c -m 644 gio.defs gio-types.defs gio.override gappinfo.override gapplaunchcontext.override gbufferedinputstream.override gcancellable.override gdatainputstream.override gdrive.override gfile.override gfileattribute.override gfileenumerator.override gfileinfo.override gfileinputstream.override gfileiostream.override gfileoutputstream.override gicon.override giostream.override ginputstream.override gmemoryinputstream.override gmemoryoutputstream.override gmount.override goutputstream.override gresolver.override gsocket.override gvolume.override gvolumemonitor.override unix.defs unix-types.defs unix.override '/usr/share/pygobject/2.0/defs'
+test -z "/usr/lib/python2.7/site-packages/gtk-2.0/gio" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gtk-2.0/gio"
+ /usr/bin/install -c -m 644 __init__.py '/usr/lib/python2.7/site-packages/gtk-2.0/gio'
+Byte-compiling python modules...
+__init__.py
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gio'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gio'
+Making install in examples
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/examples'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/examples'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/examples'
+Making install in gi
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+Making install in repository
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/repository'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/repository'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/python2.7/site-packages/gi/repository" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gi/repository"
+ /usr/bin/install -c -m 644 __init__.py '/usr/lib/python2.7/site-packages/gi/repository'
+Byte-compiling python modules...
+__init__.py
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/repository'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/repository'
+Making install in overrides
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/overrides'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/overrides'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/python2.7/site-packages/gi/overrides" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gi/overrides"
+ /usr/bin/install -c -m 644 GLib.py Gtk.py Gdk.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py '/usr/lib/python2.7/site-packages/gi/overrides'
+Byte-compiling python modules...
+GLib.pyGtk.pyGdk.pyGio.pyGIMarshallingTests.pyPango.pykeysyms.py__init__.py
+Byte-compiling python modules (optimized versions) ...
+GLib.pyGtk.pyGdk.pyGio.pyGIMarshallingTests.pyPango.pykeysyms.py__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/overrides'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/overrides'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+test -L _gi.so || ln -s .libs/_gi.so _gi.so
+test -L _gi_cairo.so || ln -s .libs/_gi_cairo.so _gi_cairo.so
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/python2.7/site-packages/gi" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gi"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   _gi.la _gi_cairo.la '/usr/lib/python2.7/site-packages/gi'
+libtool: install: warning: relinking `_gi.la'
+libtool: install: (cd /sources/boot/pygobject-2.28.6/gi; /bin/sh /sources/boot/pygobject-2.28.6/libtool  --silent --tag CC --mode=relink gcc -I/usr/include/python2.7 -I/usr/include/python2.7 -pthread -I/usr/include/gobject-introspection-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -Wall -fno-strict-aliasing -std=c9x -module -avoid-version -export-symbols-regex "init_gi|PyInit__gi" -o _gi.la -rpath /usr/lib/python2.7/site-packages/gi _gi_la-pygi-repository.lo _gi_la-pygi-info.lo _gi_la-pygi-invoke.lo _gi_la-pygi-foreign.lo _gi_la-pygi-foreign-gvariant.lo _gi_la-pygi-struct.lo _gi_la-pygi-argument.lo _gi_la-pygi-type.lo _gi_la-pygi-boxed.lo _gi_la-pygi-closure.lo _gi_la-pygi-callbacks.lo _gi_la-pygi-property.lo _gi_la-pygi-signal-closure.lo _gi_la-gimodule.lo -lgirepository-1.0 -lgobject-2.0 -lglib-2.0 ../glib/libpyglib-2.0-python.la )
+libtool: install: /usr/bin/install -c .libs/_gi.soT /usr/lib/python2.7/site-packages/gi/_gi.so
+libtool: install: /usr/bin/install -c .libs/_gi.lai /usr/lib/python2.7/site-packages/gi/_gi.la
+libtool: install: /usr/bin/install -c .libs/_gi_cairo.so /usr/lib/python2.7/site-packages/gi/_gi_cairo.so
+libtool: install: /usr/bin/install -c .libs/_gi_cairo.lai /usr/lib/python2.7/site-packages/gi/_gi_cairo.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages/gi
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages/gi
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/lib/python2.7/site-packages/gi" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gi"
+ /usr/bin/install -c -m 644 types.py module.py importer.py __init__.py '/usr/lib/python2.7/site-packages/gi'
+Byte-compiling python modules...
+types.pymodule.pyimporter.py__init__.py
+Byte-compiling python modules (optimized versions) ...
+types.pymodule.pyimporter.py__init__.py
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+Making install in tests
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/tests'
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6'
+/bin/sh /sources/boot/pygobject-2.28.6/install-sh -d /usr/lib/python2.7/site-packages
+echo "gtk-2.0" > /usr/lib/python2.7/site-packages/pygtk.pth
+test -z "/usr/lib/python2.7/site-packages/gtk-2.0" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gtk-2.0"
+test -z "/usr/lib/python2.7/site-packages/gtk-2.0" || /bin/mkdir -p "/usr/lib/python2.7/site-packages/gtk-2.0"
+ /usr/bin/install -c -m 644 dsextras.py '/usr/lib/python2.7/site-packages/gtk-2.0'
+Byte-compiling python modules...
+dsextras.py
+Byte-compiling python modules (optimized versions) ...
+dsextras.py
+test -z "/usr/lib/python2.7/site-packages" || /bin/mkdir -p "/usr/lib/python2.7/site-packages"
+test -z "/usr/lib/python2.7/site-packages" || /bin/mkdir -p "/usr/lib/python2.7/site-packages"
+ /usr/bin/install -c -m 644 pygtk.py '/usr/lib/python2.7/site-packages'
+Byte-compiling python modules...
+pygtk.py
+Byte-compiling python modules (optimized versions) ...
+pygtk.py
+/bin/sh /sources/boot/pygobject-2.28.6/install-sh -d /usr/lib/python2.7/site-packages
+echo "gtk-2.0" > /usr/lib/python2.7/site-packages/pygtk.pth
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 pygobject-2.0.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6'

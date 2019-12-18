@@ -1,0 +1,168 @@
+make  all-recursive
+make[1]: Entering directory `/lfsbuild/sources/m4-1.4.18/build'
+Making all in .
+make[2]: Entering directory `/lfsbuild/sources/m4-1.4.18/build'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build'
+Making all in examples
+make[2]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/examples'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/examples'
+Making all in lib
+make[2]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      fcntl.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      math.h
+  GEN      signal.h
+  GEN      unused-parameter.h
+  GEN      spawn.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-am
+make[3]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/lib'
+  CC       gl_avltree_oset.o
+  CC       binary-io.o
+  CC       c-ctype.o
+  CC       c-stack.o
+  CC       c-strcasecmp.o
+  CC       c-strncasecmp.o
+  CC       clean-temp.o
+  CC       cloexec.o
+  CC       close-stream.o
+  CC       closein.o
+  CC       closeout.o
+  CC       dirname.o
+  CC       basename.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       execute.o
+  CC       exitfail.o
+  CC       fatal-signal.o
+  CC       fd-hook.o
+  CC       fd-safer-flag.o
+  CC       dup-safer-flag.o
+  CC       filenamecat.o
+  CC       filenamecat-lgpl.o
+  CC       fopen-safer.o
+  CC       freading.o
+  CC       getprogname.o
+  CC       hard-locale.o
+  CC       gl_linkedhash_list.o
+  CC       gl_list.o
+  CC       localcharset.o
+  CC       glthread/lock.o
+  CC       malloca.o
+  CC       math.o
+  CC       memchr2.o
+  CC       gl_oset.o
+  CC       pipe2.o
+  CC       pipe2-safer.o
+  CC       printf-frexp.o
+  CC       printf-frexpl.o
+  CC       progname.o
+  CC       quotearg.o
+  CC       sig-handler.o
+  CC       spawn-pipe.o
+  CC       mkstemp-safer.o
+  CC       tempname.o
+  CC       glthread/threadlib.o
+  CC       glthread/tls.o
+  CC       tmpdir.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       verror.o
+  CC       version-etc.o
+  CC       version-etc-fsf.o
+  CC       wait-process.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       gl_xlist.o
+  CC       xmalloca.o
+  CC       gl_xoset.o
+  CC       xprintf.o
+  CC       xsize.o
+  CC       xstrndup.o
+  CC       xvasprintf.o
+  CC       xasprintf.o
+  CC       asnprintf.o
+  CC       fclose.o
+  CC       fcntl.o
+  CC       fflush.o
+  CC       fpurge.o
+  CC       freadahead.o
+  CC       fseek.o
+  CC       fseeko.o
+  CC       mbrtowc.o
+  CC       obstack.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       vasnprintf.o
+  AR       libm4.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[3]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/lib'
+make[2]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/lib'
+Making all in src
+make[2]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/src'
+  CC       m4.o
+  CC       builtin.o
+  CC       debug.o
+  CC       eval.o
+  CC       format.o
+  CC       freeze.o
+  CC       input.o
+  CC       macro.o
+  CC       output.o
+  CC       path.o
+  CC       symtab.o
+  CCLD     m4
+make[2]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/src'
+Making all in doc
+make[2]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/doc'
+Making all in checks
+make[2]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/checks'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/checks'
+Making all in tests
+make[2]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/tests'
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      ctype.h
+  GEN      arg-nonnull.h
+  GEN      dirent.h
+  GEN      inttypes.h
+  GEN      test-posix_spawn1.sh
+  GEN      test-posix_spawn2.sh
+  GEN      unused-parameter.h
+make  all-recursive
+make[3]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/tests'
+Making all in .
+make[4]: Entering directory `/lfsbuild/sources/m4-1.4.18/build/tests'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/tests'
+make[3]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/tests'
+make[2]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build/tests'
+make[1]: Leaving directory `/lfsbuild/sources/m4-1.4.18/build'

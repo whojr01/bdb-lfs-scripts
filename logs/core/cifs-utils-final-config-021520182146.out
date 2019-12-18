@@ -1,0 +1,166 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for uid_t in sys/types.h... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for ptrdiff_t... yes
+checking for ssize_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking for library containing getmntent... none required
+checking whether lstat correctly handles trailing slash... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for working strnlen... yes
+checking for alarm... yes
+checking for atexit... yes
+checking for endpwent... yes
+checking for getmntent... (cached) yes
+checking for getpass... yes
+checking for gettimeofday... yes
+checking for inet_ntop... yes
+checking for memset... yes
+checking for realpath... yes
+checking for setenv... yes
+checking for strchr... yes
+checking for strcmp... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strndup... yes
+checking for strpbrk... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for tolower... yes
+checking for uname... yes
+checking for clock_gettime... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdint.h... (cached) yes
+checking for stdbool.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/mount.h usability... yes
+checking sys/mount.h presence... yes
+checking for sys/mount.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking sys/fsuid.h usability... yes
+checking sys/fsuid.h presence... yes
+checking for sys/fsuid.h... yes
+checking for setfsuid... yes
+checking krb5.h usability... no
+checking krb5.h presence... no
+checking for krb5.h... no
+checking krb5/krb5.h usability... no
+checking krb5/krb5.h presence... no
+checking for krb5/krb5.h... no
+configure: WARNING: krb5.h not found, consider installing krb5-devel or krb5-libs-devel. Disabling cifs.upcall.
+checking keyutils.h usability... no
+checking keyutils.h presence... no
+checking for keyutils.h... no
+configure: WARNING: keyutils.h not found, consider installing keyutils-libs-devel. Disabling cifs.upcall.
+configure: WARNING: keyutils.h not found, consider installing keyutils-libs-devel. Disabling cifs.idmap.
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for wbclient... no
+configure: WARNING: wbclient.h not found, consider installing libwbclient-devel. Disabling cifs.idmap.
+configure: WARNING: wbclient.h not found, consider installing libwbclient-devel. Disabling cifsacl.
+checking whether WBC_ID_TYPE_BOTH enum value is defined... no
+checking for keyutils.h... (cached) no
+configure: WARNING: keyutils.h not found, consider installing keyutils-libs-devel. Disabling cifscreds and cifscreds PAM module.
+checking whether krb5_auth_con_set_req_cksumtype is declared... no
+./configure: line 6042: LIBCAP_NG_PATH: command not found
+checking for prctl... yes
+checking for cap_get_proc in -lcap... yes
+checking sys/capability.h usability... yes
+checking sys/capability.h presence... yes
+checking for sys/capability.h... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating contrib/Makefile
+config.status: creating contrib/request-key.d/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands

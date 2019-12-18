@@ -1,0 +1,43 @@
+make  check-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/wayland-1.14.0'
+make[2]: Entering directory '/lfskernel/sources/boot/wayland-1.14.0'
+make  check-TESTS
+make[3]: Entering directory '/lfskernel/sources/boot/wayland-1.14.0'
+make[4]: Entering directory '/lfskernel/sources/boot/wayland-1.14.0'
+PASS: array-test
+PASS: client-test
+PASS: display-test
+PASS: connection-test
+PASS: event-loop-test
+PASS: fixed-test
+PASS: interface-test
+PASS: list-test
+PASS: map-test
+PASS: os-wrappers-test
+PASS: sanity-test
+PASS: socket-test
+PASS: queue-test
+PASS: signal-test
+PASS: newsignal-test
+PASS: resources-test
+PASS: message-test
+PASS: headers-test
+PASS: compositor-introspection-test
+PASS: protocol-logger-test
+PASS: cpp-compile-test
+PASS: tests/scanner-test.sh
+============================================================================
+Testsuite summary for wayland 1.14.0
+============================================================================
+# TOTAL: 22
+# PASS:  22
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/lfskernel/sources/boot/wayland-1.14.0'
+make[3]: Leaving directory '/lfskernel/sources/boot/wayland-1.14.0'
+make[2]: Leaving directory '/lfskernel/sources/boot/wayland-1.14.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/wayland-1.14.0'

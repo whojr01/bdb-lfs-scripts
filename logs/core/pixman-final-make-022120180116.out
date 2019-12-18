@@ -1,0 +1,361 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/pixman-0.34.0'
+Making all in pixman
+make[2]: Entering directory '/lfskernel/sources/boot/pixman-0.34.0/pixman'
+  CC       pixman.lo
+  CC       pixman-access.lo
+pixman-access.c:468:30: warning: '__dummy__g1' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:507:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(g1);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a1' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:506:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a1);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a1b1g1r1' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:505:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a1b1g1r1);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a1r1g1b1' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:504:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a1r1g1b1);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__b1g2r1' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:503:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(b1g2r1);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__r1g2b1' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:502:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(r1g2b1);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__c4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:501:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(c4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__g4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:500:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(g4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:499:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x4a4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:498:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x4a4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a2b2g2r2' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:497:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a2b2g2r2);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a2r2g2b2' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:496:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a2r2g2b2);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__b2g3r3' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:495:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(b2g3r3);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__r3g3b2' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:494:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(r3g3b2);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__g8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:493:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(g8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__c8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:492:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(c8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:491:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x4b4g4r4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:490:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x4b4g4r4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a4b4g4r4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:489:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a4b4g4r4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x4r4g4b4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:488:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x4r4g4b4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a4r4g4b4' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:487:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a4r4g4b4);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x1b5g5r5' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:486:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x1b5g5r5);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a1b5g5r5' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:485:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a1b5g5r5);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x1r5g5b5' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:484:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x1r5g5b5);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a1r5g5b5' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:483:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a1r5g5b5);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__b5g6r5' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:482:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(b5g6r5);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__r5g6b5' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:481:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(r5g6b5);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__b8g8r8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:480:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(b8g8r8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__r8g8b8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:479:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(r8g8b8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__r8g8b8a8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:478:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(r8g8b8a8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__r8g8b8x8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:477:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(r8g8b8x8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__b8g8r8x8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:476:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(b8g8r8x8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__b8g8r8a8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:475:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(b8g8r8a8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x14r6g6b6' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:474:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x14r6g6b6);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x8b8g8r8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:473:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x8b8g8r8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a8b8g8r8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:472:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a8b8g8r8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__x8r8g8b8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:471:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(x8r8g8b8);
+ ^~~~~~~~~~~~~~
+pixman-access.c:468:30: warning: '__dummy__a8r8g8b8' defined but not used [-Wunused-const-variable=]
+     static const void *const __dummy__ ## format
+                              ^
+pixman-access.c:470:1: note: in expansion of macro 'MAKE_ACCESSORS'
+ MAKE_ACCESSORS(a8r8g8b8);
+ ^~~~~~~~~~~~~~
+  CC       pixman-access-accessors.lo
+  CC       pixman-bits-image.lo
+  CC       pixman-combine32.lo
+  CC       pixman-combine-float.lo
+  CC       pixman-conical-gradient.lo
+  CC       pixman-filter.lo
+  CC       pixman-x86.lo
+  CC       pixman-mips.lo
+  CC       pixman-arm.lo
+  CC       pixman-ppc.lo
+  CC       pixman-edge.lo
+  CC       pixman-edge-accessors.lo
+  CC       pixman-fast-path.lo
+  CC       pixman-glyph.lo
+  CC       pixman-general.lo
+  CC       pixman-gradient-walker.lo
+  CC       pixman-image.lo
+  CC       pixman-implementation.lo
+  CC       pixman-linear-gradient.lo
+  CC       pixman-matrix.lo
+  CC       pixman-noop.lo
+  CC       pixman-radial-gradient.lo
+  CC       pixman-region16.lo
+  CC       pixman-region32.lo
+  CC       pixman-solid-fill.lo
+  CC       pixman-timer.lo
+  CC       pixman-trap.lo
+  CC       pixman-utils.lo
+  CC       libpixman_mmx_la-pixman-mmx.lo
+  CCLD     libpixman-mmx.la
+  CC       libpixman_sse2_la-pixman-sse2.lo
+  CCLD     libpixman-sse2.la
+  CC       libpixman_ssse3_la-pixman-ssse3.lo
+  CCLD     libpixman-ssse3.la
+  CCLD     libpixman-1.la
+make[2]: Leaving directory '/lfskernel/sources/boot/pixman-0.34.0/pixman'
+Making all in demos
+make[2]: Entering directory '/lfskernel/sources/boot/pixman-0.34.0/demos'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pixman-0.34.0/demos'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/pixman-0.34.0/test'
+  CC       utils.lo
+  CC       utils-prng.lo
+  CCLD     libutils.la
+  CC       oob-test.o
+  CCLD     oob-test
+  CC       infinite-loop.o
+  CCLD     infinite-loop
+  CC       trap-crasher.o
+  CCLD     trap-crasher
+  CC       fence-image-self-test.o
+  CCLD     fence-image-self-test
+  CC       region-translate-test.o
+  CCLD     region-translate-test
+  CC       fetch-test.o
+  CCLD     fetch-test
+  CC       a1-trap-test.o
+  CCLD     a1-trap-test
+  CC       prng-test.o
+  CCLD     prng-test
+  CC       radial-invalid.o
+  CCLD     radial-invalid
+  CC       pdf-op-test.o
+  CCLD     pdf-op-test
+  CC       region-test.o
+  CCLD     region-test
+  CC       combiner-test.o
+  CCLD     combiner-test
+  CC       scaling-crash-test.o
+  CCLD     scaling-crash-test
+  CC       alpha-loop.o
+  CCLD     alpha-loop
+  CC       scaling-helpers-test.o
+  CCLD     scaling-helpers-test
+  CC       thread-test.o
+  CCLD     thread-test
+  CC       rotate-test.o
+  CCLD     rotate-test
+  CC       alphamap.o
+  CCLD     alphamap
+  CC       gradient-crash-test.o
+  CCLD     gradient-crash-test
+  CC       pixel-test.o
+  CCLD     pixel-test
+  CC       matrix-test.o
+  CCLD     matrix-test
+  CC       composite-traps-test.o
+  CCLD     composite-traps-test
+  CC       region-contains-test.o
+  CCLD     region-contains-test
+  CC       glyph-test.o
+  CCLD     glyph-test
+  CC       solid-test.o
+  CCLD     solid-test
+  CC       stress-test.o
+  CCLD     stress-test
+  CC       cover-test.o
+  CCLD     cover-test
+  CC       blitters-test.o
+  CCLD     blitters-test
+  CC       affine-test.o
+  CCLD     affine-test
+  CC       scaling-test.o
+  CCLD     scaling-test
+  CC       composite.o
+  CCLD     composite
+  CC       tolerance-test.o
+  CCLD     tolerance-test
+  CC       lowlevel-blt-bench.o
+lowlevel-blt-bench.c: In function 'bench_L':
+lowlevel-blt-bench.c:183:18: warning: variable 'qx' set but not used [-Wunused-but-set-variable]
+     volatile int qx;
+                  ^~
+  CCLD     lowlevel-blt-bench
+  CC       radial-perf-test.o
+  CCLD     radial-perf-test
+  CC       check-formats.o
+  CCLD     check-formats
+  CC       scaling-bench.o
+  CCLD     scaling-bench
+  CC       affine-bench.o
+  CCLD     affine-bench
+make[2]: Leaving directory '/lfskernel/sources/boot/pixman-0.34.0/test'
+make[2]: Entering directory '/lfskernel/sources/boot/pixman-0.34.0'
+make[2]: Leaving directory '/lfskernel/sources/boot/pixman-0.34.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/pixman-0.34.0'

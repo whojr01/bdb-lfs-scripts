@@ -1,0 +1,51 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/usbutils-009'
+Making all in usbhid-dump
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make  all-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+Making all in include
+make[4]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+Making all in uhd
+make[5]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[5]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[4]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+Making all in lib
+make[4]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+  CC       dev.lo
+  CC       dev_list.lo
+  CC       iface.lo
+  CC       iface_list.lo
+  CC       libusb.lo
+  CCLD     libuhd.la
+make[4]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+Making all in src
+make[4]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+  CC       usbhid-dump.o
+  CCLD     usbhid-dump
+make[4]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+Making all in doc
+make[4]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[4]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[4]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009'
+  CC       lsusb-lsusb.o
+  CC       lsusb-lsusb-t.o
+  CC       lsusb-names.o
+  CC       lsusb-usbmisc.o
+  CCLD     lsusb
+sed 's|VERSION|009|g;s|@usbids@|/usr/share/usb.ids|g' lsusb.py.in >lsusb.py
+chmod 755 lsusb.py
+sed 's|VERSION|009|g;s|@usbids@|/usr/share/usb.ids|g' lsusb.8.in >lsusb.8
+sed 's|VERSION|009|g' usb-devices.1.in >usb-devices.1
+sed 's|@usbids@|/usr/share/usb.ids|g;s|@VERSION[@]|009|g' usbutils.pc.in >usbutils.pc
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009'
+make[1]: Leaving directory '/lfskernel/sources/boot/usbutils-009'

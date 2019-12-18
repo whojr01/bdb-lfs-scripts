@@ -1,0 +1,26 @@
+Making check in po
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/po'
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+Making check in man
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+Making check in python
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+CFLAGS="-g -O2 -fno-strict-aliasing" python setup.py build --build-lib=.
+running build
+running build_ext
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0'

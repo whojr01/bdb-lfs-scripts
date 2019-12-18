@@ -1,0 +1,91 @@
+Performing configuration checks
+
+    - 32-bit                   : no  (cached)
+    - 64-bit                   : yes (cached)
+    - arm                      : no  (cached)
+    - mips1                    : no  (cached)
+    - power                    : no  (cached)
+    - sparc                    : no  (cached)
+    - x86                      : yes (cached)
+    - symlinks supported       : yes (cached)
+    - C++11 mutex              : yes (cached)
+    - lockfree boost::atomic_flag : yes (cached)
+    - Boost.Config Feature Check: cxx11_auto_declarations : yes (cached)
+    - Boost.Config Feature Check: cxx11_constexpr : yes (cached)
+    - Boost.Config Feature Check: cxx11_defaulted_functions : yes (cached)
+    - Boost.Config Feature Check: cxx11_final : yes (cached)
+    - Boost.Config Feature Check: cxx11_hdr_mutex : yes (cached)
+    - Boost.Config Feature Check: cxx11_hdr_regex : yes (cached)
+    - Boost.Config Feature Check: cxx11_hdr_tuple : yes (cached)
+    - Boost.Config Feature Check: cxx11_lambdas : yes (cached)
+    - Boost.Config Feature Check: cxx11_noexcept : yes (cached)
+    - Boost.Config Feature Check: cxx11_nullptr : yes (cached)
+    - Boost.Config Feature Check: cxx11_rvalue_references : yes (cached)
+    - Boost.Config Feature Check: cxx11_template_aliases : yes (cached)
+    - Boost.Config Feature Check: cxx11_thread_local : yes (cached)
+    - Boost.Config Feature Check: cxx11_variadic_templates : yes (cached)
+    - has_icu builds           : no  (cached)
+warning: Graph library does not contain MPI-based parallel components.
+note: to enable them, add "using mpi ;" to your user-config.jam
+    - zlib                     : yes (cached)
+    - bzip2                    : yes (cached)
+    - lzma                     : yes (cached)
+    - iconv (libc)             : yes (cached)
+    - icu                      : no  (cached)
+    - icu (lib64)              : no  (cached)
+    - native-atomic-int32-supported : yes (cached)
+    - native-syslog-supported  : yes (cached)
+    - pthread-supports-robust-mutexes : yes (cached)
+    - compiler-supports-visibility : yes (cached)
+    - compiler-supports-ssse3  : yes (cached)
+    - compiler-supports-avx2   : yes (cached)
+    - gcc visibility           : yes (cached)
+    - long double support      : yes (cached)
+warning: skipping optional Message Passing Interface (MPI) library.
+note: to enable MPI support, add "using mpi ;" to user-config.jam.
+note: to suppress this message, pass "--without-mpi" to bjam.
+note: otherwise, you can safely ignore this message.
+    - libbacktrace builds      : no  (cached)
+    - addr2line builds         : yes (cached)
+    - WinDbg builds            : no  (cached)
+    - WinDbgCached builds      : no  (cached)
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : building
+    - fiber                    : building
+    - filesystem               : building
+    - graph                    : building
+    - graph_parallel           : building
+    - iostreams                : building
+    - locale                   : building
+    - log                      : building
+    - math                     : building
+    - mpi                      : building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : building
+    - signals                  : building
+    - stacktrace               : building
+    - system                   : building
+    - test                     : building
+    - thread                   : building
+    - timer                    : building
+    - type_erasure             : building
+    - wave                     : building
+
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...found 40313 targets...

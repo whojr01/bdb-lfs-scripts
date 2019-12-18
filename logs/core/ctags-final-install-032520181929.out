@@ -1,0 +1,2 @@
+cp ctags /usr/bin/ctags  &&  chmod 755 /usr/bin/ctags
+cp ../ctags.1 /usr/share/man/man1/ctags.1  &&  chmod 644 /usr/share/man/man1/ctags.1

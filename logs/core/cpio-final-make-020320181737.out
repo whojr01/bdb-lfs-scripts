@@ -1,0 +1,457 @@
+make  all-recursive
+make[1]: Entering directory '/sources/cpio-2.12/build'
+Making all in doc
+make[2]: Entering directory '/sources/cpio-2.12/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cpio-2.12/build/doc'
+Making all in gnu
+make[2]: Entering directory '/sources/cpio-2.12/build/gnu'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      getopt.h
+  GEN      inttypes.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[3]: Entering directory '/sources/cpio-2.12/build/gnu'
+make[4]: Entering directory '/sources/cpio-2.12/build/gnu'
+  CC       argmatch.o
+  CC       argp-ba.o
+  CC       argp-eexst.o
+  CC       argp-fmtstream.o
+  CC       argp-fs-xinl.o
+  CC       argp-help.o
+  CC       argp-parse.o
+  CC       argp-pin.o
+  CC       argp-pv.o
+  CC       argp-pvh.o
+  CC       argp-xinl.o
+  CC       argp-version-etc.o
+  CC       bitrotate.o
+  CC       c-ctype.o
+  CC       c-strcasecmp.o
+  CC       c-strncasecmp.o
+  CC       cloexec.o
+  CC       close-stream.o
+  CC       closeout.o
+  CC       opendir-safer.o
+  CC       dirname.o
+  CC       basename.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exitfail.o
+  CC       fd-hook.o
+  CC       filenamecat-lgpl.o
+  CC       full-write.o
+  CC       gettime.o
+  CC       hash.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       localcharset.o
+  CC       malloca.o
+  CC       openat-die.o
+  CC       parse-datetime.o
+  CC       progname.o
+  CC       quotearg.o
+  CC       safe-read.o
+  CC       safe-write.o
+  CC       save-cwd.o
+  CC       savedir.o
+  CC       stat-time.o
+  CC       strnlen1.o
+  CC       timespec.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       utimens.o
+  CC       version-etc.o
+  CC       version-etc-fsf.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       xgetcwd.o
+  CC       xsize.o
+  CC       xstrndup.o
+  CC       asnprintf.o
+  CC       chdir-long.o
+  CC       fcntl.o
+  CC       getopt.o
+  CC       getopt1.o
+  CC       obstack.o
+  CC       openat-proc.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       utimensat.o
+  CC       vasnprintf.o
+  AR       libgnu.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[4]: Leaving directory '/sources/cpio-2.12/build/gnu'
+make[3]: Leaving directory '/sources/cpio-2.12/build/gnu'
+make[2]: Leaving directory '/sources/cpio-2.12/build/gnu'
+Making all in lib
+make[2]: Entering directory '/sources/cpio-2.12/build/lib'
+  GEN      rmt-command.h
+make  all-am
+make[3]: Entering directory '/sources/cpio-2.12/build/lib'
+  CC       exit.o
+  CC       exit-status.o
+  CC       rtapelib.o
+  CC       sysdep.o
+  CC       error.o
+  CC       names.o
+  AR       libpax.a
+make[3]: Leaving directory '/sources/cpio-2.12/build/lib'
+make[2]: Leaving directory '/sources/cpio-2.12/build/lib'
+Making all in rmt
+make[2]: Entering directory '/sources/cpio-2.12/build/rmt'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cpio-2.12/build/rmt'
+Making all in src
+make[2]: Entering directory '/sources/cpio-2.12/build/src'
+  CC       copyin.o
+../../src/copyin.c: In function 'copyin_device':
+../../src/copyin.c:619:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+      makedev (file_hdr->c_rdev_maj, file_hdr->c_rdev_min));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                               
+../../src/copyin.c:624:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+      makedev (file_hdr->c_rdev_maj, file_hdr->c_rdev_min));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                               
+../../src/copyin.c: In function 'read_in_old_ascii':
+../../src/copyin.c:1080:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   file_hdr->c_dev_maj = major (dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                
+../../src/copyin.c:1081:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   file_hdr->c_dev_min = minor (dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                
+../../src/copyin.c:1089:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   file_hdr->c_rdev_maj = major (dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                               
+../../src/copyin.c:1090:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   file_hdr->c_rdev_min = minor (dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                               
+../../src/copyin.c:1122:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+      file_hdr->c_rdev_maj = major (file_hdr->c_filesize);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                           
+../../src/copyin.c:1123:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+      file_hdr->c_rdev_min = minor (file_hdr->c_filesize);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                           
+../../src/copyin.c: In function 'read_in_binary':
+../../src/copyin.c:1199:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   file_hdr->c_dev_maj = major (short_hdr->c_dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                   
+../../src/copyin.c:1200:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   file_hdr->c_dev_min = minor (short_hdr->c_dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                   
+../../src/copyin.c:1206:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   file_hdr->c_rdev_maj = major (short_hdr->c_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                 
+../../src/copyin.c:1207:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   file_hdr->c_rdev_min = minor (short_hdr->c_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                 
+../../src/copyin.c:1247:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+      file_hdr->c_rdev_maj = major (file_hdr->c_filesize);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                           
+../../src/copyin.c:1248:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+      file_hdr->c_rdev_min = minor (file_hdr->c_filesize);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                           
+  CC       copyout.o
+../../src/copyout.c: In function 'hp_compute_dev':
+../../src/copyout.c:445:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+           file_hdr->c_rdev_min);
+             ^~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                          
+../../src/copyout.c:446:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+       *pdev = *prdev = makedev (0, 1);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                    
+../../src/copyout.c:450:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+       *pdev = makedev (file_hdr->c_dev_maj, file_hdr->c_dev_min);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                         
+../../src/copyout.c:451:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+       *prdev = makedev (file_hdr->c_rdev_maj, file_hdr->c_rdev_min);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                      
+../../src/copyout.c: In function 'write_out_binary_header':
+../../src/copyout.c:463:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+   short_hdr.c_dev = makedev (file_hdr->c_dev_maj, file_hdr->c_dev_min);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                   
+../../src/copyout.c: In function 'write_out_header':
+../../src/copyout.c:539:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+         file_hdr->c_dev_min),
+             ^~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                             
+../../src/copyout.c:541:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+         file_hdr->c_rdev_min),
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                            
+../../src/copyout.c:560:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+             file_hdr->c_rdev_min),
+             ^~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                        
+  CC       copypass.o
+../../src/copypass.c: In function 'process_copy_pass':
+../../src/copypass.c:173:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+     major (in_file_stat.st_dev),
+             ^~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                    
+../../src/copypass.c:174:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+     minor (in_file_stat.st_dev),
+             ^~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                    
+../../src/copypass.c:256:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+    major (in_file_stat.st_dev),
+             ^~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                     
+../../src/copypass.c:257:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+    minor (in_file_stat.st_dev),
+             ^~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                     
+  CC       defer.o
+  CC       dstring.o
+  CC       global.o
+  CC       fatal.o
+  CC       main.o
+  CC       tar.o
+  CC       util.o
+../../src/util.c: In function 'get_inode_and_dev':
+../../src/util.c:779:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+          major (st->st_dev),
+             ^~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                        
+../../src/util.c:780:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+          minor (st->st_dev));
+             ^~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                       
+../../src/util.c:783:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+          major (st->st_dev), minor (st->st_dev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                   
+../../src/util.c:783:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+../../src/util.c:798:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+       hdr->c_dev_maj = major (st->st_dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                          
+../../src/util.c:799:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+       hdr->c_dev_min = minor (st->st_dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                          
+../../src/util.c: In function 'stat_to_cpio':
+../../src/util.c:1296:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   hdr->c_rdev_maj = major (st->st_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                            
+../../src/util.c:1297:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   hdr->c_rdev_min = minor (st->st_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                            
+../../src/util.c: In function 'cpio_to_stat':
+../../src/util.c:1308:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+   st->st_dev = makedev (hdr->c_dev_maj, hdr->c_dev_min);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                  
+../../src/util.c:1342:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+   st->st_rdev = makedev (hdr->c_rdev_maj, hdr->c_rdev_min);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                               
+  CC       filemode.o
+  CC       idcache.o
+  CC       makepath.o
+  CC       userspec.o
+  CCLD     cpio
+  CC       mt.o
+  CCLD     mt
+make[2]: Leaving directory '/sources/cpio-2.12/build/src'
+Making all in po
+make[2]: Entering directory '/sources/cpio-2.12/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cpio-2.12/build/po'
+Making all in tests
+make[2]: Entering directory '/sources/cpio-2.12/build/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cpio-2.12/build/tests'
+make[2]: Entering directory '/sources/cpio-2.12/build'
+make[2]: Leaving directory '/sources/cpio-2.12/build'
+make[1]: Leaving directory '/sources/cpio-2.12/build'

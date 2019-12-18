@@ -1,0 +1,840 @@
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+updating git_sha1.h
+make  check-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+Making check in .
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+Making check in gtest
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+make  libgtest.la
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+  CXX      src/gtest-all.lo
+  CXX      src/gtest_main.lo
+  CXXLD    libgtest.la
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+Making check in util
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make  check-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making check in .
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make  u_atomic_test roundeven_test mesa-sha1_test
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+  CC       u_atomic_test.o
+  CCLD     u_atomic_test
+  CC       roundeven_test.o
+  CCLD     roundeven_test
+  CC       mesa-sha1_test.o
+  CCLD     mesa-sha1_test
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make  check-TESTS
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+PASS: u_atomic_test
+PASS: roundeven_test
+PASS: mesa-sha1_test
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making check in xmlpool
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make  check-am
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[6]: Nothing to be done for 'check-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+Making check in tests/hash_table
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make  clear collision delete_and_lookup delete_management destroy_callback insert_and_lookup insert_many null_destroy random_entry remove_null replacement
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+  CC       clear.o
+clear.c:31:17: warning: 'key_id' defined but not used [-Wunused-function]
+ static uint32_t key_id(const void *key)
+                 ^~~~~~
+  CCLD     clear
+  CC       collision.o
+collision.c: In function 'main':
+collision.c:40:32: warning: variable 'entry2' set but not used [-Wunused-but-set-variable]
+    struct hash_entry *entry1, *entry2, *search_entry;
+                                ^~~~~~
+  CCLD     collision
+  CC       delete_and_lookup.o
+  CCLD     delete_and_lookup
+  CC       delete_management.o
+  CCLD     delete_management
+  CC       destroy_callback.o
+  CCLD     destroy_callback
+  CC       insert_and_lookup.o
+insert_and_lookup.c: In function 'main':
+insert_and_lookup.c:39:23: warning: variable 'entry' set but not used [-Wunused-but-set-variable]
+    struct hash_entry *entry;
+                       ^~~~~
+  CCLD     insert_and_lookup
+  CC       insert_many.o
+insert_many.c: In function 'main':
+insert_many.c:49:23: warning: variable 'entry' set but not used [-Wunused-but-set-variable]
+    struct hash_entry *entry;
+                       ^~~~~
+  CCLD     insert_many
+  CC       null_destroy.o
+  CCLD     null_destroy
+  CC       random_entry.o
+  CCLD     random_entry
+  CC       remove_null.o
+  CCLD     remove_null
+  CC       replacement.o
+  CCLD     replacement
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make  check-TESTS
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+PASS: clear
+PASS: collision
+PASS: delete_and_lookup
+PASS: delete_management
+PASS: destroy_callback
+PASS: insert_and_lookup
+PASS: insert_many
+PASS: null_destroy
+PASS: random_entry
+PASS: remove_null
+PASS: replacement
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 11
+# PASS:  11
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+Making check in tests/string_buffer
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make  string_buffer_test
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+  CXX      string_buffer_test.o
+  CXXLD    string_buffer_test
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make  check-TESTS
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+PASS: string_buffer_test
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making check in mapi/glapi/gen
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make  check-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+Making check in mapi
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make  check-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make  shared-glapi-test 
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+  CXX      shared-glapi/tests/shared_glapi_test-check_table.o
+  CXXLD    shared-glapi-test
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make  check-TESTS
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+PASS: shared-glapi-test
+PASS: es1api/ABI-check
+PASS: es2api/ABI-check
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+Making check in compiler
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make  check-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make  glsl/glcpp/glcpp glsl/glsl_test glsl/tests/blob-test glsl/tests/cache-test glsl/tests/general-ir-test glsl/tests/sampler-types-test glsl/tests/uniform-initializer-test nir/tests/control_flow_tests
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+  CC       glsl/glcpp/glcpp.o
+  CCLD     glsl/glcpp/glcpp
+  CXX      glsl/test.o
+  CXX      glsl/test_optpass.o
+  CXXLD    glsl/glsl_test
+  CC       glsl/tests/blob_test.o
+  CCLD     glsl/tests/blob-test
+  CC       glsl/tests/glsl_tests_cache_test-cache_test.o
+  CCLD     glsl/tests/cache-test
+  CXX      glsl/tests/array_refcount_test.o
+glsl/tests/array_refcount_test.cpp: In member function 'virtual void array_refcount_test_visit_array_indexing_an_array_Test::TestBody()':
+glsl/tests/array_refcount_test.cpp:631:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (unsigned i = 0; i < var_c->type->array_size(); i++) {
+                         ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from glsl/tests/array_refcount_test.cpp:23:0:
+../../src/gtest/include/gtest/gtest.h: In instantiation of 'testing::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int]':
+../../src/gtest/include/gtest/gtest.h:1421:23:   required from 'static testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int; bool lhs_is_null_literal = false]'
+glsl/tests/array_refcount_test.cpp:216:4:   required from here
+../../src/gtest/include/gtest/gtest.h:1392:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (lhs == rhs) {
+       ~~~~^~~~~~
+  CXX      glsl/tests/builtin_variable_test.o
+  CXX      glsl/tests/invalidate_locations_test.o
+  CXX      glsl/tests/general_ir_test.o
+  CXX      glsl/tests/lower_int64_test.o
+  CXX      glsl/tests/opt_add_neg_to_sub_test.o
+  CXX      glsl/tests/varyings_test.o
+  CXXLD    glsl/tests/general-ir-test
+  CXX      glsl/tests/sampler_types_test.o
+  CXXLD    glsl/tests/sampler-types-test
+  CXX      glsl/tests/copy_constant_to_storage_tests.o
+  CXX      glsl/tests/set_uniform_initializer_tests.o
+  CXX      glsl/tests/uniform_initializer_utils.o
+In file included from ../../src/gtest/include/gtest/gtest.h:1874:0,
+                 from glsl/tests/uniform_initializer_utils.cpp:23:
+glsl/tests/uniform_initializer_utils.cpp: In function 'void verify_data(gl_constant_value*, unsigned int, ir_constant*, unsigned int, unsigned int)':
+glsl/tests/uniform_initializer_utils.cpp:249:58: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      EXPECT_EQ(val->value.d[i], *(double *)&storage[i*2].i);
+                                                          ^
+../../src/gtest/include/gtest/gtest_pred_impl.h:77:52: note: in definition of macro 'GTEST_ASSERT_'
+   if (const ::testing::AssertionResult gtest_ar = (expression)) \
+                                                    ^~~~~~~~~~
+../../src/gtest/include/gtest/gtest_pred_impl.h:162:3: note: in expansion of macro 'GTEST_PRED_FORMAT2_'
+   GTEST_PRED_FORMAT2_(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+   ^~~~~~~~~~~~~~~~~~~
+../../src/gtest/include/gtest/gtest.h:1923:3: note: in expansion of macro 'EXPECT_PRED_FORMAT2'
+   EXPECT_PRED_FORMAT2(::testing::internal:: \
+   ^~~~~~~~~~~~~~~~~~~
+glsl/tests/uniform_initializer_utils.cpp:249:6: note: in expansion of macro 'EXPECT_EQ'
+      EXPECT_EQ(val->value.d[i], *(double *)&storage[i*2].i);
+      ^~~~~~~~~
+glsl/tests/uniform_initializer_utils.cpp:252:62: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      EXPECT_EQ(val->value.u64[i], *(uint64_t *)&storage[i*2].i);
+                                                              ^
+../../src/gtest/include/gtest/gtest_pred_impl.h:77:52: note: in definition of macro 'GTEST_ASSERT_'
+   if (const ::testing::AssertionResult gtest_ar = (expression)) \
+                                                    ^~~~~~~~~~
+../../src/gtest/include/gtest/gtest_pred_impl.h:162:3: note: in expansion of macro 'GTEST_PRED_FORMAT2_'
+   GTEST_PRED_FORMAT2_(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+   ^~~~~~~~~~~~~~~~~~~
+../../src/gtest/include/gtest/gtest.h:1923:3: note: in expansion of macro 'EXPECT_PRED_FORMAT2'
+   EXPECT_PRED_FORMAT2(::testing::internal:: \
+   ^~~~~~~~~~~~~~~~~~~
+glsl/tests/uniform_initializer_utils.cpp:252:6: note: in expansion of macro 'EXPECT_EQ'
+      EXPECT_EQ(val->value.u64[i], *(uint64_t *)&storage[i*2].i);
+      ^~~~~~~~~
+glsl/tests/uniform_initializer_utils.cpp:255:61: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      EXPECT_EQ(val->value.i64[i], *(int64_t *)&storage[i*2].i);
+                                                             ^
+../../src/gtest/include/gtest/gtest_pred_impl.h:77:52: note: in definition of macro 'GTEST_ASSERT_'
+   if (const ::testing::AssertionResult gtest_ar = (expression)) \
+                                                    ^~~~~~~~~~
+../../src/gtest/include/gtest/gtest_pred_impl.h:162:3: note: in expansion of macro 'GTEST_PRED_FORMAT2_'
+   GTEST_PRED_FORMAT2_(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+   ^~~~~~~~~~~~~~~~~~~
+../../src/gtest/include/gtest/gtest.h:1923:3: note: in expansion of macro 'EXPECT_PRED_FORMAT2'
+   EXPECT_PRED_FORMAT2(::testing::internal:: \
+   ^~~~~~~~~~~~~~~~~~~
+glsl/tests/uniform_initializer_utils.cpp:255:6: note: in expansion of macro 'EXPECT_EQ'
+      EXPECT_EQ(val->value.i64[i], *(int64_t *)&storage[i*2].i);
+      ^~~~~~~~~
+In file included from glsl/tests/uniform_initializer_utils.cpp:23:0:
+../../src/gtest/include/gtest/gtest.h: In instantiation of 'testing::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int]':
+../../src/gtest/include/gtest/gtest.h:1421:23:   required from 'static testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int; bool lhs_is_null_literal = false]'
+glsl/tests/uniform_initializer_utils.cpp:246:6:   required from here
+../../src/gtest/include/gtest/gtest.h:1392:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (lhs == rhs) {
+       ~~~~^~~~~~
+  CXXLD    glsl/tests/uniform-initializer-test
+  CXX      nir/tests/nir_tests_control_flow_tests-control_flow_tests.o
+In file included from nir/tests/control_flow_tests.cpp:23:0:
+../../src/gtest/include/gtest/gtest.h: In instantiation of 'testing::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int]':
+../../src/gtest/include/gtest/gtest.h:1459:23:   required from 'static testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char*, const char*, const T1&, const T2&, typename testing::internal::EnableIf<(! testing::internal::is_pointer<T2>::value)>::type*) [with T1 = int; T2 = unsigned int; typename testing::internal::EnableIf<(! testing::internal::is_pointer<T2>::value)>::type = void]'
+nir/tests/control_flow_tests.cpp:96:4:   required from here
+../../src/gtest/include/gtest/gtest.h:1392:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (lhs == rhs) {
+       ~~~~^~~~~~
+  CXXLD    nir/tests/control_flow_tests
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make  check-TESTS
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+PASS: glsl/glcpp/tests/glcpp-test.sh
+PASS: glsl/glcpp/tests/glcpp-test-cr-lf.sh
+PASS: glsl/tests/blob-test
+PASS: glsl/tests/cache-test
+PASS: glsl/tests/general-ir-test
+PASS: glsl/tests/optimization-test.sh
+PASS: glsl/tests/sampler-types-test
+PASS: glsl/tests/uniform-initializer-test
+PASS: glsl/tests/warnings-test.sh
+PASS: nir/tests/control_flow_tests
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 10
+# PASS:  10
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+Making check in amd
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make  check-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+Making check in intel
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make  check-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make   compiler/test_fs_cmod_propagation compiler/test_fs_copy_propagation compiler/test_fs_saturate_propagation compiler/test_eu_compact compiler/test_eu_validate compiler/test_vf_float_conversions compiler/test_vec4_cmod_propagation compiler/test_vec4_copy_propagation compiler/test_vec4_register_coalesce isl/tests/isl_surf_get_image_offset_test 
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+  CXX      compiler/test_fs_cmod_propagation.o
+  CXXLD    compiler/test_fs_cmod_propagation
+  CXX      compiler/test_fs_copy_propagation.o
+  CXXLD    compiler/test_fs_copy_propagation
+  CXX      compiler/test_fs_saturate_propagation.o
+  CXXLD    compiler/test_fs_saturate_propagation
+  CXX      compiler/test_eu_compact.o
+  CXXLD    compiler/test_eu_compact
+  CXX      compiler/test_eu_validate.o
+  CXXLD    compiler/test_eu_validate
+  CXX      compiler/test_vf_float_conversions.o
+  CXXLD    compiler/test_vf_float_conversions
+  CXX      compiler/test_vec4_cmod_propagation.o
+  CXXLD    compiler/test_vec4_cmod_propagation
+  CXX      compiler/test_vec4_copy_propagation.o
+In file included from compiler/test_vec4_copy_propagation.cpp:24:0:
+../../src/gtest/include/gtest/gtest.h: In instantiation of 'testing::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int]':
+../../src/gtest/include/gtest/gtest.h:1421:23:   required from 'static testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int; bool lhs_is_null_literal = false]'
+compiler/test_vec4_copy_propagation.cpp:147:4:   required from here
+../../src/gtest/include/gtest/gtest.h:1392:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (lhs == rhs) {
+       ~~~~^~~~~~
+  CXXLD    compiler/test_vec4_copy_propagation
+  CXX      compiler/test_vec4_register_coalesce.o
+In file included from compiler/test_vec4_register_coalesce.cpp:24:0:
+../../src/gtest/include/gtest/gtest.h: In instantiation of 'testing::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int]':
+../../src/gtest/include/gtest/gtest.h:1421:23:   required from 'static testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = unsigned int; T2 = int; bool lhs_is_null_literal = false]'
+compiler/test_vec4_register_coalesce.cpp:190:4:   required from here
+../../src/gtest/include/gtest/gtest.h:1392:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (lhs == rhs) {
+       ~~~~^~~~~~
+  CXXLD    compiler/test_vec4_register_coalesce
+  CC       isl/tests/isl_surf_get_image_offset_test.o
+  CCLD     isl/tests/isl_surf_get_image_offset_test
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make  check-TESTS
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+PASS: compiler/test_fs_cmod_propagation
+PASS: compiler/test_fs_copy_propagation
+PASS: compiler/test_fs_saturate_propagation
+PASS: compiler/test_eu_compact
+PASS: compiler/test_eu_validate
+PASS: compiler/test_vf_float_conversions
+PASS: compiler/test_vec4_cmod_propagation
+PASS: compiler/test_vec4_copy_propagation
+PASS: compiler/test_vec4_register_coalesce
+PASS: isl/tests/isl_surf_get_image_offset_test
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 19
+# PASS:  19
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+Making check in mesa
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make  check-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making check in .
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make  
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make  all-recursive
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making all in .
+make[8]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making all in main/tests
+make[8]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+Making all in state_tracker/tests
+make[8]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+Making all in drivers/dri
+make[8]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making all in common
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+Making all in i915
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+Making all in i965
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make  all-am
+make[10]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[10]: Nothing to be done for 'all-am'.
+make[10]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+Making all in nouveau
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+Making all in r200
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+Making all in radeon
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+Making all in swrast
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[9]: Nothing to be done for 'all'.
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[9]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[9]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+make[8]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making all in drivers/osmesa
+make[8]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making check in main/tests
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make  main-test
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+  CXX      enum_strings.o
+  CXX      dispatch_sanity.o
+  CXX      mesa_formats.o
+  CXX      mesa_extensions.o
+  CXX      program_state_string.o
+  CXXLD    main-test
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make  check-TESTS
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+PASS: main-test
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+Making check in state_tracker/tests
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make  st-renumerate-test
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+  CXX      test_glsl_to_tgsi_lifetime.o
+  CXXLD    st-renumerate-test
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make  check-TESTS
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+PASS: st-renumerate-test
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+Making check in drivers/dri
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making check in common
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+Making check in i915
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+Making check in i965
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make  check-am
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[7]: Nothing to be done for 'check-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+Making check in nouveau
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+Making check in r200
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+Making check in radeon
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+Making check in swrast
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[6]: Nothing to be done for 'check'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making check in drivers/osmesa
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making check in loader
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+Making check in glx
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making check in .
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making check in tests
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make  glx-test
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+  CXX      clientinfo_unittest.o
+  CXX      create_context_unittest.o
+  CXX      enum_sizes.o
+  CXX      fake_glx_screen.o
+  CXX      indirect_api.o
+  CXX      query_renderer_unittest.o
+  CXX      query_renderer_implementation_unittest.o
+  CXXLD    glx-test
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make  check-TESTS
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+PASS: glx-test
+PASS: dispatch-index-check
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making check in gbm
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+make  check-TESTS
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+PASS: gbm-symbols-check
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+Making check in egl
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make  check-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make  check-TESTS
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+PASS: egl-symbols-check
+PASS: egl-entrypoint-check
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+Making check in gallium
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+Making check in auxiliary
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+Making check in auxiliary/pipe-loader
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+Making check in drivers/ddebug
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+Making check in drivers/noop
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+Making check in drivers/trace
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+Making check in drivers/rbug
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+Making check in drivers/i915
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+Making check in winsys/i915/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+Making check in drivers/nouveau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+Making check in winsys/nouveau/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+Making check in drivers/svga
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+Making check in winsys/svga/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+Making check in drivers/radeon
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+Making check in drivers/r600
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make  check-am
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+Making check in drivers/radeonsi
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make  check-am
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+Making check in winsys/amdgpu/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+Making check in winsys/radeon/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+Making check in drivers/softpipe
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+Making check in drivers/llvmpipe
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make  lp_test_format lp_test_arit lp_test_blend lp_test_conv lp_test_printf
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+  CC       lp_test_format.o
+  CC       lp_test_main.o
+  CXXLD    lp_test_format
+  CC       lp_test_arit.o
+  CXXLD    lp_test_arit
+  CC       lp_test_blend.o
+  CXXLD    lp_test_blend
+  CC       lp_test_conv.o
+  CXXLD    lp_test_conv
+  CC       lp_test_printf.o
+  CXXLD    lp_test_printf
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make  check-TESTS
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+PASS: lp_test_format
+PASS: lp_test_arit
+PASS: lp_test_blend
+PASS: lp_test_conv
+PASS: lp_test_printf
+============================================================================
+Testsuite summary for Mesa 17.3.6
+============================================================================
+# TOTAL: 5
+# PASS:  5
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+Making check in winsys/sw/null
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+Making check in winsys/sw/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+Making check in winsys/sw/kms-dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+Making check in winsys/sw/wrapper
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+Making check in state_trackers/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+Making check in targets/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+  GEN      all-local
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+Making check in state_trackers/va
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+Making check in targets/va
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+Making check in state_trackers/vdpau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+Making check in targets/vdpau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+  GEN      all-local
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+Making check in state_trackers/xa
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+Making check in targets/xa
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+Making check in state_trackers/xvmc
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+Making check in targets/xvmc
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[2]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[1]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6'

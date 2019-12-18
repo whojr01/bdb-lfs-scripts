@@ -1,0 +1,28 @@
+###############################
+# Make libXScrnSaver-1.2.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2/src'
+  CC     XScrnSaver.lo
+  CCLD   libXss.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2/man'
+  GEN    Xss.3
+  GEN    XScreenSaverQueryExtension.3
+  GEN    XScreenSaverQueryVersion.3
+  GEN    XScreenSaverAllocInfo.3
+  GEN    XScreenSaverQueryInfo.3
+  GEN    XScreenSaverSelectInput.3
+  GEN    XScreenSaverSetAttributes.3
+  GEN    XScreenSaverUnsetAttributes.3
+  GEN    XScreenSaverRegister.3
+  GEN    XScreenSaverUnregister.3
+  GEN    XScreenSaverGetRegistered.3
+  GEN    XScreenSaverSuspend.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXScrnSaver-1.2.2'

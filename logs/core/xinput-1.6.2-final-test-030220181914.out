@@ -1,0 +1,12 @@
+###############################
+###############################
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xinput-1.6.2/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xinput-1.6.2/src'
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xinput-1.6.2/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xinput-1.6.2/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xinput-1.6.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xinput-1.6.2'

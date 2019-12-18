@@ -1,0 +1,13 @@
+mkdir -p /usr/bin
+cp unzip funzip unzipsfx /usr/bin
+cp unix/zipgrep /usr/bin
+rm -f /usr/bin/zipinfo
+ln /usr/bin/unzip /usr/bin/zipinfo
+mkdir -p /usr/share/man/man1
+cp man/funzip.1 /usr/share/man/man1/funzip.1
+cp man/unzip.1 /usr/share/man/man1/unzip.1
+cp man/unzipsfx.1 /usr/share/man/man1/unzipsfx.1
+cp man/zipgrep.1 /usr/share/man/man1/zipgrep.1
+cp man/zipinfo.1 /usr/share/man/man1/zipinfo.1
+chmod 755 /usr/bin/funzip /usr/bin/unzip /usr/bin/unzipsfx /usr/bin/zipgrep /usr/bin/zipinfo
+chmod 644 /usr/share/man/man1/funzip.1 /usr/share/man/man1/unzip.1 /usr/share/man/man1/unzipsfx.1 /usr/share/man/man1/zipgrep.1 /usr/share/man/man1/zipinfo.1

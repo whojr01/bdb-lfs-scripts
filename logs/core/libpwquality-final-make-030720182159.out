@@ -1,0 +1,64 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0'
+Making all in po
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/po'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT generate.lo -MD -MP -MF .deps/generate.Tpo -c -o generate.lo generate.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT generate.lo -MD -MP -MF .deps/generate.Tpo -c generate.c  -fPIC -DPIC -o .libs/generate.o
+mv -f .deps/generate.Tpo .deps/generate.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT check.lo -MD -MP -MF .deps/check.Tpo -c -o check.lo check.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT check.lo -MD -MP -MF .deps/check.Tpo -c check.c  -fPIC -DPIC -o .libs/check.o
+mv -f .deps/check.Tpo .deps/check.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT settings.lo -MD -MP -MF .deps/settings.Tpo -c -o settings.lo settings.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT settings.lo -MD -MP -MF .deps/settings.Tpo -c settings.c  -fPIC -DPIC -o .libs/settings.o
+mv -f .deps/settings.Tpo .deps/settings.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c  -fPIC -DPIC -o .libs/error.o
+mv -f .deps/error.Tpo .deps/error.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-undefined -Wl,--version-script=./libpwquality.map -version-info 1:2:0  -o libpwquality.la -rpath /usr/lib generate.lo check.lo settings.lo error.lo -lcrack  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/generate.o .libs/check.o .libs/settings.o .libs/error.o   /usr/lib/libcrack.so -lz  -g -O2 -Wl,--version-script=./libpwquality.map   -Wl,-soname -Wl,libpwquality.so.1 -o .libs/libpwquality.so.1.0.2
+libtool: link: (cd ".libs" && rm -f "libpwquality.so.1" && ln -s "libpwquality.so.1.0.2" "libpwquality.so.1")
+libtool: link: (cd ".libs" && rm -f "libpwquality.so" && ln -s "libpwquality.so.1.0.2" "libpwquality.so")
+libtool: link: ( cd ".libs" && rm -f "libpwquality.la" && ln -s "../libpwquality.la" "libpwquality.la" )
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT pam_pwquality.lo -MD -MP -MF .deps/pam_pwquality.Tpo -c -o pam_pwquality.lo pam_pwquality.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT pam_pwquality.lo -MD -MP -MF .deps/pam_pwquality.Tpo -c pam_pwquality.c  -fPIC -DPIC -o .libs/pam_pwquality.o
+mv -f .deps/pam_pwquality.Tpo .deps/pam_pwquality.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-undefined -avoid-version -module  -o pam_pwquality.la -rpath /lib/security pam_pwquality.lo libpwquality.la -lpam  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/pam_pwquality.o   -Wl,-rpath -Wl,/lfskernel/sources/boot/libpwquality-1.4.0/src/.libs ./.libs/libpwquality.so -L/usr/lib /usr/lib/libcrack.so -lz /usr/lib/libpam.so -ldl  -g -O2   -Wl,-soname -Wl,pam_pwquality.so -o .libs/pam_pwquality.so
+libtool: link: ( cd ".libs" && rm -f "pam_pwquality.la" && ln -s "../pam_pwquality.la" "pam_pwquality.la" )
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT pwscore.o -MD -MP -MF .deps/pwscore.Tpo -c -o pwscore.o pwscore.c
+mv -f .deps/pwscore.Tpo .deps/pwscore.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o pwscore pwscore.o libpwquality.la  
+libtool: link: gcc -g -O2 -o .libs/pwscore pwscore.o  ./.libs/libpwquality.so /usr/lib/libcrack.so -lz
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT pwmake.o -MD -MP -MF .deps/pwmake.Tpo -c -o pwmake.o pwmake.c
+mv -f .deps/pwmake.Tpo .deps/pwmake.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o pwmake pwmake.o libpwquality.la  
+libtool: link: gcc -g -O2 -o .libs/pwmake pwmake.o  ./.libs/libpwquality.so /usr/lib/libcrack.so -lz
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+Making all in man
+make[3]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[3]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+Making all in python
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+CFLAGS="-g -O2 -fno-strict-aliasing" python setup.py build --build-lib=.
+running build
+running build_ext
+building 'pwquality' extension
+creating build
+creating build/temp.linux-x86_64-2.7
+gcc -pthread -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -g -O2 -fno-strict-aliasing -fPIC -I../src -I/usr/include/python2.7 -c pwquality.c -o build/temp.linux-x86_64-2.7/pwquality.o
+gcc -pthread -shared -g -O2 -fno-strict-aliasing build/temp.linux-x86_64-2.7/pwquality.o -L../src/.libs -L/usr/lib -lpwquality -lpython2.7 -o ./pwquality.so
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0'
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0'

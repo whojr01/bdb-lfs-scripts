@@ -1,0 +1,65 @@
+export LC_ALL=C ; \
+	gcc -E -dM ../src/signames.c |\
+	tr -s '\t ' ' ' | sort -n -k 3 | sed \
+'s:#define SIG\([A-Z][A-Z]*[0-9]*\) \([0-9][0-9]*\).*:{\ \2,"\1" },:p;d' | \
+	  grep -v '[0-9][0-9][0-9]' >src/signames.h || \
+	  { rm -f src/signames.h; exit 1; }
+grep '^{ 1,"HUP" },$' src/signames.h >/dev/null || \
+	  { rm -f src/signames.h; exit 1; }
+make  all-recursive
+make[1]: Entering directory '/sources/psmisc-23.1/build'
+Making all in doc
+make[2]: Entering directory '/sources/psmisc-23.1/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.1/build/doc'
+Making all in po
+make[2]: Entering directory '/sources/psmisc-23.1/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.1/build/po'
+Making all in icons
+make[2]: Entering directory '/sources/psmisc-23.1/build/icons'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.1/build/icons'
+Making all in testsuite
+make[2]: Entering directory '/sources/psmisc-23.1/build/testsuite'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/psmisc-23.1/build/testsuite'
+make[2]: Entering directory '/sources/psmisc-23.1/build'
+depbase=`echo src/killall.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -Wall -DLOCALEDIR=\"/usr/share/locale\" -I./src -g -O2 -fstack-protector-strong -Wformat -Werror=format-security  -DX86_64       -g -O2 -MT src/killall.o -MD -MP -MF $depbase.Tpo -c -o src/killall.o ../src/killall.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/signals.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -Wall -DLOCALEDIR=\"/usr/share/locale\" -I./src -g -O2 -fstack-protector-strong -Wformat -Werror=format-security  -DX86_64       -g -O2 -MT src/signals.o -MD -MP -MF $depbase.Tpo -c -o src/signals.o ../src/signals.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2 -Wl,-z,relro  -o src/killall src/killall.o src/signals.o   
+depbase=`echo src/pslog.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -Wall -DLOCALEDIR=\"/usr/share/locale\" -I./src -g -O2 -fstack-protector-strong -Wformat -Werror=format-security  -DX86_64       -g -O2 -MT src/pslog.o -MD -MP -MF $depbase.Tpo -c -o src/pslog.o ../src/pslog.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2 -Wl,-z,relro  -o src/pslog src/pslog.o  
+depbase=`echo src/prtstat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -Wall -DLOCALEDIR=\"/usr/share/locale\" -I./src -g -O2 -fstack-protector-strong -Wformat -Werror=format-security  -DX86_64       -g -O2 -MT src/prtstat.o -MD -MP -MF $depbase.Tpo -c -o src/prtstat.o ../src/prtstat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2 -Wl,-z,relro  -o src/prtstat src/prtstat.o  
+depbase=`echo src/pstree.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -Wall -DLOCALEDIR=\"/usr/share/locale\" -I./src -g -O2 -fstack-protector-strong -Wformat -Werror=format-security  -DX86_64       -g -O2 -MT src/pstree.o -MD -MP -MF $depbase.Tpo -c -o src/pstree.o ../src/pstree.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2 -Wl,-z,relro  -o src/pstree src/pstree.o -lncurses  
+depbase=`echo src/fuser.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -Wall -DLOCALEDIR=\"/usr/share/locale\" -I./src -g -O2 -fstack-protector-strong -Wformat -Werror=format-security  -DX86_64       -g -O2 -MT src/fuser.o -MD -MP -MF $depbase.Tpo -c -o src/fuser.o ../src/fuser.c &&\
+mv -f $depbase.Tpo $depbase.Po
+../src/fuser.c: In function 'main':
+../src/fuser.c:1564:49: warning: '%s' directive output may be truncated writing up to 255 bytes into a region of size between 179 and 189 [-Wformat-truncation=]
+   snprintf(filepath, MAX_PATHNAME, "/proc/%d/%s/%s",
+                                                 ^~
+../src/fuser.c:1564:3: note: 'snprintf' output between 12 and 277 bytes into a destination of size 200
+   snprintf(filepath, MAX_PATHNAME, "/proc/%d/%s/%s",
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     pid, dirname, direntry->d_name);
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc  -g -O2 -Wl,-z,relro  -o src/fuser src/fuser.o src/signals.o   
+depbase=`echo src/peekfd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..  -Wall -DLOCALEDIR=\"/usr/share/locale\" -I./src -g -O2 -fstack-protector-strong -Wformat -Werror=format-security  -DX86_64       -g -O2 -MT src/peekfd.o -MD -MP -MF $depbase.Tpo -c -o src/peekfd.o ../src/peekfd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc  -g -O2 -Wl,-z,relro  -o src/peekfd src/peekfd.o  
+make[2]: Leaving directory '/sources/psmisc-23.1/build'
+make[1]: Leaving directory '/sources/psmisc-23.1/build'

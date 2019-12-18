@@ -1,0 +1,14 @@
+../build-aux/mkinstalldirs /usr/bin
+../build-aux/mkinstalldirs /usr/lib/help2man
+mkdir -p -- /usr/lib/help2man
+../build-aux/mkinstalldirs /usr/share/man/man1
+../build-aux/mkinstalldirs /usr/share/info
+/usr/bin/install -c help2man /usr/bin
+/usr/bin/install -c -m 644 $(../build-aux/find-vpath   help2man.1) /usr/share/man/man1
+/usr/bin/install -c -m 644 $(../build-aux/find-vpath   help2man.info) \
+    /usr/share/info/help2man.info
+if test -f /usr/share/info/dir; \
+then \
+    /usr/bin/install-info --info-dir=/usr/share/info \
+	/usr/share/info/help2man.info; \
+fi

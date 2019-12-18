@@ -1,0 +1,450 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6'
+Making all in docs
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make  all-am
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/docs'
+Making all in codegen
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/codegen'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/codegen'
+Making all in glib
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/glib'
+  CC     libpyglib_2_0_python_la-pyglib.lo
+pyglib.c: In function 'pyglib_enable_threads':
+pyglib.c:157:2: warning: 'g_thread_init' is deprecated [-Wdeprecated-declarations]
+  g_thread_init(NULL);
+  ^~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib.h:108:0,
+                 from pyglib.h:27,
+                 from pyglib.c:28:
+/usr/include/glib-2.0/glib/deprecated/gthread.h:265:10: note: declared here
+ void     g_thread_init                   (gpointer vtable);
+          ^~~~~~~~~~~~~
+  CCLD   libpyglib-2.0-python.la
+  CC     _glib_la-glibmodule.lo
+glibmodule.c: In function 'pyglib_get_prgname':
+glibmodule.c:566:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     name = g_get_prgname();
+          ^
+  CC     _glib_la-pygiochannel.lo
+pygiochannel.c: In function 'py_io_channel_write_chars':
+pygiochannel.c:267:15: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     GIOStatus status;
+               ^~~~~~
+pygiochannel.c: In function 'py_io_channel_write_lines':
+pygiochannel.c:290:15: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     GIOStatus status;
+               ^~~~~~
+pygiochannel.c: In function 'py_io_channel_add_watch':
+pygiochannel.c:458:17: warning: variable 'iochannel' set but not used [-Wunused-but-set-variable]
+     GIOChannel *iochannel = NULL;
+                 ^~~~~~~~~
+pygiochannel.c: In function 'py_io_channel_read_line':
+pygiochannel.c:555:15: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     GIOStatus status;
+               ^~~~~~
+  CC     _glib_la-pygoptioncontext.lo
+  CC     _glib_la-pygoptiongroup.lo
+pygoptiongroup.c: In function 'pyg_option_group_dealloc':
+pygoptiongroup.c:123:6: warning: 'g_option_group_free' is deprecated [-Wdeprecated-declarations]
+      g_option_group_free(tmp);
+      ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib.h:64:0,
+                 from ./pyglib.h:27,
+                 from pygoptiongroup.c:27:
+/usr/include/glib-2.0/glib/goption.h:368:15: note: declared here
+ void          g_option_group_free                   (GOptionGroup       *group);
+               ^~~~~~~~~~~~~~~~~~~
+  CC     _glib_la-pygmaincontext.lo
+  CC     _glib_la-pygmainloop.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from pygmainloop.c:29:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/fcntl.h:25:0,
+                 from pygmainloop.c:27:
+/usr/include/features.h:289:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 199506L
+ 
+pygmainloop.c: In function 'pyg_signal_watch_check':
+pygmainloop.c:161:12: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+     gssize ret;
+            ^~~
+  CC     _glib_la-pygsource.lo
+pygsource.c: In function 'pyg_source_get_current_time':
+pygsource.c:252:5: warning: 'g_source_get_current_time' is deprecated: Use 'g_source_get_time' instead [-Wdeprecated-declarations]
+     g_source_get_current_time(self->source, &timeval);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib/giochannel.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:54,
+                 from pyglib.h:27,
+                 from pygsource.c:33:
+/usr/include/glib-2.0/glib/gmain.h:526:10: note: declared here
+ void     g_source_get_current_time (GSource        *source,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD   _glib.la
+ln -s .libs/_glib.so _glib.so || true
+ln: failed to create symbolic link '_glib.so': File exists
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/glib'
+Making all in gobject
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gobject'
+  CC     _gobject_la-gobjectmodule.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from ../glib/pyglib.h:25,
+                 from gobjectmodule.c:28:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/limits.h:26,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:194,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/syslimits.h:7,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:34,
+                 from /usr/lib/glib-2.0/include/glibconfig.h:11,
+                 from /usr/include/glib-2.0/glib/gtypes.h:32,
+                 from /usr/include/glib-2.0/glib/galloca.h:32,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:28,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from gobjectmodule.c:27:
+/usr/include/features.h:289:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 199506L
+ 
+gobjectmodule.c: In function 'pygobject_init_wrapper_set':
+gobjectmodule.c:1052:5: warning: 'g_static_private_set' is deprecated: Use 'g_private_set' instead [-Wdeprecated-declarations]
+     g_static_private_set(&pygobject_construction_wrapper, wrapper, NULL);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib.h:108:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:28,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from gobjectmodule.c:27:
+/usr/include/glib-2.0/glib/deprecated/gthread.h:254:10: note: declared here
+ void     g_static_private_set            (GStaticPrivate *private_key,
+          ^~~~~~~~~~~~~~~~~~~~
+gobjectmodule.c: In function 'pygobject_init_wrapper_get':
+gobjectmodule.c:1058:5: warning: 'g_static_private_get' is deprecated: Use 'g_private_get' instead [-Wdeprecated-declarations]
+     return (PyObject *) g_static_private_get(&pygobject_construction_wrapper);
+     ^~~~~~
+In file included from /usr/include/glib-2.0/glib.h:108:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:28,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from gobjectmodule.c:27:
+/usr/include/glib-2.0/glib/deprecated/gthread.h:251:10: note: declared here
+ gpointer g_static_private_get            (GStaticPrivate *private_key);
+          ^~~~~~~~~~~~~~~~~~~~
+gobjectmodule.c: In function 'pyg_type_add_interfaces':
+gobjectmodule.c:1123:15: warning: unused variable 'k' [-Wunused-variable]
+         guint k;
+               ^
+gobjectmodule.c: In function 'pyg_object_new':
+gobjectmodule.c:1686:5: warning: 'g_object_newv' is deprecated: Use 'g_object_new_with_properties' instead [-Wdeprecated-declarations]
+     obj = g_object_newv(type, n_params, params);
+     ^~~
+In file included from /usr/include/glib-2.0/gobject/gbinding.h:29:0,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from gobjectmodule.c:27:
+/usr/include/glib-2.0/gobject/gobject.h:429:13: note: declared here
+ gpointer    g_object_newv        (GType           object_type,
+             ^~~~~~~~~~~~~
+gobjectmodule.c: In function 'pygobject_constructv':
+gobjectmodule.c:2196:9: warning: 'g_object_newv' is deprecated: Use 'g_object_new_with_properties' instead [-Wdeprecated-declarations]
+         obj = g_object_newv(pyg_type_from_object((PyObject *) self),
+         ^~~
+In file included from /usr/include/glib-2.0/gobject/gbinding.h:29:0,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from gobjectmodule.c:27:
+/usr/include/glib-2.0/gobject/gobject.h:429:13: note: declared here
+ gpointer    g_object_newv        (GType           object_type,
+             ^~~~~~~~~~~~~
+gobjectmodule.c: In function 'init_gobject':
+gobjectmodule.c:2574:5: warning: 'g_type_init' is deprecated [-Wdeprecated-declarations]
+     g_type_init();
+     ^~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:24:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from gobjectmodule.c:27:
+/usr/include/glib-2.0/gobject/gtype.h:686:23: note: declared here
+ void                  g_type_init                    (void);
+                       ^~~~~~~~~~~
+  CC     _gobject_la-pygboxed.lo
+  CC     _gobject_la-pygenum.lo
+  CC     _gobject_la-pygflags.lo
+  CC     _gobject_la-pyginterface.lo
+  CC     _gobject_la-pygobject.lo
+pygobject.c: In function 'pygobject_lookup_class':
+pygobject.c:912:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (py_type == NULL)
+     ^~
+pygobject.c:915:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  if (py_type == NULL) {
+  ^~
+pygobject.c: In function 'pygobject_get_properties':
+pygobject.c:1302:19: warning: variable 'class' set but not used [-Wunused-but-set-variable]
+     GObjectClass *class;
+                   ^~~~~
+  CC     _gobject_la-pygparamspec.lo
+  CC     _gobject_la-pygpointer.lo
+  CC     _gobject_la-pygtype.lo
+pygtype.c: In function 'pyg_value_array_from_pyobject':
+pygtype.c:682:5: warning: 'g_value_array_new' is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+     value_array = g_value_array_new(len);
+     ^~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:35:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluearray.h:67:14: note: declared here
+ GValueArray* g_value_array_new      (guint   n_prealloced);
+              ^~~~~~~~~~~~~~~~~
+pygtype.c:692:6: warning: 'g_value_array_free' is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+      g_value_array_free(value_array);
+      ^~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:35:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluearray.h:70:7: note: declared here
+ void  g_value_array_free      (GValueArray *value_array);
+       ^~~~~~~~~~~~~~~~~~
+pygtype.c:704:3: warning: 'g_value_array_free' is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+   g_value_array_free(value_array);
+   ^~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:35:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluearray.h:70:7: note: declared here
+ void  g_value_array_free      (GValueArray *value_array);
+       ^~~~~~~~~~~~~~~~~~
+pygtype.c:717:6: warning: 'g_value_array_free' is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+      g_value_array_free(value_array);
+      ^~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:35:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluearray.h:70:7: note: declared here
+ void  g_value_array_free      (GValueArray *value_array);
+       ^~~~~~~~~~~~~~~~~~
+pygtype.c:722:2: warning: 'g_value_array_append' is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+  g_value_array_append(value_array, &item_value);
+  ^~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:35:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluearray.h:80:14: note: declared here
+ GValueArray* g_value_array_append      (GValueArray *value_array,
+              ^~~~~~~~~~~~~~~~~~~~
+pygtype.c: In function 'pyg_value_from_pyobject':
+pygtype.c:770:6: warning: 'g_value_set_char' is deprecated: Use 'g_value_set_schar' instead [-Wdeprecated-declarations]
+      g_value_set_char(value, PyString_AsString(obj)[0]);
+      ^~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:36:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluetypes.h:179:23: note: declared here
+ void                  g_value_set_char          (GValue       *value,
+                       ^~~~~~~~~~~~~~~~
+pygtype.c:775:6: warning: 'g_value_set_char' is deprecated: Use 'g_value_set_schar' instead [-Wdeprecated-declarations]
+      g_value_set_char(value, PYGLIB_PyBytes_AsString(tmp)[0]);
+      ^~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:36:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluetypes.h:179:23: note: declared here
+ void                  g_value_set_char          (GValue       *value,
+                       ^~~~~~~~~~~~~~~~
+pygtype.c:953:6: warning: 'g_value_array_get_type' is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+      G_VALUE_HOLDS(value, G_TYPE_VALUE_ARRAY))
+      ^~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:35:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluearray.h:60:17: note: declared here
+ GType           g_value_array_get_type       (void) G_GNUC_CONST;
+                 ^~~~~~~~~~~~~~~~~~~~~~
+pygtype.c: In function 'pyg_value_as_pyobject':
+pygtype.c:1029:2: warning: 'g_value_get_char' is deprecated: Use 'g_value_get_schar' instead [-Wdeprecated-declarations]
+  gint8 val = g_value_get_char(value);
+  ^~~~~
+In file included from /usr/include/glib-2.0/glib-object.h:36:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluetypes.h:182:23: note: declared here
+ gchar                 g_value_get_char          (const GValue *value);
+                       ^~~~~~~~~~~~~~~~
+pygtype.c:1115:9: warning: 'g_value_array_get_type' is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+         } else if (G_VALUE_HOLDS(value, G_TYPE_VALUE_ARRAY)) {
+         ^
+In file included from /usr/include/glib-2.0/glib-object.h:35:0,
+                 from pygobject.h:8,
+                 from pygobject-private.h:9,
+                 from pygtype.c:29:
+/usr/include/glib-2.0/gobject/gvaluearray.h:60:17: note: declared here
+ GType           g_value_array_get_type       (void) G_GNUC_CONST;
+                 ^~~~~~~~~~~~~~~~~~~~~~
+  CCLD   _gobject.la
+ln -s .libs/_gobject.so _gobject.so || true
+ln: failed to create symbolic link '_gobject.so': File exists
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gobject'
+Making all in gio
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gio'
+  CC     _gio_la-giomodule.lo
+giomodule.c: In function '_pyglib_init__gio':
+giomodule.c:53:5: warning: 'g_type_init' is deprecated [-Wdeprecated-declarations]
+     g_type_init();
+     ^~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:24:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from ../gobject/pygobject.h:8,
+                 from giomodule.c:27:
+/usr/include/glib-2.0/gobject/gtype.h:686:23: note: declared here
+ void                  g_type_init                    (void);
+                       ^~~~~~~~~~~
+  CCLD   _gio.la
+  CC     unix_la-unixmodule.lo
+  CCLD   unix.la
+ln -s .libs/_gio.so _gio.so || true
+ln: failed to create symbolic link '_gio.so': File exists
+ln -s .libs/unix.so unix.so || true
+ln: failed to create symbolic link 'unix.so': File exists
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gio'
+Making all in examples
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/examples'
+Making all in gi
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+Making all in repository
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/repository'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/repository'
+Making all in overrides
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/overrides'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi/overrides'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+  CC     _gi_la-pygi-repository.lo
+pygi-repository.c: In function '_wrap_g_irepository_require':
+pygi-repository.c:92:15: warning: variable 'typelib' set but not used [-Wunused-but-set-variable]
+     GTypelib *typelib;
+               ^~~~~~~
+  CC     _gi_la-pygi-info.lo
+pygi-info.c: In function '_pygi_info_new':
+pygi-info.c:135:5: warning: enumeration value 'GI_INFO_TYPE_INVALID_0' not handled in switch [-Wswitch]
+     switch (info_type)
+     ^~~~~~
+pygi-info.c: In function '_pygi_g_type_info_size':
+pygi-info.c:445:13: warning: enumeration value 'GI_INFO_TYPE_INVALID_0' not handled in switch [-Wswitch]
+             switch (info_type) {
+             ^~~~~~
+pygi-info.c: In function 'pygi_g_struct_info_is_simple':
+pygi-info.c:831:17: warning: enumeration value 'GI_INFO_TYPE_INVALID_0' not handled in switch [-Wswitch]
+                 switch (info_type) {
+                 ^~~~~~
+  CC     _gi_la-pygi-invoke.lo
+pygi-invoke.c: In function '_prepare_invocation_state':
+pygi-invoke.c:178:20: warning: variable 'transfer' set but not used [-Wunused-but-set-variable]
+         GITransfer transfer;
+                    ^~~~~~~~
+pygi-invoke.c:461:35: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+                         PyObject *result;
+                                   ^~~~~~
+  CC     _gi_la-pygi-foreign.lo
+  CC     _gi_la-pygi-foreign-gvariant.lo
+  CC     _gi_la-pygi-struct.lo
+  CC     _gi_la-pygi-argument.lo
+pygi-argument.c: In function '_pygi_argument_from_object':
+pygi-argument.c:1088:35: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+                         PyObject *result;
+                                   ^~~~~~
+pygi-argument.c: In function '_pygi_argument_from_g_value':
+pygi-argument.c:1819:13: warning: 'g_value_get_char' is deprecated: Use 'g_value_get_schar' instead [-Wdeprecated-declarations]
+             arg.v_uint32 = g_value_get_char (value);
+             ^~~
+In file included from /usr/include/glib-2.0/glib-object.h:36:0,
+                 from ../gobject/pygobject.h:8,
+                 from pygi.h:30,
+                 from pygi-private.h:17,
+                 from pygi-argument.c:24:
+/usr/include/glib-2.0/gobject/gvaluetypes.h:182:23: note: declared here
+ gchar                 g_value_get_char          (const GValue *value);
+                       ^~~~~~~~~~~~~~~~
+  CC     _gi_la-pygi-type.lo
+  CC     _gi_la-pygi-boxed.lo
+  CC     _gi_la-pygi-closure.lo
+pygi-closure.c: In function '_pygi_closure_handle':
+pygi-closure.c:334:16: warning: variable 'return_transfer' set but not used [-Wunused-but-set-variable]
+     GITransfer return_transfer;
+                ^~~~~~~~~~~~~~~
+pygi-closure.c:333:16: warning: variable 'return_tag' set but not used [-Wunused-but-set-variable]
+     GITypeTag  return_tag;
+                ^~~~~~~~~~
+  CC     _gi_la-pygi-callbacks.lo
+pygi-callbacks.c: In function '_pygi_scan_for_callbacks':
+pygi-callbacks.c:80:21: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+         GIDirection direction;
+                     ^~~~~~~~~
+pygi-callbacks.c: In function '_pygi_create_callback':
+pygi-callbacks.c:156:17: warning: variable 'scope' set but not used [-Wunused-but-set-variable]
+     GIScopeType scope;
+                 ^~~~~
+  CC     _gi_la-pygi-property.lo
+  CC     _gi_la-pygi-signal-closure.lo
+  CC     _gi_la-gimodule.lo
+gimodule.c: In function '_wrap_pyg_variant_type_from_string':
+gimodule.c:478:27: warning: passing argument 1 of 'PyType_IsSubtype' from incompatible pointer type [-Wincompatible-pointer-types]
+     if (PyType_IsSubtype (py_type, &PyGIBoxed_Type))
+                           ^~~~~~~
+In file included from /usr/include/python2.7/Python.h:80:0,
+                 from pygi-private.h:15,
+                 from gimodule.c:24:
+/usr/include/python2.7/object.h:437:17: note: expected 'PyTypeObject * {aka struct _typeobject *}' but argument is of type 'PyObject * {aka struct _object *}'
+ PyAPI_FUNC(int) PyType_IsSubtype(PyTypeObject *, PyTypeObject *);
+                 ^~~~~~~~~~~~~~~~
+  CCLD   _gi.la
+  CC     _gi_cairo_la-pygi-foreign-cairo.lo
+In file included from pygi-foreign-cairo.c:37:0:
+pygi-foreign-cairo.c: In function 'init_gi_cairo':
+../glib/pyglib-python-compat.h:159:15: warning: variable 'module' set but not used [-Wunused-but-set-variable]
+     PyObject *module;                                   \
+               ^
+pygi-foreign-cairo.c:118:1: note: in expansion of macro 'PYGLIB_MODULE_START'
+ PYGLIB_MODULE_START(_gi_cairo, "_gi_cairo")
+ ^~~~~~~~~~~~~~~~~~~
+  CCLD   _gi_cairo.la
+test -L _gi.so || ln -s .libs/_gi.so _gi.so
+test -L _gi_cairo.so || ln -s .libs/_gi_cairo.so _gi_cairo.so
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/gi'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6/tests'
+  CC     libregress_la-regress.lo
+/bin/sh ../libtool --silent --tag=CC   --mode=link gcc  -g -O2 -Wall -fno-strict-aliasing -std=c9x   -o libregress.la -rpath /usr/lib/python2.7/site-packages/pygobject -module -avoid-version -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lcairo libregress_la-regress.lo  
+  CC     libgimarshallingtests_la-gimarshallingtests.lo
+/bin/sh ../libtool --silent --tag=CC   --mode=link gcc  -g -O2 -Wall -fno-strict-aliasing -std=c9x   -o libgimarshallingtests.la -rpath /usr/lib/python2.7/site-packages/pygobject -module -avoid-version -lgobject-2.0 -lgthread-2.0 -pthread -lglib-2.0 libgimarshallingtests_la-gimarshallingtests.lo  
+test -L libregress.so || ln -s .libs/libregress.so libregress.so
+test -L libgimarshallingtests.so || ln -s .libs/libgimarshallingtests.so libgimarshallingtests.so
+test -L testhelper.so || ln -s .libs/testhelper.so testhelper.so
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-2.28.6'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-2.28.6'

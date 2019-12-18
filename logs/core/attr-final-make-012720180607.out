@@ -1,0 +1,115 @@
+/tools/bin/gmake include libmisc libattr attr getfattr setfattr examples test m4 man doc po debian package
+gmake[1]: Entering directory '/sources/attr-2.4.47'
+/tools/bin/gmake -C include
+gmake[2]: Entering directory '/sources/attr-2.4.47/include'
+ln -s . attr
+gmake[2]: Leaving directory '/sources/attr-2.4.47/include'
+/tools/bin/gmake -C libmisc
+gmake[2]: Entering directory '/sources/attr-2.4.47/libmisc'
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64   -c quote.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -c quote.c  -fPIC -DPIC -o .libs/quote.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64   -c unquote.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -c unquote.c  -fPIC -DPIC -o .libs/unquote.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64   -c high_water_alloc.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -c high_water_alloc.c  -fPIC -DPIC -o .libs/high_water_alloc.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64   -c next_line.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -c next_line.c  -fPIC -DPIC -o .libs/next_line.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64   -c walk_tree.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -c walk_tree.c  -fPIC -DPIC -o .libs/walk_tree.o
+walk_tree.c: In function 'walk_tree_rec':
+walk_tree.c:104:43: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+         if ((flags & WALK_TREE_RECURSIVE) &&
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+     (!(flags & WALK_TREE_SYMLINK) && S_ISDIR(st.st_mode)) ||
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/bin/sh ../libtool --mode=link gcc  -o libmisc.la quote.lo unquote.lo high_water_alloc.lo next_line.lo walk_tree.lo 
+libtool: link: ar cru .libs/libmisc.a .libs/quote.o .libs/unquote.o .libs/high_water_alloc.o .libs/next_line.o .libs/walk_tree.o 
+libtool: link: ranlib .libs/libmisc.a
+libtool: link: ( cd ".libs" && rm -f "libmisc.la" && ln -s "../libmisc.la" "libmisc.la" )
+gmake[2]: Leaving directory '/sources/attr-2.4.47/libmisc'
+/tools/bin/gmake -C libattr
+gmake[2]: Entering directory '/sources/attr-2.4.47/libattr'
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h  -c libattr.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h -c libattr.c  -fPIC -DPIC -o .libs/libattr.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h  -c attr_copy_fd.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h -c attr_copy_fd.c  -fPIC -DPIC -o .libs/attr_copy_fd.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h  -c attr_copy_file.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h -c attr_copy_file.c  -fPIC -DPIC -o .libs/attr_copy_file.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h  -c attr_copy_check.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h -c attr_copy_check.c  -fPIC -DPIC -o .libs/attr_copy_check.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h  -c attr_copy_action.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h -c attr_copy_action.c  -fPIC -DPIC -o .libs/attr_copy_action.o
+/bin/sh ../libtool --mode=compile gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h  -c syscalls.c
+libtool: compile:  gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -include libattr.h -c syscalls.c  -fPIC -DPIC -o .libs/syscalls.o
+/bin/sh ../libtool --mode=link gcc -Wl,--version-script,../exports  -rpath /usr/lib -version-info 2:0:1 -o libattr.la libattr.lo attr_copy_fd.lo attr_copy_file.lo attr_copy_check.lo attr_copy_action.lo syscalls.lo 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libattr.o .libs/attr_copy_fd.o .libs/attr_copy_file.o .libs/attr_copy_check.o .libs/attr_copy_action.o .libs/syscalls.o    -Wl,--version-script -Wl,../exports   -Wl,-soname -Wl,libattr.so.1 -o .libs/libattr.so.1.1.0
+libtool: link: (cd ".libs" && rm -f "libattr.so.1" && ln -s "libattr.so.1.1.0" "libattr.so.1")
+libtool: link: (cd ".libs" && rm -f "libattr.so" && ln -s "libattr.so.1.1.0" "libattr.so")
+libtool: link: ( cd ".libs" && rm -f "libattr.la" && ln -s "../libattr.la" "libattr.la" )
+gmake[2]: Leaving directory '/sources/attr-2.4.47/libattr'
+/tools/bin/gmake -C attr
+gmake[2]: Entering directory '/sources/attr-2.4.47/attr'
+gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64    -c -o attr.o attr.c
+/bin/sh ../libtool --mode=link gcc -o attr    attr.o   ../libattr/libattr.la  
+libtool: link: gcc -o .libs/attr attr.o  ../libattr/.libs/libattr.so
+gmake[2]: Leaving directory '/sources/attr-2.4.47/attr'
+/tools/bin/gmake -C getfattr
+gmake[2]: Entering directory '/sources/attr-2.4.47/getfattr'
+gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64    -c -o getfattr.o getfattr.c
+/bin/sh ../libtool --mode=link gcc -o getfattr    getfattr.o   ../libmisc/libmisc.la ../libattr/libattr.la  
+libtool: link: gcc -o .libs/getfattr getfattr.o  ../libmisc/.libs/libmisc.a ../libattr/.libs/libattr.so
+gmake[2]: Leaving directory '/sources/attr-2.4.47/getfattr'
+/tools/bin/gmake -C setfattr
+gmake[2]: Entering directory '/sources/attr-2.4.47/setfattr'
+gcc -g -O2 -DDEBUG -funsigned-char -fno-strict-aliasing -Wall -DVERSION=\"2.4.47\" -DLOCALEDIR=\"/usr/share/locale\" -DPACKAGE=\"attr\" -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64    -c -o setfattr.o setfattr.c
+/bin/sh ../libtool --mode=link gcc -o setfattr    setfattr.o   ../libmisc/libmisc.la ../libattr/libattr.la  
+libtool: link: gcc -o .libs/setfattr setfattr.o  ../libmisc/.libs/libmisc.a ../libattr/.libs/libattr.so
+gmake[2]: Leaving directory '/sources/attr-2.4.47/setfattr'
+/tools/bin/gmake -C examples
+gmake[2]: Entering directory '/sources/attr-2.4.47/examples'
+rm -f copyattr dep dep.bak *.[1-9].gz *.tmpo *.mo       
+gmake[2]: Leaving directory '/sources/attr-2.4.47/examples'
+/tools/bin/gmake -C test
+gmake[2]: Entering directory '/sources/attr-2.4.47/test'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/test'
+/tools/bin/gmake -C m4
+gmake[2]: Entering directory '/sources/attr-2.4.47/m4'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/m4'
+/tools/bin/gmake -C man
+gmake[2]: Entering directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C man1
+gmake[3]: Entering directory '/sources/attr-2.4.47/man/man1'
+gmake[3]: Nothing to be done for 'default'.
+gmake[3]: Leaving directory '/sources/attr-2.4.47/man/man1'
+/tools/bin/gmake -C man3
+gmake[3]: Entering directory '/sources/attr-2.4.47/man/man3'
+gmake[3]: Nothing to be done for 'default'.
+gmake[3]: Leaving directory '/sources/attr-2.4.47/man/man3'
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C doc
+gmake[2]: Entering directory '/sources/attr-2.4.47/doc'
+/tools/bin/gzip --best -c < CHANGES > CHANGES.gz
+gmake[2]: Leaving directory '/sources/attr-2.4.47/doc'
+/tools/bin/gmake -C po
+gmake[2]: Entering directory '/sources/attr-2.4.47/po'
+/tools/bin/xgettext --language=C --keyword=_ -o attr.pot ../attr/attr.c ../getfattr/getfattr.c ../setfattr/setfattr.c ../libattr/attr_copy_fd.c ../libattr/attr_copy_file.c
+/tools/bin/msgfmt -o cs.mo cs.po
+/tools/bin/msgfmt -o de.mo de.po
+/tools/bin/msgfmt -o es.mo es.po
+/tools/bin/msgfmt -o fr.mo fr.po
+/tools/bin/msgfmt -o gl.mo gl.po
+/tools/bin/msgfmt -o nl.mo nl.po
+/tools/bin/msgfmt -o pl.mo pl.po
+/tools/bin/msgfmt -o sv.mo sv.po
+gmake[2]: Leaving directory '/sources/attr-2.4.47/po'
+/tools/bin/gmake -C debian
+gmake[2]: Entering directory '/sources/attr-2.4.47/debian'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/debian'
+/tools/bin/gmake -C package
+gmake[2]: Entering directory '/sources/attr-2.4.47/package'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/package'
+gmake[1]: Leaving directory '/sources/attr-2.4.47'

@@ -1,0 +1,14 @@
+###############################
+# Make xkill-1.0.4.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xkill-1.0.4'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkill-1.0.4/man'
+  GEN      xkill.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkill-1.0.4/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkill-1.0.4'
+  CC       xkill.o
+  CCLD     xkill
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkill-1.0.4'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xkill-1.0.4'

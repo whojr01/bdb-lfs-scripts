@@ -1,0 +1,31 @@
+Using Compiler: gcc
+*********************
+ELF report
+*********************
+Interpreter:
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+
+Start (ctors):
+attempt to open /usr/lib/../lib/crt1.o succeeded
+attempt to open /usr/lib/../lib/crti.o succeeded
+attempt to open /usr/lib/../lib/crtn.o succeeded
+
+Headers:
+#include <...> search starts here:
+ /usr/include
+
+Search Dirs:
+SEARCH_DIR("=/tools/x86_64-pc-linux-gnu/lib64")
+SEARCH_DIR("/usr/lib")
+SEARCH_DIR("/lib")
+SEARCH_DIR("=/tools/x86_64-pc-linux-gnu/lib");
+
+Libc:
+attempt to open /lib/libc.so.6 succeeded
+/lib/libc.so.6
+ld-linux-x86-64.so.2 needed by /lib/libc.so.6
+
+Found:
+found ld-linux-x86-64.so.2 at /lib/ld-linux-x86-64.so.2
+
+done.

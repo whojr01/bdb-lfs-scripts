@@ -1,0 +1,131 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13'
+Making all in gl
+make[2]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/gl'
+  GEN      limits.h
+  GEN      arg-nonnull.h
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+make  all-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/gl'
+make[4]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/gl'
+  CC       gettime.lo
+  CC       progname.lo
+  CC       read-file.lo
+  CC       timespec.lo
+  CC       unistd.lo
+  CC       version-etc.lo
+  CC       version-etc-fsf.lo
+  CCLD     libgnu.la
+make[4]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/gl'
+make[3]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/gl'
+make[2]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/gl'
+Making all in lib
+make[2]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/lib'
+Making all in gllib
+make[3]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/lib/gllib'
+  GEN      limits.h
+  GEN      arg-nonnull.h
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      string.h
+  GEN      sys/types.h
+make  all-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/lib/gllib'
+make[5]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/lib/gllib'
+  CC       hash-pjw-bare.lo
+  CCLD     libgnu.la
+make[5]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/lib/gllib'
+make[4]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/lib/gllib'
+make[3]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/lib/gllib'
+make[3]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/lib'
+  CC       ASN1.lo
+ASN1.c: In function '_asn1_yyparse':
+ASN1.y:152:47: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
+ neg_num : '-' NUM     {snprintf($$,sizeof($$),"-%s",$2);}
+                                               ^~~~~
+ASN1.y:152:6: note: 'snprintf' output between 2 and 66 bytes into a destination of size 65
+ neg_num : '-' NUM     {snprintf($$,sizeof($$),"-%s",$2);}
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          
+ASN1.y:164:47: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
+                 | '-' NUM        {snprintf($$,sizeof($$),"-%s",$2);}
+                                               ^~~~~
+ASN1.y:164:6: note: 'snprintf' output between 2 and 66 bytes into a destination of size 65
+                 | '-' NUM        {snprintf($$,sizeof($$),"-%s",$2);}
+      ^          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       coding.lo
+  CC       decoding.lo
+decoding.c: In function 'asn1_expand_any_defined_by':
+decoding.c:1786:38: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
+         snprintf(name, sizeof(name), "%s.%s", definitionsName, p2->name);
+                                      ^~~~~~~
+decoding.c:1786:9: note: 'snprintf' output between 2 and 130 bytes into a destination of size 129
+         snprintf(name, sizeof(name), "%s.%s", definitionsName, p2->name);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+decoding.c:1802:39: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
+          snprintf(name, sizeof(name), "%s.%s", definitionsName, p2->name);
+                                       ^~~~~~~
+decoding.c:1802:10: note: 'snprintf' output between 2 and 130 bytes into a destination of size 129
+          snprintf(name, sizeof(name), "%s.%s", definitionsName, p2->name);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       element.lo
+  CC       errors.lo
+  CC       gstr.lo
+  CC       parser_aux.lo
+  CC       structure.lo
+structure.c: In function 'asn1_find_structure_from_oid':
+structure.c:1113:40: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
+           snprintf(name, sizeof(name), "%s.%s", definitionsName, p->name);
+                                        ^~~~~~~
+structure.c:1113:11: note: 'snprintf' output between 2 and 130 bytes into a destination of size 129
+           snprintf(name, sizeof(name), "%s.%s", definitionsName, p->name);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       version.lo
+  CCLD     libtasn1.la
+make[3]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/lib'
+make[2]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/lib'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/src'
+  CC       asn1Parser.o
+  CCLD     asn1Parser
+  CC       asn1Coding.o
+  CCLD     asn1Coding
+  CC       asn1Decoding.o
+  CC       benchmark.o
+  CCLD     asn1Decoding
+make[2]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/src'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/tests'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/doc'
+Making all in cyclo
+make[3]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/doc/cyclo'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/doc/cyclo'
+make[3]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/doc'
+Making all in examples
+make[2]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/examples'
+make  all-am
+make[3]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13/examples'
+  CC       CertificateExample.o
+  CC       pkix_asn1_tab.o
+  CCLD     CertificateExample
+  CC       CrlExample.o
+  CCLD     CrlExample
+make[3]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/examples'
+make[2]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13/examples'
+make[2]: Entering directory '/lfskernel/sources/boot/libtasn1-4.13'
+make[2]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13'
+make[1]: Leaving directory '/lfskernel/sources/boot/libtasn1-4.13'

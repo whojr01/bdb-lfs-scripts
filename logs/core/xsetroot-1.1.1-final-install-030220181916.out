@@ -1,0 +1,18 @@
+###############################
+# Install xsetroot-1.1.1.tar.bz2 #
+###############################
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/man/man1" || /bin/mkdir -p "/usr/share/man/man1"
+ /usr/bin/install -c -m 644 xsetroot.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+  /usr/bin/install -c xsetroot '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'

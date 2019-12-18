@@ -1,0 +1,31 @@
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:4: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.in:4: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.in:4: installing './install-sh'
+configure.in:4: installing './missing'
+Makefile.am: installing './INSTALL'
+Makefile.am: installing './COPYING' using GNU General Public License v3 file
+Makefile.am:     Consider adding the COPYING file to the version control system
+Makefile.am:     for your code, to avoid questions about which license your project uses
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating bin/Makefile
+config.status: creating bin/install-catalog
+config.status: creating config/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/HTML/Makefile
+config.status: creating doc/man/Makefile
+config.status: creating doc/refentry/Makefile
+config.status: creating sgml-iso-entities/Makefile
+config.status: creating xml-iso-entities/Makefile

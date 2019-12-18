@@ -1,0 +1,73 @@
+Making install in glob
+make[1]: Entering directory '/sources/make-4.2.1/build/glob'
+make[2]: Entering directory '/sources/make-4.2.1/build/glob'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/make-4.2.1/build/glob'
+make[1]: Leaving directory '/sources/make-4.2.1/build/glob'
+Making install in config
+make[1]: Entering directory '/sources/make-4.2.1/build/config'
+make[2]: Entering directory '/sources/make-4.2.1/build/config'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/make-4.2.1/build/config'
+make[1]: Leaving directory '/sources/make-4.2.1/build/config'
+Making install in po
+make[1]: Entering directory '/sources/make-4.2.1/build/po'
+installing ../../po/be.gmo as /usr/share/locale/be/LC_MESSAGES/make.mo
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/make.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/make.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/make.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/make.mo
+installing ../../po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/make.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/make.mo
+installing ../../po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/make.mo
+installing ../../po/gl.gmo as /usr/share/locale/gl/LC_MESSAGES/make.mo
+installing ../../po/he.gmo as /usr/share/locale/he/LC_MESSAGES/make.mo
+installing ../../po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/make.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/make.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/make.mo
+installing ../../po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/make.mo
+installing ../../po/ko.gmo as /usr/share/locale/ko/LC_MESSAGES/make.mo
+installing ../../po/lt.gmo as /usr/share/locale/lt/LC_MESSAGES/make.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/make.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/make.mo
+installing ../../po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/make.mo
+installing ../../po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/make.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/make.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/make.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/make.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/make.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/make.mo
+if test "make" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/make-4.2.1/build/po'
+Making install in doc
+make[1]: Entering directory '/sources/make-4.2.1/build/doc'
+make[2]: Entering directory '/sources/make-4.2.1/build/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../doc/make.info ../../doc/make.info-1 ../../doc/make.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/make.info'
+make[2]: Leaving directory '/sources/make-4.2.1/build/doc'
+make[1]: Leaving directory '/sources/make-4.2.1/build/doc'
+make[1]: Entering directory '/sources/make-4.2.1/build'
+make[2]: Entering directory '/sources/make-4.2.1/build'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c make '/usr/bin'
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 ../gnumake.h '/usr/include'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../make.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/make-4.2.1/build'
+make[1]: Leaving directory '/sources/make-4.2.1/build'

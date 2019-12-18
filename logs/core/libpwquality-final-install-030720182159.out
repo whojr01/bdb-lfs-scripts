@@ -1,0 +1,178 @@
+Making install in po
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/po'
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/libpwquality.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/libpwquality.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/libpwquality.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/libpwquality.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/libpwquality.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/libpwquality.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/libpwquality.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/libpwquality.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/libpwquality.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/libpwquality.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/libpwquality.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/libpwquality.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/libpwquality.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/libpwquality.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/libpwquality.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/libpwquality.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/libpwquality.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/libpwquality.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/libpwquality.mo
+installing km.gmo as /usr/share/locale/km/LC_MESSAGES/libpwquality.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/libpwquality.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/libpwquality.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/libpwquality.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/libpwquality.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/libpwquality.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/libpwquality.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/libpwquality.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/libpwquality.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/libpwquality.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/libpwquality.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/libpwquality.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/libpwquality.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/libpwquality.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/libpwquality.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/libpwquality.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/libpwquality.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/libpwquality.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/libpwquality.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/libpwquality.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/libpwquality.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/libpwquality.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/libpwquality.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/libpwquality.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/libpwquality.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/libpwquality.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/libpwquality.mo
+installing zu.gmo as /usr/share/locale/zu/LC_MESSAGES/libpwquality.mo
+if test "libpwquality" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/po'
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpwquality.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libpwquality.so.1.0.2 /usr/lib/libpwquality.so.1.0.2
+libtool: install: (cd /usr/lib && { ln -s -f libpwquality.so.1.0.2 libpwquality.so.1 || { rm -f libpwquality.so.1 && ln -s libpwquality.so.1.0.2 libpwquality.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpwquality.so.1.0.2 libpwquality.so || { rm -f libpwquality.so && ln -s libpwquality.so.1.0.2 libpwquality.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpwquality.lai /usr/lib/libpwquality.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c pwscore pwmake '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/pwscore /usr/bin/pwscore
+libtool: install: /usr/bin/install -c .libs/pwmake /usr/bin/pwmake
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 pwquality.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 pwquality.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/etc/security'
+ /usr/bin/install -c -m 644 pwquality.conf '/etc/security'
+ /bin/mkdir -p '/lib/security'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   pam_pwquality.la '/lib/security'
+libtool: warning: relinking 'pam_pwquality.la'
+libtool: install: (cd /lfskernel/sources/boot/libpwquality-1.4.0/src; /bin/sh "/lfskernel/sources/boot/libpwquality-1.4.0/libtool"  --tag CC --mode=relink gcc -g -O2 -no-undefined -avoid-version -module -o pam_pwquality.la -rpath /lib/security pam_pwquality.lo libpwquality.la -lpam )
+libtool: relink: gcc -shared  -fPIC -DPIC  .libs/pam_pwquality.o   -L/usr/lib -lpwquality -lcrack -lz -lpam -ldl  -g -O2   -Wl,-soname -Wl,pam_pwquality.so -o .libs/pam_pwquality.so
+libtool: install: /usr/bin/install -c .libs/pam_pwquality.soT /lib/security/pam_pwquality.so
+libtool: install: /usr/bin/install -c .libs/pam_pwquality.lai /lib/security/pam_pwquality.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /lib/security
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /lib/security
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/src'
+Making install in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+Making install in man
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[3]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 pwmake.1 pwscore.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 pwquality.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 pwquality.conf.5 '/usr/share/man/man5'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 pam_pwquality.8 '/usr/share/man/man8'
+make[3]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc/man'
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[3]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/doc'
+Making install in python
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+CFLAGS="-g -O2 -fno-strict-aliasing" python setup.py build --build-lib=.
+running build
+running build_ext
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+CFLAGS="-g -O2 -fno-strict-aliasing" python setup.py install --prefix=/usr
+running install
+running build
+running build_ext
+building 'pwquality' extension
+gcc -pthread -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -g -O2 -fno-strict-aliasing -fPIC -I../src -I/usr/include/python2.7 -c pwquality.c -o build/temp.linux-x86_64-2.7/pwquality.o
+creating build/lib.linux-x86_64-2.7
+gcc -pthread -shared -g -O2 -fno-strict-aliasing build/temp.linux-x86_64-2.7/pwquality.o -L../src/.libs -L/usr/lib -lpwquality -lpython2.7 -o build/lib.linux-x86_64-2.7/pwquality.so
+running install_lib
+copying build/lib.linux-x86_64-2.7/pwquality.so -> /usr/lib/python2.7/site-packages
+running install_egg_info
+Writing /usr/lib/python2.7/site-packages/pwquality-1.4.0-py2.7.egg-info
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0/python'
+make[1]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0'
+make[2]: Entering directory '/lfskernel/sources/boot/libpwquality-1.4.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpwquality-1.4.0'

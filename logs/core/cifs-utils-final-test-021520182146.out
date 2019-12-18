@@ -1,0 +1,12 @@
+Making check in contrib
+make[1]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+Making check in request-key.d
+make[2]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+make[2]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[1]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[1]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7'

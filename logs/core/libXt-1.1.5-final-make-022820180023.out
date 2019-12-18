@@ -1,0 +1,1235 @@
+###############################
+# Make libXt-1.1.5.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'
+Making all in util
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/util'
+  CC       makestrs.o
+makestrs.c: In function 'ifopen':
+makestrs.c:91:33: warning: declaration of 'file' shadows a global declaration [-Wshadow]
+ static FILE *ifopen(const char *file, const char *mode)
+                                 ^~~~
+makestrs.c:59:14: note: shadowed declaration is here
+ static File* file = NULL;
+              ^~~~
+makestrs.c: In function 'IntelABIWriteSource':
+makestrs.c:331:7: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+       conststr ? conststr : "", t->name);
+       ^~~~~~~~
+makestrs.c: In function 'IntelABIBCWriteSource':
+makestrs.c:348:10: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+          conststr ? conststr : "", phile->table->name);
+          ^~~~~~~~
+makestrs.c:357:7: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+       conststr ? conststr : "", phile->table->next->name);
+       ^~~~~~~~
+makestrs.c: In function 'DefaultWriteSource':
+makestrs.c:420:10: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+          phile->table->name);
+          ^~~~~
+makestrs.c: In function 'IntelABIIndexEntries':
+makestrs.c:625:41: warning: declaration of 'file' shadows a global declaration [-Wshadow]
+ static void IntelABIIndexEntries (File *file)
+                                         ^~~~
+makestrs.c:59:14: note: shadowed declaration is here
+ static File* file = NULL;
+              ^~~~
+makestrs.c: In function 'DefaultIndexEntries':
+makestrs.c:638:40: warning: declaration of 'file' shadows a global declaration [-Wshadow]
+ static void DefaultIndexEntries (File *file)
+                                        ^~~~
+makestrs.c:59:14: note: shadowed declaration is here
+ static File* file = NULL;
+              ^~~~
+makestrs.c: In function 'IndexEntries':
+makestrs.c:652:33: warning: declaration of 'file' shadows a global declaration [-Wshadow]
+ static void IndexEntries (File *file, int abi)
+                                 ^~~~
+makestrs.c:59:14: note: shadowed declaration is here
+ static File* file = NULL;
+              ^~~~
+  CCLD     makestrs
+  GEN      makestrs.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/util'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+  GEN      StringDefs.c
+make  all-am
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+  CC       ActionHook.lo
+  CC       Alloc.lo
+Alloc.c: In function '_XtAllocError':
+Alloc.c:114:28: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     if (type == NULL) type = "local memory allocation";
+                            ^
+Alloc.c: In function 'XtAsprintf':
+Alloc.c:144:16: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  _XtAllocError("vsnprintf");
+                ^~~~~~~~~~~
+Alloc.c:110:6: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ void _XtAllocError(
+      ^~~~~~~~~~~~~
+Alloc.c:156:20: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      _XtAllocError("vsnprintf");
+                    ^~~~~~~~~~~
+Alloc.c:110:6: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ void _XtAllocError(
+      ^~~~~~~~~~~~~
+Alloc.c: In function 'XtMalloc':
+Alloc.c:175:23: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         _XtAllocError("malloc");
+                       ^~~~~~~~
+Alloc.c:110:6: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ void _XtAllocError(
+      ^~~~~~~~~~~~~
+Alloc.c: In function 'XtRealloc':
+Alloc.c:194:16: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  _XtAllocError("realloc");
+                ^~~~~~~~~
+Alloc.c:110:6: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ void _XtAllocError(
+      ^~~~~~~~~~~~~
+Alloc.c: In function 'XtCalloc':
+Alloc.c:209:16: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  _XtAllocError("calloc");
+                ^~~~~~~~
+Alloc.c:110:6: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ void _XtAllocError(
+      ^~~~~~~~~~~~~
+  CC       ArgList.lo
+  CC       Callback.lo
+Callback.c:76:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNinvalidCallbackList = "invalidCallbackList";
+                                        ^~~~~~~~~~~~~~~~~~~~~
+Callback.c:77:34: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtAddCallback = "xtAddCallback";
+                                  ^~~~~~~~~~~~~~~
+Callback.c:78:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtRemoveCallback = "xtRemoveCallback";
+                                     ^~~~~~~~~~~~~~~~~~
+Callback.c:79:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtRemoveAllCallback = "xtRemoveAllCallback";
+                                        ^~~~~~~~~~~~~~~~~~~~~
+Callback.c:80:35: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtCallCallback = "xtCallCallback";
+                                   ^~~~~~~~~~~~~~~~
+  CC       ClickTime.lo
+  CC       Composite.lo
+Composite.c:95:26: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name     */ "Composite",
+                          ^~~~~~~~~~~
+Composite.c: In function 'CompositeClassPartInitialize':
+Composite.c:178:14: warning: declaration of 'widgetClass' shadows a global declaration [-Wshadow]
+  WidgetClass widgetClass)
+              ^~~~~~~~~~~
+In file included from ../include/X11/Intrinsic.h:164:0,
+                 from ../include/X11/IntrinsicP.h:51,
+                 from ../include/X11/IntrinsicI.h:52,
+                 from Composite.c:74:
+../include/X11/Core.h:58:25: note: shadowed declaration is here
+ externalref WidgetClass widgetClass;
+                         ^~~~~~~~~~~
+  CC       Constraint.lo
+Constraint.c:81:26: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name     */ "Constraint",
+                          ^~~~~~~~~~~~
+  CC       Convert.lo
+Convert.c: In function 'CallConverter':
+Convert.c:815:10: warning: declaration of 'retval' shadows a previous local [-Wshadow]
+  Boolean retval =
+          ^~~~~~
+Convert.c:728:13: note: shadowed declaration is here
+     Boolean retval;
+             ^~~~~~
+Convert.c: In function '_XtConvert':
+Convert.c:900:28: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   if (!args) _XtAllocError("alloca");
+                            ^~~~~~~~
+In file included from Convert.c:74:0:
+../include/X11/IntrinsicI.h:165:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ extern void _XtAllocError(
+             ^~~~~~~~~~~~~
+  CC       Converters.lo
+Converters.c:89:42: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static const String XtNwrongParameters = "wrongParameters";
+                                          ^~~~~~~~~~~~~~~~~
+Converters.c:90:42: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static const String XtNconversionError = "conversionError";
+                                          ^~~~~~~~~~~~~~~~~
+Converters.c:91:45: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static const String XtNmissingCharsetList = "missingCharsetList";
+                                             ^~~~~~~~~~~~~~~~~~~~
+Converters.c: In function 'XtCvtStringToPixel':
+Converters.c:503:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      type = "noColormap";
+           ^
+Converters.c:504:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      msg = "Cannot allocate colormap entry for \"%s\"";
+          ^
+Converters.c:507:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      type = "badValue";
+           ^
+Converters.c:508:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      msg = "Color name \"%s\" is not defined";
+          ^
+  CC       Core.lo
+Core.c:138:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name   */ "UnNamedObj",
+                        ^~~~~~~~~~~~
+Core.c:176:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name         */    "Core",
+                                 ^~~~~~
+  CC       Create.lo
+Create.c:83:35: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtCreateWidget = "xtCreateWidget";
+                                   ^~~~~~~~~~~~~~~~
+Create.c:84:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtCreatePopupShell = "xtCreatePopupShell";
+                                       ^~~~~~~~~~~~~~~~~~~~
+Create.c: In function 'XtInitializeWidgetClass':
+Create.c:149:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  String mismatch = "Widget class %s version mismatch (recompilation needed):\n  widget %d vs. intrinsics %d.";
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create.c:150:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  String recompile = "Widget class %s must be re-compiled.";
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create.c: In function '_XtCreateHookObj':
+Create.c:771:17: warning: passing argument 4 of 'xtWidgetAlloc' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   (Widget)NULL, "hooks",
+                 ^~~~~~~
+Create.c:259:1: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ xtWidgetAlloc(
+ ^~~~~~~~~~~~~
+  CC       Destroy.lo
+  CC       Display.lo
+Display.c:87:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNnoPerDisplay = "noPerDisplay";
+                                 ^~~~~~~~~~~~~~
+  CC       Error.lo
+Error.c: In function 'DefaultMsg':
+Error.c:258:30: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+      (void) fprintf (stderr, buffer,
+                              ^~~~~~
+Error.c:300:40: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+      (void) snprintf (message, BIGBUF, buffer,
+                                        ^~~~~~
+  CC       Event.lo
+  CC       EventUtil.lo
+  CC       Functions.lo
+  CC       GCManager.lo
+  CC       Geometry.lo
+Geometry.c: In function 'XtTranslateCoords':
+Geometry.c:729:11: warning: declaration of 'x' shadows a parameter [-Wshadow]
+  Position x, y;
+           ^
+Geometry.c:703:17: note: shadowed declaration is here
+     _XtPosition x,
+                 ^
+Geometry.c:729:14: warning: declaration of 'y' shadows a parameter [-Wshadow]
+  Position x, y;
+              ^
+Geometry.c:704:17: note: shadowed declaration is here
+     _XtPosition y,
+                 ^
+  CC       GetActKey.lo
+  CC       GetResList.lo
+  CC       GetValues.lo
+  CC       HookObj.lo
+HookObj.c:67:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name   */ "Hook",
+                        ^~~~~~
+  CC       Hooks.lo
+  CC       Initialize.lo
+Initialize.c:130:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"+rv",  "*reverseVideo", XrmoptionNoArg, (XtPointer) "off"},
+  ^~~~~
+Initialize.c:130:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"+rv",  "*reverseVideo", XrmoptionNoArg, (XtPointer) "off"},
+          ^~~~~~~~~~~~~~~
+Initialize.c:131:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"+synchronous","*synchronous", XrmoptionNoArg,  (XtPointer) "off"},
+  ^~~~~~~~~~~~~~
+Initialize.c:131:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"+synchronous","*synchronous", XrmoptionNoArg,  (XtPointer) "off"},
+                 ^~~~~~~~~~~~~~
+Initialize.c:132:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-background", "*background", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~~~~
+Initialize.c:132:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-background", "*background", XrmoptionSepArg, (XtPointer) NULL},
+                 ^~~~~~~~~~~~~
+Initialize.c:133:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bd",  "*borderColor", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~
+Initialize.c:133:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bd",  "*borderColor", XrmoptionSepArg, (XtPointer) NULL},
+          ^~~~~~~~~~~~~~
+Initialize.c:134:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bg",  "*background", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~
+Initialize.c:134:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bg",  "*background", XrmoptionSepArg, (XtPointer) NULL},
+          ^~~~~~~~~~~~~
+Initialize.c:135:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bordercolor","*borderColor", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~~~~~
+Initialize.c:135:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bordercolor","*borderColor", XrmoptionSepArg, (XtPointer) NULL},
+                 ^~~~~~~~~~~~~~
+Initialize.c:136:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-borderwidth",".borderWidth", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~~~~~
+Initialize.c:136:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-borderwidth",".borderWidth", XrmoptionSepArg, (XtPointer) NULL},
+                 ^~~~~~~~~~~~~~
+Initialize.c:137:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bw",  ".borderWidth", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~
+Initialize.c:137:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-bw",  ".borderWidth", XrmoptionSepArg, (XtPointer) NULL},
+          ^~~~~~~~~~~~~~
+Initialize.c:138:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-display", ".display",     XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~
+Initialize.c:138:14: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-display", ".display",     XrmoptionSepArg, (XtPointer) NULL},
+              ^~~~~~~~~~
+Initialize.c:139:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-fg",  "*foreground", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~
+Initialize.c:139:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-fg",  "*foreground", XrmoptionSepArg, (XtPointer) NULL},
+          ^~~~~~~~~~~~~
+Initialize.c:140:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-fn",  "*font", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~
+Initialize.c:140:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-fn",  "*font", XrmoptionSepArg, (XtPointer) NULL},
+          ^~~~~~~
+Initialize.c:141:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-font", "*font", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~
+Initialize.c:141:11: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-font", "*font", XrmoptionSepArg, (XtPointer) NULL},
+           ^~~~~~~
+Initialize.c:142:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-foreground", "*foreground", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~~~~
+Initialize.c:142:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-foreground", "*foreground", XrmoptionSepArg, (XtPointer) NULL},
+                 ^~~~~~~~~~~~~
+Initialize.c:143:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-geometry", ".geometry", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~~
+Initialize.c:143:15: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-geometry", ".geometry", XrmoptionSepArg, (XtPointer) NULL},
+               ^~~~~~~~~~~
+Initialize.c:144:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-iconic", ".iconic", XrmoptionNoArg,  (XtPointer) "on"},
+  ^~~~~~~~~
+Initialize.c:144:13: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-iconic", ".iconic", XrmoptionNoArg,  (XtPointer) "on"},
+             ^~~~~~~~~
+Initialize.c:145:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-name", ".name", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~
+Initialize.c:145:11: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-name", ".name", XrmoptionSepArg, (XtPointer) NULL},
+           ^~~~~~~
+Initialize.c:146:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-reverse", "*reverseVideo", XrmoptionNoArg, (XtPointer) "on"},
+  ^~~~~~~~~~
+Initialize.c:146:14: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-reverse", "*reverseVideo", XrmoptionNoArg, (XtPointer) "on"},
+              ^~~~~~~~~~~~~~~
+Initialize.c:147:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-rv",  "*reverseVideo", XrmoptionNoArg, (XtPointer) "on"},
+  ^~~~~
+Initialize.c:147:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-rv",  "*reverseVideo", XrmoptionNoArg, (XtPointer) "on"},
+          ^~~~~~~~~~~~~~~
+Initialize.c:148:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-selectionTimeout",
+  ^~~~~~~~~~~~~~~~~~~
+Initialize.c:149:3: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   ".selectionTimeout", XrmoptionSepArg, (XtPointer) NULL},
+   ^~~~~~~~~~~~~~~~~~~
+Initialize.c:150:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-synchronous","*synchronous", XrmoptionNoArg,  (XtPointer) "on"},
+  ^~~~~~~~~~~~~~
+Initialize.c:150:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-synchronous","*synchronous", XrmoptionNoArg,  (XtPointer) "on"},
+                 ^~~~~~~~~~~~~~
+Initialize.c:151:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-title", ".title", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~
+Initialize.c:151:12: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-title", ".title", XrmoptionSepArg, (XtPointer) NULL},
+            ^~~~~~~~
+Initialize.c:152:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-xnllanguage",".xnlLanguage", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~~~~~
+Initialize.c:152:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-xnllanguage",".xnlLanguage", XrmoptionSepArg, (XtPointer) NULL},
+                 ^~~~~~~~~~~~~~
+Initialize.c:153:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-xrm", NULL,  XrmoptionResArg, (XtPointer) NULL},
+  ^~~~~~
+Initialize.c:154:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-xtsessionID",".sessionID", XrmoptionSepArg, (XtPointer) NULL},
+  ^~~~~~~~~~~~~~
+Initialize.c:154:17: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ {"-xtsessionID",".sessionID", XrmoptionSepArg, (XtPointer) NULL},
+                 ^~~~~~~~~~~~
+Initialize.c: In function 'GetLanguage':
+Initialize.c:831:35: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if (! pd->language) pd->language = "";
+                                   ^
+Initialize.c: In function '_XtDisplayInitialize':
+Initialize.c:920:37: warning: passing argument 3 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if (_GetResource(dpy, search_list, "synchronous", "Synchronous",
+                                     ^~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:920:52: warning: passing argument 4 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if (_GetResource(dpy, search_list, "synchronous", "Synchronous",
+                                                    ^~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:932:37: warning: passing argument 3 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if (_GetResource(dpy, search_list, "reverseVideo", "ReverseVideo",
+                                     ^~~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:932:53: warning: passing argument 4 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if (_GetResource(dpy, search_list, "reverseVideo", "ReverseVideo",
+                                                     ^~~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:941:6: warning: passing argument 3 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      "multiClickTime", "MultiClickTime",
+      ^~~~~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:941:24: warning: passing argument 4 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      "multiClickTime", "MultiClickTime",
+                        ^~~~~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:949:7: warning: passing argument 3 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       "selectionTimeout", "SelectionTimeout",
+       ^~~~~~~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:949:27: warning: passing argument 4 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       "selectionTimeout", "SelectionTimeout",
+                           ^~~~~~~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:956:7: warning: passing argument 3 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       "xtIdentifyWindows", "XtDebug",
+       ^~~~~~~~~~~~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+Initialize.c:956:28: warning: passing argument 4 of '_GetResource' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       "xtIdentifyWindows", "XtDebug",
+                            ^~~~~~~~~
+Initialize.c:717:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean _GetResource(
+                ^~~~~~~~~~~~
+  CC       Intrinsic.lo
+Intrinsic.c:90:28: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ String XtCXtToolkitError = "XtToolkitError";
+                            ^~~~~~~~~~~~~~~~
+Intrinsic.c: In function 'XtIsSubclass':
+Intrinsic.c:94:17: warning: declaration of 'widgetClass' shadows a global declaration [-Wshadow]
+     WidgetClass widgetClass)
+                 ^~~~~~~~~~~
+In file included from ../include/X11/Intrinsic.h:164:0,
+                 from ../include/X11/IntrinsicP.h:51,
+                 from ../include/X11/IntrinsicI.h:52,
+                 from Intrinsic.c:76:
+../include/X11/Core.h:58:25: note: shadowed declaration is here
+ externalref WidgetClass widgetClass;
+                         ^~~~~~~~~~~
+Intrinsic.c: In function '_XtIsSubclassOf':
+Intrinsic.c:131:17: warning: declaration of 'widgetClass' shadows a global declaration [-Wshadow]
+     WidgetClass widgetClass,
+                 ^~~~~~~~~~~
+In file included from ../include/X11/Intrinsic.h:164:0,
+                 from ../include/X11/IntrinsicP.h:51,
+                 from ../include/X11/IntrinsicI.h:52,
+                 from Intrinsic.c:76:
+../include/X11/Core.h:58:25: note: shadowed declaration is here
+ externalref WidgetClass widgetClass;
+                         ^~~~~~~~~~~
+  CC       Keyboard.lo
+  CC       Manage.lo
+Manage.c:76:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNinvalidChild = "invalidChild";
+                                 ^~~~~~~~~~~~~~
+Manage.c:77:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtUnmanageChildren = "xtUnmanageChildren";
+                                       ^~~~~~~~~~~~~~~~~~~~
+Manage.c:78:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtManageChildren = "xtManageChildren";
+                                     ^~~~~~~~~~~~~~~~~~
+Manage.c:79:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtChangeManagedSet = "xtChangeManagedSet";
+                                       ^~~~~~~~~~~~~~~~~~~~
+  CC       NextEvent.lo
+NextEvent.c: In function 'InitFds':
+NextEvent.c:275:6: warning: declaration of 'ii' shadows a previous local [-Wshadow]
+  int ii;
+      ^~
+NextEvent.c:233:9: note: shadowed declaration is here
+     int ii;
+         ^~
+  CC       Object.lo
+Object.c:90:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name   */ "Object",
+                        ^~~~~~~~
+Object.c: In function 'ConstructCallbackOffsets':
+Object.c:133:17: warning: declaration of 'widgetClass' shadows a global declaration [-Wshadow]
+     WidgetClass widgetClass)
+                 ^~~~~~~~~~~
+In file included from ../include/X11/Intrinsic.h:164:0,
+                 from ../include/X11/IntrinsicP.h:51,
+                 from ../include/X11/IntrinsicI.h:52,
+                 from Object.c:74:
+../include/X11/Core.h:58:25: note: shadowed declaration is here
+ externalref WidgetClass widgetClass;
+                         ^~~~~~~~~~~
+Object.c:141:17: warning: declaration of 'objectClass' shadows a global declaration [-Wshadow]
+     ObjectClass objectClass = (ObjectClass)widgetClass;
+                 ^~~~~~~~~~~
+Object.c:124:38: note: shadowed declaration is here
+ externaldef(objectClass) WidgetClass objectClass
+                                      ^~~~~~~~~~~
+  CC       PassivGrab.lo
+  CC       Pointer.lo
+  CC       Popup.lo
+  CC       PopupCB.lo
+  CC       RectObj.lo
+RectObj.c:90:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name   */ "Rect",
+                        ^~~~~~
+  CC       ResConfig.lo
+  CC       Resources.lo
+Resources.c: In function 'GetResources':
+Resources.c:736:17: warning: cast from function call of type 'char *' to non-matching type 'long int' [-Wbad-function-cast]
+    arg->value = (XtArgVal) __XtMalloc(rx->xrm_size);
+                 ^
+  CC       Selection.lo
+Selection.c: In function 'GetPropList':
+Selection.c:178:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "INCR",
+  ^~~~~~
+Selection.c:179:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "MULTIPLE",
+  ^~~~~~~~~~
+Selection.c:180:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "TIMESTAMP",
+  ^~~~~~~~~~~
+Selection.c:181:2: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  "_XT_SELECTION_0" };
+  ^~~~~~~~~~~~~~~~~
+Selection.c: In function 'XtSendSelectionRequest':
+Selection.c:2082:6: warning: declaration of 'i' shadows a previous local [-Wshadow]
+  int i = 0;
+      ^
+Selection.c:2054:9: note: shadowed declaration is here
+     int i;
+         ^
+  CC       SetSens.lo
+  CC       SetValues.lo
+  CC       SetWMCW.lo
+  CC       Shell.lo
+Shell.c:180:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name   */ "Shell",
+                        ^~~~~~~
+Shell.c:242:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name         */    "OverrideShell",
+                                 ^~~~~~~~~~~~~~~
+Shell.c:393:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name         */    "WMShell",
+                                 ^~~~~~~~~
+Shell.c:464:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name   */ "TransientShell",
+                        ^~~~~~~~~~~~~~~~
+Shell.c:542:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name         */    "TopLevelShell",
+                                 ^~~~~~~~~~~~~~~
+Shell.c:629:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name         */    "ApplicationShell",
+                                 ^~~~~~~~~~~~~~~~~~
+Shell.c:752:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name         */    "SessionShell",
+                                 ^~~~~~~~~~~~~~
+Shell.c: In function '_SetWMSizeHints':
+Shell.c:860:43: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     if (size_hints == NULL) _XtAllocError("XAllocSizeHints");
+                                           ^~~~~~~~~~~~~~~~~
+In file included from Shell.c:78:0:
+../include/X11/IntrinsicI.h:165:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ extern void _XtAllocError(
+             ^~~~~~~~~~~~~
+Shell.c: In function '_popup_set_prop':
+Shell.c:1416:20: warning: passing argument 1 of '_XtAllocError' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      _XtAllocError("XAllocSizeHints");
+                    ^~~~~~~~~~~~~~~~~
+In file included from Shell.c:78:0:
+../include/X11/IntrinsicI.h:165:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ extern void _XtAllocError(
+             ^~~~~~~~~~~~~
+Shell.c: In function 'WMSetValues':
+Shell.c:2302:51: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      if (! nwmshell->wm.title) nwmshell->wm.title = "";
+                                                   ^
+Shell.c: In function 'TopLevelSetValues':
+Shell.c:2425:57: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if (! new->topLevel.icon_name) new->topLevel.icon_name = "";
+                                                         ^
+Shell.c: In function 'CardPack':
+Shell.c:2892:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     p->type = SmCARD8;
+             ^
+Shell.c: In function 'ArrayPack':
+Shell.c:2907:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     p->type = SmARRAY8;
+             ^
+Shell.c: In function 'ListPack':
+Shell.c:2929:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     p->type = SmLISTofARRAY8;
+             ^
+Shell.c: At top level:
+Shell.c:2956:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmCloneCommand,     Offset(session.clone_command),    ListPack},
+    ^~~~~~~~~~~~~~
+Shell.c:2957:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmCurrentDirectory, Offset(session.current_dir),      ArrayPack},
+    ^~~~~~~~~~~~~~~~~~
+Shell.c:2958:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmDiscardCommand,   Offset(session.discard_command),  ListPack},
+    ^~~~~~~~~~~~~~~~
+Shell.c:2959:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmEnvironment,      Offset(session.environment),      ListPack},
+    ^~~~~~~~~~~~~
+Shell.c:2960:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmProgram,          Offset(session.program_path),     ArrayPack},
+    ^~~~~~~~~
+Shell.c:2961:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmResignCommand,    Offset(session.resign_command),   ListPack},
+    ^~~~~~~~~~~~~~~
+Shell.c:2962:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmRestartCommand,   Offset(session.restart_command),  ListPack},
+    ^~~~~~~~~~~~~~~~
+Shell.c:2963:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmRestartStyleHint, Offset(session.restart_style),    CardPack},
+    ^~~~~~~~~~~~~~~~~~
+Shell.c:2964:4: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   {SmShutdownCommand,  Offset(session.shutdown_command), ListPack}
+    ^~~~~~~~~~~~~~~~~
+Shell.c: In function 'SetSessionProperties':
+Shell.c:3006:37: warning: passing argument 1 of 'ArrayPack' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      props[num_props++] = ArrayPack(SmUserID, &user_name);
+                                     ^~~~~~~~
+Shell.c:2899:17: note: expected 'char *' but argument is of type 'const char *'
+ static SmProp * ArrayPack(char *name, XtPointer closure)
+                 ^~~~~~~~~
+Shell.c:3008:33: warning: passing argument 1 of 'ArrayPack' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  props[num_props++] = ArrayPack(SmProcessID, &pidp);
+                                 ^~~~~~~~~~~
+Shell.c:2899:17: note: expected 'char *' but argument is of type 'const char *'
+ static SmProp * ArrayPack(char *name, XtPointer closure)
+                 ^~~~~~~~~
+Shell.c: In function 'EditCommand':
+Shell.c:3370:22: warning: passing argument 1 of 'IsInArray' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     have = IsInArray("-xtsessionID", sarray);
+                      ^~~~~~~~~~~~~~
+Shell.c:3342:16: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static Boolean IsInArray(
+                ^~~~~~~~~
+Shell.c:3385:5: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  *s = "-xtsessionID"; s++;
+     ^
+  CC       TMaction.lo
+TMaction.c:89:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNtranslationError = "translationError";
+                                     ^~~~~~~~~~~~~~~~~~
+TMaction.c:922:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"XtMenuPopup", XtMenuPopupAction},
+      ^~~~~~~~~~~~~
+TMaction.c:923:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"XtMenuPopdown", _XtMenuPopdownAction},
+      ^~~~~~~~~~~~~~~
+TMaction.c:924:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"MenuPopup", XtMenuPopupAction}, /* old & obsolete */
+      ^~~~~~~~~~~
+TMaction.c:925:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"MenuPopdown", _XtMenuPopdownAction}, /* ditto */
+      ^~~~~~~~~~~~~
+TMaction.c:927:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"XtDisplayTranslations", _XtDisplayTranslations},
+      ^~~~~~~~~~~~~~~~~~~~~~~
+TMaction.c:928:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"XtDisplayAccelerators", _XtDisplayAccelerators},
+      ^~~~~~~~~~~~~~~~~~~~~~~
+TMaction.c:929:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"XtDisplayInstalledAccelerators", _XtDisplayInstalledAccelerators},
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMaction.c: In function 'XtCallActionProc':
+TMaction.c:1044:9: warning: declaration of 'params' shadows a parameter [-Wshadow]
+  String params[2];
+         ^~~~~~
+TMaction.c:968:13: note: shadowed declaration is here
+     String *params,
+             ^~~~~~
+TMaction.c:1045:11: warning: declaration of 'num_params' shadows a parameter [-Wshadow]
+  Cardinal num_params = 2;
+           ^~~~~~~~~~
+TMaction.c:969:14: note: shadowed declaration is here
+     Cardinal num_params)
+              ^~~~~~~~~~
+  CC       TMgrab.lo
+  CC       TMkey.lo
+  CC       TMparse.lo
+TMparse.c:102:42: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNtranslationParseError = "translationParseError";
+                                          ^~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c: In function 'LookupTMEventType':
+TMparse.c:524:12: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     Syntax("Unknown event type :  ",eventStr);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseModifiers':
+TMparse.c:732:20: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+             Syntax("Modifier or '<' expected","");
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:732:47: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+             Syntax("Modifier or '<' expected","");
+                                               ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:746:18: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+           Syntax("Unknown modifier name:  ", XrmQuarkToString(Qmod));
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'StringToKeySym':
+TMparse.c:860:12: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     Syntax("Unknown keysym name: ", str);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseTable':
+TMparse.c:1031:9: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Invalid Detail Type (string is too long).", "");
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1031:54: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Invalid Detail Type (string is too long).", "");
+                                                      ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1045:12: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     Syntax("Unknown Detail Type:  ", tableSymName);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseAtom':
+TMparse.c:1087:14: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Syntax( "Atom name must be less than 1000 characters long.", "" );
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1087:67: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Syntax( "Atom name must be less than 1000 characters long.", "" );
+                                                                   ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseEvent':
+TMparse.c:1116:17: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          Syntax("Missing '<' while parsing event type.","");
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1116:57: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          Syntax("Missing '<' while parsing event type.","");
+                                                         ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1124:17: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          Syntax("Missing '>' while parsing event type","");
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1124:56: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          Syntax("Missing '>' while parsing event type","");
+                                                        ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseRepeat':
+TMparse.c:1490:13: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Syntax("Repeat count too large.", "");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1490:40: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Syntax("Repeat count too large.", "");
+                                        ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1496:9: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Missing repeat count.","");
+         ^~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1496:33: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Missing repeat count.","");
+                                 ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1508:9: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Missing ')'.","");
+         ^~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1508:24: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Missing ')'.","");
+                        ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseEventSeq':
+TMparse.c:1561:24: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 Syntax("Missing '\"'.","");
+                        ^~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1561:40: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 Syntax("Missing '\"'.","");
+                                        ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1588:24: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 Syntax("',' or ':' expected while parsing event sequence.","");
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1588:76: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 Syntax("',' or ':' expected while parsing event sequence.","");
+                                                                            ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1596:16: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         Syntax("Missing ':'after event sequence.","");
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1596:51: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         Syntax("Missing ':'after event sequence.","");
+                                                   ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseActionProc':
+TMparse.c:1615:9: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Action procedure name is longer than 199 chars","");
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1615:58: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Syntax("Action procedure name is longer than 199 chars","");
+                                                          ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c: In function 'ParseAction':
+TMparse.c:1751:16: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         Syntax("Missing '(' while parsing action sequence","");
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1751:60: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         Syntax("Missing '(' while parsing action sequence","");
+                                                            ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1757:16: warning: passing argument 1 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         Syntax("Missing ')' while parsing action sequence","");
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+TMparse.c:1757:60: warning: passing argument 2 of 'Syntax' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         Syntax("Missing ')' while parsing action sequence","");
+                                                            ^~
+TMparse.c:481:13: note: expected 'String {aka char *}' but argument is of type 'const char *'
+ static void Syntax(
+             ^~~~~~
+  CC       TMprint.lo
+  CC       TMstate.lo
+TMstate.c:89:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNtranslationError = "translationError";
+                                     ^~~~~~~~~~~~~~~~~~
+  CC       Threads.lo
+Threads.c: In function 'AppUnlock':
+Threads.c:201:15: warning: variable 'self' set but not used [-Wunused-but-set-variable]
+     xthread_t self;
+               ^~~~
+  CC       VarCreate.lo
+  CC       VarGet.lo
+VarGet.c:59:34: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtGetTypedArg = "xtGetTypedArg";
+                                  ^~~~~~~~~~~~~~~
+  CC       Varargs.lo
+Varargs.c:34:42: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static String XtNxtConvertVarToArgList = "xtConvertVarToArgList";
+                                          ^~~~~~~~~~~~~~~~~~~~~~~
+Varargs.c: In function 'TypedArgToArg':
+Varargs.c:246:26: warning: cast from function call of type 'char *' to non-matching type 'long int' [-Wbad-function-cast]
+      arg_return->value = (XtArgVal) __XtMalloc(to_val.size);
+                          ^
+Varargs.c:247:29: warning: cast from function call of type 'void *' to non-matching type 'long int' [-Wbad-function-cast]
+      memory_return->value = (XtArgVal)
+                             ^
+  CC       Vendor.lo
+Vendor.c:89:33: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     /* class_name         */    "VendorShell",
+                                 ^~~~~~~~~~~~~
+  CC       sharedlib.lo
+sharedlib.c:184:12: warning: 'dummy' defined but not used [-Wunused-variable]
+ static int dummy;   /* avoid warning from ranlib */
+            ^~~~~
+  CC       StringDefs.lo
+  CCLD     libXt.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/include'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/man'
+  GEN      XtAddCallbacks.3
+  GEN      XtRemoveCallback.3
+  GEN      XtRemoveCallbacks.3
+  GEN      XtRemoveAllCallbacks.3
+  GEN      XtAddRawEventHandler.3
+  GEN      XtRemoveEventHandler.3
+  GEN      XtRemoveRawEventHandler.3
+  GEN      XtInsertEventHandler.3
+  GEN      XtInsertRawEventHandler.3
+  GEN      XtRemoveGrab.3
+  GEN      XtAddConverter.3
+  GEN      XtRemoveInput.3
+  GEN      XtRemoveTimeOut.3
+  GEN      XtRemoveWorkProc.3
+  GEN      XtVaAppCreateShell.3
+  GEN      XtAppSetErrorHandler.3
+  GEN      XtAppSetWarningHandler.3
+  GEN      XtAppWarning.3
+  GEN      XtAppSetErrorMsgHandler.3
+  GEN      XtAppSetWarningMsgHandler.3
+  GEN      XtAppWarningMsg.3
+  GEN      XtAppGetErrorDatabaseText.3
+  GEN      XtAppSetSelectionTimeout.3
+  GEN      XtAppPending.3
+  GEN      XtAppPeekEvent.3
+  GEN      XtAppProcessEvent.3
+  GEN      XtDispatchEvent.3
+  GEN      XtAppMainLoop.3
+  GEN      XtPending.3
+  GEN      XtPeekEvent.3
+  GEN      XtProcessEvent.3
+  GEN      XtMainLoop.3
+  GEN      XtCallCallbackList.3
+  GEN      XtHasCallbacks.3
+  GEN      XtSuperclass.3
+  GEN      XtIsSubclass.3
+  GEN      XtCheckSubclass.3
+  GEN      XtIsObject.3
+  GEN      XtIsRectObj.3
+  GEN      XtIsWidget.3
+  GEN      XtIsComposite.3
+  GEN      XtIsConstraint.3
+  GEN      XtIsShell.3
+  GEN      XtIsOverrideShell.3
+  GEN      XtIsWMShell.3
+  GEN      XtIsVendorShell.3
+  GEN      XtIsTransientShell.3
+  GEN      XtIsTopLevelShell.3
+  GEN      XtIsApplicationShell.3
+  GEN      XtIsSessionShell.3
+  GEN      XtMoveWidget.3
+  GEN      XtResizeWidget.3
+  GEN      XtDirectConvert.3
+  GEN      XtCallConverter.3
+  GEN      XtDestroyApplicationContext.3
+  GEN      XtWidgetToApplicationContext.3
+  GEN      XtToolkitInitialize.3
+  GEN      XtVaCreatePopupShell.3
+  GEN      XtVaCreateWidget.3
+  GEN      XtCreateManagedWidget.3
+  GEN      XtVaCreateManagedWidget.3
+  GEN      XtDestroyWidget.3
+  GEN      XtDisplayOfObject.3
+  GEN      XtScreen.3
+  GEN      XtScreenOfObject.3
+  GEN      XtWindow.3
+  GEN      XtWindowOfObject.3
+  GEN      XtOpenDisplay.3
+  GEN      XtCloseDisplay.3
+  GEN      XtDatabase.3
+  GEN      XtScreenDatabase.3
+  GEN      XtReleaseGC.3
+  GEN      XtGetConstraintResourceList.3
+  GEN      XtGetSelectionValues.3
+  GEN      XtVaGetSubresources.3
+  GEN      XtVaGetApplicationResources.3
+  GEN      XtMakeResizeRequest.3
+  GEN      XtCalloc.3
+  GEN      XtRealloc.3
+  GEN      XtFree.3
+  GEN      XtNew.3
+  GEN      XtNewString.3
+  GEN      XtAsprintf.3
+  GEN      XtManageChild.3
+  GEN      XtUnmanageChildren.3
+  GEN      XtUnmanageChild.3
+  GEN      XtIsManaged.3
+  GEN      XtChangeManagedSet.3
+  GEN      XtSetMappedWhenManaged.3
+  GEN      XtUnmapWidget.3
+  GEN      XtWindowToWidget.3
+  GEN      XtOffsetOf.3
+  GEN      XtNumber.3
+  GEN      XtOwnSelectionIncremental.3
+  GEN      XtDisownSelection.3
+  GEN      XtInstallAccelerators.3
+  GEN      XtInstallAllAccelerators.3
+  GEN      XtAugmentTranslations.3
+  GEN      XtOverrideTranslations.3
+  GEN      XtUninstallTranslations.3
+  GEN      XtCallbackPopdown.3
+  GEN      MenuPopdown.3
+  GEN      XtPopupSpringLoaded.3
+  GEN      XtCallbackNone.3
+  GEN      XtCallbackNonexclusive.3
+  GEN      XtCallbackExclusive.3
+  GEN      MenuPopup.3
+  GEN      XtIsRealized.3
+  GEN      XtUnrealizeWidget.3
+  GEN      XtMergeArgLists.3
+  GEN      XtTranslateKeycode.3
+  GEN      XtRegisterCaseConverter.3
+  GEN      XtConvertCase.3
+  GEN      XtIsSensitive.3
+  GEN      XtVaSetValues.3
+  GEN      XtSetSubvalues.3
+  GEN      XtGetValues.3
+  GEN      XtVaGetValues.3
+  GEN      XtGetSubvalues.3
+  GEN      XtVaGetSubvalues.3
+  GEN      XtVaSetSubvalues.3
+  GEN      XtKeysymToKeycodeList.3
+  GEN      XtSetTypeConverter.3
+  GEN      XtRemoveActionHook.3
+  GEN      XtGetMultiClickTime.3
+  GEN      XtRemoveEventTypeHandler.3
+  GEN      XtRegisterExtensionSelector.3
+  GEN      XtSetEventDispatcher.3
+  GEN      XtDispatchEventToWidget.3
+  GEN      XtLastTimestampProcessed.3
+  GEN      XtNoticeSignal.3
+  GEN      XtRemoveSignal.3
+  GEN      XtAddTimeOut.3
+  GEN      XtAddWorkProc.3
+  GEN      XtRemoveBlockHook.3
+  GEN      XtVaAppInitialize.3
+  GEN      XtSessionReturnToken.3
+  GEN      XtSetErrorMsgHandler.3
+  GEN      XtSetWarningMsgHandler.3
+  GEN      XtWarningMsg.3
+  GEN      XtSetErrorHandler.3
+  GEN      XtSetWarningHandler.3
+  GEN      XtWarning.3
+  GEN      XtGetErrorDatabaseText.3
+  GEN      XtGetSelectionValuesIncremental.3
+  GEN      XtSetSelectionTimeout.3
+  GEN      XtSendSelectionRequest.3
+  GEN      XtCancelSelectionRequest.3
+  GEN      XtReleasePropertyAtom.3
+  GEN      XtUngrabKey.3
+  GEN      XtGrabKeyboard.3
+  GEN      XtUngrabKeyboard.3
+  GEN      XtGrabButton.3
+  GEN      XtUngrabButton.3
+  GEN      XtGrabPointer.3
+  GEN      XtUngrabPointer.3
+  GEN      XtUnregisterDrawable.3
+  GEN      XtAppGetExitFlag.3
+  GEN      XtAppUnlock.3
+  GEN      XtProcessUnlock.3
+  GEN      XtVaOpenApplication.3
+  GEN      XtAddActions.3
+  GEN      XtAddCallback.3
+  GEN      XtAddEventHandler.3
+  GEN      XtAddExposureToRegion.3
+  GEN      XtAddGrab.3
+  GEN      XtAddInput.3
+  GEN      XtAllocateGC.3
+  GEN      XtAppAddActionHook.3
+  GEN      XtAppAddActions.3
+  GEN      XtAppAddBlockHook.3
+  GEN      XtAppAddConverter.3
+  GEN      XtAppAddInput.3
+  GEN      XtAppAddSignal.3
+  GEN      XtAppAddTimeOut.3
+  GEN      XtAppAddWorkProc.3
+  GEN      XtAppCreateShell.3
+  GEN      XtAppError.3
+  GEN      XtAppErrorMsg.3
+  GEN      XtAppGetErrorDatabase.3
+  GEN      XtAppGetSelectionTimeout.3
+  GEN      XtAppInitialize.3
+  GEN      XtAppLock.3
+  GEN      XtAppNextEvent.3
+  GEN      XtAppReleaseCacheRefs.3
+  GEN      XtAppSetExitFlag.3
+  GEN      XtAppSetFallbackResources.3
+  GEN      XtAppSetTypeConverter.3
+  GEN      XtBuildEventMask.3
+  GEN      XtCallAcceptFocus.3
+  GEN      XtCallActionProc.3
+  GEN      XtCallCallbacks.3
+  GEN      XtClass.3
+  GEN      XtConfigureWidget.3
+  GEN      XtConvert.3
+  GEN      XtConvertAndStore.3
+  GEN      XtCreateApplicationContext.3
+  GEN      XtCreateApplicationShell.3
+  GEN      XtCreatePopupShell.3
+  GEN      XtCreateSelectionRequest.3
+  GEN      XtCreateWidget.3
+  GEN      XtCreateWindow.3
+  GEN      XtDisplay.3
+  GEN      XtDisplayInitialize.3
+  GEN      XtDisplayStringConversionWarning.3
+  GEN      XtDisplayToApplicationContext.3
+  GEN      XtError.3
+  GEN      XtErrorMsg.3
+  GEN      XtFindFile.3
+  GEN      XtGetActionKeysym.3
+  GEN      XtGetActionList.3
+  GEN      XtGetApplicationNameAndClass.3
+  GEN      XtGetApplicationResources.3
+  GEN      XtGetClassExtension.3
+  GEN      XtGetDisplays.3
+  GEN      XtGetErrorDatabase.3
+  GEN      XtGetGC.3
+  GEN      XtGetKeyboardFocusWidget.3
+  GEN      XtGetKeysymTable.3
+  GEN      XtGetResourceList.3
+  GEN      XtGetSelectionParameters.3
+  GEN      XtGetSelectionRequest.3
+  GEN      XtGetSelectionTimeout.3
+  GEN      XtGetSelectionValue.3
+  GEN      XtGetSelectionValueIncremental.3
+  GEN      XtGetSubresources.3
+  GEN      XtGrabKey.3
+  GEN      XtHooksOfDisplay.3
+  GEN      XtInitialize.3
+  GEN      XtInitializeWidgetClass.3
+  GEN      XtInsertEventTypeHandler.3
+  GEN      XtLastEventProcessed.3
+  GEN      XtMakeGeometryRequest.3
+  GEN      XtMalloc.3
+  GEN      XtManageChildren.3
+  GEN      XtMapWidget.3
+  GEN      XtName.3
+  GEN      XtNameToWidget.3
+  GEN      XtNextEvent.3
+  GEN      XtOffset.3
+  GEN      XtOpenApplication.3
+  GEN      XtOwnSelection.3
+  GEN      XtParent.3
+  GEN      XtParseAcceleratorTable.3
+  GEN      XtParseTranslationTable.3
+  GEN      XtPopdown.3
+  GEN      XtPopup.3
+  GEN      XtProcessLock.3
+  GEN      XtQueryGeometry.3
+  GEN      XtRealizeWidget.3
+  GEN      XtRegisterDrawable.3
+  GEN      XtRegisterGrabAction.3
+  GEN      XtReservePropertyAtom.3
+  GEN      XtResolvePathname.3
+  GEN      XtSessionGetToken.3
+  GEN      XtSetArg.3
+  GEN      XtSetKeyTranslator.3
+  GEN      XtSetKeyboardFocus.3
+  GEN      XtSetLanguageProc.3
+  GEN      XtSetMultiClickTime.3
+  GEN      XtSetSelectionParameters.3
+  GEN      XtSetSensitive.3
+  GEN      XtSetValues.3
+  GEN      XtSetWMColormapWindows.3
+  GEN      XtStringConversionWarning.3
+  GEN      XtToolkitThreadInitialize.3
+  GEN      XtTranslateCoords.3
+  GEN      XtVaCreateArgsList.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/man'
+Making all in specs
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/specs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/specs'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/test'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'

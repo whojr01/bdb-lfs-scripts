@@ -1,0 +1,118 @@
+cc -Wall  -Wstrict-prototypes -Wextra -Wno-unused-parameter -ggdb -DSendmail=\""/usr/sbin/sendmail -t"\" -DCONFFILE=\"/etc/mdadm.conf\" -DCONFFILE2=\"/etc/mdadm/mdadm.conf\" -DMAP_DIR=\"/run/mdadm\" -DMAP_FILE=\"map\" -DMDMON_DIR=\"/run/mdadm\" -DFAILED_SLOTS_DIR=\"/run/mdadm/failed-slots\" -DNO_COROSYNC -DNO_DLM   -DUSE_PTHREADS -ggdb  -o test_stripe xmalloc.o  -DMAIN restripe.c
+cc -Wall  -Wstrict-prototypes -Wextra -Wno-unused-parameter -ggdb -DSendmail=\""/usr/sbin/sendmail -t"\" -DCONFFILE=\"/etc/mdadm.conf\" -DCONFFILE2=\"/etc/mdadm/mdadm.conf\" -DMAP_DIR=\"/run/mdadm\" -DMAP_FILE=\"map\" -DMDMON_DIR=\"/run/mdadm\" -DFAILED_SLOTS_DIR=\"/run/mdadm/failed-slots\" -DNO_COROSYNC -DNO_DLM   -DUSE_PTHREADS -DBINDIR=\"/sbin\"   swap_super.c  -ldl -o swap_super
+cc -Wall  -Wstrict-prototypes -Wextra -Wno-unused-parameter -ggdb -DSendmail=\""/usr/sbin/sendmail -t"\" -DCONFFILE=\"/etc/mdadm.conf\" -DCONFFILE2=\"/etc/mdadm/mdadm.conf\" -DMAP_DIR=\"/run/mdadm\" -DMAP_FILE=\"map\" -DMDMON_DIR=\"/run/mdadm\" -DFAILED_SLOTS_DIR=\"/run/mdadm/failed-slots\" -DNO_COROSYNC -DNO_DLM   -DUSE_PTHREADS -DBINDIR=\"/sbin\"  -c -o raid6check.o raid6check.c
+cc -ggdb  -o raid6check raid6check.o restripe.o sysfs.o maps.o lib.o xmalloc.o dlink.o
+Please run './test' as root
+Testing on linux-3.10.0-693.11.1.el7.x86_64 kernel
+Saving logs to test-logs
+tests/00linear... succeeded
+tests/00multipath... succeeded
+tests/00names... succeeded
+tests/00raid0... succeeded
+tests/00raid1... succeeded
+tests/00raid10... succeeded
+tests/00raid4... succeeded
+tests/00raid5... succeeded
+tests/00raid6... succeeded
+tests/01r1fail... succeeded
+tests/01r5fail... succeeded
+tests/01r5integ... succeeded
+tests/01raid6integ... succeeded
+tests/01replace... succeeded
+tests/02lineargrow... succeeded
+tests/02r1add... succeeded
+tests/02r1grow... succeeded
+tests/02r5grow... succeeded
+tests/02r6grow... succeeded
+tests/03assem-incr... succeeded
+tests/03r0assem... succeeded
+tests/03r5assem... succeeded
+tests/03r5assem-failed... succeeded
+tests/03r5assemV1... succeeded
+tests/04r0update... succeeded
+tests/04r1update... succeeded
+tests/04r5swap... succeeded
+tests/04update-metadata... succeeded
+tests/04update-uuid... succeeded
+tests/05r1-add-internalbitmap... succeeded
+tests/05r1-add-internalbitmap-v1a... succeeded
+tests/05r1-add-internalbitmap-v1b... succeeded
+tests/05r1-add-internalbitmap-v1c... succeeded
+tests/05r1-bitmapfile... succeeded
+tests/05r1-grow-external... succeeded
+tests/05r1-grow-internal... succeeded
+tests/05r1-grow-internal-1... succeeded
+tests/05r1-internalbitmap... succeeded
+tests/05r1-internalbitmap-v1a... succeeded
+tests/05r1-internalbitmap-v1b... succeeded
+tests/05r1-internalbitmap-v1c... succeeded
+tests/05r1-n3-bitmapfile... succeeded
+tests/05r1-re-add... succeeded
+tests/05r1-re-add-nosuper... succeeded
+tests/05r1-remove-internalbitmap... succeeded
+tests/05r1-remove-internalbitmap-v1a... succeeded
+tests/05r1-remove-internalbitmap-v1b... succeeded
+tests/05r1-remove-internalbitmap-v1c... succeeded
+tests/05r5-bitmapfile... succeeded
+tests/05r5-internalbitmap... succeeded
+tests/05r6-bitmapfile... succeeded
+tests/05r6tor0... succeeded
+tests/06name... succeeded
+tests/06sysfs... succeeded
+tests/06wrmostly... succeeded
+tests/07autoassemble... succeeded
+tests/07autodetect... succeeded
+tests/07changelevelintr... succeeded
+tests/07changelevels... succeeded
+tests/07layouts... succeeded
+tests/07reshape5intr... succeeded
+tests/07revert-grow... FAILED - see test-logs/log-07revert-grow for details
+tests/07revert-inplace... FAILED - see test-logs/log-07revert-inplace for details
+tests/07revert-shrink... succeeded
+tests/07testreshape5... succeeded
+tests/09imsm-assemble... FAILED - see test-logs/log-09imsm-assemble for details
+tests/09imsm-create-fail-rebuild... succeeded
+tests/09imsm-overlap... succeeded
+tests/10ddf-assemble-missing... succeeded
+tests/10ddf-create... FAILED - see test-logs/log-10ddf-create for details
+tests/10ddf-create-fail-rebuild... Hangup
+losetup: /dev/loop0: detach failed: No such device or address
+losetup: /dev/loop1: detach failed: No such device or address
+losetup: /dev/loop2: detach failed: No such device or address
+losetup: /dev/loop3: detach failed: No such device or address
+losetup: /dev/loop4: detach failed: No such device or address
+losetup: /dev/loop5: detach failed: No such device or address
+losetup: /dev/loop6: detach failed: No such device or address
+losetup: /dev/loop7: detach failed: No such device or address
+losetup: /dev/loop8: detach failed: No such device or address
+losetup: /dev/loop9: detach failed: No such device or address
+losetup: /dev/loop10: detach failed: No such device or address
+losetup: /dev/loop11: detach failed: No such device or address
+losetup: /dev/loop12: detach failed: No such device or address
+losetup: /dev/loop13: detach failed: No such device or address
+losetup: /dev/loop0: detach failed: No such device or address
+losetup: /dev/loop1: detach failed: No such device or address
+losetup: /dev/loop2: detach failed: No such device or address
+losetup: /dev/loop3: detach failed: No such device or address
+losetup: /dev/loop4: detach failed: No such device or address
+losetup: /dev/loop5: detach failed: No such device or address
+losetup: /dev/loop6: detach failed: No such device or address
+losetup: /dev/loop7: detach failed: No such device or address
+losetup: /dev/loop8: detach failed: No such device or address
+losetup: /dev/loop9: detach failed: No such device or address
+losetup: /dev/loop10: detach failed: No such device or address
+losetup: /dev/loop11: detach failed: No such device or address
+losetup: /dev/loop12: detach failed: No such device or address
+losetup: /dev/loop13: detach failed: No such device or address
+FAILED - see test-logs/log-10ddf-create-fail-rebuild for details
+tests/10ddf-fail-create-race... succeeded
+tests/10ddf-fail-readd... FAILED - see test-logs/log-10ddf-fail-readd for details
+tests/10ddf-fail-readd-readonly... FAILED - see test-logs/log-10ddf-fail-readd-readonly for details
+tests/10ddf-fail-spare... FAILED - see test-logs/log-10ddf-fail-spare for details
+tests/10ddf-fail-stop-readd... FAILED - see test-logs/log-10ddf-fail-stop-readd for details
+tests/10ddf-fail-twice... FAILED - see test-logs/log-10ddf-fail-twice for details
+tests/10ddf-fail-two-spares... FAILED - see test-logs/log-10ddf-fail-two-spares for details
+tests/10ddf-geometry... succeeded
+tests/10ddf-incremental-wrong-order... FAILED - see test-logs/log-10ddf-incremental-wrong-order for details
+tests/10ddf-sudden-degraded... FAILED - see test-logs/log-10ddf-sudden-degraded for details
+tests/11spare-migration... 

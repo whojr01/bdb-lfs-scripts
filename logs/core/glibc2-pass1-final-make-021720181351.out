@@ -1,0 +1,902 @@
+[1/902] Compiling C object 'glib/libcharset/charset@sta/localcharset.c.o'.
+[2/902] Compiling C object 'glib/glib-2.0@sha/deprecated_gallocator.c.o'.
+[3/902] Linking static target glib/libcharset/libcharset.a.
+[4/902] Compiling C object 'glib/glib-2.0@sha/deprecated_gcache.c.o'.
+[5/902] Compiling C object 'glib/glib-2.0@sha/deprecated_gcompletion.c.o'.
+[6/902] Compiling C object 'glib/glib-2.0@sha/deprecated_grel.c.o'.
+[7/902] Compiling C object 'glib/glib-2.0@sha/deprecated_gthread-deprecated.c.o'.
+[8/902] Compiling C object 'glib/glib-2.0@sha/garray.c.o'.
+[9/902] Compiling C object 'glib/glib-2.0@sha/gasyncqueue.c.o'.
+[10/902] Compiling C object 'glib/glib-2.0@sha/gatomic.c.o'.
+[11/902] Compiling C object 'glib/glib-2.0@sha/gbacktrace.c.o'.
+[12/902] Compiling C object 'glib/glib-2.0@sha/gbase64.c.o'.
+[13/902] Compiling C object 'glib/glib-2.0@sha/gbitlock.c.o'.
+[14/902] Compiling C object 'glib/glib-2.0@sha/gbytes.c.o'.
+[15/902] Compiling C object 'glib/glib-2.0@sha/gcharset.c.o'.
+[16/902] Compiling C object 'glib/glib-2.0@sha/gbookmarkfile.c.o'.
+[17/902] Compiling C object 'glib/glib-2.0@sha/gconvert.c.o'.
+[18/902] Compiling C object 'glib/glib-2.0@sha/gchecksum.c.o'.
+[19/902] Compiling C object 'glib/glib-2.0@sha/gdataset.c.o'.
+[20/902] Compiling C object 'glib/glib-2.0@sha/gdate.c.o'.
+[21/902] Compiling C object 'glib/glib-2.0@sha/gdatetime.c.o'.
+[22/902] Compiling C object 'glib/glib-2.0@sha/gdir.c.o'.
+[23/902] Compiling C object 'glib/glib-2.0@sha/gerror.c.o'.
+[24/902] Compiling C object 'glib/glib-2.0@sha/genviron.c.o'.
+[25/902] Compiling C object 'glib/glib-2.0@sha/ggettext.c.o'.
+[26/902] Compiling C object 'glib/glib-2.0@sha/gfileutils.c.o'.
+[27/902] Compiling C object 'glib/glib-2.0@sha/ghmac.c.o'.
+[28/902] Compiling C object 'glib/glib-2.0@sha/ghash.c.o'.
+[29/902] Compiling C object 'glib/glib-2.0@sha/ghook.c.o'.
+[30/902] Compiling C object 'glib/glib-2.0@sha/ghostutils.c.o'.
+[31/902] Compiling C object 'glib/glib-2.0@sha/giochannel.c.o'.
+[32/902] Compiling C object 'glib/glib-2.0@sha/glib-init.c.o'.
+[33/902] Compiling C object 'glib/glib-2.0@sha/gkeyfile.c.o'.
+[34/902] Compiling C object 'glib/glib-2.0@sha/glib-private.c.o'.
+[35/902] Compiling C object 'glib/glib-2.0@sha/glist.c.o'.
+[36/902] Compiling C object 'glib/glib-2.0@sha/gmappedfile.c.o'.
+[37/902] Compiling C object 'glib/glib-2.0@sha/gmain.c.o'.
+[38/902] Compiling C object 'glib/glib-2.0@sha/gmarkup.c.o'.
+[39/902] Compiling C object 'glib/glib-2.0@sha/gmem.c.o'.
+[40/902] Compiling C object 'glib/glib-2.0@sha/gthread-posix.c.o'.
+[41/902] Compiling C object 'glib/glib-2.0@sha/gmessages.c.o'.
+[42/902] Compiling C object 'glib/glib-2.0@sha/gnode.c.o'.
+[43/902] Compiling C object 'glib/glib-2.0@sha/gpattern.c.o'.
+[44/902] Compiling C object 'glib/glib-2.0@sha/gpoll.c.o'.
+[45/902] Compiling C object 'glib/glib-2.0@sha/goption.c.o'.
+[46/902] Compiling C object 'glib/glib-2.0@sha/gprimes.c.o'.
+[47/902] Compiling C object 'glib/glib-2.0@sha/gqsort.c.o'.
+[48/902] Compiling C object 'glib/glib-2.0@sha/gquark.c.o'.
+[49/902] Compiling C object 'glib/glib-2.0@sha/gqueue.c.o'.
+[50/902] Compiling C object 'glib/glib-2.0@sha/grand.c.o'.
+[51/902] Compiling C object 'glib/glib-2.0@sha/gregex.c.o'.
+[52/902] Compiling C object 'glib/glib-2.0@sha/gscanner.c.o'.
+[53/902] Compiling C object 'glib/glib-2.0@sha/gshell.c.o'.
+[54/902] Compiling C object 'glib/glib-2.0@sha/gsequence.c.o'.
+[55/902] Compiling C object 'glib/glib-2.0@sha/gslist.c.o'.
+[56/902] Compiling C object 'glib/glib-2.0@sha/gslice.c.o'.
+[57/902] Compiling C object 'glib/glib-2.0@sha/gstdio.c.o'.
+[58/902] Compiling C object 'glib/glib-2.0@sha/gstring.c.o'.
+[59/902] Compiling C object 'glib/glib-2.0@sha/gstrfuncs.c.o'.
+[60/902] Compiling C object 'glib/glib-2.0@sha/gstringchunk.c.o'.
+[61/902] Compiling C object 'glib/glib-2.0@sha/gthread.c.o'.
+[62/902] Compiling C object 'glib/glib-2.0@sha/gthreadpool.c.o'.
+[63/902] Compiling C object 'glib/glib-2.0@sha/gtestutils.c.o'.
+[64/902] Compiling C object 'glib/glib-2.0@sha/gtimer.c.o'.
+[65/902] Compiling C object 'glib/glib-2.0@sha/gtimezone.c.o'.
+[66/902] Compiling C object 'glib/glib-2.0@sha/gtranslit.c.o'.
+[67/902] Compiling C object 'glib/glib-2.0@sha/gtrashstack.c.o'.
+[68/902] Compiling C object 'glib/glib-2.0@sha/gtree.c.o'.
+[69/902] Compiling C object 'glib/glib-2.0@sha/gutf8.c.o'.
+[70/902] Compiling C object 'glib/glib-2.0@sha/guniprop.c.o'.
+[71/902] Compiling C object 'glib/glib-2.0@sha/gunibreak.c.o'.
+[72/902] Compiling C object 'glib/glib-2.0@sha/gunicollate.c.o'.
+[73/902] Compiling C object 'glib/glib-2.0@sha/gurifuncs.c.o'.
+[74/902] Compiling C object 'glib/glib-2.0@sha/gunidecomp.c.o'.
+[75/902] Compiling C object 'glib/glib-2.0@sha/gutils.c.o'.
+[76/902] Compiling C object 'glib/glib-2.0@sha/guuid.c.o'.
+[77/902] Compiling C object 'glib/glib-2.0@sha/gvariant-core.c.o'.
+[78/902] Compiling C object 'glib/glib-2.0@sha/gvariant.c.o'.
+[79/902] Compiling C object 'glib/glib-2.0@sha/gvariant-parser.c.o'.
+[80/902] Compiling C object 'glib/glib-2.0@sha/gvariant-serialiser.c.o'.
+[81/902] Compiling C object 'glib/glib-2.0@sha/gvarianttypeinfo.c.o'.
+[82/902] Compiling C object 'glib/glib-2.0@sha/gversion.c.o'.
+[83/902] Compiling C object 'glib/glib-2.0@sha/gvarianttype.c.o'.
+[84/902] Compiling C object 'glib/glib-2.0@sha/gwakeup.c.o'.
+[85/902] Compiling C object 'glib/glib-2.0@sha/gprintf.c.o'.
+[86/902] Compiling C object 'glib/tests/slice@exe/slice.c.o'.
+[87/902] Compiling C object 'glib/glib-2.0@sha/glib-unix.c.o'.
+[88/902] Compiling C object 'glib/glib-2.0@sha/gspawn.c.o'.
+[89/902] Compiling C object 'glib/glib-2.0@sha/giounix.c.o'.
+[90/902] Compiling C object 'glib/tests/hash@exe/hash.c.o'.
+[91/902] Compiling C object 'glib/gtester@exe/gtester.c.o'.
+[92/902] Compiling C object 'glib/tests/gvariant@exe/gvariant.c.o'.
+[93/902] Linking target glib/libglib-2.0.so.0.5400.3.
+[94/902] Compiling C object 'glib/tests/array-test@exe/array-test.c.o'.
+[95/902] Compiling C object 'glib/tests/asyncqueue@exe/asyncqueue.c.o'.
+[96/902] Compiling C object 'glib/tests/base64@exe/base64.c.o'.
+[97/902] Compiling C object 'glib/tests/bitlock@exe/bitlock.c.o'.
+[98/902] Generating symbol file 'glib/glib-2.0@sha/glib/libglib-2.0.so.0.5400.3.symbols'.
+[99/902] Compiling C object 'glib/tests/bookmarkfile@exe/bookmarkfile.c.o'.
+[100/902] Linking target glib/tests/slice.
+[101/902] Linking target glib/tests/gvariant.
+[102/902] Linking target glib/gtester.
+[103/902] Linking target glib/tests/array-test.
+[104/902] Linking target glib/tests/asyncqueue.
+[105/902] Linking target glib/tests/base64.
+[106/902] Linking target glib/tests/bitlock.
+[107/902] Linking target glib/tests/bookmarkfile.
+[108/902] Compiling C object 'glib/tests/cache@exe/cache.c.o'.
+[109/902] Compiling C object 'glib/tests/bytes@exe/bytes.c.o'.
+[110/902] Linking target glib/tests/cache.
+[111/902] Linking target glib/tests/bytes.
+[112/902] Compiling C object 'glib/tests/checksum@exe/checksum.c.o'.
+[113/902] Compiling C object 'glib/tests/collate@exe/collate.c.o'.
+[114/902] Linking target glib/tests/checksum.
+[115/902] Linking target glib/tests/collate.
+[116/902] Compiling C object 'glib/tests/cond@exe/cond.c.o'.
+[117/902] Linking target glib/tests/cond.
+[118/902] Compiling C object 'glib/tests/convert@exe/convert.c.o'.
+[119/902] Linking target glib/tests/convert.
+[120/902] Compiling C object 'glib/tests/dataset@exe/dataset.c.o'.
+[121/902] Linking target glib/tests/dataset.
+[122/902] Compiling C object 'glib/tests/date@exe/date.c.o'.
+[123/902] Compiling C object 'glib/tests/dir@exe/dir.c.o'.
+[124/902] Linking target glib/tests/date.
+[125/902] Linking target glib/tests/dir.
+[126/902] Compiling C object 'glib/tests/environment@exe/environment.c.o'.
+[127/902] Compiling C object 'glib/tests/error@exe/error.c.o'.
+[128/902] Linking target glib/tests/environment.
+[129/902] Linking target glib/tests/error.
+[130/902] Compiling C object 'glib/tests/fileutils@exe/fileutils.c.o'.
+[131/902] Linking target glib/tests/fileutils.
+[132/902] Linking target glib/tests/hash.
+[133/902] Compiling C object 'glib/tests/hmac@exe/hmac.c.o'.
+[134/902] Compiling C object 'glib/tests/gdatetime@exe/gdatetime.c.o'.
+[135/902] Linking target glib/tests/hmac.
+[136/902] Linking target glib/tests/gdatetime.
+[137/902] Compiling C object 'glib/tests/hook@exe/hook.c.o'.
+[138/902] Compiling C object 'glib/tests/hostutils@exe/hostutils.c.o'.
+[139/902] Linking target glib/tests/hook.
+[140/902] Linking target glib/tests/hostutils.
+[141/902] Compiling C object 'glib/tests/list@exe/list.c.o'.
+[142/902] Compiling C object 'glib/tests/keyfile@exe/keyfile.c.o'.
+[143/902] Linking target glib/tests/list.
+[144/902] Linking target glib/tests/keyfile.
+[145/902] Compiling C object 'glib/tests/logging@exe/logging.c.o'.
+[146/902] Linking target glib/tests/logging.
+[147/902] Compiling C object 'glib/tests/mainloop@exe/mainloop.c.o'.
+[148/902] Compiling C object 'glib/tests/mappedfile@exe/mappedfile.c.o'.
+[149/902] Linking target glib/tests/mainloop.
+[150/902] Linking target glib/tests/mappedfile.
+[151/902] Compiling C object 'glib/tests/markup@exe/markup.c.o'.
+[152/902] Linking target glib/tests/markup.
+[153/902] Compiling C object 'glib/tests/markup-parse@exe/markup-parse.c.o'.
+[154/902] Linking target glib/tests/markup-parse.
+[155/902] Compiling C object 'glib/tests/markup-collect@exe/markup-collect.c.o'.
+[156/902] Linking target glib/tests/markup-collect.
+[157/902] Compiling C object 'glib/tests/markup-escape@exe/markup-escape.c.o'.
+[158/902] Linking target glib/tests/markup-escape.
+[159/902] Compiling C object 'glib/tests/markup-subparser@exe/markup-subparser.c.o'.
+[160/902] Linking target glib/tests/markup-subparser.
+[161/902] Compiling C object 'glib/tests/mem-overflow@exe/mem-overflow.c.o'.
+[162/902] Compiling C object 'glib/tests/mutex@exe/mutex.c.o'.
+[163/902] Linking target glib/tests/mem-overflow.
+[164/902] Linking target glib/tests/mutex.
+[165/902] Compiling C object 'glib/tests/once@exe/once.c.o'.
+[166/902] Compiling C object 'glib/tests/node@exe/node.c.o'.
+[167/902] Linking target glib/tests/once.
+[168/902] Linking target glib/tests/node.
+[169/902] Compiling C object 'glib/tests/option-argv0@exe/option-argv0.c.o'.
+[170/902] Linking target glib/tests/option-argv0.
+[171/902] Compiling C object 'glib/tests/overflow@exe/overflow.c.o'.
+[172/902] Compiling C object 'glib/tests/option-context@exe/option-context.c.o'.
+[173/902] Linking target glib/tests/overflow.
+[174/902] Linking target glib/tests/option-context.
+[175/902] Compiling C object 'glib/tests/pattern@exe/pattern.c.o'.
+[176/902] Compiling C object 'glib/tests/private@exe/private.c.o'.
+[177/902] Linking target glib/tests/pattern.
+[178/902] Linking target glib/tests/private.
+[179/902] Compiling C object 'glib/tests/protocol@exe/protocol.c.o'.
+[180/902] Linking target glib/tests/protocol.
+[181/902] Compiling C object 'glib/tests/queue@exe/queue.c.o'.
+[182/902] Linking target glib/tests/queue.
+[183/902] Compiling C object 'glib/tests/rand@exe/rand.c.o'.
+[184/902] Linking target glib/tests/rand.
+[185/902] Compiling C object 'glib/tests/rec-mutex@exe/rec-mutex.c.o'.
+[186/902] Linking target glib/tests/rec-mutex.
+[187/902] Compiling C object 'glib/tests/rwlock@exe/rwlock.c.o'.
+[188/902] Linking target glib/tests/rwlock.
+[189/902] Compiling C object 'glib/tests/scannerapi@exe/scannerapi.c.o'.
+[190/902] Linking target glib/tests/scannerapi.
+[191/902] Compiling C object 'glib/tests/search-utils@exe/search-utils.c.o'.
+[192/902] Linking target glib/tests/search-utils.
+[193/902] Compiling C object 'glib/tests/regex@exe/regex.c.o'.
+[194/902] Linking target glib/tests/regex.
+[195/902] Compiling C object 'glib/tests/sequence@exe/sequence.c.o'.
+[196/902] Compiling C object 'glib/tests/shell@exe/shell.c.o'.
+[197/902] Linking target glib/tests/sequence.
+[198/902] Linking target glib/tests/shell.
+[199/902] Compiling C object 'glib/tests/sort@exe/sort.c.o'.
+[200/902] Compiling C object 'glib/tests/slist@exe/slist.c.o'.
+[201/902] Linking target glib/tests/sort.
+[202/902] Linking target glib/tests/slist.
+[203/902] Compiling C object 'glib/tests/spawn-multithreaded@exe/spawn-multithreaded.c.o'.
+[204/902] Compiling C object 'glib/tests/spawn-singlethread@exe/spawn-singlethread.c.o'.
+[205/902] Linking target glib/tests/spawn-multithreaded.
+[206/902] Linking target glib/tests/spawn-singlethread.
+[207/902] Compiling C object 'glib/tests/string@exe/string.c.o'.
+[208/902] Linking target glib/tests/string.
+[209/902] Compiling C object 'glib/tests/strfuncs@exe/strfuncs.c.o'.
+[210/902] Linking target glib/tests/strfuncs.
+[211/902] Compiling C object 'glib/tests/testing@exe/testing.c.o'.
+[212/902] Linking target glib/tests/testing.
+[213/902] Compiling C object 'glib/tests/thread@exe/thread.c.o'.
+[214/902] Compiling C object 'glib/tests/test-printf@exe/test-printf.c.o'.
+[215/902] Linking target glib/tests/thread.
+[216/902] Linking target glib/tests/test-printf.
+[217/902] Compiling C object 'glib/tests/timeout@exe/timeout.c.o'.
+[218/902] Compiling C object 'glib/tests/timer@exe/timer.c.o'.
+[219/902] Linking target glib/tests/timeout.
+[220/902] Linking target glib/tests/timer.
+[221/902] Compiling C object 'glib/tests/tree@exe/tree.c.o'.
+[222/902] Compiling C object 'glib/tests/utf8-performance@exe/utf8-performance.c.o'.
+[223/902] Linking target glib/tests/tree.
+[224/902] Linking target glib/tests/utf8-performance.
+[225/902] Compiling C object 'glib/tests/utf8-pointer@exe/utf8-pointer.c.o'.
+[226/902] Compiling C object 'glib/tests/utf8-validate@exe/utf8-validate.c.o'.
+[227/902] Linking target glib/tests/utf8-pointer.
+[228/902] Linking target glib/tests/utf8-validate.
+[229/902] Compiling C object 'glib/tests/utf8-misc@exe/utf8-misc.c.o'.
+[230/902] Compiling C object 'glib/tests/utils@exe/utils.c.o'.
+[231/902] Linking target glib/tests/utf8-misc.
+[232/902] Linking target glib/tests/utils.
+[233/902] Compiling C object 'glib/tests/uri@exe/uri.c.o'.
+[234/902] Compiling C object 'glib/tests/unicode@exe/unicode.c.o'.
+[235/902] Linking target glib/tests/uri.
+[236/902] Linking target glib/tests/unicode.
+[237/902] Compiling C object 'glib/tests/1bit-mutex@exe/1bit-mutex.c.o'.
+[238/902] Compiling C object 'glib/tests/642026@exe/642026.c.o'.
+[239/902] Linking target glib/tests/1bit-mutex.
+[240/902] Linking target glib/tests/642026.
+[241/902] Compiling C object 'glib/tests/include@exe/include.c.o'.
+[242/902] Compiling C object 'glib/tests/unix@exe/unix.c.o'.
+[243/902] Linking target glib/tests/include.
+[244/902] Linking target glib/tests/unix.
+[245/902] Compiling C object 'glib/tests/atomic@exe/atomic.c.o'.
+[246/902] Compiling C object 'glib/tests/autoptr@exe/autoptr.c.o'.
+[247/902] Linking target glib/tests/atomic.
+[248/902] Linking target glib/tests/autoptr.
+[249/902] Compiling C object 'glib/tests/overflow-fallback@exe/overflow.c.o'.
+[250/902] Compiling C object 'glib/tests/642026-ec@exe/642026.c.o'.
+[251/902] Linking target glib/tests/overflow-fallback.
+[252/902] Linking target glib/tests/642026-ec.
+[253/902] Compiling C object 'glib/tests/gwakeup@exe/gwakeuptest.c.o'.
+[254/902] Compiling C object 'glib/tests/1bit-emufutex@exe/1bit-mutex.c.o'.
+[255/902] Linking target glib/tests/1bit-emufutex.
+[256/902] Compiling C object 'glib/tests/gwakeup@exe/.._gwakeup.c.o'.
+[257/902] Compiling C object 'glib/tests/gwakeup-fallback@exe/gwakeuptest.c.o'.
+[258/902] Linking target glib/tests/gwakeup.
+[259/902] Compiling C object 'glib/tests/test-spawn-echo@exe/test-spawn-echo.c.o'.
+[260/902] Compiling C object 'glib/tests/gwakeup-fallback@exe/.._gwakeup.c.o'.
+[261/902] Linking target glib/tests/test-spawn-echo.
+[262/902] Linking target glib/tests/gwakeup-fallback.
+[263/902] Generating tmpsample.xml with a custom command.
+[264/902] Compiling C object 'gobject/gobject-2.0@sha/gatomicarray.c.o'.
+[265/902] Compiling C object 'gobject/gobject-2.0@sha/gbinding.c.o'.
+[266/902] Compiling C object 'gobject/gobject-2.0@sha/gboxed.c.o'.
+[267/902] Compiling C object 'gobject/gobject-2.0@sha/gclosure.c.o'.
+[268/902] Compiling C object 'gobject/gobject-2.0@sha/genums.c.o'.
+[269/902] Compiling C object 'gobject/gobject-2.0@sha/gmarshal.c.o'.
+[270/902] Compiling C object 'gobject/gobject-2.0@sha/gobject.c.o'.
+[271/902] Compiling C object 'gobject/gobject-2.0@sha/gparam.c.o'.
+[272/902] Compiling C object 'gobject/gobject-2.0@sha/gparamspecs.c.o'.
+[273/902] Compiling C object 'gobject/gobject-2.0@sha/gsignal.c.o'.
+[274/902] Compiling C object 'gobject/gobject-2.0@sha/gsourceclosure.c.o'.
+[275/902] Compiling C object 'gobject/gobject-2.0@sha/gtypemodule.c.o'.
+[276/902] Compiling C object 'gobject/gobject-2.0@sha/gtypeplugin.c.o'.
+[277/902] Compiling C object 'gobject/gobject-2.0@sha/gtype.c.o'.
+[278/902] Compiling C object 'gobject/gobject-2.0@sha/gvalue.c.o'.
+[279/902] Compiling C object 'gobject/gobject-2.0@sha/gvaluearray.c.o'.
+[280/902] Compiling C object 'gobject/gobject-2.0@sha/gvaluetransform.c.o'.
+[281/902] Compiling C object 'gobject/gobject-2.0@sha/gvaluetypes.c.o'.
+[282/902] Compiling C object 'gobject/gobject-query@exe/gobject-query.c.o'.
+[283/902] Linking target gobject/libgobject-2.0.so.0.5400.3.
+[284/902] Compiling C object 'gobject/tests/qdata@exe/qdata.c.o'.
+[285/902] Compiling C object 'gobject/tests/boxed@exe/boxed.c.o'.
+[286/902] Compiling C object 'gobject/tests/enums@exe/enums.c.o'.
+[287/902] Generating symbol file 'gobject/gobject-2.0@sha/gobject/libgobject-2.0.so.0.5400.3.symbols'.
+[288/902] Linking target gobject/gobject-query.
+[289/902] Linking target gobject/tests/qdata.
+[290/902] Linking target gobject/tests/boxed.
+[291/902] Compiling C object 'gobject/tests/param@exe/param.c.o'.
+[292/902] Linking target gobject/tests/enums.
+[293/902] Linking target gobject/tests/param.
+[294/902] Compiling C object 'gobject/tests/threadtests@exe/threadtests.c.o'.
+[295/902] Compiling C object 'gobject/tests/dynamictests@exe/dynamictests.c.o'.
+[296/902] Linking target gobject/tests/threadtests.
+[297/902] Linking target gobject/tests/dynamictests.
+[298/902] Compiling C object 'gobject/tests/binding@exe/binding.c.o'.
+[299/902] Compiling C object 'gobject/tests/properties@exe/properties.c.o'.
+[300/902] Linking target gobject/tests/binding.
+[301/902] Linking target gobject/tests/properties.
+[302/902] Compiling C object 'gobject/tests/value@exe/value.c.o'.
+[303/902] Compiling C object 'gobject/tests/reference@exe/reference.c.o'.
+[304/902] Linking target gobject/tests/value.
+[305/902] Linking target gobject/tests/reference.
+[306/902] Compiling C object 'gobject/tests/type@exe/type.c.o'.
+[307/902] Compiling C object 'gobject/tests/gobject-private@exe/private.c.o'.
+[308/902] Linking target gobject/tests/type.
+[309/902] Linking target gobject/tests/gobject-private.
+[310/902] Compiling C object 'gobject/tests/closure@exe/closure.c.o'.
+[311/902] Compiling C object 'gobject/tests/object@exe/object.c.o'.
+[312/902] Linking target gobject/tests/closure.
+[313/902] Linking target gobject/tests/object.
+[314/902] Compiling C object 'gobject/tests/signal-handler@exe/signal-handler.c.o'.
+[315/902] Linking target gobject/tests/signal-handler.
+[316/902] Compiling C object 'gobject/tests/ifaceproperties@exe/ifaceproperties.c.o'.
+[317/902] Generating marshalers_h with a custom command.
+[318/902] Linking target gobject/tests/ifaceproperties.
+[319/902] Generating marshalers_c with a custom command.
+[320/902] Compiling C object 'gobject/tests/signals@exe/meson-generated_.._marshalers.c.o'.
+[321/902] Compiling C object 'gobject/tests/signals@exe/signals.c.o'.
+[322/902] Linking target gobject/tests/signals.
+[323/902] Compiling C object 'gthread/gthread-2.0@sha/gthread-impl.c.o'.
+[324/902] Linking target gthread/libgthread-2.0.so.0.5400.3.
+[325/902] Compiling C object 'gmodule/gmodule-2.0@sha/gmodule.c.o'.
+[326/902] Generating xdp-dbus with a custom command.
+[327/902] Linking target gmodule/libgmodule-2.0.so.0.5400.3.
+[328/902] Generating gdbus-daemon-generated with a custom command.
+[329/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmime.c.o'.
+[330/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmimealias.c.o'.
+[331/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmimecache.c.o'.
+[332/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmimeglob.c.o'.
+[333/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmimeicon.c.o'.
+[334/902] Generating symbol file 'gmodule/gmodule-2.0@sha/gmodule/libgmodule-2.0.so.0.5400.3.symbols'.
+[335/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmimeint.c.o'.
+[336/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmimemagic.c.o'.
+[337/902] Compiling C object 'gio/xdgmime/xdgmime@sta/xdgmimeparent.c.o'.
+[338/902] Linking static target gio/xdgmime/libxdgmime.a.
+[339/902] Generating gdbus-test-codegen-generated with a custom command.
+[340/902] Generating gconstructor_as_data.h with a custom command.
+[341/902] Generating gdbus-example-objectmanager-generated with a custom command.
+[342/902] Generating test.mo with a custom command.
+[343/902] Generating testmarshal_h with a custom command.
+[344/902] Generating testmarshal_c with a custom command.
+[345/902] Compiling C object 'tests/gobject/gvalue-test-gobject@exe/gvalue-test.c.o'.
+[346/902] Linking target tests/gobject/gvalue-test-gobject.
+[347/902] Compiling C object 'tests/gobject/paramspec-test-gobject@exe/paramspec-test.c.o'.
+[348/902] Linking target tests/gobject/paramspec-test-gobject.
+[349/902] Generating gioenumtypes_h with a meson_exe.py custom command.
+[350/902] Compiling C object 'tests/gobject/deftype-gobject@exe/deftype.c.o'.
+[351/902] Compiling C object 'gio/gio-2.0@sha/gdbusutils.c.o'.
+[352/902] Compiling C object 'gio/gio-2.0@sha/gdbusaddress.c.o'.
+[353/902] Compiling C object 'gio/gio-2.0@sha/gdbusauthobserver.c.o'.
+[354/902] Compiling C object 'gio/inotify/inotify@sta/inotify-kernel.c.o'.
+[355/902] Compiling C object 'gio/inotify/inotify@sta/inotify-sub.c.o'.
+[356/902] Generating gioenumtypes_c with a meson_exe.py custom command.
+[357/902] Compiling C object 'gio/inotify/inotify@sta/inotify-path.c.o'.
+[358/902] Compiling C object 'gio/inotify/inotify@sta/inotify-missing.c.o'.
+[359/902] Compiling C object 'gio/inotify/inotify@sta/inotify-helper.c.o'.
+[360/902] Compiling C object 'gio/inotify/inotify@sta/ginotifyfilemonitor.c.o'.
+[361/902] Linking static target gio/inotify/libinotify.a.
+[362/902] Compiling C object 'gio/tests/gapplication-example-open@exe/gapplication-example-open.c.o'.
+[363/902] Compiling C object 'gio/tests/gdbus-daemon@exe/gdbus-daemon.c.o'.
+[364/902] Compiling C object 'gio/tests/gdbus-daemon@exe/meson-generated_.._.._gdbus-daemon-generated.c.o'.
+[365/902] Compiling C object 'gio/tests/gdbus-example-export@exe/gdbus-example-export.c.o'.
+[366/902] Compiling C object 'gio/tests/gdbus-daemon@exe/.._gdbusdaemon.c.o'.
+[367/902] Compiling C object 'gio/tests/gdbus-example-own-name@exe/gdbus-example-own-name.c.o'.
+[368/902] Compiling C object 'gio/gio-2.0@sha/meson-generated_.._gioenumtypes.c.o'.
+[369/902] Compiling C object 'gio/gio-2.0@sha/meson-generated_.._gdbus-daemon-generated.c.o'.
+[370/902] Compiling C object 'gio/gio-2.0@sha/gappinfo.c.o'.
+[371/902] Compiling C object 'gio/gio-2.0@sha/meson-generated_.._xdp-dbus.c.o'.
+[372/902] Compiling C object 'gio/gio-2.0@sha/gasynchelper.c.o'.
+[373/902] Compiling C object 'gio/gio-2.0@sha/gasyncinitable.c.o'.
+[374/902] Compiling C object 'gio/gio-2.0@sha/gasyncresult.c.o'.
+[375/902] Compiling C object 'gio/gio-2.0@sha/gbufferedinputstream.c.o'.
+[376/902] Compiling C object 'gio/gio-2.0@sha/gbufferedoutputstream.c.o'.
+[377/902] Compiling C object 'gio/gio-2.0@sha/gbytesicon.c.o'.
+[378/902] Compiling C object 'gio/gio-2.0@sha/gcancellable.c.o'.
+[379/902] Compiling C object 'gio/gio-2.0@sha/gcharsetconverter.c.o'.
+[380/902] Compiling C object 'gio/gio-2.0@sha/gcontextspecificgroup.c.o'.
+[381/902] Compiling C object 'gio/gio-2.0@sha/gconverter.c.o'.
+[382/902] Compiling C object 'gio/gio-2.0@sha/gconverterinputstream.c.o'.
+[383/902] Compiling C object 'gio/gio-2.0@sha/gconverteroutputstream.c.o'.
+[384/902] Compiling C object 'gio/gio-2.0@sha/gcredentials.c.o'.
+[385/902] Compiling C object 'gio/gio-2.0@sha/gdatagrambased.c.o'.
+[386/902] Compiling C object 'gio/gio-2.0@sha/gdatainputstream.c.o'.
+[387/902] Compiling C object 'gio/gio-2.0@sha/gdataoutputstream.c.o'.
+[388/902] Compiling C object 'gio/gio-2.0@sha/gdrive.c.o'.
+[389/902] Compiling C object 'gio/gio-2.0@sha/gdummyproxyresolver.c.o'.
+[390/902] Compiling C object 'gio/gio-2.0@sha/gdummyfile.c.o'.
+[391/902] Compiling C object 'gio/gio-2.0@sha/gdummytlsbackend.c.o'.
+[392/902] Compiling C object 'gio/gio-2.0@sha/gemblem.c.o'.
+[393/902] Compiling C object 'gio/gio-2.0@sha/gemblemedicon.c.o'.
+[394/902] Compiling C object 'gio/gio-2.0@sha/gfileattribute.c.o'.
+[395/902] Compiling C object 'gio/gio-2.0@sha/gfileenumerator.c.o'.
+[396/902] Compiling C object 'gio/gio-2.0@sha/gfile.c.o'.
+[397/902] Compiling C object 'gio/gio-2.0@sha/gfileicon.c.o'.
+[398/902] Compiling C object 'gio/gio-2.0@sha/gfileinputstream.c.o'.
+[399/902] Compiling C object 'gio/gio-2.0@sha/gfilemonitor.c.o'.
+[400/902] Compiling C object 'gio/gio-2.0@sha/gfileinfo.c.o'.
+[401/902] Compiling C object 'gio/gio-2.0@sha/gfilenamecompleter.c.o'.
+[402/902] Compiling C object 'gio/gio-2.0@sha/gfileoutputstream.c.o'.
+[403/902] Compiling C object 'gio/gio-2.0@sha/gfilterinputstream.c.o'.
+[404/902] Compiling C object 'gio/gio-2.0@sha/gfileiostream.c.o'.
+[405/902] Compiling C object 'gio/gio-2.0@sha/gfilteroutputstream.c.o'.
+[406/902] Compiling C object 'gio/gio-2.0@sha/gicon.c.o'.
+[407/902] Compiling C object 'gio/gio-2.0@sha/ginetaddress.c.o'.
+[408/902] Compiling C object 'gio/gio-2.0@sha/ginetaddressmask.c.o'.
+[409/902] Compiling C object 'gio/gio-2.0@sha/ginitable.c.o'.
+[410/902] Compiling C object 'gio/gio-2.0@sha/ginetsocketaddress.c.o'.
+[411/902] Compiling C object 'gio/gio-2.0@sha/gioerror.c.o'.
+[412/902] Compiling C object 'gio/gio-2.0@sha/ginputstream.c.o'.
+[413/902] Compiling C object 'gio/gio-2.0@sha/gioscheduler.c.o'.
+[414/902] Compiling C object 'gio/gio-2.0@sha/giomodule.c.o'.
+[415/902] Compiling C object 'gio/gio-2.0@sha/gloadableicon.c.o'.
+[416/902] Compiling C object 'gio/gio-2.0@sha/giostream.c.o'.
+[417/902] Compiling C object 'gio/gio-2.0@sha/gmount.c.o'.
+[418/902] Compiling C object 'gio/gio-2.0@sha/gmemoryinputstream.c.o'.
+[419/902] Compiling C object 'gio/gio-2.0@sha/gmountoperation.c.o'.
+[420/902] Compiling C object 'gio/gio-2.0@sha/gmemoryoutputstream.c.o'.
+[421/902] Compiling C object 'gio/gio-2.0@sha/gnativevolumemonitor.c.o'.
+[422/902] Compiling C object 'gio/gio-2.0@sha/gnativesocketaddress.c.o'.
+[423/902] Compiling C object 'gio/gio-2.0@sha/gnetworking.c.o'.
+[424/902] Compiling C object 'gio/gio-2.0@sha/gnetworkaddress.c.o'.
+[425/902] Compiling C object 'gio/gio-2.0@sha/gnetworkmonitor.c.o'.
+[426/902] Compiling C object 'gio/gio-2.0@sha/gnetworkmonitorbase.c.o'.
+[427/902] Compiling C object 'gio/gio-2.0@sha/gnetworkservice.c.o'.
+[428/902] Compiling C object 'gio/gio-2.0@sha/gpermission.c.o'.
+[429/902] Compiling C object 'gio/gio-2.0@sha/goutputstream.c.o'.
+[430/902] Compiling C object 'gio/gio-2.0@sha/gpollableinputstream.c.o'.
+[431/902] Compiling C object 'gio/gio-2.0@sha/gpollableoutputstream.c.o'.
+[432/902] Compiling C object 'gio/gio-2.0@sha/gpollfilemonitor.c.o'.
+[433/902] Compiling C object 'gio/gio-2.0@sha/gpollableutils.c.o'.
+[434/902] Compiling C object 'gio/gio-2.0@sha/gproxy.c.o'.
+[435/902] Compiling C object 'gio/gio-2.0@sha/gproxyaddress.c.o'.
+[436/902] Compiling C object 'gio/gio-2.0@sha/gproxyresolver.c.o'.
+[437/902] Compiling C object 'gio/gio-2.0@sha/gproxyaddressenumerator.c.o'.
+[438/902] Compiling C object 'gio/gio-2.0@sha/gresolver.c.o'.
+[439/902] Compiling C object 'gio/gio-2.0@sha/gresource.c.o'.
+[440/902] Compiling C object 'gio/gio-2.0@sha/gseekable.c.o'.
+[441/902] Compiling C object 'gio/gio-2.0@sha/gresourcefile.c.o'.
+[442/902] Compiling C object 'gio/gio-2.0@sha/gsimpleasyncresult.c.o'.
+[443/902] Compiling C object 'gio/gio-2.0@sha/gsimpleiostream.c.o'.
+[444/902] Compiling C object 'gio/gio-2.0@sha/gsimplepermission.c.o'.
+[445/902] Compiling C object 'gio/gio-2.0@sha/gsocketaddress.c.o'.
+[446/902] Compiling C object 'gio/gio-2.0@sha/gsocket.c.o'.
+[447/902] Compiling C object 'gio/gio-2.0@sha/gsocketaddressenumerator.c.o'.
+[448/902] Compiling C object 'gio/gio-2.0@sha/gsocketconnectable.c.o'.
+[449/902] Compiling C object 'gio/gio-2.0@sha/gsocketclient.c.o'.
+[450/902] Compiling C object 'gio/gio-2.0@sha/gsocketconnection.c.o'.
+[451/902] Compiling C object 'gio/gio-2.0@sha/gsocketcontrolmessage.c.o'.
+[452/902] Compiling C object 'gio/gio-2.0@sha/gsocketinputstream.c.o'.
+[453/902] Compiling C object 'gio/gio-2.0@sha/gsocketlistener.c.o'.
+[454/902] Compiling C object 'gio/gio-2.0@sha/gsubprocesslauncher.c.o'.
+[455/902] Compiling C object 'gio/gio-2.0@sha/gsocketoutputstream.c.o'.
+[456/902] Compiling C object 'gio/gio-2.0@sha/gsocketservice.c.o'.
+[457/902] Compiling C object 'gio/gio-2.0@sha/gsubprocess.c.o'.
+[458/902] Compiling C object 'gio/gio-2.0@sha/gsrvtarget.c.o'.
+[459/902] Compiling C object 'gio/gio-2.0@sha/gsimpleproxyresolver.c.o'.
+[460/902] Compiling C object 'gio/gio-2.0@sha/gtask.c.o'.
+[461/902] Compiling C object 'gio/gio-2.0@sha/gtcpconnection.c.o'.
+[462/902] Compiling C object 'gio/gio-2.0@sha/gtcpwrapperconnection.c.o'.
+[463/902] Compiling C object 'gio/gio-2.0@sha/gthreadedsocketservice.c.o'.
+[464/902] Compiling C object 'gio/gio-2.0@sha/gthemedicon.c.o'.
+[465/902] Compiling C object 'gio/gio-2.0@sha/gthreadedresolver.c.o'.
+[466/902] Compiling C object 'gio/gio-2.0@sha/gtlsbackend.c.o'.
+[467/902] Compiling C object 'gio/gio-2.0@sha/gtlscertificate.c.o'.
+[468/902] Compiling C object 'gio/gio-2.0@sha/gtlsclientconnection.c.o'.
+[469/902] Compiling C object 'gio/gio-2.0@sha/gtlsconnection.c.o'.
+[470/902] Compiling C object 'gio/gio-2.0@sha/gtlsdatabase.c.o'.
+[471/902] Compiling C object 'gio/gio-2.0@sha/gtlsfiledatabase.c.o'.
+[472/902] Compiling C object 'gio/gio-2.0@sha/gtlsinteraction.c.o'.
+[473/902] Compiling C object 'gio/gio-2.0@sha/gtlspassword.c.o'.
+[474/902] Compiling C object 'gio/gio-2.0@sha/gtlsserverconnection.c.o'.
+[475/902] Compiling C object 'gio/gio-2.0@sha/gdtlsconnection.c.o'.
+[476/902] Compiling C object 'gio/gio-2.0@sha/gdtlsclientconnection.c.o'.
+[477/902] Compiling C object 'gio/gio-2.0@sha/gdtlsserverconnection.c.o'.
+[478/902] Compiling C object 'gio/gio-2.0@sha/gunionvolumemonitor.c.o'.
+[479/902] Compiling C object 'gio/gio-2.0@sha/gvfs.c.o'.
+[480/902] Compiling C object 'gio/gio-2.0@sha/gvolume.c.o'.
+[481/902] Compiling C object 'gio/gio-2.0@sha/gvolumemonitor.c.o'.
+[482/902] Compiling C object 'gio/gio-2.0@sha/gzlibcompressor.c.o'.
+[483/902] Compiling C object 'gio/gio-2.0@sha/gzlibdecompressor.c.o'.
+[484/902] Compiling C object 'gio/gio-2.0@sha/glistmodel.c.o'.
+[485/902] Compiling C object 'gio/gio-2.0@sha/gliststore.c.o'.
+[486/902] Compiling C object 'gio/gio-2.0@sha/gcontenttype.c.o'.
+[487/902] Compiling C object 'gio/gio-2.0@sha/gdesktopappinfo.c.o'.
+[488/902] Compiling C object 'gio/gio-2.0@sha/gfiledescriptorbased.c.o'.
+[489/902] Compiling C object 'gio/tests/gdbus-overflow@exe/gdbus-overflow.c.o'.
+[490/902] Compiling C object 'gio/gio-2.0@sha/gunixconnection.c.o'.
+[491/902] Compiling C object 'gio/gio-2.0@sha/gunixcredentialsmessage.c.o'.
+[492/902] Compiling C object 'gio/gio-2.0@sha/gunixfdlist.c.o'.
+[493/902] Compiling C object 'gio/gio-2.0@sha/gunixfdmessage.c.o'.
+[494/902] Compiling C object 'gio/gio-2.0@sha/gunixmount.c.o'.
+[495/902] Compiling C object 'gio/gio-2.0@sha/gunixsocketaddress.c.o'.
+[496/902] Compiling C object 'gio/gio-2.0@sha/gunixmounts.c.o'.
+[497/902] Compiling C object 'gio/gio-2.0@sha/gunixvolume.c.o'.
+[498/902] Compiling C object 'gio/gio-2.0@sha/gunixvolumemonitor.c.o'.
+[499/902] Compiling C object 'gio/gio-2.0@sha/gunixinputstream.c.o'.
+[500/902] Compiling C object 'gio/gio-2.0@sha/gunixoutputstream.c.o'.
+[501/902] Compiling C object 'gio/gio-2.0@sha/gfdonotificationbackend.c.o'.
+[502/902] Compiling C object 'gio/gio-2.0@sha/ggtknotificationbackend.c.o'.
+[503/902] Compiling C object 'gio/gio-2.0@sha/gnetworkmonitornm.c.o'.
+[504/902] Compiling C object 'gio/gio-2.0@sha/gnetworkmonitornetlink.c.o'.
+[505/902] Compiling C object 'gio/gio-2.0@sha/gdbusdaemon.c.o'.
+[506/902] Compiling C object 'gio/gio-2.0@sha/gapplication.c.o'.
+[507/902] Compiling C object 'gio/gio-2.0@sha/gapplicationcommandline.c.o'.
+[508/902] Compiling C object 'gio/gio-2.0@sha/gapplicationimpl-dbus.c.o'.
+[509/902] Compiling C object 'gio/gio-2.0@sha/gactiongroup.c.o'.
+[510/902] Compiling C object 'gio/gio-2.0@sha/gactionmap.c.o'.
+[511/902] Compiling C object 'gio/gio-2.0@sha/gremoteactiongroup.c.o'.
+[512/902] Compiling C object 'gio/gio-2.0@sha/gsimpleactiongroup.c.o'.
+[513/902] Compiling C object 'gio/gio-2.0@sha/gactiongroupexporter.c.o'.
+[514/902] Compiling C object 'gio/gio-2.0@sha/gdbusactiongroup.c.o'.
+[515/902] Compiling C object 'gio/gio-2.0@sha/gaction.c.o'.
+[516/902] Compiling C object 'gio/gio-2.0@sha/gpropertyaction.c.o'.
+[517/902] Compiling C object 'gio/gio-2.0@sha/gsimpleaction.c.o'.
+[518/902] Compiling C object 'gio/gio-2.0@sha/gmenumodel.c.o'.
+[519/902] Compiling C object 'gio/gio-2.0@sha/gmenu.c.o'.
+[520/902] Compiling C object 'gio/gio-2.0@sha/gmenuexporter.c.o'.
+[521/902] Compiling C object 'gio/gio-2.0@sha/gdbusmenumodel.c.o'.
+[522/902] Compiling C object 'gio/gio-2.0@sha/gnotification.c.o'.
+[523/902] Compiling C object 'gio/gio-2.0@sha/gnotificationbackend.c.o'.
+[524/902] Compiling C object 'gio/gio-2.0@sha/gvdb_gvdb-reader.c.o'.
+[525/902] Compiling C object 'gio/gio-2.0@sha/gdelayedsettingsbackend.c.o'.
+[526/902] Compiling C object 'gio/gio-2.0@sha/gkeyfilesettingsbackend.c.o'.
+[527/902] Compiling C object 'gio/gio-2.0@sha/gmemorysettingsbackend.c.o'.
+[528/902] Compiling C object 'gio/gio-2.0@sha/gnullsettingsbackend.c.o'.
+[529/902] Compiling C object 'gio/gio-2.0@sha/gsettingsbackend.c.o'.
+[530/902] Compiling C object 'gio/gio-2.0@sha/gsettingsschema.c.o'.
+[531/902] Compiling C object 'gio/gio-2.0@sha/gsettings-mapping.c.o'.
+[532/902] Compiling C object 'gio/gio-2.0@sha/gsettings.c.o'.
+[533/902] Compiling C object 'gio/gio-2.0@sha/gdbusauth.c.o'.
+[534/902] Compiling C object 'gio/gio-2.0@sha/gdbusauthmechanism.c.o'.
+[535/902] Compiling C object 'gio/gio-2.0@sha/gdbusauthmechanismanon.c.o'.
+[536/902] Compiling C object 'gio/gio-2.0@sha/gdbusauthmechanismexternal.c.o'.
+[537/902] Compiling C object 'gio/gio-2.0@sha/gdbusauthmechanismsha1.c.o'.
+[538/902] Compiling C object 'gio/gio-2.0@sha/gdbuserror.c.o'.
+[539/902] Compiling C object 'gio/gio-2.0@sha/gdbusmessage.c.o'.
+[540/902] Compiling C object 'gio/gio-2.0@sha/gdbusconnection.c.o'.
+[541/902] Compiling C object 'gio/gio-2.0@sha/gdbusnameowning.c.o'.
+[542/902] Compiling C object 'gio/gio-2.0@sha/gdbusnamewatching.c.o'.
+[543/902] Compiling C object 'gio/gio-2.0@sha/gdbusproxy.c.o'.
+[544/902] Compiling C object 'gio/gio-2.0@sha/gdbusprivate.c.o'.
+[545/902] Compiling C object 'gio/gio-2.0@sha/gdbusintrospection.c.o'.
+[546/902] Compiling C object 'gio/gio-2.0@sha/gdbusmethodinvocation.c.o'.
+[547/902] Compiling C object 'gio/gio-2.0@sha/gdbusinterface.c.o'.
+[548/902] Compiling C object 'gio/gio-2.0@sha/gdbusserver.c.o'.
+[549/902] Compiling C object 'gio/gio-2.0@sha/gdbusobject.c.o'.
+[550/902] Compiling C object 'gio/gio-2.0@sha/gdbusinterfaceskeleton.c.o'.
+[551/902] Compiling C object 'gio/gio-2.0@sha/gdbusobjectskeleton.c.o'.
+[552/902] Compiling C object 'gio/gio-2.0@sha/gdbusobjectproxy.c.o'.
+[553/902] Compiling C object 'gio/gio-2.0@sha/gdbusobjectmanager.c.o'.
+[554/902] Compiling C object 'gio/gio-2.0@sha/gdbusobjectmanagerclient.c.o'.
+[555/902] Compiling C object 'gio/gio-2.0@sha/gdbusobjectmanagerserver.c.o'.
+[556/902] Compiling C object 'gio/gio-2.0@sha/gtestdbus.c.o'.
+[557/902] Compiling C object 'gio/gio-2.0@sha/gdocumentportal.c.o'.
+[558/902] Compiling C object 'gio/gio-2.0@sha/gopenuriportal.c.o'.
+[559/902] Compiling C object 'gio/gio-2.0@sha/gnetworkmonitorportal.c.o'.
+[560/902] Compiling C object 'gio/gio-2.0@sha/gproxyresolverportal.c.o'.
+[561/902] Compiling C object 'gio/gio-2.0@sha/gportalsupport.c.o'.
+[562/902] Compiling C object 'gio/gio-2.0@sha/gportalnotificationbackend.c.o'.
+[563/902] Compiling C object 'gio/gio-2.0@sha/ghttpproxy.c.o'.
+[564/902] Compiling C object 'gio/gio-2.0@sha/glocalfileenumerator.c.o'.
+[565/902] Compiling C object 'gio/gio-2.0@sha/glocalfile.c.o'.
+[566/902] Compiling C object 'gio/gio-2.0@sha/glocalfileinfo.c.o'.
+[567/902] Compiling C object 'gio/gio-2.0@sha/glocalfileinputstream.c.o'.
+[568/902] Compiling C object 'gio/gio-2.0@sha/glocalfilemonitor.c.o'.
+[569/902] Compiling C object 'gio/gio-2.0@sha/glocalfileoutputstream.c.o'.
+[570/902] Compiling C object 'gio/gio-2.0@sha/glocalfileiostream.c.o'.
+[571/902] Compiling C object 'gio/gio-2.0@sha/gsocks4proxy.c.o'.
+[572/902] Compiling C object 'gio/gio-2.0@sha/glocalvfs.c.o'.
+[573/902] Compiling C object 'gio/gio-2.0@sha/gsocks4aproxy.c.o'.
+[574/902] Compiling C object 'gio/gio-2.0@sha/gsocks5proxy.c.o'.
+[575/902] Compiling C object 'gio/gio-2.0@sha/thumbnail-verify.c.o'.
+[576/902] Compiling C object 'gio/tests/gdbus-serialization@exe/gdbus-tests.c.o'.
+[577/902] Compiling C object 'gio/tests/dbus-appinfo@exe/gdbus-tests.c.o'.
+[578/902] Compiling C object 'gio/tests/gdbus-test-codegen-old@exe/gdbus-test-codegen.c.o'.
+[579/902] Compiling C object 'gio/tests/gdbus-serialization@exe/gdbus-serialization.c.o'.
+[580/902] Compiling C object 'gio/tests/dbus-appinfo@exe/dbus-appinfo.c.o'.
+[581/902] Compiling C object 'gio/gio@exe/gio-tool.c.o'.
+[582/902] Compiling C object 'gio/gio@exe/gio-tool-cat.c.o'.
+[583/902] Compiling C object 'gio/gio@exe/gio-tool-copy.c.o'.
+[584/902] Compiling C object 'gio/gio@exe/gio-tool-info.c.o'.
+[585/902] Compiling C object 'gio/gio@exe/gio-tool-list.c.o'.
+[586/902] Compiling C object 'gio/tests/gdbus-test-codegen-old@exe/meson-generated_.._gdbus-test-codegen-generated.c.o'.
+[587/902] Linking target gio/libgio-2.0.so.0.5400.3.
+[588/902] Compiling C object 'gio/gio@exe/gio-tool-mime.c.o'.
+[589/902] Compiling C object 'gio/gio@exe/gio-tool-mkdir.c.o'.
+[590/902] Generating symbol file 'gio/gio-2.0@sha/gio/libgio-2.0.so.0.5400.3.symbols'.
+[591/902] Compiling C object 'gio/gio@exe/gio-tool-monitor.c.o'.
+[592/902] Linking target gio/tests/gapplication-example-open.
+[593/902] Linking target gio/tests/gdbus-daemon.
+[594/902] Linking target gio/tests/gdbus-example-export.
+[595/902] Compiling C object 'gio/gio@exe/gio-tool-move.c.o'.
+[596/902] Compiling C object 'gio/gio@exe/gio-tool-mount.c.o'.
+[597/902] Compiling C object 'gio/gio@exe/gio-tool-open.c.o'.
+[598/902] Compiling C object 'gio/gio@exe/gio-tool-rename.c.o'.
+[599/902] Compiling C object 'gio/gio@exe/gio-tool-save.c.o'.
+[600/902] Compiling C object 'gio/gio@exe/gio-tool-remove.c.o'.
+[601/902] Compiling C object 'gio/gio@exe/gio-tool-set.c.o'.
+[602/902] Compiling C object 'gio/gio@exe/gio-tool-trash.c.o'.
+[603/902] Compiling C object 'gio/gio@exe/gio-tool-tree.c.o'.
+[604/902] Compiling C object 'gio/gresource@exe/gresource-tool.c.o'.
+[605/902] Linking target gio/gio.
+[606/902] Linking target gio/gresource.
+[607/902] Compiling C object 'gio/gio-querymodules@exe/gio-querymodules.c.o'.
+[608/902] Linking target gio/gio-querymodules.
+[609/902] Compiling C object 'gio/glib-compile-schemas@exe/gvdb_gvdb-builder.c.o'.
+[610/902] Compiling C object 'gio/glib-compile-resources@exe/gvdb_gvdb-builder.c.o'.
+[611/902] Compiling C object 'gio/glib-compile-schemas@exe/glib-compile-schemas.c.o'.
+[612/902] Linking target gio/glib-compile-schemas.
+[613/902] Compiling C object 'gio/glib-compile-resources@exe/glib-compile-resources.c.o'.
+[614/902] Linking target gio/glib-compile-resources.
+[615/902] Compiling C object 'gio/gsettings@exe/gsettings-tool.c.o'.
+[616/902] Linking target gio/gsettings.
+[617/902] Compiling C object 'gio/gdbus@exe/gdbus-tool.c.o'.
+[618/902] Compiling C object 'gio/gapplication@exe/gapplication-tool.c.o'.
+[619/902] Linking target gio/gdbus.
+[620/902] Linking target gio/gapplication.
+[621/902] Compiling C object 'gio/tests/gdbus-test-codegen-old@exe/gdbus-sessionbus.c.o'.
+[622/902] Compiling C object 'gio/tests/gdbus-test-codegen-old@exe/gdbus-tests.c.o'.
+[623/902] Compiling C object 'gio/tests/gdbus-object-manager-example/libgdbus-example-objectmanager@sha/meson-generated_.._gdbus-example-objectmanager-generated.c.o'.
+[624/902] Linking target gio/tests/gdbus-test-codegen-old.
+[625/902] Linking target gio/tests/gdbus-object-manager-example/liblibgdbus-example-objectmanager.so.
+[626/902] Compiling C object 'gio/tests/gapplication-test@exe/gapplication.c.o'.
+[627/902] Compiling C object 'gio/tests/gapplication-test@exe/gdbus-sessionbus.c.o'.
+[628/902] Generating symbol file 'gio/tests/gdbus-object-manager-example/libgdbus-example-objectmanager@sha/gio/tests/gdbus-object-manager-example/liblibgdbus-example-objectmanager.so.symbols'.
+[629/902] Generating giotypefuncs.inc with a custom command.
+[630/902] Linking target gio/tests/gdbus-serialization.
+[631/902] Compiling C object 'gio/tests/dbus-appinfo@exe/gdbus-sessionbus.c.o'.
+[632/902] Compiling C object 'gio/tests/gapplication-test@exe/gdbus-tests.c.o'.
+[633/902] Linking target gio/tests/dbus-appinfo.
+[634/902] Linking target gio/tests/gapplication-test.
+[635/902] Linking target gio/tests/gdbus-overflow.
+[636/902] Compiling C object 'gio/tests/gdbus-connection-flush@exe/test-io-stream.c.o'.
+[637/902] Compiling C object 'gio/tests/gdbus-connection-flush@exe/gdbus-connection-flush.c.o'.
+[638/902] Compiling C object 'gio/tests/gdbus-connection-flush@exe/test-pipe-unix.c.o'.
+[639/902] Compiling C object 'gio/tests/gdbus-non-socket@exe/gdbus-non-socket.c.o'.
+[640/902] Linking target gio/tests/gdbus-connection-flush.
+[641/902] Compiling C object 'gio/tests/gdbus-non-socket@exe/gdbus-tests.c.o'.
+[642/902] Compiling C object 'gio/tests/gdbus-non-socket@exe/test-io-stream.c.o'.
+[643/902] Compiling C object 'gio/tests/gdbus-non-socket@exe/test-pipe-unix.c.o'.
+[644/902] Linking target gio/tests/gdbus-non-socket.
+[645/902] Compiling C object 'gio/tests/appmonitor@exe/appmonitor.c.o'.
+[646/902] Compiling C object 'gio/tests/gsettings-test@exe/gsettings.c.o'.
+[647/902] Linking target gio/tests/appmonitor.
+[648/902] Linking target gio/tests/gsettings-test.
+[649/902] Compiling C object 'gio/tests/async-close-output-stream@exe/async-close-output-stream.c.o'.
+[650/902] Linking target gio/tests/async-close-output-stream.
+[651/902] Compiling C object 'gio/tests/async-splice-output-stream@exe/async-splice-output-stream.c.o'.
+[652/902] Linking target gio/tests/async-splice-output-stream.
+[653/902] Compiling C object 'gio/tests/buffered-input-stream@exe/buffered-input-stream.c.o'.
+[654/902] Compiling C object 'gio/tests/buffered-output-stream@exe/buffered-output-stream.c.o'.
+[655/902] Linking target gio/tests/buffered-input-stream.
+[656/902] Linking target gio/tests/buffered-output-stream.
+[657/902] Compiling C object 'gio/tests/cancellable@exe/cancellable.c.o'.
+[658/902] Linking target gio/tests/cancellable.
+[659/902] Compiling C object 'gio/tests/contexts@exe/contexts.c.o'.
+[660/902] Linking target gio/tests/contexts.
+[661/902] Compiling C object 'gio/tests/contenttype@exe/contenttype.c.o'.
+[662/902] Linking target gio/tests/contenttype.
+[663/902] Compiling C object 'gio/tests/converter-stream@exe/converter-stream.c.o'.
+[664/902] Linking target gio/tests/converter-stream.
+[665/902] Compiling C object 'gio/tests/credentials@exe/credentials.c.o'.
+[666/902] Linking target gio/tests/credentials.
+[667/902] Compiling C object 'gio/tests/data-input-stream@exe/data-input-stream.c.o'.
+[668/902] Linking target gio/tests/data-input-stream.
+[669/902] Compiling C object 'gio/tests/data-output-stream@exe/data-output-stream.c.o'.
+[670/902] Linking target gio/tests/data-output-stream.
+[671/902] Compiling C object 'gio/tests/defaultvalue@exe/defaultvalue.c.o'.
+[672/902] Compiling C object 'gio/tests/fileattributematcher@exe/fileattributematcher.c.o'.
+[673/902] Linking target gio/tests/defaultvalue.
+[674/902] Linking target gio/tests/fileattributematcher.
+[675/902] Compiling C object 'gio/tests/filter-streams@exe/filter-streams.c.o'.
+[676/902] Compiling C object 'gio/tests/giomodule@exe/giomodule.c.o'.
+[677/902] Linking target gio/tests/filter-streams.
+[678/902] Linking target gio/tests/giomodule.
+[679/902] Compiling C object 'gio/tests/g-file@exe/g-file.c.o'.
+[680/902] Linking target gio/tests/g-file.
+[681/902] Compiling C object 'gio/tests/gsubprocess@exe/gsubprocess.c.o'.
+[682/902] Linking target gio/tests/gsubprocess.
+[683/902] Compiling C object 'gio/tests/g-file-info@exe/g-file-info.c.o'.
+[684/902] Linking target gio/tests/g-file-info.
+[685/902] Compiling C object 'gio/tests/g-icon@exe/g-icon.c.o'.
+[686/902] Linking target gio/tests/g-icon.
+[687/902] Compiling C object 'gio/tests/gdbus-addresses@exe/gdbus-addresses.c.o'.
+[688/902] Linking target gio/tests/gdbus-addresses.
+[689/902] Compiling C object 'gio/tests/gdbus-message@exe/gdbus-message.c.o'.
+[690/902] Linking target gio/tests/gdbus-message.
+[691/902] Compiling C object 'gio/tests/inet-address@exe/inet-address.c.o'.
+[692/902] Linking target gio/tests/inet-address.
+[693/902] Compiling C object 'gio/tests/io-stream@exe/io-stream.c.o'.
+[694/902] Linking target gio/tests/io-stream.
+[695/902] Compiling C object 'gio/tests/memory-input-stream@exe/memory-input-stream.c.o'.
+[696/902] Linking target gio/tests/memory-input-stream.
+[697/902] Compiling C object 'gio/tests/memory-output-stream@exe/memory-output-stream.c.o'.
+[698/902] Linking target gio/tests/memory-output-stream.
+[699/902] Compiling C object 'gio/tests/monitor@exe/monitor.c.o'.
+[700/902] Linking target gio/tests/monitor.
+[701/902] Compiling C object 'gio/tests/network-address@exe/network-address.c.o'.
+[702/902] Linking target gio/tests/network-address.
+[703/902] Compiling C object 'gio/tests/network-monitor@exe/network-monitor.c.o'.
+[704/902] Linking target gio/tests/network-monitor.
+[705/902] Compiling C object 'gio/tests/permission@exe/permission.c.o'.
+[706/902] Linking target gio/tests/permission.
+[707/902] Compiling C object 'gio/tests/pollable@exe/pollable.c.o'.
+[708/902] Linking target gio/tests/pollable.
+[709/902] Compiling C object 'gio/tests/proxy-test@exe/proxy-test.c.o'.
+[710/902] Compiling C object 'gio/tests/readwrite@exe/readwrite.c.o'.
+[711/902] Linking target gio/tests/proxy-test.
+[712/902] Linking target gio/tests/readwrite.
+[713/902] Compiling C object 'gio/tests/simple-async-result@exe/simple-async-result.c.o'.
+[714/902] Compiling C object 'gio/tests/simple-proxy@exe/simple-proxy.c.o'.
+[715/902] Linking target gio/tests/simple-async-result.
+[716/902] Linking target gio/tests/simple-proxy.
+[717/902] Compiling C object 'gio/tests/sleepy-stream@exe/sleepy-stream.c.o'.
+[718/902] Linking target gio/tests/sleepy-stream.
+[719/902] Compiling C object 'gio/tests/socket@exe/socket.c.o'.
+[720/902] Compiling C object 'gio/tests/socket-listener@exe/socket-listener.c.o'.
+[721/902] Linking target gio/tests/socket.
+[722/902] Linking target gio/tests/socket-listener.
+[723/902] Compiling C object 'gio/tests/socket-service@exe/socket-service.c.o'.
+[724/902] Compiling C object 'gio/tests/srvtarget@exe/srvtarget.c.o'.
+[725/902] Linking target gio/tests/socket-service.
+[726/902] Linking target gio/tests/srvtarget.
+[727/902] Compiling C object 'gio/tests/vfs@exe/vfs.c.o'.
+[728/902] Linking target gio/tests/vfs.
+[729/902] Compiling C object 'gio/tests/task@exe/task.c.o'.
+[730/902] Linking target gio/tests/task.
+[731/902] Compiling C object 'gio/tests/volumemonitor@exe/volumemonitor.c.o'.
+[732/902] Linking target gio/tests/volumemonitor.
+[733/902] Compiling C object 'gio/tests/glistmodel@exe/glistmodel.c.o'.
+[734/902] Linking target gio/tests/glistmodel.
+[735/902] Compiling C object 'gio/tests/testfilemonitor@exe/testfilemonitor.c.o'.
+[736/902] Linking target gio/tests/testfilemonitor.
+[737/902] Compiling C object 'gio/tests/thumbnail-verification@exe/thumbnail-verification.c.o'.
+[738/902] Linking target gio/tests/thumbnail-verification.
+[739/902] Compiling C object 'gio/tests/file@exe/file.c.o'.
+[740/902] Linking target gio/tests/file.
+[741/902] Compiling C object 'gio/tests/gdbus-peer@exe/meson-generated_.._gdbus-object-manager-example_gdbus-example-objectmanager-generated.c.o'.
+[742/902] Compiling C object 'gio/tests/gdbus-peer@exe/gdbus-peer.c.o'.
+[743/902] Compiling C object 'gio/tests/gdbus-peer-object-manager@exe/gdbus-peer-object-manager.c.o'.
+[744/902] Linking target gio/tests/gdbus-peer.
+[745/902] Linking target gio/tests/gdbus-peer-object-manager.
+[746/902] Compiling C object 'gio/tests/socket-address@exe/socket-address.c.o'.
+[747/902] Linking target gio/tests/socket-address.
+[748/902] Compiling C object 'gio/tests/live-g-file@exe/live-g-file.c.o'.
+[749/902] Linking target gio/tests/live-g-file.
+[750/902] Compiling C object 'gio/tests/stream-rw_all@exe/stream-rw_all.c.o'.
+[751/902] Linking target gio/tests/stream-rw_all.
+[752/902] Compiling C object 'gio/tests/unix-fd@exe/unix-fd.c.o'.
+[753/902] Linking target gio/tests/unix-fd.
+[754/902] Compiling C object 'gio/tests/unix-streams@exe/unix-streams.c.o'.
+[755/902] Linking target gio/tests/unix-streams.
+[756/902] Compiling C object 'gio/tests/gschema-compile@exe/gschema-compile.c.o'.
+[757/902] Linking target gio/tests/gschema-compile.
+[758/902] Compiling C object 'gio/tests/appinfo@exe/appinfo.c.o'.
+[759/902] Linking target gio/tests/appinfo.
+[760/902] Compiling C object 'gio/tests/desktop-app-info@exe/desktop-app-info.c.o'.
+[761/902] Linking target gio/tests/desktop-app-info.
+[762/902] Compiling C object 'gio/tests/mimeapps@exe/mimeapps.c.o'.
+[763/902] Compiling C object 'gio/tests/gdbus-unix-addresses@exe/gdbus-unix-addresses.c.o'.
+[764/902] Linking target gio/tests/mimeapps.
+[765/902] Linking target gio/tests/gdbus-unix-addresses.
+[766/902] Compiling C object 'gio/tests/autoptr-gio@exe/autoptr.c.o'.
+[767/902] Compiling C object 'gio/tests/gio-du@exe/gio-du.c.o'.
+[768/902] Linking target gio/tests/autoptr-gio.
+[769/902] Linking target gio/tests/gio-du.
+[770/902] Compiling C object 'gio/tests/echo-server@exe/echo-server.c.o'.
+[771/902] Linking target gio/tests/echo-server.
+[772/902] Compiling C object 'gio/tests/filter-cat@exe/filter-cat.c.o'.
+[773/902] Linking target gio/tests/filter-cat.
+[774/902] Compiling C object 'gio/tests/gapplication-example-actions@exe/gapplication-example-actions.c.o'.
+[775/902] Compiling C object 'gio/tests/gapplication-example-cmdline@exe/gapplication-example-cmdline.c.o'.
+[776/902] Linking target gio/tests/gapplication-example-actions.
+[777/902] Linking target gio/tests/gapplication-example-cmdline.
+[778/902] Compiling C object 'gio/tests/gapplication-example-cmdline2@exe/gapplication-example-cmdline2.c.o'.
+[779/902] Compiling C object 'gio/tests/gapplication-example-cmdline3@exe/gapplication-example-cmdline3.c.o'.
+[780/902] Linking target gio/tests/gapplication-example-cmdline2.
+[781/902] Linking target gio/tests/gapplication-example-cmdline3.
+[782/902] Linking target gio/tests/gdbus-example-own-name.
+[783/902] Compiling C object 'gio/tests/gapplication-example-dbushooks@exe/gapplication-example-dbushooks.c.o'.
+[784/902] Linking target gio/tests/gapplication-example-dbushooks.
+[785/902] Compiling C object 'gio/tests/gdbus-example-peer@exe/gdbus-example-peer.c.o'.
+[786/902] Linking target gio/tests/gdbus-example-peer.
+[787/902] Compiling C object 'gio/tests/gdbus-example-proxy-subclass@exe/gdbus-example-proxy-subclass.c.o'.
+[788/902] Linking target gio/tests/gdbus-example-proxy-subclass.
+[789/902] Compiling C object 'gio/tests/gdbus-example-server@exe/gdbus-example-server.c.o'.
+[790/902] Linking target gio/tests/gdbus-example-server.
+[791/902] Compiling C object 'gio/tests/gdbus-example-subtree@exe/gdbus-example-subtree.c.o'.
+[792/902] Linking target gio/tests/gdbus-example-subtree.
+[793/902] Compiling C object 'gio/tests/gdbus-example-watch-name@exe/gdbus-example-watch-name.c.o'.
+[794/902] Linking target gio/tests/gdbus-example-watch-name.
+[795/902] Compiling C object 'gio/tests/gdbus-example-watch-proxy@exe/gdbus-example-watch-proxy.c.o'.
+[796/902] Linking target gio/tests/gdbus-example-watch-proxy.
+[797/902] Compiling C object 'gio/tests/gsubprocess-testprog@exe/gsubprocess-testprog.c.o'.
+[798/902] Linking target gio/tests/gsubprocess-testprog.
+[799/902] Compiling C object 'gio/tests/httpd@exe/httpd.c.o'.
+[800/902] Linking target gio/tests/httpd.
+[801/902] Compiling C object 'gio/tests/proxy@exe/proxy.c.o'.
+[802/902] Linking target gio/tests/proxy.
+[803/902] Compiling C object 'gio/tests/resolver@exe/resolver.c.o'.
+[804/902] Linking target gio/tests/resolver.
+[805/902] Compiling C object 'gio/tests/send-data@exe/send-data.c.o'.
+[806/902] Linking target gio/tests/send-data.
+[807/902] Compiling C object 'gio/tests/socket-server@exe/socket-server.c.o'.
+[808/902] Linking target gio/tests/socket-server.
+[809/902] Compiling C object 'gio/tests/socket-client@exe/socket-client.c.o'.
+[810/902] Compiling C object 'gio/tests/socket-client@exe/gtlsconsoleinteraction.c.o'.
+[811/902] Linking target gio/tests/socket-client.
+[812/902] Compiling C object 'gio/tests/tls-certificate@exe/tls-certificate.c.o'.
+[813/902] Compiling C object 'gio/tests/tls-certificate@exe/gtesttlsbackend.c.o'.
+[814/902] Linking target gio/tests/tls-certificate.
+[815/902] Compiling C object 'gio/tests/tls-interaction@exe/tls-interaction.c.o'.
+[816/902] Compiling C object 'gio/tests/tls-interaction@exe/gtesttlsbackend.c.o'.
+[817/902] Linking target gio/tests/tls-interaction.
+[818/902] Compiling C object 'gio/tests/gdbus-example-objectmanager-client@exe/gdbus-example-objectmanager-client.c.o'.
+[819/902] Compiling C object 'gio/tests/gdbus-example-objectmanager-client@exe/meson-generated_.._gdbus-object-manager-example_gdbus-example-objectmanager-generated.c.o'.
+[820/902] Linking target gio/tests/gdbus-example-objectmanager-client.
+[821/902] Compiling C object 'gio/tests/gdbus-example-objectmanager-server@exe/gdbus-example-objectmanager-server.c.o'.
+[822/902] Compiling C object 'gio/tests/gdbus-example-objectmanager-server@exe/meson-generated_.._gdbus-object-manager-example_gdbus-example-objectmanager-generated.c.o'.
+[823/902] Linking target gio/tests/gdbus-example-objectmanager-server.
+[824/902] Compiling C object 'gio/tests/gdbus-test-fixture@exe/gdbus-test-fixture.c.o'.
+[825/902] Compiling C object 'gio/tests/gdbus-test-fixture@exe/meson-generated_.._gdbus-object-manager-example_gdbus-example-objectmanager-generated.c.o'.
+[826/902] Linking target gio/tests/gdbus-test-fixture.
+[827/902] Compiling C object 'gio/tests/gdbus-example-unix-fd-client@exe/gdbus-example-unix-fd-client.c.o'.
+[828/902] Linking target gio/tests/gdbus-example-unix-fd-client.
+[829/902] Compiling C object 'gio/tests/gdbus-connection-flush-helper@exe/gdbus-connection-flush-helper.c.o'.
+[830/902] Linking target gio/tests/gdbus-connection-flush-helper.
+[831/902] Compiling C object 'gio/tests/gdbus-testserver@exe/gdbus-testserver.c.o'.
+[832/902] Compiling C object 'gio/tests/basic-application@exe/basic-application.c.o'.
+[833/902] Linking target gio/tests/gdbus-testserver.
+[834/902] Linking target gio/tests/basic-application.
+[835/902] Compiling C object 'gio/tests/dbus-launch@exe/dbus-launch.c.o'.
+[836/902] Linking target gio/tests/dbus-launch.
+[837/902] Compiling C object 'gio/tests/appinfo-test@exe/appinfo-test.c.o'.
+[838/902] Linking target gio/tests/appinfo-test.
+[839/902] Generating plugin-resources.c with a custom command.
+[840/902] Compiling C object 'gio/tests/apps@exe/apps.c.o'.
+[841/902] Linking target gio/tests/apps.
+[842/902] Compiling C object 'gio/tests/resourceplugin@sha/meson-generated_.._plugin-resources.c.o'.
+[843/902] Generating test.gresource with a custom command.
+[844/902] Generating test_resources2.c with a custom command.
+[845/902] Generating test_resources2.h with a custom command.
+[846/902] Generating test_resources.c with a custom command.
+[847/902] Compiling C object 'gio/tests/resourceplugin@sha/resourceplugin.c.o'.
+[848/902] Linking target gio/tests/libresourceplugin.so.
+[849/902] Compiling C object 'gio/tests/resources@exe/meson-generated_.._test_resources.c.o'.
+[850/902] Compiling C object 'gio/tests/resources@exe/meson-generated_.._test_resources2.c.o'.
+[851/902] Compiling C object 'gio/tests/resources@exe/resources.c.o'.
+[852/902] Compiling C object 'gio/tests/modules/testmodulea@sha/test-module-a.c.o'.
+[853/902] Linking target gio/tests/resources.
+[854/902] Linking target gio/tests/modules/libtestmodulea.so.
+[855/902] Linking target tests/gobject/deftype-gobject.
+[856/902] Compiling C object 'gio/tests/modules/testmoduleb@sha/test-module-b.c.o'.
+[857/902] Compiling C object 'tests/gobject/defaultiface-gobject@exe/defaultiface.c.o'.
+[858/902] Linking target gio/tests/modules/libtestmoduleb.so.
+[859/902] Compiling C object 'tests/gobject/defaultiface-gobject@exe/testmodule.c.o'.
+[860/902] Compiling C object 'tests/gobject/dynamictype-gobject@exe/dynamictype.c.o'.
+[861/902] Linking target tests/gobject/defaultiface-gobject.
+[862/902] Compiling C object 'tests/gobject/dynamictype-gobject@exe/testmodule.c.o'.
+[863/902] Compiling C object 'tests/gobject/override-gobject@exe/override.c.o'.
+[864/902] Linking target tests/gobject/dynamictype-gobject.
+[865/902] Linking target tests/gobject/override-gobject.
+[866/902] Compiling C object 'tests/gobject/signals-gobject@exe/signals.c.o'.
+[867/902] Compiling C object 'tests/gobject/singleton-gobject@exe/singleton.c.o'.
+[868/902] Linking target tests/gobject/signals-gobject.
+[869/902] Linking target tests/gobject/singleton-gobject.
+[870/902] Compiling C object 'tests/gobject/references-gobject@exe/references.c.o'.
+[871/902] Compiling C object 'tests/gobject/accumulator-gobject@exe/meson-generated_.._testmarshal.c.o'.
+[872/902] Linking target tests/gobject/references-gobject.
+[873/902] Compiling C object 'tests/gobject/accumulator-gobject@exe/accumulator.c.o'.
+[874/902] Linking target tests/gobject/accumulator-gobject.
+[875/902] Compiling C object 'tests/gobject/performance@exe/performance.c.o'.
+[876/902] Linking target tests/gobject/performance.
+[877/902] Compiling C object 'tests/gobject/performance-threaded@exe/performance-threaded.c.o'.
+[878/902] Linking target tests/gobject/performance-threaded.
+[879/902] Compiling C object 'tests/gobject/timeloop-closure@exe/timeloop-closure.c.o'.
+[880/902] Linking target tests/gobject/timeloop-closure.
+[881/902] Compiling C object 'tests/refcount/closures-test@exe/closures.c.o'.
+[882/902] Compiling C object 'tests/refcount/objects-test@exe/objects.c.o'.
+[883/902] Linking target tests/refcount/closures-test.
+[884/902] Linking target tests/refcount/objects-test.
+[885/902] Compiling C object 'tests/refcount/objects2-test@exe/objects2.c.o'.
+[886/902] Compiling C object 'tests/refcount/properties-test@exe/properties.c.o'.
+[887/902] Linking target tests/refcount/objects2-test.
+[888/902] Linking target tests/refcount/properties-test.
+[889/902] Compiling C object 'tests/refcount/properties2-test@exe/properties2.c.o'.
+[890/902] Compiling C object 'tests/refcount/properties3-test@exe/properties3.c.o'.
+[891/902] Linking target tests/refcount/properties2-test.
+[892/902] Linking target tests/refcount/properties3-test.
+[893/902] Compiling C object 'tests/refcount/properties4-test@exe/properties4.c.o'.
+[894/902] Linking target tests/refcount/properties4-test.
+[895/902] Compiling C object 'tests/refcount/signal1-test@exe/signals.c.o'.
+[896/902] Linking target tests/refcount/signal1-test.
+[897/902] Compiling C object 'tests/refcount/signal2-test@exe/signals.c.o'.
+[898/902] Linking target tests/refcount/signal2-test.
+[899/902] Compiling C object 'tests/refcount/signal3-test@exe/signals.c.o'.
+[900/902] Linking target tests/refcount/signal3-test.
+[901/902] Compiling C object 'tests/refcount/signal4-test@exe/signals.c.o'.
+[902/902] Linking target tests/refcount/signal4-test.

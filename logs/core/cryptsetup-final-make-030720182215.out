@@ -1,0 +1,86 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5'
+Making all in lib
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+Making all in crypto_backend
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+  CC       libcrypto_backend_la-crypto_cipher_kernel.lo
+  CC       libcrypto_backend_la-crypto_storage.lo
+  CC       libcrypto_backend_la-pbkdf_check.lo
+  CC       libcrypto_backend_la-crc32.lo
+  CC       libcrypto_backend_la-crypto_gcrypt.lo
+  CCLD     libcrypto_backend.la
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+Making all in luks1
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+  CC       libluks1_la-af.lo
+  CC       libluks1_la-keymanage.lo
+  CC       libluks1_la-keyencryption.lo
+  CCLD     libluks1.la
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+Making all in loopaes
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+  CC       libloopaes_la-loopaes.lo
+  CCLD     libloopaes.la
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+Making all in verity
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+  CC       libverity_la-verity_hash.lo
+  CC       libverity_la-verity.lo
+  CCLD     libverity.la
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+Making all in tcrypt
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+  CC       libtcrypt_la-tcrypt.lo
+  CCLD     libtcrypt.la
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+  CC       libcryptsetup_la-setup.lo
+  CC       libcryptsetup_la-utils.lo
+  CC       libcryptsetup_la-utils_benchmark.lo
+  CC       libcryptsetup_la-utils_crypt.lo
+  CC       libcryptsetup_la-utils_loop.lo
+  CC       libcryptsetup_la-utils_devpath.lo
+  CC       libcryptsetup_la-utils_wipe.lo
+  CC       libcryptsetup_la-utils_fips.lo
+  CC       libcryptsetup_la-utils_device.lo
+  CC       libcryptsetup_la-libdevmapper.lo
+  CC       libcryptsetup_la-volumekey.lo
+  CC       libcryptsetup_la-random.lo
+  CC       libcryptsetup_la-crypt_plain.lo
+  CCLD     libcryptsetup.la
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+  CC       cryptsetup-utils_crypt.o
+  CC       cryptsetup-utils_loop.o
+  CC       cryptsetup-utils_tools.o
+  CC       cryptsetup-utils_password.o
+  CC       cryptsetup-cryptsetup.o
+  CCLD     cryptsetup
+  CC       veritysetup-utils_crypt.o
+  CC       veritysetup-utils_loop.o
+  CC       veritysetup-utils_tools.o
+  CC       veritysetup-veritysetup.o
+  CCLD     veritysetup
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+Making all in python
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+Making all in po
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/po'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5'

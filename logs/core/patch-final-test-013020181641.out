@@ -1,0 +1,78 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/patch-2.7.5/build'
+Making check in lib
+make[2]: Entering directory '/sources/patch-2.7.5/build/lib'
+make  check-am
+make[3]: Entering directory '/sources/patch-2.7.5/build/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/patch-2.7.5/build/lib'
+make[2]: Leaving directory '/sources/patch-2.7.5/build/lib'
+Making check in src
+make[2]: Entering directory '/sources/patch-2.7.5/build/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/patch-2.7.5/build/src'
+Making check in tests
+make[2]: Entering directory '/sources/patch-2.7.5/build/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/patch-2.7.5/build/tests'
+make[4]: Entering directory '/sources/patch-2.7.5/build/tests'
+PASS: asymmetric-hunks
+PASS: backup-prefix-suffix
+PASS: bad-filenames
+PASS: bad-usage
+PASS: concat-git-diff
+PASS: copy-rename
+PASS: corrupt-reject-files
+PASS: create-delete
+PASS: create-directory
+PASS: criss-cross
+PASS: crlf-handling
+XFAIL: dash-o-append
+PASS: empty-files
+PASS: fifo
+PASS: file-modes
+PASS: filename-choice
+PASS: git-binary-diff
+PASS: garbage
+PASS: global-reject-files
+PASS: inname
+PASS: line-numbers
+PASS: merge
+PASS: mangled-numbers-abort
+PASS: mixed-patch-types
+PASS: munged-context-format
+PASS: need-filename
+PASS: no-mode-change-git-diff
+PASS: no-newline-triggers-assert
+PASS: preserve-c-function-names
+PASS: preserve-mode-and-timestamp
+PASS: quoted-filenames
+SKIP: read-only-files
+PASS: reject-format
+PASS: remember-backup-files
+PASS: remember-reject-files
+PASS: remove-directories
+PASS: symlinks
+PASS: unmodified-files
+PASS: deep-directories
+make[5]: Entering directory '/sources/patch-2.7.5/build/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/patch-2.7.5/build/tests'
+============================================================================
+Testsuite summary for GNU patch 2.7.5
+============================================================================
+# TOTAL: 39
+# PASS:  37
+# SKIP:  1
+# XFAIL: 1
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/patch-2.7.5/build/tests'
+make[3]: Leaving directory '/sources/patch-2.7.5/build/tests'
+make[2]: Leaving directory '/sources/patch-2.7.5/build/tests'
+make[2]: Entering directory '/sources/patch-2.7.5/build'
+make[2]: Leaving directory '/sources/patch-2.7.5/build'
+make[1]: Leaving directory '/sources/patch-2.7.5/build'

@@ -1,0 +1,67 @@
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/src'
+make  check-am
+make[2]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/src'
+Making check in tests
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make -k check_all
+make[3]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+  CC       check_all.o
+  CC       check_public.o
+  CCLD     check_all
+make[3]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make -k check-TESTS check-local
+make[3]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make[4]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+PASS: check_all
+============================================================================
+Testsuite summary for libxcb 1.12
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+rm -f CheckLog.html
+if test xyes = xyes; then \
+	/usr/bin/xsltproc ./CheckLog.xsl CheckLog*.xml > CheckLog.html; \
+else \
+	touch CheckLog.html; \
+fi
+make[3]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/doc'
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/man'
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/libxcb-1.12'
+make[3]: Entering directory '/lfskernel/sources/boot/libxcb-1.12'
+PASS: check-pc-requires
+============================================================================
+Testsuite summary for libxcb 1.12
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12'

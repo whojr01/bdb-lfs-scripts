@@ -1,0 +1,9 @@
+make  all-am
+make[1]: Entering directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+depbase=`echo xmlif/xmlif.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT xmlif/xmlif.o -MD -MP -MF $depbase.Tpo -c -o xmlif/xmlif.o ../xmlif/xmlif.c &&\
+mv -f $depbase.Tpo $depbase.Po
+xmlif/xmlif.l:46:8: warning: type defaults to 'int' in declaration of 'ifsense' [-Wimplicit-int]
+xmlif/xmlif.l:243:1: warning: return type defaults to 'int' [-Wimplicit-int]
+gcc  -g -O2   -o xmlif/xmlif xmlif/xmlif.o  
+make[1]: Leaving directory '/lfskernel/sources/boot/xmlto-0.0.28/build'

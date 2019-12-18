@@ -1,0 +1,140 @@
+Making install in lib
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+Making install in crypto_backend
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+Making install in luks1
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+Making install in loopaes
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+Making install in verity
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+Making install in tcrypt
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+make[3]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcryptsetup.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libcryptsetup.so.4.7.0 /usr/lib/libcryptsetup.so.4.7.0
+libtool: install: (cd /usr/lib && { ln -s -f libcryptsetup.so.4.7.0 libcryptsetup.so.4 || { rm -f libcryptsetup.so.4 && ln -s libcryptsetup.so.4.7.0 libcryptsetup.so.4; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libcryptsetup.so.4.7.0 libcryptsetup.so || { rm -f libcryptsetup.so && ln -s libcryptsetup.so.4.7.0 libcryptsetup.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcryptsetup.lai /usr/lib/libcryptsetup.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 libcryptsetup.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libcryptsetup.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+ /bin/mkdir -p '/usr/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c cryptsetup veritysetup '/usr/sbin'
+libtool: install: /usr/bin/install -c .libs/cryptsetup /usr/sbin/cryptsetup
+libtool: install: /usr/bin/install -c .libs/veritysetup /usr/sbin/veritysetup
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 cryptsetup.8 veritysetup.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+Making install in python
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+Making install in tests
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+Making install in po
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/po'
+/bin/mkdir -p /usr/share
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/cryptsetup.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/cryptsetup.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/cryptsetup.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/cryptsetup.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/cryptsetup.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/cryptsetup.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/cryptsetup.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/cryptsetup.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/cryptsetup.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/cryptsetup.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/cryptsetup.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/cryptsetup.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/cryptsetup.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/cryptsetup.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/cryptsetup.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/cryptsetup.mo
+if test "cryptsetup" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/po'
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5'

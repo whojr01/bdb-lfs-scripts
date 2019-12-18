@@ -1,0 +1,228 @@
+Making install in gl
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/gl'
+Making install in lib
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+make  install-recursive
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+make[4]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+make[5]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh ../../../build-aux/mkinstalldirs /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /tools/lib/charset.tmp ; \
+    /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+make[4]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/gl/lib'
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/gl'
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/gl'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/gl'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/gl'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/gl'
+Making install in tests
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+make  install-recursive
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+Making install in .
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+make[4]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/tests'
+Making install in build-aux
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/build-aux'
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/build-aux'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/build-aux'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/build-aux'
+Making install in lib
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/lib'
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/lib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/lib'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/lib'
+Making install in find
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/find'
+Making install in .
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/find'
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/find'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c find '/tools/bin'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 ../../find/find.1 '/tools/share/man/man1'
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/find'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/find'
+Making install in testsuite
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/find/testsuite'
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/find/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/find/testsuite'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/find/testsuite'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/find'
+Making install in xargs
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/xargs'
+Making install in .
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/xargs'
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/xargs'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c xargs '/tools/bin'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 ../../xargs/xargs.1 '/tools/share/man/man1'
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/xargs'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/xargs'
+Making install in testsuite
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/xargs/testsuite'
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/xargs/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/xargs/testsuite'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/xargs/testsuite'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/xargs'
+Making install in locate
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+echo '@set LOCATE_DB /tools/var/locatedb' > dblocation.texi.tmp
+if test -f dblocation.texi && cmp dblocation.texi.tmp dblocation.texi >/dev/null ; then \
+    rm dblocation.texi.tmp ; \
+else \
+    mv dblocation.texi.tmp dblocation.texi ; \
+fi
+make  install-recursive
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+Making install in .
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+make[4]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c locate '/tools/bin'
+ /tools/bin/mkdir -p '/tools/bin'
+ /tools/bin/install -c updatedb '/tools/bin'
+ /tools/bin/mkdir -p '/tools/libexec'
+  /tools/bin/install -c frcode code bigram '/tools/libexec'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 ../../locate/locate.1 ../../locate/updatedb.1 '/tools/share/man/man1'
+ /tools/bin/mkdir -p '/tools/share/man/man5'
+ /tools/bin/install -c -m 644 ../../locate/locatedb.5 '/tools/share/man/man5'
+make  install-data-hook
+make[5]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+../../build-aux/mkinstalldirs /tools/var
+make[5]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+make[4]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+Making install in testsuite
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/locate/testsuite'
+make[4]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/locate/testsuite'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/locate/testsuite'
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/locate/testsuite'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/locate'
+Making install in doc
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/doc'
+make  install-am
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/doc'
+make[3]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/info'
+ /tools/bin/install -c -m 644 ../../doc/find.info ../../doc/find.info-1 ../../doc/find.info-2 ../../doc/find-maint.info '/tools/share/info'
+make[3]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/doc'
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/doc'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/doc'
+Making install in po
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/po'
+installing ../../po/be.gmo as /tools/share/locale/be/LC_MESSAGES/findutils.mo
+installing ../../po/bg.gmo as /tools/share/locale/bg/LC_MESSAGES/findutils.mo
+installing ../../po/cs.gmo as /tools/share/locale/cs/LC_MESSAGES/findutils.mo
+installing ../../po/ca.gmo as /tools/share/locale/ca/LC_MESSAGES/findutils.mo
+installing ../../po/da.gmo as /tools/share/locale/da/LC_MESSAGES/findutils.mo
+installing ../../po/de.gmo as /tools/share/locale/de/LC_MESSAGES/findutils.mo
+installing ../../po/el.gmo as /tools/share/locale/el/LC_MESSAGES/findutils.mo
+installing ../../po/eo.gmo as /tools/share/locale/eo/LC_MESSAGES/findutils.mo
+installing ../../po/es.gmo as /tools/share/locale/es/LC_MESSAGES/findutils.mo
+installing ../../po/et.gmo as /tools/share/locale/et/LC_MESSAGES/findutils.mo
+installing ../../po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/findutils.mo
+installing ../../po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/findutils.mo
+installing ../../po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/findutils.mo
+installing ../../po/gl.gmo as /tools/share/locale/gl/LC_MESSAGES/findutils.mo
+installing ../../po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/findutils.mo
+installing ../../po/hu.gmo as /tools/share/locale/hu/LC_MESSAGES/findutils.mo
+installing ../../po/id.gmo as /tools/share/locale/id/LC_MESSAGES/findutils.mo
+installing ../../po/it.gmo as /tools/share/locale/it/LC_MESSAGES/findutils.mo
+installing ../../po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/findutils.mo
+installing ../../po/ko.gmo as /tools/share/locale/ko/LC_MESSAGES/findutils.mo
+installing ../../po/lg.gmo as /tools/share/locale/lg/LC_MESSAGES/findutils.mo
+installing ../../po/lt.gmo as /tools/share/locale/lt/LC_MESSAGES/findutils.mo
+installing ../../po/ms.gmo as /tools/share/locale/ms/LC_MESSAGES/findutils.mo
+installing ../../po/nb.gmo as /tools/share/locale/nb/LC_MESSAGES/findutils.mo
+installing ../../po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/findutils.mo
+installing ../../po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/findutils.mo
+installing ../../po/pt.gmo as /tools/share/locale/pt/LC_MESSAGES/findutils.mo
+installing ../../po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/findutils.mo
+installing ../../po/ro.gmo as /tools/share/locale/ro/LC_MESSAGES/findutils.mo
+installing ../../po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/findutils.mo
+installing ../../po/rw.gmo as /tools/share/locale/rw/LC_MESSAGES/findutils.mo
+installing ../../po/sk.gmo as /tools/share/locale/sk/LC_MESSAGES/findutils.mo
+installing ../../po/sl.gmo as /tools/share/locale/sl/LC_MESSAGES/findutils.mo
+installing ../../po/sr.gmo as /tools/share/locale/sr/LC_MESSAGES/findutils.mo
+installing ../../po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/findutils.mo
+installing ../../po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/findutils.mo
+installing ../../po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/findutils.mo
+installing ../../po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/findutils.mo
+installing ../../po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/findutils.mo
+installing ../../po/zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/findutils.mo
+if test "findutils" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ../../po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/po'
+Making install in m4
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/m4'
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/m4'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build/m4'
+make[1]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build'
+make[2]: Entering directory `/lfsbuild/sources/findutils-4.6.0/build'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build'
+make[1]: Leaving directory `/lfsbuild/sources/findutils-4.6.0/build'

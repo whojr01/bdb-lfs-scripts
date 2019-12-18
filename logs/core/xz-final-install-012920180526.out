@@ -1,0 +1,180 @@
+Making install in src
+make[1]: Entering directory '/sources/xz-5.2.3/build/src'
+Making install in liblzma
+make[2]: Entering directory '/sources/xz-5.2.3/build/src/liblzma'
+Making install in api
+make[3]: Entering directory '/sources/xz-5.2.3/build/src/liblzma/api'
+make[4]: Entering directory '/sources/xz-5.2.3/build/src/liblzma/api'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/include'
+ /tools/bin/mkdir -p '/usr/include/lzma'
+ /usr/bin/install -c -m 644  ../../../../src/liblzma/api/lzma/base.h ../../../../src/liblzma/api/lzma/bcj.h ../../../../src/liblzma/api/lzma/block.h ../../../../src/liblzma/api/lzma/check.h ../../../../src/liblzma/api/lzma/container.h ../../../../src/liblzma/api/lzma/delta.h ../../../../src/liblzma/api/lzma/filter.h ../../../../src/liblzma/api/lzma/hardware.h ../../../../src/liblzma/api/lzma/index.h ../../../../src/liblzma/api/lzma/index_hash.h ../../../../src/liblzma/api/lzma/lzma12.h ../../../../src/liblzma/api/lzma/stream_flags.h ../../../../src/liblzma/api/lzma/version.h ../../../../src/liblzma/api/lzma/vli.h '/usr/include/lzma'
+ /usr/bin/install -c -m 644  ../../../../src/liblzma/api/lzma.h '/usr/include/.'
+make[4]: Leaving directory '/sources/xz-5.2.3/build/src/liblzma/api'
+make[3]: Leaving directory '/sources/xz-5.2.3/build/src/liblzma/api'
+make[3]: Entering directory '/sources/xz-5.2.3/build/src/liblzma'
+make[4]: Entering directory '/sources/xz-5.2.3/build/src/liblzma'
+ /tools/bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   liblzma.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/liblzma.so.5.2.3 /usr/lib/liblzma.so.5.2.3
+libtool: install: (cd /usr/lib && { ln -s -f liblzma.so.5.2.3 liblzma.so.5 || { rm -f liblzma.so.5 && ln -s liblzma.so.5.2.3 liblzma.so.5; }; })
+libtool: install: (cd /usr/lib && { ln -s -f liblzma.so.5.2.3 liblzma.so || { rm -f liblzma.so && ln -s liblzma.so.5.2.3 liblzma.so; }; })
+libtool: install: /usr/bin/install -c .libs/liblzma.lai /usr/lib/liblzma.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /tools/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 liblzma.pc '/usr/lib/pkgconfig'
+make[4]: Leaving directory '/sources/xz-5.2.3/build/src/liblzma'
+make[3]: Leaving directory '/sources/xz-5.2.3/build/src/liblzma'
+make[2]: Leaving directory '/sources/xz-5.2.3/build/src/liblzma'
+Making install in xzdec
+make[2]: Entering directory '/sources/xz-5.2.3/build/src/xzdec'
+make[3]: Entering directory '/sources/xz-5.2.3/build/src/xzdec'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c xzdec lzmadec '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xzdec /usr/bin/xzdec
+libtool: install: /usr/bin/install -c .libs/lzmadec /usr/bin/lzmadec
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../../src/xzdec/xzdec.1 '/usr/share/man/man1'
+make  install-data-hook
+make[4]: Entering directory '/sources/xz-5.2.3/build/src/xzdec'
+cd /usr/share/man/man1 && \
+target=`echo xzdec | sed 's,x,x,'` && \
+link=`echo lzmadec | sed 's,x,x,'` && \
+rm -f $link.1 && \
+ln -s $target.1 $link.1
+make[4]: Leaving directory '/sources/xz-5.2.3/build/src/xzdec'
+make[3]: Leaving directory '/sources/xz-5.2.3/build/src/xzdec'
+make[2]: Leaving directory '/sources/xz-5.2.3/build/src/xzdec'
+Making install in xz
+make[2]: Entering directory '/sources/xz-5.2.3/build/src/xz'
+make[3]: Entering directory '/sources/xz-5.2.3/build/src/xz'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c xz '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xz /usr/bin/xz
+make  install-exec-hook
+make[4]: Entering directory '/sources/xz-5.2.3/build/src/xz'
+cd /usr/bin && \
+target=`echo xz | sed 's,x,x,'` && \
+for name in unxz xzcat lzma unlzma lzcat; do \
+	link=`echo $name | sed 's,x,x,'` && \
+	rm -f $link && \
+	ln -s $target $link; \
+done
+make[4]: Leaving directory '/sources/xz-5.2.3/build/src/xz'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../../src/xz/xz.1 '/usr/share/man/man1'
+make  install-data-hook
+make[4]: Entering directory '/sources/xz-5.2.3/build/src/xz'
+cd /usr/share/man/man1 && \
+target=`echo xz | sed 's,x,x,'` && \
+for name in unxz xzcat lzma unlzma lzcat; do \
+	link=`echo $name | sed 's,x,x,'` && \
+	rm -f $link.1 && \
+	ln -s $target.1 $link.1; \
+done
+make[4]: Leaving directory '/sources/xz-5.2.3/build/src/xz'
+make[3]: Leaving directory '/sources/xz-5.2.3/build/src/xz'
+make[2]: Leaving directory '/sources/xz-5.2.3/build/src/xz'
+Making install in lzmainfo
+make[2]: Entering directory '/sources/xz-5.2.3/build/src/lzmainfo'
+make[3]: Entering directory '/sources/xz-5.2.3/build/src/lzmainfo'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c lzmainfo '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/lzmainfo /usr/bin/lzmainfo
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../../src/lzmainfo/lzmainfo.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/xz-5.2.3/build/src/lzmainfo'
+make[2]: Leaving directory '/sources/xz-5.2.3/build/src/lzmainfo'
+Making install in scripts
+make[2]: Entering directory '/sources/xz-5.2.3/build/src/scripts'
+make[3]: Entering directory '/sources/xz-5.2.3/build/src/scripts'
+ /tools/bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c xzdiff xzgrep xzmore xzless '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/xz-5.2.3/build/src/scripts'
+cd /usr/bin && \
+for pair in xzdiff-xzcmp xzgrep-xzegrep xzgrep-xzfgrep xzdiff-lzdiff xzdiff-lzcmp xzgrep-lzgrep xzgrep-lzegrep xzgrep-lzfgrep xzmore-lzmore xzless-lzless; do \
+	target=`echo $pair | sed 's/-.*$//' | sed 's,x,x,'` && \
+	link=`echo $pair | sed 's/^.*-//' | sed 's,x,x,'` && \
+	rm -f $link && \
+	ln -s $target $link; \
+done
+make[4]: Leaving directory '/sources/xz-5.2.3/build/src/scripts'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../../src/scripts/xzdiff.1 ../../../src/scripts/xzgrep.1 ../../../src/scripts/xzmore.1 ../../../src/scripts/xzless.1 '/usr/share/man/man1'
+make  install-data-hook
+make[4]: Entering directory '/sources/xz-5.2.3/build/src/scripts'
+cd /usr/share/man/man1 && \
+for pair in xzdiff-xzcmp xzgrep-xzegrep xzgrep-xzfgrep xzdiff-lzdiff xzdiff-lzcmp xzgrep-lzgrep xzgrep-lzegrep xzgrep-lzfgrep xzmore-lzmore xzless-lzless; do \
+	target=`echo $pair | sed 's/-.*$//' | sed 's,x,x,'` && \
+	link=`echo $pair | sed 's/^.*-//' | sed 's,x,x,'` && \
+	rm -f $link.1 && \
+	ln -s $target.1 $link.1; \
+done
+make[4]: Leaving directory '/sources/xz-5.2.3/build/src/scripts'
+make[3]: Leaving directory '/sources/xz-5.2.3/build/src/scripts'
+make[2]: Leaving directory '/sources/xz-5.2.3/build/src/scripts'
+make[2]: Entering directory '/sources/xz-5.2.3/build/src'
+make[3]: Entering directory '/sources/xz-5.2.3/build/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/xz-5.2.3/build/src'
+make[2]: Leaving directory '/sources/xz-5.2.3/build/src'
+make[1]: Leaving directory '/sources/xz-5.2.3/build/src'
+Making install in po
+make[1]: Entering directory '/sources/xz-5.2.3/build/po'
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/xz.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/xz.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/xz.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/xz.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/xz.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/xz.mo
+if test "xz" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/xz-5.2.3/build/po'
+Making install in tests
+make[1]: Entering directory '/sources/xz-5.2.3/build/tests'
+make[2]: Entering directory '/sources/xz-5.2.3/build/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/xz-5.2.3/build/tests'
+make[1]: Leaving directory '/sources/xz-5.2.3/build/tests'
+make[1]: Entering directory '/sources/xz-5.2.3/build'
+make[2]: Entering directory '/sources/xz-5.2.3/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/doc/xz-5.2.3'
+ /usr/bin/install -c -m 644 ../AUTHORS ../COPYING ../COPYING.GPLv2 ../NEWS ../README ../THANKS ../TODO ../doc/faq.txt ../doc/history.txt ../doc/xz-file-format.txt ../doc/lzma-file-format.txt '/usr/share/doc/xz-5.2.3'
+ /tools/bin/mkdir -p '/usr/share/doc/xz-5.2.3/examples'
+ /usr/bin/install -c -m 644 ../doc/examples/00_README.txt ../doc/examples/01_compress_easy.c ../doc/examples/02_decompress.c ../doc/examples/03_compress_custom.c ../doc/examples/04_compress_easy_mt.c ../doc/examples/Makefile '/usr/share/doc/xz-5.2.3/examples'
+ /tools/bin/mkdir -p '/usr/share/doc/xz-5.2.3/examples_old'
+ /usr/bin/install -c -m 644 ../doc/examples_old/xz_pipe_comp.c ../doc/examples_old/xz_pipe_decomp.c '/usr/share/doc/xz-5.2.3/examples_old'
+make[2]: Leaving directory '/sources/xz-5.2.3/build'
+make[1]: Leaving directory '/sources/xz-5.2.3/build'

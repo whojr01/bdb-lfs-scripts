@@ -1,0 +1,100 @@
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/mesonbuild
+copying mesonbuild/mesonmain.py -> build/lib/mesonbuild
+copying mesonbuild/mesonlib.py -> build/lib/mesonbuild
+copying mesonbuild/__init__.py -> build/lib/mesonbuild
+copying mesonbuild/environment.py -> build/lib/mesonbuild
+copying mesonbuild/mlog.py -> build/lib/mesonbuild
+copying mesonbuild/mparser.py -> build/lib/mesonbuild
+copying mesonbuild/astinterpreter.py -> build/lib/mesonbuild
+copying mesonbuild/interpreter.py -> build/lib/mesonbuild
+copying mesonbuild/coredata.py -> build/lib/mesonbuild
+copying mesonbuild/linkers.py -> build/lib/mesonbuild
+copying mesonbuild/interpreterbase.py -> build/lib/mesonbuild
+copying mesonbuild/mintro.py -> build/lib/mesonbuild
+copying mesonbuild/mtest.py -> build/lib/mesonbuild
+copying mesonbuild/build.py -> build/lib/mesonbuild
+copying mesonbuild/mconf.py -> build/lib/mesonbuild
+copying mesonbuild/rewriter.py -> build/lib/mesonbuild
+copying mesonbuild/optinterpreter.py -> build/lib/mesonbuild
+creating build/lib/mesonbuild/backend
+copying mesonbuild/backend/__init__.py -> build/lib/mesonbuild/backend
+copying mesonbuild/backend/vs2015backend.py -> build/lib/mesonbuild/backend
+copying mesonbuild/backend/vs2010backend.py -> build/lib/mesonbuild/backend
+copying mesonbuild/backend/ninjabackend.py -> build/lib/mesonbuild/backend
+copying mesonbuild/backend/vs2017backend.py -> build/lib/mesonbuild/backend
+copying mesonbuild/backend/xcodebackend.py -> build/lib/mesonbuild/backend
+copying mesonbuild/backend/backends.py -> build/lib/mesonbuild/backend
+creating build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/fortran.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/objc.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/__init__.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/cs.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/vala.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/c.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/cpp.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/d.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/java.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/rust.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/swift.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/objcpp.py -> build/lib/mesonbuild/compilers
+copying mesonbuild/compilers/compilers.py -> build/lib/mesonbuild/compilers
+creating build/lib/mesonbuild/dependencies
+copying mesonbuild/dependencies/__init__.py -> build/lib/mesonbuild/dependencies
+copying mesonbuild/dependencies/ui.py -> build/lib/mesonbuild/dependencies
+copying mesonbuild/dependencies/dev.py -> build/lib/mesonbuild/dependencies
+copying mesonbuild/dependencies/misc.py -> build/lib/mesonbuild/dependencies
+copying mesonbuild/dependencies/platform.py -> build/lib/mesonbuild/dependencies
+copying mesonbuild/dependencies/base.py -> build/lib/mesonbuild/dependencies
+creating build/lib/mesonbuild/modules
+copying mesonbuild/modules/rpm.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/qt.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/python3.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/__init__.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/windows.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/unstable_simd.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/modtest.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/qt4.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/qt5.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/gnome.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/pkgconfig.py -> build/lib/mesonbuild/modules
+copying mesonbuild/modules/i18n.py -> build/lib/mesonbuild/modules
+creating build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/regen_checker.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/scanbuild.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/msgfmthelper.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/cleantrees.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/vcstagger.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/depfixer.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/__init__.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/symbolextractor.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/gettext.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/uninstall.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/yelphelper.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/dist.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/gtkdochelper.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/meson_install.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/meson_exe.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/coverage.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/dirchanger.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/commandrunner.py -> build/lib/mesonbuild/scripts
+copying mesonbuild/scripts/delwithsuffix.py -> build/lib/mesonbuild/scripts
+creating build/lib/mesonbuild/wrap
+copying mesonbuild/wrap/__init__.py -> build/lib/mesonbuild/wrap
+copying mesonbuild/wrap/wraptool.py -> build/lib/mesonbuild/wrap
+copying mesonbuild/wrap/wrap.py -> build/lib/mesonbuild/wrap
+running build_scripts
+creating build/scripts-3.6
+copying and adjusting meson.py -> build/scripts-3.6
+copying and adjusting mesonconf.py -> build/scripts-3.6
+copying and adjusting mesontest.py -> build/scripts-3.6
+copying and adjusting mesonintrospect.py -> build/scripts-3.6
+copying and adjusting wraptool.py -> build/scripts-3.6
+changing mode of build/scripts-3.6/meson.py from 644 to 755
+changing mode of build/scripts-3.6/mesonconf.py from 644 to 755
+changing mode of build/scripts-3.6/mesontest.py from 644 to 755
+changing mode of build/scripts-3.6/mesonintrospect.py from 644 to 755
+changing mode of build/scripts-3.6/wraptool.py from 644 to 755

@@ -1,0 +1,29 @@
+Making install in contrib
+make[1]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+Making install in request-key.d
+make[2]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+make[3]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+make[2]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+make[2]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[3]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[2]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[1]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[1]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7'
+make[2]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7'
+ /bin/mkdir -p '/usr/bin'
+ /bin/mkdir -p '/usr/sbin'
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 cifsidmap.h '/usr/include'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 mount.cifs.8 '/usr/share/man/man8'
+ /bin/mkdir -p '/sbin'
+  /usr/bin/install -c mount.cifs '/sbin'
+make[2]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7'

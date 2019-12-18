@@ -1,0 +1,1868 @@
+changed ownership of './hwclock' from root to nobody
+changed ownership of './delpart' from root to nobody
+changed ownership of './wdctl' from root to nobody
+changed ownership of './blkdiscard' from root to nobody
+changed ownership of './swapoff' from root to nobody
+changed ownership of './logger' from root to nobody
+changed ownership of './ionice' from root to nobody
+changed ownership of './nsenter' from root to nobody
+changed ownership of './col' from root to nobody
+changed ownership of './findfs' from root to nobody
+changed ownership of './renice' from root to nobody
+changed ownership of './raw' from root to nobody
+changed ownership of './libmount/src/libmount_la-tab_parse.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-context_umount.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-fs.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-init.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-cache.lo' from root to nobody
+changed ownership of './libmount/src/libmount.h' from root to nobody
+changed ownership of './libmount/src/libmount_la-test.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-utils.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-version.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-optmap.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-context_loopdev.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-lock.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-iter.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-tab_update.lo' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-utils.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-fs.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-init.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-tab_update.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-optmap.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-btrfs.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-test.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-lock.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-version.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-tab_diff.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-cache.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-monitor.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-optstr.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-tab.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-context_loopdev.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-iter.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-context_umount.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-context.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-context_mount.o' from root to nobody
+changed ownership of './libmount/src/.libs/libmount_la-tab_parse.o' from root to nobody
+changed ownership of './libmount/src/.libs' from root to nobody
+changed ownership of './libmount/src/libmount_la-tab.lo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_tab_update-tab_update.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-optstr.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-lock.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-optmap.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_debug-init.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-monitor.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_optstr-optstr.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-version.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-fs.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_tab_diff-tab_diff.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-tab_update.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_utils-utils.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-tab_diff.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_monitor-monitor.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-tab.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_version-version.Po' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_tab-tab.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-utils.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-context_mount.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-init.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-iter.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-btrfs.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-cache.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_context-context.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-context_umount.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-tab_parse.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/.dirstamp' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-test.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_cache-cache.Po' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-context.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/libmount_la-context_loopdev.Plo' from root to nobody
+changed ownership of './libmount/src/.deps/test_mount_lock-lock.Po' from root to nobody
+changed ownership of './libmount/src/.deps' from root to nobody
+changed ownership of './libmount/src/.dirstamp' from root to nobody
+changed ownership of './libmount/src/libmount_la-monitor.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-context_mount.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-optstr.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-btrfs.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-tab_diff.lo' from root to nobody
+changed ownership of './libmount/src/libmount_la-context.lo' from root to nobody
+changed ownership of './libmount/src' from root to nobody
+changed ownership of './libmount/docs/version.xml' from root to nobody
+changed ownership of './libmount/docs/Makefile' from root to nobody
+changed ownership of './libmount/docs' from root to nobody
+changed ownership of './libmount/mount.pc' from root to nobody
+changed ownership of './libmount/python/.deps/pylibmount_la-tab.Plo' from root to nobody
+changed ownership of './libmount/python/.deps/pylibmount_la-pylibmount.Plo' from root to nobody
+changed ownership of './libmount/python/.deps/pylibmount_la-context.Plo' from root to nobody
+changed ownership of './libmount/python/.deps/pylibmount_la-fs.Plo' from root to nobody
+changed ownership of './libmount/python/.deps' from root to nobody
+changed ownership of './libmount/python' from root to nobody
+changed ownership of './libmount' from root to nobody
+changed ownership of './column' from root to nobody
+changed ownership of './config.h' from root to nobody
+changed ownership of './dmesg' from root to nobody
+changed ownership of './mkfs.cramfs' from root to nobody
+changed ownership of './test.out' from root to nobody
+changed ownership of './misc-utils/uuidd.8' from root to nobody
+changed ownership of './misc-utils/uuidd-uuidd.o' from root to nobody
+changed ownership of './misc-utils/whereis.o' from root to nobody
+changed ownership of './misc-utils/blkid-blkid.o' from root to nobody
+changed ownership of './misc-utils/namei.o' from root to nobody
+changed ownership of './misc-utils/findmnt-findmnt.o' from root to nobody
+changed ownership of './misc-utils/uuidd.service' from root to nobody
+changed ownership of './misc-utils/mcookie.o' from root to nobody
+changed ownership of './misc-utils/findmnt-findmnt-verify.o' from root to nobody
+changed ownership of './misc-utils/uuidparse-uuidparse.o' from root to nobody
+changed ownership of './misc-utils/uuidgen-uuidgen.o' from root to nobody
+changed ownership of './misc-utils/fincore-fincore.o' from root to nobody
+changed ownership of './misc-utils/logger-logger.o' from root to nobody
+changed ownership of './misc-utils/kill.o' from root to nobody
+changed ownership of './misc-utils/wipefs-wipefs.o' from root to nobody
+changed ownership of './misc-utils/getopt.o' from root to nobody
+changed ownership of './misc-utils/findfs-findfs.o' from root to nobody
+changed ownership of './misc-utils/cal-cal.o' from root to nobody
+changed ownership of './misc-utils/lslocks-lslocks.o' from root to nobody
+changed ownership of './misc-utils/uuidd.socket' from root to nobody
+changed ownership of './misc-utils/.deps/logger-logger.Po' from root to nobody
+changed ownership of './misc-utils/.deps/fincore-fincore.Po' from root to nobody
+changed ownership of './misc-utils/.deps/blkid-blkid.Po' from root to nobody
+changed ownership of './misc-utils/.deps/uuidd-uuidd.Po' from root to nobody
+changed ownership of './misc-utils/.deps/getopt.Po' from root to nobody
+changed ownership of './misc-utils/.deps/rename.Po' from root to nobody
+changed ownership of './misc-utils/.deps/uuidgen-uuidgen.Po' from root to nobody
+changed ownership of './misc-utils/.deps/wipefs-wipefs.Po' from root to nobody
+changed ownership of './misc-utils/.deps/test_logger-logger.Po' from root to nobody
+changed ownership of './misc-utils/.deps/whereis.Po' from root to nobody
+changed ownership of './misc-utils/.deps/cal-cal.Po' from root to nobody
+changed ownership of './misc-utils/.deps/test_uuidd-test_uuidd.Po' from root to nobody
+changed ownership of './misc-utils/.deps/findmnt-findmnt-verify.Po' from root to nobody
+changed ownership of './misc-utils/.deps/namei.Po' from root to nobody
+changed ownership of './misc-utils/.deps/.dirstamp' from root to nobody
+changed ownership of './misc-utils/.deps/look.Po' from root to nobody
+changed ownership of './misc-utils/.deps/lslocks-lslocks.Po' from root to nobody
+changed ownership of './misc-utils/.deps/findmnt-findmnt.Po' from root to nobody
+changed ownership of './misc-utils/.deps/blkid_static-blkid.Po' from root to nobody
+changed ownership of './misc-utils/.deps/uuidparse-uuidparse.Po' from root to nobody
+changed ownership of './misc-utils/.deps/mcookie.Po' from root to nobody
+changed ownership of './misc-utils/.deps/kill.Po' from root to nobody
+changed ownership of './misc-utils/.deps/findfs-findfs.Po' from root to nobody
+changed ownership of './misc-utils/.deps/lsblk-lsblk.Po' from root to nobody
+changed ownership of './misc-utils/.deps' from root to nobody
+changed ownership of './misc-utils/.dirstamp' from root to nobody
+changed ownership of './misc-utils/look.o' from root to nobody
+changed ownership of './misc-utils/rename.o' from root to nobody
+changed ownership of './misc-utils/lsblk-lsblk.o' from root to nobody
+changed ownership of './misc-utils' from root to nobody
+changed ownership of './lsns' from root to nobody
+changed ownership of './pivot_root' from root to nobody
+changed ownership of './fsck' from root to nobody
+changed ownership of './rtcwake' from root to nobody
+changed ownership of './libfdisk.la' from root to nobody
+changed ownership of './swapon' from root to nobody
+changed ownership of './mount' from root to nobody
+changed ownership of './wipefs' from root to nobody
+changed ownership of './lscpu' from root to nobody
+changed ownership of './resizepart' from root to nobody
+changed ownership of './ctrlaltdel' from root to nobody
+changed ownership of './isosize' from root to nobody
+changed ownership of './last' from root to nobody
+changed ownership of './libmount.la' from root to nobody
+changed ownership of './getopt' from root to nobody
+changed ownership of './lsmem' from root to nobody
+changed ownership of './uuidd' from root to nobody
+changed ownership of './scriptreplay' from root to nobody
+changed ownership of './mkfs.bfs' from root to nobody
+changed ownership of './config.status' from root to nobody
+changed ownership of './hexdump' from root to nobody
+changed ownership of './tests/helpers/.deps/test_pathnames.Po' from root to nobody
+changed ownership of './tests/helpers/.deps/test_tiocsti.Po' from root to nobody
+changed ownership of './tests/helpers/.deps/test_uuid_namespace.Po' from root to nobody
+changed ownership of './tests/helpers/.deps/test_sysinfo.Po' from root to nobody
+changed ownership of './tests/helpers/.deps/test_sha1.Po' from root to nobody
+changed ownership of './tests/helpers/.deps/test_md5.Po' from root to nobody
+changed ownership of './tests/helpers/.deps/test_byteswap.Po' from root to nobody
+changed ownership of './tests/helpers/.deps/test_sigreceive.Po' from root to nobody
+changed ownership of './tests/helpers/.deps' from root to nobody
+changed ownership of './tests/helpers' from root to nobody
+changed ownership of './tests' from root to nobody
+changed ownership of './fdformat' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-column.lo' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-symbols.lo' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols.h' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-table.lo' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-init.lo' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-line.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-iter.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-symbols.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-init.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-table.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-version.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-cell.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-column.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs/libsmartcols_la-table_print.o' from root to nobody
+changed ownership of './libsmartcols/src/.libs' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-version.lo' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-iter.lo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-table_print.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-iter.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-version.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-table.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/.dirstamp' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-cell.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-line.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-column.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-init.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps/libsmartcols_la-symbols.Plo' from root to nobody
+changed ownership of './libsmartcols/src/.deps' from root to nobody
+changed ownership of './libsmartcols/src/.dirstamp' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-line.lo' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-table_print.lo' from root to nobody
+changed ownership of './libsmartcols/src/libsmartcols_la-cell.lo' from root to nobody
+changed ownership of './libsmartcols/src' from root to nobody
+changed ownership of './libsmartcols/docs/version.xml' from root to nobody
+changed ownership of './libsmartcols/docs/Makefile' from root to nobody
+changed ownership of './libsmartcols/docs' from root to nobody
+changed ownership of './libsmartcols/samples/.deps/sample_scols_continuous-continuous.Po' from root to nobody
+changed ownership of './libsmartcols/samples/.deps/sample_scols_fromfile-fromfile.Po' from root to nobody
+changed ownership of './libsmartcols/samples/.deps/sample_scols_title-title.Po' from root to nobody
+changed ownership of './libsmartcols/samples/.deps/sample_scols_wrap-wrap.Po' from root to nobody
+changed ownership of './libsmartcols/samples/.deps/sample_scols_tree-tree.Po' from root to nobody
+changed ownership of './libsmartcols/samples/.deps/sample_scols_maxout-maxout.Po' from root to nobody
+changed ownership of './libsmartcols/samples/.deps' from root to nobody
+changed ownership of './libsmartcols/samples' from root to nobody
+changed ownership of './libsmartcols/smartcols.pc' from root to nobody
+changed ownership of './libsmartcols' from root to nobody
+changed ownership of './disk-utils/sfdisk-fdisk-list.o' from root to nobody
+changed ownership of './disk-utils/addpart.o' from root to nobody
+changed ownership of './disk-utils/fdformat.o' from root to nobody
+changed ownership of './disk-utils/sfdisk-sfdisk.o' from root to nobody
+changed ownership of './disk-utils/fsck-fsck.o' from root to nobody
+changed ownership of './disk-utils/swaplabel-swaplabel.o' from root to nobody
+changed ownership of './disk-utils/blockdev.o' from root to nobody
+changed ownership of './disk-utils/mkfs.cramfs.o' from root to nobody
+changed ownership of './disk-utils/fdisk-fdisk-list.o' from root to nobody
+changed ownership of './disk-utils/fsck.minix.o' from root to nobody
+changed ownership of './disk-utils/isosize.o' from root to nobody
+changed ownership of './disk-utils/fdisk-fdisk-menu.o' from root to nobody
+changed ownership of './disk-utils/fsck.cramfs.o' from root to nobody
+changed ownership of './disk-utils/raw.o' from root to nobody
+changed ownership of './disk-utils/cfdisk-cfdisk.o' from root to nobody
+changed ownership of './disk-utils/cramfs_common.o' from root to nobody
+changed ownership of './disk-utils/delpart.o' from root to nobody
+changed ownership of './disk-utils/.deps/delpart.Po' from root to nobody
+changed ownership of './disk-utils/.deps/mkswap-mkswap.Po' from root to nobody
+changed ownership of './disk-utils/.deps/addpart.Po' from root to nobody
+changed ownership of './disk-utils/.deps/sfdisk_static-sfdisk.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fdisk_static-fdisk-menu.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fdisk_static-fdisk-list.Po' from root to nobody
+changed ownership of './disk-utils/.deps/mkfs.minix.Po' from root to nobody
+changed ownership of './disk-utils/.deps/sfdisk-sfdisk.Po' from root to nobody
+changed ownership of './disk-utils/.deps/isosize.Po' from root to nobody
+changed ownership of './disk-utils/.deps/mkfs.cramfs.Po' from root to nobody
+changed ownership of './disk-utils/.deps/sfdisk_static-fdisk-list.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fdisk-fdisk-menu.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fdisk-fdisk.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fdformat.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fdisk_static-fdisk.Po' from root to nobody
+changed ownership of './disk-utils/.deps/resizepart.Po' from root to nobody
+changed ownership of './disk-utils/.deps/mkfs.bfs.Po' from root to nobody
+changed ownership of './disk-utils/.deps/raw.Po' from root to nobody
+changed ownership of './disk-utils/.deps/sfdisk-fdisk-list.Po' from root to nobody
+changed ownership of './disk-utils/.deps/test_mkfs_minix-mkfs.minix.Po' from root to nobody
+changed ownership of './disk-utils/.deps/swaplabel-swaplabel.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fsck-fsck.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fdisk-fdisk-list.Po' from root to nobody
+changed ownership of './disk-utils/.deps/blockdev.Po' from root to nobody
+changed ownership of './disk-utils/.deps/.dirstamp' from root to nobody
+changed ownership of './disk-utils/.deps/partx-partx.Po' from root to nobody
+changed ownership of './disk-utils/.deps/mkfs.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fsck.minix.Po' from root to nobody
+changed ownership of './disk-utils/.deps/fsck.cramfs.Po' from root to nobody
+changed ownership of './disk-utils/.deps/cramfs_common.Po' from root to nobody
+changed ownership of './disk-utils/.deps/cfdisk-cfdisk.Po' from root to nobody
+changed ownership of './disk-utils/.deps' from root to nobody
+changed ownership of './disk-utils/mkfs.o' from root to nobody
+changed ownership of './disk-utils/.dirstamp' from root to nobody
+changed ownership of './disk-utils/partx-partx.o' from root to nobody
+changed ownership of './disk-utils/fdisk-fdisk.o' from root to nobody
+changed ownership of './disk-utils/mkswap-mkswap.o' from root to nobody
+changed ownership of './disk-utils/mkfs.bfs.o' from root to nobody
+changed ownership of './disk-utils/resizepart.o' from root to nobody
+changed ownership of './disk-utils/mkfs.minix.o' from root to nobody
+changed ownership of './disk-utils' from root to nobody
+changed ownership of './lsipc' from root to nobody
+changed ownership of './blkid' from root to nobody
+changed ownership of './taskset' from root to nobody
+changed ownership of './ipcmk' from root to nobody
+changed ownership of './ipcrm' from root to nobody
+changed ownership of './kill' from root to nobody
+changed ownership of './umount' from root to nobody
+changed ownership of './swaplabel' from root to nobody
+changed ownership of './text-utils/more-more.o' from root to nobody
+changed ownership of './text-utils/ul-ul.o' from root to nobody
+changed ownership of './text-utils/hexdump-parse.o' from root to nobody
+changed ownership of './text-utils/col.o' from root to nobody
+changed ownership of './text-utils/hexdump-display.o' from root to nobody
+changed ownership of './text-utils/colcrt.o' from root to nobody
+changed ownership of './text-utils/rev.o' from root to nobody
+changed ownership of './text-utils/hexdump.o' from root to nobody
+changed ownership of './text-utils/.deps/pg-pg.Po' from root to nobody
+changed ownership of './text-utils/.deps/colcrt.Po' from root to nobody
+changed ownership of './text-utils/.deps/test_more-more.Po' from root to nobody
+changed ownership of './text-utils/.deps/hexdump-display.Po' from root to nobody
+changed ownership of './text-utils/.deps/column-column.Po' from root to nobody
+changed ownership of './text-utils/.deps/hexdump-parse.Po' from root to nobody
+changed ownership of './text-utils/.deps/more-more.Po' from root to nobody
+changed ownership of './text-utils/.deps/line.Po' from root to nobody
+changed ownership of './text-utils/.deps/hexdump.Po' from root to nobody
+changed ownership of './text-utils/.deps/hexdump-conv.Po' from root to nobody
+changed ownership of './text-utils/.deps/colrm.Po' from root to nobody
+changed ownership of './text-utils/.deps/.dirstamp' from root to nobody
+changed ownership of './text-utils/.deps/ul-ul.Po' from root to nobody
+changed ownership of './text-utils/.deps/col.Po' from root to nobody
+changed ownership of './text-utils/.deps/rev.Po' from root to nobody
+changed ownership of './text-utils/.deps' from root to nobody
+changed ownership of './text-utils/.dirstamp' from root to nobody
+changed ownership of './text-utils/colrm.o' from root to nobody
+changed ownership of './text-utils/hexdump-conv.o' from root to nobody
+changed ownership of './text-utils/column-column.o' from root to nobody
+changed ownership of './text-utils' from root to nobody
+changed ownership of './lib/libcommon_la-setproctitle.lo' from root to nobody
+changed ownership of './lib/libcommon_la-strutils.lo' from root to nobody
+changed ownership of './lib/libcommon_la-timeutils.lo' from root to nobody
+changed ownership of './lib/libcommon_la-blkdev.lo' from root to nobody
+changed ownership of './lib/libtcolors_la-colors.lo' from root to nobody
+changed ownership of './lib/libcommon_la-ttyutils.lo' from root to nobody
+changed ownership of './lib/libcommon_la-idcache.lo' from root to nobody
+changed ownership of './lib/libcommon_la-parse-date.lo' from root to nobody
+changed ownership of './lib/libcommon_la-match.lo' from root to nobody
+changed ownership of './lib/swapoff-swapprober.o' from root to nobody
+changed ownership of './lib/md5.o' from root to nobody
+changed ownership of './lib/libcommon_la-procutils.lo' from root to nobody
+changed ownership of './lib/swaplabel-swapprober.o' from root to nobody
+changed ownership of './lib/libcommon_la-randutils.lo' from root to nobody
+changed ownership of './lib/uuidd-monotonic.o' from root to nobody
+changed ownership of './lib/libcommon_la-mangle.lo' from root to nobody
+changed ownership of './lib/libcommon_la-pwdutils.lo' from root to nobody
+changed ownership of './lib/libcommon_la-mbsedit.lo' from root to nobody
+changed ownership of './lib/libcommon_la-exec_shell.lo' from root to nobody
+changed ownership of './lib/libcommon_la-crc32.lo' from root to nobody
+changed ownership of './lib/libcommon_la-cpuset.lo' from root to nobody
+changed ownership of './lib/uuidd-timer.o' from root to nobody
+changed ownership of './lib/swapon-swapprober.o' from root to nobody
+changed ownership of './lib/logger-strv.o' from root to nobody
+changed ownership of './lib/logger-strutils.o' from root to nobody
+changed ownership of './lib/libuuid_la-md5.lo' from root to nobody
+changed ownership of './lib/monotonic.o' from root to nobody
+changed ownership of './lib/libcommon_la-linux_version.lo' from root to nobody
+changed ownership of './lib/fsck-monotonic.o' from root to nobody
+changed ownership of './lib/libcommon_la-ismounted.lo' from root to nobody
+changed ownership of './lib/libcommon_la-loopdev.lo' from root to nobody
+changed ownership of './lib/.libs/libuuid_la-md5.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-cpuset.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-env.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-pager.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-strutils.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-plymouth-ctrl.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-ttyutils.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-match.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-mangle.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-setproctitle.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-canonicalize.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-sysfs.o' from root to nobody
+changed ownership of './lib/.libs/libtcolors_la-color-names.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-linux_version.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-mbsedit.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-md5.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-path.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-sha1.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-randutils.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-color-names.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-mbsalign.o' from root to nobody
+changed ownership of './lib/.libs/libuuid_la-sha1.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-crc32.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-blkdev.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-ismounted.o' from root to nobody
+changed ownership of './lib/.libs/libtcolors_la-colors.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-loopdev.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-procutils.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-timeutils.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-parse-date.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-strv.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-fileutils.o' from root to nobody
+changed ownership of './lib/.libs/libmount_la-monotonic.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-pwdutils.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-idcache.o' from root to nobody
+changed ownership of './lib/.libs/libcommon_la-exec_shell.o' from root to nobody
+changed ownership of './lib/.libs/libuuid_la-randutils.o' from root to nobody
+changed ownership of './lib/.libs' from root to nobody
+changed ownership of './lib/script-monotonic.o' from root to nobody
+changed ownership of './lib/libcommon_la-plymouth-ctrl.lo' from root to nobody
+changed ownership of './lib/strutils.o' from root to nobody
+changed ownership of './lib/timer.o' from root to nobody
+changed ownership of './lib/libcommon_la-env.lo' from root to nobody
+changed ownership of './lib/libcommon_la-strv.lo' from root to nobody
+changed ownership of './lib/libcommon_la-path.lo' from root to nobody
+changed ownership of './lib/.deps/test_cpuset-cpuset.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-loopdev.Plo' from root to nobody
+changed ownership of './lib/.deps/logger-strv.Po' from root to nobody
+changed ownership of './lib/.deps/test_fileutils-fileutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-setproctitle.Plo' from root to nobody
+changed ownership of './lib/.deps/test_timeutils-timeutils.Po' from root to nobody
+changed ownership of './lib/.deps/swaplabel-swapprober.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-parse-date.Plo' from root to nobody
+changed ownership of './lib/.deps/test_procutils-procutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-randutils.Plo' from root to nobody
+changed ownership of './lib/.deps/test_randutils-randutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-strutils.Plo' from root to nobody
+changed ownership of './lib/.deps/test_sysfs-sysfs.Po' from root to nobody
+changed ownership of './lib/.deps/fsck-monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/test_timeutils-strutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-idcache.Plo' from root to nobody
+changed ownership of './lib/.deps/libuuid_la-randutils.Plo' from root to nobody
+changed ownership of './lib/.deps/test_ttyutils-ttyutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-crc32.Plo' from root to nobody
+changed ownership of './lib/.deps/test_ismounted-ismounted.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-mbsedit.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-mbsalign.Plo' from root to nobody
+changed ownership of './lib/.deps/swapon-swapprober.Po' from root to nobody
+changed ownership of './lib/.deps/libuuid_la-md5.Plo' from root to nobody
+changed ownership of './lib/.deps/test_dmesg-monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/test_strutils-strutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-fileutils.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-cpuset.Plo' from root to nobody
+changed ownership of './lib/.deps/test_blkdev-blkdev.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-color-names.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-sysfs.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-env.Plo' from root to nobody
+changed ownership of './lib/.deps/dmesg-monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-timeutils.Plo' from root to nobody
+changed ownership of './lib/.deps/uuidd-timer.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-sha1.Plo' from root to nobody
+changed ownership of './lib/.deps/test_logger-strutils.Po' from root to nobody
+changed ownership of './lib/.deps/test_colors-colors.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-md5.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-canonicalize.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-path.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-blkdev.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-plymouth-ctrl.Plo' from root to nobody
+changed ownership of './lib/.deps/test_pwdutils-pwdutils.Po' from root to nobody
+changed ownership of './lib/.deps/test_colors-color-names.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-ismounted.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-mangle.Plo' from root to nobody
+changed ownership of './lib/.deps/eject-monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-exec_shell.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-ttyutils.Plo' from root to nobody
+changed ownership of './lib/.deps/monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-procutils.Plo' from root to nobody
+changed ownership of './lib/.deps/strutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-linux_version.Plo' from root to nobody
+changed ownership of './lib/.deps/.dirstamp' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-match.Plo' from root to nobody
+changed ownership of './lib/.deps/timer.Po' from root to nobody
+changed ownership of './lib/.deps/test_pager-pager.Po' from root to nobody
+changed ownership of './lib/.deps/libtcolors_la-color-names.Plo' from root to nobody
+changed ownership of './lib/.deps/swapoff-swapprober.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-strv.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-pwdutils.Plo' from root to nobody
+changed ownership of './lib/.deps/test_logger-strv.Po' from root to nobody
+changed ownership of './lib/.deps/idcache.Po' from root to nobody
+changed ownership of './lib/.deps/sha1.Po' from root to nobody
+changed ownership of './lib/.deps/test_script-monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/libuuid_la-sha1.Plo' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-pager.Plo' from root to nobody
+changed ownership of './lib/.deps/test_canonicalize-canonicalize.Po' from root to nobody
+changed ownership of './lib/.deps/logger-strutils.Po' from root to nobody
+changed ownership of './lib/.deps/libcommon_la-langinfo.Plo' from root to nobody
+changed ownership of './lib/.deps/libtcolors_la-colors.Plo' from root to nobody
+changed ownership of './lib/.deps/script-monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/uuidd-monotonic.Po' from root to nobody
+changed ownership of './lib/.deps/test_linux_version-linux_version.Po' from root to nobody
+changed ownership of './lib/.deps/libmount_la-monotonic.Plo' from root to nobody
+changed ownership of './lib/.deps/md5.Po' from root to nobody
+changed ownership of './lib/.deps/test_mangle-mangle.Po' from root to nobody
+changed ownership of './lib/.deps' from root to nobody
+changed ownership of './lib/.dirstamp' from root to nobody
+changed ownership of './lib/eject-monotonic.o' from root to nobody
+changed ownership of './lib/libcommon_la-canonicalize.lo' from root to nobody
+changed ownership of './lib/libtcolors_la-color-names.lo' from root to nobody
+changed ownership of './lib/libcommon_la-sha1.lo' from root to nobody
+changed ownership of './lib/libcommon_la-md5.lo' from root to nobody
+changed ownership of './lib/libcommon_la-color-names.lo' from root to nobody
+changed ownership of './lib/libmount_la-monotonic.lo' from root to nobody
+changed ownership of './lib/libuuid_la-sha1.lo' from root to nobody
+changed ownership of './lib/idcache.o' from root to nobody
+changed ownership of './lib/libcommon_la-sysfs.lo' from root to nobody
+changed ownership of './lib/libcommon_la-fileutils.lo' from root to nobody
+changed ownership of './lib/libcommon_la-pager.lo' from root to nobody
+changed ownership of './lib/libcommon_la-mbsalign.lo' from root to nobody
+changed ownership of './lib/dmesg-monotonic.o' from root to nobody
+changed ownership of './lib/libuuid_la-randutils.lo' from root to nobody
+changed ownership of './lib' from root to nobody
+changed ownership of './make.out' from root to nobody
+changed ownership of './losetup' from root to nobody
+changed ownership of './agetty' from root to nobody
+changed ownership of './lsblk' from root to nobody
+changed ownership of './look' from root to nobody
+changed ownership of './libtool' from root to nobody
+changed ownership of './more' from root to nobody
+changed ownership of './setterm' from root to nobody
+changed ownership of './mcookie' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-llseek.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-probe.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-getsize.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-version.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-init.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-evaluate.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-verify.lo' from root to nobody
+changed ownership of './libblkid/src/topology/libblkid_la-ioctl.lo' from root to nobody
+changed ownership of './libblkid/src/topology/libblkid_la-topology.lo' from root to nobody
+changed ownership of './libblkid/src/topology/libblkid_la-evms.lo' from root to nobody
+changed ownership of './libblkid/src/topology/libblkid_la-dm.lo' from root to nobody
+changed ownership of './libblkid/src/topology/libblkid_la-md.lo' from root to nobody
+changed ownership of './libblkid/src/topology/libblkid_la-lvm.lo' from root to nobody
+changed ownership of './libblkid/src/topology/libblkid_la-sysfs.lo' from root to nobody
+changed ownership of './libblkid/src/topology/.libs/libblkid_la-ioctl.o' from root to nobody
+changed ownership of './libblkid/src/topology/.libs/libblkid_la-sysfs.o' from root to nobody
+changed ownership of './libblkid/src/topology/.libs/libblkid_la-dm.o' from root to nobody
+changed ownership of './libblkid/src/topology/.libs/libblkid_la-topology.o' from root to nobody
+changed ownership of './libblkid/src/topology/.libs/libblkid_la-evms.o' from root to nobody
+changed ownership of './libblkid/src/topology/.libs/libblkid_la-md.o' from root to nobody
+changed ownership of './libblkid/src/topology/.libs/libblkid_la-lvm.o' from root to nobody
+changed ownership of './libblkid/src/topology/.libs' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/libblkid_la-ioctl.Plo' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/libblkid_la-sysfs.Plo' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/libblkid_la-lvm.Plo' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/libblkid_la-md.Plo' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/libblkid_la-evms.Plo' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/libblkid_la-topology.Plo' from root to nobody
+changed ownership of './libblkid/src/topology/.deps/libblkid_la-dm.Plo' from root to nobody
+changed ownership of './libblkid/src/topology/.deps' from root to nobody
+changed ownership of './libblkid/src/topology/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/topology' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-read.lo' from root to nobody
+changed ownership of './libblkid/src/blkid.h' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-devno.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-config.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-devname.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-swap.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-sysv.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-udf.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-luks.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-ext.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-bfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-exfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-cramfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-superblocks.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-adaptec_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-ddf_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-drbdmanage.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-ntfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-squashfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-isw_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-hpfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-btrfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-xfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-ufs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-highpoint_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-minix.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-silicon_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-romfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-f2fs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-bcache.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-promise_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-drbd.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-linux_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-lvm.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-netware.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-jfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-refs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-ubi.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-nilfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-via_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-befs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-ufs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-swap.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-vxfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-reiserfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-superblocks.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-sysv.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-vmfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-exfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-btrfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-highpoint_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-f2fs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-hpfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-drbdmanage.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-cramfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-luks.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-isw_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-ubifs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-ocfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-exfat.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-gfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-jmicron_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-drbdproxy_datalog.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-befs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-squashfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-nvidia_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-adaptec_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-lsi_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-ddf_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-vfat.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-linux_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-udf.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-xfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-bcache.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-silicon_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-refs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-via_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-netware.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-promise_raid.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-ext.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-zfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-ubi.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-iso9660.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-romfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-lvm.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-drbd.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-minix.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-bfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-nilfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-ntfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-jfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs/libblkid_la-hfs.o' from root to nobody
+changed ownership of './libblkid/src/superblocks/.libs' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-nvidia_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-iso9660.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-vmfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-ubifs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-ocfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-adaptec_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-isw_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-nvidia_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-exfat.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-ubi.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-ntfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-vxfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-ubifs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-udf.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-ext.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-lsi_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-refs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-exfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-zfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-ufs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-promise_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-hfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-ocfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-hpfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-reiserfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-gfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-bcache.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-vfat.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-jmicron_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-vmfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-squashfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-lvm.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-linux_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-nilfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-swap.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-superblocks.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-via_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-xfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-luks.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-befs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-netware.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-bfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-sysv.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-ddf_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-cramfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-jfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-drbdproxy_datalog.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-romfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-drbd.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-iso9660.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-drbdmanage.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-silicon_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-minix.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-highpoint_raid.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-btrfs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps/libblkid_la-f2fs.Plo' from root to nobody
+changed ownership of './libblkid/src/superblocks/.deps' from root to nobody
+changed ownership of './libblkid/src/superblocks/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-vxfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-gfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-jmicron_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-reiserfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-zfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-lsi_raid.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-hfs.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-exfat.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-drbdproxy_datalog.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks/libblkid_la-vfat.lo' from root to nobody
+changed ownership of './libblkid/src/superblocks' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-dev.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-save.lo' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-resolve.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-getsize.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-save.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-version.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-probe.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-read.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-verify.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-llseek.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-evaluate.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-config.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-cache.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-init.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-devno.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-dev.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-devname.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-tag.o' from root to nobody
+changed ownership of './libblkid/src/.libs/libblkid_la-encode.o' from root to nobody
+changed ownership of './libblkid/src/.libs' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-tag.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-cache.lo' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-encode.lo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-getsize.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_dev-dev.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_cache-cache.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-verify.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-encode.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-resolve.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-probe.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-config.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_resolve-resolve.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_evaluate-evaluate.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_save-save.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_read-read.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-devno.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-evaluate.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_devno-devno.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_config-config.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-read.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-cache.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-save.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-llseek.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-devname.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-init.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_devname-devname.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-version.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-tag.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_verify-verify.Po' from root to nobody
+changed ownership of './libblkid/src/.deps/libblkid_la-dev.Plo' from root to nobody
+changed ownership of './libblkid/src/.deps/test_blkid_tag-tag.Po' from root to nobody
+changed ownership of './libblkid/src/.deps' from root to nobody
+changed ownership of './libblkid/src/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/libblkid_la-resolve.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-solaris_x86.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-partitions.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-ultrix.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-gpt.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-unixware.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-minix.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-aix.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-sgi.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-dos.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-bsd.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-aix.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-gpt.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-dos.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-ultrix.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-sun.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-bsd.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-solaris_x86.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-sgi.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-partitions.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-unixware.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-minix.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs/libblkid_la-mac.o' from root to nobody
+changed ownership of './libblkid/src/partitions/.libs' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-mac.lo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-sun.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-aix.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-partitions.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-dos.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-solaris_x86.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-gpt.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-sgi.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-bsd.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-mac.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-ultrix.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-unixware.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps/libblkid_la-minix.Plo' from root to nobody
+changed ownership of './libblkid/src/partitions/.deps' from root to nobody
+changed ownership of './libblkid/src/partitions/.dirstamp' from root to nobody
+changed ownership of './libblkid/src/partitions/libblkid_la-sun.lo' from root to nobody
+changed ownership of './libblkid/src/partitions' from root to nobody
+changed ownership of './libblkid/src' from root to nobody
+changed ownership of './libblkid/docs/version.xml' from root to nobody
+changed ownership of './libblkid/docs/Makefile' from root to nobody
+changed ownership of './libblkid/docs' from root to nobody
+changed ownership of './libblkid/samples/.deps/sample_superblocks-superblocks.Po' from root to nobody
+changed ownership of './libblkid/samples/.deps/sample_mkfs-mkfs.Po' from root to nobody
+changed ownership of './libblkid/samples/.deps/sample_partitions-partitions.Po' from root to nobody
+changed ownership of './libblkid/samples/.deps/sample_topology-topology.Po' from root to nobody
+changed ownership of './libblkid/samples/.deps' from root to nobody
+changed ownership of './libblkid/samples' from root to nobody
+changed ownership of './libblkid/blkid.pc' from root to nobody
+changed ownership of './libblkid' from root to nobody
+changed ownership of './uuidparse' from root to nobody
+changed ownership of './colcrt' from root to nobody
+changed ownership of './lslocks' from root to nobody
+changed ownership of './setarch' from root to nobody
+changed ownership of './libcommon.la' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-utils.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-script.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-partition.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-bsd.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-iter.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-dos.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-test.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-version.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-label.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-wipe.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-alignment.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-field.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-init.lo' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-context.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-field.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-dos.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-bsd.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-sgi.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-version.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-script.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-ask.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-init.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-gpt.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-utils.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-table.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-iter.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-sun.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-item.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-wipe.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-alignment.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-partition.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-test.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-parttype.o' from root to nobody
+changed ownership of './libfdisk/src/.libs/libfdisk_la-label.o' from root to nobody
+changed ownership of './libfdisk/src/.libs' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-item.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-ask.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-sgi.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk.h' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-context.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-sun.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-parttype.lo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-parttype.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-context.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-table.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-item.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-utils.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-iter.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-sun.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-bsd.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-init.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-partition.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/test_fdisk_item-item.Po' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-gpt.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/test_fdisk_script-script.Po' from root to nobody
+changed ownership of './libfdisk/src/.deps/test_fdisk_gpt-gpt.Po' from root to nobody
+changed ownership of './libfdisk/src/.deps/test_fdisk_utils-utils.Po' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-ask.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-label.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-alignment.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-test.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-sgi.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/.dirstamp' from root to nobody
+changed ownership of './libfdisk/src/.deps/test_fdisk_version-version.Po' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-script.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-dos.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/test_fdisk_ask-ask.Po' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-version.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-wipe.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps/libfdisk_la-field.Plo' from root to nobody
+changed ownership of './libfdisk/src/.deps' from root to nobody
+changed ownership of './libfdisk/src/.dirstamp' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-table.lo' from root to nobody
+changed ownership of './libfdisk/src/libfdisk_la-gpt.lo' from root to nobody
+changed ownership of './libfdisk/src' from root to nobody
+changed ownership of './libfdisk/docs/version.xml' from root to nobody
+changed ownership of './libfdisk/docs/Makefile' from root to nobody
+changed ownership of './libfdisk/docs' from root to nobody
+changed ownership of './libfdisk/samples/.deps/sample_fdisk_mkpart-mkpart.Po' from root to nobody
+changed ownership of './libfdisk/samples/.deps/sample_fdisk_mkpart_fullspec-mkpart-fullspec.Po' from root to nobody
+changed ownership of './libfdisk/samples/.deps' from root to nobody
+changed ownership of './libfdisk/samples' from root to nobody
+changed ownership of './libfdisk/fdisk.pc' from root to nobody
+changed ownership of './libfdisk' from root to nobody
+changed ownership of './mkfs' from root to nobody
+changed ownership of './mesg' from root to nobody
+changed ownership of './whereis' from root to nobody
+changed ownership of './chrt' from root to nobody
+changed ownership of './Makefile' from root to nobody
+changed ownership of './config.log' from root to nobody
+changed ownership of './uuidgen' from root to nobody
+changed ownership of './ldattach' from root to nobody
+changed ownership of './libuuid.la' from root to nobody
+changed ownership of './rev' from root to nobody
+changed ownership of './partx' from root to nobody
+changed ownership of './term-utils/wall-ttymsg.o' from root to nobody
+changed ownership of './term-utils/scriptreplay.o' from root to nobody
+changed ownership of './term-utils/mesg.o' from root to nobody
+changed ownership of './term-utils/wall-wall.o' from root to nobody
+changed ownership of './term-utils/script-script.o' from root to nobody
+changed ownership of './term-utils/.deps/write-write.Po' from root to nobody
+changed ownership of './term-utils/.deps/test_script-script.Po' from root to nobody
+changed ownership of './term-utils/.deps/agetty.Po' from root to nobody
+changed ownership of './term-utils/.deps/mesg.Po' from root to nobody
+changed ownership of './term-utils/.deps/wall-wall.Po' from root to nobody
+changed ownership of './term-utils/.deps/script-script.Po' from root to nobody
+changed ownership of './term-utils/.deps/.dirstamp' from root to nobody
+changed ownership of './term-utils/.deps/wall-ttymsg.Po' from root to nobody
+changed ownership of './term-utils/.deps/scriptreplay.Po' from root to nobody
+changed ownership of './term-utils/.deps/setterm-setterm.Po' from root to nobody
+changed ownership of './term-utils/.deps' from root to nobody
+changed ownership of './term-utils/.dirstamp' from root to nobody
+changed ownership of './term-utils/agetty.o' from root to nobody
+changed ownership of './term-utils/setterm-setterm.o' from root to nobody
+changed ownership of './term-utils' from root to nobody
+changed ownership of './utmpdump' from root to nobody
+changed ownership of './lslogins' from root to nobody
+changed ownership of './blkzone' from root to nobody
+changed ownership of './rename' from root to nobody
+changed ownership of './.libs/libuuid.lai' from root to nobody
+changed ownership of './.libs/wdctl' from root to nobody
+changed ownership of './.libs/swapoff' from root to nobody
+changed ownership of './.libs/libfdisk.lai' from root to nobody
+changed ownership of './.libs/libfdisk.so.1' from root to nobody
+changed ownership of './.libs/findfs' from root to nobody
+changed ownership of './.libs/column' from root to nobody
+changed ownership of './.libs/libmount.so' from root to nobody
+changed ownership of './.libs/lsns' from root to nobody
+changed ownership of './.libs/libcommon.a' from root to nobody
+changed ownership of './.libs/fsck' from root to nobody
+changed ownership of './.libs/libfdisk.la' from root to nobody
+changed ownership of './.libs/libsmartcols.so.1' from root to nobody
+changed ownership of './.libs/swapon' from root to nobody
+changed ownership of './.libs/mount' from root to nobody
+changed ownership of './.libs/wipefs' from root to nobody
+changed ownership of './.libs/lscpu' from root to nobody
+changed ownership of './.libs/libmount.la' from root to nobody
+changed ownership of './.libs/lsmem' from root to nobody
+changed ownership of './.libs/uuidd' from root to nobody
+changed ownership of './.libs/lsipc' from root to nobody
+changed ownership of './.libs/blkid' from root to nobody
+changed ownership of './.libs/libblkid.so' from root to nobody
+changed ownership of './.libs/umount' from root to nobody
+changed ownership of './.libs/swaplabel' from root to nobody
+changed ownership of './.libs/libfdisk.so.1.1.0' from root to nobody
+changed ownership of './.libs/losetup' from root to nobody
+changed ownership of './.libs/lsblk' from root to nobody
+changed ownership of './.libs/libuuid.so.1' from root to nobody
+changed ownership of './.libs/uuidparse' from root to nobody
+changed ownership of './.libs/lslocks' from root to nobody
+changed ownership of './.libs/libcommon.la' from root to nobody
+changed ownership of './.libs/libmount.so.1' from root to nobody
+changed ownership of './.libs/libtcolors.a' from root to nobody
+changed ownership of './.libs/libsmartcols.so' from root to nobody
+changed ownership of './.libs/libblkid.lai' from root to nobody
+changed ownership of './.libs/libmount.so.1.1.0' from root to nobody
+changed ownership of './.libs/uuidgen' from root to nobody
+changed ownership of './.libs/libuuid.la' from root to nobody
+changed ownership of './.libs/partx' from root to nobody
+changed ownership of './.libs/lslogins' from root to nobody
+changed ownership of './.libs/libuuid.so' from root to nobody
+changed ownership of './.libs/libtcolors.la' from root to nobody
+changed ownership of './.libs/rfkill' from root to nobody
+changed ownership of './.libs/mkswap' from root to nobody
+changed ownership of './.libs/libsmartcols.la' from root to nobody
+changed ownership of './.libs/findmnt' from root to nobody
+changed ownership of './.libs/zramctl' from root to nobody
+changed ownership of './.libs/prlimit' from root to nobody
+changed ownership of './.libs/libsmartcols.lai' from root to nobody
+changed ownership of './.libs/eject' from root to nobody
+changed ownership of './.libs/fincore' from root to nobody
+changed ownership of './.libs/libsmartcols.so.1.1.0' from root to nobody
+changed ownership of './.libs/fdisk' from root to nobody
+changed ownership of './.libs/libuuid.so.1.3.0' from root to nobody
+changed ownership of './.libs/libfdisk.so' from root to nobody
+changed ownership of './.libs/fstrim' from root to nobody
+changed ownership of './.libs/sfdisk' from root to nobody
+changed ownership of './.libs/libblkid.so.1.1.0' from root to nobody
+changed ownership of './.libs/libblkid.so.1' from root to nobody
+changed ownership of './.libs/libmount.lai' from root to nobody
+changed ownership of './.libs/libblkid.la' from root to nobody
+changed ownership of './.libs/cfdisk' from root to nobody
+changed ownership of './.libs/mountpoint' from root to nobody
+changed ownership of './.libs' from root to nobody
+changed ownership of './libtcolors.la' from root to nobody
+changed ownership of './rfkill' from root to nobody
+changed ownership of './sulogin' from root to nobody
+changed ownership of './fsck.minix' from root to nobody
+changed ownership of './switch_root' from root to nobody
+changed ownership of './mkswap' from root to nobody
+changed ownership of './fsck.cramfs' from root to nobody
+changed ownership of './mkfs.minix' from root to nobody
+changed ownership of './libsmartcols.la' from root to nobody
+changed ownership of './findmnt' from root to nobody
+changed ownership of './zramctl' from root to nobody
+changed ownership of './prlimit' from root to nobody
+changed ownership of './unshare' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-predefined.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-unpack.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-unparse.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-pack.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-gen_uuid.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-isnull.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-compare.lo' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-clear.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-parse.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-isnull.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-copy.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-gen_uuid.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-pack.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-predefined.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-unpack.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-unparse.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-uuid_time.o' from root to nobody
+changed ownership of './libuuid/src/.libs/libuuid_la-compare.o' from root to nobody
+changed ownership of './libuuid/src/.libs' from root to nobody
+changed ownership of './libuuid/src/.deps/test_uuid_parser-test_uuid.Po' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-copy.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-gen_uuid.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-pack.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-parse.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-unparse.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/unparse.Po' from root to nobody
+changed ownership of './libuuid/src/.deps/predefined.Po' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-predefined.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-uuid_time.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-unpack.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-compare.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/.dirstamp' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-isnull.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/libuuid_la-clear.Plo' from root to nobody
+changed ownership of './libuuid/src/.deps/unpack.Po' from root to nobody
+changed ownership of './libuuid/src/.deps' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-uuid_time.lo' from root to nobody
+changed ownership of './libuuid/src/.dirstamp' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-clear.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-copy.lo' from root to nobody
+changed ownership of './libuuid/src/libuuid_la-parse.lo' from root to nobody
+changed ownership of './libuuid/src' from root to nobody
+changed ownership of './libuuid/uuid.pc' from root to nobody
+changed ownership of './libuuid' from root to nobody
+changed ownership of './cal' from root to nobody
+changed ownership of './setsid' from root to nobody
+changed ownership of './eject' from root to nobody
+changed ownership of './colrm' from root to nobody
+changed ownership of './fincore' from root to nobody
+changed ownership of './addpart' from root to nobody
+changed ownership of './ipcs' from root to nobody
+changed ownership of './fallocate' from root to nobody
+changed ownership of './chmem' from root to nobody
+changed ownership of './script' from root to nobody
+changed ownership of './chcpu' from root to nobody
+changed ownership of './fdisk' from root to nobody
+changed ownership of './login-utils/lslogins-lslogins.o' from root to nobody
+changed ownership of './login-utils/utmpdump.o' from root to nobody
+changed ownership of './login-utils/.deps/chsh-auth.Po' from root to nobody
+changed ownership of './login-utils/.deps/chsh-setpwnam.Po' from root to nobody
+changed ownership of './login-utils/.deps/chfn-logindefs.Po' from root to nobody
+changed ownership of './login-utils/.deps/su-su-common.Po' from root to nobody
+changed ownership of './login-utils/.deps/nologin.Po' from root to nobody
+changed ownership of './login-utils/.deps/chfn-islocal.Po' from root to nobody
+changed ownership of './login-utils/.deps/test_logindefs-logindefs.Po' from root to nobody
+changed ownership of './login-utils/.deps/sulogin-consoles.Po' from root to nobody
+changed ownership of './login-utils/.deps/chsh-selinux_utils.Po' from root to nobody
+changed ownership of './login-utils/.deps/test_islocal-islocal.Po' from root to nobody
+changed ownership of './login-utils/.deps/chfn-libuser.Po' from root to nobody
+changed ownership of './login-utils/.deps/last.Po' from root to nobody
+changed ownership of './login-utils/.deps/newgrp-newgrp.Po' from root to nobody
+changed ownership of './login-utils/.deps/chfn-setpwnam.Po' from root to nobody
+changed ownership of './login-utils/.deps/sulogin.Po' from root to nobody
+changed ownership of './login-utils/.deps/chsh-libuser.Po' from root to nobody
+changed ownership of './login-utils/.deps/su-su.Po' from root to nobody
+changed ownership of './login-utils/.deps/chfn-auth.Po' from root to nobody
+changed ownership of './login-utils/.deps/vipw.Po' from root to nobody
+changed ownership of './login-utils/.deps/logindefs.Po' from root to nobody
+changed ownership of './login-utils/.deps/su-logindefs.Po' from root to nobody
+changed ownership of './login-utils/.deps/chsh-chsh.Po' from root to nobody
+changed ownership of './login-utils/.deps/chsh-ch-common.Po' from root to nobody
+changed ownership of './login-utils/.deps/login.Po' from root to nobody
+changed ownership of './login-utils/.deps/su-common.Po' from root to nobody
+changed ownership of './login-utils/.deps/lslogins-lslogins.Po' from root to nobody
+changed ownership of './login-utils/.deps/test_consoles-sulogin-consoles.Po' from root to nobody
+changed ownership of './login-utils/.deps/.dirstamp' from root to nobody
+changed ownership of './login-utils/.deps/chfn-ch-common.Po' from root to nobody
+changed ownership of './login-utils/.deps/chfn-chfn.Po' from root to nobody
+changed ownership of './login-utils/.deps/chsh-islocal.Po' from root to nobody
+changed ownership of './login-utils/.deps/chfn-selinux_utils.Po' from root to nobody
+changed ownership of './login-utils/.deps/runuser.Po' from root to nobody
+changed ownership of './login-utils/.deps/lslogins-logindefs.Po' from root to nobody
+changed ownership of './login-utils/.deps/utmpdump.Po' from root to nobody
+changed ownership of './login-utils/.deps' from root to nobody
+changed ownership of './login-utils/.dirstamp' from root to nobody
+changed ownership of './login-utils/sulogin-consoles.o' from root to nobody
+changed ownership of './login-utils/last.o' from root to nobody
+changed ownership of './login-utils/sulogin.o' from root to nobody
+changed ownership of './login-utils/lslogins-logindefs.o' from root to nobody
+changed ownership of './login-utils' from root to nobody
+changed ownership of './fstrim' from root to nobody
+changed ownership of './sfdisk' from root to nobody
+changed ownership of './sys-utils/swapon-swapon.o' from root to nobody
+changed ownership of './sys-utils/lsmem-lsmem.o' from root to nobody
+changed ownership of './sys-utils/linux64.8' from root to nobody
+changed ownership of './sys-utils/blkdiscard.o' from root to nobody
+changed ownership of './sys-utils/rfkill-rfkill.o' from root to nobody
+changed ownership of './sys-utils/lscpu-lscpu-dmi.o' from root to nobody
+changed ownership of './sys-utils/ctrlaltdel.o' from root to nobody
+changed ownership of './sys-utils/renice.o' from root to nobody
+changed ownership of './sys-utils/swapoff-swapon-common.o' from root to nobody
+changed ownership of './sys-utils/fsfreeze.o' from root to nobody
+changed ownership of './sys-utils/fallocate.o' from root to nobody
+changed ownership of './sys-utils/hwclock.o' from root to nobody
+changed ownership of './sys-utils/x86_64.8' from root to nobody
+changed ownership of './sys-utils/rtcwake.8' from root to nobody
+changed ownership of './sys-utils/lsns-lsns.o' from root to nobody
+changed ownership of './sys-utils/ldattach.o' from root to nobody
+changed ownership of './sys-utils/uname26.8' from root to nobody
+changed ownership of './sys-utils/lsipc-ipcutils.o' from root to nobody
+changed ownership of './sys-utils/unshare-unshare.o' from root to nobody
+changed ownership of './sys-utils/mount-mount.o' from root to nobody
+changed ownership of './sys-utils/setarch.o' from root to nobody
+changed ownership of './sys-utils/lscpu-lscpu.o' from root to nobody
+changed ownership of './sys-utils/readprofile.o' from root to nobody
+changed ownership of './sys-utils/eject-eject.o' from root to nobody
+changed ownership of './sys-utils/ipcutils.o' from root to nobody
+changed ownership of './sys-utils/wdctl-wdctl.o' from root to nobody
+changed ownership of './sys-utils/switch_root.o' from root to nobody
+changed ownership of './sys-utils/ipcrm.o' from root to nobody
+changed ownership of './sys-utils/lsipc-lsipc.o' from root to nobody
+changed ownership of './sys-utils/setsid.o' from root to nobody
+changed ownership of './sys-utils/ipcs.o' from root to nobody
+changed ownership of './sys-utils/mountpoint-mountpoint.o' from root to nobody
+changed ownership of './sys-utils/linux32.8' from root to nobody
+changed ownership of './sys-utils/umount-umount.o' from root to nobody
+changed ownership of './sys-utils/.deps/setarch.Po' from root to nobody
+changed ownership of './sys-utils/.deps/nsenter.Po' from root to nobody
+changed ownership of './sys-utils/.deps/lscpu-lscpu-dmi.Po' from root to nobody
+changed ownership of './sys-utils/.deps/readprofile.Po' from root to nobody
+changed ownership of './sys-utils/.deps/umount-umount.Po' from root to nobody
+changed ownership of './sys-utils/.deps/fallocate.Po' from root to nobody
+changed ownership of './sys-utils/.deps/eject-eject.Po' from root to nobody
+changed ownership of './sys-utils/.deps/hwclock.Po' from root to nobody
+changed ownership of './sys-utils/.deps/prlimit-prlimit.Po' from root to nobody
+changed ownership of './sys-utils/.deps/ctrlaltdel.Po' from root to nobody
+changed ownership of './sys-utils/.deps/wdctl-wdctl.Po' from root to nobody
+changed ownership of './sys-utils/.deps/mount-mount.Po' from root to nobody
+changed ownership of './sys-utils/.deps/blkdiscard.Po' from root to nobody
+changed ownership of './sys-utils/.deps/chcpu.Po' from root to nobody
+changed ownership of './sys-utils/.deps/swapon-swapon-common.Po' from root to nobody
+changed ownership of './sys-utils/.deps/flock.Po' from root to nobody
+changed ownership of './sys-utils/.deps/pivot_root.Po' from root to nobody
+changed ownership of './sys-utils/.deps/mount_static-mount.Po' from root to nobody
+changed ownership of './sys-utils/.deps/fsfreeze.Po' from root to nobody
+changed ownership of './sys-utils/.deps/lsipc-ipcutils.Po' from root to nobody
+changed ownership of './sys-utils/.deps/fstrim-fstrim.Po' from root to nobody
+changed ownership of './sys-utils/.deps/ipcmk.Po' from root to nobody
+changed ownership of './sys-utils/.deps/swapon-swapon.Po' from root to nobody
+changed ownership of './sys-utils/.deps/mountpoint-mountpoint.Po' from root to nobody
+changed ownership of './sys-utils/.deps/setsid.Po' from root to nobody
+changed ownership of './sys-utils/.deps/ldattach.Po' from root to nobody
+changed ownership of './sys-utils/.deps/lsns-lsns.Po' from root to nobody
+changed ownership of './sys-utils/.deps/tunelp.Po' from root to nobody
+changed ownership of './sys-utils/.deps/ipcrm.Po' from root to nobody
+changed ownership of './sys-utils/.deps/hwclock-rtc.Po' from root to nobody
+changed ownership of './sys-utils/.deps/switch_root.Po' from root to nobody
+changed ownership of './sys-utils/.deps/rfkill-rfkill.Po' from root to nobody
+changed ownership of './sys-utils/.deps/blkzone.Po' from root to nobody
+changed ownership of './sys-utils/.deps/lsipc-lsipc.Po' from root to nobody
+changed ownership of './sys-utils/.deps/umount_static-umount.Po' from root to nobody
+changed ownership of './sys-utils/.deps/ipcs.Po' from root to nobody
+changed ownership of './sys-utils/.deps/unshare-unshare.Po' from root to nobody
+changed ownership of './sys-utils/.deps/swapoff-swapoff.Po' from root to nobody
+changed ownership of './sys-utils/.deps/rtcwake.Po' from root to nobody
+changed ownership of './sys-utils/.deps/swapoff-swapon-common.Po' from root to nobody
+changed ownership of './sys-utils/.deps/ipcutils.Po' from root to nobody
+changed ownership of './sys-utils/.deps/renice.Po' from root to nobody
+changed ownership of './sys-utils/.deps/losetup-losetup.Po' from root to nobody
+changed ownership of './sys-utils/.deps/losetup_static-losetup.Po' from root to nobody
+changed ownership of './sys-utils/.deps/lscpu-lscpu.Po' from root to nobody
+changed ownership of './sys-utils/.deps/.dirstamp' from root to nobody
+changed ownership of './sys-utils/.deps/lsmem-lsmem.Po' from root to nobody
+changed ownership of './sys-utils/.deps/dmesg-dmesg.Po' from root to nobody
+changed ownership of './sys-utils/.deps/setpriv.Po' from root to nobody
+changed ownership of './sys-utils/.deps/chmem.Po' from root to nobody
+changed ownership of './sys-utils/.deps/hwclock-cmos.Po' from root to nobody
+changed ownership of './sys-utils/.deps/zramctl-zramctl.Po' from root to nobody
+changed ownership of './sys-utils/.deps/test_dmesg-dmesg.Po' from root to nobody
+changed ownership of './sys-utils/.deps/unshare_static-unshare.Po' from root to nobody
+changed ownership of './sys-utils/.deps' from root to nobody
+changed ownership of './sys-utils/.dirstamp' from root to nobody
+changed ownership of './sys-utils/pivot_root.o' from root to nobody
+changed ownership of './sys-utils/swapon-swapon-common.o' from root to nobody
+changed ownership of './sys-utils/ipcmk.o' from root to nobody
+changed ownership of './sys-utils/chmem.o' from root to nobody
+changed ownership of './sys-utils/dmesg-dmesg.o' from root to nobody
+changed ownership of './sys-utils/hwclock-rtc.o' from root to nobody
+changed ownership of './sys-utils/blkzone.o' from root to nobody
+changed ownership of './sys-utils/i386.8' from root to nobody
+changed ownership of './sys-utils/fstrim.service' from root to nobody
+changed ownership of './sys-utils/hwclock.8' from root to nobody
+changed ownership of './sys-utils/losetup-losetup.o' from root to nobody
+changed ownership of './sys-utils/chcpu.o' from root to nobody
+changed ownership of './sys-utils/zramctl-zramctl.o' from root to nobody
+changed ownership of './sys-utils/swapoff-swapoff.o' from root to nobody
+changed ownership of './sys-utils/prlimit-prlimit.o' from root to nobody
+changed ownership of './sys-utils/fstrim-fstrim.o' from root to nobody
+changed ownership of './sys-utils/nsenter.o' from root to nobody
+changed ownership of './sys-utils/rtcwake.o' from root to nobody
+changed ownership of './sys-utils/flock.o' from root to nobody
+changed ownership of './sys-utils/hwclock-cmos.o' from root to nobody
+changed ownership of './sys-utils' from root to nobody
+changed ownership of './readprofile' from root to nobody
+changed ownership of './namei' from root to nobody
+changed ownership of './blockdev' from root to nobody
+changed ownership of './po/POTFILES' from root to nobody
+changed ownership of './po/Makefile.in' from root to nobody
+changed ownership of './po/Makefile' from root to nobody
+changed ownership of './po' from root to nobody
+changed ownership of './wall' from root to nobody
+changed ownership of './schedutils/taskset.o' from root to nobody
+changed ownership of './schedutils/.deps/ionice.Po' from root to nobody
+changed ownership of './schedutils/.deps/taskset.Po' from root to nobody
+changed ownership of './schedutils/.deps/.dirstamp' from root to nobody
+changed ownership of './schedutils/.deps/chrt.Po' from root to nobody
+changed ownership of './schedutils/.deps' from root to nobody
+changed ownership of './schedutils/.dirstamp' from root to nobody
+changed ownership of './schedutils/chrt.o' from root to nobody
+changed ownership of './schedutils/ionice.o' from root to nobody
+changed ownership of './schedutils' from root to nobody
+changed ownership of './stamp-h1' from root to nobody
+changed ownership of './libblkid.la' from root to nobody
+changed ownership of './cfdisk' from root to nobody
+changed ownership of './flock' from root to nobody
+changed ownership of './config.out' from root to nobody
+changed ownership of './fsfreeze' from root to nobody
+changed ownership of './mountpoint' from root to nobody
+changed ownership of './ul' from root to nobody
+changed ownership of '.' from root to nobody
+make  check-recursive
+make[1]: Entering directory '/sources/util-linux-2.31.1/build'
+Making check in po
+make[2]: Entering directory '/sources/util-linux-2.31.1/build/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/util-linux-2.31.1/build/po'
+make[2]: Entering directory '/sources/util-linux-2.31.1/build'
+make  test_blkdev test_canonicalize test_colors test_fileutils test_ismounted test_pwdutils test_mangle test_randutils test_strutils test_ttyutils test_timeutils test_cpuset test_sysfs test_pager test_procutils test_linux_version test_uuid_parser  sample-mkfs sample-partitions sample-superblocks sample-topology   sample-scols-title sample-scols-wrap sample-scols-continuous sample-scols-fromfile sample-scols-maxout sample-scols-tree  sample-fdisk-mkpart sample-fdisk-mkpart-fullspec test_more test_script test_consoles test_islocal test_logindefs test_dmesg test_logger test_uuidd test_mkfs_minix test_byteswap test_md5 test_sha1 test_pathnames test_sysinfo test_sigreceive test_tiocsti test_uuid_namespace \
+  
+make[3]: Entering directory '/sources/util-linux-2.31.1/build'
+  CC       lib/test_blkdev-blkdev.o
+  CCLD     test_blkdev
+  CC       lib/test_canonicalize-canonicalize.o
+  CCLD     test_canonicalize
+  CC       lib/test_colors-colors.o
+  CC       lib/test_colors-color-names.o
+  CCLD     test_colors
+  CC       lib/test_fileutils-fileutils.o
+  CCLD     test_fileutils
+  CC       lib/test_ismounted-ismounted.o
+  CCLD     test_ismounted
+  CC       lib/test_pwdutils-pwdutils.o
+  CCLD     test_pwdutils
+  CC       lib/test_mangle-mangle.o
+  CCLD     test_mangle
+  CC       lib/test_randutils-randutils.o
+  CCLD     test_randutils
+  CC       lib/test_strutils-strutils.o
+  CCLD     test_strutils
+  CC       lib/test_ttyutils-ttyutils.o
+  CCLD     test_ttyutils
+  CC       lib/test_timeutils-timeutils.o
+  CC       lib/test_timeutils-strutils.o
+  CCLD     test_timeutils
+  CC       lib/test_cpuset-cpuset.o
+  CCLD     test_cpuset
+  CC       lib/test_sysfs-sysfs.o
+  CCLD     test_sysfs
+  CC       lib/test_pager-pager.o
+  CCLD     test_pager
+  CC       lib/test_procutils-procutils.o
+  CCLD     test_procutils
+  CC       lib/test_linux_version-linux_version.o
+  CCLD     test_linux_version
+  CC       libuuid/src/test_uuid_parser-test_uuid.o
+  CCLD     test_uuid_parser
+  CC       libblkid/samples/sample_mkfs-mkfs.o
+  CCLD     sample-mkfs
+  CC       libblkid/samples/sample_partitions-partitions.o
+  CCLD     sample-partitions
+  CC       libblkid/samples/sample_superblocks-superblocks.o
+  CCLD     sample-superblocks
+  CC       libblkid/samples/sample_topology-topology.o
+  CCLD     sample-topology
+  CC       libsmartcols/samples/sample_scols_title-title.o
+  CCLD     sample-scols-title
+  CC       libsmartcols/samples/sample_scols_wrap-wrap.o
+  CCLD     sample-scols-wrap
+  CC       libsmartcols/samples/sample_scols_continuous-continuous.o
+  CCLD     sample-scols-continuous
+  CC       libsmartcols/samples/sample_scols_fromfile-fromfile.o
+  CCLD     sample-scols-fromfile
+  CC       libsmartcols/samples/sample_scols_maxout-maxout.o
+  CCLD     sample-scols-maxout
+  CC       libsmartcols/samples/sample_scols_tree-tree.o
+  CCLD     sample-scols-tree
+  CC       libfdisk/samples/sample_fdisk_mkpart-mkpart.o
+  CCLD     sample-fdisk-mkpart
+  CC       libfdisk/samples/sample_fdisk_mkpart_fullspec-mkpart-fullspec.o
+  CCLD     sample-fdisk-mkpart-fullspec
+  CC       text-utils/test_more-more.o
+  CCLD     test_more
+  CC       term-utils/test_script-script.o
+  CC       lib/test_script-monotonic.o
+  CCLD     test_script
+  CC       login-utils/test_consoles-sulogin-consoles.o
+  CCLD     test_consoles
+  CC       login-utils/test_islocal-islocal.o
+  CCLD     test_islocal
+  CC       login-utils/test_logindefs-logindefs.o
+  CCLD     test_logindefs
+  CC       sys-utils/test_dmesg-dmesg.o
+  CC       lib/test_dmesg-monotonic.o
+  CCLD     test_dmesg
+  CC       misc-utils/test_logger-logger.o
+  CC       lib/test_logger-strutils.o
+  CC       lib/test_logger-strv.o
+  CCLD     test_logger
+  CC       misc-utils/test_uuidd-test_uuidd.o
+  CCLD     test_uuidd
+  CC       disk-utils/test_mkfs_minix-mkfs.minix.o
+  CCLD     test_mkfs_minix
+  CC       tests/helpers/test_byteswap.o
+  CCLD     test_byteswap
+  CC       tests/helpers/test_md5.o
+  CCLD     test_md5
+  CC       tests/helpers/test_sha1.o
+  CC       lib/sha1.o
+  CCLD     test_sha1
+  CC       tests/helpers/test_pathnames.o
+  CCLD     test_pathnames
+  CC       tests/helpers/test_sysinfo.o
+  CCLD     test_sysinfo
+  CC       tests/helpers/test_sigreceive.o
+  CCLD     test_sigreceive
+  CC       tests/helpers/test_tiocsti.o
+  CCLD     test_tiocsti
+  CC       tests/helpers/test_uuid_namespace.o
+  CC       libuuid/src/predefined.o
+  CC       libuuid/src/unpack.o
+  CC       libuuid/src/unparse.o
+  CCLD     test_uuid_namespace
+make[3]: Leaving directory '/sources/util-linux-2.31.1/build'
+make  check-local
+make[3]: Entering directory '/sources/util-linux-2.31.1/build'
+  GEN      check-local-tests
+
+-------------------- util-linux regression tests --------------------
+
+                    For development purpose only.                    
+                 Don't execute on production system!                 
+
+       kernel: 3.10.0-693.11.1.el7.x86_64        
+
+       bitops: swap bytes                     ... OK
+   blkdiscard: offsets                        ... SKIPPED (no root permissions)
+        blkid: DM error                       ... SKIPPED (no root permissions)
+        blkid: superblocks probing            ...
+                : adaptec-raid                ... OK
+                : bcache-B                    ... OK
+                : bcache-C                    ... OK
+                : befs                        ... OK
+                : bfs                         ... OK
+                : cramfs                      ... OK
+                : ddf-raid                    ... OK
+                : drbdmanage-control-volume   ... OK
+                : exfat                       ... OK
+                : ext2                        ... OK
+                : ext3                        ... OK
+                : f2fs                        ... OK
+                : fat                         ... OK
+                : fat16_noheads               ... OK
+                : fat32_cp850_O_tilde         ... OK
+                : fat32_label_64MB            ... OK
+                : gfs2                        ... OK
+                : hfs                         ... OK
+                : hfsplus                     ... OK
+                : hpfs                        ... OK
+                : hpt37x-raid                 ... OK
+                : hpt45x-raid                 ... OK
+                : iso-joliet                  ... OK
+                : iso-rr-joliet               ... OK
+                : iso                         ... OK
+                : isw-raid                    ... OK
+                : jbd                         ... OK
+                : jfs                         ... OK
+                : jmicron-raid                ... OK
+                : lsi-raid                    ... OK
+                : luks1                       ... OK
+                : luks2                       ... OK
+                : lvm2                        ... OK
+                : mdraid                      ... OK
+                : minix-BE                    ... OK
+                : minix-LE                    ... OK
+                : netware                     ... OK
+                : nilfs2                      ... OK
+                : ntfs                        ... OK
+                : nvidia-raid                 ... OK
+                : ocfs2                       ... OK
+                : promise-raid                ... OK
+                : reiser3                     ... OK
+                : reiser4                     ... OK
+                : romfs                       ... OK
+                : silicon-raid                ... OK
+                : small-fat32                 ... OK
+                : swap0                       ... OK
+                : swap1                       ... OK
+                : tuxonice                    ... OK
+                : ubi                         ... OK
+                : ubifs                       ... OK
+                : udf-cd-nero-6               ... OK
+                : udf-hdd-mkudffs-1.0.0-1     ... OK
+                : udf-hdd-mkudffs-1.0.0-2     ... OK
+                : udf-hdd-mkudffs-1.3-1       ... OK
+                : udf-hdd-mkudffs-1.3-2       ... OK
+                : udf-hdd-mkudffs-1.3-3       ... OK
+                : udf-hdd-mkudffs-1.3-4       ... OK
+                : udf-hdd-mkudffs-1.3-5       ... OK
+                : udf-hdd-mkudffs-1.3-6       ... OK
+                : udf-hdd-udfclient-0.7.5     ... OK
+                : udf-hdd-udfclient-0.7.7     ... OK
+                : udf-hdd-win7                ... OK
+                : udf                         ... OK
+                : ufs                         ... OK
+                : via-raid                    ... OK
+                : vmfs                        ... OK
+                : vmfs_volume                 ... OK
+                : xfs-log                     ... OK
+                : xfs                         ... OK
+                : zfs                         ... OK
+           ... OK (all 72 sub-tests PASSED)
+        blkid: partitions probing             ...
+                : bsd                         ... OK
+                : dos+bsd                     ... OK
+                : gpt                         ... OK
+                : sgi                         ... OK
+                : sun                         ... OK
+           ... OK (all 5 sub-tests PASSED)
+        blkid: mbr-wholedisk                  ... SKIPPED (no root permissions)
+        blkid: MD raid0 (whole-disks)         ... SKIPPED (no root permissions)
+        blkid: MD raid1 (last partition)      ... SKIPPED (no root permissions)
+        blkid: MD raid1 (whole-disks)         ... SKIPPED (no root permissions)
+    build-sys: config                         ... SKIPPED (optional)
+          cal: 1 month                        ... OK
+          cal: 1 month with week numbers      ... OK
+          cal: 3 months                       ... OK
+          cal: 3 months with week numbers     ... OK
+          cal: Year 2147483646                ... OK
+          cal: Year 2147483646 with week numbers ... OK
+          cal: color                          ... OK
+          cal: color with week numbers        ... OK
+          cal: January 1753                   ... OK
+          cal: September 1752                 ... OK
+          cal: September 1752 with week numbers ... OK
+          cal: week number given as argument  ... OK
+          cal: week number corner cases       ... OK
+          cal: year                           ... OK
+          cal: year with week numbers         ... OK
+          col: multibyte input                ... OK
+       colcrt: functional                     ...
+                : no-options                  ... OK
+                : no-underlining              ... OK
+                : half-lines                  ... OK
+                : short-options               ... OK
+           ... OK (all 4 sub-tests PASSED)
+       colcrt: regressions                    ...
+                : crash1                      ... OK
+                : crash2                      ... OK
+                : hang1                       ... OK
+           ... OK (all 3 sub-tests PASSED)
+        colrm: basic check                    ... OK
+       column: columnate                      ...
+                : fill-cols-80                ... OK
+                : fill-cols-50                ... OK
+                : fill-cols-250               ... OK
+                : fill-rows-80                ... OK
+                : fill-rows-50                ... OK
+                : fill-rows-250               ... OK
+           ... OK (all 6 sub-tests PASSED)
+       column: invalid multibyte              ... OK
+       column: multiple files                 ... OK
+       column: table                          ...
+                : default                     ... OK
+                : output-separator            ... OK
+                : input-separator             ... OK
+                : long                        ... OK
+                : hide                        ... OK
+                : headers                     ... OK
+                : truncate                    ... OK
+                : right                       ... OK
+                : wrap                        ... OK
+                : order                       ... OK
+                : tree                        ... OK
+           ... OK (all 11 sub-tests PASSED)
+       cramfs: mkfs doubles                   ... SKIPPED (no root permissions)
+       cramfs: fsck endianness                ... OK
+       cramfs: fsck endianness                ... SKIPPED (no root permissions)
+       cramfs: mkfs checksums                 ... SKIPPED (no root permissions)
+       cramfs: mkfs endianness                ... SKIPPED (no root permissions)
+        dmesg: colors                         ... OK
+        dmesg: levels                         ... OK
+        dmesg: decode                         ... OK
+        dmesg: delta                          ... OK
+        dmesg: facilities                     ... OK
+        dmesg: indentation                    ... OK
+        eject: umount                         ... SKIPPED (no root permissions)
+        fdisk: align 512/4K                   ... SKIPPED (no root permissions)
+        fdisk: align 512/4K +alignment_offset ... SKIPPED (no root permissions)
+        fdisk: align 512/4K +MD               ... SKIPPED (no root permissions)
+        fdisk: align 512/512                  ... SKIPPED (no root permissions)
+        fdisk: align 512/512 +topology        ... SKIPPED (no root permissions)
+        fdisk: nested BSD                     ... OK
+        fdisk: GPT                            ... OK
+        fdisk: MBR - id                       ... OK
+        fdisk: MBR - dos mode                 ... OK
+        fdisk: MBR - non-dos mode             ... OK
+        fdisk: MBR - sort                     ... OK
+        fdisk: invalid input tests            ... OK
+        fdisk: sunlabel tests                 ... OK
+      fincore: count file contents in core    ... OK
+      findmnt: filter                         ...
+                : types                       ... OK
+                : types-multi                 ... OK
+                : types-neg                   ... OK
+                : options                     ... OK
+                : options-name                ... OK
+                : options-nameval             ... OK
+                : options-nameval-neg         ... OK
+                : options-nameval-multi       ... OK
+                : options-neg                 ... OK
+                : options-no                  ... OK
+                : options-no-multi            ... OK
+           ... OK (all 11 sub-tests PASSED)
+      findmnt: outputs                        ...
+                : default                     ... OK
+                : kernel                      ... OK
+                : force-tree                  ... OK
+                : submounts                   ... OK
+                : messy-mountinfo             ... OK
+           ... OK (all 5 sub-tests PASSED)
+      findmnt: target                         ...
+                : root                        ... OK
+                : non-root                    ... OK
+           ... OK (all 2 sub-tests PASSED)
+         fsck: is mounted                     ... SKIPPED (no root permissions)
+       getopt: basic                          ... OK
+       getopt: options                        ...
+                : alternative_option_clash    ... OK
+                : alternative_option_long     ... OK
+                : alternative_option_short    ... OK
+                : invalid_getopt_option       ... OK
+                : invocation_model_one        ... OK
+                : invocation_model_three_as_one ... OK
+                : invocation_model_two_as_one ... OK
+                : invocation_without_parameters ... OK
+                : long_option_ambiguous_1     ... OK
+                : longopts                    ... OK
+                : name_option_long            ... OK
+                : name_option_short           ... OK
+                : quiet_option_long           ... OK
+                : quiet_option_short          ... OK
+                : quiet_output_option_long    ... OK
+                : quiet_output_option_short   ... OK
+                : same_long_short_options     ... OK
+                : test_for_enhanced_getopt    ... OK
+                : unknown_options             ... OK
+                : unquoted_option_bash        ... OK
+                : unquoted_option_tcsh        ... OK
+                : weird_quoting_bash          ... OK
+                : weird_quoting_tcsh          ... OK
+                : compatible                  ... OK
+                : sh                          ... OK
+                : csh                         ... OK
+                : no-arguments                ... OK
+                : posix_correctly             ... OK
+                : non-option                  ... OK
+           ... OK (all 29 sub-tests PASSED)
+      hexdump: format-strings                 ...
+                : empty-format                ... OK
+                : 1b_octal                    ... OK
+                : 1b_char                     ... OK
+                : canon                       ... OK
+                : 2b_dec                      ... OK
+                : 2b_octal                    ... OK
+                : 2b_hex                      ... OK
+           ... OK (all 7 sub-tests PASSED)
+      hexdump: highlighting                   ...
+                : 1b_octal-1                  ... OK
+                : 1b_octal-2                  ... OK
+                : 1b_octal-3                  ... OK
+                : 1b_octal-4                  ... OK
+                : 1b_octal-5                  ... OK
+                : 1b_octal-6                  ... OK
+                : 1b_octal-7                  ... OK
+                : 1b_octal-8                  ... OK
+                : 1b_octal-9                  ... OK
+                : 1b_char-1                   ... OK
+                : 1b_char-2                   ... OK
+                : 1b_char-3                   ... OK
+                : canon-1                     ... OK
+                : canon-2                     ... OK
+                : 2b_dec-1                    ... OK
+                : 2b_dec-2                    ... OK
+                : 2b_dec-3                    ... OK
+                : 2b_dec-4                    ... OK
+                : 2b_dec-5                    ... OK
+                : 2b_dec-6                    ... OK
+                : 2b_dec-7                    ... OK
+                : 2b_dec-8                    ... OK
+                : 4b_dec-1                    ... OK
+                : 4b_dec-2                    ... OK
+                : 4b_dec-3                    ... OK
+                : 4b_dec-4                    ... OK
+                : 4b_dec-5                    ... OK
+                : 4b_dec-6                    ... OK
+                : 4b_dec-7                    ... OK
+           ... OK (all 29 sub-tests PASSED)
+      hwclock: system to hw                   ... SKIPPED (no root permissions)
+         ipcs: headers                        ... OK
+         ipcs: limits overflow                ... SKIPPED (no root permissions)
+         ipcs: basic limits                   ... OK
+         ipcs: mk-rm-msg                      ... OK
+         ipcs: mk-rm-sem                      ... OK
+         ipcs: mk-rm-shm                      ... OK
+      isosize: print-size                     ...
+                : default_output              ... OK
+                : sector_output               ... OK
+                : divisor_output              ... OK
+           ... OK (all 3 sub-tests PASSED)
+         kill: all_processes                  ... SKIPPED (no root permissions)
+         kill: name_to_number                 ... OK
+         kill: options                        ... OK
+         kill: print_pid                      ... OK
+         kill: queue                          ... OK
+     libfdisk: GPT                            ... SKIPPED (test_fdisk_gpt not found)
+     libfdisk: mkpart                         ...
+                : mbr                         ... OK
+                : mbr-logic                   ... OK
+                : mbr-nopartno                ... OK
+                : gpt                         ... OK
+           ... OK (all 4 sub-tests PASSED)
+     libfdisk: mkpart-full                    ...
+                : mbr-primary                 ... OK
+                : mbr-primary-nopartno        ... OK
+                : mbr-err-primary             ... OK
+                : mbr-err-nospace             ... OK
+                : mbr-logical                 ... OK
+                : mbr-nopartno                ... OK
+                : mbr-err-logical             ... OK
+                : mbr-space-gap               ... OK
+                : gpt                         ... OK
+                : gpt-nopartno                ... OK
+                : gpt-err-overlap             ... OK
+                : gpt-partno-gap              ... OK
+                : gpt-space-gap               ... OK
+           ... OK (all 13 sub-tests PASSED)
+     libmount: context                        ... SKIPPED (no root permissions)
+     libmount: context-py                     ... SKIPPED (no root permissions)
+     libmount: context (utab)                 ... SKIPPED (no root permissions)
+     libmount: context-py (utab)              ... SKIPPED (no root permissions)
+     libmount: debugging                      ... SKIPPED (test not compiled)
+     libmount: lock                           ... SKIPPED (optional)
+     libmount: losetup-loop                   ... SKIPPED (no root permissions)
+     libmount: loop overlay                   ... SKIPPED (no root permissions)
+     libmount: options string                 ... SKIPPED (test not compiled)
+     libmount: table diffs                    ... SKIPPED (test not compiled)
+     libmount: tab files                      ... SKIPPED (test not compiled)
+     libmount: tab files-py                   ... SKIPPED (pylibmount not compiled)
+     libmount: tags                           ... SKIPPED (no root permissions)
+     libmount: tags-py                        ... SKIPPED (no root permissions)
+     libmount: tab update                     ... SKIPPED (no root permissions)
+     libmount: tab update-py                  ... SKIPPED (pylibmount not compiled)
+     libmount: utils                          ... SKIPPED (test not compiled)
+ libsmartcols: fromfile                       ...
+                : tree                        ... OK
+                : tree-json                   ... OK
+                : tree-middle                 ... OK
+                : tree-end                    ... OK
+                : trunc                       ... OK
+                : right                       ... OK
+                : right-maxout                ... OK
+                : strictwidth                 ... OK
+                : noextremes                  ... OK
+                : hidden                      ... OK
+                : wrap                        ... OK
+                : wrap-tree                   ... OK
+                : wrapnl                      ... OK
+                : wrapnl-tree                 ... OK
+                : raw                         ... OK
+                : export                      ... OK
+                : column-separator            ... OK
+           ... OK (all 17 sub-tests PASSED)
+ libsmartcols: title                          ... OK
+       logger: errors                         ... SKIPPED (missing in PATH: socat)
+       logger: formats                        ... SKIPPED (missing in PATH: socat)
+       logger: journald                       ... OK
+       logger: options                        ... SKIPPED (missing in PATH: socat)
+        login: islocal                        ... OK
+        login: defs                           ... OK
+         look: separator                      ... OK
+      losetup: losetup                        ... SKIPPED (no root permissions)
+      losetup: losetup-blkdev                 ... SKIPPED (no root permissions)
+      losetup: losetup-loop                   ... SKIPPED (no root permissions)
+        lscpu: lscpu                          ...
+                : armv7                       ... OK
+                : ppc-qemu                    ... OK
+                : ppc64-POWER7-64cpu          ... OK
+                : ppc64-POWER7                ... OK
+                : s390-kvm                    ... OK
+                : s390-lpar-drawer            ... OK
+                : s390-lpar                   ... OK
+                : s390-zvm                    ... OK
+                : sparc64                     ... OK
+                : vbox-win                    ... OK
+                : x86_64-64cpu                ... OK
+                : x86_64-dell_e4310           ... OK
+           ... OK (all 12 sub-tests PASSED)
+        lsmem: lsmem                          ...
+                : s390-zvm-6g                 ... OK
+                : x86_64-16g                  ... OK
+           ... OK (all 2 sub-tests PASSED)
+          md5: md5                            ... OK
+        minix: mkfs fsck                      ... OK
+        minix: fsck images                    ... SKIPPED (no root permissions)
+        minix: mkfs mount                     ... SKIPPED (no root permissions)
+         misc: fallocate                      ... OK
+         misc: flock                          ...
+                : non-block                   ... OK
+                : no-fork                     ... OK
+                : shared                      ... OK
+                : exclusive                   ... OK
+                : timeout                     ... OK
+                : time-check                  ... OK (diff 3 sec)
+           ... OK (all 6 sub-tests PASSED)
+         misc: ionice                         ... OK
+         misc: line                           ... SKIPPED (line not found)
+         misc: mcookie                        ... OK
+         misc: rev                            ... OK
+         misc: setarch                        ...
+                : options                     ... OK
+                : uname26                     ... OK
+                : uname26-version             ... OK
+           ... OK (all 3 sub-tests PASSED)
+         misc: setsid                         ... OK
+         misc: strtosize                      ... OK
+         misc: swaplabel                      ... OK
+         misc: ul                             ... OK
+         misc: whereis                        ... OK
+         more: regexp                         ... OK
+         more: squeeze                        ... OK
+        mount: by devname                     ... SKIPPED (no root permissions)
+        mount: fs lists                       ... SKIPPED (no root permissions)
+        mount: broken fstab                   ... SKIPPED (no root permissions)
+        mount: btrfs (fstab)                  ... SKIPPED (no root permissions)
+        mount: by devname (fstab)             ... SKIPPED (no root permissions)
+        mount: by devname (fstab label)       ... SKIPPED (no root permissions)
+        mount: by devname (fstab uuid)        ... SKIPPED (no root permissions)
+        mount: by label (fstab)               ... SKIPPED (no root permissions)
+        mount: by label (fstab devname)       ... SKIPPED (no root permissions)
+        mount: by label (fstab uuid)          ... SKIPPED (no root permissions)
+        mount: loop (fstab)                   ... SKIPPED (no root permissions)
+        mount: none                           ... SKIPPED (no root permissions)
+        mount: by devname (fstab symlink)     ... SKIPPED (no root permissions)
+        mount: by uuid (fstab)                ... SKIPPED (no root permissions)
+        mount: by uuid (fstab devname)        ... SKIPPED (no root permissions)
+        mount: by uuid (fstab label)          ... SKIPPED (no root permissions)
+        mount: by label                       ... SKIPPED (no root permissions)
+        mount: move                           ... SKIPPED (no root permissions)
+        mount: regular file                   ... SKIPPED (no root permissions)
+        mount: remount                        ... SKIPPED (no root permissions)
+        mount: rlimit-fsize                   ... SKIPPED (no root permissions)
+        mount: shared-subtree                 ... SKIPPED (no root permissions)
+        mount: call mount.<type>              ... SKIPPED (no root permissions)
+        mount: umount-all-targets             ... SKIPPED (no root permissions)
+        mount: umount-recursive               ... SKIPPED (no root permissions)
+        mount: by uuid                        ... SKIPPED (no root permissions)
+        namei: basic functionality            ... OK
+        partx: partitions probing             ... SKIPPED (no root permissions)
+        partx: show images                    ...
+                : bsd                         ... OK
+                : dos+bsd                     ... OK
+                : gpt                         ... OK
+                : sgi                         ... OK
+                : sun                         ... OK
+           ... OK (all 5 sub-tests PASSED)
+        paths: built-in                       ... SKIPPED (optional)
+       rename: basic check                    ... OK
+       rename: exit codes                     ... OK
+       rename: subdir check                   ... OK
+       rename: symlink check                  ... OK
+   schedutils: chrt                           ... SKIPPED (no root permissions)
+   schedutils: chrt-non-user                  ...
+                : batch-vs-nice               ... OK
+           ... OK (all 1 sub-tests PASSED)
+   schedutils: cpuset                         ... OK
+       script: buffering race                 ... OK
+       script: options                        ...
+                : append                      ... OK
+                : force                       ... OK
+                : quiet                       ... OK
+                : return                      ... OK
+           ... OK (all 4 sub-tests PASSED)
+       script: race conditions                ... OK
+       script: replay                         ... OK
+       sfdisk: MBR                            ... SKIPPED (no root permissions)
+       sfdisk: GPT                            ... SKIPPED (no root permissions)
+       sfdisk: movedata                       ... SKIPPED (no root permissions)
+       sfdisk: resize                         ... SKIPPED (no root permissions)
+       sfdisk: GPT                            ... SKIPPED (no root permissions)
+       sfdisk: wipe                           ... SKIPPED (no root permissions)
+         sha1: sha1                           ... OK
+       swapon: by devname                     ... SKIPPED (no root permissions)
+       swapon: fix page size                  ... SKIPPED (no root permissions)
+       swapon: fix signature                  ... SKIPPED (no root permissions)
+       swapon: by label                       ... SKIPPED (no root permissions)
+       swapon: by uuid                        ... SKIPPED (no root permissions)
+         utmp: last                           ...
+                : nodns                       ... OK
+           ... OK (all 1 sub-tests PASSED)
+         utmp: last ipv6                      ...
+                : nodns                       ... OK
+           ... OK (all 1 sub-tests PASSED)
+         utmp: circle                         ... OK
+         utmp: subsecond                      ... OK
+         utmp: to binary                      ... OK
+         utmp: IPv6 to binary                 ... OK
+         utmp: to text                        ... OK
+         utmp: IPv6 to text                   ... OK
+         uuid: namespace                      ... OK
+         uuid: oids                           ... OK
+         uuid: uuid_parser                    ... OK
+         uuid: uuidd                          ... OK
+         uuid: uuidgen                        ... OK
+         uuid: uuidparse                      ... OK
+       wipefs: wipefs                         ... SKIPPED (no root permissions)
+
+---------------------------------------------------------------------
+  All 200 tests PASSED
+---------------------------------------------------------------------
+make[3]: Leaving directory '/sources/util-linux-2.31.1/build'
+make[2]: Leaving directory '/sources/util-linux-2.31.1/build'
+make[1]: Leaving directory '/sources/util-linux-2.31.1/build'

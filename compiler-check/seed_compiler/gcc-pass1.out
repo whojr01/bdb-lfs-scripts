@@ -1,0 +1,3 @@
+Using Compiler: /tools/bin/x86_64-lfs-linux-gnu-gcc
+a.out not generated
+not removing dummy.c or dummy.log

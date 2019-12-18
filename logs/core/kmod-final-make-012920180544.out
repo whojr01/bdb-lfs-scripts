@@ -1,0 +1,57 @@
+make --no-print-directory all-recursive
+Making all in .
+  CC       libkmod/libkmod.lo
+  CC       libkmod/libkmod-list.lo
+  CC       libkmod/libkmod-config.lo
+  CC       libkmod/libkmod-index.lo
+  CC       libkmod/libkmod-module.lo
+  CC       libkmod/libkmod-file.lo
+  CC       libkmod/libkmod-elf.lo
+  CC       libkmod/libkmod-signature.lo
+  CC       shared/array.lo
+  CC       shared/hash.lo
+  CC       shared/scratchbuf.lo
+  CC       shared/strbuf.lo
+  CC       shared/util.lo
+  CCLD     shared/libshared.la
+  CCLD     libkmod/libkmod.la
+  CCLD     libkmod/libkmod-internal.la
+  CC       tools/kmod.o
+  CC       tools/lsmod.o
+  CC       tools/rmmod.o
+  CC       tools/insmod.o
+  CC       tools/modinfo.o
+  CC       tools/modprobe.o
+  CC       tools/depmod.o
+../tools/depmod.c: In function 'output_builtin_bin.part.17':
+../tools/depmod.c:2294:35: warning: '/modules.builtin' directive output may be truncated writing 16 bytes into a region of size between 1 and 4096 [-Wformat-truncation=]
+  snprintf(infile, sizeof(infile), "%s/modules.builtin",
+                                   ^~~~~~~~~~~~~~~~~~~~
+../tools/depmod.c:2294:2: note: 'snprintf' output between 17 and 4112 bytes into a destination of size 4096
+  snprintf(infile, sizeof(infile), "%s/modules.builtin",
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        depmod->cfg->dirname);
+        ~~~~~~~~~~~~~~~~~~~~~
+../tools/depmod.c: In function 'do_depmod':
+../tools/depmod.c:1397:43: warning: '/modules.order' directive output may be truncated writing 14 bytes into a region of size between 1 and 4096 [-Wformat-truncation=]
+  snprintf(order_file, sizeof(order_file), "%s/modules.order",
+                                           ^~~~~~~~~~~~~~~~~~
+../tools/depmod.c:1397:2: note: 'snprintf' output between 15 and 4110 bytes into a destination of size 4096
+  snprintf(order_file, sizeof(order_file), "%s/modules.order",
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    depmod->cfg->dirname);
+    ~~~~~~~~~~~~~~~~~~~~~
+  CC       tools/log.o
+  CC       tools/static-nodes.o
+  CCLD     tools/kmod
+  GEN      tools/insmod
+  GEN      tools/rmmod
+  GEN      tools/lsmod
+  GEN      tools/modprobe
+  GEN      tools/modinfo
+  GEN      tools/depmod
+  GEN      libkmod/libkmod.pc
+Making all in libkmod/docs
+make[2]: Nothing to be done for 'all'.
+Making all in man
+make[2]: Nothing to be done for 'all'.

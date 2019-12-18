@@ -1,0 +1,15 @@
+###############################
+# Make iceauth-1.0.7.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/iceauth-1.0.7'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/iceauth-1.0.7/man'
+  GEN      iceauth.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/iceauth-1.0.7/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/iceauth-1.0.7'
+  CC       iceauth.o
+  CC       process.o
+  CCLD     iceauth
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/iceauth-1.0.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/iceauth-1.0.7'

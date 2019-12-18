@@ -1,0 +1,286 @@
+make  check-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+Making check in .
+make[2]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make   
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make  all-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+Making all in .
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+Making all in docs
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+Making all in tests
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make  all-recursive
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making all in .
+make[7]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[7]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making all in scanner
+make[7]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+Making all in .
+make[8]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+Making all in annotationparser
+make[8]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner/annotationparser'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner/annotationparser'
+make[7]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+Making all in repository
+make[7]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/repository'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/repository'
+Making all in offsets
+make[7]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+make  all-am
+make[8]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+make[7]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+Making all in warn
+make[7]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/warn'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/warn'
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making all in win32
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+Making all in vs9
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs9'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs9'
+Making all in vs10
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs10'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs10'
+Making all in vs11
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs11'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs11'
+Making all in vs12
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs12'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs12'
+Making all in vs14
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs14'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs14'
+Making all in vs15
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs15'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs15'
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make  check-TESTS check-local
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+  CC       cmph_bdz_test-cmph-bdz-test.o
+  CCLD     cmph-bdz-test
+PASS: cmph-bdz-test
+  CC       gthash_test-gthash.o
+  CC       gthash_test-gthash-test.o
+  CCLD     gthash-test
+PASS: gthash-test
+============================================================================
+Testsuite summary for gobject-introspection 1.54.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+TEST: PEP-8 INQUISITION
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make[2]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+Making check in docs
+make[2]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[2]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+Making check in tests
+make[2]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make  check-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making check in .
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make  check-TESTS
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+  CC       everything.lo
+  CCLD     libeverything-1.0.la
+  GEN      Everything-1.0.gir
+g-ir-scanner: link: /bin/sh ../libtool --mode=link --tag=CC gcc -o /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspectD5PBbf/Everything-1.0 -export-dynamic /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspectD5PBbf/Everything-1.0.o -L. libeverything-1.0.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+libtool: link: gcc -o /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspectD5PBbf/Everything-1.0 /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspectD5PBbf/Everything-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libeverything-1.0.a -ldl -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -pthread
+  GEN      Everything-1.0.typelib
+PASS: Everything-1.0.typelib
+  CC       gimarshallingtests.lo
+gimarshallingtests.c: In function 'gi_marshalling_tests_array_unichar_in':
+gimarshallingtests.c:1419:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (ix = 0; ix < length; ix++)
+                   ^
+  CCLD     libgimarshallingtests-1.0.la
+  GEN      GIMarshallingTests-1.0.gir
+g-ir-scanner: link: /bin/sh ../libtool --mode=link --tag=CC gcc -o /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspect9EN51K/GIMarshallingTests-1.0 -export-dynamic /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspect9EN51K/GIMarshallingTests-1.0.o -L. libgimarshallingtests-1.0.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+libtool: link: gcc -o /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspect9EN51K/GIMarshallingTests-1.0 /lfskernel/sources/boot/gobject-introspection-1.54.1/tests/tmp-introspect9EN51K/GIMarshallingTests-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgimarshallingtests-1.0.a -ldl -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -pthread
+  GEN      GIMarshallingTests-1.0.typelib
+PASS: GIMarshallingTests-1.0.typelib
+============================================================================
+Testsuite summary for gobject-introspection 1.54.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making check in scanner
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+Making check in .
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make  check-TESTS
+make[6]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make[7]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+  CC       libsletter_la-sletter.lo
+  CCLD     libsletter.la
+  GISCAN   SLetter-1.0.gir
+PASS: SLetter-1.0.gir
+  CC       utility.lo
+  CCLD     libutility.la
+  GISCAN   Utility-1.0.gir
+  CC       libregress_la-regress.lo
+./regress.c:3480:3: warning: no previous prototype for '_regress_test_fundamental_hidden_sub_object_get_type' [-Wmissing-prototypes]
+   _regress_test_fundamental_hidden_sub_object_get_type
+   ^
+./regress.c:3480:3: note: in definition of macro 'regress_test_fundamental_hidden_sub_object_get_type'
+   _regress_test_fundamental_hidden_sub_object_get_type
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1994:3: note: in expansion of macro '_G_DEFINE_TYPE_EXTENDED_BEGIN_PRE'
+   _G_DEFINE_TYPE_EXTENDED_BEGIN_PRE(TypeName, type_name, TYPE_PARENT) \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1737:60: note: in expansion of macro '_G_DEFINE_TYPE_EXTENDED_BEGIN'
+ #define G_DEFINE_TYPE_EXTENDED(TN, t_n, T_P, _f_, _C_)     _G_DEFINE_TYPE_EXTENDED_BEGIN (TN, t_n, T_P, _f_) {_C_;} _G_DEFINE_TYPE_EXTENDED_END()
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1595:43: note: in expansion of macro 'G_DEFINE_TYPE_EXTENDED'
+ #define G_DEFINE_TYPE(TN, t_n, T_P)       G_DEFINE_TYPE_EXTENDED (TN, t_n, T_P, 0, {})
+                                           ^~~~~~~~~~~~~~~~~~~~~~
+./regress.c:3488:1: note: in expansion of macro 'G_DEFINE_TYPE'
+ G_DEFINE_TYPE (RegressTestFundamentalHiddenSubObject,
+ ^~~~~~~~~~~~~
+  CC       libregress_la-annotation.lo
+  CC       libregress_la-foo.lo
+  CC       libregress_la-drawable.lo
+  CCLD     libregress.la
+  GISCAN   Regress-1.0.gir
+FAIL: Regress-1.0.gir
+  CC       libwarnlib_la-warnlib.lo
+  CCLD     libwarnlib.la
+  GISCAN   WarnLib-1.0.gir
+warnlib.h:33: Warning: WarnLib: symbol='do_moo': missing parameter name; undocumentable
+warnlib.h:33: Warning: WarnLib: symbol='do_moo': missing parameter name; undocumentable
+warnlib.h:39: Warning: WarnLib: symbol='warnlib_whatever_do_moo': missing parameter name; undocumentable
+warnlib.h:39: Warning: WarnLib: symbol='warnlib_whatever_do_moo': missing parameter name; undocumentable
+warnlib.h:41: Warning: WarnLib: symbol='warnlib_whatever_do_boo': missing parameter name; undocumentable
+warnlib.h:41: Warning: WarnLib: symbol='warnlib_whatever_do_boo': missing parameter name; undocumentable
+warnlib.c:39: Warning: WarnLib: warnlib_whatever_do_boo: unknown parameter 'y' in documentation comment, should be one of 'arg1', 'arg2'
+warnlib.c:38: Warning: WarnLib: warnlib_whatever_do_boo: unknown parameter 'x' in documentation comment, should be one of 'arg1', 'arg2'
+<unknown>:: Warning: WarnLib: (ErrorQuarkFunction)unpaired_error_quark: warnlib_unpaired_error_quark: Couldn't find corresponding enumeration
+PASS: WarnLib-1.0.gir
+PASS: Utility-1.0.gir
+  CC       gtkfrob.lo
+  CCLD     libgtkfrob.la
+  GISCAN   GtkFrob-1.0.gir
+PASS: GtkFrob-1.0.gir
+  CC       gettype.lo
+  CCLD     libgettype.la
+  GISCAN   GetType-1.0.gir
+<unknown>:: Warning: GetType: function 'object_nonmeta2_get_type' returns 'Type(target_fundamental=gboolean, ctype=gboolean)', not a GType
+<unknown>:: Warning: GetType: function 'object_nonmeta_get_gtype' returns 'Type(target_fundamental=gboolean, ctype=gboolean)', not a GType
+<unknown>:: Warning: GetType: function 'object_nonmeta2_get_type' returns 'Type(target_fundamental=gboolean, ctype=gboolean)', not a GType
+<unknown>:: Warning: GetType: function 'object_nonmeta_get_gtype' returns 'Type(target_fundamental=gboolean, ctype=gboolean)', not a GType
+PASS: GetType-1.0.gir
+  CC       typedefs.lo
+  CCLD     libtypedefs.la
+  GISCAN   Typedefs-1.0.gir
+PASS: Typedefs-1.0.gir
+  CC       barapp.o
+  CCLD     barapp
+  GISCAN   Bar-1.0.gir
+PASS: Bar-1.0.gir
+  GEN      Headeronly-1.0.gir
+PASS: Headeronly-1.0.gir
+  GEN      Identfilter-1.0.gir
+identfilter.h:7: Warning: Identfilter: identfilter_object_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+identfilter.h:7: Warning: Identfilter: identfilter_object_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+PASS: Identfilter-1.0.gir
+  GEN      Symbolfilter-1.0.gir
+symbolfilter.h:6: Warning: Symbolfilter: SymbolfilterObjectNew: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+symbolfilter.h:6: Warning: Symbolfilter: SymbolfilterObjectNew: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+PASS: Symbolfilter-1.0.gir
+  GICOMP   SLetter-1.0.gir
+PASS: SLetter-1.0.typelib
+  GICOMP   Regress-1.0.gir
+PASS: Regress-1.0.typelib
+  GICOMP   WarnLib-1.0.gir
+PASS: WarnLib-1.0.typelib
+  GICOMP   Utility-1.0.gir
+PASS: Utility-1.0.typelib
+  GICOMP   GtkFrob-1.0.gir
+PASS: GtkFrob-1.0.typelib
+  GICOMP   GetType-1.0.gir
+PASS: GetType-1.0.typelib
+  GICOMP   Typedefs-1.0.gir
+PASS: Typedefs-1.0.typelib
+  GICOMP   Bar-1.0.gir
+PASS: Bar-1.0.typelib
+PASS: test_sourcescanner.py
+PASS: test_transformer.py
+============================================================================
+Testsuite summary for gobject-introspection 1.54.1
+============================================================================
+# TOTAL: 21
+# PASS:  20
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/scanner/test-suite.log
+Please report to http://bugzilla.gnome.org/enter_bug.cgi?product=gobject-introspection
+============================================================================
+make[7]: *** [Makefile:1254: test-suite.log] Error 1
+make[7]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make[6]: *** [Makefile:1362: check-TESTS] Error 2
+make[6]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make[5]: *** [Makefile:1625: check-am] Error 2
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make[4]: *** [Makefile:1146: check-recursive] Error 1
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make[3]: *** [Makefile:792: check-recursive] Error 1
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[2]: *** [Makefile:1112: check] Error 2
+make[2]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[1]: *** [Makefile:2820: check-recursive] Error 1
+make[1]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+make: *** [Makefile:3280: check] Error 2

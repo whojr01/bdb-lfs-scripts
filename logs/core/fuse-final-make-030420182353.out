@@ -1,0 +1,78 @@
+Making all in include
+make[1]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7/include'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7/include'
+Making all in lib
+make[1]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7/lib'
+  CC       fuse.lo
+  CC       fuse_kern_chan.lo
+  CC       fuse_loop.lo
+  CC       fuse_loop_mt.lo
+  CC       fuse_lowlevel.lo
+  CC       fuse_mt.lo
+  CC       fuse_opt.lo
+  CC       fuse_session.lo
+  CC       fuse_signals.lo
+  CC       buffer.lo
+  CC       cuse_lowlevel.lo
+  CC       helper.lo
+  CC       modules/subdir.lo
+  CC       modules/iconv.lo
+  CC       mount.lo
+  CC       mount_util.lo
+  CCLD     libfuse.la
+  CC       ulockmgr.lo
+  CCLD     libulockmgr.la
+make[1]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7/lib'
+Making all in util
+make[1]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7/util'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7/util'
+  CC       fusermount-fusermount.o
+  CC       fusermount-mount_util.o
+  CCLD     fusermount
+  CC       ulockmgr_server-ulockmgr_server.o
+  CCLD     ulockmgr_server
+  CC       mount.fuse.o
+  CCLD     mount.fuse
+make[2]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7/util'
+make[1]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7/util'
+Making all in example
+make[1]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7/example'
+  CC       fusexmp.o
+  CCLD     fusexmp
+  CC       fusexmp_fh.o
+  CCLD     fusexmp_fh
+  CC       null.o
+  CCLD     null
+  CC       hello.o
+  CCLD     hello
+  CC       hello_ll.o
+  CCLD     hello_ll
+  CC       fioc.o
+  CCLD     fioc
+  CC       fioclient-fioclient.o
+  CCLD     fioclient
+  CC       fsel.o
+  CCLD     fsel
+  CC       fselclient-fselclient.o
+  CCLD     fselclient
+  CC       cusexmp.o
+cusexmp.c: In function 'cusexmp_ioctl':
+cusexmp.c:208:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   is_read = 1;
+   ~~~~~~~~^~~
+cusexmp.c:209:2: note: here
+  case FIOC_WRITE:
+  ^~~~
+  CCLD     cusexmp
+make[1]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7/example'
+Making all in doc
+make[1]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/fuse-2.9.7'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fuse-2.9.7'

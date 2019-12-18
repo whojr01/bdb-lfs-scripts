@@ -1,0 +1,33 @@
+cd lib; make all
+make[1]: Entering directory '/sources/gperf-3.1/build/lib'
+gcc -g -O2 -I../../lib -c ../../lib/getopt.c
+gcc -g -O2 -I../../lib -c ../../lib/getopt1.c
+g++ -g -O2 -I../../lib -c ../../lib/getline.cc
+g++ -g -O2 -I../../lib -c ../../lib/hash.cc
+rm -f libgp.a
+ar rc libgp.a getopt.o getopt1.o getline.o hash.o
+ranlib libgp.a
+make[1]: Leaving directory '/sources/gperf-3.1/build/lib'
+cd src; make all
+make[1]: Entering directory '/sources/gperf-3.1/build/src'
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/version.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/positions.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/options.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/keyword.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/keyword-list.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/input.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/bool-array.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/hash-table.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/search.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/output.cc
+g++ -g -O2 -I. -I../../src/../lib -c ../../src/main.cc
+g++ -g -O2  -o gperf version.o positions.o options.o keyword.o keyword-list.o input.o bool-array.o hash-table.o search.o output.o main.o ../lib/libgp.a -lm
+make[1]: Leaving directory '/sources/gperf-3.1/build/src'
+cd tests; make all
+make[1]: Entering directory '/sources/gperf-3.1/build/tests'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/gperf-3.1/build/tests'
+cd doc; make all
+make[1]: Entering directory '/sources/gperf-3.1/build/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/gperf-3.1/build/doc'

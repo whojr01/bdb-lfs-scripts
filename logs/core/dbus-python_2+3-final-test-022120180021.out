@@ -1,0 +1,102 @@
+Making check in dbus-gmain
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+PASS: tests/test-30574
+============================================================================
+Testsuite summary for dbus-python 1.2.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+Making check in .
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+make  check-TESTS check-local
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+SKIP: test/test-client.py - cannot import TAPTestRunner
+SKIP: test/test-p2p.py - cannot import TAPTestRunner
+SKIP: test/test-signals.py - cannot import TAPTestRunner
+SKIP: test/test-standalone.py - cannot import TAPTestRunner
+SKIP: test/test-unusable-main-loop.py - cannot import TAPTestRunner
+SKIP: test/test-exception-py2.py - cannot import TAPTestRunner
+SKIP: test/run-test.sh - could not import python-gi
+PASS: test/test-import-repeatedly 1 - was able to import dbus 100 times
+============================================================================
+Testsuite summary for dbus-python 1.2.6
+============================================================================
+# TOTAL: 8
+# PASS:  1
+# SKIP:  7
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+check-coding-style.mk: checking Python sources...
+check-coding-style.mk: checking C sources...
+check-coding-style.mk: checking Python sources...
+check-coding-style.mk: checking C sources...
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+Making check in dbus-gmain
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+PASS: tests/test-30574
+============================================================================
+Testsuite summary for dbus-python 1.2.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+Making check in .
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+make  check-TESTS check-local
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+SKIP: test/test-client.py - cannot import TAPTestRunner
+SKIP: test/test-p2p.py - cannot import TAPTestRunner
+SKIP: test/test-signals.py - cannot import TAPTestRunner
+SKIP: test/test-standalone.py - cannot import TAPTestRunner
+SKIP: test/test-unusable-main-loop.py - cannot import TAPTestRunner
+SKIP: test/test-exception-py2.py - cannot import TAPTestRunner
+SKIP: test/run-test.sh - could not import python-gi
+PASS: test/test-import-repeatedly 1 - was able to import dbus 100 times
+============================================================================
+Testsuite summary for dbus-python 1.2.6
+============================================================================
+# TOTAL: 8
+# PASS:  1
+# SKIP:  7
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+check-coding-style.mk: checking Python sources...
+check-coding-style.mk: checking C sources...
+check-coding-style.mk: checking Python sources...
+check-coding-style.mk: checking C sources...
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'

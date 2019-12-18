@@ -1,0 +1,29 @@
+###############################
+# Make xrandr-1.5.0.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xrandr-1.5.0'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xrandr-1.5.0/man'
+  GEN      xrandr.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xrandr-1.5.0/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xrandr-1.5.0'
+  CC       xrandr.o
+xrandr.c: In function 'main':
+xrandr.c:3706:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+    if (!first) printf (" "); first = False;
+    ^~
+xrandr.c:3706:30: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    if (!first) printf (" "); first = False;
+                              ^~~~~
+xrandr.c:3712:7: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+       if (!first) printf (" "); first = False;
+       ^~
+xrandr.c:3712:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+       if (!first) printf (" "); first = False;
+                                 ^~~~~
+  CCLD     xrandr
+(echo '#!/usr/bin/env nickle'; cat ./keystone.5c) > xkeystone
+chmod +x xkeystone
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xrandr-1.5.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xrandr-1.5.0'

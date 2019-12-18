@@ -1,0 +1,21 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By:            Igor Živković
+|Date:                    2016-06-14
+|Initial Package Version: 1.12
+|Upstream Status:         Fixed
+|Origin:                  Upstream
+|Description:
+|
+|  https://cgit.freedesktop.org/xcb/libxcb/commit/?id=8740a288ca468433141341347aa115b9544891d3
+|
+|--- libxcb-1.12.orig/src/c_client.py
+|+++ libxcb-1.12/src/c_client.py
+--------------------------
+patching file src/c_client.py
+Using Plan A...
+Hunk #1 succeeded at 1364.
+Hunk #2 succeeded at 1390.
+Hunk #3 succeeded at 1930.
+done

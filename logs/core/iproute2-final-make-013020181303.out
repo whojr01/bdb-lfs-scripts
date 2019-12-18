@@ -1,0 +1,283 @@
+sh configure /usr/include
+TC schedulers
+ ATM	no
+
+libc has setns: yes
+SELinux support: no
+ELF support: yes
+libmnl support: no
+Berkeley DB: no
+need for strlcpy: yes
+
+docs: latex: no
+ WARNING: no docs can be built from LaTeX files
+ sgml2html: no
+ WARNING: no HTML docs can be built from SGML
+
+
+lib
+make[1]: Entering directory '/sources/iproute2-4.14.1/lib'
+    CC       libgenl.o
+    CC       ll_map.o
+    CC       libnetlink.o
+libnetlink.c:118:2: warning: #warning "libmnl required for error support" [-Wcpp]
+ #warning "libmnl required for error support"
+  ^~~~~~~
+    AR       libnetlink.a
+    CC       utils.o
+    CC       rt_names.o
+    CC       ll_types.o
+    CC       ll_proto.o
+    CC       ll_addr.o
+    CC       inet_proto.o
+    CC       namespace.o
+    CC       json_writer.o
+    CC       json_print.o
+    CC       names.o
+    CC       color.o
+    CC       bpf.o
+    CC       exec.o
+    CC       fs.o
+    CC       dnet_ntop.o
+    CC       dnet_pton.o
+    CC       ipx_ntop.o
+    CC       ipx_pton.o
+    CC       mpls_ntop.o
+    CC       mpls_pton.o
+    AR       libutil.a
+make[1]: Leaving directory '/sources/iproute2-4.14.1/lib'
+
+ip
+make[1]: Entering directory '/sources/iproute2-4.14.1/ip'
+    CC       ip.o
+    CC       ipaddress.o
+    CC       ipaddrlabel.o
+    CC       iproute.o
+    CC       iprule.o
+    CC       ipnetns.o
+    CC       rtm_map.o
+    CC       iptunnel.o
+    CC       ip6tunnel.o
+    CC       tunnel.o
+    CC       ipneigh.o
+    CC       ipntable.o
+    CC       iplink.o
+    CC       ipmaddr.o
+    CC       ipmonitor.o
+    CC       ipmroute.o
+    CC       ipprefix.o
+    CC       iptuntap.o
+    CC       iptoken.o
+    CC       ipxfrm.o
+    CC       xfrm_state.o
+    CC       xfrm_policy.o
+    CC       xfrm_monitor.o
+    CC       iplink_dummy.o
+    CC       iplink_ifb.o
+    CC       iplink_nlmon.o
+    CC       iplink_team.o
+    CC       iplink_vcan.o
+    CC       iplink_vxcan.o
+    CC       iplink_vlan.o
+    CC       link_veth.o
+    CC       link_gre.o
+    CC       iplink_can.o
+    CC       iplink_xdp.o
+    CC       iplink_macvlan.o
+    CC       ipl2tp.o
+    CC       link_vti.o
+    CC       link_vti6.o
+    CC       iplink_vxlan.o
+    CC       tcp_metrics.o
+    CC       iplink_ipoib.o
+    CC       ipnetconf.o
+    CC       link_ip6tnl.o
+    CC       link_iptnl.o
+    CC       link_gre6.o
+    CC       iplink_bond.o
+    CC       iplink_bond_slave.o
+    CC       iplink_hsr.o
+    CC       iplink_bridge.o
+    CC       iplink_bridge_slave.o
+    CC       ipfou.o
+    CC       iplink_ipvlan.o
+    CC       iplink_geneve.o
+    CC       iplink_vrf.o
+    CC       iproute_lwtunnel.o
+    CC       ipmacsec.o
+    CC       ipila.o
+    CC       ipvrf.o
+    CC       iplink_xstats.o
+    CC       ipseg6.o
+    LINK     ip
+    CC       rtmon.o
+    LINK     rtmon
+make[1]: Leaving directory '/sources/iproute2-4.14.1/ip'
+
+tc
+make[1]: Entering directory '/sources/iproute2-4.14.1/tc'
+    CC       tc.o
+    CC       tc_qdisc.o
+    CC       tc_class.o
+    CC       tc_filter.o
+    CC       tc_util.o
+tc_util.c: In function 'parse_action_control_slash':
+tc_util.c:602:13: warning: 'result1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  *result1_p = result1;
+  ~~~~~~~~~~~^~~~~~~~~
+    CC       tc_monitor.o
+    CC       tc_exec.o
+    CC       m_police.o
+    CC       m_estimator.o
+    CC       m_action.o
+    CC       m_ematch.o
+    YACC     emp_ematch.yacc.c
+    CC       emp_ematch.yacc.o
+    LEX      emp_ematch.lex.c
+    CC       emp_ematch.lex.o
+    CC       q_fifo.o
+    CC       q_sfq.o
+    CC       q_red.o
+    CC       q_prio.o
+    CC       q_tbf.o
+    CC       q_cbq.o
+    CC       q_rr.o
+    CC       q_multiq.o
+    CC       q_netem.o
+    CC       q_choke.o
+    CC       q_sfb.o
+    CC       f_rsvp.o
+    CC       f_u32.o
+    CC       f_route.o
+    CC       f_fw.o
+    CC       f_basic.o
+    CC       f_bpf.o
+    CC       f_flow.o
+    CC       f_cgroup.o
+    CC       f_flower.o
+    CC       q_dsmark.o
+    CC       q_gred.o
+    CC       f_tcindex.o
+    CC       q_ingress.o
+    CC       q_hfsc.o
+    CC       q_htb.o
+    CC       q_drr.o
+    CC       q_qfq.o
+    CC       m_gact.o
+    CC       m_mirred.o
+    CC       m_nat.o
+    CC       m_pedit.o
+    CC       m_ife.o
+    CC       m_skbedit.o
+    CC       m_skbmod.o
+    CC       m_csum.o
+    CC       m_simple.o
+    CC       m_vlan.o
+    CC       m_connmark.o
+    CC       m_bpf.o
+    CC       m_tunnel_key.o
+    CC       m_sample.o
+    CC       p_ip.o
+    CC       p_ip6.o
+    CC       p_icmp.o
+    CC       p_eth.o
+    CC       p_tcp.o
+    CC       p_udp.o
+    CC       em_nbyte.o
+    CC       em_cmp.o
+    CC       em_u32.o
+    CC       em_canid.o
+    CC       em_meta.o
+    CC       q_mqprio.o
+    CC       q_codel.o
+    CC       q_fq_codel.o
+    CC       q_fq.o
+    CC       q_pie.o
+    CC       q_hhf.o
+    CC       q_clsact.o
+    CC       e_bpf.o
+    CC       f_matchall.o
+    CC       tc_core.o
+    CC       tc_red.o
+    CC       tc_cbq.o
+    CC       tc_estimator.o
+    CC       tc_stab.o
+    AR       libtc.a
+    LINK     tc
+rm emp_ematch.lex.c
+make[1]: Leaving directory '/sources/iproute2-4.14.1/tc'
+
+bridge
+make[1]: Entering directory '/sources/iproute2-4.14.1/bridge'
+    CC       bridge.o
+    CC       fdb.o
+    CC       monitor.o
+    CC       link.o
+    CC       mdb.o
+    CC       vlan.o
+    LINK     bridge
+make[1]: Leaving directory '/sources/iproute2-4.14.1/bridge'
+
+misc
+make[1]: Entering directory '/sources/iproute2-4.14.1/misc'
+    CC       ss.o
+    YACC     ssfilter.c
+ssfilter.y: warning: 35 shift/reduce conflicts [-Wconflicts-sr]
+    CC       ssfilter.o
+    LINK     ss
+    CC       nstat
+    CC       ifstat
+    CC       rtacct
+    CC       lnstat.o
+    CC       lnstat_util.o
+    LINK     lnstat
+make[1]: Leaving directory '/sources/iproute2-4.14.1/misc'
+
+netem
+make[1]: Entering directory '/sources/iproute2-4.14.1/netem'
+gcc  -I../include -o maketable maketable.c -lm
+gcc  -I../include -o normal normal.c -lm
+gcc  -I../include -o pareto pareto.c -lm
+gcc  -I../include -o paretonormal paretonormal.c -lm
+./normal > normal.dist
+./pareto > pareto.dist
+./paretonormal > paretonormal.dist
+./maketable experimental.dat > experimental.dist
+make[1]: Leaving directory '/sources/iproute2-4.14.1/netem'
+
+genl
+make[1]: Entering directory '/sources/iproute2-4.14.1/genl'
+    CC       genl.o
+    CC       ctrl.o
+    LINK     genl
+make[1]: Leaving directory '/sources/iproute2-4.14.1/genl'
+
+tipc
+make[1]: Entering directory '/sources/iproute2-4.14.1/tipc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/iproute2-4.14.1/tipc'
+
+devlink
+make[1]: Entering directory '/sources/iproute2-4.14.1/devlink'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/iproute2-4.14.1/devlink'
+
+rdma
+make[1]: Entering directory '/sources/iproute2-4.14.1/rdma'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/iproute2-4.14.1/rdma'
+
+man
+make[1]: Entering directory '/sources/iproute2-4.14.1/man'
+make[2]: Entering directory '/sources/iproute2-4.14.1/man/man3'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/iproute2-4.14.1/man/man3'
+make[2]: Entering directory '/sources/iproute2-4.14.1/man/man7'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/iproute2-4.14.1/man/man7'
+make[2]: Entering directory '/sources/iproute2-4.14.1/man/man8'
+sed "s|@SYSCONFDIR@|/etc/iproute2|g" ip-address.8.in > ip-address.8
+sed "s|@SYSCONFDIR@|/etc/iproute2|g" ip-link.8.in > ip-link.8
+sed "s|@SYSCONFDIR@|/etc/iproute2|g" ip-route.8.in > ip-route.8
+make[2]: Leaving directory '/sources/iproute2-4.14.1/man/man8'
+make[1]: Leaving directory '/sources/iproute2-4.14.1/man'

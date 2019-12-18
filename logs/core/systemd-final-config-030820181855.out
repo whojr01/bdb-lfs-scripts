@@ -1,0 +1,412 @@
+The Meson build system
+Version: 0.44.0
+Source dir: /lfskernel/sources/boot/systemd-237
+Build dir: /lfskernel/sources/boot/systemd-237/build
+Build type: native build
+Project name: systemd
+Native C compiler: cc (gcc 7.2.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Program tools/meson-check-compilation.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-check-compilation.sh)
+Program tools/meson-build.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-build.sh)
+Program c++ found: YES (/usr/bin/c++)
+Native C++ compiler: c++ (gcc 7.2.0)
+Compiler for C supports argument -Wextra: YES
+Compiler for C supports argument -Werror=undef: YES
+Compiler for C supports argument -Wlogical-op: YES
+Compiler for C supports argument -Wmissing-include-dirs: YES
+Compiler for C supports argument -Wold-style-definition: YES
+Compiler for C supports argument -Wpointer-arith: YES
+Compiler for C supports argument -Winit-self: YES
+Compiler for C supports argument -Wdeclaration-after-statement: YES
+Compiler for C supports argument -Wfloat-equal: YES
+Compiler for C supports argument -Wsuggest-attribute=noreturn: YES
+Compiler for C supports argument -Werror=missing-prototypes: YES
+Compiler for C supports argument -Werror=implicit-function-declaration: YES
+Compiler for C supports argument -Werror=missing-declarations: YES
+Compiler for C supports argument -Werror=return-type: YES
+Compiler for C supports argument -Werror=incompatible-pointer-types: YES
+Compiler for C supports argument -Werror=format=2: YES
+Compiler for C supports argument -Wstrict-prototypes: YES
+Compiler for C supports argument -Wredundant-decls: YES
+Compiler for C supports argument -Wmissing-noreturn: YES
+Compiler for C supports argument -Wimplicit-fallthrough=5: YES
+Compiler for C supports argument -Wshadow: YES
+Compiler for C supports argument -Wendif-labels: YES
+Compiler for C supports argument -Wstrict-aliasing=2: YES
+Compiler for C supports argument -Wwrite-strings: YES
+Compiler for C supports argument -Werror=overflow: YES
+Compiler for C supports argument -Wdate-time: YES
+Compiler for C supports argument -Wnested-externs: YES
+Compiler for C supports argument -ffast-math: YES
+Compiler for C supports argument -fno-common: YES
+Compiler for C supports argument -fdiagnostics-show-option: YES
+Compiler for C supports argument -fno-strict-aliasing: YES
+Compiler for C supports argument -fvisibility=hidden: YES
+Compiler for C supports argument -fstack-protector: YES
+Compiler for C supports argument -fstack-protector-strong: YES
+Compiler for C supports argument --param=ssp-buffer-size=4: YES
+Compiler for C supports argument -fPIE: YES
+Compiler for C supports argument -Wunused-parameter: YES
+Compiler for C supports argument -Wmissing-field-initializers: YES
+Compiler for C supports argument -Wunused-result: YES
+Compiler for C supports argument -Wformat-signedness: YES
+Compiler for C supports argument -Werror=nonnull: YES
+Checking if "-Werror=shadow with local shadowing" compiles: YES
+Message: Linking with -Wl,-z,relro supported: yes
+Message: Linking with -Wl,-z,now supported: yes
+Message: Linking with -pie supported: yes
+Message: address sanitizer supported: yes
+Checking for size of "pid_t": 4
+Checking for size of "uid_t": 4
+Checking for size of "gid_t": 4
+Checking for size of "dev_t": 8
+Checking for size of "ino_t": 8
+Checking for size of "time_t": 8
+Checking for size of "rlim_t": 8
+Checking for size of "char16_t": 2
+Checking for size of "char32_t": 4
+Checking for size of "key_serial_t": -1
+Checking for size of "struct ethtool_link_settings": 48
+Checking for size of "struct fib_rule_uid_range": 8
+Header <linux/if_link.h> has symbol "IFLA_INET6_ADDR_GEN_MODE": YES
+Header <linux/if_link.h> has symbol "IN6_ADDR_GEN_MODE_STABLE_PRIVACY": YES
+Header <linux/if_link.h> has symbol "IFLA_VRF_TABLE": YES
+Header <linux/if_link.h> has symbol "IFLA_MACVLAN_FLAGS": YES
+Header <linux/if_link.h> has symbol "IFLA_IPVLAN_FLAGS": NO
+Header <linux/if_link.h> has symbol "IFLA_PHYS_PORT_ID": YES
+Header <linux/if_link.h> has symbol "IFLA_BOND_AD_INFO": YES
+Header <linux/if_link.h> has symbol "IFLA_VLAN_PROTOCOL": YES
+Header <linux/if_link.h> has symbol "IFLA_VXLAN_REMCSUM_NOPARTIAL": YES
+Header <linux/if_link.h> has symbol "IFLA_VXLAN_GPE": YES
+Header <linux/if_link.h> has symbol "IFLA_GENEVE_LABEL": YES
+Header <linux/if_tunnel.h> has symbol "IFLA_VTI_REMOTE": YES
+Header <linux/if_tunnel.h> has symbol "IFLA_IPTUN_ENCAP_DPORT": YES
+Header <linux/if_tunnel.h> has symbol "IFLA_GRE_ENCAP_DPORT": YES
+Header <linux/if_bridge.h> has symbol "IFLA_BRIDGE_VLAN_INFO": YES
+Header <linux/if_link.h> has symbol "IFLA_BRPORT_PROXYARP": YES
+Header <linux/if_link.h> has symbol "IFLA_BRPORT_LEARNING_SYNC": YES
+Header <linux/if_link.h> has symbol "IFLA_BR_VLAN_DEFAULT_PVID": YES
+Header <linux/if_link.h> has symbol "IPVLAN_F_PRIVATE": NO
+Header <linux/neighbour.h> has symbol "NDA_IFINDEX": YES
+Header <linux/if_addr.h> has symbol "IFA_FLAGS": YES
+Header <linux/fib_rules.h> has symbol "FRA_UID_RANGE": YES
+Header <linux/loop.h> has symbol "LO_FLAGS_PARTSCAN": YES
+Header <linux/can/vxcan.h> has symbol "VXCAN_INFO_PEER": YES
+Checking for function "secure_getenv": YES
+Checking for function "__secure_getenv": NO
+Checking for function "memfd_create": NO
+Checking for function "gettid": NO
+Checking for function "pivot_root": NO
+Checking for function "name_to_handle_at": YES
+Checking for function "setns": YES
+Checking for function "renameat2": NO
+Checking for function "kcmp": NO
+Checking for function "keyctl": NO
+Checking for function "copy_file_range": NO
+Checking for function "bpf": NO
+Checking for function "explicit_bzero": YES
+Checking for function "getrandom": YES
+Program sed found: YES (/bin/sed)
+Program awk found: YES (/usr/bin/awk)
+Program m4 found: YES (/usr/bin/m4)
+Program stat found: YES (/usr/bin/stat)
+Program git found: NO
+Program nonexistingprogram found: NO
+Program env found: YES (/usr/bin/env)
+Program test/test-efi-create-disk.sh found: YES (/lfskernel/sources/boot/systemd-237/test/test-efi-create-disk.sh)
+Program quotaon found: NO
+Program /usr/sbin/quotaon found: NO
+Program /sbin/quotaon found: NO
+Program nonexistingprogram found: NO
+Program quotacheck found: NO
+Program /usr/sbin/quotacheck found: NO
+Program /sbin/quotacheck found: NO
+Program nonexistingprogram found: NO
+Message: Using /bin/kill for kill
+Message: Using /bin/kmod for kmod
+Program kexec found: NO
+Program /usr/sbin/kexec found: NO
+Program /sbin/kexec found: NO
+Program nonexistingprogram found: NO
+Message: Using /sbin/sulogin for sulogin
+Message: Using /bin/mount for mount
+Message: Using /bin/umount for umount
+Message: Using /usr/bin/loadkeys for loadkeys
+Message: Using /usr/bin/setfont for setfont
+Program gperf found: YES (/usr/bin/gperf)
+Message: gperf len type is size_t
+Has header "sys/capability.h": YES
+Has header "crypt.h": YES
+Has header "linux/btrfs.h": YES
+Has header "linux/memfd.h": YES
+Has header "linux/vm_sockets.h": YES
+Has header "sys/auxv.h": YES
+Has header "valgrind/memcheck.h": NO
+Has header "valgrind/valgrind.h": NO
+Message: maximum system UID is 999
+Message: maximum system GID is 999
+Dependency threads found: YES
+Library rt found: YES
+Library m found: YES
+Library dl found: YES
+Library crypt found: YES
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Native dependency libcap found: YES 2.25
+Native dependency mount found: YES 2.31.1
+Dependency libseccomp found: NO
+Dependency libselinux found: NO
+Dependency libapparmor found: NO
+Dependency polkit-gobject-1 found: NO
+Library acl found: YES
+Dependency audit found: NO
+Native dependency blkid found: YES 2.31.1
+Native dependency libkmod found: YES 25
+Library pam found: YES
+Library pam_misc found: YES
+Dependency libmicrohttpd found: NO
+Native dependency libcryptsetup found: YES 1.7.5
+Native dependency libcurl found: YES 7.55.1
+Dependency libidn found: NO
+Dependency libidn2 found: NO
+Dependency libiptc found: NO
+Dependency libqrencode found: NO
+Library gcrypt found: YES
+Library gpg-error found: YES
+Dependency gnutls found: NO
+Native dependency libdw found: YES 0.170
+Native dependency zlib found: YES 1.2.11
+Library bz2 found: YES
+Native dependency liblzma found: YES 5.2.3
+Native dependency liblz4 found: YES 1.8.2
+Native dependency xkbcommon found: YES 0.8.0
+Dependency libpcre2-8 found: NO
+Native dependency glib-2.0 found: YES 2.54.3
+Native dependency gobject-2.0 found: YES 2.54.3
+Native dependency gio-2.0 found: YES 2.54.3
+Native dependency dbus-1 found: YES 1.12.2
+Configuring config.h using configuration
+Program sh found: YES (/bin/sh)
+Program c++ found: YES (/usr/bin/c++)
+Program generate-gperfs.py found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-gperfs.py)
+Program generate-af-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-af-list.sh)
+Program generate-arphrd-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-arphrd-list.sh)
+Program generate-cap-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-cap-list.sh)
+Program generate-errno-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-errno-list.sh)
+Program generate-socket-protocol-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-socket-protocol-list.sh)
+Configuring libsystemd.pc using configuration
+Program generate-audit_type-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/journal/generate-audit_type-list.sh)
+Program sh found: YES (/bin/sh)
+Configuring logind.conf using configuration
+Configuring 71-seat.rules using configuration
+Configuring libudev.pc using configuration
+Configuring macros.systemd using configuration
+Configuring triggers.systemd using configuration
+Configuring systemd.pc using configuration
+Configuring org.freedesktop.systemd1.policy.in using configuration
+Program sh found: YES (/bin/sh)
+Program generate-keyboard-keys-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/udev/generate-keyboard-keys-list.sh)
+Program generate-keyboard-keys-gperf.sh found: YES (/lfskernel/sources/boot/systemd-237/src/udev/generate-keyboard-keys-gperf.sh)
+Configuring udev.pc using configuration
+Program sh found: YES (/bin/sh)
+Configuring journal-upload.conf using configuration
+Program sh found: YES (/bin/sh)
+Program generate-dns_type-gperf.py found: YES (/lfskernel/sources/boot/systemd-237/src/resolve/generate-dns_type-gperf.py)
+Configuring resolved.conf using configuration
+Configuring timesyncd.conf using configuration
+Configuring 90-vconsole.rules using configuration
+Has header "/usr/include/efi/x86_64/efibind.h": NO
+Program generate-sym-test.py found: YES (/lfskernel/sources/boot/systemd-237/src/test/generate-sym-test.py)
+Program test-systemd-tmpfiles.py found: YES (/lfskernel/sources/boot/systemd-237/src/test/test-systemd-tmpfiles.py)
+Configuring 50-udev-default.rules using configuration
+Configuring 64-btrfs.rules using configuration
+Configuring 99-systemd.rules using configuration
+Program rule-syntax-check.py found: YES (/lfskernel/sources/boot/systemd-237/test/rule-syntax-check.py)
+Program sysv-generator-test.py found: YES (/lfskernel/sources/boot/systemd-237/test/sysv-generator-test.py)
+Program sys-script.py found: YES (/lfskernel/sources/boot/systemd-237/test/sys-script.py)
+Program udev-test.pl found: YES (/lfskernel/sources/boot/systemd-237/test/udev-test.pl)
+Program hwdb-test.sh found: YES (/lfskernel/sources/boot/systemd-237/test/hwdb-test.sh)
+Program sh found: YES (/bin/sh)
+Program /lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh)
+Message: test-coredump-vacuum is a manual test
+Message: test-qcow2 is a manual test
+Message: test-patch-uid is a manual test
+Message: test-ns is a manual test
+Message: test-hostname is an unsafe test
+Message: Not compiling test-seccomp because HAVE_SECCOMP is not true
+Message: test-ask-password-api is a manual test
+Message: test-dissect-image is a manual test
+Message: test-ipcrm is an unsafe test
+Message: test-btrfs is a manual test
+Message: Not compiling test-firewall-util because HAVE_LIBIPTC is not true
+Message: test-netlink-manual is a manual test
+Message: test-cgroup is a manual test
+Message: test-install is a manual test
+Message: test-udev is a manual test
+Message: test-nss is a manual test
+Message: test-bus-benchmark is a manual test
+Message: test-ipv4ll-manual is a manual test
+Message: test-acd is a manual test
+Message: test-inhibit is a manual test
+Program tools/make-directive-index.py found: YES (/lfskernel/sources/boot/systemd-237/tools/make-directive-index.py)
+Program tools/make-man-index.py found: YES (/lfskernel/sources/boot/systemd-237/tools/make-man-index.py)
+Program tools/xml_helper.py found: YES (/lfskernel/sources/boot/systemd-237/tools/xml_helper.py)
+Program tools/meson-hwdb-update.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-hwdb-update.sh)
+Configuring console-getty.service.m4 using configuration
+Configuring container-getty@.service.m4 using configuration
+Configuring debug-shell.service.tmp using configuration
+Configuring emergency.service.tmp using configuration
+Configuring halt-local.service.tmp using configuration
+Configuring initrd-cleanup.service.tmp using configuration
+Configuring initrd-parse-etc.service.tmp using configuration
+Configuring initrd-switch-root.service.tmp using configuration
+Configuring initrd-udevadm-cleanup-db.service.tmp using configuration
+Configuring kmod-static-nodes.service.tmp using configuration
+Program meson-add-wants.sh found: YES (/lfskernel/sources/boot/systemd-237/units/meson-add-wants.sh)
+Configuring quotaon.service.tmp using configuration
+Configuring rc-local.service.tmp using configuration
+Configuring rescue.service.tmp using configuration
+Configuring system-update-cleanup.service.tmp using configuration
+Configuring systemd-ask-password-console.service.tmp using configuration
+Configuring systemd-ask-password-wall.service.tmp using configuration
+Configuring systemd-backlight@.service.tmp using configuration
+Configuring systemd-binfmt.service.tmp using configuration
+Configuring systemd-coredump@.service.tmp using configuration
+Configuring systemd-exit.service.tmp using configuration
+Configuring systemd-firstboot.service.tmp using configuration
+Configuring systemd-fsck-root.service.tmp using configuration
+Configuring systemd-fsck@.service.tmp using configuration
+Configuring systemd-halt.service.tmp using configuration
+Configuring systemd-hibernate-resume@.service.tmp using configuration
+Configuring systemd-hibernate.service.tmp using configuration
+Configuring systemd-hybrid-sleep.service.tmp using configuration
+Configuring systemd-hostnamed.service.tmp using configuration
+Configuring systemd-hwdb-update.service.tmp using configuration
+Configuring systemd-importd.service.tmp using configuration
+Configuring systemd-initctl.service.tmp using configuration
+Configuring systemd-journal-catalog-update.service.tmp using configuration
+Configuring systemd-journal-flush.service.tmp using configuration
+Configuring systemd-journal-gatewayd.service.tmp using configuration
+Configuring systemd-journal-remote.service.tmp using configuration
+Configuring systemd-journal-upload.service.tmp using configuration
+Configuring systemd-journald.service.tmp using configuration
+Configuring systemd-kexec.service.tmp using configuration
+Configuring systemd-localed.service.tmp using configuration
+Configuring systemd-logind.service.tmp using configuration
+Configuring systemd-machine-id-commit.service.tmp using configuration
+Configuring systemd-machined.service.tmp using configuration
+Configuring systemd-modules-load.service.tmp using configuration
+Configuring systemd-networkd.service.tmp using configuration
+Configuring systemd-networkd-wait-online.service.tmp using configuration
+Configuring systemd-nspawn@.service.tmp using configuration
+Configuring systemd-poweroff.service.tmp using configuration
+Configuring systemd-quotacheck.service.tmp using configuration
+Configuring systemd-random-seed.service.tmp using configuration
+Configuring systemd-reboot.service.tmp using configuration
+Configuring systemd-remount-fs.service.tmp using configuration
+Configuring systemd-resolved.service.tmp using configuration
+Configuring systemd-rfkill.service.tmp using configuration
+Configuring systemd-suspend.service.tmp using configuration
+Configuring systemd-sysctl.service.tmp using configuration
+Configuring systemd-sysusers.service.tmp using configuration
+Configuring systemd-timedated.service.tmp using configuration
+Configuring systemd-timesyncd.service.tmp using configuration
+Configuring systemd-tmpfiles-clean.service.tmp using configuration
+Configuring systemd-tmpfiles-setup-dev.service.tmp using configuration
+Configuring systemd-tmpfiles-setup.service.tmp using configuration
+Configuring systemd-udev-settle.service.tmp using configuration
+Configuring systemd-udev-trigger.service.tmp using configuration
+Configuring systemd-udevd.service.tmp using configuration
+Configuring systemd-update-done.service.tmp using configuration
+Configuring systemd-update-utmp-runlevel.service.tmp using configuration
+Configuring systemd-update-utmp.service.tmp using configuration
+Configuring systemd-user-sessions.service.tmp using configuration
+Configuring systemd-vconsole-setup.service.tmp using configuration
+Configuring systemd-volatile-root.service.tmp using configuration
+Configuring user@.service.tmp using configuration
+Program /lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh)
+Program sh found: YES (/bin/sh)
+Configuring systemd-exit.service using configuration
+Configuring systemd-tmpfiles-clean.service using configuration
+Configuring systemd-tmpfiles-setup.service using configuration
+Configuring 50-coredump.conf using configuration
+Program sh found: YES (/bin/sh)
+Configuring basic.conf using configuration
+Program sh found: YES (/bin/sh)
+Program sh found: YES (/bin/sh)
+Program parse_hwdb.py found: YES (/lfskernel/sources/boot/systemd-237/hwdb/parse_hwdb.py)
+Program sh found: YES (/bin/sh)
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Configuring custom-entities.ent using configuration
+Message: Skipping journal-remote.conf.5 because HAVE_MICROHTTPD is false
+Message: Skipping journal-upload.conf.5 because HAVE_MICROHTTPD is false
+Message: Skipping systemd-journal-gatewayd.service.8 because HAVE_MICROHTTPD is false
+Message: Skipping systemd-journal-remote.8 because HAVE_MICROHTTPD is false
+Message: Skipping systemd-journal-upload.8 because HAVE_MICROHTTPD is false
+Message: python-lxml not available, not making man page indices
+Dependency bash-completion found: NO
+Message: bash completions: /usr/share/bash-completion/completions
+Configuring systemctl using configuration
+Message: zsh completions: /usr/share/zsh/site-functions
+Configuring _systemctl using configuration
+Configuring README using configuration
+Configuring README using configuration
+Program tools/meson-check-help.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-check-help.sh)
+Program tools/meson-check-api-docs.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-check-api-docs.sh)
+Message: systemd 237
+         prefix directory:                  /usr
+         rootprefix directory:              /
+         sysconf directory:                 /etc
+         include directory:                 /usr/include
+         lib directory:                     /usr/lib
+         rootlib directory:                 /lib
+         SysV init scripts:                 /etc/init.d
+         SysV rc?.d directories:            /etc/rc.d
+         PAM modules directory:             /lib/security
+         PAM configuration directory:       /etc/pam.d
+         RPM macros directory:              /usr/lib/rpm/macros.d
+         modprobe.d directory:              /lib/modprobe.d
+         D-Bus policy directory:            /usr/share/dbus-1
+         D-Bus session directory:           /usr/share/dbus-1/services
+         D-Bus system directory:            /usr/share/dbus-1/system-services
+         bash completions directory:        /usr/share/bash-completion/completions
+         zsh completions directory:         /usr/share/zsh/site-functions
+         extra start script:                /etc/rc.local
+         extra stop script:                 /usr/sbin/halt.local
+         debug shell:                       /bin/bash @ /dev/tty9
+         TTY GID:                           5
+         users GID:                         -
+         maximum system UID:                999
+         maximum system GID:                999
+         minimum dynamic UID:               61184
+         maximum dynamic UID:               65519
+         minimum container UID base:        524288
+         maximum container UID base:        1878982656
+         /dev/kvm access mode:              0666
+         render group access mode:          0666
+         certificate root directory:        /etc/ssl
+         support URL:                       https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+         nobody user name:                  nobody
+         nobody group name:                 nogroup
+         fallback hostname:                 localhost
+         symbolic gateway hostnames:        _gateway
+         default DNSSEC mode:               no
+         default cgroup hierarchy:          hybrid
+         default KillUserProcesses setting: false
+         default DNS servers:               8.8.8.8
+                                            8.8.4.4
+                                            2001:4860:4860::8888
+                                            2001:4860:4860::8844
+         default NTP servers:               time1.google.com
+                                            time2.google.com
+                                            time3.google.com
+                                            time4.google.com
+         time epoch:                        1517155097 (2018-01-28T15:58:17+00:00)
+         efi arch:                          x86_64
+         
+         enabled features: libcryptsetup, PAM, IMA, SMACK, zlib, xz, lz4, bzip2, ACL, gcrypt, libcurl, idn, nss-systemd, elfutils, binfmt, vconsole, quotacheck, tmpfiles, environment.d, sysusers, firstboot, randomseed, backlight, rfkill, logind, machined, importd, hostnamed, timedated, timesyncd, localed, networkd, resolve, coredump, polkit, efi, kmod, xkbcommon, blkid, dbus, glib, nss-myhostname, hwdb, tpm, man pages, split /usr, SysV compat, utmp, hibernate, adm group, wheel group, gshadow
+         
+         disabled features: AUDIT, AppArmor, SELinux, SECCOMP, qrencode, microhttpd, gnutls, libidn2, libidn, libiptc, legacy pkla, gnu-efi, pcre2, html pages, man page indices, ldconfig, debug hashmap, debug mmap cache
+         
+Build targets in project: 1410
+Found ninja-1.8.2 at /usr/bin/ninja

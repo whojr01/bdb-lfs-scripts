@@ -1,0 +1,331 @@
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: 'util/subst.conf' is up to date.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: 'lib/config.h' is up to date.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: 'lib/dirpaths.h' is up to date.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build'
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+make[1]: 'compile_et' is up to date.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+make[1]: 'ext2_err.h' is up to date.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+make[1]: 'prof_err.h' is up to date.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+making all in lib/et
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+making all in lib/ss
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/ss'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/ss'
+making all in lib/e2p
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/e2p'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/e2p'
+making all in lib/support
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+making all in lib/ext2fs
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+making all in intl
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/intl'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/intl'
+making install in e2fsck
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/e2fsck'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	INSTALL /sbin/e2fsck
+	LINK /sbin/fsck.ext2
+	LINK /sbin/fsck.ext3
+	LINK /sbin/fsck.ext4
+	INSTALL_DATA /usr/share/man/man8/e2fsck.8
+	INSTALL_DATA /usr/share/man/man5/e2fsck.conf.5
+	LINK /usr/share/man/man8/fsck.ext2.8
+	LINK /usr/share/man/man8/fsck.ext3.8
+	LINK /usr/share/man/man8/fsck.ext4.8
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/e2fsck'
+making install in debugfs
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/debugfs'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	INSTALL /sbin/debugfs
+	INSTALL_DATA /usr/share/man/man8/debugfs.8
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/debugfs'
+making install in misc
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/misc'
+	MKINSTALLDIRS /usr/sbin /sbin /bin /usr/share/man/man1 /usr/share/man/man8 /usr/lib /etc
+	INSTALL /sbin/mke2fs
+	INSTALL /sbin/badblocks
+	INSTALL /sbin/tune2fs
+	INSTALL /sbin/dumpe2fs
+	INSTALL /sbin/logsave
+	INSTALL /sbin/e2image
+	INSTALL /sbin/e2undo
+	INSTALL /usr/sbin/mklost+found
+	INSTALL /usr/sbin/filefrag
+	INSTALL /usr/sbin/e2freefrag
+	INSTALL /usr/sbin/e4defrag
+	INSTALL /usr/sbin/e4crypt
+	LINK /sbin/mkfs.ext2
+	LINK /sbin/mkfs.ext3
+	LINK /sbin/mkfs.ext4
+	INSTALL /bin/chattr
+	INSTALL /bin/lsattr
+	INSTALL /usr/lib/e2initrd_helper
+	INSTALL_DATA /usr/share/man/man8/tune2fs.8
+	INSTALL_DATA /usr/share/man/man8/mklost+found.8
+	INSTALL_DATA /usr/share/man/man8/mke2fs.8
+	INSTALL_DATA /usr/share/man/man8/dumpe2fs.8
+	INSTALL_DATA /usr/share/man/man8/badblocks.8
+	INSTALL_DATA /usr/share/man/man8/e2label.8
+	INSTALL_DATA /usr/share/man/man8/e2image.8
+	INSTALL_DATA /usr/share/man/man8/logsave.8
+	INSTALL_DATA /usr/share/man/man8/filefrag.8
+	INSTALL_DATA /usr/share/man/man8/e2freefrag.8
+	INSTALL_DATA /usr/share/man/man8/e2undo.8
+	INSTALL_DATA /usr/share/man/man8/e4defrag.8
+	INSTALL_DATA /usr/share/man/man8/e4crypt.8
+	LINK mkfs.ext2.8
+	LINK mkfs.ext3.8
+	LINK mkfs.ext4.8
+	INSTALL_DATA /usr/share/man/man1/chattr.1
+	INSTALL_DATA /usr/share/man/man1/lsattr.1
+	INSTALL_DATA /usr/share/man/man5/mke2fs.conf.5
+	INSTALL_DATA /usr/share/man/man5/ext4.5
+	LINK ext2.5
+	LINK ext3.5
+	INSTALL_DATA /etc/mke2fs.conf
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/misc'
+making install in resize
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/resize'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	INSTALL /sbin/resize2fs
+	INSTALL_DATA /usr/share/man/man8/resize2fs.8
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/resize'
+making install in tests/progs
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/tests/progs'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/tests/progs'
+making install in po
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/po'
+/bin/sh ../../config/mkinstalldirs /usr/share
+installing ../../po/ca.gmo as /usr/share/locale/ca/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/eo.gmo as /usr/share/locale/eo/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/ms.gmo as /usr/share/locale/ms/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/e2fsprogs.mo
+if test "e2fsprogs" = "gettext-tools"; then \
+  /bin/sh ../../config/mkinstalldirs /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/po'
+making install-shlibs in lib/et
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+	MKINSTALLDIRS /lib /usr/lib
+cd ../../util ; make symlinks
+make[2]: Entering directory '/sources/e2fsprogs-1.43.7/build/util'
+	CC ../../util/symlinks.c
+	LD symlinks
+make[2]: Leaving directory '/sources/e2fsprogs-1.43.7/build/util'
+	INSTALL-ELF-LIB /lib/libcom_err.so.2.1
+	SYMLINK /lib/libcom_err.so.2
+	SYMLINK /usr/lib/libcom_err.so
+	LDCONFIG
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+making install-shlibs in lib/ss
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/ss'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libss.so.2.0
+	SYMLINK /lib/libss.so.2
+	SYMLINK /usr/lib/libss.so
+	LDCONFIG
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/ss'
+making install-shlibs in lib/e2p
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/e2p'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libe2p.so.2.3
+	SYMLINK /lib/libe2p.so.2
+	SYMLINK /usr/lib/libe2p.so
+	LDCONFIG
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/e2p'
+making install-shlibs in lib/support
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+make[1]: Nothing to be done for 'install-shlibs'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+making install-shlibs in lib/ext2fs
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libext2fs.so.2.4
+	SYMLINK /lib/libext2fs.so.2
+	SYMLINK /usr/lib/libext2fs.so
+	LDCONFIG
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+making install-shlibs in intl
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/intl'
+make[1]: Nothing to be done for 'install-shlibs'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/intl'
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/doc'
+	TEXI2DVI libext2fs.dvi
+You don't have a working TeX binary (tex) installed anywhere in
+your PATH, and texi2dvi cannot proceed without one.  If you want to use
+this script, you'll need to install TeX (if you don't have it) or change
+your PATH or TEX environment variable (if you do).  See the --help
+output for more details.
+
+For information about obtaining TeX, please see http://tug.org/texlive,
+or do a web search for TeX and your operating system or distro.
+make[1]: [Makefile:353: libext2fs.dvi] Error 1 (ignored)
+	MKINSTALLDIRS /usr/share/info
+	INSTALL_DATA /usr/share/info/libext2fs.info
+	GZIP /usr/share/info/libext2fs.info*
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/doc'
+if test ! -d e2fsck && test ! -d debugfs && test ! -d misc && test ! -d ext2ed ; then make install-libs ; fi
+making install in lib/et
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libcom_err.so.2.1
+	SYMLINK /lib/libcom_err.so.2
+	SYMLINK /usr/lib/libcom_err.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/et /usr/share/et /bin /usr/share/man/man1 /usr/share/man/man3
+mkdir /usr/include/et
+mkdir /usr/share/et
+	INSTALL_DATA /usr/lib/libcom_err.a
+	INSTALL_DATA /usr/include/et/com_err.h
+	INSTALL_DATA /usr/share/et/et_c.awk
+	INSTALL_DATA /usr/share/et/et_h.awk
+	INSTALL_SCRIPT /bin/compile_et
+	INSTALL_DATA /usr/share/man/man3/com_err.3
+	INSTALL_DATA /usr/share/man/man1/compile_et.1
+	INSTALL_DATA /usr/lib/pkgconfig/com_err.pc
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/et'
+making install in lib/ss
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/ss'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libss.so.2.0
+	SYMLINK /lib/libss.so.2
+	SYMLINK /usr/lib/libss.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/ss /usr/share/ss /bin
+mkdir /usr/include/ss
+mkdir /usr/share/ss
+	INSTALL_DATA /usr/lib/libss.a
+	INSTALL_DATA /usr/include/ss/ss.h
+	INSTALL_DATA /usr/include/ss/ss_err.h
+	INSTALL_DATA /usr/share/ss/ct_c.awk
+	INSTALL_DATA /usr/share/ss/ct_c.sed
+	INSTALL /bin/mk_cmds
+	INSTALL_DATA /usr/share/man/man1/mk_cmds.1
+	INSTALL_DATA /usr/lib/pkgconfig/ss.pc
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/ss'
+making install in lib/e2p
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/e2p'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libe2p.so.2.3
+	SYMLINK /lib/libe2p.so.2
+	SYMLINK /usr/lib/libe2p.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/e2p
+mkdir /usr/include/e2p
+	INSTALL_DATA /usr/lib/libe2p.a
+	INSTALL_DATA /usr/include/e2p/e2p.h
+	INSTALL_DATA /usr/lib/pkgconfig/e2p.pc
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/e2p'
+making install in lib/support
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/support'
+making install in lib/ext2fs
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libext2fs.so.2.4
+	SYMLINK /lib/libext2fs.so.2
+	SYMLINK /usr/lib/libext2fs.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/ext2fs
+mkdir /usr/include/ext2fs
+	INSTALL_DATA /usr/lib/libext2fs.a
+	INSTALL_DATA /usr/include/ext2fs/bitops.h
+	INSTALL_DATA /usr/include/ext2fs/ext2fs.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_io.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_fs.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_ext_attr.h
+	INSTALL_DATA /usr/include/ext2fs/ext3_extents.h
+	INSTALL_DATA /usr/include/ext2fs/tdb.h
+	INSTALL_DATA /usr/include/ext2fs/qcow2.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_err.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_types.h
+	INSTALL_DATA /usr/lib/pkgconfig/ext2fs.pc
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/lib/ext2fs'
+making install in intl
+make[1]: Entering directory '/sources/e2fsprogs-1.43.7/build/intl'
+if test 'no' = yes; then \
+  test yes != no || /bin/sh ../../config/mkinstalldirs /usr/lib; \
+  temp=/usr/lib/t-charset.alias; \
+  dest=/usr/lib/charset.alias; \
+  if test -f /usr/lib/charset.alias; then \
+    orig=/usr/lib/charset.alias; \
+    sed -f ref-add.sed $orig > $temp; \
+    /usr/bin/install -c -m 644 $temp $dest; \
+    rm -f $temp; \
+  else \
+    if test yes = no; then \
+      orig=charset.alias; \
+      sed -f ref-add.sed $orig > $temp; \
+      /usr/bin/install -c -m 644 $temp $dest; \
+      rm -f $temp; \
+    fi; \
+  fi; \
+  /bin/sh ../../config/mkinstalldirs /usr/share/locale; \
+  test -f /usr/share/locale/locale.alias \
+    && orig=/usr/share/locale/locale.alias \
+    || orig=../../intl/locale.alias; \
+  temp=/usr/share/locale/t-locale.alias; \
+  dest=/usr/share/locale/locale.alias; \
+  sed -f ref-add.sed $orig > $temp; \
+  /usr/bin/install -c -m 644 $temp $dest; \
+  rm -f $temp; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/e2fsprogs-1.43.7/build/intl'
+mode of '/usr/lib/libcom_err.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+mode of '/usr/lib/libe2p.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+mode of '/usr/lib/libext2fs.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+mode of '/usr/lib/libss.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+/usr/share/info/libext2fs.info.gz:	 79.7% -- replaced with /usr/share/info/libext2fs.info
+'doc/com_err.info' -> '/usr/share/info/com_err.info'

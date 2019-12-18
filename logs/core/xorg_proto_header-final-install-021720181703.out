@@ -1,0 +1,397 @@
+###############################
+# bigreqsproto-1.1.2.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/bigreqsproto" || /bin/mkdir -p "/usr/share/doc/bigreqsproto"
+ /usr/bin/install -c -m 644 bigreq.xml '/usr/share/doc/bigreqsproto'
+test -z "/usr/share/doc/bigreqsproto" || /bin/mkdir -p "/usr/share/doc/bigreqsproto"
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 bigreqsproto.h bigreqstr.h '/usr/include/X11/extensions'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 bigreqsproto.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/bigreqsproto-1.1.2'
+###############################
+# compositeproto-0.4.2.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/compositeproto-0.4.2'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 composite.h compositeproto.h '/usr/include/X11/extensions'
+test -z "/usr/share/doc/compositeproto" || /bin/mkdir -p "/usr/share/doc/compositeproto"
+ /usr/bin/install -c -m 644 compositeproto.txt '/usr/share/doc/compositeproto'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 compositeproto.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/compositeproto-0.4.2'
+###############################
+# damageproto-1.2.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/damageproto-1.2.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 damageproto.h damagewire.h '/usr/include/X11/extensions'
+test -z "/usr/share/doc/damageproto" || /bin/mkdir -p "/usr/share/doc/damageproto"
+ /usr/bin/install -c -m 644 damageproto.txt '/usr/share/doc/damageproto'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 damageproto.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/damageproto-1.2.1'
+###############################
+# dmxproto-2.3.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/dmxproto-2.3.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 dmx.h dmxproto.h '/usr/include/X11/extensions'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 dmxproto.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/dmxproto-2.3.1'
+###############################
+# dri2proto-2.8.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/dri2proto-2.8'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/dri2proto" || /bin/mkdir -p "/usr/share/doc/dri2proto"
+ /usr/bin/install -c -m 644 dri2proto.txt '/usr/share/doc/dri2proto'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 dri2proto.h dri2tokens.h '/usr/include/X11/extensions'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 dri2proto.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/dri2proto-2.8'
+###############################
+# dri3proto-1.0.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/dri3proto-1.0'
+make[1]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/dri3proto'
+ /usr/bin/install -c -m 644 dri3proto.txt '/usr/share/doc/dri3proto'
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 dri3proto.h '/usr/include/X11/extensions'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dri3proto.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/dri3proto-1.0'
+###############################
+# fixesproto-5.0.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/fixesproto-5.0'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/fixesproto" || /bin/mkdir -p "/usr/share/doc/fixesproto"
+ /usr/bin/install -c -m 644 fixesproto.txt '/usr/share/doc/fixesproto'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 xfixesproto.h xfixeswire.h '/usr/include/X11/extensions'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 fixesproto.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/fixesproto-5.0'
+###############################
+# fontsproto-2.1.3.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/fontsproto'
+ /usr/bin/install -c -m 644 fsproto.xml '/usr/share/doc/fontsproto'
+ /bin/mkdir -p '/usr/share/doc/fontsproto'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/X11/fonts'
+ /usr/bin/install -c -m 644 font.h fontproto.h fontstruct.h FS.h fsmasks.h FSproto.h '/usr/include/X11/fonts'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 fontsproto.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/fontsproto-2.1.3'
+###############################
+# glproto-1.4.17.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/glproto-1.4.17'
+make[1]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/GL'
+ /usr/bin/install -c -m 644 glxint.h glxmd.h glxproto.h glxtokens.h '/usr/include/GL'
+ /bin/mkdir -p '/usr/include/GL/internal'
+ /usr/bin/install -c -m 644 glcore.h '/usr/include/GL/internal'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 glproto.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/glproto-1.4.17'
+###############################
+# inputproto-2.3.2.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2/specs'
+  GEN      XI2proto.html
+  GEN      XIproto.html
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/inputproto'
+ /usr/bin/install -c -m 644 XI2proto.txt XIproto.txt '/usr/share/doc/inputproto'
+ /bin/mkdir -p '/usr/share/doc/inputproto'
+ /usr/bin/install -c -m 644 XI2proto.html XIproto.html '/usr/share/doc/inputproto'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 XI.h XIproto.h XI2.h XI2proto.h '/usr/include/X11/extensions'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 inputproto.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/inputproto-2.3.2'
+###############################
+# kbproto-1.0.7.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/kbproto'
+ /usr/bin/install -c -m 644 xkbproto.xml acknowledgements.xml appA.xml appB.xml appC.xml appD.xml ch01.xml ch02.xml ch03.xml ch04.xml ch05.xml ch06.xml ch07.xml ch08.xml ch09.xml ch10.xml ch11.xml ch12.xml ch13.xml ch14.xml ch15.xml ch16.xml XKBproto-1.svg XKBproto-2.svg XKBproto-3.svg XKBproto-4.svg XKBproto-5.svg XKBproto-6.svg XKBproto-7.svg XKBproto-8.svg XKBproto-9.svg XKBproto-10.svg XKBproto-11.svg '/usr/share/doc/kbproto'
+ /bin/mkdir -p '/usr/share/doc/kbproto'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 XKBgeom.h XKB.h XKBproto.h XKBsrv.h XKBstr.h '/usr/include/X11/extensions'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 kbproto.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/kbproto-1.0.7'
+###############################
+# presentproto-1.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/presentproto-1.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/presentproto'
+ /usr/bin/install -c -m 644 presentproto.txt '/usr/share/doc/presentproto'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 presentproto.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 presentproto.h presenttokens.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/presentproto-1.1'
+###############################
+# randrproto-1.5.0.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/randrproto-1.5.0'
+make[1]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/randrproto'
+ /usr/bin/install -c -m 644 randrproto.txt '/usr/share/doc/randrproto'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 randrproto.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 randr.h randrproto.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/randrproto-1.5.0'
+###############################
+# recordproto-1.14.2.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/recordproto" || /bin/mkdir -p "/usr/share/doc/recordproto"
+ /usr/bin/install -c -m 644 record.xml '/usr/share/doc/recordproto'
+test -z "/usr/share/doc/recordproto" || /bin/mkdir -p "/usr/share/doc/recordproto"
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 recordproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 recordconst.h recordproto.h recordstr.h '/usr/include/X11/extensions'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/recordproto-1.14.2'
+###############################
+# renderproto-0.11.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/renderproto-0.11.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/renderproto" || /bin/mkdir -p "/usr/share/doc/renderproto"
+ /usr/bin/install -c -m 644 renderproto.txt '/usr/share/doc/renderproto'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 renderproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 render.h renderproto.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/renderproto-0.11.1'
+###############################
+# resourceproto-1.2.0.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/resourceproto-1.2.0'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/resourceproto" || /bin/mkdir -p "/usr/share/doc/resourceproto"
+ /usr/bin/install -c -m 644 resproto.txt '/usr/share/doc/resourceproto'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 resourceproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 XResproto.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/resourceproto-1.2.0'
+###############################
+# scrnsaverproto-1.2.2.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/scrnsaverproto" || /bin/mkdir -p "/usr/share/doc/scrnsaverproto"
+ /usr/bin/install -c -m 644 saver.xml '/usr/share/doc/scrnsaverproto'
+test -z "/usr/share/doc/scrnsaverproto" || /bin/mkdir -p "/usr/share/doc/scrnsaverproto"
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 scrnsaverproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 saver.h saverproto.h '/usr/include/X11/extensions'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/scrnsaverproto-1.2.2'
+###############################
+# videoproto-2.3.3.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/videoproto-2.3.3'
+make[1]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/videoproto'
+ /usr/bin/install -c -m 644 xv-protocol-v2.txt '/usr/share/doc/videoproto'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 videoproto.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 vldXvMC.h Xv.h XvMC.h XvMCproto.h Xvproto.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/videoproto-2.3.3'
+###############################
+# xcmiscproto-1.2.2.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/xcmiscproto" || /bin/mkdir -p "/usr/share/doc/xcmiscproto"
+ /usr/bin/install -c -m 644 xc-misc.xml '/usr/share/doc/xcmiscproto'
+test -z "/usr/share/doc/xcmiscproto" || /bin/mkdir -p "/usr/share/doc/xcmiscproto"
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 xcmiscproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 xcmiscproto.h xcmiscstr.h '/usr/include/X11/extensions'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xcmiscproto-1.2.2'
+###############################
+# xextproto-7.3.0.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/xextproto'
+ /usr/bin/install -c -m 644 appgrp.xml dbe.xml dpms.xml evi.xml geproto.xml lbx.xml multibuf.xml security.xml shape.xml shm.xml sync.xml tog-cup.xml xtest.xml appendix.xml '/usr/share/doc/xextproto'
+ /bin/mkdir -p '/usr/share/doc/xextproto'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 shapestr.h shmstr.h syncstr.h '/usr/include/X11/extensions'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xextproto.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 dpmsconst.h dpmsproto.h ge.h geproto.h lbx.h lbxproto.h mitmiscconst.h mitmiscproto.h multibufconst.h multibufproto.h secur.h securproto.h shapeconst.h shapeproto.h shm.h shmproto.h syncconst.h syncproto.h ag.h agproto.h cup.h cupproto.h dbe.h dbeproto.h EVI.h EVIproto.h xtestext1proto.h xtestext1const.h xtestconst.h xtestproto.h '/usr/include/X11/extensions'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xextproto-7.3.0'
+###############################
+# xf86bigfontproto-1.2.0.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xf86bigfontproto-1.2.0'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 xf86bigfontproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 xf86bigfont.h xf86bigfproto.h xf86bigfstr.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xf86bigfontproto-1.2.0'
+###############################
+# xf86dgaproto-2.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xf86dgaproto-2.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 xf86dgaproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 xf86dga.h xf86dga1const.h xf86dga1str.h xf86dga1proto.h xf86dgaconst.h xf86dgaproto.h xf86dgastr.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xf86dgaproto-2.1'
+###############################
+# xf86driproto-2.1.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xf86driproto-2.1.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 xf86driproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/dri" || /bin/mkdir -p "/usr/include/X11/dri"
+ /usr/bin/install -c -m 644 xf86dri.h xf86dristr.h xf86driproto.h '/usr/include/X11/dri'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xf86driproto-2.1.1'
+###############################
+# xf86vidmodeproto-2.3.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xf86vidmodeproto-2.3.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 xf86vidmodeproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 xf86vm.h xf86vmproto.h xf86vmstr.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xf86vidmodeproto-2.3.1'
+###############################
+# xineramaproto-1.2.1.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xineramaproto-1.2.1'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 xineramaproto.pc '/usr/lib/pkgconfig'
+test -z "/usr/include/X11/extensions" || /bin/mkdir -p "/usr/include/X11/extensions"
+ /usr/bin/install -c -m 644 panoramiXproto.h '/usr/include/X11/extensions'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xineramaproto-1.2.1'
+###############################
+# xproto-7.0.31.tar.bz2 #
+###############################
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs'
+Making install in SIAddresses
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs/SIAddresses'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs/SIAddresses'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs/SIAddresses'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs/SIAddresses'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/xproto'
+ /usr/bin/install -c -m 644 x11protocol.xml encoding.xml glossary.xml keysyms.xml sect1-9.xml '/usr/share/doc/xproto'
+ /bin/mkdir -p '/usr/share/doc/xproto'
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/X11'
+ /usr/bin/install -c -m 644 Xfuncproto.h Xpoll.h '/usr/include/X11'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xproto.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/X11'
+ /usr/bin/install -c -m 644 ap_keysym.h DECkeysym.h HPkeysym.h keysymdef.h keysym.h Sunkeysym.h Xalloca.h Xarch.h Xatom.h Xdefs.h XF86keysym.h Xfuncs.h X.h Xmd.h Xosdefs.h Xos.h Xos_r.h Xproto.h Xprotostr.h Xthreads.h Xw32defs.h XWDFile.h Xwindows.h Xwinsock.h '/usr/include/X11'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/protocol_headers/xproto-7.0.31'

@@ -1,0 +1,7 @@
+make -C librhash lib-shared
+make[1]: Entering directory '/lfskernel/sources/boot/RHash-1.3.5/librhash'
+sed -n '1s/.*/{ global:/p; s/^RHASH_API.* \([a-z0-9_]\+\)(.*/  \1;/p; $s/.*/local: *; };/p' rhash.h rhash_torrent.h rhash_timing.h > exports.sym
+cc -fpic  -pipe -DIN_RHASH -DUSE_GETTEXT -DOPENSSL_RUNTIME -rdynamic -O2 -DNDEBUG -fomit-frame-pointer -ffunction-sections -fdata-sections -Wall -W -Wstrict-prototypes -Wnested-externs -Winline -Wpointer-arith -Wbad-function-cast -Wmissing-prototypes -Wmissing-declarations -shared algorithms.c byte_order.c plug_openssl.c rhash.c rhash_timing.c rhash_torrent.c aich.c crc32.c ed2k.c edonr.c hex.c md4.c md5.c sha1.c sha256.c sha512.c sha3.c ripemd-160.c gost.c has160.c snefru.c tiger.c tiger_sbox.c tth.c torrent.c whirlpool.c whirlpool_sbox.c -Wl,--version-script,exports.sym,-soname,librhash.so.0  -ldl -o librhash.so.0
+rm -f librhash.so
+ln -s librhash.so.0 librhash.so
+make[1]: Leaving directory '/lfskernel/sources/boot/RHash-1.3.5/librhash'

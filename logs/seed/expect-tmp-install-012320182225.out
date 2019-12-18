@@ -1,0 +1,27 @@
+(echo 'if {![package vsatisfies [package provide Tcl] 8.6]} {return}' ; \
+ echo 'package ifneeded Expect 5.45.3 \
+    [list load [file join $dir libexpect5.45.3.so]]'\
+) > pkgIndex.tcl
+ /bin/install -c libexpect5.45.3.so /tools/lib/expect5.45.3/libexpect5.45.3.so
+ : /tools/lib/expect5.45.3/libexpect5.45.3.so
+ Install pkgIndex.tcl /tools/lib/expect5.45.3
+ /bin/install -c expect /tools/bin/expect
+Installing header files in /tools/include
+Installing ../expect.h
+Installing ../expect_tcl.h
+Installing ../expect_comm.h
+Installing ../tcldbg.h
+for i in  end_of_list ; do \
+  if [ -f $i ] ; then \
+    /bin/install -c $i /tools/bin/$i ; \
+    rm -f $i ; \
+  else true; fi ; \
+done
+Installing documentation in /tools/share/man
+/bin/install -c -m 644 ../expect.man /tools/share/man/man1/expect.1
+/bin/install -c -m 644 ../libexpect.man /tools/share/man/man3/libexpect.3
+for i in kibitz dislocate xkibitz tknewsbiff unbuffer mkpasswd passmass cryptdir decryptdir autoexpect multixterm end_of_list ; do \
+  if [ -f ../example/$i.man ] ; then \
+    /bin/install -c -m 644 ../example/$i.man /tools/share/man/man1/$i.1 ; \
+  else true; fi ; \
+done

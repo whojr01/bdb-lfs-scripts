@@ -1,0 +1,7 @@
+make[1]: Entering directory '/lfskernel/sources/boot/libaio-0.3.110/src'
+install -D -m 644 libaio.h /usr/include/libaio.h
+install -D -m 644 libaio.a /usr/lib/libaio.a
+install -D -m 755 libaio.so.1.0.1 /usr/lib/libaio.so.1.0.1
+ln -sf libaio.so.1.0.1 /usr/lib/libaio.so.1
+ln -sf libaio.so.1.0.1 /usr/lib/libaio.so
+make[1]: Leaving directory '/lfskernel/sources/boot/libaio-0.3.110/src'

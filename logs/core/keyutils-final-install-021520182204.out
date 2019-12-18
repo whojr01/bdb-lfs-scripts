@@ -1,0 +1,33 @@
+grep: /etc/rpm: No such file or directory
+grep: /usr/lib/rpm: No such file or directory
+install -D libkeyutils.so.1.6 /lib/libkeyutils.so.1.6
+ln -sf libkeyutils.so.1.6 /lib/libkeyutils.so.1
+mkdir -p /lib
+ln -sf /lib/libkeyutils.so.1 /lib/libkeyutils.so
+install -D keyctl /bin/keyctl
+install -D request-key /sbin/request-key
+install -D request-key-debug.sh /usr/share/keyutils/request-key-debug.sh
+install -D key.dns_resolver /sbin/key.dns_resolver
+install -D -m 0644 request-key.conf /etc/request-key.conf
+mkdir -p /etc/request-key.d
+mkdir -p /usr/share/man/man1
+install -m 0644 man/keyctl.1 /usr/share/man/man1
+mkdir -p /usr/share/man/man3
+install -m 0644 man/keyctl_get_keyring_ID.3 man/keyctl.3 man/keyctl_chown.3 man/keyctl_get_security.3 man/keyctl_session_to_parent.3 man/keyctl_set_timeout.3 man/find_key_by_type_and_name.3 man/keyctl_revoke.3 man/keyctl_invalidate.3 man/keyctl_set_reqkey_keyring.3 man/keyctl_instantiate.3 man/keyctl_clear.3 man/keyctl_link.3 man/keyctl_search.3 man/keyctl_setperm.3 man/keyctl_update.3 man/keyctl_dh_compute.3 man/keyctl_join_session_keyring.3 man/keyctl_describe.3 man/keyctl_read.3 man/keyctl_get_persistent.3 man/recursive_key_scan.3 /usr/share/man/man3
+mkdir -p /usr/share/man/man5
+install -m 0644 man/request-key.conf.5 /usr/share/man/man5
+mkdir -p /usr/share/man/man7
+install -m 0644 man/keyutils.7 /usr/share/man/man7
+mkdir -p /usr/share/man/man8
+install -m 0644 man/key.dns_resolver.8 man/request-key.8 /usr/share/man/man8
+ln -sf keyctl_describe.3 /usr/share/man/man3/keyctl_describe_alloc.3
+ln -sf keyctl_get_security.3 /usr/share/man/man3/keyctl_get_security_alloc.3
+ln -sf keyctl_instantiate.3 /usr/share/man/man3/keyctl_instantiate_iov.3
+ln -sf keyctl_instantiate.3 /usr/share/man/man3/keyctl_reject.3
+ln -sf keyctl_instantiate.3 /usr/share/man/man3/keyctl_negate.3
+ln -sf keyctl_instantiate.3 /usr/share/man/man3/keyctl_assume_authority.3
+ln -sf keyctl_link.3 /usr/share/man/man3/keyctl_unlink.3
+ln -sf keyctl_read.3 /usr/share/man/man3/keyctl_read_alloc.3
+ln -sf recursive_key_scan.3 /usr/share/man/man3/recursive_session_key_scan.3
+ln -sf keyctl_dh_compute.3 /usr/share/man/man3/keyctl_dh_compute_alloc.3
+install -D -m 0644 keyutils.h /usr/include/keyutils.h

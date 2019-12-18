@@ -1,0 +1,341 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for bison... bison -y
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking whether gcc and cc understand -c and -o together... yes
+checking whether ld supports --as-needed... yes
+checking whether ld supports --no-undefined... yes
+checking whether ld supports -O1... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for CC_FOR_BUILD... gcc
+checking for __attribute__... yes
+checking for .symver assembler directive... yes
+checking for ld --version-script... yes
+checking for -fpie... yes
+checking for libprelude-config... no
+checking for libprelude - version >= 0.9.0... no
+*** The libprelude-config script installed by LIBPRELUDE could not be found
+*** If LIBPRELUDE was installed in PREFIX, make sure PREFIX/bin is in
+*** your path, or set the LIBPRELUDE_CONFIG environment variable to the
+*** full path to libprelude-config.
+Defining $ISA to "../../lib/security"
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking for xauth... no
+checking for dlopen in -ldl... yes
+checking crack.h usability... yes
+checking crack.h presence... yes
+checking for crack.h... yes
+checking for FascistCheck in -lcrack... yes
+checking libaudit.h usability... no
+checking libaudit.h presence... no
+checking for libaudit.h... no
+checking xcrypt.h usability... no
+checking xcrypt.h presence... no
+checking for xcrypt.h... no
+checking crypt.h usability... yes
+checking crypt.h presence... yes
+checking for crypt.h... yes
+checking for library containing crypt... -lcrypt
+checking for crypt_r... yes
+checking for crypt_gensalt_r... no
+checking for db_create... no
+checking for db_create... (cached) no
+checking for dbm_store... no
+checking for dbm_store... (cached) no
+checking for dbm_store in -lndbm... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for TIRPC... no
+checking for NSL... no
+checking for yp_match in -lnsl... no
+checking for yp_get_default_domain... no
+checking for yperr_string... no
+checking for yp_master... no
+checking for yp_bind... no
+checking for yp_match... no
+checking for yp_unbind... no
+checking for getrpcport... yes
+checking for rpcb_getaddr... no
+checking rpc/rpc.h usability... no
+checking rpc/rpc.h presence... no
+checking for rpc/rpc.h... no
+checking rpcsvc/ypclnt.h usability... no
+checking rpcsvc/ypclnt.h presence... no
+checking for rpcsvc/ypclnt.h... no
+checking rpcsvc/yp_prot.h usability... no
+checking rpcsvc/yp_prot.h presence... no
+checking for rpcsvc/yp_prot.h... no
+checking whether getrpcport is declared... no
+checking for getfilecon in -lselinux... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking net/if.h usability... yes
+checking net/if.h presence... yes
+checking for net/if.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking for unistd.h... (cached) yes
+checking sys/fsuid.h usability... yes
+checking sys/fsuid.h presence... yes
+checking for sys/fsuid.h... yes
+checking inittypes.h usability... no
+checking inittypes.h presence... no
+checking for inittypes.h... no
+checking lastlog.h usability... yes
+checking lastlog.h presence... yes
+checking for lastlog.h... yes
+checking utmp.h usability... yes
+checking utmp.h presence... yes
+checking for utmp.h... yes
+checking utmpx.h usability... yes
+checking utmpx.h presence... yes
+checking for utmpx.h... yes
+checking whether byte ordering is bigendian... no
+checking for an ANSI C-conforming const... yes
+checking for uid_t in sys/types.h... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking type of array argument to getgroups... gid_t
+checking whether gcc needs -traditional... no
+checking for working memcmp... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for fseeko... yes
+checking for getdomainname... yes
+checking for gethostname... yes
+checking for gettimeofday... yes
+checking for lckpwdf... yes
+checking for mkdir... yes
+checking for select... yes
+checking for strcspn... yes
+checking for strdup... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for uname... yes
+checking for getutent_r... yes
+checking for getpwnam_r... yes
+checking for getpwuid_r... yes
+checking for getgrnam_r... yes
+checking for getgrgid_r... yes
+checking for getspnam_r... yes
+checking for getgrouplist... yes
+checking for getline... yes
+checking for getdelim... yes
+checking for inet_ntop... yes
+checking for inet_pton... yes
+checking for innetgr... yes
+checking for ruserok_af... yes
+checking for unshare... yes
+checking for xsltproc... /usr/bin/xsltproc
+checking for xmllint... /usr/bin/xmllint
+checking for XML catalog (/etc/xml/catalog)... found
+checking for xmlcatalog... /usr/bin/xmlcatalog
+checking for DocBook XML DTD V4.4 in XML catalog... found
+checking for DocBook XSL Stylesheets in XML catalog... found
+checking for w3m... no
+checking for links... no
+checking for fop... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for dngettext... yes
+checking whether __NR_keyctl is declared... yes
+checking whether ENOKEY is declared... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libpam/Makefile
+config.status: creating libpamc/Makefile
+config.status: creating libpamc/test/Makefile
+config.status: creating libpam_misc/Makefile
+config.status: creating conf/Makefile
+config.status: creating conf/pam_conv1/Makefile
+config.status: creating po/Makefile.in
+config.status: creating modules/Makefile
+config.status: creating modules/pam_access/Makefile
+config.status: creating modules/pam_cracklib/Makefile
+config.status: creating modules/pam_debug/Makefile
+config.status: creating modules/pam_deny/Makefile
+config.status: creating modules/pam_echo/Makefile
+config.status: creating modules/pam_env/Makefile
+config.status: creating modules/pam_faildelay/Makefile
+config.status: creating modules/pam_filter/Makefile
+config.status: creating modules/pam_filter/upperLOWER/Makefile
+config.status: creating modules/pam_ftp/Makefile
+config.status: creating modules/pam_group/Makefile
+config.status: creating modules/pam_issue/Makefile
+config.status: creating modules/pam_keyinit/Makefile
+config.status: creating modules/pam_lastlog/Makefile
+config.status: creating modules/pam_limits/Makefile
+config.status: creating modules/pam_listfile/Makefile
+config.status: creating modules/pam_localuser/Makefile
+config.status: creating modules/pam_loginuid/Makefile
+config.status: creating modules/pam_mail/Makefile
+config.status: creating modules/pam_mkhomedir/Makefile
+config.status: creating modules/pam_motd/Makefile
+config.status: creating modules/pam_namespace/Makefile
+config.status: creating modules/pam_nologin/Makefile
+config.status: creating modules/pam_permit/Makefile
+config.status: creating modules/pam_pwhistory/Makefile
+config.status: creating modules/pam_rhosts/Makefile
+config.status: creating modules/pam_rootok/Makefile
+config.status: creating modules/pam_exec/Makefile
+config.status: creating modules/pam_securetty/Makefile
+config.status: creating modules/pam_selinux/Makefile
+config.status: creating modules/pam_sepermit/Makefile
+config.status: creating modules/pam_shells/Makefile
+config.status: creating modules/pam_stress/Makefile
+config.status: creating modules/pam_succeed_if/Makefile
+config.status: creating modules/pam_tally/Makefile
+config.status: creating modules/pam_tally2/Makefile
+config.status: creating modules/pam_time/Makefile
+config.status: creating modules/pam_timestamp/Makefile
+config.status: creating modules/pam_tty_audit/Makefile
+config.status: creating modules/pam_umask/Makefile
+config.status: creating modules/pam_unix/Makefile
+config.status: creating modules/pam_userdb/Makefile
+config.status: creating modules/pam_warn/Makefile
+config.status: creating modules/pam_wheel/Makefile
+config.status: creating modules/pam_xauth/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/specs/Makefile
+config.status: creating doc/man/Makefile
+config.status: creating doc/sag/Makefile
+config.status: creating doc/adg/Makefile
+config.status: creating doc/mwg/Makefile
+config.status: creating examples/Makefile
+config.status: creating tests/Makefile
+config.status: creating xtests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile

@@ -1,0 +1,76 @@
+###############################
+# Make xprop-1.2.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xprop-1.2.2'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xprop-1.2.2/man'
+  GEN      xprop.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xprop-1.2.2/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xprop-1.2.2'
+  CC       dsimple.o
+dsimple.c: In function 'Select_Window':
+dsimple.c:250:31: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+ Window Select_Window(Display *dpy, int descend)
+                               ^~~
+dsimple.c:58:10: note: shadowed declaration is here
+ Display *dpy = NULL;
+          ^~~
+dsimple.c: In function 'Window_With_Name':
+dsimple.c:306:14: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+     Display *dpy,
+              ^~~
+dsimple.c:58:10: note: shadowed declaration is here
+ Display *dpy = NULL;
+          ^~~
+  CC       clientwin.o
+  CC       xprop.o
+xprop.c: In function 'Read_Quoted':
+xprop.c:171:8: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+      } else
+        ^~~~
+xprop.c:172:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   ptr++[0] = c; length--;
+                 ^~~~~~
+xprop.c: In function 'ignore_errors':
+xprop.c:603:25: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+ ignore_errors (Display *dpy, XErrorEvent *ev)
+                         ^~~
+In file included from xprop.c:56:0:
+dsimple.h:53:17: note: shadowed declaration is here
+ extern Display *dpy;                         /* The current display */
+                 ^~~
+xprop.c: In function 'Format_Len_Text':
+xprop.c:865:22: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     textprop.value = (unsigned char *) string;
+                      ^
+xprop.c: In function 'Remove_Property':
+xprop.c:1577:27: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+ Remove_Property (Display *dpy, Window w, const char *propname)
+                           ^~~
+In file included from xprop.c:56:0:
+dsimple.h:53:17: note: shadowed declaration is here
+ extern Display *dpy;                         /* The current display */
+                 ^~~
+xprop.c: In function 'Set_Property':
+xprop.c:1590:24: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+ Set_Property (Display *dpy, Window w, const char *propname, const char *value)
+                        ^~~
+In file included from xprop.c:56:0:
+dsimple.h:53:17: note: shadowed declaration is here
+ extern Display *dpy;                         /* The current display */
+                 ^~~
+xprop.c:1630:37: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+  if (XmbTextListToTextProperty(dpy, (char **) &value, 1,
+                                     ^
+xprop.c: In function 'spy_error_handler':
+xprop.c:1856:39: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+ static int spy_error_handler(Display *dpy, XErrorEvent *ev)
+                                       ^~~
+In file included from xprop.c:56:0:
+dsimple.h:53:17: note: shadowed declaration is here
+ extern Display *dpy;                         /* The current display */
+                 ^~~
+  CCLD     xprop
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xprop-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xprop-1.2.2'

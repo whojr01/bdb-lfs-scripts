@@ -1,0 +1,124 @@
+Making check in compat
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+Making check in geometry
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+Making check in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+Making check in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+Making check in keycodes
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+Making check in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+Making check in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+Making check in po
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package xkeyboard-config --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/po'
+Making check in rules
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+Making check in bin
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+Making check in compat
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+Making check in symbols
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+Making check in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+Making check in fujitsu_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+Making check in hp_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+Making check in jolla_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+Making check in macintosh_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+Making check in nec_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+Making check in nokia_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+Making check in sharp_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+Making check in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+Making check in sony_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+Making check in sun_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+Making check in xfree68_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+Making check in types
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+Making check in docs
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'

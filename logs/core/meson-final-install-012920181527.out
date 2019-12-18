@@ -1,0 +1,222 @@
+running install
+running bdist_egg
+running egg_info
+writing meson.egg-info/PKG-INFO
+writing dependency_links to meson.egg-info/dependency_links.txt
+writing top-level names to meson.egg-info/top_level.txt
+reading manifest file 'meson.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'test?cases'
+warning: no directories found matching 'manual?tests'
+warning: no directories found matching 'syntax-highlighting'
+warning: no files found matching 'authors.txt'
+writing manifest file 'meson.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/mesonmain.py -> build/bdist.linux-x86_64/egg/mesonbuild
+creating build/bdist.linux-x86_64/egg/mesonbuild/wrap
+copying build/lib/mesonbuild/wrap/__init__.py -> build/bdist.linux-x86_64/egg/mesonbuild/wrap
+copying build/lib/mesonbuild/wrap/wraptool.py -> build/bdist.linux-x86_64/egg/mesonbuild/wrap
+copying build/lib/mesonbuild/wrap/wrap.py -> build/bdist.linux-x86_64/egg/mesonbuild/wrap
+creating build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/backend/__init__.py -> build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/backend/vs2015backend.py -> build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/backend/vs2010backend.py -> build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/backend/ninjabackend.py -> build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/backend/vs2017backend.py -> build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/backend/xcodebackend.py -> build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/backend/backends.py -> build/bdist.linux-x86_64/egg/mesonbuild/backend
+copying build/lib/mesonbuild/mesonlib.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/__init__.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/environment.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/mlog.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/mparser.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/astinterpreter.py -> build/bdist.linux-x86_64/egg/mesonbuild
+creating build/bdist.linux-x86_64/egg/mesonbuild/dependencies
+copying build/lib/mesonbuild/dependencies/__init__.py -> build/bdist.linux-x86_64/egg/mesonbuild/dependencies
+copying build/lib/mesonbuild/dependencies/ui.py -> build/bdist.linux-x86_64/egg/mesonbuild/dependencies
+copying build/lib/mesonbuild/dependencies/dev.py -> build/bdist.linux-x86_64/egg/mesonbuild/dependencies
+copying build/lib/mesonbuild/dependencies/misc.py -> build/bdist.linux-x86_64/egg/mesonbuild/dependencies
+copying build/lib/mesonbuild/dependencies/platform.py -> build/bdist.linux-x86_64/egg/mesonbuild/dependencies
+copying build/lib/mesonbuild/dependencies/base.py -> build/bdist.linux-x86_64/egg/mesonbuild/dependencies
+creating build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/fortran.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/objc.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/__init__.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/cs.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/vala.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/c.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/cpp.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/d.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/java.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/rust.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/swift.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/objcpp.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/compilers/compilers.py -> build/bdist.linux-x86_64/egg/mesonbuild/compilers
+copying build/lib/mesonbuild/interpreter.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/coredata.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/linkers.py -> build/bdist.linux-x86_64/egg/mesonbuild
+creating build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/regen_checker.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/scanbuild.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/msgfmthelper.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/cleantrees.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/vcstagger.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/depfixer.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/__init__.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/symbolextractor.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/gettext.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/uninstall.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/yelphelper.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/dist.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/gtkdochelper.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/meson_install.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/meson_exe.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/coverage.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/dirchanger.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/commandrunner.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/scripts/delwithsuffix.py -> build/bdist.linux-x86_64/egg/mesonbuild/scripts
+copying build/lib/mesonbuild/interpreterbase.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/mintro.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/mtest.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/build.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/mconf.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/rewriter.py -> build/bdist.linux-x86_64/egg/mesonbuild
+copying build/lib/mesonbuild/optinterpreter.py -> build/bdist.linux-x86_64/egg/mesonbuild
+creating build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/rpm.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/qt.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/python3.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/__init__.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/windows.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/unstable_simd.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/modtest.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/qt4.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/qt5.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/gnome.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/pkgconfig.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+copying build/lib/mesonbuild/modules/i18n.py -> build/bdist.linux-x86_64/egg/mesonbuild/modules
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/mesonmain.py to mesonmain.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/wrap/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/wrap/wraptool.py to wraptool.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/wrap/wrap.py to wrap.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/backend/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/backend/vs2015backend.py to vs2015backend.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/backend/vs2010backend.py to vs2010backend.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/backend/ninjabackend.py to ninjabackend.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/backend/vs2017backend.py to vs2017backend.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/backend/xcodebackend.py to xcodebackend.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/backend/backends.py to backends.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/mesonlib.py to mesonlib.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/environment.py to environment.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/mlog.py to mlog.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/mparser.py to mparser.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/astinterpreter.py to astinterpreter.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/dependencies/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/dependencies/ui.py to ui.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/dependencies/dev.py to dev.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/dependencies/misc.py to misc.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/dependencies/platform.py to platform.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/dependencies/base.py to base.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/fortran.py to fortran.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/objc.py to objc.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/cs.py to cs.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/vala.py to vala.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/c.py to c.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/cpp.py to cpp.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/d.py to d.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/java.py to java.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/rust.py to rust.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/swift.py to swift.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/objcpp.py to objcpp.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/compilers/compilers.py to compilers.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/interpreter.py to interpreter.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/coredata.py to coredata.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/linkers.py to linkers.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/regen_checker.py to regen_checker.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/scanbuild.py to scanbuild.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/msgfmthelper.py to msgfmthelper.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/cleantrees.py to cleantrees.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/vcstagger.py to vcstagger.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/depfixer.py to depfixer.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/symbolextractor.py to symbolextractor.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/gettext.py to gettext.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/uninstall.py to uninstall.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/yelphelper.py to yelphelper.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/dist.py to dist.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/gtkdochelper.py to gtkdochelper.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/meson_install.py to meson_install.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/meson_exe.py to meson_exe.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/coverage.py to coverage.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/dirchanger.py to dirchanger.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/commandrunner.py to commandrunner.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/scripts/delwithsuffix.py to delwithsuffix.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/interpreterbase.py to interpreterbase.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/mintro.py to mintro.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/mtest.py to mtest.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/build.py to build.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/mconf.py to mconf.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/rewriter.py to rewriter.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/optinterpreter.py to optinterpreter.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/rpm.py to rpm.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/qt.py to qt.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/python3.py to python3.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/windows.py to windows.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/unstable_simd.py to unstable_simd.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/modtest.py to modtest.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/qt4.py to qt4.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/qt5.py to qt5.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/gnome.py to gnome.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/pkgconfig.py to pkgconfig.cpython-36.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mesonbuild/modules/i18n.py to i18n.cpython-36.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+creating build/bdist.linux-x86_64/egg/share
+creating build/bdist.linux-x86_64/egg/share/man
+creating build/bdist.linux-x86_64/egg/share/man/man1
+copying man/meson.1 -> build/bdist.linux-x86_64/egg/share/man/man1
+copying man/mesonconf.1 -> build/bdist.linux-x86_64/egg/share/man/man1
+copying man/mesonintrospect.1 -> build/bdist.linux-x86_64/egg/share/man/man1
+copying man/mesontest.1 -> build/bdist.linux-x86_64/egg/share/man/man1
+copying man/wraptool.1 -> build/bdist.linux-x86_64/egg/share/man/man1
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.6/meson.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts/meson
+copying build/scripts-3.6/mesonconf.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts/mesonconf
+copying build/scripts-3.6/mesontest.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts/mesontest
+copying build/scripts-3.6/mesonintrospect.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts/mesonintrospect
+copying build/scripts-3.6/wraptool.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts/wraptool
+copying meson.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying meson.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying meson.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying meson.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+mesonbuild.__pycache__.environment.cpython-36: module references __file__
+mesonbuild.__pycache__.mesonlib.cpython-36: module references __file__
+creating dist
+creating 'dist/meson-0.44.0-py3.6.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing meson-0.44.0-py3.6.egg
+creating /usr/lib/python3.6/site-packages/meson-0.44.0-py3.6.egg
+Extracting meson-0.44.0-py3.6.egg to /usr/lib/python3.6/site-packages
+Adding meson 0.44.0 to easy-install.pth file
+Installing mesontest script to /usr/bin
+Installing mesonconf script to /usr/bin
+Installing wraptool script to /usr/bin
+Installing mesonintrospect script to /usr/bin
+Installing meson script to /usr/bin
+
+Installed /usr/lib/python3.6/site-packages/meson-0.44.0-py3.6.egg
+Processing dependencies for meson==0.44.0
+Finished processing dependencies for meson==0.44.0

@@ -1,0 +1,614 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for ar... (cached) ar
+checking for ranlib... ranlib
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+configure: autobuild project... GNU Libtasn1
+configure: autobuild revision... 4.13
+configure: autobuild hostname... localhost.localdomain
+configure: autobuild timestamp... 20180307T210834Z
+checking for bison... bison -y
+checking the archiver (ar) interface... (cached) ar
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... (cached) ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking size of unsigned long int... 8
+checking size of unsigned int... 4
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for complete errno.h... yes
+checking for _set_invalid_parameter_handler... no
+checking for gettimeofday... yes
+checking for nanotime... no
+checking whether stat file-mode macros are broken... no
+checking for sys/stat.h... (cached) yes
+checking for getopt.h... yes
+checking for sys/time.h... yes
+checking for sys/socket.h... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for mode_t... yes
+checking for nlink_t... yes
+checking whether fchmodat is declared without a macro... yes
+checking whether fstat is declared without a macro... yes
+checking whether fstatat is declared without a macro... yes
+checking whether futimens is declared without a macro... yes
+checking whether lchmod is declared without a macro... yes
+checking whether lstat is declared without a macro... yes
+checking whether mkdirat is declared without a macro... yes
+checking whether mkfifo is declared without a macro... yes
+checking whether mkfifoat is declared without a macro... yes
+checking whether mknod is declared without a macro... yes
+checking whether mknodat is declared without a macro... yes
+checking whether stat is declared without a macro... yes
+checking whether utimensat is declared without a macro... yes
+checking whether stdin defaults to large file offsets... yes
+checking for pid_t... yes
+checking whether ftello is declared... yes
+checking for ftello... yes
+checking whether ftello works... yes
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... yes
+checking for working GNU getopt_long function... yes
+checking whether getenv is declared... yes
+checking for C/C++ restrict keyword... __restrict
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking whether gettimeofday is declared without a macro... yes
+checking whether limits.h has ULLONG_WIDTH etc.... yes
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking whether wint_t is too small... no
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h predates C++11... no
+checking whether stdint.h has UINTMAX_WIDTH etc.... yes
+checking for struct timespec in <time.h>... yes
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking for clock_settime... yes
+checking for ftello... (cached) yes
+checking whether ftello works... (cached) yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking for gettimeofday with POSIX signature... almost
+checking whether lseek detects pipes... yes
+checking for pmccabe... false
+checking whether program_invocation_name is declared... yes
+checking whether program_invocation_short_name is declared... yes
+checking for ssize_t... yes
+checking for va_copy... yes
+checking for max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking which flavor of printf attribute matches inttypes macros... system
+checking whether dprintf is declared without a macro... yes
+checking whether fpurge is declared without a macro... no
+checking whether fseeko is declared without a macro... yes
+checking whether ftello is declared without a macro... yes
+checking whether getdelim is declared without a macro... yes
+checking whether getline is declared without a macro... yes
+checking whether gets is declared without a macro... no
+checking whether pclose is declared without a macro... yes
+checking whether popen is declared without a macro... yes
+checking whether renameat is declared without a macro... yes
+checking whether snprintf is declared without a macro... yes
+checking whether tmpfile is declared without a macro... yes
+checking whether vdprintf is declared without a macro... yes
+checking whether vsnprintf is declared without a macro... yes
+checking whether _Exit is declared without a macro... yes
+checking whether atoll is declared without a macro... yes
+checking whether canonicalize_file_name is declared without a macro... yes
+checking whether getloadavg is declared without a macro... yes
+checking whether getsubopt is declared without a macro... yes
+checking whether grantpt is declared without a macro... yes
+checking whether initstate is declared without a macro... yes
+checking whether initstate_r is declared without a macro... yes
+checking whether mkdtemp is declared without a macro... yes
+checking whether mkostemp is declared without a macro... yes
+checking whether mkostemps is declared without a macro... yes
+checking whether mkstemp is declared without a macro... yes
+checking whether mkstemps is declared without a macro... yes
+checking whether posix_openpt is declared without a macro... yes
+checking whether ptsname is declared without a macro... yes
+checking whether ptsname_r is declared without a macro... yes
+checking whether qsort_r is declared without a macro... yes
+checking whether random is declared without a macro... yes
+checking whether random_r is declared without a macro... yes
+checking whether realpath is declared without a macro... yes
+checking whether rpmatch is declared without a macro... yes
+checking whether secure_getenv is declared without a macro... yes
+checking whether setenv is declared without a macro... yes
+checking whether setstate is declared without a macro... yes
+checking whether setstate_r is declared without a macro... yes
+checking whether srandom is declared without a macro... yes
+checking whether srandom_r is declared without a macro... yes
+checking whether strtod is declared without a macro... yes
+checking whether strtoll is declared without a macro... yes
+checking whether strtoull is declared without a macro... yes
+checking whether unlockpt is declared without a macro... yes
+checking whether unsetenv is declared without a macro... yes
+checking for nlink_t... (cached) yes
+checking whether fchmodat is declared without a macro... (cached) yes
+checking whether fstat is declared without a macro... (cached) yes
+checking whether fstatat is declared without a macro... (cached) yes
+checking whether futimens is declared without a macro... (cached) yes
+checking whether lchmod is declared without a macro... (cached) yes
+checking whether lstat is declared without a macro... (cached) yes
+checking whether mkdirat is declared without a macro... (cached) yes
+checking whether mkfifo is declared without a macro... (cached) yes
+checking whether mkfifoat is declared without a macro... (cached) yes
+checking whether mknod is declared without a macro... (cached) yes
+checking whether mknodat is declared without a macro... (cached) yes
+checking whether stat is declared without a macro... (cached) yes
+checking whether utimensat is declared without a macro... (cached) yes
+checking whether chdir is declared without a macro... yes
+checking whether chown is declared without a macro... yes
+checking whether dup is declared without a macro... yes
+checking whether dup2 is declared without a macro... yes
+checking whether dup3 is declared without a macro... yes
+checking whether environ is declared without a macro... yes
+checking whether euidaccess is declared without a macro... yes
+checking whether faccessat is declared without a macro... yes
+checking whether fchdir is declared without a macro... yes
+checking whether fchownat is declared without a macro... yes
+checking whether fdatasync is declared without a macro... yes
+checking whether fsync is declared without a macro... yes
+checking whether ftruncate is declared without a macro... yes
+checking whether getcwd is declared without a macro... yes
+checking whether getdomainname is declared without a macro... yes
+checking whether getdtablesize is declared without a macro... yes
+checking whether getgroups is declared without a macro... yes
+checking whether gethostname is declared without a macro... yes
+checking whether getlogin is declared without a macro... yes
+checking whether getlogin_r is declared without a macro... yes
+checking whether getpagesize is declared without a macro... yes
+checking whether getusershell is declared without a macro... yes
+checking whether setusershell is declared without a macro... yes
+checking whether endusershell is declared without a macro... yes
+checking whether group_member is declared without a macro... yes
+checking whether isatty is declared without a macro... yes
+checking whether lchown is declared without a macro... yes
+checking whether link is declared without a macro... yes
+checking whether linkat is declared without a macro... yes
+checking whether lseek is declared without a macro... yes
+checking whether pipe is declared without a macro... yes
+checking whether pipe2 is declared without a macro... yes
+checking whether pread is declared without a macro... yes
+checking whether pwrite is declared without a macro... yes
+checking whether readlink is declared without a macro... yes
+checking whether readlinkat is declared without a macro... yes
+checking whether rmdir is declared without a macro... yes
+checking whether sethostname is declared without a macro... yes
+checking whether sleep is declared without a macro... yes
+checking whether symlink is declared without a macro... yes
+checking whether symlinkat is declared without a macro... yes
+checking whether ttyname_r is declared without a macro... yes
+checking whether unlink is declared without a macro... yes
+checking whether unlinkat is declared without a macro... yes
+checking whether usleep is declared without a macro... yes
+checking for valgrind... no
+checking whether self tests are run under valgrind... no
+checking for valgrind... no
+checking whether self tests are run under valgrind... no
+checking whether <limits.h> defines MIN and MAX... no
+checking whether <sys/param.h> defines MIN and MAX... yes
+checking whether ffsl is declared without a macro... yes
+checking whether ffsll is declared without a macro... yes
+checking whether memmem is declared without a macro... yes
+checking whether mempcpy is declared without a macro... yes
+checking whether memrchr is declared without a macro... yes
+checking whether rawmemchr is declared without a macro... yes
+checking whether stpcpy is declared without a macro... yes
+checking whether stpncpy is declared without a macro... yes
+checking whether strchrnul is declared without a macro... yes
+checking whether strdup is declared without a macro... yes
+checking whether strncat is declared without a macro... yes
+checking whether strndup is declared without a macro... yes
+checking whether strnlen is declared without a macro... yes
+checking whether strpbrk is declared without a macro... yes
+checking whether strsep is declared without a macro... yes
+checking whether strcasestr is declared without a macro... yes
+checking whether strtok_r is declared without a macro... yes
+checking whether strerror_r is declared without a macro... yes
+checking whether strsignal is declared without a macro... yes
+checking whether strverscmp is declared without a macro... yes
+checking if LD -Wl,--version-script works... yes
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for ssize_t... (cached) yes
+checking for max_align_t... (cached) yes
+checking whether NULL can be used in arbitrary expressions... (cached) yes
+checking for strverscmp... yes
+checking whether -Wno-missing-field-initializers is supported... yes
+checking whether -Wno-missing-field-initializers is needed... no
+checking whether -Wuninitialized is supported... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... no
+checking whether C compiler handles -fno-common... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -W... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wabi... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Waddress... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Waggressive-loop-optimizations... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wall... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wattributes... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wbad-function-cast... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wbool-compare... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wbuiltin-macro-redefined... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wcast-align... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wchar-subscripts... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wchkp... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wclobbered... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wcomment... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wcomments... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wcoverage-mismatch... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wcpp... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdate-time... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdeprecated... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdeprecated-declarations... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdesignated-init... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdisabled-optimization... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdiscarded-array-qualifiers... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdiscarded-qualifiers... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdiv-by-zero... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wdouble-promotion... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wduplicated-cond... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wempty-body... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wendif-labels... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wenum-compare... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wextra... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wformat-contains-nul... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wformat-extra-args... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wformat-nonliteral... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wformat-security... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wformat-signedness... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wformat-y2k... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wformat-zero-length... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wframe-address... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wfree-nonheap-object... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Whsa... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wignored-attributes... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wignored-qualifiers... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wimplicit... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wimplicit-function-declaration... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wimplicit-int... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wincompatible-pointer-types... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Winit-self... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Winline... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wint-conversion... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wint-to-pointer-cast... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Winvalid-memory-model... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Winvalid-pch... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wjump-misses-init... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wlogical-not-parentheses... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wlogical-op... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmain... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmaybe-uninitialized... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmemset-transposed-args... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmisleading-indentation... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmissing-braces... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmissing-declarations... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmissing-field-initializers... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmissing-include-dirs... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmissing-parameter-type... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmissing-prototypes... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wmultichar... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wnarrowing... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wnested-externs... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wnonnull... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wnonnull-compare... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wnull-dereference... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wodr... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wold-style-declaration... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wopenmp-simd... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Woverflow... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Woverride-init... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wpacked... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wpacked-bitfield-compat... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wparentheses... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wpointer-arith... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wpointer-sign... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wpointer-to-int-cast... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wpragmas... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wreturn-local-addr... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wreturn-type... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wscalar-storage-order... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsequence-point... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wshadow... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wshift-count-negative... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wshift-count-overflow... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wshift-negative-value... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsizeof-array-argument... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsizeof-pointer-memaccess... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wstack-protector... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wstrict-aliasing... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wstrict-prototypes... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsuggest-attribute=const... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsuggest-attribute=format... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsuggest-attribute=noreturn... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsuggest-final-methods... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsuggest-final-types... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wswitch... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wswitch-bool... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wsync-nand... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wtautological-compare... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wtrampolines... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wtrigraphs... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wtype-limits... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wuninitialized... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunknown-pragmas... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-but-set-parameter... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-but-set-variable... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-function... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-label... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-local-typedefs... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-parameter... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-result... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-value... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-variable... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wvarargs... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wvariadic-macros... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wvector-operation-performance... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wvla... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wvolatile-register-var... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wwrite-strings... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Warray-bounds=2... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wnormalized=nfc... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wshift-overflow=2... yes
+checking whether C compiler handles -Werror -Wunknown-warning-option... (cached) no
+checking whether C compiler handles -Wunused-const-variable=2... yes
+checking whether C compiler handles -Wno-type-limits... yes
+checking whether C compiler handles -Wno-missing-field-initializers... yes
+checking whether C compiler handles -Wno-unused-parameter... yes
+checking whether C compiler handles -Wno-stack-protector... yes
+checking whether C compiler handles -fdiagnostics-show-option... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/cyclo/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating examples/Makefile
+config.status: creating gl/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/gllib/Makefile
+config.status: creating lib/libtasn1.pc
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: summary of build options:
+
+  version:          4.13 shared 11:5:5
+  Host type:        x86_64-unknown-linux-gnu
+  Install prefix:   /usr
+  Compiler:         gcc
+  Warning flags:    errors:  warnings:  -fno-common -W -Wabi -Waddress -Waggressive-loop-optimizations -Wall -Wattributes -Wbad-function-cast -Wbool-compare -Wbuiltin-macro-redefined -Wcast-align -Wchar-subscripts -Wchkp -Wclobbered -Wcomment -Wcomments -Wcoverage-mismatch -Wcpp -Wdate-time -Wdeprecated -Wdeprecated-declarations -Wdesignated-init -Wdisabled-optimization -Wdiscarded-array-qualifiers -Wdiscarded-qualifiers -Wdiv-by-zero -Wdouble-promotion -Wduplicated-cond -Wempty-body -Wendif-labels -Wenum-compare -Wextra -Wformat-contains-nul -Wformat-extra-args -Wformat-nonliteral -Wformat-security -Wformat-signedness -Wformat-y2k -Wformat-zero-length -Wframe-address -Wfree-nonheap-object -Whsa -Wignored-attributes -Wignored-qualifiers -Wimplicit -Wimplicit-function-declaration -Wimplicit-int -Wincompatible-pointer-types -Winit-self -Winline -Wint-conversion -Wint-to-pointer-cast -Winvalid-memory-model -Winvalid-pch -Wjump-misses-init -Wlogical-not-parentheses -Wlogical-op -Wmain -Wmaybe-uninitialized -Wmemset-transposed-args -Wmisleading-indentation -Wmissing-braces -Wmissing-declarations -Wmissing-field-initializers -Wmissing-include-dirs -Wmissing-parameter-type -Wmissing-prototypes -Wmultichar -Wnarrowing -Wnested-externs -Wnonnull -Wnonnull-compare -Wnull-dereference -Wodr -Wold-style-declaration -Wopenmp-simd -Woverflow -Woverride-init -Wpacked -Wpacked-bitfield-compat -Wparentheses -Wpointer-arith -Wpointer-sign -Wpointer-to-int-cast -Wpragmas -Wreturn-local-addr -Wreturn-type -Wscalar-storage-order -Wsequence-point -Wshadow -Wshift-count-negative -Wshift-count-overflow -Wshift-negative-value -Wsizeof-array-argument -Wsizeof-pointer-memaccess -Wstack-protector -Wstrict-aliasing -Wstrict-prototypes -Wsuggest-attribute=const -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wsuggest-final-methods -Wsuggest-final-types -Wswitch -Wswitch-bool -Wsync-nand -Wtautological-compare -Wtrampolines -Wtrigraphs -Wtype-limits -Wuninitialized -Wunknown-pragmas -Wunused -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-function -Wunused-label -Wunused-local-typedefs -Wunused-parameter -Wunused-result -Wunused-value -Wunused-variable -Wvarargs -Wvariadic-macros -Wvector-operation-performance -Wvla -Wvolatile-register-var -Wwrite-strings -Warray-bounds=2 -Wnormalized=nfc -Wshift-overflow=2 -Wunused-const-variable=2 -Wno-type-limits -Wno-missing-field-initializers -Wno-unused-parameter -Wno-stack-protector -fdiagnostics-show-option
+  Library types:    Shared=yes, Static=no
+  Valgrind:         
+  Version script:   yes
+

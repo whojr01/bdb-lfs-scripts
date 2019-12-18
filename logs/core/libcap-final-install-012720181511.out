@@ -1,0 +1,35 @@
+make -C libcap install
+make[1]: Entering directory '/sources/libcap-2.25/libcap'
+mkdir -p -m 0755 /usr/include/sys
+install -m 0644 include/sys/capability.h /usr/include/sys
+mkdir -p -m 0755 /usr/lib
+install -m 0644 libcap.a /usr/lib/libcap.a
+install -m 0644 libcap.so.2.25 /usr/lib/libcap.so.2.25
+ln -sf libcap.so.2.25 /usr/lib/libcap.so.2
+ln -sf libcap.so.2 /usr/lib/libcap.so
+/sbin/ldconfig
+mkdir -p -m 0755 /usr/lib/pkgconfig
+install -m 0644 libcap.pc /usr/lib/pkgconfig/libcap.pc
+make[1]: Leaving directory '/sources/libcap-2.25/libcap'
+make -C progs install
+make[1]: Entering directory '/sources/libcap-2.25/progs'
+mkdir -p -m 0755 /usr/sbin
+for p in getpcaps capsh getcap setcap ; do \
+	install -m 0755 $p /usr/sbin ; \
+done
+make[1]: Leaving directory '/sources/libcap-2.25/progs'
+make -C doc install
+make[1]: Entering directory '/sources/libcap-2.25/doc'
+mkdir -p -m 755 /usr/share/man/man1 /usr/share/man/man3 /usr/share/man/man8
+for man in \
+	/usr/share/man/man1 capsh.1 \
+	/usr/share/man/man3 cap_init.3 cap_free.3 cap_dup.3 cap_clear.3 cap_clear_flag.3 cap_get_flag.3 cap_set_flag.3 cap_compare.3 cap_get_proc.3 cap_get_pid.3 cap_set_proc.3 cap_get_file.3 cap_get_fd.3 cap_set_file.3 cap_set_fd.3 cap_copy_ext.3 cap_size.3 cap_copy_int.3 cap_from_text.3 cap_to_text.3 cap_from_name.3 cap_to_name.3 capsetp.3 capgetp.3 libcap.3 cap_get_bound.3 cap_drop_bound.3 \
+	/usr/share/man/man8 getcap.8 setcap.8 \
+	; \
+do \
+	case $man in \
+	/*)	sub=$man ; continue ;; \
+	esac; \
+	install -m 644 $man $sub ; \
+done
+make[1]: Leaving directory '/sources/libcap-2.25/doc'

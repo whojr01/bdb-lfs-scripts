@@ -1,0 +1,114 @@
+  GEN      version.c
+  GEN      version.h
+make  all-recursive
+make[1]: Entering directory `/lfsbuild/sources/gzip-1.8/build'
+Making all in lib
+make[2]: Entering directory `/lfsbuild/sources/gzip-1.8/build/lib'
+  GEN      alloca.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      math.h
+  GEN      unused-parameter.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+make  all-am
+make[3]: Entering directory `/lfsbuild/sources/gzip-1.8/build/lib'
+  CC       cloexec.o
+  CC       opendir-safer.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exitfail.o
+  CC       creat-safer.o
+  CC       open-safer.o
+  CC       fd-hook.o
+  CC       filenamecat-lgpl.o
+  CC       freading.o
+  CC       gettime.o
+  CC       glthread/lock.o
+  CC       math.o
+  CC       openat-die.o
+  CC       openat-safer.o
+  CC       printf-frexp.o
+  CC       printf-frexpl.o
+  CC       save-cwd.o
+  CC       savedir.o
+  CC       stat-time.o
+  CC       statat.o
+  CC       glthread/threadlib.o
+  CC       timespec.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       utimens.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       xsize.o
+  CC       yesno.o
+  CC       asnprintf.o
+  CC       chdir-long.o
+  CC       fclose.o
+  CC       fcntl.o
+  CC       fflush.o
+  CC       fpurge.o
+  CC       fseek.o
+  CC       fseeko.o
+  CC       fseterr.o
+  CC       openat-proc.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       strerror_r.o
+  CC       vasnprintf.o
+  AR       libgzip.a
+make[3]: Leaving directory `/lfsbuild/sources/gzip-1.8/build/lib'
+make[2]: Leaving directory `/lfsbuild/sources/gzip-1.8/build/lib'
+Making all in doc
+make[2]: Entering directory `/lfsbuild/sources/gzip-1.8/build/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/gzip-1.8/build/doc'
+Making all in .
+make[2]: Entering directory `/lfsbuild/sources/gzip-1.8/build'
+  CC       version.o
+  AR       libver.a
+  CC       bits.o
+  CC       deflate.o
+  CC       gzip.o
+  CC       inflate.o
+  CC       lzw.o
+  CC       trees.o
+  CC       unlzh.o
+  CC       unlzw.o
+  CC       unpack.o
+  CC       unzip.o
+  CC       util.o
+  CC       zip.o
+  CCLD     gzip
+  GEN      gunzip
+  GEN      gzexe
+  GEN      zcat
+  GEN      zcmp
+  GEN      zdiff
+  GEN      zegrep
+  GEN      zfgrep
+  GEN      zforce
+  GEN      zgrep
+  GEN      zless
+  GEN      zmore
+  GEN      znew
+make[2]: Leaving directory `/lfsbuild/sources/gzip-1.8/build'
+Making all in tests
+make[2]: Entering directory `/lfsbuild/sources/gzip-1.8/build/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/gzip-1.8/build/tests'
+make[1]: Leaving directory `/lfsbuild/sources/gzip-1.8/build'

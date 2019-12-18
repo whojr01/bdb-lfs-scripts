@@ -1,0 +1,7 @@
+Warning: prerequisite LWP::UserAgent 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing MYMETA.yml and MYMETA.json
+Generating a Unix-style Makefile
+Writing Makefile for XML::Parser
+Writing MYMETA.yml and MYMETA.json

@@ -1,0 +1,29 @@
+make[1]: Entering directory '/lfskernel/sources/boot/libaio-0.3.110/src'
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_init.ol io_queue_init.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_release.ol io_queue_release.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_wait.ol io_queue_wait.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_run.ol io_queue_run.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_getevents.ol io_getevents.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_submit.ol io_submit.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_cancel.ol io_cancel.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_setup.ol io_setup.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_destroy.ol io_destroy.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o raw_syscall.ol raw_syscall.c
+cc -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o compat-0_1.ol compat-0_1.c
+rm -f libaio.a
+ar r libaio.a io_queue_init.ol io_queue_release.ol io_queue_wait.ol io_queue_run.ol io_getevents.ol io_submit.ol io_cancel.ol io_setup.ol io_destroy.ol raw_syscall.ol compat-0_1.ol
+ar: creating libaio.a
+ranlib libaio.a
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_init.os io_queue_init.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_release.os io_queue_release.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_wait.os io_queue_wait.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_queue_run.os io_queue_run.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_getevents.os io_getevents.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_submit.os io_submit.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_cancel.os io_cancel.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_setup.os io_setup.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o io_destroy.os io_destroy.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o raw_syscall.os raw_syscall.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -c -o compat-0_1.os compat-0_1.c
+cc -shared -g -fomit-frame-pointer -O2 -nostdlib -nostartfiles -Wall -I. -fPIC -Wl,--version-script=libaio.map -Wl,-soname=libaio.so.1 -o libaio.so.1.0.1 io_queue_init.os io_queue_release.os io_queue_wait.os io_queue_run.os io_getevents.os io_submit.os io_cancel.os io_setup.os io_destroy.os raw_syscall.os compat-0_1.os  
+make[1]: Leaving directory '/lfskernel/sources/boot/libaio-0.3.110/src'

@@ -1,0 +1,107 @@
+make  install-recursive
+make[1]: Entering directory '/lfsbuild/sources/sed-4.4/build'
+Making install in po
+make[2]: Entering directory '/lfsbuild/sources/sed-4.4/build/po'
+installing ../../po/af.gmo as /tools/share/locale/af/LC_MESSAGES/sed.mo
+installing ../../po/ast.gmo as /tools/share/locale/ast/LC_MESSAGES/sed.mo
+installing ../../po/bg.gmo as /tools/share/locale/bg/LC_MESSAGES/sed.mo
+installing ../../po/ca.gmo as /tools/share/locale/ca/LC_MESSAGES/sed.mo
+installing ../../po/cs.gmo as /tools/share/locale/cs/LC_MESSAGES/sed.mo
+installing ../../po/da.gmo as /tools/share/locale/da/LC_MESSAGES/sed.mo
+installing ../../po/de.gmo as /tools/share/locale/de/LC_MESSAGES/sed.mo
+installing ../../po/el.gmo as /tools/share/locale/el/LC_MESSAGES/sed.mo
+installing ../../po/eo.gmo as /tools/share/locale/eo/LC_MESSAGES/sed.mo
+installing ../../po/es.gmo as /tools/share/locale/es/LC_MESSAGES/sed.mo
+installing ../../po/et.gmo as /tools/share/locale/et/LC_MESSAGES/sed.mo
+installing ../../po/eu.gmo as /tools/share/locale/eu/LC_MESSAGES/sed.mo
+installing ../../po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/sed.mo
+installing ../../po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/sed.mo
+installing ../../po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/sed.mo
+installing ../../po/gl.gmo as /tools/share/locale/gl/LC_MESSAGES/sed.mo
+installing ../../po/he.gmo as /tools/share/locale/he/LC_MESSAGES/sed.mo
+installing ../../po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/sed.mo
+installing ../../po/hu.gmo as /tools/share/locale/hu/LC_MESSAGES/sed.mo
+installing ../../po/id.gmo as /tools/share/locale/id/LC_MESSAGES/sed.mo
+installing ../../po/it.gmo as /tools/share/locale/it/LC_MESSAGES/sed.mo
+installing ../../po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/sed.mo
+installing ../../po/ko.gmo as /tools/share/locale/ko/LC_MESSAGES/sed.mo
+installing ../../po/nb.gmo as /tools/share/locale/nb/LC_MESSAGES/sed.mo
+installing ../../po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/sed.mo
+installing ../../po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/sed.mo
+installing ../../po/pt.gmo as /tools/share/locale/pt/LC_MESSAGES/sed.mo
+installing ../../po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/sed.mo
+installing ../../po/ro.gmo as /tools/share/locale/ro/LC_MESSAGES/sed.mo
+installing ../../po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/sed.mo
+installing ../../po/sk.gmo as /tools/share/locale/sk/LC_MESSAGES/sed.mo
+installing ../../po/sl.gmo as /tools/share/locale/sl/LC_MESSAGES/sed.mo
+installing ../../po/sr.gmo as /tools/share/locale/sr/LC_MESSAGES/sed.mo
+installing ../../po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/sed.mo
+installing ../../po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/sed.mo
+installing ../../po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/sed.mo
+installing ../../po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/sed.mo
+installing ../../po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/sed.mo
+installing ../../po/zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/sed.mo
+if test "sed" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ../../po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/lfsbuild/sources/sed-4.4/build/po'
+Making install in .
+make[2]: Entering directory '/lfsbuild/sources/sed-4.4/build'
+make[3]: Entering directory '/lfsbuild/sources/sed-4.4/build'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c sed/sed '/tools/bin'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /lfsbuild/sources/sed-4.4/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f lib/ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f lib/ref-add.sed lib/charset.alias > /tools/lib/charset.tmp ; \
+    /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+ /tools/bin/mkdir -p '/tools/share/info'
+ /tools/bin/install -c -m 644 ../doc/sed.info '/tools/share/info'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 ../doc/sed.1 '/tools/share/man/man1'
+make[3]: Leaving directory '/lfsbuild/sources/sed-4.4/build'
+make[2]: Leaving directory '/lfsbuild/sources/sed-4.4/build'
+Making install in gnulib-tests
+make[2]: Entering directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make  install-recursive
+make[3]: Entering directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+Making install in .
+make[4]: Entering directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[5]: Entering directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[4]: Leaving directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[3]: Leaving directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[2]: Leaving directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[1]: Leaving directory '/lfsbuild/sources/sed-4.4/build'

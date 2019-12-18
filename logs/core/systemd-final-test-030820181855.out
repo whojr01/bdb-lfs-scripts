@@ -1,0 +1,405 @@
+[0/1] Running all tests.
+  1/246 cc-sd-bus.h:c                           OK       0.03 s
+  2/246 cc-sd-bus.h:c-ansi                      OK       0.02 s
+  3/246 cc-sd-bus.h:c-std=iso9899:1990          OK       0.02 s
+  4/246 cc-sd-bus.h:c++                         OK       0.04 s
+  5/246 cc-sd-bus-protocol.h:c                  OK       0.02 s
+  6/246 cc-sd-bus-protocol.h:c-ansi             OK       0.02 s
+  7/246 cc-sd-bus-protocol.h:c-std=iso9899:1990  OK       0.02 s
+  8/246 cc-sd-bus-protocol.h:c++                OK       0.02 s
+  9/246 cc-sd-bus-vtable.h:c                    OK       0.03 s
+ 10/246 cc-sd-bus-vtable.h:c-ansi               OK       0.02 s
+ 11/246 cc-sd-bus-vtable.h:c-std=iso9899:1990   OK       0.03 s
+ 12/246 cc-sd-bus-vtable.h:c++                  OK       0.04 s
+ 13/246 cc-sd-daemon.h:c                        OK       0.02 s
+ 14/246 cc-sd-daemon.h:c-ansi                   OK       0.02 s
+ 15/246 cc-sd-daemon.h:c-std=iso9899:1990       OK       0.02 s
+ 16/246 cc-sd-daemon.h:c++                      OK       0.02 s
+ 17/246 cc-sd-event.h:c                         OK       0.02 s
+ 18/246 cc-sd-event.h:c-ansi                    OK       0.02 s
+ 19/246 cc-sd-event.h:c-std=iso9899:1990        OK       0.02 s
+ 20/246 cc-sd-event.h:c++                       OK       0.03 s
+ 21/246 cc-sd-id128.h:c                         OK       0.02 s
+ 22/246 cc-sd-id128.h:c-ansi                    OK       0.02 s
+ 23/246 cc-sd-id128.h:c-std=iso9899:1990        OK       0.02 s
+ 24/246 cc-sd-id128.h:c++                       OK       0.02 s
+ 25/246 cc-sd-journal.h:c                       OK       0.02 s
+ 26/246 cc-sd-journal.h:c-ansi                  OK       0.02 s
+ 27/246 cc-sd-journal.h:c-std=iso9899:1990      OK       0.02 s
+ 28/246 cc-sd-journal.h:c++                     OK       0.03 s
+ 29/246 cc-sd-login.h:c                         OK       0.02 s
+ 30/246 cc-sd-login.h:c-ansi                    OK       0.02 s
+ 31/246 cc-sd-login.h:c-std=iso9899:1990        OK       0.02 s
+ 32/246 cc-sd-login.h:c++                       OK       0.02 s
+ 33/246 cc-sd-messages.h:c                      OK       0.02 s
+ 34/246 cc-sd-messages.h:c-ansi                 OK       0.02 s
+ 35/246 cc-sd-messages.h:c-std=iso9899:1990     OK       0.02 s
+ 36/246 cc-sd-messages.h:c++                    OK       0.02 s
+ 37/246 rule-syntax-check                       OK       0.03 s
+ 38/246 sysv-generator-test                     OK       0.17 s
+ 39/246 udev-test                               SKIP     0.01 s
+ 40/246 hwdb-test                               OK       0.47 s
+ 41/246 dlopen-nss_myhostname                   OK       0.00 s
+ 42/246 dlopen-nss_systemd                      OK       0.00 s
+ 43/246 dlopen-nss_mymachines                   OK       0.00 s
+ 44/246 dlopen-nss_resolve                      OK       0.00 s
+ 45/246 dlopen-pam_systemd                      OK       0.00 s
+ 46/246 test-systemd-tmpfiles                   OK       0.22 s
+ 47/246 test-networkd-conf                      OK       0.00 s
+ 48/246 test-network                            OK       0.01 s
+ 49/246 test-routing-policy-rule                OK       0.02 s
+ 50/246 test-network-tables                     OK       0.00 s
+ 51/246 test-keymap-util                        OK       0.00 s
+ 52/246 test-machine-tables                     OK       0.00 s
+ 53/246 test-timesync                           OK       0.00 s
+ 54/246 test-device-nodes                       OK       0.00 s
+ 55/246 test-engine                             SKIP     0.00 s
+ 56/246 test-job-type                           OK       0.00 s
+ 57/246 test-loopback                           OK       0.00 s
+ 58/246 test-dns-domain                         OK       0.00 s
+ 59/246 test-boot-timestamps                    SKIP     0.00 s
+ 60/246 test-unit-name                          SKIP     0.00 s
+ 61/246 test-unit-file                          SKIP     0.00 s
+ 62/246 test-utf8                               OK       0.00 s
+ 63/246 test-capability                         OK       0.01 s
+ 64/246 test-async                              OK       1.00 s
+ 65/246 test-locale-util                        OK       0.03 s
+ 66/246 test-copy                               OK       0.01 s
+ 67/246 test-sigbus                             OK       0.01 s
+ 68/246 test-condition                          OK       0.01 s
+ 69/246 test-fdset                              OK       0.00 s
+ 70/246 test-fstab-util                         OK       0.01 s
+ 71/246 test-random-util                        OK       0.02 s
+ 72/246 test-ratelimit                          OK       1.00 s
+ 73/246 test-util                               OK       0.02 s
+ 74/246 test-mount-util                         OK       0.01 s
+ 75/246 test-exec-util                          OK       1.09 s
+ 76/246 test-hexdecoct                          OK       0.01 s
+ 77/246 test-alloc-util                         OK       0.01 s
+ 78/246 test-xattr-util                         FAIL     0.03 s
+ 79/246 test-io-util                            OK       0.02 s
+ 80/246 test-glob-util                          OK       0.00 s
+ 81/246 test-fs-util                            FAIL     0.07 s
+ 82/246 test-proc-cmdline                       OK       0.01 s
+ 83/246 test-fd-util                            OK       0.04 s
+ 84/246 test-web-util                           OK       0.01 s
+ 85/246 test-cpu-set-util                       OK       0.01 s
+ 86/246 test-stat-util                          OK       0.01 s
+ 87/246 test-escape                             OK       0.01 s
+ 88/246 test-specifier                          OK       0.00 s
+ 89/246 test-string-util                        OK       0.00 s
+ 90/246 test-extract-word                       OK       0.00 s
+ 91/246 test-parse-util                         OK       0.00 s
+ 92/246 test-user-util                          OK       0.00 s
+ 93/246 test-hostname-util                      OK       0.00 s
+ 94/246 test-process-util                       OK       1.76 s
+ 95/246 test-terminal-util                      OK       0.01 s
+ 96/246 test-path-lookup                        OK       0.01 s
+ 97/246 test-uid-range                          OK       0.01 s
+ 98/246 test-cap-list                           OK       0.00 s
+ 99/246 test-socket-util                        OK       0.01 s
+100/246 test-in-addr-util                       OK       0.00 s
+101/246 test-barrier                            SKIP     0.00 s
+102/246 test-tmpfiles                           OK       0.01 s
+103/246 test-namespace                          FAIL     0.10 s
+104/246 test-verbs                              OK       0.00 s
+105/246 test-install-root                       OK       0.21 s
+106/246 test-acl-util                           OK       0.11 s
+107/246 test-rlimit-util                        OK       0.02 s
+108/246 test-signal-util                        OK       0.01 s
+109/246 test-selinux                            OK       0.01 s
+110/246 test-sizeof                             OK       0.04 s
+111/246 test-bpf                                SKIP     0.02 s
+112/246 test-watch-pid                          SKIP     0.02 s
+113/246 test-hashmap                            OK       9.39 s
+114/246 test-set                                OK       0.00 s
+115/246 test-bitmap                             OK       0.00 s
+116/246 test-xml                                OK       0.00 s
+117/246 test-list                               OK       0.00 s
+118/246 test-procfs-util                        OK       0.00 s
+119/246 test-unaligned                          OK       0.00 s
+120/246 test-tables                             OK       0.00 s
+121/246 test-prioq                              OK       0.01 s
+122/246 test-fileio                             OK       0.01 s
+123/246 test-time-util                          OK       0.04 s
+124/246 test-clock                              OK       0.01 s
+125/246 test-architecture                       OK       0.00 s
+126/246 test-log                                OK       0.00 s
+127/246 test-ellipsize                          OK       0.00 s
+128/246 test-date                               OK       0.02 s
+129/246 test-sleep                              OK       0.00 s
+130/246 test-replace-var                        OK       0.00 s
+131/246 test-calendarspec                       OK       0.01 s
+132/246 test-strip-tab-ansi                     OK       0.00 s
+133/246 test-daemon                             OK       0.51 s
+134/246 test-cgroup-mask                        OK       0.01 s
+135/246 test-cgroup-util                        OK       0.04 s
+136/246 test-env-util                           OK       0.01 s
+137/246 test-strbuf                             OK       0.00 s
+138/246 test-strv                               OK       0.00 s
+139/246 test-path-util                          OK       0.01 s
+140/246 test-path                               SKIP     0.01 s
+141/246 test-execute                            SKIP     0.01 s
+142/246 test-siphash24                          OK       0.00 s
+143/246 test-strxcpyx                           OK       0.00 s
+144/246 test-watchdog                           OK      25.01 s
+145/246 test-sched-prio                         SKIP     0.01 s
+146/246 test-conf-files                         OK       0.01 s
+147/246 test-conf-parser                        OK       1.11 s
+148/246 test-af-list                            OK       0.00 s
+149/246 test-arphrd-list                        OK       0.00 s
+150/246 test-journal-importer                   OK       0.00 s
+151/246 test-libudev                            OK       0.12 s
+152/246 test-id128                              OK       0.01 s
+153/246 test-hash                               FAIL     0.05 s
+154/246 test-journal                            OK       0.12 s
+155/246 test-journal-send                       OK       1.02 s
+156/246 test-journal-syslog                     OK       0.01 s
+157/246 test-journal-match                      OK       0.01 s
+158/246 test-journal-enum                       OK       0.01 s
+159/246 test-journal-stream                     OK       0.03 s
+160/246 test-journal-flush                      FAIL     0.11 s
+161/246 test-journal-init                       OK       0.02 s
+162/246 test-journal-verify                     FAIL     0.19 s
+163/246 test-journal-interleaving               OK       0.13 s
+164/246 test-mmap-cache                         OK       0.00 s
+165/246 test-catalog                            OK       0.01 s
+166/246 test-compress                           OK       0.18 s
+167/246 test-compress-benchmark                 OK      12.04 s
+168/246 test-audit-type                         OK       0.00 s
+169/246 test-bus-marshal                        SKIP     0.01 s
+170/246 test-bus-signature                      OK       0.00 s
+171/246 test-bus-watch-bind                     OK       0.81 s
+172/246 test-bus-chat                           SKIP     0.01 s
+173/246 test-bus-cleanup                        SKIP     0.01 s
+174/246 test-bus-error                          OK       0.01 s
+175/246 test-bus-track                          SKIP     0.01 s
+176/246 test-bus-server                         OK       0.00 s
+177/246 test-bus-objects                        OK       0.01 s
+178/246 test-bus-vtable                         OK       0.00 s
+179/246 test-bus-gvariant                       SKIP     0.00 s
+180/246 test-bus-creds                          SKIP     0.00 s
+181/246 test-bus-match                          SKIP     0.00 s
+182/246 test-bus-introspect                     OK       0.00 s
+183/246 test-event                              OK       0.28 s
+184/246 test-netlink                            OK       0.01 s
+185/246 test-local-addresses                    OK       0.01 s
+186/246 test-resolve                            OK       0.01 s
+187/246 test-login                              OK       0.00 s
+188/246 test-bus-vtable-cc                      OK       0.01 s
+189/246 test-dhcp-option                        OK       0.00 s
+190/246 test-sd-dhcp-lease                      OK       0.00 s
+191/246 test-dhcp-client                        OK       0.00 s
+192/246 test-dhcp-server                        OK       0.07 s
+193/246 test-ipv4ll                             OK       0.63 s
+194/246 test-ndisc-rs                           OK       0.01 s
+195/246 test-ndisc-ra                           OK       0.01 s
+196/246 test-dhcp6-client                       OK       1.22 s
+197/246 test-lldp                               OK       0.01 s
+198/246 test-login-shared                       OK       0.01 s
+199/246 test-login-tables                       OK       0.00 s
+200/246 test-libsystemd-sym                     OK       0.00 s
+201/246 test-libudev-sym                        OK       0.00 s
+202/246 parse-hwdb                              SKIP     0.04 s
+203/246 check-help-systemd-analyze              OK       0.02 s
+204/246 check-help-systemd-cat                  OK       0.02 s
+205/246 check-help-journalctl                   OK       0.02 s
+206/246 check-help-systemd-dissect              OK       0.02 s
+207/246 check-help-systemd-resolve              OK       0.02 s
+208/246 check-help-loginctl                     OK       0.02 s
+209/246 check-help-systemd-inhibit              OK       0.02 s
+210/246 check-help-bootctl                      OK       0.02 s
+211/246 check-help-systemd-socket-activate      OK       0.02 s
+212/246 check-help-systemctl                    OK       0.02 s
+213/246 check-help-hostnamectl                  OK       0.02 s
+214/246 check-help-localectl                    OK       0.02 s
+215/246 check-help-timedatectl                  OK       0.02 s
+216/246 check-help-machinectl                   OK       0.02 s
+217/246 check-help-systemd-pull                 OK       0.02 s
+218/246 check-help-systemd-import               OK       0.02 s
+219/246 check-help-systemd-export               OK       0.02 s
+220/246 check-help-systemd-journal-upload       OK       0.02 s
+221/246 check-help-coredumpctl                  OK       0.02 s
+222/246 check-help-systemd-binfmt               OK       0.02 s
+223/246 check-help-systemd-sysctl               OK       0.02 s
+224/246 check-help-systemd-detect-virt          OK       0.02 s
+225/246 check-help-systemd-delta                OK       0.02 s
+226/246 check-help-systemd-escape               OK       0.02 s
+227/246 check-help-systemd-notify               OK       0.02 s
+228/246 check-help-systemd-path                 OK       0.02 s
+229/246 check-help-systemd-ask-password         OK       0.02 s
+230/246 check-help-systemd-tty-ask-password-agent  OK       0.02 s
+231/246 check-help-systemd-cgls                 OK       0.02 s
+232/246 check-help-systemd-cgtop                OK       0.02 s
+233/246 check-help-systemd-mount                OK       0.02 s
+234/246 check-help-systemd-run                  OK       0.02 s
+235/246 check-help-systemd-stdio-bridge         OK       0.02 s
+236/246 check-help-busctl                       OK       0.02 s
+237/246 check-help-systemd-sysusers             OK       0.02 s
+238/246 check-help-systemd-tmpfiles             OK       0.03 s
+239/246 check-help-systemd-hwdb                 OK       0.02 s
+240/246 check-help-systemd-socket-proxyd        OK       0.02 s
+241/246 check-help-systemd-udevd                OK       0.02 s
+242/246 check-help-udevadm                      OK       0.02 s
+243/246 check-help-systemd-nspawn               OK       0.02 s
+244/246 check-help-networkctl                   OK       0.02 s
+245/246 oss-fuzz-5465                           OK       0.02 s
+246/246 issue-7888                              OK       0.02 s
+
+OK:       221
+FAIL:       6
+SKIP:      19
+TIMEOUT:    0
+
+
+The output from the failed tests:
+
+ 78/246 test-xattr-util                         FAIL     0.03 s
+
+--- command ---
+SYSTEMD_KBD_MODEL_MAP='/lfskernel/sources/boot/systemd-237/src/locale/kbd-model-map' SYSTEMD_LANGUAGE_FALLBACK_MAP='/lfskernel/sources/boot/systemd-237/src/locale/language-fallback-map' PATH='/lfskernel/sources/boot/systemd-237/build:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin' /lfskernel/sources/boot/systemd-237/build/test-xattr-util
+--- stderr ---
+Assertion 'mkdtemp(t)' failed at ../src/test/test-xattr-util.c:41, function test_fgetxattrat_fake(). Aborting.
+-------
+
+ 81/246 test-fs-util                            FAIL     0.07 s
+
+--- command ---
+SYSTEMD_KBD_MODEL_MAP='/lfskernel/sources/boot/systemd-237/src/locale/kbd-model-map' SYSTEMD_LANGUAGE_FALLBACK_MAP='/lfskernel/sources/boot/systemd-237/src/locale/language-fallback-map' PATH='/lfskernel/sources/boot/systemd-237/build:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin' /lfskernel/sources/boot/systemd-237/build/test-fs-util
+--- stderr ---
+Assertion 'var_tmp_dir(&tmp_dir) >= 0' failed at ../src/test/test-fs-util.c:377, function test_var_tmp(). Aborting.
+-------
+
+103/246 test-namespace                          FAIL     0.10 s
+
+--- command ---
+SYSTEMD_KBD_MODEL_MAP='/lfskernel/sources/boot/systemd-237/src/locale/kbd-model-map' SYSTEMD_LANGUAGE_FALLBACK_MAP='/lfskernel/sources/boot/systemd-237/src/locale/language-fallback-map' PATH='/lfskernel/sources/boot/systemd-237/build:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin' /lfskernel/sources/boot/systemd-237/build/test-namespace
+--- stderr ---
+Assertion 'setup_tmp_dirs(id, &a, &b) == 0' failed at ../src/test/test-namespace.c:35, function test_tmpdir(). Aborting.
+-------
+
+153/246 test-hash                               FAIL     0.05 s
+
+--- command ---
+SYSTEMD_KBD_MODEL_MAP='/lfskernel/sources/boot/systemd-237/src/locale/kbd-model-map' SYSTEMD_LANGUAGE_FALLBACK_MAP='/lfskernel/sources/boot/systemd-237/src/locale/language-fallback-map' PATH='/lfskernel/sources/boot/systemd-237/build:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin' /lfskernel/sources/boot/systemd-237/build/test-hash
+--- stderr ---
+Assertion 'khash_new(&h, "sha256") >= 0' failed at ../src/test/test-hash.c:45, function main(). Aborting.
+-------
+
+160/246 test-journal-flush                      FAIL     0.11 s
+
+--- command ---
+SYSTEMD_KBD_MODEL_MAP='/lfskernel/sources/boot/systemd-237/src/locale/kbd-model-map' SYSTEMD_LANGUAGE_FALLBACK_MAP='/lfskernel/sources/boot/systemd-237/src/locale/language-fallback-map' PATH='/lfskernel/sources/boot/systemd-237/build:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin' /lfskernel/sources/boot/systemd-237/build/test-journal-flush
+--- stderr ---
+Assertion 'mkdtemp(dn)' failed at ../src/journal/test-journal-flush.c:39, function main(). Aborting.
+-------
+
+162/246 test-journal-verify                     FAIL     0.19 s
+
+--- command ---
+SYSTEMD_KBD_MODEL_MAP='/lfskernel/sources/boot/systemd-237/src/locale/kbd-model-map' SYSTEMD_LANGUAGE_FALLBACK_MAP='/lfskernel/sources/boot/systemd-237/src/locale/language-fallback-map' PATH='/lfskernel/sources/boot/systemd-237/build:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin' /lfskernel/sources/boot/systemd-237/build/test-journal-verify
+--- Listing only the last 100 lines from a long log. ---
+Type: OBJECT_ENTRY seqnum=5910 monotonic=267602790081 realtime=1520492200824135
+Type: OBJECT_ENTRY seqnum=5911 monotonic=267602790086 realtime=1520492200824140
+Type: OBJECT_ENTRY seqnum=5912 monotonic=267602790092 realtime=1520492200824146
+Type: OBJECT_ENTRY seqnum=5913 monotonic=267602790097 realtime=1520492200824151
+Type: OBJECT_ENTRY seqnum=5914 monotonic=267602790103 realtime=1520492200824157
+Type: OBJECT_ENTRY seqnum=5915 monotonic=267602790108 realtime=1520492200824162
+Type: OBJECT_ENTRY seqnum=5916 monotonic=267602790114 realtime=1520492200824168
+Type: OBJECT_ENTRY seqnum=5917 monotonic=267602790120 realtime=1520492200824173
+Type: OBJECT_ENTRY seqnum=5918 monotonic=267602790125 realtime=1520492200824179
+Type: OBJECT_ENTRY seqnum=5919 monotonic=267602790131 realtime=1520492200824184
+Type: OBJECT_ENTRY seqnum=5920 monotonic=267602790136 realtime=1520492200824190
+Type: OBJECT_ENTRY seqnum=5921 monotonic=267602790142 realtime=1520492200824195
+Type: OBJECT_ENTRY seqnum=5922 monotonic=267602790147 realtime=1520492200824201
+Type: OBJECT_ENTRY seqnum=5923 monotonic=267602790153 realtime=1520492200824206
+Type: OBJECT_ENTRY seqnum=5924 monotonic=267602790158 realtime=1520492200824212
+Type: OBJECT_ENTRY seqnum=5925 monotonic=267602790164 realtime=1520492200824218
+Type: OBJECT_ENTRY seqnum=5926 monotonic=267602790169 realtime=1520492200824223
+Type: OBJECT_ENTRY seqnum=5927 monotonic=267602790175 realtime=1520492200824229
+Type: OBJECT_ENTRY seqnum=5928 monotonic=267602790180 realtime=1520492200824234
+Type: OBJECT_ENTRY seqnum=5929 monotonic=267602790186 realtime=1520492200824240
+Type: OBJECT_ENTRY seqnum=5930 monotonic=267602790192 realtime=1520492200824245
+Type: OBJECT_ENTRY seqnum=5931 monotonic=267602790197 realtime=1520492200824251
+Type: OBJECT_ENTRY seqnum=5932 monotonic=267602790223 realtime=1520492200824277
+Type: OBJECT_ENTRY seqnum=5933 monotonic=267602790232 realtime=1520492200824285
+Type: OBJECT_ENTRY seqnum=5934 monotonic=267602790237 realtime=1520492200824291
+Type: OBJECT_ENTRY seqnum=5935 monotonic=267602790243 realtime=1520492200824297
+Type: OBJECT_ENTRY seqnum=5936 monotonic=267602790249 realtime=1520492200824302
+Type: OBJECT_ENTRY seqnum=5937 monotonic=267602790254 realtime=1520492200824308
+Type: OBJECT_ENTRY seqnum=5938 monotonic=267602790260 realtime=1520492200824314
+Type: OBJECT_ENTRY seqnum=5939 monotonic=267602790266 realtime=1520492200824319
+Type: OBJECT_ENTRY seqnum=5940 monotonic=267602790547 realtime=1520492200824601
+Type: OBJECT_ENTRY seqnum=5941 monotonic=267602790557 realtime=1520492200824610
+Type: OBJECT_ENTRY seqnum=5942 monotonic=267602790562 realtime=1520492200824616
+Type: OBJECT_ENTRY seqnum=5943 monotonic=267602790568 realtime=1520492200824622
+Type: OBJECT_ENTRY seqnum=5944 monotonic=267602790574 realtime=1520492200824628
+Type: OBJECT_ENTRY seqnum=5945 monotonic=267602790580 realtime=1520492200824634
+Type: OBJECT_ENTRY seqnum=5946 monotonic=267602790586 realtime=1520492200824639
+Type: OBJECT_ENTRY seqnum=5947 monotonic=267602790591 realtime=1520492200824645
+Type: OBJECT_ENTRY seqnum=5948 monotonic=267602790597 realtime=1520492200824651
+Type: OBJECT_ENTRY seqnum=5949 monotonic=267602790603 realtime=1520492200824656
+Type: OBJECT_ENTRY seqnum=5950 monotonic=267602790608 realtime=1520492200824662
+Type: OBJECT_ENTRY seqnum=5951 monotonic=267602790614 realtime=1520492200824668
+Type: OBJECT_ENTRY seqnum=5952 monotonic=267602790620 realtime=1520492200824673
+Type: OBJECT_ENTRY seqnum=5953 monotonic=267602790625 realtime=1520492200824679
+Type: OBJECT_ENTRY seqnum=5954 monotonic=267602790631 realtime=1520492200824685
+Type: OBJECT_ENTRY seqnum=5955 monotonic=267602790637 realtime=1520492200824690
+Type: OBJECT_ENTRY seqnum=5956 monotonic=267602790642 realtime=1520492200824696
+Type: OBJECT_ENTRY seqnum=5957 monotonic=267602790648 realtime=1520492200824702
+Type: OBJECT_ENTRY seqnum=5958 monotonic=267602790656 realtime=1520492200824710
+Type: OBJECT_ENTRY seqnum=5959 monotonic=267602790662 realtime=1520492200824716
+Type: OBJECT_ENTRY seqnum=5960 monotonic=267602790668 realtime=1520492200824721
+Type: OBJECT_ENTRY seqnum=5961 monotonic=267602790673 realtime=1520492200824727
+Type: OBJECT_ENTRY seqnum=5962 monotonic=267602790679 realtime=1520492200824733
+Type: OBJECT_ENTRY seqnum=5963 monotonic=267602790685 realtime=1520492200824738
+Type: OBJECT_ENTRY seqnum=5964 monotonic=267602790690 realtime=1520492200824744
+Type: OBJECT_ENTRY seqnum=5965 monotonic=267602790696 realtime=1520492200824750
+Type: OBJECT_ENTRY seqnum=5966 monotonic=267602790701 realtime=1520492200824755
+Type: OBJECT_ENTRY seqnum=5967 monotonic=267602790726 realtime=1520492200824779
+Type: OBJECT_ENTRY seqnum=5968 monotonic=267602790734 realtime=1520492200824787
+Type: OBJECT_ENTRY seqnum=5969 monotonic=267602790739 realtime=1520492200824793
+Type: OBJECT_ENTRY seqnum=5970 monotonic=267602790745 realtime=1520492200824799
+Type: OBJECT_ENTRY seqnum=5971 monotonic=267602790751 realtime=1520492200824804
+Type: OBJECT_ENTRY seqnum=5972 monotonic=267602790756 realtime=1520492200824810
+Type: OBJECT_ENTRY seqnum=5973 monotonic=267602790762 realtime=1520492200824816
+Type: OBJECT_ENTRY seqnum=5974 monotonic=267602790767 realtime=1520492200824821
+Type: OBJECT_ENTRY seqnum=5975 monotonic=267602790773 realtime=1520492200824827
+Type: OBJECT_ENTRY seqnum=5976 monotonic=267602790779 realtime=1520492200824832
+Type: OBJECT_ENTRY seqnum=5977 monotonic=267602790784 realtime=1520492200824838
+Type: OBJECT_ENTRY seqnum=5978 monotonic=267602790790 realtime=1520492200824843
+Type: OBJECT_ENTRY seqnum=5979 monotonic=267602790795 realtime=1520492200824849
+Type: OBJECT_ENTRY seqnum=5980 monotonic=267602790801 realtime=1520492200824855
+Type: OBJECT_ENTRY seqnum=5981 monotonic=267602790806 realtime=1520492200824860
+Type: OBJECT_ENTRY seqnum=5982 monotonic=267602790812 realtime=1520492200824866
+Type: OBJECT_ENTRY seqnum=5983 monotonic=267602790818 realtime=1520492200824871
+Type: OBJECT_ENTRY seqnum=5984 monotonic=267602790823 realtime=1520492200824877
+Type: OBJECT_ENTRY seqnum=5985 monotonic=267602790829 realtime=1520492200824883
+Type: OBJECT_ENTRY seqnum=5986 monotonic=267602790834 realtime=1520492200824888
+Type: OBJECT_ENTRY seqnum=5987 monotonic=267602790840 realtime=1520492200824894
+Type: OBJECT_ENTRY seqnum=5988 monotonic=267602790845 realtime=1520492200824899
+Type: OBJECT_ENTRY seqnum=5989 monotonic=267602790851 realtime=1520492200824905
+Type: OBJECT_ENTRY seqnum=5990 monotonic=267602790857 realtime=1520492200824910
+Type: OBJECT_ENTRY seqnum=5991 monotonic=267602790862 realtime=1520492200824916
+Type: OBJECT_ENTRY seqnum=5992 monotonic=267602790868 realtime=1520492200824921
+Type: OBJECT_ENTRY seqnum=5993 monotonic=267602790873 realtime=1520492200824927
+Type: OBJECT_ENTRY seqnum=5994 monotonic=267602790879 realtime=1520492200824933
+Type: OBJECT_ENTRY seqnum=5995 monotonic=267602790884 realtime=1520492200824938
+Type: OBJECT_ENTRY seqnum=5996 monotonic=267602790890 realtime=1520492200824944
+Type: OBJECT_ENTRY seqnum=5997 monotonic=267602790896 realtime=1520492200824949
+Type: OBJECT_ENTRY seqnum=5998 monotonic=267602790901 realtime=1520492200824955
+Type: OBJECT_ENTRY seqnum=5999 monotonic=267602790907 realtime=1520492200824961
+Type: OBJECT_ENTRY seqnum=6000 monotonic=267602790912 realtime=1520492200824966
+--- stderr ---
+Generating...
+Reserving 2047 entries in hash table.
+Verifying...
+Failed to determine temporary directory: No such file or directory
+File corruption detected at test.journal:000000 (of 8388608 bytes, 0%).
+Assertion 'journal_file_verify(f, verification_key, &from, &to, &total, true) >= 0' failed at ../src/journal/test-journal-verify.c:119, function main(). Aborting.
+-------
+
+Full log written to /lfskernel/sources/boot/systemd-237/build/meson-logs/testlog.txt
+FAILED: meson-test 
+/usr/bin/python3 -u /usr/bin/meson test --no-rebuild --print-errorlogs
+ninja: build stopped: cannot make progress due to previous errors.

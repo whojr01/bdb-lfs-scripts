@@ -1,0 +1,2 @@
+warning: A compatible version of re2c (>= 0.11.3) was not found; changes to src/*.in.cc will not affect your build.
+wrote build.ninja.

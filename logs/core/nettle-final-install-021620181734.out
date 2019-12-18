@@ -1,0 +1,61 @@
+make install-here
+make[1]: Entering directory '/lfskernel/sources/boot/nettle-3.3/build'
+/bin/mkdir -p /usr/share/info
+f=nettle.info ; \
+[ -f $f ] || f="../$f" ; \
+/usr/bin/install -c -m 644 "$f" /usr/share/info ; \
+if (install-info --version && \
+    install-info --version 2>&1 | sed 1q | grep -i -v debian) >/dev/null 2>&1; then \
+  install-info --info-dir="/usr/share/info" "$f" ; \
+else : ; fi
+/bin/mkdir -p /usr/include/nettle
+for f in aes.h arcfour.h arctwo.h asn1.h blowfish.h base16.h base64.h bignum.h buffer.h camellia.h cast128.h cbc.h ccm.h chacha.h chacha-poly1305.h ctr.h curve25519.h des.h des-compat.h dsa.h dsa-compat.h eax.h ecc-curve.h ecc.h ecdsa.h eddsa.h gcm.h gosthash94.h hmac.h knuth-lfib.h macros.h md2.h md4.h md5.h md5-compat.h memops.h memxor.h nettle-meta.h nettle-types.h pbkdf2.h pgp.h pkcs1.h realloc.h ripemd160.h rsa.h salsa20.h sexp.h serpent.h sha.h sha1.h sha2.h sha3.h twofish.h umac.h yarrow.h poly1305.h nettle-stdint.h version.h  ; do \
+  if [ -f "$f" ] ; then \
+    /usr/bin/install -c -m 644 "$f" /usr/include/nettle ; \
+  else \
+    /usr/bin/install -c -m 644 "../$f" /usr/include/nettle ; \
+  fi ; done
+/bin/mkdir -p /usr/lib
+for f in ; do \
+  /usr/bin/install -c -m 644 $f /usr/lib ; \
+done
+/bin/mkdir -p /usr/lib/pkgconfig
+for f in nettle.pc  hogweed.pc ; do \
+  /usr/bin/install -c -m 644 "$f" /usr/lib/pkgconfig ; \
+done
+./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+echo timestamp > stamp-h
+/bin/mkdir -p /usr/lib
+/usr/bin/install -c -m 644 libnettle.so /usr/lib/libnettle.so.6.3
+[ -z "libnettle.so.6" ] \
+                || (cd /usr/lib \
+	&& rm -f libnettle.so.6 libnettle.so \
+	&& ln -s libnettle.so.6.3 libnettle.so.6 \
+	&& ln -s libnettle.so.6.3 libnettle.so)
+/bin/mkdir -p /usr/lib
+/usr/bin/install -c -m 644 libhogweed.so /usr/lib/libhogweed.so.4.3
+[ -z "libhogweed.so.4" ] \
+                || (cd /usr/lib \
+	&& rm -f libhogweed.so.4 libhogweed.so \
+	&& ln -s libhogweed.so.4.3 libhogweed.so.4 \
+	&& ln -s libhogweed.so.4.3 libhogweed.so)
+make[1]: Leaving directory '/lfskernel/sources/boot/nettle-3.3/build'
+set -e; for d in tools testsuite examples; do \
+  echo "Making install in $d" ; (cd $d && make install); done
+Making install in tools
+make[1]: Entering directory '/lfskernel/sources/boot/nettle-3.3/build/tools'
+/bin/mkdir -p /usr/bin
+for f in sexp-conv nettle-hash nettle-pbkdf2 nettle-lfib-stream pkcs1-conv ; do \
+  /usr/bin/install -c $f /usr/bin ; \
+done
+make[1]: Leaving directory '/lfskernel/sources/boot/nettle-3.3/build/tools'
+Making install in testsuite
+make[1]: Entering directory '/lfskernel/sources/boot/nettle-3.3/build/testsuite'
+true
+make[1]: Leaving directory '/lfskernel/sources/boot/nettle-3.3/build/testsuite'
+Making install in examples
+make[1]: Entering directory '/lfskernel/sources/boot/nettle-3.3/build/examples'
+true
+make[1]: Leaving directory '/lfskernel/sources/boot/nettle-3.3/build/examples'

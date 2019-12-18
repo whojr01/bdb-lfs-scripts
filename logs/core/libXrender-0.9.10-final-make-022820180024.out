@@ -1,0 +1,25 @@
+###############################
+# Make libXrender-0.9.10.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXrender-0.9.10'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXrender-0.9.10/src'
+  CC       AddTrap.lo
+  CC       Color.lo
+  CC       Composite.lo
+  CC       Cursor.lo
+  CC       FillRect.lo
+  CC       FillRects.lo
+  CC       Filter.lo
+  CC       Glyph.lo
+  CC       Picture.lo
+  CC       Poly.lo
+  CC       Trap.lo
+  CC       Tri.lo
+  CC       Xrender.lo
+  CCLD     libXrender.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXrender-0.9.10/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXrender-0.9.10'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXrender-0.9.10'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXrender-0.9.10'

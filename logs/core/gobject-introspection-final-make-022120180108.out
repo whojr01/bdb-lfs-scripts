@@ -1,0 +1,366 @@
+[ -d gir ] || /bin/mkdir -p gir ; \
+sed \
+-e s,%CAIRO_SHARED_LIBRARY%,libcairo-gobject.so.2, \
+-e s,%CAIRO_GIR_PACKAGE%,cairo-gobject, \
+< gir/cairo-1.0.gir.in > gir/cairo-1.0.gir.tmp && mv gir/cairo-1.0.gir.tmp gir/cairo-1.0.gir
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+  CC       libgirepository_1_0_la-gdump.lo
+  CC       libgirepository_1_0_la-giarginfo.lo
+  CC       libgirepository_1_0_la-gibaseinfo.lo
+  CC       libgirepository_1_0_la-gicallableinfo.lo
+  CC       libgirepository_1_0_la-giconstantinfo.lo
+  CC       libgirepository_1_0_la-gienuminfo.lo
+  CC       libgirepository_1_0_la-gifieldinfo.lo
+  CC       libgirepository_1_0_la-gifunctioninfo.lo
+  CC       libgirepository_1_0_la-ginvoke.lo
+  CC       libgirepository_1_0_la-giinterfaceinfo.lo
+  CC       libgirepository_1_0_la-giobjectinfo.lo
+  CC       libgirepository_1_0_la-gipropertyinfo.lo
+  CC       libgirepository_1_0_la-giregisteredtypeinfo.lo
+  CC       libgirepository_1_0_la-girepository.lo
+  CC       libgirepository_1_0_la-girffi.lo
+  CC       libgirepository_1_0_la-gisignalinfo.lo
+  CC       libgirepository_1_0_la-gistructinfo.lo
+  CC       libgirepository_1_0_la-gitypeinfo.lo
+  CC       libgirepository_1_0_la-gitypelib.lo
+  CC       libgirepository_1_0_la-giunioninfo.lo
+  CC       libgirepository_1_0_la-givfuncinfo.lo
+  CC       libgirepository_gthash_la-gthash.lo
+  CC       libcmph_la-bdz.lo
+  CC       libcmph_la-bdz_ph.lo
+  CC       libcmph_la-bmz8.lo
+  CC       libcmph_la-bmz.lo
+  CC       libcmph_la-brz.lo
+  CC       libcmph_la-buffer_entry.lo
+  CC       libcmph_la-buffer_manager.lo
+  CC       libcmph_la-chd.lo
+  CC       libcmph_la-chd_ph.lo
+  CC       libcmph_la-chm.lo
+  CC       libcmph_la-cmph.lo
+  CC       libcmph_la-cmph_structs.lo
+  CC       libcmph_la-compressed_rank.lo
+  CC       libcmph_la-compressed_seq.lo
+  CC       libcmph_la-fch_buckets.lo
+  CC       libcmph_la-fch.lo
+  CC       libcmph_la-graph.lo
+  CC       libcmph_la-hash.lo
+  CC       libcmph_la-jenkins_hash.lo
+  CC       libcmph_la-miller_rabin.lo
+  CC       libcmph_la-select.lo
+  CC       libcmph_la-vqueue.lo
+  CC       libcmph_la-vstack.lo
+  CCLD     libcmph.la
+  CCLD     libgirepository-gthash.la
+  CCLD     libgirepository-1.0.la
+  CC       libgirepository_internals_la-girmodule.lo
+  CC       libgirepository_internals_la-girnode.lo
+  CC       libgirepository_internals_la-giroffsets.lo
+  CC       libgirepository_internals_la-girparser.lo
+  CC       libgirepository_internals_la-girwriter.lo
+  CCLD     libgirepository-internals.la
+  CC       libgiscanner_la-sourcescanner.lo
+  CC       libgiscanner_la-scannerlexer.lo
+scannerlexer.c: In function 'yy_get_next_buffer':
+scannerlexer.c:1270:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for ( n = 0; n < max_size && \
+                  ^
+scannerlexer.c:2472:3: note: in expansion of macro 'YY_INPUT'
+   YY_INPUT( (&YY_CURRENT_BUFFER_LVALUE->yy_ch_buf[number_to_move]),
+   ^~~~~~~~
+  CC       libgiscanner_la-scannerparser.lo
+  CCLD     libgiscanner.la
+  CC       _giscanner_la-giscannermodule.lo
+giscanner/giscannermodule.c:59:26: warning: '_PyGISourceType_methods' defined but not used [-Wunused-const-variable=]
+ static const PyMethodDef _Py##cname##_methods[num_methods];    \
+                          ^
+giscanner/giscannermodule.c:95:1: note: in expansion of macro 'NEW_CLASS'
+ NEW_CLASS (PyGISourceType, "SourceType", GISourceType, 9);
+ ^~~~~~~~~
+giscanner/giscannermodule.c:59:26: warning: '_PyGISourceSymbol_methods' defined but not used [-Wunused-const-variable=]
+ static const PyMethodDef _Py##cname##_methods[num_methods];    \
+                          ^
+giscanner/giscannermodule.c:94:1: note: in expansion of macro 'NEW_CLASS'
+ NEW_CLASS (PyGISourceSymbol, "SourceSymbol", GISourceSymbol, 10);
+ ^~~~~~~~~
+  CCLD     _giscanner.la
+  CC       g_ir_compiler-compiler.o
+  CCLD     g-ir-compiler
+  CC       g_ir_generate-generate.o
+  CCLD     g-ir-generate
+  CC       g_ir_inspect-g-ir-inspect.o
+  CCLD     g-ir-inspect
+  CC       gi_dump_types-gdump.o
+  CC       gi_dump_types-gi-dump-types.o
+  CCLD     gi-dump-types
+  CC       glib_print-glib-print.o
+  CCLD     glib-print
+  GEN      g-ir-scanner
+  GEN      g-ir-annotation-tool
+  GISCAN   GLib-2.0.gir
+g-ir-scanner: GLib: warning: 629 warnings suppressed (use --warn-all to see them)
+  GISCAN   GObject-2.0.gir
+/usr/include/glib-2.0/gobject/gobject-autocleanups.h:24: syntax error, unexpected identifier in 'G_DEFINE_AUTOPTR_CLEANUP_FUNC(GClosure, g_closure_unref)' at 'G_DEFINE_AUTOPTR_CLEANUP_FUNC'
+g-ir-scanner: GObject: warning: 19 warnings suppressed (use --warn-all to see them)
+  GISCAN   GModule-2.0.gir
+g-ir-scanner: GModule: warning: 2 warnings suppressed (use --warn-all to see them)
+  GISCAN   Gio-2.0.gir
+/usr/include/glib-2.0/gio/gio-autocleanups.h:24: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GAction *GAction_autoptr;' at 'GAction_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:25: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GActionMap *GActionMap_autoptr;' at 'GActionMap_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:26: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GAppInfo *GAppInfo_autoptr;' at 'GAppInfo_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:27: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GAppLaunchContext *GAppLaunchContext_autoptr;' at 'GAppLaunchContext_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:28: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GAppInfoMonitor *GAppInfoMonitor_autoptr;' at 'GAppInfoMonitor_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:29: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GApplicationCommandLine *GApplicationCommandLine_autoptr;' at 'GApplicationCommandLine_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:30: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GApplication *GApplication_autoptr;' at 'GApplication_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:31: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GAsyncInitable *GAsyncInitable_autoptr;' at 'GAsyncInitable_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:32: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GAsyncResult *GAsyncResult_autoptr;' at 'GAsyncResult_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:33: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GBufferedInputStream *GBufferedInputStream_autoptr;' at 'GBufferedInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:34: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GBufferedOutputStream *GBufferedOutputStream_autoptr;' at 'GBufferedOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:35: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GBytesIcon *GBytesIcon_autoptr;' at 'GBytesIcon_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:36: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GCancellable *GCancellable_autoptr;' at 'GCancellable_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:37: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GCharsetConverter *GCharsetConverter_autoptr;' at 'GCharsetConverter_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:38: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GConverter *GConverter_autoptr;' at 'GConverter_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:39: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GConverterInputStream *GConverterInputStream_autoptr;' at 'GConverterInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:40: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GConverterOutputStream *GConverterOutputStream_autoptr;' at 'GConverterOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:41: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GCredentials *GCredentials_autoptr;' at 'GCredentials_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:42: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDatagramBased *GDatagramBased_autoptr;' at 'GDatagramBased_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:43: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDataInputStream *GDataInputStream_autoptr;' at 'GDataInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:44: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDataOutputStream *GDataOutputStream_autoptr;' at 'GDataOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:45: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusActionGroup *GDBusActionGroup_autoptr;' at 'GDBusActionGroup_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:46: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusAuthObserver *GDBusAuthObserver_autoptr;' at 'GDBusAuthObserver_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:47: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusConnection *GDBusConnection_autoptr;' at 'GDBusConnection_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:48: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusInterface *GDBusInterface_autoptr;' at 'GDBusInterface_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:49: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusInterfaceSkeleton *GDBusInterfaceSkeleton_autoptr;' at 'GDBusInterfaceSkeleton_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:50: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusMenuModel *GDBusMenuModel_autoptr;' at 'GDBusMenuModel_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:51: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusMessage *GDBusMessage_autoptr;' at 'GDBusMessage_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:52: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusMethodInvocation *GDBusMethodInvocation_autoptr;' at 'GDBusMethodInvocation_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:53: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusNodeInfo *GDBusNodeInfo_autoptr;' at 'GDBusNodeInfo_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:54: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusObject *GDBusObject_autoptr;' at 'GDBusObject_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:55: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusObjectManagerClient *GDBusObjectManagerClient_autoptr;' at 'GDBusObjectManagerClient_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:56: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusObjectManager *GDBusObjectManager_autoptr;' at 'GDBusObjectManager_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:57: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusObjectManagerServer *GDBusObjectManagerServer_autoptr;' at 'GDBusObjectManagerServer_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:58: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusObjectProxy *GDBusObjectProxy_autoptr;' at 'GDBusObjectProxy_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:59: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusObjectSkeleton *GDBusObjectSkeleton_autoptr;' at 'GDBusObjectSkeleton_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:60: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusProxy *GDBusProxy_autoptr;' at 'GDBusProxy_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:61: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDBusServer *GDBusServer_autoptr;' at 'GDBusServer_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:62: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GDrive *GDrive_autoptr;' at 'GDrive_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:63: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GEmblemedIcon *GEmblemedIcon_autoptr;' at 'GEmblemedIcon_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:64: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GEmblem *GEmblem_autoptr;' at 'GEmblem_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:65: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileEnumerator *GFileEnumerator_autoptr;' at 'GFileEnumerator_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:66: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFile *GFile_autoptr;' at 'GFile_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:67: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileAttributeInfoList *GFileAttributeInfoList_autoptr;' at 'GFileAttributeInfoList_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:68: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileIcon *GFileIcon_autoptr;' at 'GFileIcon_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:69: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileInfo *GFileInfo_autoptr;' at 'GFileInfo_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:70: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileInputStream *GFileInputStream_autoptr;' at 'GFileInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:71: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileIOStream *GFileIOStream_autoptr;' at 'GFileIOStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:72: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileMonitor *GFileMonitor_autoptr;' at 'GFileMonitor_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:73: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFilenameCompleter *GFilenameCompleter_autoptr;' at 'GFilenameCompleter_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:74: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFileOutputStream *GFileOutputStream_autoptr;' at 'GFileOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:75: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFilterInputStream *GFilterInputStream_autoptr;' at 'GFilterInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:76: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GFilterOutputStream *GFilterOutputStream_autoptr;' at 'GFilterOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:77: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GIcon *GIcon_autoptr;' at 'GIcon_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:78: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GInetAddress *GInetAddress_autoptr;' at 'GInetAddress_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:79: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GInetAddressMask *GInetAddressMask_autoptr;' at 'GInetAddressMask_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:80: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GInetSocketAddress *GInetSocketAddress_autoptr;' at 'GInetSocketAddress_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:81: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GInitable *GInitable_autoptr;' at 'GInitable_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:82: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GInputStream *GInputStream_autoptr;' at 'GInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:83: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GIOModule *GIOModule_autoptr;' at 'GIOModule_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:84: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GIOStream *GIOStream_autoptr;' at 'GIOStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:85: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GLoadableIcon *GLoadableIcon_autoptr;' at 'GLoadableIcon_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:86: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMemoryInputStream *GMemoryInputStream_autoptr;' at 'GMemoryInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:87: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMemoryOutputStream *GMemoryOutputStream_autoptr;' at 'GMemoryOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:88: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMenu *GMenu_autoptr;' at 'GMenu_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:89: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMenuItem *GMenuItem_autoptr;' at 'GMenuItem_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:90: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMenuModel *GMenuModel_autoptr;' at 'GMenuModel_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:91: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMenuAttributeIter *GMenuAttributeIter_autoptr;' at 'GMenuAttributeIter_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:92: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMenuLinkIter *GMenuLinkIter_autoptr;' at 'GMenuLinkIter_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:93: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMount *GMount_autoptr;' at 'GMount_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:94: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GMountOperation *GMountOperation_autoptr;' at 'GMountOperation_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:95: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GNativeVolumeMonitor *GNativeVolumeMonitor_autoptr;' at 'GNativeVolumeMonitor_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:96: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GNetworkAddress *GNetworkAddress_autoptr;' at 'GNetworkAddress_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:97: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GNetworkMonitor *GNetworkMonitor_autoptr;' at 'GNetworkMonitor_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:98: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GNetworkService *GNetworkService_autoptr;' at 'GNetworkService_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:99: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GNotification *GNotification_autoptr;' at 'GNotification_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:100: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GOutputStream *GOutputStream_autoptr;' at 'GOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:101: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GPermission *GPermission_autoptr;' at 'GPermission_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:102: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GPollableInputStream *GPollableInputStream_autoptr;' at 'GPollableInputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:103: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GPollableOutputStream *GPollableOutputStream_autoptr;' at 'GPollableOutputStream_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:104: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GPropertyAction *GPropertyAction_autoptr;' at 'GPropertyAction_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:105: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GProxyAddressEnumerator *GProxyAddressEnumerator_autoptr;' at 'GProxyAddressEnumerator_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:106: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GProxyAddress *GProxyAddress_autoptr;' at 'GProxyAddress_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:107: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GProxy *GProxy_autoptr;' at 'GProxy_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:108: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GProxyResolver *GProxyResolver_autoptr;' at 'GProxyResolver_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:109: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GRemoteActionGroup *GRemoteActionGroup_autoptr;' at 'GRemoteActionGroup_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:110: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GResolver *GResolver_autoptr;' at 'GResolver_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:111: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSeekable *GSeekable_autoptr;' at 'GSeekable_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:112: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSettingsBackend *GSettingsBackend_autoptr;' at 'GSettingsBackend_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:113: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSettingsSchema *GSettingsSchema_autoptr;' at 'GSettingsSchema_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:114: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSettings *GSettings_autoptr;' at 'GSettings_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:115: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSimpleActionGroup *GSimpleActionGroup_autoptr;' at 'GSimpleActionGroup_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:116: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSimpleAction *GSimpleAction_autoptr;' at 'GSimpleAction_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:117: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSimpleAsyncResult *GSimpleAsyncResult_autoptr;' at 'GSimpleAsyncResult_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:118: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSimplePermission *GSimplePermission_autoptr;' at 'GSimplePermission_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:119: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSimpleProxyResolver *GSimpleProxyResolver_autoptr;' at 'GSimpleProxyResolver_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:120: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketAddressEnumerator *GSocketAddressEnumerator_autoptr;' at 'GSocketAddressEnumerator_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:121: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketAddress *GSocketAddress_autoptr;' at 'GSocketAddress_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:122: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketClient *GSocketClient_autoptr;' at 'GSocketClient_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:123: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketConnectable *GSocketConnectable_autoptr;' at 'GSocketConnectable_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:124: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketConnection *GSocketConnection_autoptr;' at 'GSocketConnection_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:125: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketControlMessage *GSocketControlMessage_autoptr;' at 'GSocketControlMessage_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:126: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocket *GSocket_autoptr;' at 'GSocket_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:127: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketListener *GSocketListener_autoptr;' at 'GSocketListener_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:128: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSocketService *GSocketService_autoptr;' at 'GSocketService_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:129: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSubprocess *GSubprocess_autoptr;' at 'GSubprocess_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:130: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GSubprocessLauncher *GSubprocessLauncher_autoptr;' at 'GSubprocessLauncher_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:131: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTask *GTask_autoptr;' at 'GTask_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:132: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTcpConnection *GTcpConnection_autoptr;' at 'GTcpConnection_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:133: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTcpWrapperConnection *GTcpWrapperConnection_autoptr;' at 'GTcpWrapperConnection_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:134: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTestDBus *GTestDBus_autoptr;' at 'GTestDBus_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:135: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GThemedIcon *GThemedIcon_autoptr;' at 'GThemedIcon_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:136: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GThreadedSocketService *GThreadedSocketService_autoptr;' at 'GThreadedSocketService_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:137: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsBackend *GTlsBackend_autoptr;' at 'GTlsBackend_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:138: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsCertificate *GTlsCertificate_autoptr;' at 'GTlsCertificate_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:139: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsClientConnection *GTlsClientConnection_autoptr;' at 'GTlsClientConnection_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:140: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsConnection *GTlsConnection_autoptr;' at 'GTlsConnection_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:141: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsDatabase *GTlsDatabase_autoptr;' at 'GTlsDatabase_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:142: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsFileDatabase *GTlsFileDatabase_autoptr;' at 'GTlsFileDatabase_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:143: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsInteraction *GTlsInteraction_autoptr;' at 'GTlsInteraction_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:144: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsPassword *GTlsPassword_autoptr;' at 'GTlsPassword_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:145: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GTlsServerConnection *GTlsServerConnection_autoptr;' at 'GTlsServerConnection_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:146: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GVfs *GVfs_autoptr;' at 'GVfs_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:147: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GVolume *GVolume_autoptr;' at 'GVolume_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:148: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GVolumeMonitor *GVolumeMonitor_autoptr;' at 'GVolumeMonitor_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:149: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GZlibCompressor *GZlibCompressor_autoptr;' at 'GZlibCompressor_autoptr'
+/usr/include/glib-2.0/gio/gio-autocleanups.h:150: syntax error, unexpected typedef-name, expecting identifier or '(' in 'typedef GZlibDecompressor *GZlibDecompressor_autoptr;' at 'GZlibDecompressor_autoptr'
+gir/gio-2.0.c:1525: Warning: Gio: unexpected annotation: element-type
+gir/gio-2.0.c:3511: Warning: Gio: unexpected annotation: element-type
+usr/include/glib-2.0/gio/gdbusconnection.h:490: Warning: Gio: invalid "not" annotation option: "optional"
+usr/include/glib-2.0/gio/gnetworking.h:54: Warning: Gio: symbol='T_SRV': Unknown namespace for symbol 'T_SRV'
+gir/gio-2.0.c:12783: Warning: Gio: g_app_info_launch_default_for_uri_async: unknown parameter 'context' in documentation comment, should be one of 'cancellable', 'launch_context'
+gir/gio-2.0.c:23563: Warning: Gio: invalid "transfer" annotation for gboolean: only valid for array, struct, union, boxed, object and interface types
+gir/gio-2.0.c:26530: Warning: Gio: invalid "nullable" annotation: only valid for pointer types and out parameters
+gir/gio-2.0.c:31503: Warning: Gio: g_pollable_input_stream_read_nonblocking: unknown parameter 'cancellable' in documentation comment
+gir/gio-2.0.c:31586: Warning: Gio: g_pollable_output_stream_write_nonblocking: unknown parameter 'cancellable' in documentation comment
+gir/gio-2.0.c:27660: Warning: Gio: g_io_extension_ref_class: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+gir/gio-2.0.c:14610: Warning: Gio: g_bus_own_name: argument bus_acquired_handler: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:14610: Warning: Gio: g_bus_own_name: argument name_acquired_handler: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:14677: Warning: Gio: g_bus_own_name_on_connection: argument name_acquired_handler: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:14756: Warning: Gio: g_bus_watch_name: argument name_appeared_handler: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:14802: Warning: Gio: g_bus_watch_name_on_connection: argument name_appeared_handler: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:27710: Warning: Gio: g_io_module_scope_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+gir/gio-2.0.c:27710: Warning: Gio: g_io_module_scope_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+gir/gio-2.0.c:24559: Warning: Gio: g_file_measure_disk_usage: argument progress_callback: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:24596: Warning: Gio: g_file_measure_disk_usage_async: argument progress_callback: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:38861: Warning: Gio: g_task_run_in_thread: argument task_func: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:38883: Warning: Gio: g_task_run_in_thread_sync: argument task_func: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+gir/gio-2.0.c:38466: Warning: Gio: g_task_attach_source: argument callback: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+  GISCAN   GIRepository-2.0.gir
+girepository/girepository.h:232: Warning: GIRepository: symbol='gi_cclosure_marshal_generic': Unknown namespace for symbol 'gi_cclosure_marshal_generic'
+girepository/gitypes.h:433: Warning: GIRepository: symbol='GI_TYPE_TAG_N_TYPES': Unknown namespace for symbol 'GI_TYPE_TAG_N_TYPES'
+girepository/giunioninfo.c:157: Warning: GIRepository: invalid "transfer" annotation for gint: only valid for array, struct, union, boxed, object and interface types
+<unknown>:: Warning: GIRepository: (ErrorQuarkFunction)invoke_error_quark: g_invoke_error_quark: Couldn't find corresponding enumeration
+girepository/gitypelib.h:52: Warning: GIRepository: g_typelib_new_from_memory: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+girepository/gitypelib.h:57: Warning: GIRepository: g_typelib_new_from_const_memory: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+girepository/gitypelib.h:62: Warning: GIRepository: g_typelib_new_from_mapped_file: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+girepository/gitypelib.h:52: Warning: GIRepository: g_typelib_new_from_memory: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+girepository/gitypelib.h:57: Warning: GIRepository: g_typelib_new_from_const_memory: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+girepository/gitypelib.h:62: Warning: GIRepository: g_typelib_new_from_mapped_file: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+  GICOMP   gir/DBus-1.0.gir
+  GICOMP   gir/DBusGLib-1.0.gir
+  GICOMP   gir/fontconfig-2.0.gir
+  GICOMP   gir/freetype2-2.0.gir
+  GICOMP   gir/GL-1.0.gir
+  GICOMP   gir/libxml2-2.0.gir
+  GICOMP   gir/xft-2.0.gir
+  GICOMP   gir/xlib-2.0.gir
+  GICOMP   gir/xfixes-4.0.gir
+  GICOMP   gir/xrandr-1.3.gir
+  GICOMP   gir/win32-1.0.gir
+  GICOMP   gir/cairo-1.0.gir
+  GICOMP   GLib-2.0.gir
+  GICOMP   GObject-2.0.gir
+  GICOMP   GModule-2.0.gir
+  GICOMP   Gio-2.0.gir
+  GICOMP   GIRepository-2.0.gir
+make[2]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'
+Making all in docs
+make[2]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+make[2]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/docs'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+  GEN      everything-stamp.h
+touch everything-stamp.h
+make  all-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making all in .
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making all in scanner
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+Making all in .
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+Making all in annotationparser
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner/annotationparser'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner/annotationparser'
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/scanner'
+Making all in repository
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/repository'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/repository'
+Making all in offsets
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+  CC       liboffsets_la-offsets.lo
+  CCLD     liboffsets.la
+  GISCAN   Offsets-1.0.gir
+  GICOMP   Offsets-1.0.gir
+  GEN      gitestoffsets.c
+make  all-am
+make[5]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/offsets'
+Making all in warn
+make[4]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/warn'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests/warn'
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+make[2]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/tests'
+Making all in win32
+make[2]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+Making all in vs9
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs9'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs9'
+Making all in vs10
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs10'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs10'
+Making all in vs11
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs11'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs11'
+Making all in vs12
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs12'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs12'
+Making all in vs14
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs14'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs14'
+Making all in vs15
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs15'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32/vs15'
+make[3]: Entering directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+make[2]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1/win32'
+make[1]: Leaving directory '/lfskernel/sources/boot/gobject-introspection-1.54.1'

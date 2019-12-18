@@ -1,0 +1,99 @@
+make  install-recursive
+make[1]: Entering directory '/sources/libtool-2.4.6/build'
+Making install in .
+make[2]: Entering directory '/sources/libtool-2.4.6/build'
+make[3]: Entering directory '/sources/libtool-2.4.6/build'
+ /tools/bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c libtool '/usr/bin'
+ /tools/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libltdl/libltdl.la '/usr/lib'
+libtool: install: /usr/bin/install -c libltdl/.libs/libltdl.so.7.3.1 /usr/lib/libltdl.so.7.3.1
+libtool: install: (cd /usr/lib && { ln -s -f libltdl.so.7.3.1 libltdl.so.7 || { rm -f libltdl.so.7 && ln -s libltdl.so.7.3.1 libltdl.so.7; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libltdl.so.7.3.1 libltdl.so || { rm -f libltdl.so && ln -s libltdl.so.7.3.1 libltdl.so; }; })
+libtool: install: /usr/bin/install -c libltdl/.libs/libltdl.lai /usr/lib/libltdl.la
+libtool: install: /usr/bin/install -c libltdl/.libs/libltdl.a /usr/lib/libltdl.a
+libtool: install: chmod 644 /usr/lib/libltdl.a
+libtool: install: ranlib /usr/lib/libltdl.a
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ GREP='/usr/bin/grep' SED='/bin/sed' '../build-aux/inline-source' libtoolize > '/usr/bin/libtoolize'
+rm -rf '/usr/share/libtool'/*
+ /usr/bin/install -c -m 644 '../m4/libtool.m4' '/usr/share/aclocal/libtool.m4'
+ /usr/bin/install -c -m 644 '../m4/ltargz.m4' '/usr/share/aclocal/ltargz.m4'
+ /usr/bin/install -c -m 644 '../m4/ltdl.m4' '/usr/share/aclocal/ltdl.m4'
+ /usr/bin/install -c -m 644 '../m4/ltoptions.m4' '/usr/share/aclocal/ltoptions.m4'
+ /usr/bin/install -c -m 644 '../m4/ltsugar.m4' '/usr/share/aclocal/ltsugar.m4'
+ /usr/bin/install -c -m 644 '../m4/ltversion.m4' '/usr/share/aclocal/ltversion.m4'
+ /usr/bin/install -c -m 644 '../m4/lt~obsolete.m4' '/usr/share/aclocal/lt~obsolete.m4'
+ /usr/bin/install -c '../build-aux/compile' '/usr/share/libtool/build-aux/compile'
+ /usr/bin/install -c '../build-aux/config.guess' '/usr/share/libtool/build-aux/config.guess'
+ /usr/bin/install -c '../build-aux/config.sub' '/usr/share/libtool/build-aux/config.sub'
+ /usr/bin/install -c '../build-aux/depcomp' '/usr/share/libtool/build-aux/depcomp'
+ /usr/bin/install -c '../build-aux/install-sh' '/usr/share/libtool/build-aux/install-sh'
+ /usr/bin/install -c '../build-aux/missing' '/usr/share/libtool/build-aux/missing'
+ /usr/bin/install -c -m 644 '../build-aux/ltmain.sh' '/usr/share/libtool/build-aux/ltmain.sh'
+ /usr/bin/install -c -m 644 '../libltdl/COPYING.LIB' '/usr/share/libtool/COPYING.LIB'
+ /usr/bin/install -c -m 644 '../libltdl/Makefile.am' '/usr/share/libtool/Makefile.am'
+ /usr/bin/install -c -m 644 '../libltdl/README' '/usr/share/libtool/README'
+ /usr/bin/install -c -m 644 '../libltdl/configure.ac' '/usr/share/libtool/configure.ac'
+ /usr/bin/install -c -m 644 '../libltdl/aclocal.m4' '/usr/share/libtool/aclocal.m4'
+ /usr/bin/install -c -m 644 '../libltdl/Makefile.in' '/usr/share/libtool/Makefile.in'
+ /usr/bin/install -c -m 644 '../libltdl/config-h.in' '/usr/share/libtool/config-h.in'
+ /usr/bin/install -c -m 644 '../libltdl/configure' '/usr/share/libtool/configure'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt__alloc.h' '/usr/share/libtool/libltdl/lt__alloc.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt__argz_.h' '/usr/share/libtool/libltdl/lt__argz_.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt__dirent.h' '/usr/share/libtool/libltdl/lt__dirent.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt__glibc.h' '/usr/share/libtool/libltdl/lt__glibc.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt__private.h' '/usr/share/libtool/libltdl/lt__private.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt__strl.h' '/usr/share/libtool/libltdl/lt__strl.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt_dlloader.h' '/usr/share/libtool/libltdl/lt_dlloader.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt_error.h' '/usr/share/libtool/libltdl/lt_error.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/lt_system.h' '/usr/share/libtool/libltdl/lt_system.h'
+ /usr/bin/install -c -m 644 '../libltdl/libltdl/slist.h' '/usr/share/libtool/libltdl/slist.h'
+ /usr/bin/install -c -m 644 '../libltdl/loaders/dld_link.c' '/usr/share/libtool/loaders/dld_link.c'
+ /usr/bin/install -c -m 644 '../libltdl/loaders/dlopen.c' '/usr/share/libtool/loaders/dlopen.c'
+ /usr/bin/install -c -m 644 '../libltdl/loaders/dyld.c' '/usr/share/libtool/loaders/dyld.c'
+ /usr/bin/install -c -m 644 '../libltdl/loaders/load_add_on.c' '/usr/share/libtool/loaders/load_add_on.c'
+ /usr/bin/install -c -m 644 '../libltdl/loaders/loadlibrary.c' '/usr/share/libtool/loaders/loadlibrary.c'
+ /usr/bin/install -c -m 644 '../libltdl/loaders/preopen.c' '/usr/share/libtool/loaders/preopen.c'
+ /usr/bin/install -c -m 644 '../libltdl/loaders/shl_load.c' '/usr/share/libtool/loaders/shl_load.c'
+ /usr/bin/install -c -m 644 '../libltdl/lt__alloc.c' '/usr/share/libtool/lt__alloc.c'
+ /usr/bin/install -c -m 644 '../libltdl/lt__argz.c' '/usr/share/libtool/lt__argz.c'
+ /usr/bin/install -c -m 644 '../libltdl/lt__dirent.c' '/usr/share/libtool/lt__dirent.c'
+ /usr/bin/install -c -m 644 '../libltdl/lt__strl.c' '/usr/share/libtool/lt__strl.c'
+ /usr/bin/install -c -m 644 '../libltdl/lt_dlloader.c' '/usr/share/libtool/lt_dlloader.c'
+ /usr/bin/install -c -m 644 '../libltdl/lt_error.c' '/usr/share/libtool/lt_error.c'
+ /usr/bin/install -c -m 644 '../libltdl/ltdl.c' '/usr/share/libtool/ltdl.c'
+ /usr/bin/install -c -m 644 '../libltdl/ltdl.h' '/usr/share/libtool/ltdl.h'
+ /usr/bin/install -c -m 644 '../libltdl/ltdl.mk' '/usr/share/libtool/ltdl.mk'
+ /usr/bin/install -c -m 644 '../libltdl/slist.c' '/usr/share/libtool/slist.c'
+chmod a+x '/usr/share/libtool/configure'
+ /tools/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 ../libltdl/ltdl.h '/usr/include'
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../doc/libtool.info ../doc/libtool.info-1 ../doc/libtool.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/libtool.info'
+ /tools/bin/mkdir -p '/usr/include/libltdl'
+ /usr/bin/install -c -m 644 ../libltdl/libltdl/lt_system.h ../libltdl/libltdl/lt_error.h ../libltdl/libltdl/lt_dlloader.h '/usr/include/libltdl'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../doc/libtool.1 ../doc/libtoolize.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/libtool-2.4.6/build'
+make[2]: Leaving directory '/sources/libtool-2.4.6/build'
+make[1]: Leaving directory '/sources/libtool-2.4.6/build'

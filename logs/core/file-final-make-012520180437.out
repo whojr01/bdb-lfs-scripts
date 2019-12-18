@@ -1,0 +1,94 @@
+make  all-recursive
+make[1]: Entering directory '/sources/file-5.32/build'
+Making all in src
+make[2]: Entering directory '/sources/file-5.32/build/src'
+sed -e "s/X.YY/$(echo 5.32 | tr -d .)/" < ../../src/magic.h.in > magic.h
+make  all-am
+make[3]: Entering directory '/sources/file-5.32/build/src'
+  CC       magic.lo
+  CC       apprentice.lo
+  CC       softmagic.lo
+  CC       ascmagic.lo
+  CC       encoding.lo
+  CC       compress.lo
+  CC       is_tar.lo
+  CC       readelf.lo
+  CC       print.lo
+  CC       fsmagic.lo
+../../src/fsmagic.c: In function 'file_fsmagic':
+../../src/fsmagic.c:221:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+        COMMA, (long)major(sb->st_rdev),
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                             
+../../src/fsmagic.c:222:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+        (long)minor(sb->st_rdev)) == -1)
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                             
+../../src/fsmagic.c:256:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+        COMMA, (long)major(sb->st_rdev),
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                             
+../../src/fsmagic.c:257:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+        (long)minor(sb->st_rdev)) == -1)
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                             
+  CC       funcs.lo
+  CC       apptype.lo
+  CC       der.lo
+  CC       cdf.lo
+  CC       cdf_time.lo
+  CC       readcdf.lo
+  CC       strlcpy.lo
+  CC       strlcat.lo
+  CC       fmtcheck.lo
+  CCLD     libmagic.la
+  CC       file.o
+  CCLD     file
+make[3]: Leaving directory '/sources/file-5.32/build/src'
+make[2]: Leaving directory '/sources/file-5.32/build/src'
+Making all in magic
+make[2]: Entering directory '/sources/file-5.32/build/magic'
+../src/file -C -m magic
+make[2]: Leaving directory '/sources/file-5.32/build/magic'
+Making all in tests
+make[2]: Entering directory '/sources/file-5.32/build/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/file-5.32/build/tests'
+Making all in doc
+make[2]: Entering directory '/sources/file-5.32/build/doc'
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@5.32@g \
+    -e s@__MAGIC__@/usr/share/misc/magic@g ../../doc/file.man > file.1
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@5.32@g \
+    -e s@__MAGIC__@/usr/share/misc/magic@g ../../doc/magic.man > magic.4
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@5.32@g \
+    -e s@__MAGIC__@/usr/share/misc/magic@g ../../doc/libmagic.man > libmagic.3
+make[2]: Leaving directory '/sources/file-5.32/build/doc'
+Making all in python
+make[2]: Entering directory '/sources/file-5.32/build/python'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/file-5.32/build/python'
+make[2]: Entering directory '/sources/file-5.32/build'
+make[2]: Leaving directory '/sources/file-5.32/build'
+make[1]: Leaving directory '/sources/file-5.32/build'

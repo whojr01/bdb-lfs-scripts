@@ -1,0 +1,22 @@
+###############################
+# Make xauth-1.0.10.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10'
+  CC       gethost.o
+  CC       parsedpy.o
+  CC       process.o
+  CC       xauth.o
+  CCLD     xauth
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/man'
+  GEN      xauth.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/man'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10'

@@ -1,0 +1,181 @@
+Making all in lib
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      ctype.h
+  GEN      fcntl.h
+  GEN      iconv.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      uniwidth.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-am
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+  CC       allocator.o
+  CC       areadlink.o
+  CC       argmatch.o
+  CC       binary-io.o
+  CC       bitrotate.o
+  CC       c-ctype.o
+  CC       c-stack.o
+  CC       c-strcasecmp.o
+  CC       c-strncasecmp.o
+  CC       careadlinkat.o
+  CC       dirname.o
+  CC       basename.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exclude.o
+  CC       exitfail.o
+  CC       fd-hook.o
+  CC       file-type.o
+  CC       filenamecat.o
+  CC       filenamecat-lgpl.o
+  CC       freopen-safer.o
+  CC       getprogname.o
+  CC       gettime.o
+  CC       hard-locale.o
+  CC       hash.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       localcharset.o
+  CC       malloca.o
+  CC       mbchar.o
+  CC       mbiter.o
+  CC       mbscasecmp.o
+  CC       mbslen.o
+  CC       mbsstr.o
+  CC       mbuiter.o
+  CC       progname.o
+  CC       propername.o
+  CC       quotearg.o
+  CC       sh-quote.o
+  CC       sig-handler.o
+  CC       stat-time.o
+  CC       strftime.o
+  CC       striconv.o
+  CC       strnlen1.o
+  CC       system-quote.o
+  CC       tempname.o
+  CC       timespec.o
+  CC       trim.o
+  CC       unistd.o
+  CC       unistr/u8-mbtoucr.o
+  CC       unistr/u8-uctomb.o
+  CC       unistr/u8-uctomb-aux.o
+  CC       uniwidth/width.o
+  CC       version-etc.o
+  CC       version-etc-fsf.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       xfreopen.o
+  CC       xreadlink.o
+  CC       xsize.o
+  CC       xstriconv.o
+  CC       xstrndup.o
+  CC       xstrtol.o
+  CC       xstrtoul.o
+  CC       xstrtol-error.o
+  CC       xstrtoumax.o
+  CC       xvasprintf.o
+  CC       xasprintf.o
+  CC       cmpbuf.o
+  CC       prepargs.o
+  CC       asnprintf.o
+  CC       fcntl.o
+  CC       localtime-buffer.o
+  CC       mbrtowc.o
+  CC       mktime.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       time_rz.o
+  CC       vasnprintf.o
+  AR       libdiffutils.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+Making all in src
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/src'
+  GEN      paths.h
+  GEN      version.c
+  GEN      version.h
+make  all-am
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/src'
+  CC       version.o
+  AR       libver.a
+  CC       cmp.o
+  CCLD     cmp
+  CC       analyze.o
+  CC       context.o
+  CC       diff.o
+  CC       dir.o
+  CC       ed.o
+  CC       ifdef.o
+  CC       io.o
+  CC       normal.o
+  CC       side.o
+  CC       util.o
+  CCLD     diff
+  CC       diff3.o
+  CCLD     diff3
+  CC       sdiff.o
+  CCLD     sdiff
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/src'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/src'
+Making all in tests
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/tests'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/tests'
+Making all in doc
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/doc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/doc'
+Making all in man
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/man'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/man'
+Making all in po
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/po'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/po'
+Making all in gnulib-tests
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+  GEN      arpa/inet.h
+  GEN      sys/ioctl.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/uio.h
+make  all-recursive
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+Making all in .
+make[3]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build'

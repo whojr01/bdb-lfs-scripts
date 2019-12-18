@@ -1,0 +1,14 @@
+###############################
+# Make xsetroot-1.1.1.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1/man'
+  GEN    xsetroot.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'
+  CC     xsetroot.o
+  CCLD   xsetroot
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xsetroot-1.1.1'

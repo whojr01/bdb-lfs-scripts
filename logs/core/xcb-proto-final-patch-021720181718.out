@@ -1,0 +1,61 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By: Bruce Dubbs <bdubbs at linuxfromscratch dot org>
+|Date: 2016-06-01
+|Initial Package Version: 1.12
+|Upstream Status: Not Committed
+|Origin: https://lists.freedesktop.org/archives/xcb/2016-February/010676.html
+|Description: Fixes make check
+|
+|
+|--- a/src/xcb.xsd
+|+++ b/src/xcb.xsd
+--------------------------
+patching file src/xcb.xsd
+Using Plan A...
+Hunk #1 succeeded at 44.
+Hunk #2 succeeded at 85.
+Hunk #3 succeeded at 209.
+Hmm...  Ignoring the trailing garbage.
+done
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By:            Igor Živković
+|Date:                    2016-06-14
+|Initial Package Version: 1.12
+|Upstream Status:         Fixed
+|Origin:                  Upstream
+|Description:
+|
+|  https://cgit.freedesktop.org/xcb/proto/commit/?id=ea7a3ac6c658164690e0febb55f4467cb9e0bcac
+|  https://cgit.freedesktop.org/xcb/proto/commit/?id=bea5e1c85bdc0950913790364e18228f20395a3d
+|
+|--- xcb-proto-1.12.orig/xcbgen/align.py
+|+++ xcb-proto-1.12/xcbgen/align.py
+--------------------------
+patching file xcbgen/align.py
+Using Plan A...
+Hunk #1 succeeded at 16.
+Hunk #2 succeeded at 33.
+Hunk #3 succeeded at 41.
+Hunk #4 succeeded at 55.
+Hunk #5 succeeded at 72.
+Hunk #6 succeeded at 83.
+Hunk #7 succeeded at 92.
+Hunk #8 succeeded at 137.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|--- xcb-proto-1.12.orig/xcbgen/xtypes.py
+|+++ xcb-proto-1.12/xcbgen/xtypes.py
+--------------------------
+patching file xcbgen/xtypes.py
+Using Plan A...
+Hunk #1 succeeded at 501.
+Hunk #2 succeeded at 592.
+Hunk #3 succeeded at 619.
+Hunk #4 succeeded at 641.
+Hunk #5 succeeded at 900.
+done

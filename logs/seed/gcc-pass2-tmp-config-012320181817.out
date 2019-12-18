@@ -1,0 +1,106 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /bin/install -c
+checking whether ln works... yes
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for gawk... gawk
+checking for libatomic support... yes
+checking for libcilkrts support... yes
+checking for libitm support... yes
+checking for libsanitizer support... yes
+checking for libvtv support... yes
+checking for libmpx support... yes
+checking for libhsail-rt support... yes
+checking for gcc... x86_64-lfs-linux-gnu-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-lfs-linux-gnu-gcc accepts -g... yes
+checking for x86_64-lfs-linux-gnu-gcc option to accept ISO C89... none needed
+checking whether we are using the GNU C++ compiler... yes
+checking whether x86_64-lfs-linux-gnu-g++ accepts -g... yes
+checking whether g++ accepts -static-libstdc++ -static-libgcc... yes
+checking for gnatbind... no
+checking for gnatmake... no
+checking whether compiler driver understands Ada... no
+checking how to compare bootstrapped objects... cmp --ignore-initial=16 $$f1 $$f2
+checking for objdir... .libs
+checking for isl 0.15 or later... no
+required isl version is 0.15 or later
+*** This configuration is not supported in the following subdirectories:
+     gnattools gotools target-libada target-libhsail-rt target-libgfortran target-libbacktrace target-libgo target-libffi target-libobjc target-libgomp target-liboffloadmic
+    (Any other directories should still work fine.)
+checking for default BUILD_CONFIG... 
+checking for --enable-vtable-verify... no
+checking for bison... bison -y
+checking for bison... bison
+checking for gm4... no
+checking for gnum4... no
+checking for m4... m4
+checking for flex... flex
+checking for flex... flex
+checking for makeinfo... makeinfo
+checking for expect... expect
+checking for runtest... runtest
+checking for ar... (cached) x86_64-lfs-linux-gnu-ar
+checking for as... as
+checking for dlltool... no
+checking for ld... (cached) /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld
+checking for lipo... no
+checking for nm... nm
+checking for ranlib... (cached) x86_64-lfs-linux-gnu-ranlib
+checking for strip... strip
+checking for windres... no
+checking for windmc... no
+checking for objcopy... objcopy
+checking for objdump... objdump
+checking for readelf... readelf
+checking for cc... cc
+checking for c++... c++
+checking for gcc... gcc
+checking for gfortran... no
+checking for gccgo... no
+checking for ar... /tools/x86_64-pc-linux-gnu/bin/ar
+checking for as... /tools/x86_64-pc-linux-gnu/bin/as
+checking for dlltool... no
+checking for dlltool... no
+checking for ld... /tools/x86_64-pc-linux-gnu/bin/ld
+checking for lipo... no
+checking for lipo... no
+checking for nm... /tools/x86_64-pc-linux-gnu/bin/nm
+checking for objcopy... /tools/x86_64-pc-linux-gnu/bin/objcopy
+checking for objdump... /tools/x86_64-pc-linux-gnu/bin/objdump
+checking for ranlib... /tools/x86_64-pc-linux-gnu/bin/ranlib
+checking for readelf... /tools/x86_64-pc-linux-gnu/bin/readelf
+checking for strip... /tools/x86_64-pc-linux-gnu/bin/strip
+checking for windres... no
+checking for windres... no
+checking for windmc... no
+checking for windmc... no
+checking where to find the target ar... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target as... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target cc... just compiled
+checking where to find the target c++... just compiled
+checking where to find the target c++ for libstdc++... just compiled
+checking where to find the target dlltool... host tool
+checking where to find the target gcc... just compiled
+checking where to find the target gfortran... host tool
+checking where to find the target gccgo... host tool
+checking where to find the target ld... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target lipo... host tool
+checking where to find the target nm... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target objcopy... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target objdump... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target ranlib... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target readelf... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target strip... pre-installed in /tools/x86_64-pc-linux-gnu/bin
+checking where to find the target windres... host tool
+checking where to find the target windmc... host tool
+checking whether to enable maintainer-specific portions of Makefiles... no
+configure: creating ./config.status
+config.status: creating Makefile

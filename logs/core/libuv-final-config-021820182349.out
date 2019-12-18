@@ -1,0 +1,1 @@
+['-Duv_library=shared_library', '/lfskernel/sources/boot/libuv-1.19.1/uv.gyp', '-I', '/lfskernel/sources/boot/libuv-1.19.1/common.gypi', '--depth=.', '-f', 'make', '-Goutput_dir=/lfskernel/sources/boot/libuv-1.19.1/out', '--generator-output', '/lfskernel/sources/boot/libuv-1.19.1/out', '-Dhost_arch=x64', '-Dtarget_arch=x64']

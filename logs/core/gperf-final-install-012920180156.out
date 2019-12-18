@@ -1,0 +1,22 @@
+cd lib; make install
+make[1]: Entering directory '/sources/gperf-3.1/build/lib'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/gperf-3.1/build/lib'
+cd src; make install
+make[1]: Entering directory '/sources/gperf-3.1/build/src'
+/bin/sh ../../src/../build-aux/mkinstalldirs /usr/bin
+/usr/bin/install -c gperf /usr/bin/gperf
+make[1]: Leaving directory '/sources/gperf-3.1/build/src'
+cd tests; make install
+make[1]: Entering directory '/sources/gperf-3.1/build/tests'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/gperf-3.1/build/tests'
+cd doc; make install
+make[1]: Entering directory '/sources/gperf-3.1/build/doc'
+/bin/sh ../../doc/../build-aux/mkinstalldirs /usr/share/info
+/usr/bin/install -c -m 644 ../../doc/gperf.info /usr/share/info/gperf.info
+/bin/sh ../../doc/../build-aux/mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 ../../doc/gperf.1 /usr/share/man/man1/gperf.1
+/bin/sh ../../doc/../build-aux/mkinstalldirs /usr/share/doc/gperf-3.1
+/usr/bin/install -c -m 644 ../../doc/gperf.html /usr/share/doc/gperf-3.1/gperf.html
+make[1]: Leaving directory '/sources/gperf-3.1/build/doc'

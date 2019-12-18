@@ -1,0 +1,26 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8/man'
+  GEN      Xau.3
+  GEN      XauDisposeAuth.3
+  GEN      XauFileName.3
+  GEN      XauGetAuthByAddr.3
+  GEN      XauGetBestAuthByAddr.3
+  GEN      XauLockAuth.3
+  GEN      XauReadAuth.3
+  GEN      XauUnlockAuth.3
+  GEN      XauWriteAuth.3
+make[2]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8/man'
+make[2]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+  CC       AuDispose.lo
+  CC       AuFileName.lo
+  CC       AuGetAddr.lo
+  CC       AuGetBest.lo
+  CC       AuLock.lo
+  CC       AuRead.lo
+  CC       AuUnlock.lo
+  CC       AuWrite.lo
+  CCLD     libXau.la
+make[2]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'
+make[1]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'

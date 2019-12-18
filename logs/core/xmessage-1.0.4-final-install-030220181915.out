@@ -1,0 +1,19 @@
+###############################
+# Install xmessage-1.0.4.tar.bz2 #
+###############################
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/man/man1" || /bin/mkdir -p "/usr/share/man/man1"
+ /usr/bin/install -c -m 644 xmessage.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+  /usr/bin/install -c xmessage '/usr/bin'
+test -z "/etc/X11/app-defaults" || /bin/mkdir -p "/etc/X11/app-defaults"
+ /usr/bin/install -c -m 644 app-defaults/Xmessage app-defaults/Xmessage-color '/etc/X11/app-defaults'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xmessage-1.0.4'

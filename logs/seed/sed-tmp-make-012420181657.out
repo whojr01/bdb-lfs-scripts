@@ -1,0 +1,103 @@
+  GEN      lib/alloca.h
+  GEN      lib/configmake.h
+  GEN      lib/c++defs.h
+  GEN      lib/warn-on-use.h
+  GEN      lib/ctype.h
+  GEN      lib/arg-nonnull.h
+  GEN      lib/fcntl.h
+  GEN      lib/langinfo.h
+  GEN      lib/limits.h
+  GEN      lib/locale.h
+  GEN      lib/unused-parameter.h
+  GEN      lib/selinux/selinux.h
+  GEN      lib/selinux/context.h
+  GEN      lib/stdio.h
+  GEN      lib/stdlib.h
+  GEN      lib/string.h
+  GEN      lib/sys/stat.h
+  GEN      lib/sys/time.h
+  GEN      lib/sys/types.h
+  GEN      lib/time.h
+  GEN      lib/unistd.h
+  GEN      lib/wchar.h
+  GEN      lib/wctype.h
+  GEN      sed/version.c
+  GEN      sed/version.h
+make  all-recursive
+make[1]: Entering directory '/lfsbuild/sources/sed-4.4/build'
+Making all in po
+make[2]: Entering directory '/lfsbuild/sources/sed-4.4/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/sed-4.4/build/po'
+Making all in .
+make[2]: Entering directory '/lfsbuild/sources/sed-4.4/build'
+  CC       lib/copy-acl.o
+  CC       lib/set-acl.o
+  CC       lib/acl-errno-valid.o
+  CC       lib/acl-internal.o
+  CC       lib/get-permissions.o
+  CC       lib/set-permissions.o
+  CC       lib/c-ctype.o
+  CC       lib/c-strcasecmp.o
+  CC       lib/c-strncasecmp.o
+  CC       lib/close-stream.o
+  CC       lib/closeout.o
+  CC       lib/dfa.o
+  CC       lib/localeinfo.o
+  CC       lib/dirname-lgpl.o
+  CC       lib/basename-lgpl.o
+  CC       lib/stripslash.o
+  CC       lib/exitfail.o
+  CC       lib/getprogname.o
+  CC       lib/hard-locale.o
+  CC       lib/localcharset.o
+  CC       lib/glthread/lock.o
+  CC       lib/malloca.o
+  CC       lib/progname.o
+  CC       lib/qcopy-acl.o
+  CC       lib/qset-acl.o
+  CC       lib/quotearg.o
+  CC       lib/se-context.o
+  CC       lib/se-selinux.o
+  CC       lib/tempname.o
+  CC       lib/glthread/threadlib.o
+  CC       lib/unistd.o
+  CC       lib/version-etc.o
+  CC       lib/version-etc-fsf.o
+  CC       lib/wctype-h.o
+  CC       lib/xmalloc.o
+  CC       lib/xalloc-die.o
+  CC       lib/mbrlen.o
+  CC       lib/mbrtowc.o
+  CC       lib/obstack.o
+  AR       lib/libsed.a
+  CC       sed/version.o
+  AR       sed/libver.a
+  CC       sed/sed_sed-compile.o
+  CC       sed/sed_sed-execute.o
+  CC       sed/sed_sed-mbcs.o
+  CC       sed/sed_sed-regexp.o
+  CC       sed/sed_sed-sed.o
+  CC       sed/sed_sed-utils.o
+  CCLD     sed/sed
+  GEN      lib/charset.alias
+  GEN      lib/ref-add.sed
+  GEN      lib/ref-del.sed
+make[2]: Leaving directory '/lfsbuild/sources/sed-4.4/build'
+Making all in gnulib-tests
+make[2]: Entering directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      dirent.h
+  GEN      inttypes.h
+  GEN      unused-parameter.h
+make  all-recursive
+make[3]: Entering directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+Making all in .
+make[4]: Entering directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[3]: Leaving directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[2]: Leaving directory '/lfsbuild/sources/sed-4.4/build/gnulib-tests'
+make[1]: Leaving directory '/lfsbuild/sources/sed-4.4/build'

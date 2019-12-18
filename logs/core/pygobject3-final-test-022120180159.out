@@ -1,0 +1,2718 @@
+Making check in .
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python2/../$f ./$f; \
+done
+make  check-local
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python2/../$f ./$f; \
+done
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+Making check in examples
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+Making check in gi
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+Making check in repository
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+Making check in overrides
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+Making check in _gobject
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/_gobject/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+ln -s -f .libs/_gi.so _gi.so
+ln -s -f .libs/_gi_cairo.so _gi_cairo.so
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+ln -s -f .libs/_gi.so _gi.so
+ln -s -f .libs/_gi_cairo.so _gi_cairo.so
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+Making check in tests
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+make  libgimarshallingtests.la libregress.la testhelper.la
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+make[2]: 'libgimarshallingtests.la' is up to date.
+make[2]: 'libregress.la' is up to date.
+make[2]: 'testhelper.la' is up to date.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+make  check-local
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+test -L libgimarshallingtests.so || ln -s .libs/libgimarshallingtests.so libgimarshallingtests.so
+test -L libregress.so || ln -s .libs/libregress.so libregress.so
+test -L testhelper.so || ln -s .libs/testhelper.so testhelper.so
+  GEN      GIMarshallingTests-1.0.gir
+g-ir-scanner: link: ../libtool --mode=link --tag=CC cc -o /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectLbvgto/GIMarshallingTests-1.0 -export-dynamic /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectLbvgto/GIMarshallingTests-1.0.o -L. libgimarshallingtests.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+
+*** Warning: Linking the executable /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectLbvgto/GIMarshallingTests-1.0 against the loadable module
+*** libgimarshallingtests.so is not portable!
+libtool: link: cc -o /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectLbvgto/.libs/GIMarshallingTests-1.0 /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectLbvgto/GIMarshallingTests-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgimarshallingtests.so -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -pthread -Wl,-rpath -Wl,/usr/lib/python2.7/site-packages/pygobject
+  GEN      GIMarshallingTests-1.0.typelib
+  GEN      Regress-1.0.gir
+g-ir-scanner: link: ../libtool --mode=link --tag=CC cc -o /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectF2AIIL/Regress-1.0 -export-dynamic /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectF2AIIL/Regress-1.0.o -L. libregress.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+
+*** Warning: Linking the executable /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectF2AIIL/Regress-1.0 against the loadable module
+*** libregress.so is not portable!
+libtool: link: cc -o /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectF2AIIL/.libs/Regress-1.0 /lfskernel/sources/boot/pygobject-3.24.1/python2/tests/tmp-introspectF2AIIL/Regress-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libregress.so -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -pthread -Wl,-rpath -Wl,/usr/lib/python2.7/site-packages/pygobject
+  GEN      Regress-1.0.typelib
+glib-compile-schemas --targetdir=. --schema-file=../../tests/org.gnome.test.gschema.xml
+PYTHONPATH=..:../tests:${PYTHONPATH:+:$PYTHONPATH} LD_LIBRARY_PATH=./.libs:$LD_LIBRARY_PATH GI_TYPELIB_PATH=.:$GI_TYPELIB_PATH XDG_DATA_DIRS=$XDG_DATA_DIRS:/usr/share MALLOC_PERTURB_=85 MALLOC_CHECK_=3 G_SLICE=debug-blocks TESTS_BUILDDIR=. dbus-run-session --  /usr/bin/python -Wd ../../tests/runtests.py; rc=$?; \
+[ "$rc" -ne 0 ] || [ -n "$TEST_NAMES" ] || { TEST_NAMES=compat_test_pygtk PYTHONPATH=..:../tests:${PYTHONPATH:+:$PYTHONPATH} LD_LIBRARY_PATH=./.libs:$LD_LIBRARY_PATH GI_TYPELIB_PATH=.:$GI_TYPELIB_PATH XDG_DATA_DIRS=$XDG_DATA_DIRS:/usr/share MALLOC_PERTURB_=85 MALLOC_CHECK_=3 G_SLICE=debug-blocks TESTS_BUILDDIR=. dbus-run-session --  /usr/bin/python -Wd -Werror::PendingDeprecationWarning -Werror::DeprecationWarning -Werror::RuntimeWarning ../../tests/runtests.py; rc=$?; }; \
+exit $rc
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_error.py:28: PyGIWarning: GIMarshallingTests was imported without specifying a version first. Use gi.require_version('GIMarshallingTests', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import GIMarshallingTests
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_cairo.py:12: PyGIWarning: Regress was imported without specifying a version first. Use gi.require_version('Regress', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Regress
+test_builder (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_builder_with_handler_and_args (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_dict (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_no_handler_error (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_object (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_with_seq (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_child_get_and_set (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_error (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_gvalue (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_return_with_explicit_gvalue (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_return_with_implicit_gvalue (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_set_property (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_about_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_actiongroup (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_actions (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_adjustment (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_buttons (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_color_selection_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_container (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_add_buttons (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_base (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_classes (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_deprecation_stacklevels (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_deprecations (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_drag_target_list (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_editable (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_file_chooser_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_file_chooser_dialog_default_action (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_font_selection_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_gtk_main (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_iconset (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_iconview (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_inheritance (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_label (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_message_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_recent_chooser_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_scrollbar (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_scrolledwindow (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_stock_lookup (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_table (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_toolbutton (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_uimanager (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_uimanager_nonascii (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_viewport (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_widget_drag_methods (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_widget_render_icon (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_window (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_class_closure_override_with_aliased_type (test_overrides_gtk.TestSignals) ... skipped 'Gtk not available'
+test_overlay_child_position (test_overrides_gtk.TestSignals) ... skipped 'Gtk not available'
+test_insert_text_signal_location_modification (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_text_buffer (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_text_buffer_search (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_text_iter (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_filter_new_default (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store_performance (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store_signals (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store_sort (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_signal_emission_tree_path_coerce (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_edit (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_filter (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_get_iter_fail (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_set_value_to_none (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_sort (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_path (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_row_sequence (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_row_slice (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_store (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_store_signals (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_selection (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view_add_column_with_attributes (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view_column (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view_column_set_attributes (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_style_get_property_error (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_style_get_property_gvalue (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_style_get_property_return_with_explicit_gvalue (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_style_get_property_return_with_implicit_gvalue (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_add_main_option (test_gio.TestGApplication) ... ok
+test_command_line (test_gio.TestGApplication) ... ok
+test_local_and_remote_command_line (test_gio.TestGApplication) ... ok
+test_local_command_line (test_gio.TestGApplication) ... ok
+test_delete (test_gio.TestGFile) ... ok
+test_delete_async (test_gio.TestGFile) ... ok
+test_replace_contents (test_gio.TestGFile) ... ok
+test_tmp_exists (test_gio.TestGFile) ... ok
+test_change_event (test_gio.TestGSettings) ... ok
+test_constructor (test_gio.TestGSettings) ... ok
+test_dictionary_api (test_gio.TestGSettings) ... ok
+test_empty (test_gio.TestGSettings) ... ok
+test_get (test_gio.TestGSettings) ... ok
+test_native (test_gio.TestGSettings) ... ok
+test_set (test_gio.TestGSettings) ... ok
+test_file_enumerator (test_gio.TestGio) ... ok
+test_menu_item (test_gio.TestGio) ... ok
+test_array_in_crash (test_error.TestMarshalling) ... ok
+test_exception (test_error.TestMarshalling) ... ok
+test_out (test_error.TestMarshalling) ... ok
+test_out_transfer_none (test_error.TestMarshalling) ... ok
+test_return (test_error.TestMarshalling) ... ok
+test_vfunc_gerror_exception (test_error.TestMarshalling) ... ok
+test_vfunc_no_exception (test_error.TestMarshalling) ... ok
+tests_compare_two_gerrors_in_gvalue (test_error.TestMarshalling) ... ok
+test_attributes (test_error.TestType) ... ok
+test_inheritance (test_error.TestType) ... ok
+test_matches (test_error.TestType) ... ok
+test_new_literal (test_error.TestType) ... ok
+test_repr (test_error.TestType) ... ok
+test_str (test_error.TestType) ... ok
+test_gerror (test_internal_api.TestErrors) ... ok
+test_no_gerror (test_internal_api.TestErrors) ... ok
+test_int (test_internal_api.TestGValueConversion) ... ok
+test_int_array (test_internal_api.TestGValueConversion) ... ok
+test_str (test_internal_api.TestGValueConversion) ... ok
+test_str_array (test_internal_api.TestGValueConversion) ... ok
+test_create_ctor (test_internal_api.TestObject) ... ok
+test_new_refcount (test_internal_api.TestObject) ... ok
+test_pyobject_new_test_type (test_internal_api.TestObject) ... ok
+test_basic_types_limits (test_overrides_glib.TestConstants) ... ok
+test_bool (test_overrides_glib.TestGVariant) ... ok
+test_compare (test_overrides_glib.TestGVariant) ... ok
+test_create_array (test_overrides_glib.TestGVariant) ... ok
+test_create_complex (test_overrides_glib.TestGVariant) ... ok
+test_create_dictionary (test_overrides_glib.TestGVariant) ... ok
+test_create_errors (test_overrides_glib.TestGVariant) ... ok
+test_create_simple (test_overrides_glib.TestGVariant) ... ok
+test_create_tuple (test_overrides_glib.TestGVariant) ... ok
+test_create_variant (test_overrides_glib.TestGVariant) ... ok
+test_hash (test_overrides_glib.TestGVariant) ... ok
+test_iteration (test_overrides_glib.TestGVariant) ... ok
+test_new_tuple_sink (test_overrides_glib.TestGVariant) ... ok
+test_parse_error (test_overrides_glib.TestGVariant) ... ok
+test_parse_error_exceptions (test_overrides_glib.TestGVariant) ... ok
+test_repr (test_overrides_glib.TestGVariant) ... ok
+test_split_signature (test_overrides_glib.TestGVariant) ... ok
+test_str (test_overrides_glib.TestGVariant) ... ok
+test_unpack (test_overrides_glib.TestGVariant) ... ok
+test_add_remove_poll (test_source.TestSource) ... ok
+test_extra_init_args (test_source.TestSource) ... ok
+test_finalize (test_source.TestSource) ... ok
+test_get_current_time (test_source.TestSource) ... ok
+test_is_destroyed_context (test_source.TestSource) ... ok
+test_is_destroyed_simple (test_source.TestSource) ... ok
+test_out_of_scope_before_dispatch (test_source.TestSource) ... ok
+test_priority (test_source.TestSource) ... ok
+test_python_unref_with_active_source (test_source.TestSource) ... skipped 'https://bugzilla.gnome.org/show_bug.cgi?id=722387'
+test_recurse_property (test_source.TestSource) ... ok
+test_remove (test_source.TestSource) ... ok
+test_source_prepare (test_source.TestSource) ... ok
+test_sources (test_source.TestSource) ... ok
+test_idle_data (test_source.TestUserData) ... ok
+test_idle_data_priority (test_source.TestUserData) ... ok
+test_idle_method_callback_no_data (test_source.TestUserData) ... ok
+test_idle_method_callback_with_data (test_source.TestUserData) ... ok
+test_idle_multidata (test_source.TestUserData) ... ok
+test_idle_no_data (test_source.TestUserData) ... ok
+test_idle_no_data_priority (test_source.TestUserData) ... ok
+test_timeout_data (test_source.TestUserData) ... ok
+test_timeout_data_priority (test_source.TestUserData) ... ok
+test_timeout_multidata (test_source.TestUserData) ... ok
+test_timeout_no_data (test_source.TestUserData) ... ok
+test_timeout_no_data_priority (test_source.TestUserData) ... ok
+test_extension_module (test_thread.TestThread) ... ok
+test_cairo_context (test_cairo.Test) ... ok
+test_cairo_surface (test_cairo.Test) ... ok
+test_require_foreign (test_cairo.Test) ... ok
+test_cairo_font_options (test_cairo.TestPango) ... skipped 'Gtk not available'
+test_context (test_cairo.TestSignalMarshaling) ... ok
+test_font_face (test_cairo.TestSignalMarshaling) ... ok
+test_pattern (test_cairo.TestSignalMarshaling) ... ok
+test_scaled_font (test_cairo.TestSignalMarshaling) ... ok
+test_surface (test_cairo.TestSignalMarshaling) ... ok
+test_native_calls_async (test_gdbus.TestGDBusClient) ... ok
+test_native_calls_async_errors (test_gdbus.TestGDBusClient) ... ok
+test_native_calls_sync (test_gdbus.TestGDBusClient) ... ok
+test_native_calls_sync_errors (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_async (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_async_error (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_async_error_result (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_sync (test_gdbus.TestGDBusClient) ... dbus-daemon[18286]: [session uid=0 pid=18286] Reloaded configuration
+ok
+test_python_calls_sync_errors (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_sync_noargs (test_gdbus.TestGDBusClient) ... ok
+test_get_import_stacklevel (test_import_machinery.TestImporter) ... ok
+test_invalid_repository_module_name (test_import_machinery.TestImporter) ... ok
+test_require_version_warning (test_import_machinery.TestImporter) ... ok
+test_require_versions (test_import_machinery.TestImporter) ... ok
+test_get_introspection_module_caching (test_import_machinery.TestModule) ... ok
+test_module_dependency_loading (test_import_machinery.TestModule) ... ok
+test_static_binding_protection (test_import_machinery.TestModule) ... ok
+test_load_no_overrides (test_import_machinery.TestOverrides) ... ok
+test_load_overrides (test_import_machinery.TestOverrides) ... ok
+test_non_gi (test_import_machinery.TestOverrides) ... ok
+test_separate_path (test_import_machinery.TestOverrides) ... ok
+test_concurrency (test_mainloop.TestMainLoop) ... ok
+test_exception_handling (test_mainloop.TestMainLoop) ... ok
+test_sigint (test_mainloop.TestMainLoop) ... ok
+test_create (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_in_array (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_in_single (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_out_array (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_out_glist (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_repr (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_str (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_accumulator (test_signal.TestAccumulator) ... ok
+test_accumulator_first_wins (test_signal.TestAccumulator) ... ok
+test_accumulator_true_handled (test_signal.TestAccumulator) ... ok
+test_C_paramspec (test_signal.TestCMarshaller) ... ok
+test_double (test_signal.TestCMarshaller) ... ok
+test_float (test_signal.TestCMarshaller) ... ok
+test_gvalue (test_signal.TestCMarshaller) ... ok
+test_gvalue_implicit_int64 (test_signal.TestCMarshaller) ... expected failure
+test_gvalue_ret (test_signal.TestCMarshaller) ... ok
+test_int64 (test_signal.TestCMarshaller) ... ok
+test_object (test_signal.TestCMarshaller) ... ok
+test_paramspec (test_signal.TestCMarshaller) ... ok
+test_paramspec_in (test_signal.TestCMarshaller) ... ok
+test_string (test_signal.TestCMarshaller) ... ok
+test_test1 (test_signal.TestCMarshaller) ... ok
+test_test2 (test_signal.TestCMarshaller) ... ok
+test_test3 (test_signal.TestCMarshaller) ... ok
+test_test4 (test_signal.TestCMarshaller) ... ok
+test_chaining (test_signal.TestChaining) ... ok
+test_chaining2 (test_signal.TestChaining) ... ok
+test_disconnect (test_signal.TestClosures) ... ok
+test_disconnect_by_func (test_signal.TestClosures) ... ok
+test_gstring (test_signal.TestClosures) ... ok
+test_handler_block (test_signal.TestClosures) ... ok
+test_handler_block_method (test_signal.TestClosures) ... ok
+test_handler_pending (test_signal.TestClosures) ... ok
+test_handler_unblock (test_signal.TestClosures) ... ok
+test_signal_handlers_destroy (test_signal.TestClosures) ... ok
+test_stop_emission_by_name (test_signal.TestClosures) ... ok
+test_stop_emission_by_name_error (test_signal.TestClosures) ... ok
+test_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_and_swapped_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_and_swapped_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_and_swapped_2 (test_signal.TestConnectDataIntrospected) ... ok
+test_swaped_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_swaped_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_swaped_2 (test_signal.TestConnectDataIntrospected) ... ok
+test_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_and_swapped_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_and_swapped_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_and_swapped_2 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_swaped_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_swaped_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_swaped_2 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_0 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_1 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_2 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_after_0 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_after_1 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_after_2 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_0 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_1 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_2 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_after_0 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_after_1 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_after_2 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_0 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_1 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_2 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_after_0 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_after_1 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_after_2 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_0 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_1 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_2 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_after_0 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_after_1 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_after_2 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_add (test_signal.TestEmissionHook) ... ok
+test_callback_return_false (test_signal.TestEmissionHook) ... ok
+test_callback_return_true (test_signal.TestEmissionHook) ... ok
+test_callback_return_true_but_remove (test_signal.TestEmissionHook) ... ok
+test_remove (test_signal.TestEmissionHook) ... ok
+test_invalid_name (test_signal.TestGPropertyError) ... ok
+test_invalid_type (test_signal.TestGPropertyError) ... ok
+test_invalid_name (test_signal.TestGSignalsError) ... ok
+test_invalid_type (test_signal.TestGSignalsError) ... ok
+test_subclass_gets_empty_gsignals_dict (test_signal.TestInstallSignals) ... ok
+test_subclass_with_decorator_gets_gsignals_dict (test_signal.TestInstallSignals) ... ok
+test_array_parm (test_signal.TestIntrospectedSignals) ... skipped 'https://bugzilla.gnome.org/show_bug.cgi?id=669496'
+test_connect_after (test_signal.TestIntrospectedSignals) ... ok
+test_held_struct_ref (test_signal.TestIntrospectedSignals) ... ok
+test_int64_param_from_c (test_signal.TestIntrospectedSignals) ... ok
+test_int64_param_from_py (test_signal.TestIntrospectedSignals) ... ok
+test_intarray_ret (test_signal.TestIntrospectedSignals) ... ok
+test_object_param_signal (test_signal.TestIntrospectedSignals) ... ok
+test_uint64_param_from_c (test_signal.TestIntrospectedSignals) ... ok
+test_uint64_param_from_py (test_signal.TestIntrospectedSignals) ... ok
+test_list_names (test_signal.TestList) ... ok
+test_signal_handler_block_matching (test_signal.TestMatching) ... expected failure
+test_signal_handler_find (test_signal.TestMatching) ... ok
+test_none_null_boxed_conversion (test_signal.TestPyGValue) ... ok
+test_annotations (test_signal.TestPython3Signals) ... skipped 'Argument annotations require Python 3'
+test_emit_return (test_signal.TestPython3Signals) ... skipped 'Argument annotations require Python 3'
+test_callback_ref_count_del (test_signal.TestRefCountsIntrospected) ... ok
+test_callback_ref_count_disconnect (test_signal.TestRefCountsIntrospected) ... ok
+test_callback_ref_count_disconnect_by_func (test_signal.TestRefCountsIntrospected) ... ok
+test_object_ref_count (test_signal.TestRefCountsIntrospected) ... expected failure
+test_user_data_ref_count (test_signal.TestRefCountsIntrospected) ... ok
+test_callback_ref_count_del (test_signal.TestRefCountsNonIntrospected) ... ok
+test_callback_ref_count_disconnect (test_signal.TestRefCountsNonIntrospected) ... ok
+test_callback_ref_count_disconnect_by_func (test_signal.TestRefCountsNonIntrospected) ... ok
+test_object_ref_count (test_signal.TestRefCountsNonIntrospected) ... expected failure
+test_user_data_ref_count (test_signal.TestRefCountsNonIntrospected) ... ok
+test_emit_in_property_setter (test_signal.TestSigProp) ... ok
+test_signal_bound_connect (test_signal.TestSignalConnectors) ... ok
+test_signal_class_connect (test_signal.TestSignalConnectors) ... ok
+test_signal_emit (test_signal.TestSignalConnectors) ... ok
+test_signal_notify (test_signal.TestSignalConnectors) ... ok
+test_illegals (test_signal.TestSignalCreation) ... ok
+test_closures_called (test_signal.TestSignalDecorator) ... ok
+test_doc_string (test_signal.TestSignalDecorator) ... ok
+test_get_signal_args (test_signal.TestSignalDecorator) ... ok
+test_overridden_signal (test_signal.TestSignalDecorator) ... ok
+test_signal_copy (test_signal.TestSignalDecorator) ... ok
+test_unnamed_signal_gets_called (test_signal.TestSignalDecorator) ... ok
+test_unnamed_signal_gets_named (test_signal.TestSignalDecorator) ... ok
+test_signal_list_ids (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_list_ids_with_invalid_type (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_lookup (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_lookup_with_invalid_type (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_query (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_color (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_color_floats (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_color_parse (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_color_representations (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_constructor (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_cursor (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_repr (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_setattr (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_structures (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_touch (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_flags (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_rectangle_functions (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_rgba (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_array_boxed_struct_in (test_gi.TestArray) ... ok
+test_array_boxed_struct_in_item_marshal_failure (test_gi.TestArray) ... ok
+test_array_boxed_struct_return (test_gi.TestArray) ... ok
+test_array_boxed_struct_take_in (test_gi.TestArray) ... ok
+test_array_boxed_struct_value_in (test_gi.TestArray) ... ok
+test_array_boxed_struct_value_in_item_marshal_failure (test_gi.TestArray) ... ok
+test_array_enum_in (test_gi.TestArray) ... ok
+test_array_fixed_inout (test_gi.TestArray) ... ok
+test_array_fixed_int_in (test_gi.TestArray) ... ok
+test_array_fixed_int_return (test_gi.TestArray) ... ok
+test_array_fixed_out (test_gi.TestArray) ... ok
+test_array_fixed_out_struct (test_gi.TestArray) ... ok
+test_array_fixed_short_in (test_gi.TestArray) ... ok
+test_array_fixed_short_return (test_gi.TestArray) ... ok
+test_array_in (test_gi.TestArray) ... ok
+test_array_in_len_before (test_gi.TestArray) ... ok
+test_array_in_len_zero_terminated (test_gi.TestArray) ... ok
+test_array_in_nonzero_nonlen (test_gi.TestArray) ... ok
+test_array_inout (test_gi.TestArray) ... ok
+test_array_inout_etc (test_gi.TestArray) ... ok
+test_array_multi_array_key_value_in (test_gi.TestArray) ... ok
+test_array_out (test_gi.TestArray) ... ok
+test_array_out_etc (test_gi.TestArray) ... ok
+test_array_return (test_gi.TestArray) ... ok
+test_array_return_etc (test_gi.TestArray) ... ok
+test_array_simple_struct_in (test_gi.TestArray) ... ok
+test_array_simple_struct_in_item_marshal_failure (test_gi.TestArray) ... ok
+test_array_string_in (test_gi.TestArray) ... ok
+test_array_uint8_in (test_gi.TestArray) ... ok
+test_array_zero_terminated_in (test_gi.TestArray) ... ok
+test_array_zero_terminated_inout (test_gi.TestArray) ... ok
+test_array_zero_terminated_out (test_gi.TestArray) ... ok
+test_array_zero_terminated_return (test_gi.TestArray) ... ok
+test_array_zero_terminated_return_null (test_gi.TestArray) ... ok
+test_init_function (test_gi.TestArray) ... ok
+test_method_array_in (test_gi.TestArray) ... ok
+test_method_array_inout (test_gi.TestArray) ... ok
+test_method_array_out (test_gi.TestArray) ... ok
+test_method_array_return (test_gi.TestArray) ... ok
+test_array_gvariant_container_in (test_gi.TestArrayGVariant) ... ok
+test_array_gvariant_full_in (test_gi.TestArrayGVariant) ... ok
+test_array_gvariant_none_in (test_gi.TestArrayGVariant) ... ok
+test_bytearray_gvariant (test_gi.TestArrayGVariant) ... ok
+test_boolean_in (test_gi.TestBoolean) ... ok
+test_boolean_inout (test_gi.TestBoolean) ... ok
+test_boolean_out (test_gi.TestBoolean) ... ok
+test_boolean_return (test_gi.TestBoolean) ... ok
+test_multiple_out_args (test_gi.TestCallbacks) ... ok
+test_one_out_arg (test_gi.TestCallbacks) ... ok
+test_return_and_multiple_out_arg (test_gi.TestCallbacks) ... ok
+test_return_and_one_out_arg (test_gi.TestCallbacks) ... ok
+test_return_value_only (test_gi.TestCallbacks) ... ok
+test_constant_number (test_gi.TestConstant) ... ok
+test_constant_utf8 (test_gi.TestConstant) ... ok
+test_min_max_int (test_gi.TestConstant) ... ok
+test_deprecated_attribute_compat (test_gi.TestDeprecation) ... ok
+test_deprecated_attribute_warning (test_gi.TestDeprecation) ... ok
+test_deprecated_attribute_warning_coverage (test_gi.TestDeprecation) ... ok
+test_deprecated_init_ignored_keyword (test_gi.TestDeprecation) ... ok
+test_deprecated_init_no_keywords (test_gi.TestDeprecation) ... ok
+test_deprecated_init_no_keywords_out_of_order (test_gi.TestDeprecation) ... ok
+test_deprecated_init_with_aliases (test_gi.TestDeprecation) ... ok
+test_deprecated_init_with_defaults (test_gi.TestDeprecation) ... ok
+test_function (test_gi.TestDeprecation) ... ok
+test_method (test_gi.TestDeprecation) ... ok
+test_members_list (test_gi.TestDir) ... ok
+test_modules_list (test_gi.TestDir) ... ok
+test_double_in (test_gi.TestDouble) ... ok
+test_double_inout (test_gi.TestDouble) ... ok
+test_double_out (test_gi.TestDouble) ... ok
+test_double_return (test_gi.TestDouble) ... ok
+test_enum (test_gi.TestEnum) ... ok
+test_enum_add_type_error (test_gi.TestEnum) ... ok
+test_enum_gtype_name_is_namespaced (test_gi.TestEnum) ... ok
+test_enum_in (test_gi.TestEnum) ... ok
+test_enum_inout (test_gi.TestEnum) ... ok
+test_enum_out (test_gi.TestEnum) ... ok
+test_enum_return (test_gi.TestEnum) ... ok
+test_enum_second (test_gi.TestEnum) ... ok
+test_repr (test_gi.TestEnum) ... ok
+test_type_module_name (test_gi.TestEnum) ... ok
+test_value_nick_and_name (test_gi.TestEnum) ... ok
+test_vfunc_out_enum (test_gi.TestEnumVFuncResults) ... ok
+test_vfunc_return_enum (test_gi.TestEnumVFuncResults) ... ok
+test_filename_in (test_gi.TestFilename) ... ok
+test_filename_in_nullable (test_gi.TestFilename) ... ok
+test_filename_out (test_gi.TestFilename) ... ok
+test_filename_type_error (test_gi.TestFilename) ... ok
+test_float_in (test_gi.TestFloat) ... ok
+test_float_inout (test_gi.TestFloat) ... ok
+test_float_out (test_gi.TestFloat) ... ok
+test_float_return (test_gi.TestFloat) ... ok
+test_garray_int_none_in (test_gi.TestGArray) ... ok
+test_garray_int_none_return (test_gi.TestGArray) ... ok
+test_garray_uint64_none_in (test_gi.TestGArray) ... ok
+test_garray_uint64_none_return (test_gi.TestGArray) ... ok
+test_garray_utf8_container_inout (test_gi.TestGArray) ... ok
+test_garray_utf8_container_out (test_gi.TestGArray) ... ok
+test_garray_utf8_container_return (test_gi.TestGArray) ... ok
+test_garray_utf8_full_inout (test_gi.TestGArray) ... ok
+test_garray_utf8_full_out (test_gi.TestGArray) ... ok
+test_garray_utf8_full_out_caller_allocated (test_gi.TestGArray) ... ok
+test_garray_utf8_full_return (test_gi.TestGArray) ... ok
+test_garray_utf8_none_in (test_gi.TestGArray) ... ok
+test_garray_utf8_none_inout (test_gi.TestGArray) ... ok
+test_garray_utf8_none_out (test_gi.TestGArray) ... ok
+test_garray_utf8_none_return (test_gi.TestGArray) ... ok
+test_bytearray_full_return (test_gi.TestGByteArray) ... ok
+test_bytearray_none_in (test_gi.TestGByteArray) ... ok
+test_new (test_gi.TestGByteArray) ... ok
+test_compare (test_gi.TestGBytes) ... ok
+test_gbytes_create (test_gi.TestGBytes) ... ok
+test_gbytes_create_take (test_gi.TestGBytes) ... ok
+test_gbytes_full_return (test_gi.TestGBytes) ... ok
+test_gbytes_none_in (test_gi.TestGBytes) ... ok
+test_in (test_gi.TestGClosure) ... ok
+test_pass (test_gi.TestGClosure) ... ok
+test_type_error (test_gi.TestGClosure) ... ok
+test_genum (test_gi.TestGEnum) ... ok
+test_genum_in (test_gi.TestGEnum) ... ok
+test_genum_inout (test_gi.TestGEnum) ... ok
+test_genum_out (test_gi.TestGEnum) ... ok
+test_genum_return (test_gi.TestGEnum) ... ok
+test_repr (test_gi.TestGEnum) ... ok
+test_type_module_name (test_gi.TestGEnum) ... ok
+test_value_nick_and_name (test_gi.TestGEnum) ... ok
+test_flags (test_gi.TestGFlags) ... ok
+test_flags_in (test_gi.TestGFlags) ... ok
+test_flags_inout (test_gi.TestGFlags) ... ok
+test_flags_out (test_gi.TestGFlags) ... ok
+test_flags_return (test_gi.TestGFlags) ... ok
+test_flags_return_method (test_gi.TestGFlags) ... ok
+test_repr (test_gi.TestGFlags) ... ok
+test_type_module_name (test_gi.TestGFlags) ... ok
+test_value_nick_and_name (test_gi.TestGFlags) ... ok
+test_ghashtable_enum_none_in (test_gi.TestGHashTable) ... ok
+test_ghashtable_enum_none_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_container_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_full_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_none_in (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_none_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_none_return2 (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_container_inout (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_container_out (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_full_inout (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_full_out (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_none_in (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_none_inout (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_none_out (test_gi.TestGHashTable) ... ok
+test_warning (test_gi.TestGIWarning) ... ok
+test_glist_int_none_in (test_gi.TestGList) ... ok
+test_glist_int_none_in_error_getitem (test_gi.TestGList) ... ok
+test_glist_int_none_return (test_gi.TestGList) ... ok
+test_glist_uint32_none_in (test_gi.TestGList) ... ok
+test_glist_uint32_none_return (test_gi.TestGList) ... ok
+test_glist_utf8_container_inout (test_gi.TestGList) ... ok
+test_glist_utf8_container_out (test_gi.TestGList) ... ok
+test_glist_utf8_container_return (test_gi.TestGList) ... ok
+test_glist_utf8_full_inout (test_gi.TestGList) ... ok
+test_glist_utf8_full_out (test_gi.TestGList) ... ok
+test_glist_utf8_full_return (test_gi.TestGList) ... ok
+test_glist_utf8_none_in (test_gi.TestGList) ... ok
+test_glist_utf8_none_inout (test_gi.TestGList) ... ok
+test_glist_utf8_none_out (test_gi.TestGList) ... ok
+test_glist_utf8_none_return (test_gi.TestGList) ... ok
+test_nongir_repr (test_gi.TestGObject) ... ok
+test_object (test_gi.TestGObject) ... ok
+test_object_full_inout (test_gi.TestGObject) ... ok
+test_object_full_out (test_gi.TestGObject) ... ok
+test_object_full_return (test_gi.TestGObject) ... ok
+test_object_int (test_gi.TestGObject) ... ok
+test_object_method (test_gi.TestGObject) ... ok
+test_object_new (test_gi.TestGObject) ... ok
+test_object_none_in (test_gi.TestGObject) ... ok
+test_object_none_inout (test_gi.TestGObject) ... ok
+test_object_none_out (test_gi.TestGObject) ... ok
+test_object_none_return (test_gi.TestGObject) ... ok
+test_object_static_method (test_gi.TestGObject) ... ok
+test_repr (test_gi.TestGObject) ... ok
+test_sub_object (test_gi.TestGObject) ... ok
+test_sub_object_int (test_gi.TestGObject) ... ok
+test_sub_object_method (test_gi.TestGObject) ... ok
+test_sub_object_new (test_gi.TestGObject) ... ok
+test_sub_object_overwritten_method (test_gi.TestGObject) ... ok
+test_sub_object_static_method (test_gi.TestGObject) ... ok
+test_sub_object_sub_method (test_gi.TestGObject) ... ok
+test_gptrarray_utf8_container_inout (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_container_out (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_container_return (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_full_inout (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_full_out (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_full_return (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_in (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_inout (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_out (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_return (test_gi.TestGPtrArray) ... ok
+test_gslist_int_none_in (test_gi.TestGSList) ... ok
+test_gslist_int_none_in_error_getitem (test_gi.TestGSList) ... ok
+test_gslist_int_none_return (test_gi.TestGSList) ... ok
+test_gslist_utf8_container_inout (test_gi.TestGSList) ... ok
+test_gslist_utf8_container_out (test_gi.TestGSList) ... ok
+test_gslist_utf8_container_return (test_gi.TestGSList) ... ok
+test_gslist_utf8_full_inout (test_gi.TestGSList) ... ok
+test_gslist_utf8_full_out (test_gi.TestGSList) ... ok
+test_gslist_utf8_full_return (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_in (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_inout (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_out (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_return (test_gi.TestGSList) ... ok
+test_gstrv_in (test_gi.TestGStrv) ... ok
+test_gstrv_inout (test_gi.TestGStrv) ... ok
+test_gstrv_out (test_gi.TestGStrv) ... ok
+test_gstrv_return (test_gi.TestGStrv) ... ok
+test_gtype_in (test_gi.TestGType) ... ok
+test_gtype_inout (test_gi.TestGType) ... ok
+test_gtype_name (test_gi.TestGType) ... ok
+test_gtype_out (test_gi.TestGType) ... ok
+test_gtype_return (test_gi.TestGType) ... ok
+test_gvalue_boxed_ref_counts (test_gi.TestGValue) ... ok
+test_gvalue_flat_array_in (test_gi.TestGValue) ... ok
+test_gvalue_flat_array_in_item_marshal_failure (test_gi.TestGValue) ... ok
+test_gvalue_flat_array_out (test_gi.TestGValue) ... ok
+test_gvalue_gobject_ref_counts (test_gi.TestGValue) ... ok
+test_gvalue_in (test_gi.TestGValue) ... ok
+test_gvalue_in_enum (test_gi.TestGValue) ... ok
+test_gvalue_in_with_modification (test_gi.TestGValue) ... ok
+test_gvalue_in_with_type (test_gi.TestGValue) ... ok
+test_gvalue_inout (test_gi.TestGValue) ... ok
+test_gvalue_int64_in (test_gi.TestGValue) ... ok
+test_gvalue_int64_out (test_gi.TestGValue) ... ok
+test_gvalue_out (test_gi.TestGValue) ... ok
+test_gvalue_out_caller_allocates (test_gi.TestGValue) ... ok
+test_gvalue_return (test_gi.TestGValue) ... ok
+test_int_in (test_gi.TestInt) ... ok
+test_int_inout (test_gi.TestInt) ... ok
+test_int_out (test_gi.TestInt) ... ok
+test_int_return (test_gi.TestInt) ... ok
+test_int16_in (test_gi.TestInt16) ... ok
+test_int16_inout (test_gi.TestInt16) ... ok
+test_int16_out (test_gi.TestInt16) ... ok
+test_int16_return (test_gi.TestInt16) ... ok
+test_int32_in (test_gi.TestInt32) ... ok
+test_int32_inout (test_gi.TestInt32) ... ok
+test_int32_out (test_gi.TestInt32) ... ok
+test_int32_return (test_gi.TestInt32) ... ok
+test_int64_in (test_gi.TestInt64) ... ok
+test_int64_inout (test_gi.TestInt64) ... ok
+test_int64_out (test_gi.TestInt64) ... ok
+test_int64_return (test_gi.TestInt64) ... ok
+test_int8_in (test_gi.TestInt8) ... ok
+test_int8_inout (test_gi.TestInt8) ... ok
+test_int8_out (test_gi.TestInt8) ... ok
+test_int8_return (test_gi.TestInt8) ... ok
+test_clash (test_gi.TestInterfaceClash) ... ok
+test_implementation (test_gi.TestInterfaces) ... ok
+test_int8_int (test_gi.TestInterfaces) ... ok
+test_subclass (test_gi.TestInterfaces) ... ok
+test_subclass_override (test_gi.TestInterfaces) ... ok
+test_type_mismatch (test_gi.TestInterfaces) ... ok
+test_wrapper (test_gi.TestInterfaces) ... ok
+test_allow_none_as_default (test_gi.TestKeywordArgs) ... ok
+test_calling (test_gi.TestKeywordArgs) ... ok
+test_kwargs_are_not_modified (test_gi.TestKeywordArgs) ... ok
+test_type_errors (test_gi.TestKeywordArgs) ... ok
+test_function (test_gi.TestKeywords) ... ok
+test_method (test_gi.TestKeywords) ... ok
+test_struct_method (test_gi.TestKeywords) ... ok
+test_uppercase (test_gi.TestKeywords) ... ok
+test_long_in (test_gi.TestLong) ... ok
+test_long_inout (test_gi.TestLong) ... ok
+test_long_out (test_gi.TestLong) ... ok
+test_long_return (test_gi.TestLong) ... ok
+test_interface_collision (test_gi.TestMRO) ... ok
+test_mro (test_gi.TestMRO) ... ok
+test_old_style_mixin (test_gi.TestMRO) ... ok
+test_dir (test_gi.TestModule) ... ok
+test_help (test_gi.TestModule) ... ok
+test_path (test_gi.TestModule) ... ok
+test_str (test_gi.TestModule) ... ok
+test_int_out_out (test_gi.TestMultiOutputArgs) ... ok
+test_int_return_out (test_gi.TestMultiOutputArgs) ... ok
+test_flags (test_gi.TestNoTypeFlags) ... ok
+test_flags_gtype_name_is_namespaced (test_gi.TestNoTypeFlags) ... ok
+test_flags_in (test_gi.TestNoTypeFlags) ... ok
+test_flags_inout (test_gi.TestNoTypeFlags) ... ok
+test_flags_out (test_gi.TestNoTypeFlags) ... ok
+test_flags_return (test_gi.TestNoTypeFlags) ... ok
+test_repr (test_gi.TestNoTypeFlags) ... ok
+test_type_module_name (test_gi.TestNoTypeFlags) ... ok
+test_value_nick_and_name (test_gi.TestNoTypeFlags) ... ok
+test_constant (test_gi.TestOverrides) ... ok
+test_module_name (test_gi.TestOverrides) ... ok
+test_object (test_gi.TestOverrides) ... ok
+test_struct (test_gi.TestOverrides) ... ok
+test_param_spec_in_bool (test_gi.TestParamSpec) ... expected failure
+test_param_spec_out (test_gi.TestParamSpec) ... ok
+test_param_spec_return (test_gi.TestParamSpec) ... ok
+test_pointer_in_return (test_gi.TestPointer) ... ok
+test_check_version (test_gi.TestProjectVersion) ... ok
+test_version_info (test_gi.TestProjectVersion) ... ok
+test_version_str (test_gi.TestProjectVersion) ... ok
+test_callback_in_vfunc (test_gi.TestPythonGObject) ... ok
+test_callback_owned_box (test_gi.TestPythonGObject) ... ok
+test_exception_in_vfunc_return_value (test_gi.TestPythonGObject) ... ok
+test_interface3impl (test_gi.TestPythonGObject) ... ok
+test_native_function_not_set_in_subclass_dict (test_gi.TestPythonGObject) ... ok
+test_object (test_gi.TestPythonGObject) ... ok
+test_object_fail (test_gi.TestPythonGObject) ... ok
+test_object_method (test_gi.TestPythonGObject) ... ok
+test_object_vfuncs (test_gi.TestPythonGObject) ... ok
+test_python_subsubobject_vfunc (test_gi.TestPythonGObject) ... ok
+test_subobject_child_vfunc (test_gi.TestPythonGObject) ... ok
+test_subobject_non_vfunc_do_method (test_gi.TestPythonGObject) ... ok
+test_subobject_parent_vfunc (test_gi.TestPythonGObject) ... ok
+test_subobject_with_interface_and_non_vfunc_do_method (test_gi.TestPythonGObject) ... ok
+test_subsubobject (test_gi.TestPythonGObject) ... ok
+test_vfunc_return_ref_count (test_gi.TestPythonGObject) ... ok
+test_ssize_in (test_gi.TestSSize) ... ok
+test_ssize_inout (test_gi.TestSSize) ... ok
+test_ssize_out (test_gi.TestSSize) ... ok
+test_ssize_return (test_gi.TestSSize) ... ok
+test_short_in (test_gi.TestShort) ... ok
+test_short_inout (test_gi.TestShort) ... ok
+test_short_out (test_gi.TestShort) ... ok
+test_short_return (test_gi.TestShort) ... ok
+test_size_in (test_gi.TestSize) ... ok
+test_size_inout (test_gi.TestSize) ... ok
+test_size_out (test_gi.TestSize) ... ok
+test_size_return (test_gi.TestSize) ... ok
+test_boxed_struct (test_gi.TestStructure) ... ok
+test_boxed_struct_copy (test_gi.TestStructure) ... ok
+test_boxed_struct_in (test_gi.TestStructure) ... ok
+test_boxed_struct_inout (test_gi.TestStructure) ... ok
+test_boxed_struct_new (test_gi.TestStructure) ... ok
+test_boxed_struct_out (test_gi.TestStructure) ... ok
+test_boxed_struct_return (test_gi.TestStructure) ... ok
+test_nested_struct (test_gi.TestStructure) ... ok
+test_not_simple_struct (test_gi.TestStructure) ... ok
+test_pointer_struct (test_gi.TestStructure) ... ok
+test_pointer_struct_in (test_gi.TestStructure) ... ok
+test_pointer_struct_return (test_gi.TestStructure) ... ok
+test_repr (test_gi.TestStructure) ... ok
+test_simple_struct (test_gi.TestStructure) ... ok
+test_simple_struct_in (test_gi.TestStructure) ... ok
+test_simple_struct_method (test_gi.TestStructure) ... ok
+test_simple_struct_return (test_gi.TestStructure) ... ok
+test_struct_field_assignment (test_gi.TestStructure) ... ok
+test_union (test_gi.TestStructure) ... ok
+test_union_in (test_gi.TestStructure) ... ok
+test_union_init (test_gi.TestStructure) ... ok
+test_union_method (test_gi.TestStructure) ... ok
+test_union_return (test_gi.TestStructure) ... ok
+test_time_t_in (test_gi.TestTimet) ... ok
+test_time_t_inout (test_gi.TestTimet) ... ok
+test_time_t_out (test_gi.TestTimet) ... ok
+test_time_t_return (test_gi.TestTimet) ... ok
+test_uint_in (test_gi.TestUInt) ... ok
+test_uint_inout (test_gi.TestUInt) ... ok
+test_uint_out (test_gi.TestUInt) ... ok
+test_uint_return (test_gi.TestUInt) ... ok
+test_uint16_in (test_gi.TestUInt16) ... ok
+test_uint16_inout (test_gi.TestUInt16) ... ok
+test_uint16_out (test_gi.TestUInt16) ... ok
+test_uint16_return (test_gi.TestUInt16) ... ok
+test_uint32_in (test_gi.TestUInt32) ... ok
+test_uint32_inout (test_gi.TestUInt32) ... ok
+test_uint32_out (test_gi.TestUInt32) ... ok
+test_uint32_return (test_gi.TestUInt32) ... ok
+test_uint64_in (test_gi.TestUInt64) ... ok
+test_uint64_inout (test_gi.TestUInt64) ... ok
+test_uint64_out (test_gi.TestUInt64) ... ok
+test_uint64_return (test_gi.TestUInt64) ... ok
+test_uint8_in (test_gi.TestUInt8) ... ok
+test_uint8_inout (test_gi.TestUInt8) ... ok
+test_uint8_out (test_gi.TestUInt8) ... ok
+test_uint8_return (test_gi.TestUInt8) ... ok
+test_ulong_in (test_gi.TestULong) ... ok
+test_ulong_inout (test_gi.TestULong) ... ok
+test_ulong_out (test_gi.TestULong) ... ok
+test_ulong_return (test_gi.TestULong) ... ok
+test_ushort_in (test_gi.TestUShort) ... ok
+test_ushort_inout (test_gi.TestUShort) ... ok
+test_ushort_out (test_gi.TestUShort) ... ok
+test_ushort_return (test_gi.TestUShort) ... ok
+test_utf8_dangling_out (test_gi.TestUtf8) ... ok
+test_utf8_full_inout (test_gi.TestUtf8) ... ok
+test_utf8_full_out (test_gi.TestUtf8) ... ok
+test_utf8_full_return (test_gi.TestUtf8) ... ok
+test_utf8_none_in (test_gi.TestUtf8) ... ok
+test_utf8_none_inout (test_gi.TestUtf8) ... ok
+test_utf8_none_out (test_gi.TestUtf8) ... ok
+test_utf8_none_return (test_gi.TestUtf8) ... ok
+test_bad_option_error (test_option.TestOption) ... ok
+test_option_group_constructor (test_option.TestOption) ... ok
+test_option_value_error (test_option.TestOption) ... ok
+test_parse_args (test_option.TestOption) ... ok
+test_parse_args_double_dash (test_option.TestOption) ... ok
+test_parse_args_group (test_option.TestOption) ... ok
+test_standard_error (test_option.TestOption) ... ok
+test_appname (test_glib.TestGLib) ... ok
+test_current_time (test_glib.TestGLib) ... ok
+test_filenames (test_glib.TestGLib) ... ok
+test_find_program_in_path (test_glib.TestGLib) ... ok
+test_glib_version (test_glib.TestGLib) ... ok
+test_io_add_watch_no_data (test_glib.TestGLib) ... ok
+test_io_add_watch_pyfile (test_glib.TestGLib) ... ok
+test_io_add_watch_with_data (test_glib.TestGLib) ... ok
+test_io_add_watch_with_multiple_data (test_glib.TestGLib) ... ok
+test_main_context (test_glib.TestGLib) ... ok
+test_main_depth (test_glib.TestGLib) ... ok
+test_main_loop (test_glib.TestGLib) ... ok
+test_main_loop_with_context (test_glib.TestGLib) ... ok
+test_markup_escape_text (test_glib.TestGLib) ... ok
+test_progname (test_glib.TestGLib) ... ok
+test_pyglib_version (test_glib.TestGLib) ... ok
+test_source_attach_implicit_context (test_glib.TestGLib) ... ok
+test_timezone_constructor (test_glib.TestGLib) ... ok
+test_uri_extract (test_glib.TestGLib) ... ok
+test_xdg_dirs (test_glib.TestGLib) ... ok
+test_arg_info (test_repository.Test) ... ok
+test_base_info (test_repository.Test) ... ok
+test_callable_can_throw_gerror (test_repository.Test) ... ok
+test_callable_info (test_repository.Test) ... ok
+test_callable_inheritance (test_repository.Test) ... ok
+test_enum_double_registration_error (test_repository.Test) ... ok
+test_enum_info (test_repository.Test) ... ok
+test_enums (test_repository.Test) ... ok
+test_field_info (test_repository.Test) ... ok
+test_flags_double_registration_error (test_repository.Test) ... ok
+test_fundamental_object_info (test_repository.Test) ... ok
+test_interface_info (test_repository.Test) ... ok
+test_introspected_argument_info (test_repository.Test) ... ok
+test_method_info (test_repository.Test) ... ok
+test_notify_signal_info_with_obj (test_repository.Test) ... ok
+test_object_constructor (test_repository.Test) ... ok
+test_object_info (test_repository.Test) ... ok
+test_property_info (test_repository.Test) ... ok
+test_registered_type_info (test_repository.Test) ... ok
+test_repo_get_dependencies (test_repository.Test) ... ok
+test_repo_get_immediate_dependencies (test_repository.Test) ... ok
+test_repo_is_registered (test_repository.Test) ... ok
+test_signal_info (test_repository.Test) ... ok
+test_struct_info (test_repository.Test) ... ok
+test_type_info (test_repository.Test) ... ok
+test_union_info (test_repository.Test) ... ok
+test_vfunc_info (test_repository.Test) ... ok
+test_array_objs (test_everything.TestAdvancedInterfaces) ... ok
+test_obj_skip_return_val (test_everything.TestAdvancedInterfaces) ... ok
+test_obj_skip_return_val_no_out (test_everything.TestAdvancedInterfaces) ... ok
+test_boxed (test_everything.TestBoxed) ... ok
+test_boxed_alternative_constructor (test_everything.TestBoxed) ... ok
+test_boxed_b_constructor (test_everything.TestBoxed) ... ok
+test_boxed_c_equality (test_everything.TestBoxed) ... ok
+test_boxed_equality (test_everything.TestBoxed) ... ok
+test_async_ready_callback (test_everything.TestCallbacks) ... ok
+test_callback (test_everything.TestCallbacks) ... ok
+test_callback_exception (test_everything.TestCallbacks) ... ok
+test_callback_gerror (test_everything.TestCallbacks) ... ok
+test_callback_hashtable (test_everything.TestCallbacks) ... ok
+test_callback_in_methods (test_everything.TestCallbacks) ... ok
+test_callback_none (test_everything.TestCallbacks) ... ok
+test_callback_null_gerror (test_everything.TestCallbacks) ... ok
+test_callback_owned_gerror (test_everything.TestCallbacks) ... ok
+test_callback_scope_async (test_everything.TestCallbacks) ... ok
+test_callback_scope_call_array (test_everything.TestCallbacks) ... ok
+test_callback_scope_call_array_inout (test_everything.TestCallbacks) ... ok
+test_callback_scope_call_multi (test_everything.TestCallbacks) ... ok
+test_callback_scope_notified_with_destroy (test_everything.TestCallbacks) ... ok
+test_callback_scope_notified_with_destroy_no_user_data (test_everything.TestCallbacks) ... ok
+test_callback_user_data_middle_none (test_everything.TestCallbacks) ... ok
+test_callback_user_data_middle_single (test_everything.TestCallbacks) ... ok
+test_callback_user_data_middle_tuple (test_everything.TestCallbacks) ... ok
+test_callback_userdata (test_everything.TestCallbacks) ... ok
+test_callback_userdata_as_kwarg_tuple (test_everything.TestCallbacks) ... ok
+test_callback_userdata_no_user_data (test_everything.TestCallbacks) ... ok
+test_callback_userdata_varargs (test_everything.TestCallbacks) ... ok
+test_double_callback_exception (test_everything.TestCallbacks) ... ok
+test_return_value_callback (test_everything.TestCallbacks) ... ok
+test_int_arg (test_everything.TestClosures) ... ok
+test_no_arg (test_everything.TestClosures) ... ok
+test_variant (test_everything.TestClosures) ... ok
+test_variant_wrong_return_type (test_everything.TestClosures) ... ok
+test_array_fixed_size_int_in (test_everything.TestEverything) ... ok
+test_array_fixed_size_int_in_error (test_everything.TestEverything) ... ok
+test_array_fixed_size_int_out (test_everything.TestEverything) ... ok
+test_array_fixed_size_int_return (test_everything.TestEverything) ... ok
+test_array_gint16_in (test_everything.TestEverything) ... ok
+test_array_gint32_in (test_everything.TestEverything) ... ok
+test_array_gint64_in (test_everything.TestEverything) ... ok
+test_array_gint8_in (test_everything.TestEverything) ... ok
+test_array_gtype_in (test_everything.TestEverything) ... ok
+test_array_int_full_out (test_everything.TestEverything) ... ok
+test_array_int_in (test_everything.TestEverything) ... ok
+test_array_int_in_empty (test_everything.TestEverything) ... ok
+test_array_int_inout (test_everything.TestEverything) ... ok
+test_array_int_inout_empty (test_everything.TestEverything) ... ok
+test_array_int_none_out (test_everything.TestEverything) ... ok
+test_array_int_out (test_everything.TestEverything) ... ok
+test_bool (test_everything.TestEverything) ... ok
+test_caller_allocates (test_everything.TestEverything) ... ok
+test_dir (test_everything.TestEverything) ... ok
+test_double (test_everything.TestEverything) ... ok
+test_enum (test_everything.TestEverything) ... ok
+test_enum_unsigned (test_everything.TestEverything) ... expected failure
+test_filename_return (test_everything.TestEverything) ... ok
+test_flags (test_everything.TestEverything) ... ok
+test_float (test_everything.TestEverything) ... ok
+test_floating (test_everything.TestEverything) ... ok
+test_garray_container_return (test_everything.TestEverything) ... ok
+test_garray_full_return (test_everything.TestEverything) ... ok
+test_glist (test_everything.TestEverything) ... ok
+test_glist_gtype (test_everything.TestEverything) ... ok
+test_gslist (test_everything.TestEverything) ... ok
+test_gtypes (test_everything.TestEverything) ... ok
+test_hash_in (test_everything.TestEverything) ... ok
+test_hash_in_with_gvalue_strv (test_everything.TestEverything) ... ok
+test_hash_in_with_typed_strv (test_everything.TestEverything) ... ok
+test_hash_return (test_everything.TestEverything) ... ok
+test_int (test_everything.TestEverything) ... ok
+test_int16 (test_everything.TestEverything) ... ok
+test_int32 (test_everything.TestEverything) ... ok
+test_int64 (test_everything.TestEverything) ... ok
+test_int8 (test_everything.TestEverything) ... ok
+test_int_out_utf8 (test_everything.TestEverything) ... ok
+test_long (test_everything.TestEverything) ... ok
+test_short (test_everything.TestEverything) ... ok
+test_size (test_everything.TestEverything) ... ok
+test_struct_gpointer (test_everything.TestEverything) ... ok
+test_struct_opaque (test_everything.TestEverything) ... ok
+test_strv_in (test_everything.TestEverything) ... ok
+test_strv_in_gvalue (test_everything.TestEverything) ... ok
+test_strv_out (test_everything.TestEverything) ... ok
+test_strv_out_c (test_everything.TestEverything) ... ok
+test_strv_out_container (test_everything.TestEverything) ... ok
+test_strv_outarg (test_everything.TestEverything) ... ok
+test_timet (test_everything.TestEverything) ... ok
+test_unichar (test_everything.TestEverything) ... ok
+test_utf8_const_in (test_everything.TestEverything) ... ok
+test_utf8_const_return (test_everything.TestEverything) ... ok
+test_utf8_inout (test_everything.TestEverything) ... ok
+test_utf8_nonconst_return (test_everything.TestEverything) ... ok
+test_utf8_out (test_everything.TestEverything) ... ok
+test_utf8_out_nonconst_return (test_everything.TestEverything) ... ok
+test_utf8_out_out (test_everything.TestEverything) ... ok
+test_value (test_everything.TestEverything) ... ok
+test_variant (test_everything.TestEverything) ... ok
+test_wrong_type_of_arguments (test_everything.TestEverything) ... ok
+test_in_nullable_array (test_everything.TestNullableArgs) ... ok
+test_in_nullable_hash (test_everything.TestNullableArgs) ... ok
+test_in_nullable_list (test_everything.TestNullableArgs) ... ok
+test_in_nullable_object (test_everything.TestNullableArgs) ... ok
+test_in_nullable_string (test_everything.TestNullableArgs) ... ok
+test_out_nullable_array (test_everything.TestNullableArgs) ... ok
+test_out_nullable_hash (test_everything.TestNullableArgs) ... ok
+test_out_nullable_list (test_everything.TestNullableArgs) ... ok
+test_out_nullable_object (test_everything.TestNullableArgs) ... ok
+test_out_nullable_string (test_everything.TestNullableArgs) ... ok
+test_torture_profile (test_everything.TestTortureProfile) ... ok
+test_base (test_resulttuple.TestResultTuple) ... ok
+test_create (test_resulttuple.TestResultTuple) ... ok
+test_getatttr (test_resulttuple.TestResultTuple) ... ok
+test_gi (test_resulttuple.TestResultTuple) ... ok
+test_pickle (test_resulttuple.TestResultTuple) ... ok
+test_regress (test_resulttuple.TestResultTuple) ... ok
+test_repr_dir (test_resulttuple.TestResultTuple) ... ok
+test_repr_dir_empty (test_resulttuple.TestResultTuple) ... ok
+test_add_watch_no_data (test_iochannel.IOChannel) ... ok
+test_add_watch_with_data (test_iochannel.IOChannel) ... ok
+test_add_watch_with_multi_data (test_iochannel.IOChannel) ... ok
+test_backwards_compat_flags (test_iochannel.IOChannel) ... ok
+test_buffering (test_iochannel.IOChannel) ... ok
+test_deprecated_add_watch_no_data (test_iochannel.IOChannel) ... ok
+test_deprecated_add_watch_with_data (test_iochannel.IOChannel) ... ok
+test_deprecated_method_add_watch_data_priority (test_iochannel.IOChannel) ... ok
+test_deprecated_method_add_watch_no_data (test_iochannel.IOChannel) ... ok
+test_fd_read (test_iochannel.IOChannel) ... ok
+test_fd_write (test_iochannel.IOChannel) ... ok
+test_file_iter (test_iochannel.IOChannel) ... ok
+test_file_read (test_iochannel.IOChannel) ... ok
+test_file_readline_latin1 (test_iochannel.IOChannel) ... ok
+test_file_readline_utf8 (test_iochannel.IOChannel) ... ok
+test_file_readlines (test_iochannel.IOChannel) ... ok
+test_file_write (test_iochannel.IOChannel) ... ok
+test_file_writelines (test_iochannel.IOChannel) ... ok
+test_seek (test_iochannel.IOChannel) ... ok
+test_allow_none_with_user_data_defaults (test_docstring.Test) ... ok
+test_api (test_docstring.Test) ... ok
+test_array_inout_etc (test_docstring.Test) ... ok
+test_array_length_arg (test_docstring.Test) ... ok
+test_array_out_etc (test_docstring.Test) ... ok
+test_boolean_return (test_docstring.Test) ... ok
+test_class_doc_constructors (test_docstring.Test) ... ok
+test_final_signature_with_full_inout (test_docstring.Test) ... ok
+test_init_function (test_docstring.Test) ... ok
+test_may_return_none (test_docstring.Test) ... ok
+test_overridden_doc_is_not_clobbered (test_docstring.Test) ... ok
+test_private_struct_constructors (test_docstring.Test) ... skipped 'built without cairo support'
+test_shared_array_length_with_prior_out_arg (test_docstring.Test) ... skipped 'built without cairo support'
+test_struct_doc_constructors (test_docstring.Test) ... ok
+test_sub_class_doc (test_docstring.Test) ... ok
+test_sub_class_doc_setattr (test_docstring.Test) ... expected failure
+test_sub_class_no_doc (test_docstring.Test) ... ok
+test_annotated_glist (test_properties.TestCGetPropertyMethod) ... ok
+test_boolean (test_properties.TestCGetPropertyMethod) ... ok
+test_boxed_glist (test_properties.TestCGetPropertyMethod) ... ok
+test_boxed_glist_ctor (test_properties.TestCGetPropertyMethod) ... expected failure
+test_boxed_struct (test_properties.TestCGetPropertyMethod) ... ok
+test_char (test_properties.TestCGetPropertyMethod) ... ok
+test_double (test_properties.TestCGetPropertyMethod) ... ok
+test_float (test_properties.TestCGetPropertyMethod) ... ok
+test_gtype (test_properties.TestCGetPropertyMethod) ... ok
+test_hash_table (test_properties.TestCGetPropertyMethod) ... ok
+test_held_object_ref_count_getter (test_properties.TestCGetPropertyMethod) ... ok
+test_held_object_ref_count_setter (test_properties.TestCGetPropertyMethod) ... ok
+test_int (test_properties.TestCGetPropertyMethod) ... ok
+test_int64 (test_properties.TestCGetPropertyMethod) ... ok
+test_long (test_properties.TestCGetPropertyMethod) ... ok
+test_parent_class (test_properties.TestCGetPropertyMethod) ... ok
+test_set_object_property_to_invalid_type (test_properties.TestCGetPropertyMethod) ... ok
+test_setting_several_properties (test_properties.TestCGetPropertyMethod) ... ok
+test_strv (test_properties.TestCGetPropertyMethod) ... ok
+test_uchar (test_properties.TestCGetPropertyMethod) ... ok
+test_uint (test_properties.TestCGetPropertyMethod) ... ok
+test_uint64 (test_properties.TestCGetPropertyMethod) ... ok
+test_ulong (test_properties.TestCGetPropertyMethod) ... ok
+test_variant (test_properties.TestCGetPropertyMethod) ... ok
+test_annotated_glist (test_properties.TestCPropsAccessor) ... ok
+test_boolean (test_properties.TestCPropsAccessor) ... ok
+test_boxed_glist (test_properties.TestCPropsAccessor) ... ok
+test_boxed_glist_ctor (test_properties.TestCPropsAccessor) ... expected failure
+test_boxed_struct (test_properties.TestCPropsAccessor) ... ok
+test_char (test_properties.TestCPropsAccessor) ... ok
+test_double (test_properties.TestCPropsAccessor) ... ok
+test_float (test_properties.TestCPropsAccessor) ... ok
+test_gtype (test_properties.TestCPropsAccessor) ... ok
+test_hash_table (test_properties.TestCPropsAccessor) ... ok
+test_held_object_ref_count_getter (test_properties.TestCPropsAccessor) ... ok
+test_held_object_ref_count_setter (test_properties.TestCPropsAccessor) ... ok
+test_int (test_properties.TestCPropsAccessor) ... ok
+test_int64 (test_properties.TestCPropsAccessor) ... ok
+test_long (test_properties.TestCPropsAccessor) ... ok
+test_param_spec_dir (test_properties.TestCPropsAccessor) ... ok
+test_parent_class (test_properties.TestCPropsAccessor) ... ok
+test_props_accessor_dir (test_properties.TestCPropsAccessor) ... ok
+test_set_object_property_to_invalid_type (test_properties.TestCPropsAccessor) ... ok
+test_setting_several_properties (test_properties.TestCPropsAccessor) ... ok
+test_strv (test_properties.TestCPropsAccessor) ... ok
+test_uchar (test_properties.TestCPropsAccessor) ... ok
+test_uint (test_properties.TestCPropsAccessor) ... ok
+test_uint64 (test_properties.TestCPropsAccessor) ... ok
+test_ulong (test_properties.TestCPropsAccessor) ... ok
+test_variant (test_properties.TestCPropsAccessor) ... ok
+test_object_with_property_and_do_get_property_vfunc_raises (test_properties.TestInstallProperties) ... ok
+test_same_name_property_definitions_raises (test_properties.TestInstallProperties) ... ok
+test_subclass_with_decorator_gets_gproperties_dict (test_properties.TestInstallProperties) ... ok
+test_subclass_without_properties_is_not_modified (test_properties.TestInstallProperties) ... ok
+test_custom_getter (test_properties.TestProperty) ... ok
+test_custom_setter (test_properties.TestProperty) ... ok
+test_decorator_default (test_properties.TestProperty) ... ok
+test_decorator_private_setter (test_properties.TestProperty) ... ok
+test_decorator_with_call (test_properties.TestProperty) ... ok
+test_defaults (test_properties.TestProperty) ... ok
+test_doc_strings (test_properties.TestProperty) ... ok
+test_errors (test_properties.TestProperty) ... ok
+test_float_min (test_properties.TestProperty) ... ok
+test_getter_exception (test_properties.TestProperty) ... expected failure
+test_min_max (test_properties.TestProperty) ... ok
+test_multiple_instances (test_properties.TestProperty) ... ok
+test_name_with_underscore (test_properties.TestProperty) ... ok
+test_object_property (test_properties.TestProperty) ... ok
+test_object_subclass_property (test_properties.TestProperty) ... ok
+test_property_subclass (test_properties.TestProperty) ... ok
+test_property_subclass_c (test_properties.TestProperty) ... ok
+test_property_subclass_custom_setter (test_properties.TestProperty) ... ok
+test_property_subclass_custom_setter_error (test_properties.TestProperty) ... ok
+test_python_to_glib_type_mapping (test_properties.TestProperty) ... ok
+test_range (test_properties.TestProperty) ... ok
+test_reference_count (test_properties.TestProperty) ... ok
+test_simple (test_properties.TestProperty) ... ok
+test_override_gi_property (test_properties.TestPropertyInheritanceObject) ... ok
+test_override_python_property (test_properties.TestPropertyInheritanceObject) ... ok
+test_boxed (test_properties.TestPropertyObject) ... ok
+test_construct (test_properties.TestPropertyObject) ... ok
+test_construct_only (test_properties.TestPropertyObject) ... ok
+test_enum (test_properties.TestPropertyObject) ... ok
+test_flags (test_properties.TestPropertyObject) ... ok
+test_get_set (test_properties.TestPropertyObject) ... ok
+test_gtype (test_properties.TestPropertyObject) ... ok
+test_hasattr_on_class (test_properties.TestPropertyObject) ... ok
+test_hasattr_on_object (test_properties.TestPropertyObject) ... ok
+test_int_to_str (test_properties.TestPropertyObject) ... ok
+test_interface (test_properties.TestPropertyObject) ... ok
+test_iteration (test_properties.TestPropertyObject) ... ok
+test_multi (test_properties.TestPropertyObject) ... ok
+test_normal (test_properties.TestPropertyObject) ... ok
+test_range (test_properties.TestPropertyObject) ... ok
+test_set_on_class (test_properties.TestPropertyObject) ... ok
+test_strings (test_properties.TestPropertyObject) ... ok
+test_uint64 (test_properties.TestPropertyObject) ... ok
+test_uint64_default_value (test_properties.TestPropertyObject) ... ok
+test_utf8 (test_properties.TestPropertyObject) ... ok
+test_variant (test_properties.TestPropertyObject) ... ok
+test_variant_default (test_properties.TestPropertyObject) ... ok
+test_implement_interface (test_interface.TestIfaceImpl) ... ok
+test_reimplement_interface (test_interface.TestIfaceImpl) ... ok
+test_backwards_compat_flags (test_subprocess.TestProcess) ... ok
+test_child_watch_all_kwargs (test_subprocess.TestProcess) ... expected failure
+test_child_watch_no_data (test_subprocess.TestProcess) ... ok
+test_child_watch_with_data (test_subprocess.TestProcess) ... ok
+test_deprecated_child_watch_data_priority (test_subprocess.TestProcess) ... ok
+test_deprecated_child_watch_data_priority_kwargs (test_subprocess.TestProcess) ... ok
+test_deprecated_child_watch_no_data (test_subprocess.TestProcess) ... ok
+test_spawn_async_envp (test_subprocess.TestProcess) ... ok
+test_spawn_async_fds (test_subprocess.TestProcess) ... ok
+test_spawn_async_with_pipes (test_subprocess.TestProcess) ... ok
+test_iter_next_multiple (test_generictreemodel.TestIteration) ... skipped 'Gtk not available'
+test_iter_next_root (test_generictreemodel.TestIteration) ... skipped 'Gtk not available'
+test_c_tree_iter_user_data_as_pyobject (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_iteration_refs (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_leak_references_off (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_leak_references_on (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_row_deleted_frees_refs (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_get_column_type (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_flags (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_iter (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_n_columns (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_path (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_value (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_children (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_has_child (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_n_children (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_next (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_nth_child (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_parent (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_type_children (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_from_name (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_interfaces (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_is_a (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_name (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_parent (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_coerce_from_class (test_typeclass.TestCoercion) ... ok
+test_coerce_from_gtype (test_typeclass.TestCoercion) ... ok
+test_coerce_from_instance (test_typeclass.TestCoercion) ... ok
+test_marshalling_error (test_typeclass.TestCoercion) ... ok
+test_find_child_property (test_typeclass.TestTypeClassMethodsMovedToClass) ... ok
+test_list_child_properties (test_typeclass.TestTypeClassMethodsMovedToClass) ... ok
+test_break_keyword_escape (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_context_get_metrics (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_default_font_description (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_font_description (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_layout (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_freeze_notify_context (test_gobject.TestContextManagers) ... ok
+test_freeze_notify_context_error (test_gobject.TestContextManagers) ... ok
+test_freeze_notify_context_nested (test_gobject.TestContextManagers) ... ok
+test_freeze_notify_normal_usage_ref_counts (test_gobject.TestContextManagers) ... ok
+test_handler_block_context (test_gobject.TestContextManagers) ... ok
+test_handler_block_context_error (test_gobject.TestContextManagers) ... ok
+test_handler_block_context_nested (test_gobject.TestContextManagers) ... ok
+test_handler_block_normal_usage_ref_counts (test_gobject.TestContextManagers) ... ok
+test_compat_api (test_gobject.TestGObjectAPI) ... ok
+test_gobject_inheritance (test_gobject.TestGObjectAPI) ... ok
+test_gobject_unsupported_overrides (test_gobject.TestGObjectAPI) ... ok
+test_min_max_int (test_gobject.TestGObjectAPI) ... ok
+test_enum (test_gobject.TestGValue) ... ok
+test_flags (test_gobject.TestGValue) ... ok
+test_float (test_gobject.TestGValue) ... ok
+test_float_inf_nan (test_gobject.TestGValue) ... ok
+test_gerror_boxing (test_gobject.TestGValue) ... ok
+test_gerror_novalue (test_gobject.TestGValue) ... ok
+test_int (test_gobject.TestGValue) ... ok
+test_no_type (test_gobject.TestGValue) ... ok
+test_object (test_gobject.TestGValue) ... ok
+test_string (test_gobject.TestGValue) ... ok
+test_type_constant (test_gobject.TestGValue) ... ok
+test_value_array (test_gobject.TestGValue) ... ok
+test_bidirectional_binding (test_gobject.TestPropertyBindings) ... ok
+test_default_binding (test_gobject.TestPropertyBindings) ... ok
+test_explicit_unbind_clears_connection (test_gobject.TestPropertyBindings) ... ok
+test_reference_counts (test_gobject.TestPropertyBindings) ... ok
+test_transform_bidirectional (test_gobject.TestPropertyBindings) ... ok
+test_transform_from_only (test_gobject.TestPropertyBindings) ... ok
+test_transform_to_only (test_gobject.TestPropertyBindings) ... ok
+test_new_instance_has_two_refs (test_gobject.TestPythonReferenceCounting) ... ok
+test_new_instance_has_two_refs_using_gobject_new (test_gobject.TestPythonReferenceCounting) ... ok
+test_new_subclass_instance_has_two_refs (test_gobject.TestPythonReferenceCounting) ... ok
+test_new_subclass_instance_has_two_refs_using_gobject_new (test_gobject.TestPythonReferenceCounting) ... ok
+test_floating (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk_out_of_scope (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk_out_of_scope_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library_out_of_scope (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library_out_of_scope_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_regular_object (test_gobject.TestReferenceCounting) ... ok
+test_uninitialized_object (test_gobject.TestReferenceCounting) ... ok
+test_array_of_structs (test_fields.TestFields) ... ok
+test_double (test_fields.TestFields) ... ok
+test_enum (test_fields.TestFields) ... ok
+test_ghashtable (test_fields.TestFields) ... ok
+test_glist (test_fields.TestFields) ... ok
+test_gpointer (test_fields.TestFields) ... ok
+test_gptrarray (test_fields.TestFields) ... ok
+test_gtype (test_fields.TestFields) ... ok
+test_int (test_fields.TestFields) ... ok
+test_int8 (test_fields.TestFields) ... ok
+test_interface (test_fields.TestFields) ... ok
+test_long (test_fields.TestFields) ... ok
+test_struct (test_fields.TestFields) ... ok
+test_unichar (test_fields.TestFields) ... ok
+test_union (test_fields.TestFields) ... ok
+test_utf8 (test_fields.TestFields) ... ok
+test_instance_argument_base_type_error (test_object_marshaling.TestArgumentTypeErrors) ... ok
+test_instance_argument_error (test_object_marshaling.TestArgumentTypeErrors) ... ok
+test_object_argument_type_error (test_object_marshaling.TestArgumentTypeErrors) ... ok
+test_vfunc_in_object_transfer_full_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_in_object_transfer_none_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_out_object_transfer_full_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_out_object_transfer_none_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_return_object_transfer_full_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_return_object_transfer_none_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_in_floating_transfer_full_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_in_floating_transfer_none_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_out_object_transfer_full_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_out_object_transfer_none_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_return_object_transfer_full_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_return_object_transfer_none_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_in_object_transfer_full_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_in_object_transfer_none_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_out_object_transfer_full_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_out_object_transfer_none_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_return_object_transfer_full_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_return_object_transfer_none_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_in_object_transfer_full (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_in_object_transfer_none (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_out_object_transfer_full (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_out_object_transfer_none (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_return_object_transfer_full (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_return_object_transfer_none (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_self_arg_ref_count (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+
+----------------------------------------------------------------------
+Ran 1187 tests in 7.887s
+
+OK (skipped=131, expected failures=11)
+
+	torture test 1 (10000 iterations): 0.013241 secs
+	torture test 2 (10000 iterations): 0.130478 secs
+	torture test 3 (10000 iterations): 0.062609 secs
+	torture test 4 (10000 iterations): 0.102591 secs
+	====
+	Total: 0.308919 sec
+test_object (compat_test_pygtk.TestATKCompat) ... skipped 'Gtk not available'
+test_alignment (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_box (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_buttons (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_combobox_entry (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_enums (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_flags (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_gdk_window (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_keysyms (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_pixbuf (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_pixbuf_formats (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_pixbuf_loader (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_size_request (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_style (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_error_underline_path (compat_test_pygtk.TestPangoCairoCompat) ... skipped 'Gtk not available'
+test_layout (compat_test_pygtk.TestPangoCompat) ... skipped 'Gtk not available'
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK (skipped=16)
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+Making check in pygtkcompat
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+for f in __init__.py generictreemodel.py pygtkcompat.py; do \
+    [ -e ./$f ] || ln -s ../../pygtkcompat/$f ./$f; \
+done
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+Making check in .
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python3/../$f ./$f; \
+done
+make  check-local
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python3/../$f ./$f; \
+done
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+Making check in examples
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+Making check in gi
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+Making check in repository
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+Making check in overrides
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+Making check in _gobject
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/_gobject/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+ln -s -f .libs/_gi.cpython-36m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so
+ln -s -f .libs/_gi_cairo.cpython-36m-x86_64-linux-gnu.so _gi_cairo.cpython-36m-x86_64-linux-gnu.so
+make  check-local
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+ln -s -f .libs/_gi.cpython-36m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so
+ln -s -f .libs/_gi_cairo.cpython-36m-x86_64-linux-gnu.so _gi_cairo.cpython-36m-x86_64-linux-gnu.so
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+Making check in tests
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+make  libgimarshallingtests.la libregress.la testhelper.la
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+make[2]: 'libgimarshallingtests.la' is up to date.
+make[2]: 'libregress.la' is up to date.
+make[2]: 'testhelper.la' is up to date.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+make  check-local
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+test -L libgimarshallingtests.so || ln -s .libs/libgimarshallingtests.so libgimarshallingtests.so
+test -L libregress.so || ln -s .libs/libregress.so libregress.so
+test -L testhelper.so || ln -s .libs/testhelper.so testhelper.so
+  GEN      GIMarshallingTests-1.0.gir
+g-ir-scanner: link: ../libtool --mode=link --tag=CC cc -o /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectlD3lj8/GIMarshallingTests-1.0 -export-dynamic /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectlD3lj8/GIMarshallingTests-1.0.o -L. libgimarshallingtests.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+
+*** Warning: Linking the executable /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectlD3lj8/GIMarshallingTests-1.0 against the loadable module
+*** libgimarshallingtests.so is not portable!
+libtool: link: cc -o /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectlD3lj8/.libs/GIMarshallingTests-1.0 /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectlD3lj8/GIMarshallingTests-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgimarshallingtests.so -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -pthread -Wl,-rpath -Wl,/usr/lib/python3.6/site-packages/pygobject
+  GEN      GIMarshallingTests-1.0.typelib
+  GEN      Regress-1.0.gir
+g-ir-scanner: link: ../libtool --mode=link --tag=CC cc -o /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectM3jCR8/Regress-1.0 -export-dynamic /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectM3jCR8/Regress-1.0.o -L. libregress.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+
+*** Warning: Linking the executable /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectM3jCR8/Regress-1.0 against the loadable module
+*** libregress.so is not portable!
+libtool: link: cc -o /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectM3jCR8/.libs/Regress-1.0 /lfskernel/sources/boot/pygobject-3.24.1/python3/tests/tmp-introspectM3jCR8/Regress-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libregress.so -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -pthread -Wl,-rpath -Wl,/usr/lib/python3.6/site-packages/pygobject
+  GEN      Regress-1.0.typelib
+glib-compile-schemas --targetdir=. --schema-file=../../tests/org.gnome.test.gschema.xml
+PYTHONPATH=..:../tests:${PYTHONPATH:+:$PYTHONPATH} LD_LIBRARY_PATH=./.libs:$LD_LIBRARY_PATH GI_TYPELIB_PATH=.:$GI_TYPELIB_PATH XDG_DATA_DIRS=$XDG_DATA_DIRS:/usr/share MALLOC_PERTURB_=85 MALLOC_CHECK_=3 G_SLICE=debug-blocks TESTS_BUILDDIR=. dbus-run-session --  /usr/bin/python3 -Wd ../../tests/runtests.py; rc=$?; \
+[ "$rc" -ne 0 ] || [ -n "$TEST_NAMES" ] || { TEST_NAMES=compat_test_pygtk PYTHONPATH=..:../tests:${PYTHONPATH:+:$PYTHONPATH} LD_LIBRARY_PATH=./.libs:$LD_LIBRARY_PATH GI_TYPELIB_PATH=.:$GI_TYPELIB_PATH XDG_DATA_DIRS=$XDG_DATA_DIRS:/usr/share MALLOC_PERTURB_=85 MALLOC_CHECK_=3 G_SLICE=debug-blocks TESTS_BUILDDIR=. dbus-run-session --  /usr/bin/python3 -Wd -Werror::PendingDeprecationWarning -Werror::DeprecationWarning -Werror::RuntimeWarning ../../tests/runtests.py; rc=$?; }; \
+exit $rc
+/lfskernel/sources/boot/pygobject-3.24.1/tests/helper.py:108: DeprecationWarning: invalid escape sequence \.
+  message=".+ is deprecated and shouldn't be used anymore\. "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/helper.py:109: DeprecationWarning: invalid escape sequence \.
+  "It will be removed in a future version\.")
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_error.py:28: PyGIWarning: GIMarshallingTests was imported without specifying a version first. Use gi.require_version('GIMarshallingTests', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import GIMarshallingTests
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_cairo.py:12: PyGIWarning: Regress was imported without specifying a version first. Use gi.require_version('Regress', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Regress
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:1992: DeprecationWarning: invalid escape sequence \s
+  "<GIMarshallingTests.PointerStruct object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:1993: DeprecationWarning: invalid escape sequence \(
+  "\(void at 0x[^\s]+\)>")
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:1997: DeprecationWarning: invalid escape sequence \s
+  "<GIMarshallingTests.SimpleStruct object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:1998: DeprecationWarning: invalid escape sequence \(
+  "\(void at 0x[^\s]+\)>")
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2002: DeprecationWarning: invalid escape sequence \s
+  "<GIMarshallingTests.Union object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2003: DeprecationWarning: invalid escape sequence \(
+  "\(GIMarshallingTestsUnion at 0x[^\s]+\)>")
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2007: DeprecationWarning: invalid escape sequence \s
+  "<GIMarshallingTests.BoxedStruct object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2008: DeprecationWarning: invalid escape sequence \(
+  "\(GIMarshallingTestsBoxedStruct at 0x[^\s]+\)>")
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2143: DeprecationWarning: invalid escape sequence \s
+  "<GIMarshallingTests.Object object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2144: DeprecationWarning: invalid escape sequence \(
+  "\(GIMarshallingTestsObject at 0x[^\s]+\)>")
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2149: DeprecationWarning: invalid escape sequence \s
+  "<__gi__.GLocalFile object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2150: DeprecationWarning: invalid escape sequence \(
+  "\(GLocalFile at 0x[^\s]+\)>")
+test_builder (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_builder_with_handler_and_args (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_dict (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_no_handler_error (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_object (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_extract_handler_and_args_with_seq (test_overrides_gtk.TestBuilder) ... skipped 'Gtk not available'
+test_child_get_and_set (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_error (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_gvalue (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_return_with_explicit_gvalue (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_get_property_return_with_implicit_gvalue (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_child_set_property (test_overrides_gtk.TestContainer) ... skipped 'Gtk not available'
+test_about_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_actiongroup (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_actions (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_adjustment (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_buttons (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_color_selection_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_container (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_add_buttons (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_base (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_classes (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_deprecation_stacklevels (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_dialog_deprecations (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_drag_target_list (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_editable (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_file_chooser_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_file_chooser_dialog_default_action (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_font_selection_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_gtk_main (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_iconset (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_iconview (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_inheritance (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_label (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_message_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_recent_chooser_dialog (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_scrollbar (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_scrolledwindow (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_stock_lookup (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_table (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_toolbutton (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_uimanager (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_uimanager_nonascii (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_viewport (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_widget_drag_methods (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_widget_render_icon (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_window (test_overrides_gtk.TestGtk) ... skipped 'Gtk not available'
+test_class_closure_override_with_aliased_type (test_overrides_gtk.TestSignals) ... skipped 'Gtk not available'
+test_overlay_child_position (test_overrides_gtk.TestSignals) ... skipped 'Gtk not available'
+test_insert_text_signal_location_modification (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_text_buffer (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_text_buffer_search (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_text_iter (test_overrides_gtk.TestTextBuffer) ... skipped 'Gtk not available'
+test_filter_new_default (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store_performance (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store_signals (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_list_store_sort (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_signal_emission_tree_path_coerce (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_edit (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_filter (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_get_iter_fail (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_set_value_to_none (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_model_sort (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_path (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_row_sequence (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_row_slice (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_store (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_store_signals (test_overrides_gtk.TestTreeModel) ... skipped 'Gtk not available'
+test_tree_selection (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view_add_column_with_attributes (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view_column (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_tree_view_column_set_attributes (test_overrides_gtk.TestTreeView) ... skipped 'Gtk not available'
+test_style_get_property_error (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_style_get_property_gvalue (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_style_get_property_return_with_explicit_gvalue (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_style_get_property_return_with_implicit_gvalue (test_overrides_gtk.TestWidget) ... skipped 'Gtk not available'
+test_add_main_option (test_gio.TestGApplication) ... ok
+test_command_line (test_gio.TestGApplication) ... ok
+test_local_and_remote_command_line (test_gio.TestGApplication) ... ok
+test_local_command_line (test_gio.TestGApplication) ... ok
+test_delete (test_gio.TestGFile) ... ok
+test_delete_async (test_gio.TestGFile) ... ok
+test_replace_contents (test_gio.TestGFile) ... ok
+test_tmp_exists (test_gio.TestGFile) ... ok
+test_change_event (test_gio.TestGSettings) ... ok
+test_constructor (test_gio.TestGSettings) ... ok
+test_dictionary_api (test_gio.TestGSettings) ... ok
+test_empty (test_gio.TestGSettings) ... ok
+test_get (test_gio.TestGSettings) ... ok
+test_native (test_gio.TestGSettings) ... ok
+test_set (test_gio.TestGSettings) ... ok
+test_file_enumerator (test_gio.TestGio) ... ok
+test_menu_item (test_gio.TestGio) ... ok
+test_array_in_crash (test_error.TestMarshalling) ... ok
+test_exception (test_error.TestMarshalling) ... ok
+test_out (test_error.TestMarshalling) ... ok
+test_out_transfer_none (test_error.TestMarshalling) ... ok
+test_return (test_error.TestMarshalling) ... ok
+test_vfunc_gerror_exception (test_error.TestMarshalling) ... ok
+test_vfunc_no_exception (test_error.TestMarshalling) ... ok
+tests_compare_two_gerrors_in_gvalue (test_error.TestMarshalling) ... ok
+test_attributes (test_error.TestType) ... ok
+test_inheritance (test_error.TestType) ... ok
+test_matches (test_error.TestType) ... ok
+test_new_literal (test_error.TestType) ... ok
+test_repr (test_error.TestType) ... ok
+test_str (test_error.TestType) ... ok
+test_gerror (test_internal_api.TestErrors) ... ok
+test_no_gerror (test_internal_api.TestErrors) ... ok
+test_int (test_internal_api.TestGValueConversion) ... ok
+test_int_array (test_internal_api.TestGValueConversion) ... ok
+test_str (test_internal_api.TestGValueConversion) ... ok
+test_str_array (test_internal_api.TestGValueConversion) ... ok
+test_create_ctor (test_internal_api.TestObject) ... ok
+test_new_refcount (test_internal_api.TestObject) ... ok
+test_pyobject_new_test_type (test_internal_api.TestObject) ... ok
+test_basic_types_limits (test_overrides_glib.TestConstants) ... ok
+test_bool (test_overrides_glib.TestGVariant) ... ok
+test_compare (test_overrides_glib.TestGVariant) ... ok
+test_create_array (test_overrides_glib.TestGVariant) ... ok
+test_create_complex (test_overrides_glib.TestGVariant) ... ok
+test_create_dictionary (test_overrides_glib.TestGVariant) ... ok
+test_create_errors (test_overrides_glib.TestGVariant) ... ok
+test_create_simple (test_overrides_glib.TestGVariant) ... ok
+test_create_tuple (test_overrides_glib.TestGVariant) ... ok
+test_create_variant (test_overrides_glib.TestGVariant) ... ok
+test_hash (test_overrides_glib.TestGVariant) ... ok
+test_iteration (test_overrides_glib.TestGVariant) ... ok
+test_new_tuple_sink (test_overrides_glib.TestGVariant) ... ok
+test_parse_error (test_overrides_glib.TestGVariant) ... ok
+test_parse_error_exceptions (test_overrides_glib.TestGVariant) ... /lfskernel/sources/boot/pygobject-3.24.1/tests/test_overrides_glib.py:511: DeprecationWarning: Please use assertRaisesRegex instead.
+  42, source_str)
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_overrides_glib.py:516: DeprecationWarning: Please use assertRaisesRegex instead.
+  gerror, source_str)
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_overrides_glib.py:521: DeprecationWarning: Please use assertRaisesRegex instead.
+  gerror, source_str)
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_overrides_glib.py:526: DeprecationWarning: Please use assertRaisesRegex instead.
+  gerror, source_str)
+ok
+test_repr (test_overrides_glib.TestGVariant) ... ok
+test_split_signature (test_overrides_glib.TestGVariant) ... ok
+test_str (test_overrides_glib.TestGVariant) ... ok
+test_unpack (test_overrides_glib.TestGVariant) ... ok
+test_add_remove_poll (test_source.TestSource) ... Exception ignored in: <built-in method __del__ of Source object at 0x7f2eada74768>
+SystemError: <built-in method __del__ of Source object at 0x7f2eada74768> returned a result with an error set
+ok
+test_extra_init_args (test_source.TestSource) ... Exception ignored in: <built-in method __del__ of SourceWithInitArgs object at 0x7f2eada746a8>
+SystemError: <built-in method __del__ of SourceWithInitArgs object at 0x7f2eada746a8> returned a result with an error set
+ok
+test_finalize (test_source.TestSource) ... ok
+test_get_current_time (test_source.TestSource) ... ok
+test_is_destroyed_context (test_source.TestSource) ... Exception ignored in: <built-in method __del__ of Source object at 0x7f2eada746a8>
+SystemError: <built-in method __del__ of Source object at 0x7f2eada746a8> returned a result with an error set
+ok
+test_is_destroyed_simple (test_source.TestSource) ... Exception ignored in: <built-in method __del__ of Source object at 0x7f2eb33e7ca8>
+SystemError: <built-in method __del__ of Source object at 0x7f2eb33e7ca8> returned a result with an error set
+Exception ignored in: <built-in method __del__ of Source object at 0x7f2eada746a8>
+SystemError: <built-in method __del__ of Source object at 0x7f2eada746a8> returned a result with an error set
+ok
+test_out_of_scope_before_dispatch (test_source.TestSource) ... ok
+test_priority (test_source.TestSource) ... Exception ignored in: <built-in method __del__ of Source object at 0x7f2eb33e7ca8>
+SystemError: <built-in method __del__ of Source object at 0x7f2eb33e7ca8> returned a result with an error set
+ok
+test_python_unref_with_active_source (test_source.TestSource) ... skipped 'https://bugzilla.gnome.org/show_bug.cgi?id=722387'
+test_recurse_property (test_source.TestSource) ... ok
+test_remove (test_source.TestSource) ... ok
+test_source_prepare (test_source.TestSource) ... Exception ignored in: <built-in method __del__ of CustomTimeout object at 0x7f2eada746a8>
+SystemError: <built-in method __del__ of CustomTimeout object at 0x7f2eada746a8> returned a result with an error set
+ok
+test_sources (test_source.TestSource) ... Exception ignored in: <built-in method __del__ of MySource object at 0x7f2eada745e8>
+SystemError: <built-in method __del__ of MySource object at 0x7f2eada745e8> returned a result with an error set
+ok
+test_idle_data (test_source.TestUserData) ... ok
+test_idle_data_priority (test_source.TestUserData) ... ok
+test_idle_method_callback_no_data (test_source.TestUserData) ... ok
+test_idle_method_callback_with_data (test_source.TestUserData) ... ok
+test_idle_multidata (test_source.TestUserData) ... ok
+test_idle_no_data (test_source.TestUserData) ... ok
+test_idle_no_data_priority (test_source.TestUserData) ... ok
+test_timeout_data (test_source.TestUserData) ... ok
+test_timeout_data_priority (test_source.TestUserData) ... ok
+test_timeout_multidata (test_source.TestUserData) ... ok
+test_timeout_no_data (test_source.TestUserData) ... ok
+test_timeout_no_data_priority (test_source.TestUserData) ... ok
+test_extension_module (test_thread.TestThread) ... ok
+test_cairo_context (test_cairo.Test) ... ok
+test_cairo_surface (test_cairo.Test) ... ok
+test_require_foreign (test_cairo.Test) ... ok
+test_cairo_font_options (test_cairo.TestPango) ... skipped 'Gtk not available'
+test_context (test_cairo.TestSignalMarshaling) ... ok
+test_font_face (test_cairo.TestSignalMarshaling) ... ok
+test_pattern (test_cairo.TestSignalMarshaling) ... ok
+test_scaled_font (test_cairo.TestSignalMarshaling) ... ok
+test_surface (test_cairo.TestSignalMarshaling) ... ok
+test_native_calls_async (test_gdbus.TestGDBusClient) ... ok
+test_native_calls_async_errors (test_gdbus.TestGDBusClient) ... ok
+test_native_calls_sync (test_gdbus.TestGDBusClient) ... ok
+test_native_calls_sync_errors (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_async (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_async_error (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_async_error_result (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_sync (test_gdbus.TestGDBusClient) ... dbus-daemon[22630]: [session uid=0 pid=22630] Reloaded configuration
+ok
+test_python_calls_sync_errors (test_gdbus.TestGDBusClient) ... ok
+test_python_calls_sync_noargs (test_gdbus.TestGDBusClient) ... ok
+test_get_import_stacklevel (test_import_machinery.TestImporter) ... ok
+test_invalid_repository_module_name (test_import_machinery.TestImporter) ... ok
+test_require_version_warning (test_import_machinery.TestImporter) ... ok
+test_require_versions (test_import_machinery.TestImporter) ... ok
+test_get_introspection_module_caching (test_import_machinery.TestModule) ... ok
+test_module_dependency_loading (test_import_machinery.TestModule) ... ok
+test_static_binding_protection (test_import_machinery.TestModule) ... ok
+test_load_no_overrides (test_import_machinery.TestOverrides) ... ok
+test_load_overrides (test_import_machinery.TestOverrides) ... ok
+test_non_gi (test_import_machinery.TestOverrides) ... ok
+test_separate_path (test_import_machinery.TestOverrides) ... ok
+test_concurrency (test_mainloop.TestMainLoop) ... ok
+test_exception_handling (test_mainloop.TestMainLoop) ... ok
+test_sigint (test_mainloop.TestMainLoop) ... ok
+test_create (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_in_array (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_in_single (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_out_array (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_out_glist (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_repr (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_str (test_atoms.TestGdkAtom) ... skipped 'Gdk not available'
+test_accumulator (test_signal.TestAccumulator) ... ok
+test_accumulator_first_wins (test_signal.TestAccumulator) ... ok
+test_accumulator_true_handled (test_signal.TestAccumulator) ... ok
+test_C_paramspec (test_signal.TestCMarshaller) ... ok
+test_double (test_signal.TestCMarshaller) ... ok
+test_float (test_signal.TestCMarshaller) ... ok
+test_gvalue (test_signal.TestCMarshaller) ... ok
+test_gvalue_implicit_int64 (test_signal.TestCMarshaller) ... expected failure
+test_gvalue_ret (test_signal.TestCMarshaller) ... ok
+test_int64 (test_signal.TestCMarshaller) ... ok
+test_object (test_signal.TestCMarshaller) ... ok
+test_paramspec (test_signal.TestCMarshaller) ... ok
+test_paramspec_in (test_signal.TestCMarshaller) ... ok
+test_string (test_signal.TestCMarshaller) ... ok
+test_test1 (test_signal.TestCMarshaller) ... ok
+test_test2 (test_signal.TestCMarshaller) ... ok
+test_test3 (test_signal.TestCMarshaller) ... ok
+test_test4 (test_signal.TestCMarshaller) ... ok
+test_chaining (test_signal.TestChaining) ... ok
+test_chaining2 (test_signal.TestChaining) ... ok
+test_disconnect (test_signal.TestClosures) ... ok
+test_disconnect_by_func (test_signal.TestClosures) ... ok
+test_gstring (test_signal.TestClosures) ... ok
+test_handler_block (test_signal.TestClosures) ... ok
+test_handler_block_method (test_signal.TestClosures) ... ok
+test_handler_pending (test_signal.TestClosures) ... ok
+test_handler_unblock (test_signal.TestClosures) ... ok
+test_signal_handlers_destroy (test_signal.TestClosures) ... ok
+test_stop_emission_by_name (test_signal.TestClosures) ... ok
+test_stop_emission_by_name_error (test_signal.TestClosures) ... ok
+test_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_and_swapped_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_and_swapped_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_after_and_swapped_2 (test_signal.TestConnectDataIntrospected) ... ok
+test_swaped_0 (test_signal.TestConnectDataIntrospected) ... ok
+test_swaped_1 (test_signal.TestConnectDataIntrospected) ... ok
+test_swaped_2 (test_signal.TestConnectDataIntrospected) ... ok
+test_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_and_swapped_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_and_swapped_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_after_and_swapped_2 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_swaped_0 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_swaped_1 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_swaped_2 (test_signal.TestConnectDataNonIntrospected) ... ok
+test_0 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_1 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_2 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_after_0 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_after_1 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_after_2 (test_signal.TestConnectGObjectIntrospected) ... ok
+test_0 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_1 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_2 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_after_0 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_after_1 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_after_2 (test_signal.TestConnectGObjectNonIntrospected) ... ok
+test_0 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_1 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_2 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_after_0 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_after_1 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_after_2 (test_signal.TestConnectPyObjectIntrospected) ... ok
+test_0 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_1 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_2 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_after_0 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_after_1 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_after_2 (test_signal.TestConnectPyObjectNonIntrospected) ... ok
+test_add (test_signal.TestEmissionHook) ... ok
+test_callback_return_false (test_signal.TestEmissionHook) ... ok
+test_callback_return_true (test_signal.TestEmissionHook) ... ok
+test_callback_return_true_but_remove (test_signal.TestEmissionHook) ... ok
+test_remove (test_signal.TestEmissionHook) ... ok
+test_invalid_name (test_signal.TestGPropertyError) ... ok
+test_invalid_type (test_signal.TestGPropertyError) ... ok
+test_invalid_name (test_signal.TestGSignalsError) ... ok
+test_invalid_type (test_signal.TestGSignalsError) ... ok
+test_subclass_gets_empty_gsignals_dict (test_signal.TestInstallSignals) ... ok
+test_subclass_with_decorator_gets_gsignals_dict (test_signal.TestInstallSignals) ... ok
+test_array_parm (test_signal.TestIntrospectedSignals) ... skipped 'https://bugzilla.gnome.org/show_bug.cgi?id=669496'
+test_connect_after (test_signal.TestIntrospectedSignals) ... ok
+test_held_struct_ref (test_signal.TestIntrospectedSignals) ... ok
+test_int64_param_from_c (test_signal.TestIntrospectedSignals) ... ok
+test_int64_param_from_py (test_signal.TestIntrospectedSignals) ... ok
+test_intarray_ret (test_signal.TestIntrospectedSignals) ... ok
+test_object_param_signal (test_signal.TestIntrospectedSignals) ... ok
+test_uint64_param_from_c (test_signal.TestIntrospectedSignals) ... ok
+test_uint64_param_from_py (test_signal.TestIntrospectedSignals) ... ok
+test_list_names (test_signal.TestList) ... ok
+test_signal_handler_block_matching (test_signal.TestMatching) ... expected failure
+test_signal_handler_find (test_signal.TestMatching) ... ok
+test_none_null_boxed_conversion (test_signal.TestPyGValue) ... ok
+test_annotations (test_signal.TestPython3Signals) ... ok
+test_emit_return (test_signal.TestPython3Signals) ... ok
+test_callback_ref_count_del (test_signal.TestRefCountsIntrospected) ... ok
+test_callback_ref_count_disconnect (test_signal.TestRefCountsIntrospected) ... ok
+test_callback_ref_count_disconnect_by_func (test_signal.TestRefCountsIntrospected) ... ok
+test_object_ref_count (test_signal.TestRefCountsIntrospected) ... expected failure
+test_user_data_ref_count (test_signal.TestRefCountsIntrospected) ... ok
+test_callback_ref_count_del (test_signal.TestRefCountsNonIntrospected) ... ok
+test_callback_ref_count_disconnect (test_signal.TestRefCountsNonIntrospected) ... ok
+test_callback_ref_count_disconnect_by_func (test_signal.TestRefCountsNonIntrospected) ... ok
+test_object_ref_count (test_signal.TestRefCountsNonIntrospected) ... expected failure
+test_user_data_ref_count (test_signal.TestRefCountsNonIntrospected) ... ok
+test_emit_in_property_setter (test_signal.TestSigProp) ... ok
+test_signal_bound_connect (test_signal.TestSignalConnectors) ... ok
+test_signal_class_connect (test_signal.TestSignalConnectors) ... ok
+test_signal_emit (test_signal.TestSignalConnectors) ... ok
+test_signal_notify (test_signal.TestSignalConnectors) ... ok
+test_illegals (test_signal.TestSignalCreation) ... ok
+test_closures_called (test_signal.TestSignalDecorator) ... ok
+test_doc_string (test_signal.TestSignalDecorator) ... ok
+test_get_signal_args (test_signal.TestSignalDecorator) ... ok
+test_overridden_signal (test_signal.TestSignalDecorator) ... ok
+test_signal_copy (test_signal.TestSignalDecorator) ... ok
+test_unnamed_signal_gets_called (test_signal.TestSignalDecorator) ... ok
+test_unnamed_signal_gets_named (test_signal.TestSignalDecorator) ... ok
+test_signal_list_ids (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_list_ids_with_invalid_type (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_lookup (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_lookup_with_invalid_type (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_signal_query (test_signal.TestSignalModuleLevelFunctions) ... ok
+test_color (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_color_floats (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_color_parse (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_color_representations (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_constructor (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_cursor (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_repr (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_setattr (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_structures (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_event_touch (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_flags (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_rectangle_functions (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_rgba (test_overrides_gdk.TestGdk) ... skipped 'Gdk not available'
+test_array_boxed_struct_in (test_gi.TestArray) ... ok
+test_array_boxed_struct_in_item_marshal_failure (test_gi.TestArray) ... ok
+test_array_boxed_struct_return (test_gi.TestArray) ... ok
+test_array_boxed_struct_take_in (test_gi.TestArray) ... ok
+test_array_boxed_struct_value_in (test_gi.TestArray) ... ok
+test_array_boxed_struct_value_in_item_marshal_failure (test_gi.TestArray) ... ok
+test_array_enum_in (test_gi.TestArray) ... ok
+test_array_fixed_inout (test_gi.TestArray) ... ok
+test_array_fixed_int_in (test_gi.TestArray) ... ok
+test_array_fixed_int_return (test_gi.TestArray) ... ok
+test_array_fixed_out (test_gi.TestArray) ... ok
+test_array_fixed_out_struct (test_gi.TestArray) ... ok
+test_array_fixed_short_in (test_gi.TestArray) ... ok
+test_array_fixed_short_return (test_gi.TestArray) ... ok
+test_array_in (test_gi.TestArray) ... ok
+test_array_in_len_before (test_gi.TestArray) ... ok
+test_array_in_len_zero_terminated (test_gi.TestArray) ... ok
+test_array_in_nonzero_nonlen (test_gi.TestArray) ... ok
+test_array_inout (test_gi.TestArray) ... ok
+test_array_inout_etc (test_gi.TestArray) ... ok
+test_array_multi_array_key_value_in (test_gi.TestArray) ... ok
+test_array_out (test_gi.TestArray) ... ok
+test_array_out_etc (test_gi.TestArray) ... ok
+test_array_return (test_gi.TestArray) ... ok
+test_array_return_etc (test_gi.TestArray) ... ok
+test_array_simple_struct_in (test_gi.TestArray) ... ok
+test_array_simple_struct_in_item_marshal_failure (test_gi.TestArray) ... ok
+test_array_string_in (test_gi.TestArray) ... ok
+test_array_uint8_in (test_gi.TestArray) ... ok
+test_array_zero_terminated_in (test_gi.TestArray) ... ok
+test_array_zero_terminated_inout (test_gi.TestArray) ... ok
+test_array_zero_terminated_out (test_gi.TestArray) ... ok
+test_array_zero_terminated_return (test_gi.TestArray) ... ok
+test_array_zero_terminated_return_null (test_gi.TestArray) ... ok
+test_init_function (test_gi.TestArray) ... ok
+test_method_array_in (test_gi.TestArray) ... ok
+test_method_array_inout (test_gi.TestArray) ... ok
+test_method_array_out (test_gi.TestArray) ... ok
+test_method_array_return (test_gi.TestArray) ... ok
+test_array_gvariant_container_in (test_gi.TestArrayGVariant) ... ok
+test_array_gvariant_full_in (test_gi.TestArrayGVariant) ... ok
+test_array_gvariant_none_in (test_gi.TestArrayGVariant) ... ok
+test_bytearray_gvariant (test_gi.TestArrayGVariant) ... ok
+test_boolean_in (test_gi.TestBoolean) ... ok
+test_boolean_inout (test_gi.TestBoolean) ... ok
+test_boolean_out (test_gi.TestBoolean) ... ok
+test_boolean_return (test_gi.TestBoolean) ... ok
+test_multiple_out_args (test_gi.TestCallbacks) ... ok
+test_one_out_arg (test_gi.TestCallbacks) ... ok
+test_return_and_multiple_out_arg (test_gi.TestCallbacks) ... ok
+test_return_and_one_out_arg (test_gi.TestCallbacks) ... ok
+test_return_value_only (test_gi.TestCallbacks) ... ok
+test_constant_number (test_gi.TestConstant) ... ok
+test_constant_utf8 (test_gi.TestConstant) ... ok
+test_min_max_int (test_gi.TestConstant) ... ok
+test_deprecated_attribute_compat (test_gi.TestDeprecation) ... ok
+test_deprecated_attribute_warning (test_gi.TestDeprecation) ... ok
+test_deprecated_attribute_warning_coverage (test_gi.TestDeprecation) ... ok
+test_deprecated_init_ignored_keyword (test_gi.TestDeprecation) ... ok
+test_deprecated_init_no_keywords (test_gi.TestDeprecation) ... ok
+test_deprecated_init_no_keywords_out_of_order (test_gi.TestDeprecation) ... ok
+test_deprecated_init_with_aliases (test_gi.TestDeprecation) ... ok
+test_deprecated_init_with_defaults (test_gi.TestDeprecation) ... ok
+test_function (test_gi.TestDeprecation) ... ok
+test_method (test_gi.TestDeprecation) ... ok
+test_members_list (test_gi.TestDir) ... ok
+test_modules_list (test_gi.TestDir) ... ok
+test_double_in (test_gi.TestDouble) ... ok
+test_double_inout (test_gi.TestDouble) ... ok
+test_double_out (test_gi.TestDouble) ... ok
+test_double_return (test_gi.TestDouble) ... ok
+test_enum (test_gi.TestEnum) ... ok
+test_enum_add_type_error (test_gi.TestEnum) ... ok
+test_enum_gtype_name_is_namespaced (test_gi.TestEnum) ... ok
+test_enum_in (test_gi.TestEnum) ... ok
+test_enum_inout (test_gi.TestEnum) ... ok
+test_enum_out (test_gi.TestEnum) ... ok
+test_enum_return (test_gi.TestEnum) ... ok
+test_enum_second (test_gi.TestEnum) ... ok
+test_repr (test_gi.TestEnum) ... ok
+test_type_module_name (test_gi.TestEnum) ... ok
+test_value_nick_and_name (test_gi.TestEnum) ... ok
+test_vfunc_out_enum (test_gi.TestEnumVFuncResults) ... ok
+test_vfunc_return_enum (test_gi.TestEnumVFuncResults) ... ok
+test_filename_in (test_gi.TestFilename) ... ok
+test_filename_in_nullable (test_gi.TestFilename) ... ok
+test_filename_out (test_gi.TestFilename) ... ok
+test_filename_type_error (test_gi.TestFilename) ... ok
+test_float_in (test_gi.TestFloat) ... ok
+test_float_inout (test_gi.TestFloat) ... ok
+test_float_out (test_gi.TestFloat) ... ok
+test_float_return (test_gi.TestFloat) ... ok
+test_garray_int_none_in (test_gi.TestGArray) ... ok
+test_garray_int_none_return (test_gi.TestGArray) ... ok
+test_garray_uint64_none_in (test_gi.TestGArray) ... ok
+test_garray_uint64_none_return (test_gi.TestGArray) ... ok
+test_garray_utf8_container_inout (test_gi.TestGArray) ... ok
+test_garray_utf8_container_out (test_gi.TestGArray) ... ok
+test_garray_utf8_container_return (test_gi.TestGArray) ... ok
+test_garray_utf8_full_inout (test_gi.TestGArray) ... ok
+test_garray_utf8_full_out (test_gi.TestGArray) ... ok
+test_garray_utf8_full_out_caller_allocated (test_gi.TestGArray) ... ok
+test_garray_utf8_full_return (test_gi.TestGArray) ... ok
+test_garray_utf8_none_in (test_gi.TestGArray) ... ok
+test_garray_utf8_none_inout (test_gi.TestGArray) ... ok
+test_garray_utf8_none_out (test_gi.TestGArray) ... ok
+test_garray_utf8_none_return (test_gi.TestGArray) ... ok
+test_bytearray_full_return (test_gi.TestGByteArray) ... ok
+test_bytearray_none_in (test_gi.TestGByteArray) ... ok
+test_new (test_gi.TestGByteArray) ... ok
+test_compare (test_gi.TestGBytes) ... ok
+test_gbytes_create (test_gi.TestGBytes) ... ok
+test_gbytes_create_take (test_gi.TestGBytes) ... ok
+test_gbytes_full_return (test_gi.TestGBytes) ... ok
+test_gbytes_none_in (test_gi.TestGBytes) ... ok
+test_in (test_gi.TestGClosure) ... ok
+test_pass (test_gi.TestGClosure) ... ok
+test_type_error (test_gi.TestGClosure) ... ok
+test_genum (test_gi.TestGEnum) ... ok
+test_genum_in (test_gi.TestGEnum) ... ok
+test_genum_inout (test_gi.TestGEnum) ... ok
+test_genum_out (test_gi.TestGEnum) ... ok
+test_genum_return (test_gi.TestGEnum) ... ok
+test_repr (test_gi.TestGEnum) ... ok
+test_type_module_name (test_gi.TestGEnum) ... ok
+test_value_nick_and_name (test_gi.TestGEnum) ... ok
+test_flags (test_gi.TestGFlags) ... ok
+test_flags_in (test_gi.TestGFlags) ... ok
+test_flags_inout (test_gi.TestGFlags) ... ok
+test_flags_out (test_gi.TestGFlags) ... ok
+test_flags_return (test_gi.TestGFlags) ... ok
+test_flags_return_method (test_gi.TestGFlags) ... ok
+test_repr (test_gi.TestGFlags) ... ok
+test_type_module_name (test_gi.TestGFlags) ... ok
+test_value_nick_and_name (test_gi.TestGFlags) ... ok
+test_ghashtable_enum_none_in (test_gi.TestGHashTable) ... ok
+test_ghashtable_enum_none_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_container_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_full_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_none_in (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_none_return (test_gi.TestGHashTable) ... ok
+test_ghashtable_int_none_return2 (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_container_inout (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_container_out (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_full_inout (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_full_out (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_none_in (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_none_inout (test_gi.TestGHashTable) ... ok
+test_ghashtable_utf8_none_out (test_gi.TestGHashTable) ... ok
+test_warning (test_gi.TestGIWarning) ... ok
+test_glist_int_none_in (test_gi.TestGList) ... ok
+test_glist_int_none_in_error_getitem (test_gi.TestGList) ... ok
+test_glist_int_none_return (test_gi.TestGList) ... ok
+test_glist_uint32_none_in (test_gi.TestGList) ... ok
+test_glist_uint32_none_return (test_gi.TestGList) ... ok
+test_glist_utf8_container_inout (test_gi.TestGList) ... ok
+test_glist_utf8_container_out (test_gi.TestGList) ... ok
+test_glist_utf8_container_return (test_gi.TestGList) ... ok
+test_glist_utf8_full_inout (test_gi.TestGList) ... ok
+test_glist_utf8_full_out (test_gi.TestGList) ... ok
+test_glist_utf8_full_return (test_gi.TestGList) ... ok
+test_glist_utf8_none_in (test_gi.TestGList) ... ok
+test_glist_utf8_none_inout (test_gi.TestGList) ... ok
+test_glist_utf8_none_out (test_gi.TestGList) ... ok
+test_glist_utf8_none_return (test_gi.TestGList) ... ok
+test_nongir_repr (test_gi.TestGObject) ... /lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2149: DeprecationWarning: Please use assertRegex instead.
+  "<__gi__.GLocalFile object at 0x[^\s]+ "
+ok
+test_object (test_gi.TestGObject) ... ok
+test_object_full_inout (test_gi.TestGObject) ... ok
+test_object_full_out (test_gi.TestGObject) ... ok
+test_object_full_return (test_gi.TestGObject) ... ok
+test_object_int (test_gi.TestGObject) ... ok
+test_object_method (test_gi.TestGObject) ... ok
+test_object_new (test_gi.TestGObject) ... ok
+test_object_none_in (test_gi.TestGObject) ... ok
+test_object_none_inout (test_gi.TestGObject) ... ok
+test_object_none_out (test_gi.TestGObject) ... ok
+test_object_none_return (test_gi.TestGObject) ... ok
+test_object_static_method (test_gi.TestGObject) ... ok
+test_repr (test_gi.TestGObject) ... /lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2143: DeprecationWarning: Please use assertRegex instead.
+  "<GIMarshallingTests.Object object at 0x[^\s]+ "
+ok
+test_sub_object (test_gi.TestGObject) ... ok
+test_sub_object_int (test_gi.TestGObject) ... ok
+test_sub_object_method (test_gi.TestGObject) ... ok
+test_sub_object_new (test_gi.TestGObject) ... ok
+test_sub_object_overwritten_method (test_gi.TestGObject) ... ok
+test_sub_object_static_method (test_gi.TestGObject) ... ok
+test_sub_object_sub_method (test_gi.TestGObject) ... ok
+test_gptrarray_utf8_container_inout (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_container_out (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_container_return (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_full_inout (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_full_out (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_full_return (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_in (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_inout (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_out (test_gi.TestGPtrArray) ... ok
+test_gptrarray_utf8_none_return (test_gi.TestGPtrArray) ... ok
+test_gslist_int_none_in (test_gi.TestGSList) ... ok
+test_gslist_int_none_in_error_getitem (test_gi.TestGSList) ... ok
+test_gslist_int_none_return (test_gi.TestGSList) ... ok
+test_gslist_utf8_container_inout (test_gi.TestGSList) ... ok
+test_gslist_utf8_container_out (test_gi.TestGSList) ... ok
+test_gslist_utf8_container_return (test_gi.TestGSList) ... ok
+test_gslist_utf8_full_inout (test_gi.TestGSList) ... ok
+test_gslist_utf8_full_out (test_gi.TestGSList) ... ok
+test_gslist_utf8_full_return (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_in (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_inout (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_out (test_gi.TestGSList) ... ok
+test_gslist_utf8_none_return (test_gi.TestGSList) ... ok
+test_gstrv_in (test_gi.TestGStrv) ... ok
+test_gstrv_inout (test_gi.TestGStrv) ... ok
+test_gstrv_out (test_gi.TestGStrv) ... ok
+test_gstrv_return (test_gi.TestGStrv) ... ok
+test_gtype_in (test_gi.TestGType) ... ok
+test_gtype_inout (test_gi.TestGType) ... ok
+test_gtype_name (test_gi.TestGType) ... ok
+test_gtype_out (test_gi.TestGType) ... ok
+test_gtype_return (test_gi.TestGType) ... ok
+test_gvalue_boxed_ref_counts (test_gi.TestGValue) ... ok
+test_gvalue_flat_array_in (test_gi.TestGValue) ... ok
+test_gvalue_flat_array_in_item_marshal_failure (test_gi.TestGValue) ... ok
+test_gvalue_flat_array_out (test_gi.TestGValue) ... ok
+test_gvalue_gobject_ref_counts (test_gi.TestGValue) ... ok
+test_gvalue_in (test_gi.TestGValue) ... ok
+test_gvalue_in_enum (test_gi.TestGValue) ... ok
+test_gvalue_in_with_modification (test_gi.TestGValue) ... ok
+test_gvalue_in_with_type (test_gi.TestGValue) ... ok
+test_gvalue_inout (test_gi.TestGValue) ... ok
+test_gvalue_int64_in (test_gi.TestGValue) ... ok
+test_gvalue_int64_out (test_gi.TestGValue) ... ok
+test_gvalue_out (test_gi.TestGValue) ... ok
+test_gvalue_out_caller_allocates (test_gi.TestGValue) ... ok
+test_gvalue_return (test_gi.TestGValue) ... ok
+test_int_in (test_gi.TestInt) ... ok
+test_int_inout (test_gi.TestInt) ... ok
+test_int_out (test_gi.TestInt) ... ok
+test_int_return (test_gi.TestInt) ... ok
+test_int16_in (test_gi.TestInt16) ... ok
+test_int16_inout (test_gi.TestInt16) ... ok
+test_int16_out (test_gi.TestInt16) ... ok
+test_int16_return (test_gi.TestInt16) ... ok
+test_int32_in (test_gi.TestInt32) ... ok
+test_int32_inout (test_gi.TestInt32) ... ok
+test_int32_out (test_gi.TestInt32) ... ok
+test_int32_return (test_gi.TestInt32) ... ok
+test_int64_in (test_gi.TestInt64) ... ok
+test_int64_inout (test_gi.TestInt64) ... ok
+test_int64_out (test_gi.TestInt64) ... ok
+test_int64_return (test_gi.TestInt64) ... ok
+test_int8_in (test_gi.TestInt8) ... ok
+test_int8_inout (test_gi.TestInt8) ... ok
+test_int8_out (test_gi.TestInt8) ... ok
+test_int8_return (test_gi.TestInt8) ... ok
+test_clash (test_gi.TestInterfaceClash) ... ok
+test_implementation (test_gi.TestInterfaces) ... ok
+test_int8_int (test_gi.TestInterfaces) ... ok
+test_subclass (test_gi.TestInterfaces) ... ok
+test_subclass_override (test_gi.TestInterfaces) ... ok
+test_type_mismatch (test_gi.TestInterfaces) ... ok
+test_wrapper (test_gi.TestInterfaces) ... ok
+test_allow_none_as_default (test_gi.TestKeywordArgs) ... ok
+test_calling (test_gi.TestKeywordArgs) ... ok
+test_kwargs_are_not_modified (test_gi.TestKeywordArgs) ... ok
+test_type_errors (test_gi.TestKeywordArgs) ... ok
+test_function (test_gi.TestKeywords) ... ok
+test_method (test_gi.TestKeywords) ... ok
+test_struct_method (test_gi.TestKeywords) ... ok
+test_uppercase (test_gi.TestKeywords) ... ok
+test_long_in (test_gi.TestLong) ... ok
+test_long_inout (test_gi.TestLong) ... ok
+test_long_out (test_gi.TestLong) ... ok
+test_long_return (test_gi.TestLong) ... ok
+test_interface_collision (test_gi.TestMRO) ... ok
+test_mro (test_gi.TestMRO) ... ok
+test_old_style_mixin (test_gi.TestMRO) ... ok
+test_dir (test_gi.TestModule) ... ok
+test_help (test_gi.TestModule) ... ok
+test_path (test_gi.TestModule) ... ok
+test_str (test_gi.TestModule) ... ok
+test_int_out_out (test_gi.TestMultiOutputArgs) ... ok
+test_int_return_out (test_gi.TestMultiOutputArgs) ... ok
+test_flags (test_gi.TestNoTypeFlags) ... ok
+test_flags_gtype_name_is_namespaced (test_gi.TestNoTypeFlags) ... ok
+test_flags_in (test_gi.TestNoTypeFlags) ... ok
+test_flags_inout (test_gi.TestNoTypeFlags) ... ok
+test_flags_out (test_gi.TestNoTypeFlags) ... ok
+test_flags_return (test_gi.TestNoTypeFlags) ... ok
+test_repr (test_gi.TestNoTypeFlags) ... ok
+test_type_module_name (test_gi.TestNoTypeFlags) ... ok
+test_value_nick_and_name (test_gi.TestNoTypeFlags) ... ok
+test_constant (test_gi.TestOverrides) ... ok
+test_module_name (test_gi.TestOverrides) ... ok
+test_object (test_gi.TestOverrides) ... ok
+test_struct (test_gi.TestOverrides) ... ok
+test_param_spec_in_bool (test_gi.TestParamSpec) ... expected failure
+test_param_spec_out (test_gi.TestParamSpec) ... ok
+test_param_spec_return (test_gi.TestParamSpec) ... ok
+test_pointer_in_return (test_gi.TestPointer) ... ok
+test_check_version (test_gi.TestProjectVersion) ... ok
+test_version_info (test_gi.TestProjectVersion) ... ok
+test_version_str (test_gi.TestProjectVersion) ... ok
+test_callback_in_vfunc (test_gi.TestPythonGObject) ... ok
+test_callback_owned_box (test_gi.TestPythonGObject) ... ok
+test_exception_in_vfunc_return_value (test_gi.TestPythonGObject) ... ok
+test_interface3impl (test_gi.TestPythonGObject) ... ok
+test_native_function_not_set_in_subclass_dict (test_gi.TestPythonGObject) ... ok
+test_object (test_gi.TestPythonGObject) ... ok
+test_object_fail (test_gi.TestPythonGObject) ... ok
+test_object_method (test_gi.TestPythonGObject) ... ok
+test_object_vfuncs (test_gi.TestPythonGObject) ... ok
+test_python_subsubobject_vfunc (test_gi.TestPythonGObject) ... ok
+test_subobject_child_vfunc (test_gi.TestPythonGObject) ... ok
+test_subobject_non_vfunc_do_method (test_gi.TestPythonGObject) ... ok
+test_subobject_parent_vfunc (test_gi.TestPythonGObject) ... ok
+test_subobject_with_interface_and_non_vfunc_do_method (test_gi.TestPythonGObject) ... ok
+test_subsubobject (test_gi.TestPythonGObject) ... ok
+test_vfunc_return_ref_count (test_gi.TestPythonGObject) ... ok
+test_ssize_in (test_gi.TestSSize) ... ok
+test_ssize_inout (test_gi.TestSSize) ... ok
+test_ssize_out (test_gi.TestSSize) ... ok
+test_ssize_return (test_gi.TestSSize) ... ok
+test_short_in (test_gi.TestShort) ... ok
+test_short_inout (test_gi.TestShort) ... ok
+test_short_out (test_gi.TestShort) ... ok
+test_short_return (test_gi.TestShort) ... ok
+test_size_in (test_gi.TestSize) ... ok
+test_size_inout (test_gi.TestSize) ... ok
+test_size_out (test_gi.TestSize) ... ok
+test_size_return (test_gi.TestSize) ... ok
+test_boxed_struct (test_gi.TestStructure) ... ok
+test_boxed_struct_copy (test_gi.TestStructure) ... ok
+test_boxed_struct_in (test_gi.TestStructure) ... ok
+test_boxed_struct_inout (test_gi.TestStructure) ... ok
+test_boxed_struct_new (test_gi.TestStructure) ... ok
+test_boxed_struct_out (test_gi.TestStructure) ... ok
+test_boxed_struct_return (test_gi.TestStructure) ... ok
+test_nested_struct (test_gi.TestStructure) ... ok
+test_not_simple_struct (test_gi.TestStructure) ... ok
+test_pointer_struct (test_gi.TestStructure) ... ok
+test_pointer_struct_in (test_gi.TestStructure) ... ok
+test_pointer_struct_return (test_gi.TestStructure) ... ok
+test_repr (test_gi.TestStructure) ... /lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:1992: DeprecationWarning: Please use assertRegex instead.
+  "<GIMarshallingTests.PointerStruct object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:1997: DeprecationWarning: Please use assertRegex instead.
+  "<GIMarshallingTests.SimpleStruct object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2002: DeprecationWarning: Please use assertRegex instead.
+  "<GIMarshallingTests.Union object at 0x[^\s]+ "
+/lfskernel/sources/boot/pygobject-3.24.1/tests/test_gi.py:2007: DeprecationWarning: Please use assertRegex instead.
+  "<GIMarshallingTests.BoxedStruct object at 0x[^\s]+ "
+ok
+test_simple_struct (test_gi.TestStructure) ... ok
+test_simple_struct_in (test_gi.TestStructure) ... ok
+test_simple_struct_method (test_gi.TestStructure) ... ok
+test_simple_struct_return (test_gi.TestStructure) ... ok
+test_struct_field_assignment (test_gi.TestStructure) ... ok
+test_union (test_gi.TestStructure) ... ok
+test_union_in (test_gi.TestStructure) ... ok
+test_union_init (test_gi.TestStructure) ... ok
+test_union_method (test_gi.TestStructure) ... ok
+test_union_return (test_gi.TestStructure) ... ok
+test_time_t_in (test_gi.TestTimet) ... ok
+test_time_t_inout (test_gi.TestTimet) ... ok
+test_time_t_out (test_gi.TestTimet) ... ok
+test_time_t_return (test_gi.TestTimet) ... ok
+test_uint_in (test_gi.TestUInt) ... ok
+test_uint_inout (test_gi.TestUInt) ... ok
+test_uint_out (test_gi.TestUInt) ... ok
+test_uint_return (test_gi.TestUInt) ... ok
+test_uint16_in (test_gi.TestUInt16) ... ok
+test_uint16_inout (test_gi.TestUInt16) ... ok
+test_uint16_out (test_gi.TestUInt16) ... ok
+test_uint16_return (test_gi.TestUInt16) ... ok
+test_uint32_in (test_gi.TestUInt32) ... ok
+test_uint32_inout (test_gi.TestUInt32) ... ok
+test_uint32_out (test_gi.TestUInt32) ... ok
+test_uint32_return (test_gi.TestUInt32) ... ok
+test_uint64_in (test_gi.TestUInt64) ... ok
+test_uint64_inout (test_gi.TestUInt64) ... ok
+test_uint64_out (test_gi.TestUInt64) ... ok
+test_uint64_return (test_gi.TestUInt64) ... ok
+test_uint8_in (test_gi.TestUInt8) ... ok
+test_uint8_inout (test_gi.TestUInt8) ... ok
+test_uint8_out (test_gi.TestUInt8) ... ok
+test_uint8_return (test_gi.TestUInt8) ... ok
+test_ulong_in (test_gi.TestULong) ... ok
+test_ulong_inout (test_gi.TestULong) ... ok
+test_ulong_out (test_gi.TestULong) ... ok
+test_ulong_return (test_gi.TestULong) ... ok
+test_ushort_in (test_gi.TestUShort) ... ok
+test_ushort_inout (test_gi.TestUShort) ... ok
+test_ushort_out (test_gi.TestUShort) ... ok
+test_ushort_return (test_gi.TestUShort) ... ok
+test_utf8_dangling_out (test_gi.TestUtf8) ... ok
+test_utf8_full_inout (test_gi.TestUtf8) ... ok
+test_utf8_full_out (test_gi.TestUtf8) ... ok
+test_utf8_full_return (test_gi.TestUtf8) ... ok
+test_utf8_none_in (test_gi.TestUtf8) ... ok
+test_utf8_none_inout (test_gi.TestUtf8) ... ok
+test_utf8_none_out (test_gi.TestUtf8) ... ok
+test_utf8_none_return (test_gi.TestUtf8) ... ok
+test_bad_option_error (test_option.TestOption) ... ok
+test_option_group_constructor (test_option.TestOption) ... ok
+test_option_value_error (test_option.TestOption) ... ok
+test_parse_args (test_option.TestOption) ... ok
+test_parse_args_double_dash (test_option.TestOption) ... ok
+test_parse_args_group (test_option.TestOption) ... ok
+test_standard_error (test_option.TestOption) ... ok
+test_appname (test_glib.TestGLib) ... ok
+test_current_time (test_glib.TestGLib) ... ok
+test_filenames (test_glib.TestGLib) ... ok
+test_find_program_in_path (test_glib.TestGLib) ... ok
+test_glib_version (test_glib.TestGLib) ... ok
+test_io_add_watch_no_data (test_glib.TestGLib) ... ok
+test_io_add_watch_pyfile (test_glib.TestGLib) ... ok
+test_io_add_watch_with_data (test_glib.TestGLib) ... ok
+test_io_add_watch_with_multiple_data (test_glib.TestGLib) ... ok
+test_main_context (test_glib.TestGLib) ... ok
+test_main_depth (test_glib.TestGLib) ... ok
+test_main_loop (test_glib.TestGLib) ... ok
+test_main_loop_with_context (test_glib.TestGLib) ... ok
+test_markup_escape_text (test_glib.TestGLib) ... ok
+test_progname (test_glib.TestGLib) ... ok
+test_pyglib_version (test_glib.TestGLib) ... ok
+test_source_attach_implicit_context (test_glib.TestGLib) ... ok
+test_timezone_constructor (test_glib.TestGLib) ... ok
+test_uri_extract (test_glib.TestGLib) ... ok
+test_xdg_dirs (test_glib.TestGLib) ... ok
+test_arg_info (test_repository.Test) ... ok
+test_base_info (test_repository.Test) ... ok
+test_callable_can_throw_gerror (test_repository.Test) ... ok
+test_callable_info (test_repository.Test) ... ok
+test_callable_inheritance (test_repository.Test) ... ok
+test_enum_double_registration_error (test_repository.Test) ... ok
+test_enum_info (test_repository.Test) ... ok
+test_enums (test_repository.Test) ... ok
+test_field_info (test_repository.Test) ... ok
+test_flags_double_registration_error (test_repository.Test) ... ok
+test_fundamental_object_info (test_repository.Test) ... ok
+test_interface_info (test_repository.Test) ... ok
+test_introspected_argument_info (test_repository.Test) ... ok
+test_method_info (test_repository.Test) ... ok
+test_notify_signal_info_with_obj (test_repository.Test) ... ok
+test_object_constructor (test_repository.Test) ... ok
+test_object_info (test_repository.Test) ... ok
+test_property_info (test_repository.Test) ... ok
+test_registered_type_info (test_repository.Test) ... ok
+test_repo_get_dependencies (test_repository.Test) ... ok
+test_repo_get_immediate_dependencies (test_repository.Test) ... ok
+test_repo_is_registered (test_repository.Test) ... ok
+test_signal_info (test_repository.Test) ... ok
+test_struct_info (test_repository.Test) ... ok
+test_type_info (test_repository.Test) ... ok
+test_union_info (test_repository.Test) ... ok
+test_vfunc_info (test_repository.Test) ... ok
+test_array_objs (test_everything.TestAdvancedInterfaces) ... ok
+test_obj_skip_return_val (test_everything.TestAdvancedInterfaces) ... ok
+test_obj_skip_return_val_no_out (test_everything.TestAdvancedInterfaces) ... ok
+test_boxed (test_everything.TestBoxed) ... ok
+test_boxed_alternative_constructor (test_everything.TestBoxed) ... ok
+test_boxed_b_constructor (test_everything.TestBoxed) ... ok
+test_boxed_c_equality (test_everything.TestBoxed) ... ok
+test_boxed_equality (test_everything.TestBoxed) ... ok
+test_async_ready_callback (test_everything.TestCallbacks) ... ok
+test_callback (test_everything.TestCallbacks) ... ok
+test_callback_exception (test_everything.TestCallbacks) ... ok
+test_callback_gerror (test_everything.TestCallbacks) ... ok
+test_callback_hashtable (test_everything.TestCallbacks) ... ok
+test_callback_in_methods (test_everything.TestCallbacks) ... ok
+test_callback_none (test_everything.TestCallbacks) ... ok
+test_callback_null_gerror (test_everything.TestCallbacks) ... ok
+test_callback_owned_gerror (test_everything.TestCallbacks) ... ok
+test_callback_scope_async (test_everything.TestCallbacks) ... ok
+test_callback_scope_call_array (test_everything.TestCallbacks) ... ok
+test_callback_scope_call_array_inout (test_everything.TestCallbacks) ... ok
+test_callback_scope_call_multi (test_everything.TestCallbacks) ... ok
+test_callback_scope_notified_with_destroy (test_everything.TestCallbacks) ... ok
+test_callback_scope_notified_with_destroy_no_user_data (test_everything.TestCallbacks) ... ok
+test_callback_user_data_middle_none (test_everything.TestCallbacks) ... ok
+test_callback_user_data_middle_single (test_everything.TestCallbacks) ... ok
+test_callback_user_data_middle_tuple (test_everything.TestCallbacks) ... ok
+test_callback_userdata (test_everything.TestCallbacks) ... ok
+test_callback_userdata_as_kwarg_tuple (test_everything.TestCallbacks) ... ok
+test_callback_userdata_no_user_data (test_everything.TestCallbacks) ... ok
+test_callback_userdata_varargs (test_everything.TestCallbacks) ... ok
+test_double_callback_exception (test_everything.TestCallbacks) ... ok
+test_return_value_callback (test_everything.TestCallbacks) ... ok
+test_int_arg (test_everything.TestClosures) ... ok
+test_no_arg (test_everything.TestClosures) ... ok
+test_variant (test_everything.TestClosures) ... ok
+test_variant_wrong_return_type (test_everything.TestClosures) ... ok
+test_array_fixed_size_int_in (test_everything.TestEverything) ... ok
+test_array_fixed_size_int_in_error (test_everything.TestEverything) ... ok
+test_array_fixed_size_int_out (test_everything.TestEverything) ... ok
+test_array_fixed_size_int_return (test_everything.TestEverything) ... ok
+test_array_gint16_in (test_everything.TestEverything) ... ok
+test_array_gint32_in (test_everything.TestEverything) ... ok
+test_array_gint64_in (test_everything.TestEverything) ... ok
+test_array_gint8_in (test_everything.TestEverything) ... ok
+test_array_gtype_in (test_everything.TestEverything) ... ok
+test_array_int_full_out (test_everything.TestEverything) ... ok
+test_array_int_in (test_everything.TestEverything) ... ok
+test_array_int_in_empty (test_everything.TestEverything) ... ok
+test_array_int_inout (test_everything.TestEverything) ... ok
+test_array_int_inout_empty (test_everything.TestEverything) ... ok
+test_array_int_none_out (test_everything.TestEverything) ... ok
+test_array_int_out (test_everything.TestEverything) ... ok
+test_bool (test_everything.TestEverything) ... ok
+test_caller_allocates (test_everything.TestEverything) ... ok
+test_dir (test_everything.TestEverything) ... ok
+test_double (test_everything.TestEverything) ... ok
+test_enum (test_everything.TestEverything) ... ok
+test_enum_unsigned (test_everything.TestEverything) ... expected failure
+test_filename_return (test_everything.TestEverything) ... ok
+test_flags (test_everything.TestEverything) ... ok
+test_float (test_everything.TestEverything) ... ok
+test_floating (test_everything.TestEverything) ... ok
+test_garray_container_return (test_everything.TestEverything) ... ok
+test_garray_full_return (test_everything.TestEverything) ... ok
+test_glist (test_everything.TestEverything) ... ok
+test_glist_gtype (test_everything.TestEverything) ... ok
+test_gslist (test_everything.TestEverything) ... ok
+test_gtypes (test_everything.TestEverything) ... ok
+test_hash_in (test_everything.TestEverything) ... ok
+test_hash_in_with_gvalue_strv (test_everything.TestEverything) ... ok
+test_hash_in_with_typed_strv (test_everything.TestEverything) ... ok
+test_hash_return (test_everything.TestEverything) ... ok
+test_int (test_everything.TestEverything) ... ok
+test_int16 (test_everything.TestEverything) ... ok
+test_int32 (test_everything.TestEverything) ... ok
+test_int64 (test_everything.TestEverything) ... ok
+test_int8 (test_everything.TestEverything) ... ok
+test_int_out_utf8 (test_everything.TestEverything) ... ok
+test_long (test_everything.TestEverything) ... ok
+test_short (test_everything.TestEverything) ... ok
+test_size (test_everything.TestEverything) ... ok
+test_struct_gpointer (test_everything.TestEverything) ... ok
+test_struct_opaque (test_everything.TestEverything) ... ok
+test_strv_in (test_everything.TestEverything) ... ok
+test_strv_in_gvalue (test_everything.TestEverything) ... ok
+test_strv_out (test_everything.TestEverything) ... ok
+test_strv_out_c (test_everything.TestEverything) ... ok
+test_strv_out_container (test_everything.TestEverything) ... ok
+test_strv_outarg (test_everything.TestEverything) ... ok
+test_timet (test_everything.TestEverything) ... ok
+test_unichar (test_everything.TestEverything) ... ok
+test_utf8_const_in (test_everything.TestEverything) ... ok
+test_utf8_const_return (test_everything.TestEverything) ... ok
+test_utf8_inout (test_everything.TestEverything) ... ok
+test_utf8_nonconst_return (test_everything.TestEverything) ... ok
+test_utf8_out (test_everything.TestEverything) ... ok
+test_utf8_out_nonconst_return (test_everything.TestEverything) ... ok
+test_utf8_out_out (test_everything.TestEverything) ... ok
+test_value (test_everything.TestEverything) ... ok
+test_variant (test_everything.TestEverything) ... ok
+test_wrong_type_of_arguments (test_everything.TestEverything) ... ok
+test_in_nullable_array (test_everything.TestNullableArgs) ... ok
+test_in_nullable_hash (test_everything.TestNullableArgs) ... ok
+test_in_nullable_list (test_everything.TestNullableArgs) ... ok
+test_in_nullable_object (test_everything.TestNullableArgs) ... ok
+test_in_nullable_string (test_everything.TestNullableArgs) ... ok
+test_out_nullable_array (test_everything.TestNullableArgs) ... ok
+test_out_nullable_hash (test_everything.TestNullableArgs) ... ok
+test_out_nullable_list (test_everything.TestNullableArgs) ... ok
+test_out_nullable_object (test_everything.TestNullableArgs) ... ok
+test_out_nullable_string (test_everything.TestNullableArgs) ... ok
+test_torture_profile (test_everything.TestTortureProfile) ... ok
+test_base (test_resulttuple.TestResultTuple) ... ok
+test_create (test_resulttuple.TestResultTuple) ... ok
+test_getatttr (test_resulttuple.TestResultTuple) ... ok
+test_gi (test_resulttuple.TestResultTuple) ... ok
+test_pickle (test_resulttuple.TestResultTuple) ... ok
+test_regress (test_resulttuple.TestResultTuple) ... ok
+test_repr_dir (test_resulttuple.TestResultTuple) ... ok
+test_repr_dir_empty (test_resulttuple.TestResultTuple) ... ok
+test_add_watch_no_data (test_iochannel.IOChannel) ... ok
+test_add_watch_with_data (test_iochannel.IOChannel) ... ok
+test_add_watch_with_multi_data (test_iochannel.IOChannel) ... ok
+test_backwards_compat_flags (test_iochannel.IOChannel) ... ok
+test_buffering (test_iochannel.IOChannel) ... ok
+test_deprecated_add_watch_no_data (test_iochannel.IOChannel) ... ok
+test_deprecated_add_watch_with_data (test_iochannel.IOChannel) ... ok
+test_deprecated_method_add_watch_data_priority (test_iochannel.IOChannel) ... ok
+test_deprecated_method_add_watch_no_data (test_iochannel.IOChannel) ... ok
+test_fd_read (test_iochannel.IOChannel) ... ok
+test_fd_write (test_iochannel.IOChannel) ... ok
+test_file_iter (test_iochannel.IOChannel) ... ok
+test_file_read (test_iochannel.IOChannel) ... ok
+test_file_readline_latin1 (test_iochannel.IOChannel) ... ok
+test_file_readline_utf8 (test_iochannel.IOChannel) ... ok
+test_file_readlines (test_iochannel.IOChannel) ... ok
+test_file_write (test_iochannel.IOChannel) ... ok
+test_file_writelines (test_iochannel.IOChannel) ... ok
+test_seek (test_iochannel.IOChannel) ... ok
+test_allow_none_with_user_data_defaults (test_docstring.Test) ... ok
+test_api (test_docstring.Test) ... ok
+test_array_inout_etc (test_docstring.Test) ... ok
+test_array_length_arg (test_docstring.Test) ... ok
+test_array_out_etc (test_docstring.Test) ... ok
+test_boolean_return (test_docstring.Test) ... ok
+test_class_doc_constructors (test_docstring.Test) ... ok
+test_final_signature_with_full_inout (test_docstring.Test) ... ok
+test_init_function (test_docstring.Test) ... ok
+test_may_return_none (test_docstring.Test) ... ok
+test_overridden_doc_is_not_clobbered (test_docstring.Test) ... ok
+test_private_struct_constructors (test_docstring.Test) ... skipped 'built without cairo support'
+test_shared_array_length_with_prior_out_arg (test_docstring.Test) ... skipped 'built without cairo support'
+test_struct_doc_constructors (test_docstring.Test) ... ok
+test_sub_class_doc (test_docstring.Test) ... ok
+test_sub_class_doc_setattr (test_docstring.Test) ... expected failure
+test_sub_class_no_doc (test_docstring.Test) ... ok
+test_annotated_glist (test_properties.TestCGetPropertyMethod) ... ok
+test_boolean (test_properties.TestCGetPropertyMethod) ... ok
+test_boxed_glist (test_properties.TestCGetPropertyMethod) ... ok
+test_boxed_glist_ctor (test_properties.TestCGetPropertyMethod) ... expected failure
+test_boxed_struct (test_properties.TestCGetPropertyMethod) ... ok
+test_char (test_properties.TestCGetPropertyMethod) ... ok
+test_double (test_properties.TestCGetPropertyMethod) ... ok
+test_float (test_properties.TestCGetPropertyMethod) ... ok
+test_gtype (test_properties.TestCGetPropertyMethod) ... ok
+test_hash_table (test_properties.TestCGetPropertyMethod) ... ok
+test_held_object_ref_count_getter (test_properties.TestCGetPropertyMethod) ... ok
+test_held_object_ref_count_setter (test_properties.TestCGetPropertyMethod) ... ok
+test_int (test_properties.TestCGetPropertyMethod) ... ok
+test_int64 (test_properties.TestCGetPropertyMethod) ... ok
+test_long (test_properties.TestCGetPropertyMethod) ... ok
+test_parent_class (test_properties.TestCGetPropertyMethod) ... ok
+test_set_object_property_to_invalid_type (test_properties.TestCGetPropertyMethod) ... ok
+test_setting_several_properties (test_properties.TestCGetPropertyMethod) ... ok
+test_strv (test_properties.TestCGetPropertyMethod) ... ok
+test_uchar (test_properties.TestCGetPropertyMethod) ... ok
+test_uint (test_properties.TestCGetPropertyMethod) ... ok
+test_uint64 (test_properties.TestCGetPropertyMethod) ... ok
+test_ulong (test_properties.TestCGetPropertyMethod) ... ok
+test_variant (test_properties.TestCGetPropertyMethod) ... ok
+test_annotated_glist (test_properties.TestCPropsAccessor) ... ok
+test_boolean (test_properties.TestCPropsAccessor) ... ok
+test_boxed_glist (test_properties.TestCPropsAccessor) ... ok
+test_boxed_glist_ctor (test_properties.TestCPropsAccessor) ... expected failure
+test_boxed_struct (test_properties.TestCPropsAccessor) ... ok
+test_char (test_properties.TestCPropsAccessor) ... ok
+test_double (test_properties.TestCPropsAccessor) ... ok
+test_float (test_properties.TestCPropsAccessor) ... ok
+test_gtype (test_properties.TestCPropsAccessor) ... ok
+test_hash_table (test_properties.TestCPropsAccessor) ... ok
+test_held_object_ref_count_getter (test_properties.TestCPropsAccessor) ... ok
+test_held_object_ref_count_setter (test_properties.TestCPropsAccessor) ... ok
+test_int (test_properties.TestCPropsAccessor) ... ok
+test_int64 (test_properties.TestCPropsAccessor) ... ok
+test_long (test_properties.TestCPropsAccessor) ... ok
+test_param_spec_dir (test_properties.TestCPropsAccessor) ... ok
+test_parent_class (test_properties.TestCPropsAccessor) ... ok
+test_props_accessor_dir (test_properties.TestCPropsAccessor) ... ok
+test_set_object_property_to_invalid_type (test_properties.TestCPropsAccessor) ... ok
+test_setting_several_properties (test_properties.TestCPropsAccessor) ... ok
+test_strv (test_properties.TestCPropsAccessor) ... ok
+test_uchar (test_properties.TestCPropsAccessor) ... ok
+test_uint (test_properties.TestCPropsAccessor) ... ok
+test_uint64 (test_properties.TestCPropsAccessor) ... ok
+test_ulong (test_properties.TestCPropsAccessor) ... ok
+test_variant (test_properties.TestCPropsAccessor) ... ok
+test_object_with_property_and_do_get_property_vfunc_raises (test_properties.TestInstallProperties) ... ok
+test_same_name_property_definitions_raises (test_properties.TestInstallProperties) ... ok
+test_subclass_with_decorator_gets_gproperties_dict (test_properties.TestInstallProperties) ... ok
+test_subclass_without_properties_is_not_modified (test_properties.TestInstallProperties) ... ok
+test_custom_getter (test_properties.TestProperty) ... ok
+test_custom_setter (test_properties.TestProperty) ... ok
+test_decorator_default (test_properties.TestProperty) ... ok
+test_decorator_private_setter (test_properties.TestProperty) ... ok
+test_decorator_with_call (test_properties.TestProperty) ... ok
+test_defaults (test_properties.TestProperty) ... ok
+test_doc_strings (test_properties.TestProperty) ... ok
+test_errors (test_properties.TestProperty) ... ok
+test_float_min (test_properties.TestProperty) ... ok
+test_getter_exception (test_properties.TestProperty) ... expected failure
+test_min_max (test_properties.TestProperty) ... ok
+test_multiple_instances (test_properties.TestProperty) ... ok
+test_name_with_underscore (test_properties.TestProperty) ... ok
+test_object_property (test_properties.TestProperty) ... ok
+test_object_subclass_property (test_properties.TestProperty) ... ok
+test_property_subclass (test_properties.TestProperty) ... ok
+test_property_subclass_c (test_properties.TestProperty) ... ok
+test_property_subclass_custom_setter (test_properties.TestProperty) ... ok
+test_property_subclass_custom_setter_error (test_properties.TestProperty) ... ok
+test_python_to_glib_type_mapping (test_properties.TestProperty) ... ok
+test_range (test_properties.TestProperty) ... ok
+test_reference_count (test_properties.TestProperty) ... ok
+test_simple (test_properties.TestProperty) ... ok
+test_override_gi_property (test_properties.TestPropertyInheritanceObject) ... ok
+test_override_python_property (test_properties.TestPropertyInheritanceObject) ... ok
+test_boxed (test_properties.TestPropertyObject) ... ok
+test_construct (test_properties.TestPropertyObject) ... ok
+test_construct_only (test_properties.TestPropertyObject) ... ok
+test_enum (test_properties.TestPropertyObject) ... ok
+test_flags (test_properties.TestPropertyObject) ... ok
+test_get_set (test_properties.TestPropertyObject) ... ok
+test_gtype (test_properties.TestPropertyObject) ... ok
+test_hasattr_on_class (test_properties.TestPropertyObject) ... ok
+test_hasattr_on_object (test_properties.TestPropertyObject) ... ok
+test_int_to_str (test_properties.TestPropertyObject) ... ok
+test_interface (test_properties.TestPropertyObject) ... ok
+test_iteration (test_properties.TestPropertyObject) ... ok
+test_multi (test_properties.TestPropertyObject) ... ok
+test_normal (test_properties.TestPropertyObject) ... ok
+test_range (test_properties.TestPropertyObject) ... ok
+test_set_on_class (test_properties.TestPropertyObject) ... ok
+test_strings (test_properties.TestPropertyObject) ... ok
+test_uint64 (test_properties.TestPropertyObject) ... ok
+test_uint64_default_value (test_properties.TestPropertyObject) ... ok
+test_utf8 (test_properties.TestPropertyObject) ... ok
+test_variant (test_properties.TestPropertyObject) ... ok
+test_variant_default (test_properties.TestPropertyObject) ... ok
+test_implement_interface (test_interface.TestIfaceImpl) ... ok
+test_reimplement_interface (test_interface.TestIfaceImpl) ... ok
+test_backwards_compat_flags (test_subprocess.TestProcess) ... ok
+test_child_watch_all_kwargs (test_subprocess.TestProcess) ... expected failure
+test_child_watch_no_data (test_subprocess.TestProcess) ... ok
+test_child_watch_with_data (test_subprocess.TestProcess) ... ok
+test_deprecated_child_watch_data_priority (test_subprocess.TestProcess) ... ok
+test_deprecated_child_watch_data_priority_kwargs (test_subprocess.TestProcess) ... ok
+test_deprecated_child_watch_no_data (test_subprocess.TestProcess) ... ok
+test_spawn_async_envp (test_subprocess.TestProcess) ... ok
+test_spawn_async_fds (test_subprocess.TestProcess) ... ok
+test_spawn_async_with_pipes (test_subprocess.TestProcess) ... ok
+test_iter_next_multiple (test_generictreemodel.TestIteration) ... skipped 'Gtk not available'
+test_iter_next_root (test_generictreemodel.TestIteration) ... skipped 'Gtk not available'
+test_c_tree_iter_user_data_as_pyobject (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_iteration_refs (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_leak_references_off (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_leak_references_on (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_row_deleted_frees_refs (test_generictreemodel.TestReferences) ... skipped 'Gtk not available'
+test_get_column_type (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_flags (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_iter (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_n_columns (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_path (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_get_value (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_children (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_has_child (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_n_children (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_next (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_nth_child (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_iter_parent (test_generictreemodel.TestReturnsAfterError) ... skipped 'Gtk not available'
+test_type_children (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_from_name (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_interfaces (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_is_a (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_name (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_type_parent (test_gtype.TestTypeModuleLevelFunctions) ... ok
+test_coerce_from_class (test_typeclass.TestCoercion) ... ok
+test_coerce_from_gtype (test_typeclass.TestCoercion) ... ok
+test_coerce_from_instance (test_typeclass.TestCoercion) ... ok
+test_marshalling_error (test_typeclass.TestCoercion) ... ok
+test_find_child_property (test_typeclass.TestTypeClassMethodsMovedToClass) ... ok
+test_list_child_properties (test_typeclass.TestTypeClassMethodsMovedToClass) ... ok
+test_break_keyword_escape (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_context_get_metrics (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_default_font_description (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_font_description (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_layout (test_overrides_pango.TestPango) ... skipped 'Pango not available'
+test_freeze_notify_context (test_gobject.TestContextManagers) ... ok
+test_freeze_notify_context_error (test_gobject.TestContextManagers) ... ok
+test_freeze_notify_context_nested (test_gobject.TestContextManagers) ... ok
+test_freeze_notify_normal_usage_ref_counts (test_gobject.TestContextManagers) ... ok
+test_handler_block_context (test_gobject.TestContextManagers) ... ok
+test_handler_block_context_error (test_gobject.TestContextManagers) ... ok
+test_handler_block_context_nested (test_gobject.TestContextManagers) ... ok
+test_handler_block_normal_usage_ref_counts (test_gobject.TestContextManagers) ... ok
+test_compat_api (test_gobject.TestGObjectAPI) ... ok
+test_gobject_inheritance (test_gobject.TestGObjectAPI) ... ok
+test_gobject_unsupported_overrides (test_gobject.TestGObjectAPI) ... ok
+test_min_max_int (test_gobject.TestGObjectAPI) ... ok
+test_enum (test_gobject.TestGValue) ... ok
+test_flags (test_gobject.TestGValue) ... ok
+test_float (test_gobject.TestGValue) ... ok
+test_float_inf_nan (test_gobject.TestGValue) ... ok
+test_gerror_boxing (test_gobject.TestGValue) ... ok
+test_gerror_novalue (test_gobject.TestGValue) ... ok
+test_int (test_gobject.TestGValue) ... ok
+test_no_type (test_gobject.TestGValue) ... ok
+test_object (test_gobject.TestGValue) ... ok
+test_string (test_gobject.TestGValue) ... ok
+test_type_constant (test_gobject.TestGValue) ... ok
+test_value_array (test_gobject.TestGValue) ... ok
+test_bidirectional_binding (test_gobject.TestPropertyBindings) ... ok
+test_default_binding (test_gobject.TestPropertyBindings) ... ok
+test_explicit_unbind_clears_connection (test_gobject.TestPropertyBindings) ... ok
+test_reference_counts (test_gobject.TestPropertyBindings) ... ok
+test_transform_bidirectional (test_gobject.TestPropertyBindings) ... ok
+test_transform_from_only (test_gobject.TestPropertyBindings) ... ok
+test_transform_to_only (test_gobject.TestPropertyBindings) ... ok
+test_new_instance_has_two_refs (test_gobject.TestPythonReferenceCounting) ... ok
+test_new_instance_has_two_refs_using_gobject_new (test_gobject.TestPythonReferenceCounting) ... ok
+test_new_subclass_instance_has_two_refs (test_gobject.TestPythonReferenceCounting) ... ok
+test_new_subclass_instance_has_two_refs_using_gobject_new (test_gobject.TestPythonReferenceCounting) ... ok
+test_floating (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk_out_of_scope (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk_out_of_scope_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_floating_and_sunk_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library_out_of_scope (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library_out_of_scope_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_owned_by_library_using_gobject_new (test_gobject.TestReferenceCounting) ... ok
+test_regular_object (test_gobject.TestReferenceCounting) ... ok
+test_uninitialized_object (test_gobject.TestReferenceCounting) ... ok
+test_array_of_structs (test_fields.TestFields) ... ok
+test_double (test_fields.TestFields) ... ok
+test_enum (test_fields.TestFields) ... ok
+test_ghashtable (test_fields.TestFields) ... ok
+test_glist (test_fields.TestFields) ... ok
+test_gpointer (test_fields.TestFields) ... ok
+test_gptrarray (test_fields.TestFields) ... ok
+test_gtype (test_fields.TestFields) ... ok
+test_int (test_fields.TestFields) ... ok
+test_int8 (test_fields.TestFields) ... ok
+test_interface (test_fields.TestFields) ... ok
+test_long (test_fields.TestFields) ... ok
+test_struct (test_fields.TestFields) ... ok
+test_unichar (test_fields.TestFields) ... ok
+test_union (test_fields.TestFields) ... ok
+test_utf8 (test_fields.TestFields) ... ok
+test_instance_argument_base_type_error (test_object_marshaling.TestArgumentTypeErrors) ... ok
+test_instance_argument_error (test_object_marshaling.TestArgumentTypeErrors) ... ok
+test_object_argument_type_error (test_object_marshaling.TestArgumentTypeErrors) ... ok
+test_vfunc_in_object_transfer_full_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_in_object_transfer_none_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_out_object_transfer_full_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_out_object_transfer_none_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_return_object_transfer_full_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_return_object_transfer_none_with_floating (test_object_marshaling.TestVFuncsWithFloatingArg) ... ok
+test_vfunc_in_floating_transfer_full_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_in_floating_transfer_none_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_out_object_transfer_full_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_out_object_transfer_none_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_return_object_transfer_full_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_return_object_transfer_none_with_held_floating (test_object_marshaling.TestVFuncsWithHeldFloatingArg) ... ok
+test_vfunc_in_object_transfer_full_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_in_object_transfer_none_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_out_object_transfer_full_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_out_object_transfer_none_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_return_object_transfer_full_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_return_object_transfer_none_with_held_object (test_object_marshaling.TestVFuncsWithHeldObjectArg) ... ok
+test_vfunc_in_object_transfer_full (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_in_object_transfer_none (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_out_object_transfer_full (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_out_object_transfer_none (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_return_object_transfer_full (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_return_object_transfer_none (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+test_vfunc_self_arg_ref_count (test_object_marshaling.TestVFuncsWithObjectArg) ... ok
+
+----------------------------------------------------------------------
+Ran 1187 tests in 6.338s
+
+OK (skipped=129, expected failures=11)
+
+	torture test 1 (10000 iterations): 0.012503 secs
+	torture test 2 (10000 iterations): 0.149568 secs
+	torture test 3 (10000 iterations): 0.059440 secs
+	torture test 4 (10000 iterations): 0.118876 secs
+	====
+	Total: 0.340387 sec
+test_object (compat_test_pygtk.TestATKCompat) ... skipped 'Gtk not available'
+test_alignment (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_box (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_buttons (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_combobox_entry (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_enums (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_flags (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_gdk_window (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_keysyms (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_pixbuf (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_pixbuf_formats (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_pixbuf_loader (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_size_request (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_style (compat_test_pygtk.TestGTKCompat) ... skipped 'Gtk not available'
+test_error_underline_path (compat_test_pygtk.TestPangoCairoCompat) ... skipped 'Gtk not available'
+test_layout (compat_test_pygtk.TestPangoCompat) ... skipped 'Gtk not available'
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK (skipped=16)
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+Making check in pygtkcompat
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'
+for f in __init__.py generictreemodel.py pygtkcompat.py; do \
+    [ -e ./$f ] || ln -s ../../pygtkcompat/$f ./$f; \
+done
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'

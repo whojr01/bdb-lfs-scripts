@@ -1,0 +1,20 @@
+###############################
+# Make xwininfo-1.1.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xwininfo-1.1.3'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xwininfo-1.1.3/man'
+  GEN      xwininfo.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xwininfo-1.1.3/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xwininfo-1.1.3'
+  CC       clientwin.o
+  CC       dsimple.o
+  CC       xwininfo.o
+xwininfo.c: In function 'print_utf8':
+xwininfo.c:1906:26: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  ICONV_CONST char *inp = u8str;
+                          ^~~~~
+  CCLD     xwininfo
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xwininfo-1.1.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xwininfo-1.1.3'

@@ -1,0 +1,18 @@
+###############################
+# Install mkfontdir-1.0.7.tar.bz2 #
+###############################
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/man/man1" || /bin/mkdir -p "/usr/share/man/man1"
+ /usr/bin/install -c -m 644 mkfontdir.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+ /usr/bin/install -c mkfontdir '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/mkfontdir-1.0.7'

@@ -1,0 +1,60 @@
+###############################
+# Make xkbevd-1.1.4.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xkbevd-1.1.4'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkbevd-1.1.4/man'
+  GEN      xkbevd.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbevd-1.1.4/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkbevd-1.1.4'
+  CC       cfgparse.o
+cfgparse.c:1116:5: warning: redundant redeclaration of 'yyparse' [-Wredundant-decls]
+ int yyparse (void);
+     ^~~~~~~
+In file included from cfgparse.y:66:0:
+xkbevd.h:100:12: note: previous declaration of 'yyparse' was here
+ extern int yyparse(void);
+            ^~~~~~~
+cfgparse.c: In function 'yyparse':
+cfgparse.c:1623:20: warning: passing argument 1 of 'yyerror' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       yyerror (YY_("syntax error"));
+                    ^
+cfgparse.c:248:22: note: in definition of macro 'YY_'
+ #  define YY_(msgid) msgid
+                      ^~~~~
+In file included from cfgparse.y:66:0:
+xkbevd.h:101:12: note: expected 'char *' but argument is of type 'const char *'
+ extern int yyerror(char *s);
+            ^~~~~~~
+cfgparse.c:1769:16: warning: passing argument 1 of 'yyerror' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   yyerror (YY_("memory exhausted"));
+                ^
+cfgparse.c:248:22: note: in definition of macro 'YY_'
+ #  define YY_(msgid) msgid
+                      ^~~~~
+In file included from cfgparse.y:66:0:
+xkbevd.h:101:12: note: expected 'char *' but argument is of type 'const char *'
+ extern int yyerror(char *s);
+            ^~~~~~~
+  CC       cfgscan.o
+  CC       evargs.o
+  CC       printev.o
+  CC       utils.o
+  CC       xkbevd.o
+xkbevd.c: In function 'GetDisplay':
+xkbevd.c:219:33: warning: declaration of 'dpyName' shadows a global declaration [-Wshadow]
+ GetDisplay(char *program, char *dpyName, int *opcodeRtrn, int *evBaseRtrn)
+                                 ^~~~~~~
+xkbevd.c:55:17: note: shadowed declaration is here
+ static char *   dpyName = NULL;
+                 ^~~~~~~
+xkbevd.c:222:14: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+     Display *dpy;
+              ^~~
+xkbevd.c:56:17: note: shadowed declaration is here
+ Display *       dpy = NULL;
+                 ^~~
+  CCLD     xkbevd
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbevd-1.1.4'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbevd-1.1.4'

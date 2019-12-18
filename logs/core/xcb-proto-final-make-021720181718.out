@@ -1,0 +1,11 @@
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+Making all in xcbgen
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12'

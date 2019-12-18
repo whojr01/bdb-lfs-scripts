@@ -1,0 +1,43 @@
+(cd a6le && make install)
+(cd c ; make)
+make[2]: Nothing to be done for 'doit'.
+(cd s ; make bootstrap)
+make[2]: 'bootstrap' is up to date.
+make -f Mf-install
+./installsh -o "" -g "" -m 555 bin/a6le/scheme /usr/bin/scheme
+ln -f /usr/bin/scheme /usr/bin/petite
+ln -f /usr/bin/scheme /usr/bin/scheme-script
+./installsh -o "" -g "" -d -m 755 /usr/lib/csv9.5
+./installsh -o "" -g "" -d -m 755 /usr/lib/csv9.5/a6le
+./installsh -o "" -g "" -m 444 boot/a6le/petite.boot /usr/lib/csv9.5/a6le/petite.boot
+if [ "petite" != "petite" ]; then\
+          /bin/rm -f /usr/lib/csv9.5/a6le/petite.boot;\
+          ln -f /usr/lib/csv9.5/a6le/petite.boot /usr/lib/csv9.5/a6le/petite.boot;\
+        fi
+./installsh -o "" -g "" -m 444 boot/a6le/scheme.boot /usr/lib/csv9.5/a6le/scheme.boot;\
+if [ "scheme" != "scheme" ]; then\
+          /bin/rm -f /usr/lib/csv9.5/a6le/scheme.boot;\
+          ln -f /usr/lib/csv9.5/a6le/scheme.boot /usr/lib/csv9.5/a6le/scheme.boot;\
+        fi
+ln -sf /usr/lib/csv9.5/a6le/scheme.boot /usr/lib/csv9.5/a6le/scheme-script.boot;
+./installsh -o "" -g "" -m 444 boot/a6le/scheme.h /usr/lib/csv9.5/a6le
+sed -e "s;{InstallBin};/usr/bin;g" \
+            -e "s;{InstallLibExamples};/usr/lib/csv9.5/examples;g" \
+            -e "s;{InstallLibBin};/usr/lib/csv9.5/a6le;g" \
+            -e "s;{InstallPetiteName};petite;g" \
+            -e "s;{InstallSchemeName};scheme;g" \
+            -e "s;{InstallScriptName};scheme-script;g" \
+            scheme.1.in > scheme.1
+sed -e "s;{InstallBin};/usr/bin;g" \
+            -e "s;{InstallLibExamples};/usr/lib/csv9.5/examples;g" \
+            -e "s;{InstallLibBin};/usr/lib/csv9.5/a6le;g" \
+            -e "s;{InstallPetiteName};petite;g" \
+            -e "s;{InstallSchemeName};scheme;g" \
+            -e "s;{InstallScriptName};scheme-script;g" \
+            scheme.1.in > petite.1
+./installsh -o "" -g "" -m 444 scheme.1 /usr/share/man/man1/scheme.1
+if [ yes = yes ] ; then gzip -f /usr/share/man/man1/scheme.1 ; fi
+./installsh -o "" -g "" -m 444 petite.1 /usr/share/man/man1/petite.1
+if [ yes = yes ] ; then gzip -f /usr/share/man/man1/petite.1 ; fi
+./installsh -o "" -g "" -d -m 755 /usr/lib/csv9.5/examples
+./installsh -o "" -g "" -m 444 ../examples/* /usr/lib/csv9.5/examples

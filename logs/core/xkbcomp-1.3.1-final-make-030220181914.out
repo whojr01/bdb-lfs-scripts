@@ -1,0 +1,97 @@
+###############################
+# Make xkbcomp-1.3.1.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xkbcomp-1.3.1'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkbcomp-1.3.1/man'
+  GEN      xkbcomp.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbcomp-1.3.1/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkbcomp-1.3.1'
+  CC       action.o
+  CC       alias.o
+  CC       compat.o
+  CC       expr.o
+  CC       geometry.o
+geometry.c: In function 'CopySectionDef':
+geometry.c:3625:47: warning: passing argument 2 of 'XkbAddGeomColor' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 color = XkbAddGeomColor(geom, "white", geom->num_colors);
+                                               ^~~~~~~
+In file included from geometry.c:37:0:
+/usr/include/X11/extensions/XKBgeom.h:338:1: note: expected 'char *' but argument is of type 'const char *'
+ XkbAddGeomColor(
+ ^~~~~~~~~~~~~~~
+geometry.c: In function 'CompileGeometry':
+geometry.c:3707:31: warning: passing argument 2 of 'XkbAddGeomColor' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         XkbAddGeomColor(geom, "black", geom->num_colors);
+                               ^~~~~~~
+In file included from geometry.c:37:0:
+/usr/include/X11/extensions/XKBgeom.h:338:1: note: expected 'char *' but argument is of type 'const char *'
+ XkbAddGeomColor(
+ ^~~~~~~~~~~~~~~
+geometry.c:3708:31: warning: passing argument 2 of 'XkbAddGeomColor' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         XkbAddGeomColor(geom, "white", geom->num_colors);
+                               ^~~~~~~
+In file included from geometry.c:37:0:
+/usr/include/X11/extensions/XKBgeom.h:338:1: note: expected 'char *' but argument is of type 'const char *'
+ XkbAddGeomColor(
+ ^~~~~~~~~~~~~~~
+  CC       indicators.o
+  CC       keycodes.o
+  CC       keymap.o
+  CC       keytypes.o
+  CC       listing.o
+  CC       misc.o
+misc.c: In function 'ComputeKbdDefaults':
+misc.c:434:62: warning: '%03d' directive output may be truncated writing between 3 and 10 bytes into a region of size 4 [-Wformat-truncation=]
+                         snprintf(tmpname, sizeof(tmpname), "U%03d",
+                                                              ^~~~
+misc.c:434:60: note: directive argument in the range [0, 2147483647]
+                         snprintf(tmpname, sizeof(tmpname), "U%03d",
+                                                            ^~~~~~~
+misc.c:434:25: note: 'snprintf' output between 5 and 12 bytes into a destination of size 5
+                         snprintf(tmpname, sizeof(tmpname), "U%03d",
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                  nUnknown++);
+                                  ~~~~~~~~~~~
+misc.c:448:58: warning: '%03d' directive output may be truncated writing between 3 and 10 bytes into a region of size 4 [-Wformat-truncation=]
+                     snprintf(tmpname, sizeof(tmpname), "U%03d", nUnknown++);
+                                                          ^~~~
+misc.c:448:56: note: directive argument in the range [0, 2147483647]
+                     snprintf(tmpname, sizeof(tmpname), "U%03d", nUnknown++);
+                                                        ^~~~~~~
+misc.c:448:21: note: 'snprintf' output between 5 and 12 bytes into a destination of size 5
+                     snprintf(tmpname, sizeof(tmpname), "U%03d", nUnknown++);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       parseutils.o
+  CC       symbols.o
+symbols.c: In function 'HandleSymbolsBody':
+symbols.c:1507:31: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                     field.str = "symbols";
+                               ^
+symbols.c:1509:31: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                     field.str = "actions";
+                               ^
+  CC       utils.o
+  CC       vmod.o
+  CC       xkbcomp.o
+xkbcomp.c: In function 'main':
+xkbcomp.c:936:23: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+             inputFile = "stdin";
+                       ^
+xkbcomp.c:1136:28: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 outputFile = "stdout";
+                            ^
+  CC       xkbparse.o
+xkbparse.c:298:5: warning: redundant redeclaration of 'yyparse' [-Wredundant-decls]
+ int yyparse (void);
+     ^~~~~~~
+In file included from xkbparse.y:96:0:
+parseutils.h:200:12: note: previous declaration of 'yyparse' was here
+ extern int yyparse(void);
+            ^~~~~~~
+  CC       xkbpath.o
+  CC       xkbscan.o
+  CCLD     xkbcomp
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbcomp-1.3.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbcomp-1.3.1'

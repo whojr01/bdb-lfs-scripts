@@ -1,0 +1,166 @@
+Making all in debian.upstream
+make[1]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/debian.upstream'
+  GEN      changelog
+  GEN      control
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/debian.upstream'
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+  GEN      intel_version.h
+make  all-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+Making all in shaders
+make[3]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+Making all in h264
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+Making all in ildb
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/ildb'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/ildb'
+Making all in mc
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/mc'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/mc'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+Making all in mpeg2
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+Making all in vld
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2/vld'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2/vld'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+Making all in render
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/render'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/render'
+Making all in post_processing
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+Making all in gen5_6
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen5_6'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen5_6'
+Making all in gen7
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen7'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen7'
+Making all in gen75
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen75'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen75'
+Making all in gen8
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen8'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen8'
+Making all in gen9
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen9'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen9'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+Making all in vme
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/vme'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/vme'
+Making all in utils
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/utils'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/utils'
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+  CC       libi965_drv_video_la-dso_utils.lo
+  CC       libi965_drv_video_la-gen6_mfc.lo
+  CC       libi965_drv_video_la-gen6_mfc_common.lo
+  CC       libi965_drv_video_la-gen6_mfd.lo
+gen6_mfd.c: In function 'gen6_mfd_avc_decode_picture':
+gen6_mfd.c:854:9: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+         else
+         ^~~~
+gen6_mfd.c:857:13: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+             if (j == 0 &&
+             ^~
+  CC       libi965_drv_video_la-gen6_vme.lo
+  CC       libi965_drv_video_la-gen7_vme.lo
+  CC       libi965_drv_video_la-gen7_mfc.lo
+  CC       libi965_drv_video_la-gen7_mfd.lo
+  CC       libi965_drv_video_la-gen75_mfd.lo
+  CC       libi965_drv_video_la-gen75_mfc.lo
+  CC       libi965_drv_video_la-gen8_mfc.lo
+gen8_mfc.c: In function 'gen8_mfc_jpeg_huff_table_state':
+gen8_mfc.c:3009:5: warning: 'memset' used with length equal to number of elements without multiplication by element size [-Wmemset-elt-size]
+     memset(dc_table, 0, 12);
+     ^~~~~~
+gen8_mfc.c:3010:5: warning: 'memset' used with length equal to number of elements without multiplication by element size [-Wmemset-elt-size]
+     memset(ac_table, 0, 162);
+     ^~~~~~
+  CC       libi965_drv_video_la-gen8_mfd.lo
+  CC       libi965_drv_video_la-gen8_vme.lo
+  CC       libi965_drv_video_la-gen9_vme.lo
+  CC       libi965_drv_video_la-gen9_mfc.lo
+  CC       libi965_drv_video_la-gen9_mfc_hevc.lo
+  CC       libi965_drv_video_la-gen9_mfd.lo
+  CC       libi965_drv_video_la-gen9_vdenc.lo
+gen9_vdenc.c:68:22: warning: 'buf_rate_adj_tab_b_lowdelay' defined but not used [-Wunused-const-variable=]
+ static const uint8_t buf_rate_adj_tab_b_lowdelay[72] = {
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gen9_vdenc.c:56:22: warning: 'buf_rate_adj_tab_p_lowdelay' defined but not used [-Wunused-const-variable=]
+ static const uint8_t buf_rate_adj_tab_p_lowdelay[72] = {
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gen9_vdenc.c:44:22: warning: 'buf_rate_adj_tab_i_lowdelay' defined but not used [-Wunused-const-variable=]
+ static const uint8_t buf_rate_adj_tab_i_lowdelay[72] = {
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       libi965_drv_video_la-gen75_picture_process.lo
+  CC       libi965_drv_video_la-gen75_vme.lo
+  CC       libi965_drv_video_la-gen75_vpp_gpe.lo
+  CC       libi965_drv_video_la-gen75_vpp_vebox.lo
+  CC       libi965_drv_video_la-gen9_post_processing.lo
+gen9_post_processing.c:103:23: warning: 'pp_nv12_blending_gen9' defined but not used [-Wunused-const-variable=]
+ static const uint32_t pp_nv12_blending_gen9[][4] = {
+                       ^~~~~~~~~~~~~~~~~~~~~
+  CC       libi965_drv_video_la-i965_avc_bsd.lo
+  CC       libi965_drv_video_la-i965_avc_hw_scoreboard.lo
+  CC       libi965_drv_video_la-i965_avc_ildb.lo
+  CC       libi965_drv_video_la-i965_decoder_utils.lo
+  CC       libi965_drv_video_la-i965_device_info.lo
+  CC       libi965_drv_video_la-i965_drv_video.lo
+  CC       libi965_drv_video_la-i965_encoder.lo
+  CC       libi965_drv_video_la-i965_encoder_utils.lo
+  CC       libi965_drv_video_la-i965_media.lo
+  CC       libi965_drv_video_la-i965_media_h264.lo
+  CC       libi965_drv_video_la-i965_media_mpeg2.lo
+  CC       libi965_drv_video_la-i965_gpe_utils.lo
+  CC       libi965_drv_video_la-i965_post_processing.lo
+  CC       libi965_drv_video_la-i965_yuv_coefs.lo
+  CC       libi965_drv_video_la-gen8_post_processing.lo
+  CC       libi965_drv_video_la-i965_render.lo
+  CC       libi965_drv_video_la-i965_vpp_avs.lo
+  CC       libi965_drv_video_la-gen8_render.lo
+  CC       libi965_drv_video_la-gen9_render.lo
+  CC       libi965_drv_video_la-intel_batchbuffer.lo
+  CC       libi965_drv_video_la-intel_batchbuffer_dump.lo
+  CC       libi965_drv_video_la-intel_driver.lo
+  CC       libi965_drv_video_la-intel_memman.lo
+  CC       libi965_drv_video_la-object_heap.lo
+  CC       libi965_drv_video_la-intel_media_common.lo
+  CC       libi965_drv_video_la-vp9_probs.lo
+  CC       libi965_drv_video_la-gen9_vp9_encoder_kernels.lo
+  CC       libi965_drv_video_la-gen9_vp9_const_def.lo
+  CC       libi965_drv_video_la-gen9_vp9_encoder.lo
+  CCLD     libi965_drv_video.la
+  CCLD     i965_drv_video.la
+  GEN      intel_version.h
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[1]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3'

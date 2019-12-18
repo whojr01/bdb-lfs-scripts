@@ -1,0 +1,594 @@
+###############################
+# Make libXmu-1.1.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2/include'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2/src'
+  CC       ClientWin.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from ClientWin.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       CursorName.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/string.h:26,
+                 from CursorName.c:33:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       DefErrMsg.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from DefErrMsg.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+DefErrMsg.c: In function 'XmuPrintDefaultErrorMessage':
+DefErrMsg.c:54:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->request_code);
+                        ^~~~
+DefErrMsg.c:74:21: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+  (void) fprintf(fp, mesg, event->minor_code);
+                     ^~~~
+DefErrMsg.c:107:25: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+      (void) fprintf(fp, mesg, event->resourceid);
+                         ^~~~
+DefErrMsg.c:134:21: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+  (void) fprintf(fp, mesg, event->resourceid);
+                     ^~~~
+DefErrMsg.c:139:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->serial);
+                        ^~~~
+DefErrMsg.c:143:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, NextRequest(dpy)-1);
+                        ^~~~
+  CC       GetHost.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/string.h:26,
+                 from GetHost.c:37:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       Lower.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from Lower.c:35:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       AllCmap.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from AllCmap.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       Atoms.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from Atoms.c:43:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+Atoms.c: In function 'XmuNameOfAtom':
+Atoms.c:110:12: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     return (char *) atom_ptr->name;
+            ^
+  CC       Clip.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdlib.h:25,
+                 from Clip.c:31:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       CloseHook.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from CloseHook.c:57:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       CmapAlloc.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from CmapAlloc.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       CrCmap.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from CrCmap.c:38:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       CrPixFBit.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xos.h:42,
+                 from CrPixFBit.c:41:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       CvtCache.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from CvtCache.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       CvtStdSel.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from /usr/include/X11/IntrinsicP.h:51,
+                 from CvtStdSel.c:46:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       DelCmap.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from DelCmap.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       DisplayQue.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from DisplayQue.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       Distinct.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from Distinct.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       DrawLogo.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from DrawLogo.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       DrRndRect.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from DrRndRect.c:38:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       EditresCom.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from /usr/include/X11/IntrinsicP.h:51,
+                 from EditresCom.c:35:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+EditresCom.c: In function '_XEditResCheckMessages':
+EditresCom.c:224:24: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+      XInternAtoms(dpy, (char **) names, 4, False, atoms);
+                        ^
+EditresCom.c: In function 'qcmp_widget_list':
+EditresCom.c:700:21: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     return (char *)*(Widget **)left - (char *)*(Widget **)right;
+                     ^
+EditresCom.c:700:48: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     return (char *)*(Widget **)left - (char *)*(Widget **)right;
+                                                ^
+EditresCom.c: In function 'HandleToolkitErrors':
+EditresCom.c:1000:2: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+  XmuSnprintf(buf, sizeof(buf), msg, params[0]);
+  ^~~~~~~~~~~
+EditresCom.c: In function 'LoadResources':
+EditresCom.c:2052:10: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         {"editresBlock", "EditresBlock", XtREditresBlock, sizeof(EditresBlock),
+          ^~~~~~~~~~~~~~
+EditresCom.c:2052:26: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         {"editresBlock", "EditresBlock", XtREditresBlock, sizeof(EditresBlock),
+                          ^~~~~~~~~~~~~~
+EditresCom.c:2036:26: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtREditresBlock  "EditresBlock"
+                          ^
+EditresCom.c:2052:42: note: in expansion of macro 'XtREditresBlock'
+         {"editresBlock", "EditresBlock", XtREditresBlock, sizeof(EditresBlock),
+                                          ^~~~~~~~~~~~~~~
+EditresCom.c: In function '_XEditresGetStringValues':
+EditresCom.c:2086:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     char *string = "";
+                    ^~
+EditresCom.c:2157:9: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  string = "bad size";
+         ^
+EditresCom.c:2169:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      string = "(null)";
+             ^
+EditresCom.c:2209:9: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  string = "";
+         ^
+  CC       ExtAgent.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from ExtAgent.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       FToCback.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from FToCback.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       GrayPixmap.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from GrayPixmap.c:54:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       Initer.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from Initer.c:35:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       LocBitmap.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from LocBitmap.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       Lookup.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from ../include/X11/Xmu/Lookup.h:36,
+                 from Lookup.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       LookupCmap.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from LookupCmap.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       RdBitF.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xos.h:42,
+                 from RdBitF.c:50:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       ScrOfWin.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from ScrOfWin.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       ShapeWidg.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from /usr/include/X11/IntrinsicP.h:51,
+                 from ShapeWidg.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       StdCmap.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from StdCmap.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       StrToBS.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from StrToBS.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+StrToBS.c: In function 'XmuCvtBackingStoreToString':
+StrToBS.c:112:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEnotUseful;
+              ^
+StrToBS.c:115:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEwhenMapped;
+              ^
+StrToBS.c:118:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEalways;
+              ^
+StrToBS.c:121:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEdefault;
+              ^
+  CC       StrToBmap.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from StrToBmap.c:54:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       StrToCurs.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from StrToCurs.c:54:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+StrToCurs.c: In function 'XmuCvtStringToCursor':
+StrToCurs.c:178:8: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+        mask_name, &mask_char);
+        ^~~~~~~~~
+  CC       StrToGrav.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from StrToGrav.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+StrToGrav.c: In function 'XmuCvtGravityToString':
+StrToGrav.c:144:19: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     toVal->addr = (XPointer)buffer;
+                   ^
+  CC       StrToJust.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/string.h:26,
+                 from StrToJust.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+StrToJust.c: In function 'XmuCvtJustifyToString':
+StrToJust.c:106:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEleft;
+              ^
+StrToJust.c:109:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEcenter;
+              ^
+StrToJust.c:112:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEright;
+              ^
+  CC       StrToLong.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from StrToLong.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       StrToOrnt.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from StrToOrnt.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       StrToShap.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/string.h:26,
+                 from StrToShap.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+StrToShap.c: In function 'XmuCvtShapeStyleToString':
+StrToShap.c:87:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtERectangle;
+              ^
+StrToShap.c:90:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEOval;
+              ^
+StrToShap.c:93:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtEEllipse;
+              ^
+StrToShap.c:96:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       buffer = XtERoundedRectangle;
+              ^
+  CC       StrToWidg.lo
+In file included from /usr/include/sys/types.h:25:0,
+                 from /usr/include/X11/Xlib.h:38,
+                 from /usr/include/X11/Intrinsic.h:53,
+                 from /usr/include/X11/IntrinsicP.h:51,
+                 from StrToWidg.c:41:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+StrToWidg.c: In function 'XmuCvtStringToWidget':
+StrToWidg.c:107:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for (widgetP = parent->core.popup_list; i; i--, widgetP++)
+   ^~~
+StrToWidg.c:114:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+     XtStringConversionWarning(fromVal->addr, XtRWidget);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+StrToWidg.c: In function 'XmuCvtWidgetToString':
+StrToWidg.c:208:12: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     buffer = "(null)";
+            ^
+  CC       UpdMapHint.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from UpdMapHint.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       VisCmap.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from VisCmap.c:34:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       WidgetNode.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from WidgetNode.c:36:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       Xct.lo
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/string.h:26,
+                 from /usr/include/X11/Xfuncs.h:46,
+                 from Xct.c:30:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+Xct.c: In function 'HandleGL':
+Xct.c:116:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL = "\102";
+           ^
+Xct.c:117:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL_encoding = "ISO8859-1";
+                    ^
+Xct.c:120:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL = "\112";
+           ^
+Xct.c:121:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL_encoding = "JISX0201.1976-0";
+                    ^
+Xct.c: In function 'HandleMultiGL':
+Xct.c:137:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL = "\101";
+           ^
+Xct.c:138:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL_encoding = "GB2312.1980-0";
+                    ^
+Xct.c:141:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL = "\102";
+           ^
+Xct.c:142:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL_encoding = "JISX0208.1983-0";
+                    ^
+Xct.c:145:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL = "\103";
+           ^
+Xct.c:146:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GL_encoding = "KSC5601.1987-0";
+                    ^
+Xct.c: In function 'Handle94GR':
+Xct.c:170:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\111";
+           ^
+Xct.c:171:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "JISX0201.1976-0";
+                    ^
+Xct.c: In function 'Handle96GR':
+Xct.c:188:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\101";
+           ^
+Xct.c:189:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-1";
+                    ^
+Xct.c:192:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\102";
+           ^
+Xct.c:193:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-2";
+                    ^
+Xct.c:196:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\103";
+           ^
+Xct.c:197:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-3";
+                    ^
+Xct.c:200:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\104";
+           ^
+Xct.c:201:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-4";
+                    ^
+Xct.c:204:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\106";
+           ^
+Xct.c:205:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-7";
+                    ^
+Xct.c:208:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\107";
+           ^
+Xct.c:209:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-6";
+                    ^
+Xct.c:212:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\110";
+           ^
+Xct.c:213:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-8";
+                    ^
+Xct.c:216:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\114";
+           ^
+Xct.c:217:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-5";
+                    ^
+Xct.c:220:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\115";
+           ^
+Xct.c:221:20: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR_encoding = "ISO8859-9";
+                    ^
+Xct.c: In function 'HandleMultiGR':
+Xct.c:238:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\101";
+           ^
+Xct.c:240:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      data->GR_encoding = "GB2312.1980-0";
+                        ^
+Xct.c:242:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      data->GR_encoding = "GB2312.1980-1";
+                        ^
+Xct.c:245:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\102";
+           ^
+Xct.c:247:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      data->GR_encoding = "JISX0208.1983-0";
+                        ^
+Xct.c:249:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      data->GR_encoding = "JISX0208.1983-1";
+                        ^
+Xct.c:252:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  data->GR = "\103";
+           ^
+Xct.c:254:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      data->GR_encoding = "KSC5601.1987-0";
+                        ^
+Xct.c:256:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      data->GR_encoding = "KSC5601.1987-1";
+                        ^
+Xct.c: In function 'XctCreate':
+Xct.c:362:26: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     data->total_string = (XctString)string;
+                          ^
+  CC       sharedlib.lo
+  CCLD     libXmu.la
+  CCLD     libXmuu.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2/src'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXmu-1.1.2'

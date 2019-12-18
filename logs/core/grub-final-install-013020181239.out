@@ -1,0 +1,151 @@
+make  install-recursive
+make[1]: Entering directory '/sources/grub-2.02/build'
+Making install in grub-core/gnulib
+make[2]: Entering directory '/sources/grub-2.02/build/grub-core/gnulib'
+make  install-recursive
+make[3]: Entering directory '/sources/grub-2.02/build/grub-core/gnulib'
+make[4]: Entering directory '/sources/grub-2.02/build/grub-core/gnulib'
+make[5]: Entering directory '/sources/grub-2.02/build/grub-core/gnulib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /sources/grub-2.02/build-aux/install-sh -d /usr/lib ; \
+fi ; \
+if test -f /usr/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/lib/charset.alias > /usr/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+  rm -f /usr/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /usr/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+    rm -f /usr/lib/charset.tmp ; \
+  fi ; \
+fi
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/grub-2.02/build/grub-core/gnulib'
+make[4]: Leaving directory '/sources/grub-2.02/build/grub-core/gnulib'
+make[3]: Leaving directory '/sources/grub-2.02/build/grub-core/gnulib'
+make[2]: Leaving directory '/sources/grub-2.02/build/grub-core/gnulib'
+Making install in .
+make[2]: Entering directory '/sources/grub-2.02/build'
+make[3]: Entering directory '/sources/grub-2.02/build'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c grub-mkimage grub-mkrelpath grub-script-check grub-editenv grub-mkpasswd-pbkdf2 grub-fstest grub-mklayout grub-mkrescue grub-mkstandalone grub-mknetdir grub-menulst2cfg grub-syslinux2cfg grub-glue-efi grub-render-label grub-file '/usr/bin'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c grub-kbdcomp '/usr/bin'
+ /bin/mkdir -p '/sbin'
+  /usr/bin/install -c grub-probe grub-bios-setup grub-sparc64-setup grub-ofpathname grub-macbless grub-install '/sbin'
+ /bin/mkdir -p '/sbin'
+ /usr/bin/install -c grub-mkconfig grub-set-default grub-reboot '/sbin'
+ /bin/mkdir -p '/etc/grub.d'
+ /usr/bin/install -c -m 644 ../util/grub.d/README '/etc/grub.d'
+ /bin/mkdir -p '/etc/grub.d'
+ /usr/bin/install -c 00_header 10_linux 20_linux_xen 30_os-prober 40_custom 41_custom '/etc/grub.d'
+ /bin/mkdir -p '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 config.h '/usr/lib/grub/i386-pc'
+ /bin/mkdir -p '/usr/share/grub'
+ /usr/bin/install -c -m 644 grub-mkconfig_lib '/usr/share/grub'
+make[3]: Leaving directory '/sources/grub-2.02/build'
+make[2]: Leaving directory '/sources/grub-2.02/build'
+Making install in grub-core
+make[2]: Entering directory '/sources/grub-2.02/build/grub-core'
+make  install-am
+make[3]: Entering directory '/sources/grub-2.02/build/grub-core'
+make[4]: Entering directory '/sources/grub-2.02/build/grub-core'
+ /bin/mkdir -p '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 kernel.img boot.img boot_hybrid.img cdboot.img pxeboot.img diskboot.img lnxboot.img lzma_decompress.img gmodule.pl gdb_grub fs.lst command.lst partmap.lst terminal.lst parttool.lst video.lst crypto.lst moddep.lst disk.mod trig.mod cs5536.mod usb.mod usbserial_common.mod usbserial_pl2303.mod usbserial_ftdi.mod usbserial_usbdebug.mod uhci.mod ohci.mod ehci.mod pci.mod nativedisk.mod cmostest.mod cmosdump.mod iorw.mod cbtable.mod cbtime.mod cbls.mod cbmemc.mod regexp.mod acpi.mod '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 lsacpi.mod blocklist.mod boot.mod cat.mod cmp.mod configfile.mod cpuid.mod date.mod drivemap.mod echo.mod eval.mod extcmd.mod gptsync.mod halt.mod reboot.mod hashsum.mod verify.mod hdparm.mod help.mod hexdump.mod keystatus.mod loadenv.mod ls.mod lsmmap.mod lspci.mod memrw.mod minicmd.mod parttool.mod password.mod password_pbkdf2.mod play.mod spkmodem.mod morse.mod probe.mod read.mod search.mod search_fs_file.mod search_fs_uuid.mod search_label.mod setpci.mod '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 pcidump.mod sleep.mod terminal.mod test.mod true.mod usbtest.mod videoinfo.mod videotest.mod xnu_uuid.mod dm_nv.mod loopback.mod cryptodisk.mod luks.mod geli.mod lvm.mod ldm.mod mdraid09.mod mdraid09_be.mod mdraid1x.mod diskfilter.mod raid5rec.mod raid6rec.mod scsi.mod memdisk.mod ata.mod ahci.mod pata.mod biosdisk.mod usbms.mod efiemu.mod font.mod procfs.mod affs.mod afs.mod bfs.mod btrfs.mod archelp.mod cbfs.mod cpio.mod cpio_be.mod '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 newc.mod odc.mod ext2.mod fat.mod exfat.mod fshelp.mod hfs.mod hfsplus.mod hfspluscomp.mod iso9660.mod jfs.mod minix.mod minix2.mod minix3.mod minix_be.mod minix2_be.mod minix3_be.mod nilfs2.mod ntfs.mod ntfscomp.mod reiserfs.mod romfs.mod sfs.mod squash4.mod tar.mod udf.mod ufs1.mod ufs1_be.mod ufs2.mod xfs.mod zfs.mod zfscrypt.mod zfsinfo.mod macbless.mod pxe.mod gettext.mod gfxmenu.mod hello.mod gzio.mod offsetio.mod '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 bufio.mod elf.mod crypto.mod pbkdf2.mod relocator.mod datetime.mod setjmp.mod aout.mod bsd.mod plan9.mod linux16.mod ntldr.mod truecrypt.mod freedos.mod pxechain.mod multiboot2.mod multiboot.mod linux.mod xnu.mod random.mod macho.mod chain.mod mmap.mod normal.mod part_acorn.mod part_amiga.mod part_apple.mod part_gpt.mod part_msdos.mod part_sun.mod part_plan.mod part_dvh.mod part_bsd.mod part_sunpc.mod part_dfly.mod msdospart.mod at_keyboard.mod gfxterm.mod gfxterm_background.mod serial.mod '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 sendkey.mod terminfo.mod usb_keyboard.mod vga.mod vga_text.mod mda_text.mod video_cirrus.mod video_bochs.mod functional_test.mod exfctest.mod setjmp_test.mod signature_test.mod sleep_test.mod xnu_uuid_test.mod pbkdf2_test.mod legacy_password_test.mod div.mod div_test.mod mul_test.mod shift_test.mod cmp_test.mod ctz_test.mod bswap_test.mod videotest_checksum.mod gfxterm_menu.mod cmdline_cat_test.mod bitmap.mod bitmap_scale.mod jpeg.mod png.mod tga.mod vbe.mod video_fb.mod video.mod video_colors.mod datehook.mod net.mod tftp.mod http.mod legacycfg.mod '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 syslinuxcfg.mod test_blockarg.mod xzio.mod lzopio.mod testload.mod backtrace.mod lsapm.mod keylayouts.mod priority_queue.mod time.mod adler32.mod crc64.mod mpi.mod all_video.mod gdb.mod testspeed.mod tr.mod progress.mod file.mod gcry_arcfour.mod gcry_blowfish.mod gcry_camellia.mod gcry_cast5.mod gcry_crc.mod gcry_des.mod gcry_dsa.mod gcry_idea.mod gcry_md4.mod gcry_md5.mod gcry_rfc2268.mod gcry_rijndael.mod gcry_rmd160.mod gcry_rsa.mod gcry_seed.mod gcry_serpent.mod gcry_sha1.mod gcry_sha256.mod gcry_sha512.mod gcry_tiger.mod gcry_twofish.mod '/usr/lib/grub/i386-pc'
+ /usr/bin/install -c -m 644 gcry_whirlpool.mod modinfo.sh '/usr/lib/grub/i386-pc'
+ /bin/mkdir -p '/usr/lib/grub/i386-pc'
+  /usr/bin/install -c disk.module trig.module cs5536.module usb.module usbserial_common.module usbserial_pl2303.module usbserial_ftdi.module usbserial_usbdebug.module uhci.module ohci.module ehci.module pci.module nativedisk.module cmostest.module cmosdump.module iorw.module cbtable.module cbtime.module cbls.module cbmemc.module regexp.module acpi.module lsacpi.module blocklist.module boot.module cat.module cmp.module configfile.module cpuid.module date.module drivemap.module echo.module eval.module extcmd.module gptsync.module halt.module reboot.module hashsum.module verify.module hdparm.module help.module hexdump.module keystatus.module loadenv.module ls.module lsmmap.module lspci.module memrw.module minicmd.module parttool.module password.module password_pbkdf2.module play.module spkmodem.module morse.module probe.module read.module search.module search_fs_file.module search_fs_uuid.module search_label.module setpci.module pcidump.module sleep.module terminal.module test.module true.module usbtest.module videoinfo.module videotest.module xnu_uuid.module dm_nv.module loopback.module cryptodisk.module luks.module geli.module lvm.module ldm.module mdraid09.module mdraid09_be.module mdraid1x.module diskfilter.module raid5rec.module raid6rec.module scsi.module memdisk.module ata.module ahci.module pata.module biosdisk.module usbms.module efiemu.module font.module procfs.module affs.module afs.module bfs.module btrfs.module archelp.module cbfs.module cpio.module cpio_be.module newc.module odc.module ext2.module fat.module exfat.module fshelp.module hfs.module hfsplus.module hfspluscomp.module iso9660.module jfs.module minix.module minix2.module minix3.module minix_be.module minix2_be.module minix3_be.module nilfs2.module ntfs.module ntfscomp.module reiserfs.module romfs.module sfs.module squash4.module tar.module udf.module ufs1.module ufs1_be.module ufs2.module xfs.module zfs.module zfscrypt.module zfsinfo.module macbless.module pxe.module gettext.module gfxmenu.module hello.module gzio.module offsetio.module bufio.module elf.module crypto.module pbkdf2.module relocator.module datetime.module setjmp.module aout.module bsd.module plan9.module linux16.module ntldr.module truecrypt.module freedos.module pxechain.module multiboot2.module multiboot.module linux.module xnu.module random.module macho.module chain.module mmap.module normal.module part_acorn.module part_amiga.module part_apple.module part_gpt.module part_msdos.module part_sun.module part_plan.module part_dvh.module part_bsd.module part_sunpc.module part_dfly.module msdospart.module at_keyboard.module gfxterm.module gfxterm_background.module serial.module sendkey.module terminfo.module usb_keyboard.module vga.module vga_text.module mda_text.module video_cirrus.module video_bochs.module functional_test.module exfctest.module setjmp_test.module signature_test.module sleep_test.module xnu_uuid_test.module pbkdf2_test.module legacy_password_test.module div.module div_test.module mul_test.module shift_test.module cmp_test.module ctz_test.module bswap_test.module videotest_checksum.module gfxterm_menu.module cmdline_cat_test.module bitmap.module bitmap_scale.module jpeg.module png.module tga.module vbe.module video_fb.module video.module video_colors.module datehook.module net.module tftp.module http.module legacycfg.module syslinuxcfg.module test_blockarg.module xzio.module lzopio.module testload.module backtrace.module lsapm.module keylayouts.module priority_queue.module time.module adler32.module crc64.module mpi.module all_video.module gdb.module testspeed.module tr.module progress.module file.module gcry_arcfour.module gcry_blowfish.module gcry_camellia.module gcry_cast5.module gcry_crc.module gcry_des.module gcry_dsa.module gcry_idea.module gcry_md4.module gcry_md5.module gcry_rfc2268.module gcry_rijndael.module gcry_rmd160.module gcry_rsa.module gcry_seed.module gcry_serpent.module gcry_sha1.module gcry_sha256.module gcry_sha512.module gcry_tiger.module gcry_twofish.module gcry_whirlpool.module kernel.exec boot.image boot_hybrid.image cdboot.image pxeboot.image diskboot.image lnxboot.image lzma_decompress.image '/usr/lib/grub/i386-pc'
+make[4]: Leaving directory '/sources/grub-2.02/build/grub-core'
+make[3]: Leaving directory '/sources/grub-2.02/build/grub-core'
+make[2]: Leaving directory '/sources/grub-2.02/build/grub-core'
+Making install in po
+make[2]: Entering directory '/sources/grub-2.02/build/po'
+installing ../../po/ast.gmo as /usr/share/locale/ast/LC_MESSAGES/grub.mo
+installing ../../po/ca.gmo as /usr/share/locale/ca/LC_MESSAGES/grub.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/grub.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/grub.mo
+installing ../../po/de_CH.gmo as /usr/share/locale/de_CH/LC_MESSAGES/grub.mo
+installing ../../po/de@hebrew.gmo as /usr/share/locale/de@hebrew/LC_MESSAGES/grub.mo
+installing ../../po/en@arabic.gmo as /usr/share/locale/en@arabic/LC_MESSAGES/grub.mo
+installing ../../po/en@cyrillic.gmo as /usr/share/locale/en@cyrillic/LC_MESSAGES/grub.mo
+installing ../../po/en@greek.gmo as /usr/share/locale/en@greek/LC_MESSAGES/grub.mo
+installing ../../po/en@hebrew.gmo as /usr/share/locale/en@hebrew/LC_MESSAGES/grub.mo
+installing ../../po/en@piglatin.gmo as /usr/share/locale/en@piglatin/LC_MESSAGES/grub.mo
+installing ../../po/en@quot.gmo as /usr/share/locale/en@quot/LC_MESSAGES/grub.mo
+installing ../../po/eo.gmo as /usr/share/locale/eo/LC_MESSAGES/grub.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/grub.mo
+installing ../../po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/grub.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/grub.mo
+installing ../../po/gl.gmo as /usr/share/locale/gl/LC_MESSAGES/grub.mo
+installing ../../po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/grub.mo
+installing ../../po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/grub.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/grub.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/grub.mo
+installing ../../po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/grub.mo
+installing ../../po/ko.gmo as /usr/share/locale/ko/LC_MESSAGES/grub.mo
+installing ../../po/lt.gmo as /usr/share/locale/lt/LC_MESSAGES/grub.mo
+installing ../../po/nb.gmo as /usr/share/locale/nb/LC_MESSAGES/grub.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/grub.mo
+installing ../../po/pa.gmo as /usr/share/locale/pa/LC_MESSAGES/grub.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/grub.mo
+installing ../../po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/grub.mo
+installing ../../po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/grub.mo
+installing ../../po/sl.gmo as /usr/share/locale/sl/LC_MESSAGES/grub.mo
+installing ../../po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/grub.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/grub.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/grub.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/grub.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/grub.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/grub.mo
+installing ../../po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/grub.mo
+if test "grub" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot swiss.sed Rules-swiss piglatin.sed en@piglatin.header insert-header.sin Rules-piglatin hebrew.sed cyrillic.sed greek.sed arabic.sed Rules-translit Rules-windowsdir Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/grub-2.02/build/po'
+Making install in docs
+make[2]: Entering directory '/sources/grub-2.02/build/docs'
+make[3]: Entering directory '/sources/grub-2.02/build/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../docs/grub.info ../../docs/grub-dev.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/grub.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/grub-dev.info'
+make[3]: Leaving directory '/sources/grub-2.02/build/docs'
+make[2]: Leaving directory '/sources/grub-2.02/build/docs'
+Making install in util/bash-completion.d
+make[2]: Entering directory '/sources/grub-2.02/build/util/bash-completion.d'
+make[3]: Entering directory '/sources/grub-2.02/build/util/bash-completion.d'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/etc/bash_completion.d'
+ /usr/bin/install -c -m 644 grub '/etc/bash_completion.d'
+make[3]: Leaving directory '/sources/grub-2.02/build/util/bash-completion.d'
+make[2]: Leaving directory '/sources/grub-2.02/build/util/bash-completion.d'
+make[1]: Leaving directory '/sources/grub-2.02/build'

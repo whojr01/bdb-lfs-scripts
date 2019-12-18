@@ -1,0 +1,135 @@
+Making install in lib
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+make  install-am
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+make[3]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /lfsbuild/sources/diffutils-3.6/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /tools/lib/charset.tmp ; \
+    /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/lib'
+Making install in src
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/src'
+make  install-am
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/src'
+make[3]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/src'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c cmp diff diff3 sdiff '/tools/bin'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/src'
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/src'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/src'
+Making install in tests
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/tests'
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/tests'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/tests'
+Making install in doc
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/doc'
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/info'
+ /tools/bin/install -c -m 644 ../../doc/diffutils.info '/tools/share/info'
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/doc'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/doc'
+Making install in man
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/man'
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/man'
+make[2]: Nothing to be done for `install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 ../../man/cmp.1 ../../man/diff.1 ../../man/diff3.1 ../../man/sdiff.1 '/tools/share/man/man1'
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/man'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/man'
+Making install in po
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/po'
+installing ../../po/ca.gmo as /tools/share/locale/ca/LC_MESSAGES/diffutils.mo
+installing ../../po/cs.gmo as /tools/share/locale/cs/LC_MESSAGES/diffutils.mo
+installing ../../po/da.gmo as /tools/share/locale/da/LC_MESSAGES/diffutils.mo
+installing ../../po/de.gmo as /tools/share/locale/de/LC_MESSAGES/diffutils.mo
+installing ../../po/el.gmo as /tools/share/locale/el/LC_MESSAGES/diffutils.mo
+installing ../../po/eo.gmo as /tools/share/locale/eo/LC_MESSAGES/diffutils.mo
+installing ../../po/es.gmo as /tools/share/locale/es/LC_MESSAGES/diffutils.mo
+installing ../../po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/diffutils.mo
+installing ../../po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/diffutils.mo
+installing ../../po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/diffutils.mo
+installing ../../po/gl.gmo as /tools/share/locale/gl/LC_MESSAGES/diffutils.mo
+installing ../../po/he.gmo as /tools/share/locale/he/LC_MESSAGES/diffutils.mo
+installing ../../po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/diffutils.mo
+installing ../../po/hu.gmo as /tools/share/locale/hu/LC_MESSAGES/diffutils.mo
+installing ../../po/id.gmo as /tools/share/locale/id/LC_MESSAGES/diffutils.mo
+installing ../../po/it.gmo as /tools/share/locale/it/LC_MESSAGES/diffutils.mo
+installing ../../po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/diffutils.mo
+installing ../../po/lv.gmo as /tools/share/locale/lv/LC_MESSAGES/diffutils.mo
+installing ../../po/ms.gmo as /tools/share/locale/ms/LC_MESSAGES/diffutils.mo
+installing ../../po/nb.gmo as /tools/share/locale/nb/LC_MESSAGES/diffutils.mo
+installing ../../po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/diffutils.mo
+installing ../../po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/diffutils.mo
+installing ../../po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/diffutils.mo
+installing ../../po/ro.gmo as /tools/share/locale/ro/LC_MESSAGES/diffutils.mo
+installing ../../po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/diffutils.mo
+installing ../../po/sr.gmo as /tools/share/locale/sr/LC_MESSAGES/diffutils.mo
+installing ../../po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/diffutils.mo
+installing ../../po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/diffutils.mo
+installing ../../po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/diffutils.mo
+installing ../../po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/diffutils.mo
+installing ../../po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/diffutils.mo
+installing ../../po/zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/diffutils.mo
+if test "diffutils" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ../../po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/po'
+Making install in gnulib-tests
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make  install-recursive
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+Making install in .
+make[3]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[4]: Entering directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[3]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build/gnulib-tests'
+make[1]: Entering directory `/lfsbuild/sources/diffutils-3.6/build'
+make[2]: Entering directory `/lfsbuild/sources/diffutils-3.6/build'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build'
+make[1]: Leaving directory `/lfsbuild/sources/diffutils-3.6/build'

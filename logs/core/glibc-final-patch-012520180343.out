@@ -1,0 +1,11 @@
+patching file Makeconfig
+Hunk #1 succeeded at 260 (offset 10 lines).
+patching file nscd/nscd.h
+Hunk #1 succeeded at 161 (offset 49 lines).
+patching file nss/db-Makefile
+patching file sysdeps/generic/paths.h
+patching file sysdeps/unix/sysv/linux/paths.h
+patching file ChangeLog
+patching file posix/glob.c
+Applied - patch -Np1 -i ../glibc-2.26-fhs-1.patch
+Applied - patch -Np1 -i ../glibc-2.26-local_glob_exploits-2.patch

@@ -1,0 +1,168 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By:            Andrew Benton <andy at benton dot eu dot com> (gobject-introspection) and Armin K. <krejzi at email dot com>, after thomas kaedin (git)
+|Date:                    2012-03-29 (gobject-introspection) and 2014-03-04 (git)
+|Initial Package Version: 2.28.6
+|Upstream Status:         not submitted (gobject-introspection) and committed (git)
+|Origin:                  Andrew Benton (gobject-introspection) and upstream (git)
+|Description:             Fixes compiling with recent versions of gobject-introspection; and upstream fixes
+|
+|diff -Naur pygobject-2.28.6.orig/configure.ac pygobject-2.28.6/configure.ac
+|--- pygobject-2.28.6.orig/configure.ac	2011-06-13 13:33:56.000000000 -0300
+|+++ pygobject-2.28.6/configure.ac	2014-03-04 18:36:07.947079909 -0300
+--------------------------
+patching file configure.ac
+Using Plan A...
+Hunk #1 succeeded at 85.
+Hunk #2 succeeded at 236.
+Hunk #3 succeeded at 262.
+Hunk #4 succeeded at 284.
+Hunk #5 succeeded at 296.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gi/module.py pygobject-2.28.6/gi/module.py
+|--- pygobject-2.28.6.orig/gi/module.py	2011-06-13 13:30:25.000000000 -0300
+|+++ pygobject-2.28.6/gi/module.py	2014-03-04 18:36:07.947079909 -0300
+--------------------------
+patching file gi/module.py
+Using Plan A...
+Hunk #1 succeeded at 24.
+Hunk #2 succeeded at 128.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gi/overrides/Gtk.py pygobject-2.28.6/gi/overrides/Gtk.py
+|--- pygobject-2.28.6.orig/gi/overrides/Gtk.py	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/gi/overrides/Gtk.py	2014-03-04 18:36:07.949079863 -0300
+--------------------------
+patching file gi/overrides/Gtk.py
+Using Plan A...
+Hunk #1 succeeded at 35.
+Hunk #2 succeeded at 413.
+Hunk #3 succeeded at 637.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gi/pygi-foreign-cairo.c pygobject-2.28.6/gi/pygi-foreign-cairo.c
+|--- pygobject-2.28.6.orig/gi/pygi-foreign-cairo.c	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/gi/pygi-foreign-cairo.c	2014-03-04 18:36:07.949079863 -0300
+--------------------------
+patching file gi/pygi-foreign-cairo.c
+Using Plan A...
+Hunk #1 succeeded at 30.
+Hunk #2 succeeded at 114.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gi/pygi-info.c pygobject-2.28.6/gi/pygi-info.c
+|--- pygobject-2.28.6.orig/gi/pygi-info.c	2011-06-13 13:30:25.000000000 -0300
+|+++ pygobject-2.28.6/gi/pygi-info.c	2014-03-04 18:35:32.473899924 -0300
+--------------------------
+patching file gi/pygi-info.c
+Using Plan A...
+Hunk #1 succeeded at 162.
+Hunk #2 succeeded at 478.
+Hunk #3 succeeded at 856.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gio/gio-types.defs pygobject-2.28.6/gio/gio-types.defs
+|--- pygobject-2.28.6.orig/gio/gio-types.defs	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/gio/gio-types.defs	2014-03-04 18:36:07.950079840 -0300
+--------------------------
+patching file gio/gio-types.defs
+Using Plan A...
+Hunk #1 succeeded at 526.
+Hunk #2 succeeded at 545.
+Hunk #3 succeeded at 770.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gobject/gobjectmodule.c pygobject-2.28.6/gobject/gobjectmodule.c
+|--- pygobject-2.28.6.orig/gobject/gobjectmodule.c	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/gobject/gobjectmodule.c	2014-03-04 18:36:07.952079793 -0300
+--------------------------
+patching file gobject/gobjectmodule.c
+Using Plan A...
+Hunk #1 succeeded at 312.
+Hunk #2 succeeded at 477.
+Hunk #3 succeeded at 522.
+Hunk #4 succeeded at 791.
+Hunk #5 succeeded at 862.
+Hunk #6 succeeded at 872.
+Hunk #7 succeeded at 881.
+Hunk #8 succeeded at 1109.
+Hunk #9 succeeded at 1123.
+Hunk #10 succeeded at 1139.
+Hunk #11 succeeded at 1159.
+Hunk #12 succeeded at 1246.
+Hunk #13 succeeded at 1270.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gobject/propertyhelper.py pygobject-2.28.6/gobject/propertyhelper.py
+|--- pygobject-2.28.6.orig/gobject/propertyhelper.py	2011-06-13 13:30:25.000000000 -0300
+|+++ pygobject-2.28.6/gobject/propertyhelper.py	2014-03-04 18:36:07.953079770 -0300
+--------------------------
+patching file gobject/propertyhelper.py
+Using Plan A...
+Hunk #1 succeeded at 188.
+Hunk #2 succeeded at 226.
+Hunk #3 succeeded at 299.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/gobject/pygobject.c pygobject-2.28.6/gobject/pygobject.c
+|--- pygobject-2.28.6.orig/gobject/pygobject.c	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/gobject/pygobject.c	2014-03-04 18:36:07.954079747 -0300
+--------------------------
+patching file gobject/pygobject.c
+Using Plan A...
+Hunk #1 succeeded at 991.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/Makefile.am pygobject-2.28.6/Makefile.am
+|--- pygobject-2.28.6.orig/Makefile.am	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/Makefile.am	2014-03-04 18:36:07.954079747 -0300
+--------------------------
+patching file Makefile.am
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/tests/Makefile.am pygobject-2.28.6/tests/Makefile.am
+|--- pygobject-2.28.6.orig/tests/Makefile.am	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/tests/Makefile.am	2014-03-04 18:36:07.955079724 -0300
+--------------------------
+patching file tests/Makefile.am
+Using Plan A...
+Hunk #1 succeeded at 104.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/tests/test_gdbus.py pygobject-2.28.6/tests/test_gdbus.py
+|--- pygobject-2.28.6.orig/tests/test_gdbus.py	2011-06-13 13:33:49.000000000 -0300
+|+++ pygobject-2.28.6/tests/test_gdbus.py	2014-03-04 18:36:07.956079701 -0300
+--------------------------
+patching file tests/test_gdbus.py
+Using Plan A...
+Hunk #1 succeeded at 67.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur pygobject-2.28.6.orig/tests/test_properties.py pygobject-2.28.6/tests/test_properties.py
+|--- pygobject-2.28.6.orig/tests/test_properties.py	2011-06-13 13:30:25.000000000 -0300
+|+++ pygobject-2.28.6/tests/test_properties.py	2014-03-04 18:36:07.956079701 -0300
+--------------------------
+patching file tests/test_properties.py
+Using Plan A...
+Hunk #1 succeeded at 14.
+Hunk #2 succeeded at 36.
+Hunk #3 succeeded at 66.
+Hunk #4 succeeded at 133.
+Hunk #5 succeeded at 304.
+done

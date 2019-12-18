@@ -1,0 +1,11 @@
+###############################
+# Install xpr-1.0.4.tar.bz2 #
+###############################
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xpr-1.0.4'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+  /usr/bin/install -c xpr '/usr/bin'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+ /usr/bin/install -c xdpr '/usr/bin'
+test -z "/usr/share/man/man1" || /bin/mkdir -p "/usr/share/man/man1"
+ /usr/bin/install -c -m 644 xdpr.1 xpr.1 '/usr/share/man/man1'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xpr-1.0.4'

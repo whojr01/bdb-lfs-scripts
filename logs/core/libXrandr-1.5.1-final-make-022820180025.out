@@ -1,0 +1,40 @@
+###############################
+# Make libXrandr-1.5.1.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1/src'
+  CC       Xrandr.lo
+  CC       XrrConfig.lo
+  CC       XrrCrtc.lo
+  CC       XrrMode.lo
+  CC       XrrOutput.lo
+  CC       XrrProperty.lo
+  CC       XrrScreen.lo
+  CC       XrrProvider.lo
+  CC       XrrProviderProperty.lo
+  CC       XrrMonitor.lo
+  CCLD     libXrandr.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1/man'
+  GEN      Xrandr.3
+  GEN      XRRQueryExtension.3
+  GEN      XRRQueryVersion.3
+  GEN      XRRGetScreenInfo.3
+  GEN      XRRFreeScreenConfigInfo.3
+  GEN      XRRSetScreenConfig.3
+  GEN      XRRSetScreenConfigAndRate.3
+  GEN      XRRConfigRotations.3
+  GEN      XRRConfigTimes.3
+  GEN      XRRConfigSizes.3
+  GEN      XRRConfigRates.3
+  GEN      XRRConfigCurrentConfiguration.3
+  GEN      XRRConfigCurrentRate.3
+  GEN      XRRRootToScreen.3
+  GEN      XRRSelectInput.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXrandr-1.5.1'

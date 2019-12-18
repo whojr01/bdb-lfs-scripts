@@ -1,0 +1,15 @@
+tcl-tmp, ../configure --prefix=/tools, make ,TZ=UTC make  test,,make install
+dejagnu-tmp, ../configure --prefix=/tools, make ,,,make install
+check-tmp, ../configure --prefix=/tools, make ,, make  check,make install
+bzip2,, make ,,,
+diffutils, ../configure --prefix=/tools, make ,, make  check,make install
+file-tmp, ../configure --prefix=/tools, make ,, make  check,make install
+findutils-tmp, ../configure --prefix=/tools, make ,, make  check,make install
+grep-tmp, ../configure --prefix=/tools, make ,, make  check,make install
+gzip-tmp, ../configure --prefix=/tools, make ,, make  check,make install
+m4-tmp, ../configure --prefix=/tools, make ,, make  check,make install
+patch, ../configure --prefix=/tools, make ,, make  check,make install
+sed, ../configure --prefix=/tools, make ,, make  check,make install
+tar, ../configure --prefix=/tools, make ,, make  check,make install
+texinfo, ../configure --prefix=/tools, make ,, make  check,make install
+xz, ../configure --prefix=/tools, make ,, make  check,make install

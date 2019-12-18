@@ -1,0 +1,376 @@
+Making install in .
+make[1]: Entering directory '/lfskernel/sources/boot/aspell-0.60.6.1'
+make[2]: Entering directory '/lfskernel/sources/boot/aspell-0.60.6.1'
+test -z "/usr/lib" || /bin/mkdir -p "/usr/lib"
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'libaspell.la' '/usr/lib/libaspell.la'
+libtool: install: /usr/bin/install -c .libs/libaspell.so.15.1.5 /usr/lib/libaspell.so.15.1.5
+libtool: install: (cd /usr/lib && { ln -s -f libaspell.so.15.1.5 libaspell.so.15 || { rm -f libaspell.so.15 && ln -s libaspell.so.15.1.5 libaspell.so.15; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libaspell.so.15.1.5 libaspell.so || { rm -f libaspell.so && ln -s libaspell.so.15.1.5 libaspell.so; }; })
+libtool: install: /usr/bin/install -c .libs/libaspell.lai /usr/lib/libaspell.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'libpspell.la' '/usr/lib/libpspell.la'
+libtool: install: warning: relinking `libpspell.la'
+libtool: install: (cd /lfskernel/sources/boot/aspell-0.60.6.1; /bin/sh /lfskernel/sources/boot/aspell-0.60.6.1/libtool  --tag CXX --mode=relink g++ -g -O2 -fno-exceptions -version-info 16:5:1 -no-undefined -o libpspell.la -rpath /usr/lib lib/dummy.lo libaspell.la -ldl -ldl )
+libtool: relink: warning: `/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/libstdc++.la' seems to be moved
+libtool: relink: g++ -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  lib/.libs/dummy.o   -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib -laspell -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -ldl -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o    -Wl,-soname -Wl,libpspell.so.15 -o .libs/libpspell.so.15.1.5
+libtool: install: /usr/bin/install -c .libs/libpspell.so.15.1.5T /usr/lib/libpspell.so.15.1.5
+libtool: install: (cd /usr/lib && { ln -s -f libpspell.so.15.1.5 libpspell.so.15 || { rm -f libpspell.so.15 && ln -s libpspell.so.15.1.5 libpspell.so.15; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpspell.so.15.1.5 libpspell.so || { rm -f libpspell.so && ln -s libpspell.so.15.1.5 libpspell.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpspell.lai /usr/lib/libpspell.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c 'word-list-compress' '/usr/bin/word-list-compress'
+libtool: install: /usr/bin/install -c word-list-compress /usr/bin/word-list-compress
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c 'aspell' '/usr/bin/aspell'
+libtool: install: /usr/bin/install -c .libs/aspell /usr/bin/aspell
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c 'prezip-bin' '/usr/bin/prezip-bin'
+libtool: install: /usr/bin/install -c prezip-bin /usr/bin/prezip-bin
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+ /usr/bin/install -c 'scripts/run-with-aspell' '/usr/bin/run-with-aspell'
+ /usr/bin/install -c 'scripts/aspell-import' '/usr/bin/aspell-import'
+ /usr/bin/install -c 'scripts/prezip' '/usr/bin/prezip'
+ /usr/bin/install -c 'scripts/preunzip' '/usr/bin/preunzip'
+ /usr/bin/install -c 'scripts/precat' '/usr/bin/precat'
+ /usr/bin/install -c 'scripts/pspell-config' '/usr/bin/pspell-config'
+test -z "/usr/lib/aspell-0.60" || /bin/mkdir -p "/usr/lib/aspell-0.60"
+ /usr/bin/install -c -m 644 'modules/filter/modes/html.amf' '/usr/lib/aspell-0.60/html.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/sgml.amf' '/usr/lib/aspell-0.60/sgml.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/tex.amf' '/usr/lib/aspell-0.60/tex.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/email.amf' '/usr/lib/aspell-0.60/email.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/ccpp.amf' '/usr/lib/aspell-0.60/ccpp.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/none.amf' '/usr/lib/aspell-0.60/none.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/perl.amf' '/usr/lib/aspell-0.60/perl.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/url.amf' '/usr/lib/aspell-0.60/url.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/comment.amf' '/usr/lib/aspell-0.60/comment.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/nroff.amf' '/usr/lib/aspell-0.60/nroff.amf'
+ /usr/bin/install -c -m 644 'modules/filter/modes/texinfo.amf' '/usr/lib/aspell-0.60/texinfo.amf'
+test -z "/usr/lib/aspell-0.60" || /bin/mkdir -p "/usr/lib/aspell-0.60"
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'email-filter.la' '/usr/lib/aspell-0.60/email-filter.la'
+libtool: install: warning: relinking `email-filter.la'
+libtool: install: (cd /lfskernel/sources/boot/aspell-0.60.6.1; /bin/sh /lfskernel/sources/boot/aspell-0.60.6.1/libtool  --tag CXX --mode=relink g++ -g -O2 -fno-exceptions -module -avoid-version -o email-filter.la -rpath /usr/lib/aspell-0.60 modules/filter/email.lo libaspell.la -ldl -ldl )
+libtool: relink: warning: `/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/libstdc++.la' seems to be moved
+libtool: relink: g++ -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  modules/filter/.libs/email.o   -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib -laspell -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -ldl -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o    -Wl,-soname -Wl,email-filter.so -o .libs/email-filter.so
+libtool: install: /usr/bin/install -c .libs/email-filter.soT /usr/lib/aspell-0.60/email-filter.so
+libtool: install: /usr/bin/install -c .libs/email-filter.lai /usr/lib/aspell-0.60/email-filter.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/aspell-0.60
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/aspell-0.60
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'tex-filter.la' '/usr/lib/aspell-0.60/tex-filter.la'
+libtool: install: warning: relinking `tex-filter.la'
+libtool: install: (cd /lfskernel/sources/boot/aspell-0.60.6.1; /bin/sh /lfskernel/sources/boot/aspell-0.60.6.1/libtool  --tag CXX --mode=relink g++ -g -O2 -fno-exceptions -module -avoid-version -o tex-filter.la -rpath /usr/lib/aspell-0.60 modules/filter/tex.lo libaspell.la -ldl -ldl )
+libtool: relink: warning: `/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/libstdc++.la' seems to be moved
+libtool: relink: g++ -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  modules/filter/.libs/tex.o   -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib -laspell -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -ldl -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o    -Wl,-soname -Wl,tex-filter.so -o .libs/tex-filter.so
+libtool: install: /usr/bin/install -c .libs/tex-filter.soT /usr/lib/aspell-0.60/tex-filter.so
+libtool: install: /usr/bin/install -c .libs/tex-filter.lai /usr/lib/aspell-0.60/tex-filter.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/aspell-0.60
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/aspell-0.60
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'sgml-filter.la' '/usr/lib/aspell-0.60/sgml-filter.la'
+libtool: install: warning: relinking `sgml-filter.la'
+libtool: install: (cd /lfskernel/sources/boot/aspell-0.60.6.1; /bin/sh /lfskernel/sources/boot/aspell-0.60.6.1/libtool  --tag CXX --mode=relink g++ -g -O2 -fno-exceptions -module -avoid-version -o sgml-filter.la -rpath /usr/lib/aspell-0.60 modules/filter/sgml.lo libaspell.la -ldl -ldl )
+libtool: relink: warning: `/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/libstdc++.la' seems to be moved
+libtool: relink: g++ -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  modules/filter/.libs/sgml.o   -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib -laspell -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -ldl -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o    -Wl,-soname -Wl,sgml-filter.so -o .libs/sgml-filter.so
+libtool: install: /usr/bin/install -c .libs/sgml-filter.soT /usr/lib/aspell-0.60/sgml-filter.so
+libtool: install: /usr/bin/install -c .libs/sgml-filter.lai /usr/lib/aspell-0.60/sgml-filter.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/aspell-0.60
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/aspell-0.60
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'context-filter.la' '/usr/lib/aspell-0.60/context-filter.la'
+libtool: install: warning: relinking `context-filter.la'
+libtool: install: (cd /lfskernel/sources/boot/aspell-0.60.6.1; /bin/sh /lfskernel/sources/boot/aspell-0.60.6.1/libtool  --tag CXX --mode=relink g++ -g -O2 -fno-exceptions -module -avoid-version -o context-filter.la -rpath /usr/lib/aspell-0.60 modules/filter/context.lo libaspell.la -ldl -ldl )
+libtool: relink: warning: `/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/libstdc++.la' seems to be moved
+libtool: relink: g++ -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  modules/filter/.libs/context.o   -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib -laspell -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -ldl -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o    -Wl,-soname -Wl,context-filter.so -o .libs/context-filter.so
+libtool: install: /usr/bin/install -c .libs/context-filter.soT /usr/lib/aspell-0.60/context-filter.so
+libtool: install: /usr/bin/install -c .libs/context-filter.lai /usr/lib/aspell-0.60/context-filter.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/aspell-0.60
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/aspell-0.60
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'nroff-filter.la' '/usr/lib/aspell-0.60/nroff-filter.la'
+libtool: install: warning: relinking `nroff-filter.la'
+libtool: install: (cd /lfskernel/sources/boot/aspell-0.60.6.1; /bin/sh /lfskernel/sources/boot/aspell-0.60.6.1/libtool  --tag CXX --mode=relink g++ -g -O2 -fno-exceptions -module -avoid-version -o nroff-filter.la -rpath /usr/lib/aspell-0.60 modules/filter/nroff.lo libaspell.la -ldl -ldl )
+libtool: relink: warning: `/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/libstdc++.la' seems to be moved
+libtool: relink: g++ -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  modules/filter/.libs/nroff.o   -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib -laspell -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -ldl -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o    -Wl,-soname -Wl,nroff-filter.so -o .libs/nroff-filter.so
+libtool: install: /usr/bin/install -c .libs/nroff-filter.soT /usr/lib/aspell-0.60/nroff-filter.so
+libtool: install: /usr/bin/install -c .libs/nroff-filter.lai /usr/lib/aspell-0.60/nroff-filter.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/aspell-0.60
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/aspell-0.60
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c  'texinfo-filter.la' '/usr/lib/aspell-0.60/texinfo-filter.la'
+libtool: install: warning: relinking `texinfo-filter.la'
+libtool: install: (cd /lfskernel/sources/boot/aspell-0.60.6.1; /bin/sh /lfskernel/sources/boot/aspell-0.60.6.1/libtool  --tag CXX --mode=relink g++ -g -O2 -fno-exceptions -module -avoid-version -o texinfo-filter.la -rpath /usr/lib/aspell-0.60 modules/filter/texinfo.lo libaspell.la -ldl -ldl )
+libtool: relink: warning: `/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/libstdc++.la' seems to be moved
+libtool: relink: g++ -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  modules/filter/.libs/texinfo.o   -Wl,-rpath -Wl,/usr/lib/../lib -L/usr/lib -laspell -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -ldl -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o    -Wl,-soname -Wl,texinfo-filter.so -o .libs/texinfo-filter.so
+libtool: install: /usr/bin/install -c .libs/texinfo-filter.soT /usr/lib/aspell-0.60/texinfo-filter.so
+libtool: install: /usr/bin/install -c .libs/texinfo-filter.lai /usr/lib/aspell-0.60/texinfo-filter.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/aspell-0.60
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/aspell-0.60
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/include" || /bin/mkdir -p "/usr/include"
+ /usr/bin/install -c -m 644 'interfaces/cc/aspell.h' '/usr/include/aspell.h'
+test -z "/usr/lib/aspell-0.60" || /bin/mkdir -p "/usr/lib/aspell-0.60"
+ /usr/bin/install -c -m 644 'modules/filter/email-filter.info' '/usr/lib/aspell-0.60/email-filter.info'
+ /usr/bin/install -c -m 644 'modules/filter/tex-filter.info' '/usr/lib/aspell-0.60/tex-filter.info'
+ /usr/bin/install -c -m 644 'modules/filter/sgml-filter.info' '/usr/lib/aspell-0.60/sgml-filter.info'
+ /usr/bin/install -c -m 644 'modules/filter/html-filter.info' '/usr/lib/aspell-0.60/html-filter.info'
+ /usr/bin/install -c -m 644 'modules/filter/context-filter.info' '/usr/lib/aspell-0.60/context-filter.info'
+ /usr/bin/install -c -m 644 'modules/filter/nroff-filter.info' '/usr/lib/aspell-0.60/nroff-filter.info'
+ /usr/bin/install -c -m 644 'modules/filter/texinfo-filter.info' '/usr/lib/aspell-0.60/texinfo-filter.info'
+test -z "/usr/lib/aspell-0.60" || /bin/mkdir -p "/usr/lib/aspell-0.60"
+ /usr/bin/install -c -m 644 'data/cp1250.cmap' '/usr/lib/aspell-0.60/cp1250.cmap'
+ /usr/bin/install -c -m 644 'data/cp1250.cset' '/usr/lib/aspell-0.60/cp1250.cset'
+ /usr/bin/install -c -m 644 'data/cp1251.cmap' '/usr/lib/aspell-0.60/cp1251.cmap'
+ /usr/bin/install -c -m 644 'data/cp1251.cset' '/usr/lib/aspell-0.60/cp1251.cset'
+ /usr/bin/install -c -m 644 'data/cp1252.cmap' '/usr/lib/aspell-0.60/cp1252.cmap'
+ /usr/bin/install -c -m 644 'data/cp1252.cset' '/usr/lib/aspell-0.60/cp1252.cset'
+ /usr/bin/install -c -m 644 'data/cp1253.cmap' '/usr/lib/aspell-0.60/cp1253.cmap'
+ /usr/bin/install -c -m 644 'data/cp1253.cset' '/usr/lib/aspell-0.60/cp1253.cset'
+ /usr/bin/install -c -m 644 'data/cp1254.cmap' '/usr/lib/aspell-0.60/cp1254.cmap'
+ /usr/bin/install -c -m 644 'data/cp1254.cset' '/usr/lib/aspell-0.60/cp1254.cset'
+ /usr/bin/install -c -m 644 'data/cp1255.cmap' '/usr/lib/aspell-0.60/cp1255.cmap'
+ /usr/bin/install -c -m 644 'data/cp1255.cset' '/usr/lib/aspell-0.60/cp1255.cset'
+ /usr/bin/install -c -m 644 'data/cp1256.cmap' '/usr/lib/aspell-0.60/cp1256.cmap'
+ /usr/bin/install -c -m 644 'data/cp1256.cset' '/usr/lib/aspell-0.60/cp1256.cset'
+ /usr/bin/install -c -m 644 'data/cp1257.cmap' '/usr/lib/aspell-0.60/cp1257.cmap'
+ /usr/bin/install -c -m 644 'data/cp1257.cset' '/usr/lib/aspell-0.60/cp1257.cset'
+ /usr/bin/install -c -m 644 'data/cp1258.cmap' '/usr/lib/aspell-0.60/cp1258.cmap'
+ /usr/bin/install -c -m 644 'data/cp1258.cset' '/usr/lib/aspell-0.60/cp1258.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-1.cmap' '/usr/lib/aspell-0.60/iso-8859-1.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-1.cset' '/usr/lib/aspell-0.60/iso-8859-1.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-2.cmap' '/usr/lib/aspell-0.60/iso-8859-2.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-2.cset' '/usr/lib/aspell-0.60/iso-8859-2.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-3.cmap' '/usr/lib/aspell-0.60/iso-8859-3.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-3.cset' '/usr/lib/aspell-0.60/iso-8859-3.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-4.cmap' '/usr/lib/aspell-0.60/iso-8859-4.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-4.cset' '/usr/lib/aspell-0.60/iso-8859-4.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-5.cmap' '/usr/lib/aspell-0.60/iso-8859-5.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-5.cset' '/usr/lib/aspell-0.60/iso-8859-5.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-6.cmap' '/usr/lib/aspell-0.60/iso-8859-6.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-6.cset' '/usr/lib/aspell-0.60/iso-8859-6.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-7.cmap' '/usr/lib/aspell-0.60/iso-8859-7.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-7.cset' '/usr/lib/aspell-0.60/iso-8859-7.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-8.cmap' '/usr/lib/aspell-0.60/iso-8859-8.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-8.cset' '/usr/lib/aspell-0.60/iso-8859-8.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-9.cmap' '/usr/lib/aspell-0.60/iso-8859-9.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-9.cset' '/usr/lib/aspell-0.60/iso-8859-9.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-10.cmap' '/usr/lib/aspell-0.60/iso-8859-10.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-10.cset' '/usr/lib/aspell-0.60/iso-8859-10.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-11.cmap' '/usr/lib/aspell-0.60/iso-8859-11.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-11.cset' '/usr/lib/aspell-0.60/iso-8859-11.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-13.cmap' '/usr/lib/aspell-0.60/iso-8859-13.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-13.cset' '/usr/lib/aspell-0.60/iso-8859-13.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-14.cmap' '/usr/lib/aspell-0.60/iso-8859-14.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-14.cset' '/usr/lib/aspell-0.60/iso-8859-14.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-15.cmap' '/usr/lib/aspell-0.60/iso-8859-15.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-15.cset' '/usr/lib/aspell-0.60/iso-8859-15.cset'
+ /usr/bin/install -c -m 644 'data/iso-8859-16.cmap' '/usr/lib/aspell-0.60/iso-8859-16.cmap'
+ /usr/bin/install -c -m 644 'data/iso-8859-16.cset' '/usr/lib/aspell-0.60/iso-8859-16.cset'
+ /usr/bin/install -c -m 644 'data/koi8-r.cmap' '/usr/lib/aspell-0.60/koi8-r.cmap'
+ /usr/bin/install -c -m 644 'data/koi8-r.cset' '/usr/lib/aspell-0.60/koi8-r.cset'
+ /usr/bin/install -c -m 644 'data/koi8-u.cmap' '/usr/lib/aspell-0.60/koi8-u.cmap'
+ /usr/bin/install -c -m 644 'data/koi8-u.cset' '/usr/lib/aspell-0.60/koi8-u.cset'
+ /usr/bin/install -c -m 644 'data/dvorak.kbd' '/usr/lib/aspell-0.60/dvorak.kbd'
+ /usr/bin/install -c -m 644 'data/split.kbd' '/usr/lib/aspell-0.60/split.kbd'
+ /usr/bin/install -c -m 644 'data/standard.kbd' '/usr/lib/aspell-0.60/standard.kbd'
+test -z "/usr/lib/aspell-0.60" || /bin/mkdir -p "/usr/lib/aspell-0.60"
+ /usr/bin/install -c 'scripts/spell' '/usr/lib/aspell-0.60/spell'
+ /usr/bin/install -c 'scripts/ispell' '/usr/lib/aspell-0.60/ispell'
+test -z "/usr/include/pspell" || /bin/mkdir -p "/usr/include/pspell"
+ /usr/bin/install -c -m 644 'interfaces/cc/pspell.h' '/usr/include/pspell/pspell.h'
+make[2]: Leaving directory '/lfskernel/sources/boot/aspell-0.60.6.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/aspell-0.60.6.1'
+Making install in po
+make[1]: Entering directory '/lfskernel/sources/boot/aspell-0.60.6.1/po'
+/bin/mkdir -p /usr/share
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/aspell.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/aspell.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/aspell.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/aspell.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/aspell.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/aspell.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/aspell.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/aspell.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/aspell.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/aspell.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/aspell.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/aspell.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/aspell.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/aspell.mo
+installing mn.gmo as /usr/share/locale/mn/LC_MESSAGES/aspell.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/aspell.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/aspell.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/aspell.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/aspell.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/aspell.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/aspell.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/aspell.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/aspell.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/aspell.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/aspell.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/aspell.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/aspell.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/aspell.mo
+installing wa.gmo as /usr/share/locale/wa/LC_MESSAGES/aspell.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/aspell.mo
+if test "aspell" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/lfskernel/sources/boot/aspell-0.60.6.1/po'
+Making install in manual
+make[1]: Entering directory '/lfskernel/sources/boot/aspell-0.60.6.1/manual'
+make[2]: Entering directory '/lfskernel/sources/boot/aspell-0.60.6.1/manual'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/info" || /bin/mkdir -p "/usr/share/info"
+ /usr/bin/install -c -m 644 './aspell.info' '/usr/share/info/aspell.info'
+ /usr/bin/install -c -m 644 './aspell-dev.info' '/usr/share/info/aspell-dev.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/aspell.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/aspell-dev.info'
+test -z "/usr/share/man/man1" || /bin/mkdir -p "/usr/share/man/man1"
+ /usr/bin/install -c -m 644 'aspell.1' '/usr/share/man/man1/aspell.1'
+ /usr/bin/install -c -m 644 'pspell-config.1' '/usr/share/man/man1/pspell-config.1'
+ /usr/bin/install -c -m 644 'word-list-compress.1' '/usr/share/man/man1/word-list-compress.1'
+ /usr/bin/install -c -m 644 'aspell-import.1' '/usr/share/man/man1/aspell-import.1'
+ /usr/bin/install -c -m 644 'run-with-aspell.1' '/usr/share/man/man1/run-with-aspell.1'
+ /usr/bin/install -c -m 644 'prezip-bin.1' '/usr/share/man/man1/prezip-bin.1'
+make[2]: Leaving directory '/lfskernel/sources/boot/aspell-0.60.6.1/manual'
+make[1]: Leaving directory '/lfskernel/sources/boot/aspell-0.60.6.1/manual'

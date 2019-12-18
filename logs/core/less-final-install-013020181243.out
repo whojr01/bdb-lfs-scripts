@@ -1,0 +1,7 @@
+../mkinstalldirs /usr/bin /usr/share/man/man1
+/usr/bin/install -c less /usr/bin/less
+/usr/bin/install -c lesskey /usr/bin/lesskey
+/usr/bin/install -c lessecho /usr/bin/lessecho
+/usr/bin/install -c -m 644 ../less.nro /usr/share/man/man1/less.1
+/usr/bin/install -c -m 644 ../lesskey.nro /usr/share/man/man1/lesskey.1
+/usr/bin/install -c -m 644 ../lessecho.nro /usr/share/man/man1/lessecho.1

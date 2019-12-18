@@ -1,0 +1,304 @@
+###############################
+# Make libxkbfile-1.0.9.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libxkbfile-1.0.9'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxkbfile-1.0.9/src'
+  CC       cout.lo
+  CC       maprules.lo
+  CC       srvmisc.lo
+  CC       xkbatom.lo
+  CC       xkbbells.lo
+  CC       xkbconfig.lo
+xkbconfig.c:1069:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"rules",                   _XkbCF_RulesFile},
+      ^~~~~~~
+xkbconfig.c:1070:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"model",                   _XkbCF_Model},
+      ^~~~~~~
+xkbconfig.c:1071:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"layout",                  _XkbCF_Layout},
+      ^~~~~~~~
+xkbconfig.c:1072:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"variant",                 _XkbCF_Variant},
+      ^~~~~~~~~
+xkbconfig.c:1073:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"options",                 _XkbCF_Options},
+      ^~~~~~~~~
+xkbconfig.c:1074:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"keymap",                  _XkbCF_Keymap},
+      ^~~~~~~~
+xkbconfig.c:1075:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"keycodes",                _XkbCF_Keycodes},
+      ^~~~~~~~~~
+xkbconfig.c:1076:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"geometry",                _XkbCF_Geometry},
+      ^~~~~~~~~~
+xkbconfig.c:1077:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"realsymbols",             _XkbCF_PhysSymbols},
+      ^~~~~~~~~~~~~
+xkbconfig.c:1078:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"actualsymbols",           _XkbCF_PhysSymbols},
+      ^~~~~~~~~~~~~~~
+xkbconfig.c:1079:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"symbols",                 _XkbCF_Symbols},
+      ^~~~~~~~~
+xkbconfig.c:1080:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"symbolstouse",            _XkbCF_Symbols},
+      ^~~~~~~~~~~~~~
+xkbconfig.c:1081:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"types",                   _XkbCF_Types},
+      ^~~~~~~
+xkbconfig.c:1082:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"compat",                  _XkbCF_CompatMap},
+      ^~~~~~~~
+xkbconfig.c:1083:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"modifiers",               _XkbCF_InitialMods},
+      ^~~~~~~~~~~
+xkbconfig.c:1084:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"controls",                _XkbCF_InitialCtrls},
+      ^~~~~~~~~~
+xkbconfig.c:1085:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"click",                   _XkbCF_ClickVolume},
+      ^~~~~~~
+xkbconfig.c:1086:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"clickvolume",             _XkbCF_ClickVolume},
+      ^~~~~~~~~~~~~
+xkbconfig.c:1087:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"bell",                    _XkbCF_BellVolume},
+      ^~~~~~
+xkbconfig.c:1088:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"bellvolume",              _XkbCF_BellVolume},
+      ^~~~~~~~~~~~
+xkbconfig.c:1089:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"bellpitch",               _XkbCF_BellPitch},
+      ^~~~~~~~~~~
+xkbconfig.c:1090:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"bellduration",            _XkbCF_BellDuration},
+      ^~~~~~~~~~~~~~
+xkbconfig.c:1091:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"repeatdelay",             _XkbCF_RepeatDelay},
+      ^~~~~~~~~~~~~
+xkbconfig.c:1092:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"repeatinterval",          _XkbCF_RepeatInterval},
+      ^~~~~~~~~~~~~~~~
+xkbconfig.c:1093:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"slowkeysdelay",           _XkbCF_SlowKeysDelay},
+      ^~~~~~~~~~~~~~~
+xkbconfig.c:1094:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"debouncedelay",           _XkbCF_DebounceDelay},
+      ^~~~~~~~~~~~~~~
+xkbconfig.c:1095:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"mousekeysdelay",          _XkbCF_MouseKeysDelay},
+      ^~~~~~~~~~~~~~~~
+xkbconfig.c:1096:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"mousekeysinterval",       _XkbCF_MouseKeysInterval},
+      ^~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1097:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"mousekeystimetomax",      _XkbCF_MouseKeysTimeToMax},
+      ^~~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1098:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"mousekeysmaxspeed",       _XkbCF_MouseKeysMaxSpeed},
+      ^~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1099:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"mousekeyscurve",          _XkbCF_MouseKeysCurve},
+      ^~~~~~~~~~~~~~~~
+xkbconfig.c:1100:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"accessxtimeout",          _XkbCF_AccessXTimeout},
+      ^~~~~~~~~~~~~~~~
+xkbconfig.c:1101:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"axtimeout",               _XkbCF_AccessXTimeout},
+      ^~~~~~~~~~~
+xkbconfig.c:1102:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"accessxtimeoutctrlson",   _XkbCF_AccessXTimeoutCtrlsOn},
+      ^~~~~~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1103:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"axtctrlson",              _XkbCF_AccessXTimeoutCtrlsOn},
+      ^~~~~~~~~~~~
+xkbconfig.c:1104:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"accessxtimeoutctrlsoff",  _XkbCF_AccessXTimeoutCtrlsOff},
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1105:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"axtctrlsoff",             _XkbCF_AccessXTimeoutCtrlsOff},
+      ^~~~~~~~~~~~~
+xkbconfig.c:1106:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"accessxtimeoutfeedbackon",_XkbCF_AccessXTimeoutOptsOn},
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1107:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"axtfeedbackon",           _XkbCF_AccessXTimeoutOptsOn},
+      ^~~~~~~~~~~~~~~
+xkbconfig.c:1108:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"accessxtimeoutfeedbackoff",_XkbCF_AccessXTimeoutOptsOff},
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1109:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"axtfeedbackoff",          _XkbCF_AccessXTimeoutOptsOff},
+      ^~~~~~~~~~~~~~~~
+xkbconfig.c:1110:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"ignorelockmods",          _XkbCF_IgnoreLockMods},
+      ^~~~~~~~~~~~~~~~
+xkbconfig.c:1111:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"ignorelockmodifiers",     _XkbCF_IgnoreLockMods},
+      ^~~~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1112:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"ignoregrouplock",         _XkbCF_IgnoreGroupLock},
+      ^~~~~~~~~~~~~~~~~
+xkbconfig.c:1113:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"internalmods",            _XkbCF_InternalMods},
+      ^~~~~~~~~~~~~~
+xkbconfig.c:1114:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"internalmodifiers",       _XkbCF_InternalMods},
+      ^~~~~~~~~~~~~~~~~~~
+xkbconfig.c:1115:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"outofrangegroups",        _XkbCF_GroupsWrap},
+      ^~~~~~~~~~~~~~~~~~
+xkbconfig.c:1116:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"groups",                  _XkbCF_GroupsWrap},
+      ^~~~~~~~
+xkbconfig.c:1117:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"feedback",                _XkbCF_InitialFeedback},
+      ^~~~~~~~~~
+xkbconfig.c: In function 'XkbCFReportError':
+xkbconfig.c:1344:5: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     fprintf(file, msg, line);
+     ^~~~~~~
+  CC       xkbdraw.lo
+xkbdraw.c: In function 'XkbGetOrderedDrawables':
+xkbdraw.c:79:23: warning: declaration of 'section' shadows a parameter [-Wshadow]
+         XkbSectionPtr section;
+                       ^~~~~~~
+xkbdraw.c:72:59: note: shadowed declaration is here
+ XkbGetOrderedDrawables(XkbGeometryPtr geom, XkbSectionPtr section)
+                                                           ^~~~~~~
+  CC       xkberrs.lo
+  CC       xkbmisc.lo
+xkbmisc.c: In function '_XkbKSCheckCase':
+xkbmisc.c:100:32: warning: logical 'and' of mutually exclusive tests is always false [-Wlogical-op]
+             ((ks >= XK_Ygrave) && (ks <= XK_Fabovedot)) ||
+                                ^~
+xkbmisc.c:114:36: warning: logical 'and' of mutually exclusive tests is always false [-Wlogical-op]
+             ((ks >= XK_wdiaeresis) && (ks <= XK_ycircumflex))) {
+                                    ^~
+xkbmisc.c: In function 'XkbWriteXKBKeymapForNames':
+xkbmisc.c:247:14: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         name = "default";
+              ^
+  CC       xkbout.lo
+  CC       xkbtext.lo
+xkbtext.c:403:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "NoneOf", "AnyOfOrNone", "AnyOf", "AllOf", "Exactly"
+     ^~~~~~~~
+xkbtext.c:403:15: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "NoneOf", "AnyOfOrNone", "AnyOf", "AllOf", "Exactly"
+               ^~~~~~~~~~~~~
+xkbtext.c:403:30: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "NoneOf", "AnyOfOrNone", "AnyOf", "AllOf", "Exactly"
+                              ^~~~~~~
+xkbtext.c:403:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "NoneOf", "AnyOfOrNone", "AnyOf", "AllOf", "Exactly"
+                                       ^~~~~~~
+xkbtext.c:403:48: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "NoneOf", "AnyOfOrNone", "AnyOf", "AllOf", "Exactly"
+                                                ^~~~~~~~~
+xkbtext.c:811:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "NoAction",
+     ^~~~~~~~~~
+xkbtext.c:812:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetMods",      "LatchMods",    "LockMods",
+     ^~~~~~~~~
+xkbtext.c:812:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetMods",      "LatchMods",    "LockMods",
+                     ^~~~~~~~~~~
+xkbtext.c:812:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetMods",      "LatchMods",    "LockMods",
+                                     ^~~~~~~~~~
+xkbtext.c:813:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetGroup",     "LatchGroup",   "LockGroup",
+     ^~~~~~~~~~
+xkbtext.c:813:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetGroup",     "LatchGroup",   "LockGroup",
+                     ^~~~~~~~~~~~
+xkbtext.c:813:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetGroup",     "LatchGroup",   "LockGroup",
+                                     ^~~~~~~~~~~
+xkbtext.c:814:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "MovePtr",
+     ^~~~~~~~~
+xkbtext.c:815:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "PtrBtn",       "LockPtrBtn",
+     ^~~~~~~~
+xkbtext.c:815:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "PtrBtn",       "LockPtrBtn",
+                     ^~~~~~~~~~~~
+xkbtext.c:816:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetPtrDflt",
+     ^~~~~~~~~~~~
+xkbtext.c:817:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "ISOLock",
+     ^~~~~~~~~
+xkbtext.c:818:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "Terminate",    "SwitchScreen",
+     ^~~~~~~~~~~
+xkbtext.c:818:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "Terminate",    "SwitchScreen",
+                     ^~~~~~~~~~~~~~
+xkbtext.c:819:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetControls",  "LockControls",
+     ^~~~~~~~~~~~~
+xkbtext.c:819:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "SetControls",  "LockControls",
+                     ^~~~~~~~~~~~~~
+xkbtext.c:820:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "ActionMessage",
+     ^~~~~~~~~~~~~~~
+xkbtext.c:821:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "RedirectKey",
+     ^~~~~~~~~~~~~
+xkbtext.c:822:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "DeviceBtn",    "LockDeviceBtn"
+     ^~~~~~~~~~~
+xkbtext.c:822:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "DeviceBtn",    "LockDeviceBtn"
+                     ^~~~~~~~~~~~~~~
+xkbtext.c: In function 'XkbBehaviorText':
+xkbtext.c:1422:19: warning: declaration of 'tmp' shadows a previous local [-Wshadow]
+             char *tmp;
+                   ^~~
+xkbtext.c:1403:21: note: shadowed declaration is here
+     char buf[256], *tmp;
+                     ^~~
+xkbtext.c: In function 'XkbGeomFPText':
+xkbtext.c:763:40: warning: '%d' directive output may be truncated writing between 1 and 2 bytes into a region of size between 1 and 10 [-Wformat-truncation=]
+             snprintf(buf, bufsize, "%d.%d", whole, frac);
+                                        ^~
+xkbtext.c:763:36: note: directive argument in the range [-9, 9]
+             snprintf(buf, bufsize, "%d.%d", whole, frac);
+                                    ^~~~~~~
+xkbtext.c:763:13: note: 'snprintf' output between 4 and 14 bytes into a destination of size 12
+             snprintf(buf, bufsize, "%d.%d", whole, frac);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       xkmout.lo
+xkmout.c: In function 'SizeXKMSymbols':
+xkmout.c:519:31: warning: declaration of 'name' shadows a previous local [-Wshadow]
+                         char *name;
+                               ^~~~
+xkmout.c:490:11: note: shadowed declaration is here
+     char *name;
+           ^~~~
+  CC       xkmread.lo
+xkmread.c: In function 'ReadXkmSymbols':
+xkmread.c:671:26: warning: declaration of 'g' shadows a previous local [-Wshadow]
+             register int g;
+                          ^
+xkmread.c:592:21: note: shadowed declaration is here
+     register int i, g, s, totalVModMaps;
+                     ^
+xkmread.c: In function 'XkmReadFileSectionName':
+xkmread.c:1235:42: warning: 'tmpTOC.type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                      XkbConfigText(tmpTOC.type, XkbMessage), 0);
+                                          ^
+  CCLD     libxkbfile.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxkbfile-1.0.9/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxkbfile-1.0.9'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxkbfile-1.0.9'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxkbfile-1.0.9'

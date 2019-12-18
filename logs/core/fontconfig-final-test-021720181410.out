@@ -1,0 +1,109 @@
+Making check in fontconfig
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fontconfig'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fontconfig'
+Making check in fc-blanks
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-blanks'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-blanks'
+Making check in fc-case
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-case'
+make  check-am
+make[2]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-case'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-case'
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-case'
+Making check in fc-lang
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-lang'
+make  check-am
+make[2]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-lang'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-lang'
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-lang'
+Making check in fc-glyphname
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-glyphname'
+make  check-am
+make[2]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-glyphname'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-glyphname'
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-glyphname'
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/src'
+make  check-am
+make[2]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/src'
+Making check in fc-cache
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-cache'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-cache'
+Making check in fc-cat
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-cat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-cat'
+Making check in fc-list
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-list'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-list'
+Making check in fc-match
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-match'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-match'
+Making check in fc-pattern
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-pattern'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-pattern'
+Making check in fc-query
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-query'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-query'
+Making check in fc-scan
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-scan'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-scan'
+Making check in fc-validate
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-validate'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/fc-validate'
+Making check in conf.d
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/conf.d'
+make  check-am
+make[2]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/conf.d'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/conf.d'
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/conf.d'
+Making check in test
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+make  test-pthread test-bz89617 test-bz131804 test-migration test-bz96676 run-test.sh
+make[2]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+make[2]: 'test-pthread' is up to date.
+make[2]: 'test-bz89617' is up to date.
+make[2]: 'test-bz131804' is up to date.
+make[2]: 'test-migration' is up to date.
+make[2]: 'test-bz96676' is up to date.
+make[2]: Nothing to be done for 'run-test.sh'.
+make[2]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+make[3]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+PASS: run-test.sh
+PASS: test-bz89617
+PASS: test-bz131804
+PASS: test-bz96676
+============================================================================
+Testsuite summary for fontconfig 2.12.6
+============================================================================
+# TOTAL: 4
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6/test'
+make[1]: Entering directory '/lfskernel/sources/boot/fontconfig-2.12.6'
+make[1]: Leaving directory '/lfskernel/sources/boot/fontconfig-2.12.6'

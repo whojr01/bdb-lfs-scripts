@@ -1,0 +1,30 @@
+[1/26] INLINE build/browse_py.h
+[2/26] CXX build/browse.o
+[3/26] CXX build/build_log.o
+[4/26] CXX build/build.o
+[5/26] CXX build/clean.o
+[6/26] CXX build/debug_flags.o
+[7/26] CXX build/clparser.o
+[8/26] CXX build/depfile_parser.o
+[9/26] CXX build/disk_interface.o
+[10/26] CXX build/deps_log.o
+[11/26] CXX build/edit_distance.o
+[12/26] CXX build/eval_env.o
+[13/26] CXX build/graph.o
+[14/26] CXX build/graphviz.o
+[15/26] CXX build/lexer.o
+[16/26] CXX build/line_printer.o
+[17/26] CXX build/metrics.o
+[18/26] CXX build/manifest_parser.o
+[19/26] CXX build/state.o
+[20/26] CXX build/string_piece_util.o
+[21/26] CXX build/version.o
+[22/26] CXX build/util.o
+[23/26] CXX build/subprocess-posix.o
+[24/26] AR build/libninja.a
+[25/26] CXX build/ninja.o
+[26/26] LINK ninja
+bootstrapping ninja...
+warning: A compatible version of re2c (>= 0.11.3) was not found; changes to src/*.in.cc will not affect your build.
+wrote build.ninja.
+bootstrap complete.  rebuilding...

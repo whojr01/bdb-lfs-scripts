@@ -1,0 +1,65 @@
+Operating system: x86_64-whatever-linux2
+File::Glob::glob() will disappear in perl 5.30. Use File::Glob::bsd_glob() instead. at ../Configure line 270.
+File::Glob::glob() will disappear in perl 5.30. Use File::Glob::bsd_glob() instead. at ../Configure line 270.
+Configuring for linux-x86_64
+File::Glob::glob() will disappear in perl 5.30. Use File::Glob::bsd_glob() instead. at ../Configure line 270.
+Configuring OpenSSL version 1.1.0g (0x1010007fL)
+    no-asan         [default]  OPENSSL_NO_ASAN
+    no-crypto-mdebug [default]  OPENSSL_NO_CRYPTO_MDEBUG
+    no-crypto-mdebug-backtrace [default]  OPENSSL_NO_CRYPTO_MDEBUG_BACKTRACE
+    no-ec_nistp_64_gcc_128 [default]  OPENSSL_NO_EC_NISTP_64_GCC_128
+    no-egd          [default]  OPENSSL_NO_EGD
+    no-fuzz-afl     [default]  OPENSSL_NO_FUZZ_AFL
+    no-fuzz-libfuzzer [default]  OPENSSL_NO_FUZZ_LIBFUZZER
+    no-heartbeats   [default]  OPENSSL_NO_HEARTBEATS
+    no-md2          [default]  OPENSSL_NO_MD2 (skip dir)
+    no-msan         [default]  OPENSSL_NO_MSAN
+    no-rc5          [default]  OPENSSL_NO_RC5 (skip dir)
+    no-sctp         [default]  OPENSSL_NO_SCTP
+    no-ssl-trace    [default]  OPENSSL_NO_SSL_TRACE
+    no-ssl3         [default]  OPENSSL_NO_SSL3
+    no-ssl3-method  [default]  OPENSSL_NO_SSL3_METHOD
+    no-ubsan        [default]  OPENSSL_NO_UBSAN
+    no-unit-test    [default]  OPENSSL_NO_UNIT_TEST
+    no-weak-ssl-ciphers [default]  OPENSSL_NO_WEAK_SSL_CIPHERS
+Configuring for linux-x86_64
+CC            =gcc
+CFLAG         =-Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack
+SHARED_CFLAG  =-fPIC -DOPENSSL_USE_NODELETE
+DEFINES       =ZLIB ZLIB_SHARED DSO_DLFCN HAVE_DLFCN_H NDEBUG OPENSSL_THREADS OPENSSL_NO_STATIC_ENGINE OPENSSL_PIC OPENSSL_IA32_SSE2 OPENSSL_BN_ASM_MONT OPENSSL_BN_ASM_MONT5 OPENSSL_BN_ASM_GF2m SHA1_ASM SHA256_ASM SHA512_ASM RC4_ASM MD5_ASM AES_ASM VPAES_ASM BSAES_ASM GHASH_ASM ECP_NISTZ256_ASM PADLOCK_ASM POLY1305_ASM
+LFLAG         =
+PLIB_LFLAG    =
+EX_LIBS       =-ldl 
+APPS_OBJ      =
+CPUID_OBJ     =x86_64cpuid.o
+UPLINK_OBJ    =
+BN_ASM        =asm/x86_64-gcc.o x86_64-mont.o x86_64-mont5.o x86_64-gf2m.o rsaz_exp.o rsaz-x86_64.o rsaz-avx2.o
+EC_ASM        =ecp_nistz256.o ecp_nistz256-x86_64.o
+DES_ENC       =des_enc.o fcrypt_b.o
+AES_ENC       =aes-x86_64.o vpaes-x86_64.o bsaes-x86_64.o aesni-x86_64.o aesni-sha1-x86_64.o aesni-sha256-x86_64.o aesni-mb-x86_64.o
+BF_ENC        =bf_enc.o
+CAST_ENC      =c_enc.o
+RC4_ENC       =rc4-x86_64.o rc4-md5-x86_64.o
+RC5_ENC       =rc5_enc.o
+MD5_OBJ_ASM   =md5-x86_64.o
+SHA1_OBJ_ASM  =sha1-x86_64.o sha256-x86_64.o sha512-x86_64.o sha1-mb-x86_64.o sha256-mb-x86_64.o
+RMD160_OBJ_ASM=
+CMLL_ENC      =cmll-x86_64.o cmll_misc.o
+MODES_OBJ     =ghash-x86_64.o aesni-gcm-x86_64.o
+PADLOCK_OBJ   =e_padlock-x86_64.o
+CHACHA_ENC    =chacha-x86_64.o
+POLY1305_OBJ  =poly1305-x86_64.o
+BLAKE2_OBJ    =
+PROCESSOR     =
+RANLIB        =ranlib
+ARFLAGS       =
+PERL          =/usr/bin/perl
+
+SIXTY_FOUR_BIT_LONG mode
+
+Configured for linux-x86_64.
+
+WARNING: there are indications that another build was made in the source
+directory.  This build may have picked up artifacts from that build, the
+safest course of action is to clean the source directory and redo this
+configuration.

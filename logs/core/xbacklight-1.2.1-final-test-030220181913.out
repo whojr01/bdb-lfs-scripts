@@ -1,0 +1,8 @@
+###############################
+###############################
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1'

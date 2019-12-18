@@ -1,0 +1,67 @@
+Making install in glib
+make[1]: Entering directory '/sources/pkg-config-0.29.2/build/glib'
+make  install-recursive
+make[2]: Entering directory '/sources/pkg-config-0.29.2/build/glib'
+Making install in .
+make[3]: Entering directory '/sources/pkg-config-0.29.2/build/glib'
+make[4]: Entering directory '/sources/pkg-config-0.29.2/build/glib'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Leaving directory '/sources/pkg-config-0.29.2/build/glib'
+make[3]: Leaving directory '/sources/pkg-config-0.29.2/build/glib'
+Making install in m4macros
+make[3]: Entering directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make  install-am
+make[4]: Entering directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make[5]: Entering directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make[4]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make[3]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+Making install in glib
+make[3]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make  install-recursive
+make[4]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib'
+Making install in libcharset
+make[5]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+make  install-am
+make[6]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+make[7]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+make[6]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+make[5]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+Making install in .
+make[5]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[6]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[5]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[4]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[3]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[2]: Leaving directory '/sources/pkg-config-0.29.2/build/glib'
+make[1]: Leaving directory '/sources/pkg-config-0.29.2/build/glib'
+Making install in .
+make[1]: Entering directory '/sources/pkg-config-0.29.2/build'
+make[2]: Entering directory '/sources/pkg-config-0.29.2/build'
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c pkg-config '/usr/bin'
+libtool: install: /usr/bin/install -c pkg-config /usr/bin/pkg-config
+make  install-exec-hook
+make[3]: Entering directory '/sources/pkg-config-0.29.2/build'
+make[3]: Nothing to be done for 'install-exec-hook'.
+make[3]: Leaving directory '/sources/pkg-config-0.29.2/build'
+ /tools/bin/mkdir -p '/usr/share/doc/pkg-config-0.29.2'
+ /usr/bin/install -c -m 644 ../pkg-config-guide.html '/usr/share/doc/pkg-config-0.29.2'
+ /tools/bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 pkg.m4 '/usr/share/aclocal'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../pkg-config.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/pkg-config-0.29.2/build'
+make[1]: Leaving directory '/sources/pkg-config-0.29.2/build'
+Making install in check
+make[1]: Entering directory '/sources/pkg-config-0.29.2/build/check'
+make[2]: Entering directory '/sources/pkg-config-0.29.2/build/check'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/pkg-config-0.29.2/build/check'
+make[1]: Leaving directory '/sources/pkg-config-0.29.2/build/check'

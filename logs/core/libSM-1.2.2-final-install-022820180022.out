@@ -1,0 +1,51 @@
+###############################
+# Install libSM-1.2.2.tar.bz2 #
+###############################
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libSM.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libSM.so.6.0.1 /usr/lib/libSM.so.6.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libSM.so.6.0.1 libSM.so.6 || { rm -f libSM.so.6 && ln -s libSM.so.6.0.1 libSM.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libSM.so.6.0.1 libSM.so || { rm -f libSM.so && ln -s libSM.so.6.0.1 libSM.so; }; })
+libtool: install: /usr/bin/install -c .libs/libSM.lai /usr/lib/libSM.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/X11/SM'
+ /usr/bin/install -c -m 644 ../include/X11/SM/SM.h ../include/X11/SM/SMlib.h ../include/X11/SM/SMproto.h '/usr/include/X11/SM'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+Making install in doc
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libSM'
+ /usr/bin/install -c -m 644 SMlib.xml xsmp.xml '/usr/share/doc/libSM'
+ /bin/mkdir -p '/usr/share/doc/libSM'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 sm.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'

@@ -1,0 +1,3 @@
+install -d /etc
+install -m 644 protocols /etc
+install -m 644 services /etc

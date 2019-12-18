@@ -1,0 +1,41 @@
+make  tests/scan.sh
+make[1]: Entering directory '/lfskernel/sources/boot/wayland-protocols-1.13'
+make[1]: Nothing to be done for 'tests/scan.sh'.
+make[1]: Leaving directory '/lfskernel/sources/boot/wayland-protocols-1.13'
+make  check-TESTS
+make[1]: Entering directory '/lfskernel/sources/boot/wayland-protocols-1.13'
+make[2]: Entering directory '/lfskernel/sources/boot/wayland-protocols-1.13'
+PASS: unstable/pointer-gestures/pointer-gestures-unstable-v1.xml
+PASS: unstable/fullscreen-shell/fullscreen-shell-unstable-v1.xml
+PASS: unstable/linux-dmabuf/linux-dmabuf-unstable-v1.xml
+PASS: unstable/text-input/text-input-unstable-v1.xml
+PASS: unstable/input-method/input-method-unstable-v1.xml
+PASS: unstable/xdg-shell/xdg-shell-unstable-v5.xml
+PASS: unstable/xdg-shell/xdg-shell-unstable-v6.xml
+PASS: unstable/relative-pointer/relative-pointer-unstable-v1.xml
+PASS: unstable/pointer-constraints/pointer-constraints-unstable-v1.xml
+PASS: unstable/tablet/tablet-unstable-v1.xml
+PASS: unstable/tablet/tablet-unstable-v2.xml
+PASS: unstable/xdg-foreign/xdg-foreign-unstable-v1.xml
+PASS: unstable/xdg-foreign/xdg-foreign-unstable-v2.xml
+PASS: unstable/idle-inhibit/idle-inhibit-unstable-v1.xml
+PASS: unstable/xwayland-keyboard-grab/xwayland-keyboard-grab-unstable-v1.xml
+PASS: unstable/keyboard-shortcuts-inhibit/keyboard-shortcuts-inhibit-unstable-v1.xml
+PASS: unstable/xdg-output/xdg-output-unstable-v1.xml
+PASS: unstable/input-timestamps/input-timestamps-unstable-v1.xml
+PASS: stable/presentation-time/presentation-time.xml
+PASS: stable/viewporter/viewporter.xml
+PASS: stable/xdg-shell/xdg-shell.xml
+============================================================================
+Testsuite summary for wayland-protocols 1.13
+============================================================================
+# TOTAL: 21
+# PASS:  21
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[2]: Leaving directory '/lfskernel/sources/boot/wayland-protocols-1.13'
+make[1]: Leaving directory '/lfskernel/sources/boot/wayland-protocols-1.13'

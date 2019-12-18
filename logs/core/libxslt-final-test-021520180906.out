@@ -1,0 +1,542 @@
+Making check in libxslt
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+Making check in libexslt
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+Making check in xsltproc
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+Making check in python
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making check in .
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making check in tests
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making check in tests
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+Making check in docs
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+Making check in REC1
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+Making check in REC2
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+Making check in REC
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+Making check in general
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+Making check in namespaces
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+Making check in keys
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+Making check in numbers
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+Making check in documents
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+Making check in extensions
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+Making check in reports
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+Making check in xmlspec
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+Making check in multiple
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+Making check in xinclude
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+Making check in XSLTMark
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+Making check in docbook
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+Making check in exslt
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+Making check in common
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+Making check in functions
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+Making check in math
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+Making check in saxon
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+Making check in sets
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+Making check in strings
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+Making check in dynamic
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+Making check in date
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+Making check in plugins
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+make  check-local
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+## Running the regression test suite
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+## Running REC1 tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+## Running REC2 tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+## Running REC tests
+test-2.5-1 result
+1c1
+< compilation error: file ./test-2.5-1.xsl line 2 element stylesheet
+---
+> compilation error: file ../../../tests/REC/test-2.5-1.xsl line 2 element stylesheet
+test-6.1 result
+1c1
+< compilation error: file ./test-6.1.xsl line 11 element template
+---
+> compilation error: file ../../../tests/REC/test-6.1.xsl line 11 element template
+## Running REC tests without dictionaries
+test-2.5-1 result
+1c1
+< compilation error: file ./test-2.5-1.xsl line 2 element stylesheet
+---
+> compilation error: file ../../../tests/REC/test-2.5-1.xsl line 2 element stylesheet
+test-6.1 result
+1c1
+< compilation error: file ./test-6.1.xsl line 11 element template
+---
+> compilation error: file ../../../tests/REC/test-6.1.xsl line 11 element template
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+## Running general tests
+bug-145 result
+1c1
+< compilation error: file ./bug-145.xsl line 4 element transform
+---
+> compilation error: file ../../../tests/general/bug-145.xsl line 4 element transform
+3c3
+< runtime error: file ./bug-145.xsl line 6 element call-template
+---
+> runtime error: file ../../../tests/general/bug-145.xsl line 6 element call-template
+5c5
+< no result for ./../docs/bug-145.xml
+---
+> no result for ../../../tests/general/../docs/bug-145.xml
+bug-165 result
+1c1
+< runtime error: file ./bug-165.xsl line 6 element value-of
+---
+> runtime error: file ../../../tests/general/bug-165.xsl line 6 element value-of
+4c4
+< runtime error: file ./bug-165.xsl line 6 element value-of
+---
+> runtime error: file ../../../tests/general/bug-165.xsl line 6 element value-of
+6c6
+< no result for ./../docs/bug-165.xml
+---
+> no result for ../../../tests/general/../docs/bug-165.xml
+bug-175 result
+1c1
+< compilation error: file ./bug-175.xsl line 5 element transform
+---
+> compilation error: file ../../../tests/general/bug-175.xsl line 5 element transform
+bug-180 result
+1c1
+< runtime error: file ./bug-180.xsl line 4 element copy-of
+---
+> runtime error: file ../../../tests/general/bug-180.xsl line 4 element copy-of
+4c4
+< no result for ./../docs/bug-180.xml
+---
+> no result for ../../../tests/general/../docs/bug-180.xml
+bug-184 result
+1c1
+< runtime error: file ./bug-184.xsl line 5 element value-of
+---
+> runtime error: file ../../../tests/general/bug-184.xsl line 5 element value-of
+4c4
+< runtime error: file ./bug-184.xsl line 5 element value-of
+---
+> runtime error: file ../../../tests/general/bug-184.xsl line 5 element value-of
+6c6
+< no result for ./../docs/bug-184.xml
+---
+> no result for ../../../tests/general/../docs/bug-184.xml
+bug-185 result
+1c1
+< runtime error: file ./bug-185.xsl line 7 element copy-of
+---
+> runtime error: file ../../../tests/general/bug-185.xsl line 7 element copy-of
+3c3
+< no result for ./../docs/bug-185.xml
+---
+> no result for ../../../tests/general/../docs/bug-185.xml
+bug-21- result
+2c2
+< ../docs/test.jpg
+---
+> ../../../tests/docs/test.jpg
+bug-52 result
+2c2
+< Graphic file=../docs/graphic.gif
+---
+> Graphic file=../../../tests/docs/graphic.gif
+bug-60 result
+1c1
+< compilation error: file ./bug-60.xsl line 6 element foo-of
+---
+> compilation error: file ../../../tests/general/bug-60.xsl line 6 element foo-of
+## Running general tests without dictionaries
+bug-145 result
+1c1
+< compilation error: file ./bug-145.xsl line 4 element transform
+---
+> compilation error: file ../../../tests/general/bug-145.xsl line 4 element transform
+3c3
+< runtime error: file ./bug-145.xsl line 6 element call-template
+---
+> runtime error: file ../../../tests/general/bug-145.xsl line 6 element call-template
+5c5
+< no result for ./../docs/bug-145.xml
+---
+> no result for ../../../tests/general/../docs/bug-145.xml
+bug-165 result
+1c1
+< runtime error: file ./bug-165.xsl line 6 element value-of
+---
+> runtime error: file ../../../tests/general/bug-165.xsl line 6 element value-of
+4c4
+< runtime error: file ./bug-165.xsl line 6 element value-of
+---
+> runtime error: file ../../../tests/general/bug-165.xsl line 6 element value-of
+6c6
+< no result for ./../docs/bug-165.xml
+---
+> no result for ../../../tests/general/../docs/bug-165.xml
+bug-175 result
+1c1
+< compilation error: file ./bug-175.xsl line 5 element transform
+---
+> compilation error: file ../../../tests/general/bug-175.xsl line 5 element transform
+bug-180 result
+1c1
+< runtime error: file ./bug-180.xsl line 4 element copy-of
+---
+> runtime error: file ../../../tests/general/bug-180.xsl line 4 element copy-of
+4c4
+< no result for ./../docs/bug-180.xml
+---
+> no result for ../../../tests/general/../docs/bug-180.xml
+bug-184 result
+1c1
+< runtime error: file ./bug-184.xsl line 5 element value-of
+---
+> runtime error: file ../../../tests/general/bug-184.xsl line 5 element value-of
+4c4
+< runtime error: file ./bug-184.xsl line 5 element value-of
+---
+> runtime error: file ../../../tests/general/bug-184.xsl line 5 element value-of
+6c6
+< no result for ./../docs/bug-184.xml
+---
+> no result for ../../../tests/general/../docs/bug-184.xml
+bug-185 result
+1c1
+< runtime error: file ./bug-185.xsl line 7 element copy-of
+---
+> runtime error: file ../../../tests/general/bug-185.xsl line 7 element copy-of
+3c3
+< no result for ./../docs/bug-185.xml
+---
+> no result for ../../../tests/general/../docs/bug-185.xml
+bug-21- result
+2c2
+< ../docs/test.jpg
+---
+> ../../../tests/docs/test.jpg
+bug-52 result
+2c2
+< Graphic file=../docs/graphic.gif
+---
+> Graphic file=../../../tests/docs/graphic.gif
+bug-60 result
+1c1
+< compilation error: file ./bug-60.xsl line 6 element foo-of
+---
+> compilation error: file ../../../tests/general/bug-60.xsl line 6 element foo-of
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+## Running namespaces tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+## Running keys tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+## Running numbers tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+1,2c1,2
+< warning: failed to load external entity "foofile.xml"
+< warning: failed to load external entity "foo_file.xml"
+---
+> warning: failed to load external entity "../../../tests/documents/foofile.xml"
+> warning: failed to load external entity "../../../tests/documents/foo_file.xml"
+3c3
+< no result for ./message.xml
+---
+> no result for ../../../tests/documents/message.xml
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+## Running extensions tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+## Running reports tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+## Running xmlspec tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+## Running multiple tests
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+## Running XInclude test
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+## Running XSLTMark tests
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+## Running single docbook tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+## Running xtchunk docbook tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+## Running exslt common tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+## Running exslt function tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+## Running exslt math tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+## Running exslt saxon tests
+eval.2 result
+5c5
+< runtime error: file ./eval.2.xsl line 11 element value-of
+---
+> runtime error: file ../../../../tests/exslt/saxon/eval.2.xsl line 11 element value-of
+7c7
+< no result for ./eval.2.xml
+---
+> no result for ../../../../tests/exslt/saxon/eval.2.xml
+eval.3 result
+3c3
+< runtime error: file ./eval.3.xsl line 11 element value-of
+---
+> runtime error: file ../../../../tests/exslt/saxon/eval.3.xsl line 11 element value-of
+5c5
+< no result for ./eval.3.xml
+---
+> no result for ../../../../tests/exslt/saxon/eval.3.xml
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+## Running exslt sets tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+## Running exslt string tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+## Running exslt dynamic tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+make[5]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+#
+# Inspect the following for correctness
+#
+## Running exslt date tests
+make[5]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+## Running plugin tests
+warning: failed to load external entity "plugin.xsl"
+cannot parse plugin.xsl
+make[4]: *** [Makefile:673: tests] Error 4
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+## Running testThreads
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making all in .
+Making all in tests
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+-- basic.py
+OK
+-- exslt.py
+OK
+-- extelem.py
+Registered XSLT Extensions
+--------------------------
+Registered Extension Functions:
+{http://exslt.org/math}power
+{http://exslt.org/math}cos
+{http://exslt.org/math}acos
+{http://exslt.org/math}atan
+{http://exslt.org/dates-and-times}date-time
+{http://exslt.org/dates-and-times}month-abbreviation
+{http://exslt.org/dates-and-times}month-name
+{http://exslt.org/dates-and-times}sum
+{http://exslt.org/dynamic}map
+{http://exslt.org/math}random
+{http://exslt.org/math}exp
+{http://exslt.org/dates-and-times}day-in-month
+{http://exslt.org/dates-and-times}second-in-minute
+{http://icl.com/saxon}systemId
+{http://exslt.org/dynamic}evaluate
+{http://exslt.org/math}sin
+{http://exslt.org/strings}tokenize
+{http://exslt.org/strings}split
+{http://exslt.org/strings}align
+{http://exslt.org/dates-and-times}day-in-year
+{http://icl.com/saxon}line-number
+{http://exslt.org/math}sqrt
+{http://exslt.org/math}atan2
+{http://exslt.org/sets}difference
+{http://exslt.org/strings}padding
+{http://exslt.org/dates-and-times}leap-year
+{http://exslt.org/dates-and-times}year
+{http://exslt.org/math}tan
+{http://exslt.org/math}asin
+{http://exslt.org/sets}trailing
+{http://exslt.org/dates-and-times}add-duration
+{http://exslt.org/dates-and-times}day-name
+{http://icl.com/saxon}eval
+{http://exslt.org/common}object-type
+{http://exslt.org/math}constant
+{http://exslt.org/dates-and-times}day-abbreviation
+{http://exslt.org/dates-and-times}day-of-week-in-month
+{http://exslt.org/dates-and-times}week-in-year
+{http://icl.com/saxon}expression
+{http://icl.com/saxon}node-set
+{http://www.jclark.com/xt}node-set
+{http://exslt.org/math}abs
+{http://exslt.org/sets}has-same-node
+{http://exslt.org/dates-and-times}date
+{http://exslt.org/dates-and-times}seconds
+{http://exslt.org/math}max
+{http://exslt.org/math}highest
+{http://exslt.org/math}lowest
+{http://exslt.org/sets}leading
+{http://exslt.org/strings}concat
+{http://exslt.org/dates-and-times}difference
+{http://exslt.org/dates-and-times}duration
+{http://exslt.org/dates-and-times}minute-in-hour
+{http://icl.com/saxon}evaluate
+{http://xmlsoft.org/XSLT/namespace}node-set
+{http://exslt.org/math}log
+{http://exslt.org/strings}replace
+{http://exslt.org/dates-and-times}day-in-week
+{http://exslt.org/dates-and-times}hour-in-day
+{http://exslt.org/dates-and-times}time
+{http://exslt.org/dates-and-times}week-in-month
+{http://exslt.org/common}node-set
+{http://exslt.org/math}min
+{http://exslt.org/sets}intersection
+{http://exslt.org/sets}distinct
+{http://exslt.org/strings}encode-uri
+{http://exslt.org/strings}decode-uri
+{http://exslt.org/dates-and-times}add
+{http://exslt.org/dates-and-times}month-in-year
+
+Registered Extension Elements:
+{org.apache.xalan.xslt.extensions.Redirect}write
+{http://exslt.org/common}document
+{http://xmlsoft.org/XSLT/namespace}debug
+{http://www.w3.org/1999/XSL/Transform}document
+{http://exslt.org/functions}result
+{http://example.com/foo}test
+{http://icl.com/saxon}output
+{http://www.jclark.com/xt}document
+
+Registered Extension Modules:
+http://exslt.org/functions
+http://icl.com/saxon
+<?xml version="1.0"?>
+<article>SUCCESS</article>
+<deeper><article>SUCCESS</article></deeper>
+OK
+-- extfunc.py
+OK
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build'

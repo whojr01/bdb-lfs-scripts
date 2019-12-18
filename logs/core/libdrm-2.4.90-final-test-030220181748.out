@@ -1,0 +1,119 @@
+Making check in .
+Making check in libkms
+PASS: kms-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.90
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in intel
+PASS: tests/gen4-3d.batch.sh
+PASS: tests/gm45-3d.batch.sh
+PASS: tests/gen5-3d.batch.sh
+PASS: tests/gen6-3d.batch.sh
+PASS: tests/gen7-2d-copy.batch.sh
+PASS: tests/gen7-3d.batch.sh
+PASS: intel-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.90
+============================================================================
+# TOTAL: 7
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in nouveau
+PASS: nouveau-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.90
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in radeon
+PASS: radeon-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.90
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in amdgpu
+PASS: amdgpu-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.90
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+Making check in data
+Making check in tests
+Making check in util
+Making check in kms
+Making check in modeprint
+Making check in proptest
+Making check in modetest
+Making check in vbltest
+Making check in kmstest
+Making check in radeon
+Making check in nouveau
+  CC       threaded.o
+  CCLD     threaded
+SKIP: threaded
+============================================================================
+Testsuite summary for libdrm 2.4.90
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+  CC       drmsl.o
+  CCLD     drmsl
+  CC       hash.o
+  CCLD     hash
+  CC       random.o
+  CCLD     random
+  CC       drmdevice.o
+  CCLD     drmdevice
+PASS: drmsl
+PASS: hash
+PASS: random
+============================================================================
+Testsuite summary for libdrm 2.4.90
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================

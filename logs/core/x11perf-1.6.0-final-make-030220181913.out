@@ -1,0 +1,93 @@
+###############################
+# Make x11perf-1.6.0.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0/man'
+  GEN      x11perfcomp.1
+  GEN      x11perf.1
+  GEN      Xmark.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'
+  CC       bitmaps.o
+  CC       do_arcs.o
+  CC       do_blt.o
+  CC       do_complex.o
+  CC       do_dots.o
+  CC       do_lines.o
+  CC       do_movewin.o
+  CC       do_rects.o
+  CC       do_segs.o
+  CC       do_simple.o
+  CC       do_tests.o
+  CC       do_text.o
+  CC       do_traps.o
+  CC       do_tris.o
+  CC       do_valgc.o
+  CC       do_windows.o
+  CC       x11perf.o
+x11perf.c: In function 'CreateClipWindows':
+x11perf.c:601:34: warning: declaration of 'clips' shadows a global declaration [-Wshadow]
+ CreateClipWindows(XParms xp, int clips)
+                                  ^~~~~
+x11perf.c:134:12: note: shadowed declaration is here
+ static int clips = 0;
+            ^~~~~
+x11perf.c: In function 'DestroyClipWindows':
+x11perf.c:616:35: warning: declaration of 'clips' shadows a global declaration [-Wshadow]
+ DestroyClipWindows(XParms xp, int clips)
+                                   ^~~~~
+x11perf.c:134:12: note: shadowed declaration is here
+ static int clips = 0;
+            ^~~~~
+x11perf.c: In function 'DoTest':
+x11perf.c:628:25: warning: declaration of 'test' shadows a global declaration [-Wshadow]
+ DoTest(XParms xp, Test *test, int64_t reps)
+                         ^~~~
+In file included from x11perf.c:35:0:
+x11perf.h:134:13: note: shadowed declaration is here
+ extern Test test[];
+             ^~~~
+x11perf.c: In function 'CalibrateTest':
+x11perf.c:653:32: warning: declaration of 'test' shadows a global declaration [-Wshadow]
+ CalibrateTest(XParms xp, Test *test, int seconds, double *usecperobj)
+                                ^~~~
+In file included from x11perf.c:35:0:
+x11perf.h:134:13: note: shadowed declaration is here
+ extern Test test[];
+             ^~~~
+x11perf.c:653:42: warning: declaration of 'seconds' shadows a global declaration [-Wshadow]
+ CalibrateTest(XParms xp, Test *test, int seconds, double *usecperobj)
+                                          ^~~~~~~
+x11perf.c:107:12: note: shadowed declaration is here
+ static int seconds  = 5;
+            ^~~~~~~
+x11perf.c: In function 'DisplayStatus':
+x11perf.c:818:60: warning: declaration of 'test' shadows a global declaration [-Wshadow]
+ DisplayStatus(Display *d, const char *message, const char *test, int try)
+                                                            ^~~~
+In file included from x11perf.c:35:0:
+x11perf.h:134:13: note: shadowed declaration is here
+ extern Test test[];
+             ^~~~
+x11perf.c: In function 'ProcessTest':
+x11perf.c:831:30: warning: declaration of 'test' shadows a global declaration [-Wshadow]
+ ProcessTest(XParms xp, Test *test, int func, unsigned long pm, char *label)
+                              ^~~~
+In file included from x11perf.c:35:0:
+x11perf.h:134:13: note: shadowed declaration is here
+ extern Test test[];
+             ^~~~
+x11perf.c: In function 'main':
+x11perf.c:953:7: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   cp2 = "-";
+       ^
+x11perf.c: In function 'NameFromFormat':
+x11perf.c:1569:27: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      return formatNames[i].name;
+             ~~~~~~~~~~~~~~^~~~~
+  CCLD     x11perf
+  GEN      x11perfcomp
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'

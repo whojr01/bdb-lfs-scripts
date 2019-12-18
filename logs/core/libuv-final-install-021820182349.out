@@ -1,0 +1,19 @@
+cp -v out/Release/obj.target/libuv.so.1 /usr/lib
+'out/Release/obj.target/libuv.so.1' -> '/usr/lib/libuv.so.1'
+ln -sv libuv.so.1 /usr/lib/libuv.so
+'/usr/lib/libuv.so' -> 'libuv.so.1'
+
+'./include/uv-darwin.h' -> '/usr/include/uv-darwin.h'
+'./include/uv-threadpool.h' -> '/usr/include/uv-threadpool.h'
+'./include/uv.h' -> '/usr/include/uv.h'
+'./include/uv-linux.h' -> '/usr/include/uv-linux.h'
+'./include/uv-win.h' -> '/usr/include/uv-win.h'
+'./include/uv-bsd.h' -> '/usr/include/uv-bsd.h'
+'./include/uv-os390.h' -> '/usr/include/uv-os390.h'
+'./include/uv-unix.h' -> '/usr/include/uv-unix.h'
+'./include/uv-version.h' -> '/usr/include/uv-version.h'
+'./include/uv-aix.h' -> '/usr/include/uv-aix.h'
+'./include/uv-sunos.h' -> '/usr/include/uv-sunos.h'
+'./include/uv-errno.h' -> '/usr/include/uv-errno.h'
+'./include/uv-posix.h' -> '/usr/include/uv-posix.h'
+'./src/uv-common.h' -> '/usr/include/uv-common.h'

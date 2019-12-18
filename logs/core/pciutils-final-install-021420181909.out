@@ -1,0 +1,18 @@
+make -C lib all
+make[1]: Entering directory '/lfskernel/sources/boot/pciutils-3.5.5/lib'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/pciutils-3.5.5/lib'
+install -d -m 755 /usr/lib
+install -c -m 644 lib/libpci.so.3.5.5 /usr/lib
+install -d -m 755 /usr/sbin /usr/share /usr/share/man/man8 /usr/share/man/man7
+install -c -m 755 -s lspci setpci /usr/sbin
+install -c -m 755 update-pciids /usr/sbin
+install -c -m 644 pci.ids.gz /usr/share
+install -c -m 644 lspci.8 setpci.8 update-pciids.8 /usr/share/man/man8
+install -c -m 644 pcilib.7 /usr/share/man/man7
+ln -sf libpci.so.3.5.5 /usr/lib/libpci.so.3
+install -d -m 755 /usr/include/pci /usr/lib/pkgconfig
+install -c -m 644 lib/config.h lib/header.h lib/pci.h lib/types.h /usr/include/pci
+install -c -m 644 lib/libpci.pc /usr/lib/pkgconfig
+ln -sf libpci.so.3 /usr/lib/libpci.so
+mode of '/usr/lib/libpci.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)

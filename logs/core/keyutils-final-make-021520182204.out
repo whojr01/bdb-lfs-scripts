@@ -1,0 +1,14 @@
+grep: /etc/rpm: No such file or directory
+grep: /usr/lib/rpm: No such file or directory
+cc -I. -g -Wall -Werror -o keyctl.o -c keyctl.c
+cc -I. -DPKGBUILD="\"2018-02-16\"" -DPKGVERSION="\"keyutils-1.5.10\"" -DAPIVERSION="\"libkeyutils-1.6\"" -g -Wall -Werror -fPIC -o keyutils.os -c keyutils.c
+cc -g -Wall -Werror -fPIC  -shared -Wl,-soname,libkeyutils.so.1 -Wl,--version-script,version.lds -o libkeyutils.so.1.6 keyutils.os 
+ln -sf libkeyutils.so.1.6 libkeyutils.so.1
+ln -sf libkeyutils.so.1 libkeyutils.so
+cc -L. -g -Wall -Werror   -o keyctl keyctl.o -lkeyutils
+cc -I. -g -Wall -Werror -o request-key.o -c request-key.c
+cc -L. -g -Wall -Werror   -o request-key request-key.o -lkeyutils
+cc -I. -g -Wall -Werror -o key.dns_resolver.o -c key.dns_resolver.c
+cc -L. -g -Wall -Werror   -o key.dns_resolver key.dns_resolver.o -lkeyutils -lresolv
+cc -I. -DPKGBUILD="\"2018-02-16\"" -DPKGVERSION="\"keyutils-1.5.10\"" -DAPIVERSION="\"libkeyutils-1.6\"" -g -Wall -Werror -UNO_GLIBC_KEYERR -o keyutils.o -c keyutils.c
+ar rcs libkeyutils.a keyutils.o

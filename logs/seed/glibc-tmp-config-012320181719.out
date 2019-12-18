@@ -1,0 +1,96 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-lfs-linux-gnu
+checking for x86_64-lfs-linux-gnu-gcc... x86_64-lfs-linux-gnu-gcc
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-lfs-linux-gnu-gcc accepts -g... yes
+checking for gcc... gcc
+checking for x86_64-lfs-linux-gnu-readelf... x86_64-lfs-linux-gnu-readelf
+checking for x86_64-lfs-linux-gnu-g++... x86_64-lfs-linux-gnu-g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether x86_64-lfs-linux-gnu-g++ accepts -g... yes
+checking whether x86_64-lfs-linux-gnu-g++ can link programs... no
+checking for sysdeps preconfigure fragments... aarch64 alpha arm hppa i386 m68k microblaze mips nios2 powerpc s390 sh sparc tile x86_64 checking whether x86_64-lfs-linux-gnu-gcc compiles in -mx32 mode by default... no
+
+configure: running configure fragment for add-on libidn
+checking for -fstack-protector... yes
+checking for -fstack-protector-strong... yes
+checking for -fstack-protector-all... yes
+checking for assembler and linker STT_GNU_IFUNC support... yes
+checking for gcc attribute ifunc support... yes
+checking sysdep dirs... sysdeps/unix/sysv/linux/x86_64/64 sysdeps/unix/sysv/linux/x86_64 sysdeps/unix/sysv/linux/x86 sysdeps/x86/nptl sysdeps/unix/sysv/linux/wordsize-64 sysdeps/x86_64/nptl sysdeps/unix/sysv/linux sysdeps/nptl sysdeps/pthread sysdeps/gnu sysdeps/unix/inet sysdeps/unix/sysv sysdeps/unix/x86_64 sysdeps/unix sysdeps/posix sysdeps/x86_64/64 sysdeps/x86_64/fpu/multiarch sysdeps/x86_64/fpu sysdeps/x86/fpu sysdeps/x86_64/multiarch sysdeps/x86_64 sysdeps/x86 sysdeps/ieee754/float128 sysdeps/ieee754/ldbl-96 sysdeps/ieee754/dbl-64/wordsize-64 sysdeps/ieee754/dbl-64 sysdeps/ieee754/flt-32 sysdeps/wordsize-64 sysdeps/ieee754 sysdeps/generic
+checking for a BSD-compatible install... /bin/install -c
+checking whether ln -s works... yes
+checking whether /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/as is GNU as... yes
+checking whether /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld is GNU ld... yes
+checking for /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/as... /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/as
+checking version of /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/as... 2.29.1, ok
+checking for /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld... /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld
+checking version of /lfsbuild/tools/bin/../lib/gcc/x86_64-lfs-linux-gnu/7.2.0/../../../../x86_64-lfs-linux-gnu/bin/ld... 2.29.1, ok
+checking for gnumake... no
+checking for gmake... gmake
+checking version of gmake... 3.82, ok
+checking for gnumsgfmt... no
+checking for gmsgfmt... no
+checking for msgfmt... msgfmt
+checking version of msgfmt... 0.19.8.1, ok
+checking for makeinfo... makeinfo
+checking version of makeinfo... 5.1, ok
+checking for sed... sed
+checking version of sed... 4.2.2, ok
+checking for gawk... gawk
+checking version of gawk... 4.0.2, ok
+checking if x86_64-lfs-linux-gnu-gcc is sufficient to build libc... yes
+checking for x86_64-lfs-linux-gnu-nm... x86_64-lfs-linux-gnu-nm
+checking for python3... no
+checking for python... python
+checking LD_LIBRARY_PATH variable... ok
+checking for bash... /bin/bash
+checking for perl... /bin/perl
+checking for install-info... /usr/sbin/install-info
+checking for bison... bison
+checking version of bison... 3.0.4, ok
+checking for .set assembler directive... yes
+checking linker support for protected data symbol... yes
+checking for broken __attribute__((alias()))... no
+checking whether to put _rtld_local into .sdata section... no
+checking whether to use .ctors/.dtors header and trailer... no
+checking for libunwind-support in compiler... no
+checking whether --noexecstack is desirable for .S files... yes
+checking for -z combreloc... yes
+checking for linker that supports -z execstack... yes
+checking for -fpie... yes
+checking for --hash-style option... yes
+checking for sufficient default -shared layout... no
+checking for GLOB_DAT reloc... yes
+checking linker output format... elf64-x86-64
+checking for -fno-toplevel-reorder -fno-section-anchors... yes
+checking for -mtls-dialect=gnu2... yes
+checking whether cc puts quotes around section names... no
+checking for __builtin_memset... yes
+checking for redirection of built-in functions... yes
+checking for compiler option to disable generation of FMA instructions... -ffp-contract=off
+checking if x86_64-lfs-linux-gnu-gcc accepts -fno-tree-loop-distribute-patterns with __attribute__ ((__optimize__))... yes
+checking for libgd... no
+checking for is_selinux_enabled in -lselinux... no
+checking for _FORTIFY_SOURCE predefine... no
+checking whether the linker provides working __ehdr_start... yes
+checking for __builtin_trap with no external dependencies... yes
+checking whether the C++ compiler supports thread_local... no
+running configure fragment for sysdeps/unix/sysv/linux/x86_64/64
+running configure fragment for sysdeps/unix/sysv/linux/x86_64
+running configure fragment for sysdeps/unix/sysv/linux
+checking installed Linux kernel header files... 3.2.0 or later
+checking for kernel header at least 3.2... ok
+running configure fragment for sysdeps/gnu
+running configure fragment for sysdeps/x86_64
+checking for AVX512DQ support in assembler... yes
+checking for AVX512 support... yes
+checking for Intel MPX support... yes
+checking whether -fPIC is default... no
+checking whether -fPIE is default... no
+configure: creating ./config.status
+config.status: creating config.make
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing default commands

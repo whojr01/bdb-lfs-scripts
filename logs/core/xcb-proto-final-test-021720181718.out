@@ -1,0 +1,45 @@
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+make  check-local
+make[2]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+/usr/bin/xmllint --noout --schema ./xcb.xsd ./*.xml
+./bigreq.xml validates
+./composite.xml validates
+./damage.xml validates
+./dpms.xml validates
+./dri2.xml validates
+./dri3.xml validates
+./ge.xml validates
+./glx.xml validates
+./present.xml validates
+./randr.xml validates
+./record.xml validates
+./render.xml validates
+./res.xml validates
+./screensaver.xml validates
+./shape.xml validates
+./shm.xml validates
+./sync.xml validates
+./xc_misc.xml validates
+./xevie.xml validates
+./xf86dri.xml validates
+./xf86vidmode.xml validates
+./xfixes.xml validates
+./xinerama.xml validates
+./xinput.xml validates
+./xkb.xml validates
+./xprint.xml validates
+./xproto.xml validates
+./xselinux.xml validates
+./xtest.xml validates
+./xvmc.xml validates
+./xv.xml validates
+make[2]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+Making check in xcbgen
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12'

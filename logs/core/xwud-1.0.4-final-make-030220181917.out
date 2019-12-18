@@ -1,0 +1,140 @@
+###############################
+# Make xwud-1.0.4.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xwud-1.0.4'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xwud-1.0.4/man'
+  GEN    xwud.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xwud-1.0.4/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xwud-1.0.4'
+  CC     xwud.o
+xwud.c: In function 'main':
+xwud.c:239:12: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Error("Can't open input file as specified.");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:258:13: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       Error("Unable to read dump file header.");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:266:8: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Error("exiting.");
+        ^~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:270:8: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Error("exiting.");
+        ^~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:276:13: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       Error("win_name_size");
+             ^~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:278:13: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       Error("Can't malloc window name storage.");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:283:13: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       Error("Unable to read window name from dump file.");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:310:8: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Error("Invalid input image header data.");
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:316:12: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Error("Can't malloc color table");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:319:9: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   Error("Unable to read color map from dump file.");
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:340:13: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       Error("Can't malloc data buffer.");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:344:15: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         Error("Unable to read pixmap from dump file.");
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:350:8: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Error("plane number exceeds image depth");
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:373:12: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Error("specified standard colormap does not exist");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:412:14: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+        Error("invalid visual specifier");
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:421:8: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  Error("no matching visual found");
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:434:9: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   Error("no standard colormap matching specified visual");
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:627:26: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     class_hint.res_class = "Xwud";
+                          ^
+xwud.c: In function 'CopyColormapAndFree':
+xwud.c:963:11: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     Error("Visual type is not large enough to hold all colors of the image.");
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c: In function 'Do_Direct':
+xwud.c:1026:12: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Error("Unable to allocate memory for pixel conversion");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+xwud.c:1095:12: warning: passing argument 1 of 'Error' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      Error("Unable to allocate memory for pixel conversion");
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xwud.c:73:13: note: expected 'char *' but argument is of type 'const char *'
+ static void Error(char *string) _X_NORETURN;
+             ^~~~~
+  CCLD   xwud
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xwud-1.0.4'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xwud-1.0.4'

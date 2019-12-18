@@ -1,0 +1,17 @@
+[0/1] Installing files.
+Warning: You are using 'ANSI_X3.4-1968' which is not a Unicode-compatible locale.
+You might see errors if you use UTF-8 strings as filenames, as strings, or as file contents.
+Please switch to a UTF-8 locale for your platform.
+Installing libjsoncpp.so.20 to /usr/lib/libjsoncpp.so.20
+Installing allocator.h to /usr/include/json
+Installing assertions.h to /usr/include/json
+Installing autolink.h to /usr/include/json
+Installing config.h to /usr/include/json
+Installing features.h to /usr/include/json
+Installing forwards.h to /usr/include/json
+Installing json.h to /usr/include/json
+Installing reader.h to /usr/include/json
+Installing value.h to /usr/include/json
+Installing writer.h to /usr/include/json
+Installing /lfskernel/sources/boot/jsoncpp-1.8.4/build-shared/version.h to /usr/include/json
+Installing /lfskernel/sources/boot/jsoncpp-1.8.4/build-shared/meson-private/jsoncpp.pc to /usr/lib/pkgconfig

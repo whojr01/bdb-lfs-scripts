@@ -1,0 +1,249 @@
+make -s all-recursive
+Making all in .
+  CC       libdrm_la-xf86drm.lo
+xf86drm.c: In function 'drmOpenMinor':
+xf86drm.c:463:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+         return drmOpenDevice(makedev(DRM_MAJOR, minor), minor, type);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                     
+xf86drm.c: In function 'drmGetNodeTypeFromFd':
+xf86drm.c:2734:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+     maj = major(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+xf86drm.c:2735:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+     min = minor(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+xf86drm.c: In function 'drmGetMinorNameForFD':
+xf86drm.c:2800:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+     maj = major(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+xf86drm.c:2801:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+     min = minor(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+xf86drm.c:2820:5: warning: 'readdir_r' is deprecated [-Wdeprecated-declarations]
+     while (readdir_r(sysdir, pent, &ent) == 0 && ent != NULL) {
+     ^~~~~
+In file included from xf86drm.c:44:0:
+/usr/include/dirent.h:183:12: note: declared here
+ extern int readdir_r (DIR *__restrict __dirp,
+            ^~~~~~~~~
+xf86drm.c: In function 'drmGetDevice2':
+xf86drm.c:3786:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+     maj = major(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+xf86drm.c:3787:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+     min = minor(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+xf86drm.c:3814:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+         maj = major(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                  
+xf86drm.c:3815:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+         min = minor(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                  
+xf86drm.c: In function 'drmGetDevices2':
+xf86drm.c:3964:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+         maj = major(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                  
+xf86drm.c:3965:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+         min = minor(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                  
+xf86drm.c: In function 'drmGetDeviceNameFromFd2':
+xf86drm.c:4082:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+     maj = major(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+xf86drm.c:4083:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+     min = minor(sbuf.st_rdev);
+             ^~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+In file included from xf86drm.c:70:0:
+xf86drm.c: In function 'drmGetMinorNameForFD':
+xf86drm.h:85:23: warning: '%s' directive output may be truncated writing up to 255 bytes into a region of size 55 [-Wformat-truncation=]
+ #define DRM_DIR_NAME  "/dev/dri"
+                       ^
+xf86drm.c:2822:50: note: in expansion of macro 'DRM_DIR_NAME'
+             snprintf(dev_name, sizeof(dev_name), DRM_DIR_NAME "/%s",
+                                                  ^~~~~~~~~~~~
+xf86drm.c:2822:65: note: format string is defined here
+             snprintf(dev_name, sizeof(dev_name), DRM_DIR_NAME "/%s",
+                                                                 ^~
+xf86drm.c:2822:13: note: 'snprintf' output between 10 and 265 bytes into a destination of size 64
+             snprintf(dev_name, sizeof(dev_name), DRM_DIR_NAME "/%s",
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  ent->d_name);
+                  ~~~~~~~~~~~~
+  CC       libdrm_la-xf86drmHash.lo
+  CC       libdrm_la-xf86drmRandom.lo
+  CC       libdrm_la-xf86drmSL.lo
+  CC       libdrm_la-xf86drmMode.lo
+  CCLD     libdrm.la
+Making all in libkms
+  CC       linux.lo
+linux.c: In function 'linux_name_from_sysfs':
+linux.c:85:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+  maj = major(buffer.st_rdev);
+             ^~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                       
+linux.c:86:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+  min = minor(buffer.st_rdev);
+             ^~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                       
+  CC       dumb.lo
+  CC       api.lo
+  CC       vmwgfx.lo
+  CC       intel.lo
+  CC       nouveau.lo
+  CC       radeon.lo
+  CCLD     libkms.la
+Making all in intel
+  CC       intel_bufmgr.lo
+  CC       intel_bufmgr_fake.lo
+  CC       intel_bufmgr_gem.lo
+  CC       intel_decode.lo
+  CC       mm.lo
+  CCLD     libdrm_intel.la
+  CC       test_decode.o
+test_decode.c: In function 'compare_batch':
+test_decode.c:113:2: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+  out = open_memstream((char **)&ptr, &size);
+  ^~~
+  CCLD     test_decode
+Making all in nouveau
+  CC       nouveau.lo
+  CC       pushbuf.lo
+  CC       bufctx.lo
+  CC       abi16.lo
+  CCLD     libdrm_nouveau.la
+Making all in radeon
+  CC       radeon_bo_gem.lo
+  CC       radeon_cs_gem.lo
+  CC       radeon_cs_space.lo
+  CC       radeon_bo.lo
+  CC       radeon_cs.lo
+  CC       radeon_surface.lo
+radeon_surface.c: In function 'radeon_surface_sanity':
+radeon_surface.c:2503:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (surf->npix_y > 1) {
+            ^
+radeon_surface.c:2506:5: note: here
+     case RADEON_SURF_TYPE_2D:
+     ^~~~
+  CCLD     libdrm_radeon.la
+Making all in amdgpu
+  CC       amdgpu_bo.lo
+  CC       amdgpu_cs.lo
+  CC       amdgpu_device.lo
+  CC       amdgpu_gpu_info.lo
+  CC       amdgpu_vamgr.lo
+  CC       util_hash.lo
+  CC       util_hash_table.lo
+  CCLD     libdrm_amdgpu.la
+Making all in tests
+Making all in util
+  CC       libutil_la-format.lo
+  CC       libutil_la-kms.lo
+  CC       libutil_la-pattern.lo
+  CCLD     libutil.la
+Making all in kms
+  CC       libkms-test-crtc.lo
+  CC       libkms-test-device.lo
+  CC       libkms-test-framebuffer.lo
+  CC       libkms-test-plane.lo
+  CC       libkms-test-screen.lo
+  CCLD     libkms-test.la
+  CC       kms-steal-crtc.o
+  CCLD     kms-steal-crtc
+  CC       kms-universal-planes.o
+  CCLD     kms-universal-planes
+Making all in modeprint
+  CC       modeprint.o
+  CCLD     modeprint
+Making all in proptest
+  CC       proptest.o
+  CCLD     proptest
+Making all in modetest
+  CC       buffers.o
+  CC       cursor.o
+  CC       modetest.o
+  CCLD     modetest
+Making all in vbltest
+  CC       vbltest.o
+  CCLD     vbltest
+Making all in kmstest
+  CC       main.o
+  CCLD     kmstest
+Making all in radeon
+  CC       rbo.o
+  CC       radeon_ttm.o
+  CCLD     radeon_ttm
+Making all in nouveau

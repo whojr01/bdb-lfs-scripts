@@ -1,0 +1,22 @@
+###############################
+# Make libXres-1.2.0.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0/src'
+  CC       XRes.lo
+  CCLD     libXRes.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0/man'
+  GEN      XRes.3
+  GEN      XResQueryExtension.3
+  GEN      XResQueryVersion.3
+  GEN      XResQueryClients.3
+  GEN      XResQueryClientResources.3
+  GEN      XResQueryClientPixmapBytes.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXres-1.2.0'

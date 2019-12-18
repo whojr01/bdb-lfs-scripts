@@ -1,0 +1,58 @@
+###############################
+# Make libXft-2.3.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2/man'
+  GEN      Xft.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2/man'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2/src'
+  CC       xftcolor.lo
+  CC       xftcore.lo
+  CC       xftdbg.lo
+  CC       xftdpy.lo
+  CC       xftdraw.lo
+  CC       xftextent.lo
+  CC       xftfont.lo
+  CC       xftfreetype.lo
+  CC       xftglyphs.lo
+  CC       xftinit.lo
+  CC       xftlist.lo
+  CC       xftname.lo
+In file included from xftint.h:59:0,
+                 from xftname.c:23:
+../include/X11/Xft/Xft.h:54:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XFT_CORE  "core"
+                   ^
+xftname.c:26:7: note: in expansion of macro 'XFT_CORE'
+     { XFT_CORE,  FcTypeBool, },
+       ^~~~~~~~
+../include/X11/Xft/Xft.h:56:19: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XFT_XLFD  "xlfd"
+                   ^
+xftname.c:27:7: note: in expansion of macro 'XFT_XLFD'
+     { XFT_XLFD,  FcTypeString, },
+       ^~~~~~~~
+../include/X11/Xft/Xft.h:55:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XFT_RENDER  "render"
+                     ^
+xftname.c:28:7: note: in expansion of macro 'XFT_RENDER'
+     { XFT_RENDER, FcTypeBool, },
+       ^~~~~~~~~~
+../include/X11/Xft/Xft.h:57:30: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XFT_MAX_GLYPH_MEMORY "maxglyphmemory"
+                              ^
+xftname.c:29:7: note: in expansion of macro 'XFT_MAX_GLYPH_MEMORY'
+     { XFT_MAX_GLYPH_MEMORY, FcTypeInteger, },
+       ^~~~~~~~~~~~~~~~~~~~
+  CC       xftrender.lo
+  CC       xftstr.lo
+  CC       xftswap.lo
+  CC       xftxlfd.lo
+  CCLD     libXft.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXft-2.3.2'

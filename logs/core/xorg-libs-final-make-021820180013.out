@@ -1,0 +1,2203 @@
+###############################
+# Make xtrans-1.3.5.tar.bz2 #
+###############################
+Making all in doc
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5'
+###############################
+# Make libX11-1.6.5.tar.bz2 #
+###############################
+Making all in include
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/include'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/include'
+Making all in modules
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+Making all in im
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+Making all in ximcp
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im/ximcp'
+  CC       imCallbk.lo
+imCallbk.c: In function ‘_XimPreeditCaretCallback’:
+imCallbk.c:627:8: warning: declaration of ‘len’ shadows a parameter [-Wshadow]
+  INT16 len = sz_XIMID + sz_XICID + sz_ximPreeditCaretReply;
+        ^~~
+imCallbk.c:597:9: note: shadowed declaration is here
+     int len)
+         ^~~
+  CC       imDefFlt.lo
+  CC       imDefIc.lo
+  CC       imDefIm.lo
+  CC       imDefLkup.lo
+  CC       imDispch.lo
+  CC       imEvToWire.lo
+  CC       imExten.lo
+  CC       imImSw.lo
+  CC       imInsClbk.lo
+imInsClbk.c: In function ‘_XimFilterPropertyNotify’:
+imInsClbk.c:111:35: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+     for( ii = 0; ii < nitems; ii++, atoms ) {
+                                   ^
+  CC       imInt.lo
+  CC       imLcFlt.lo
+  CC       imLcGIc.lo
+  CC       imLcIc.lo
+  CC       imLcIm.lo
+  CC       imLcLkup.lo
+imLcLkup.c: In function ‘_XimLocalMbLookupString’:
+imLcLkup.c:64:11: warning: declaration of ‘mb’ shadows a previous local [-Wshadow]
+      char mb[XLC_PUBLIC(ic->core.im->core.lcd, mb_cur_max)];
+           ^~
+imLcLkup.c:53:11: note: shadowed declaration is here
+     char *mb = ic->private.local.base.mb;
+           ^~
+  CC       imLcPrs.lo
+  CC       imLcSIc.lo
+  CC       imRmAttr.lo
+  CC       imRm.lo
+  CC       imThaiFlt.lo
+  CC       imThaiIc.lo
+  CC       imThaiIm.lo
+  CC       imTrans.lo
+  CC       imTransR.lo
+  CC       imTrX.lo
+  CCLD     libximcp.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im/ximcp'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+Making all in lc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+Making all in Utf8
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/Utf8'
+  CC       lcUTF8Load.lo
+  CCLD     libxlcUTF8Load.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/Utf8'
+Making all in def
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/def'
+  CC       lcDefConv.lo
+  CCLD     libxlcDef.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/def'
+Making all in gen
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/gen'
+  CC       lcGenConv.lo
+  CCLD     libxlibi18n.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/gen'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+Making all in om
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+Making all in generic
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om/generic'
+  CC       omDefault.lo
+  CC       omGeneric.lo
+  CC       omImText.lo
+  CC       omText.lo
+  CC       omTextEsc.lo
+  CC       omTextExt.lo
+  CC       omTextPer.lo
+  CC       omXChar.lo
+  CCLD     libxomGeneric.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om/generic'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+cd util && make
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+  CC       makekeys.o
+  CCLD     makekeys
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+../src/util/makekeys /usr/include/X11/keysymdef.h /usr/include/X11/XF86keysym.h /usr/include/X11/Sunkeysym.h /usr/include/X11/DECkeysym.h /usr/include/X11/HPkeysym.h > ks_tables_h
+mv ks_tables_h ks_tables.h
+make  all-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+Making all in util
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+Making all in xcms
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xcms'
+  CC       AddDIC.lo
+  CC       AddSF.lo
+  CC       CCC.lo
+  CC       CvColW.lo
+  CC       CvCols.lo
+  CC       HVC.lo
+  CC       HVCGcC.lo
+  CC       HVCGcV.lo
+  CC       HVCGcVC.lo
+  CC       HVCMnV.lo
+  CC       HVCMxC.lo
+  CC       HVCMxV.lo
+  CC       HVCMxVC.lo
+  CC       HVCMxVs.lo
+  CC       HVCWpAj.lo
+  CC       IdOfPr.lo
+  CC       LRGB.lo
+LRGB.c: In function ‘LINEAR_RGB_InitSCCData’:
+LRGB.c:798:1: warning: label ‘FreeBlueTblElements’ defined but not used [-Wunused-label]
+ FreeBlueTblElements:
+ ^~~~~~~~~~~~~~~~~~~
+  CC       Lab.lo
+  CC       LabGcC.lo
+  CC       LabGcL.lo
+  CC       LabGcLC.lo
+  CC       LabMnL.lo
+  CC       LabMxC.lo
+  CC       LabMxL.lo
+  CC       LabMxLC.lo
+  CC       LabWpAj.lo
+  CC       Luv.lo
+  CC       LuvGcC.lo
+  CC       LuvGcL.lo
+  CC       LuvGcLC.lo
+  CC       LuvMnL.lo
+  CC       LuvMxC.lo
+  CC       LuvMxL.lo
+  CC       LuvMxLC.lo
+  CC       LuvWpAj.lo
+  CC       OfCCC.lo
+  CC       PrOfId.lo
+  CC       QBlack.lo
+  CC       QBlue.lo
+  CC       QGreen.lo
+  CC       QRed.lo
+  CC       QWhite.lo
+  CC       QuCol.lo
+  CC       QuCols.lo
+  CC       SetCCC.lo
+  CC       SetGetCols.lo
+  CC       StCol.lo
+  CC       StCols.lo
+  CC       UNDEFINED.lo
+  CC       XRGB.lo
+  CC       XYZ.lo
+  CC       cmsAllCol.lo
+  CC       cmsAllNCol.lo
+  CC       cmsCmap.lo
+cmsCmap.c: In function ‘CmapRecForColormap’:
+cmsCmap.c:184:18: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+   register xReq *req;
+                  ^~~
+  CC       cmsColNm.lo
+  CC       cmsGlobls.lo
+  CC       cmsInt.lo
+  CC       cmsLkCol.lo
+  CC       cmsMath.lo
+  CC       cmsProp.lo
+  CC       cmsTrig.lo
+  CC       uvY.lo
+  CC       xyY.lo
+  CCLD     libxcms.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xcms'
+Making all in xlibi18n
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xlibi18n'
+  CC       XDefaultIMIF.lo
+  CC       XDefaultOMIF.lo
+  CC       xim_trans.lo
+  CC       ICWrap.lo
+  CC       IMWrap.lo
+  CC       imKStoUCS.lo
+  CC       lcCT.lo
+lcCT.c: In function ‘cstoct’:
+lcCT.c:1024:21: warning: declaration of ‘char_size’ shadows a previous local [-Wshadow]
+                 int char_size = (ch < 0xc0 ? 1 :
+                     ^~~~~~~~~
+lcCT.c:884:9: note: shadowed declaration is here
+     int char_size;
+         ^~~~~~~~~
+  CC       lcCharSet.lo
+  CC       lcConv.lo
+  CC       lcDB.lo
+  CC       lcDynamic.lo
+  CC       lcFile.lo
+  CC       lcGeneric.lo
+  CC       lcInit.lo
+  CC       lcPrTxt.lo
+  CC       lcPubWrap.lo
+  CC       lcPublic.lo
+  CC       lcRM.lo
+  CC       lcStd.lo
+  CC       lcTxtPr.lo
+  CC       lcUTF8.lo
+lcUTF8.c: In function ‘create_tofontcs_conv’:
+lcUTF8.c:1736:29: warning: ‘.charset.name’ directive output may be truncated writing 13 bytes into a region of size between 8 and 17 [-Wformat-truncation=]
+  snprintf(buf, sizeof(buf), "fs%d.charset.name", i);
+                             ^~~~~~~~~~~~~~~~~~~
+lcUTF8.c:1736:2: note: ‘snprintf’ output between 17 and 26 bytes into a destination of size 20
+  snprintf(buf, sizeof(buf), "fs%d.charset.name", i);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+lcUTF8.c:1739:33: warning: ‘snprintf’ output may be truncated before the last format character [-Wformat-truncation=]
+      snprintf(buf, sizeof(buf), "fs%d.charset", i);
+                                 ^~~~~~~~~~~~~~
+lcUTF8.c:1739:6: note: ‘snprintf’ output between 12 and 21 bytes into a destination of size 20
+      snprintf(buf, sizeof(buf), "fs%d.charset", i);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+lcUTF8.c:1754:36: warning: ‘.charset.name’ directive output may be truncated writing 13 bytes into a region of size between 8 and 17 [-Wformat-truncation=]
+         snprintf(buf, sizeof(buf), "fs%d.charset.name", i);
+                                    ^~~~~~~~~~~~~~~~~~~
+lcUTF8.c:1754:9: note: ‘snprintf’ output between 17 and 26 bytes into a destination of size 20
+         snprintf(buf, sizeof(buf), "fs%d.charset.name", i);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+lcUTF8.c:1757:40: warning: ‘snprintf’ output may be truncated before the last format character [-Wformat-truncation=]
+             snprintf(buf, sizeof(buf), "fs%d.charset", i);
+                                        ^~~~~~~~~~~~~~
+lcUTF8.c:1757:13: note: ‘snprintf’ output between 12 and 21 bytes into a destination of size 20
+             snprintf(buf, sizeof(buf), "fs%d.charset", i);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       lcUtil.lo
+  CC       lcWrap.lo
+  CC       mbWMProps.lo
+  CC       mbWrap.lo
+  CC       utf8WMProps.lo
+  CC       utf8Wrap.lo
+  CC       wcWrap.lo
+  CCLD     libi18n.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xlibi18n'
+Making all in xkb
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xkb'
+  CC       XKB.lo
+  CC       XKBBind.lo
+XKBBind.c: In function ‘XLookupKeysym’:
+XKBBind.c:225:5: warning: ‘XKeycodeToKeysym’ is deprecated [-Wdeprecated-declarations]
+     return XKeycodeToKeysym(dpy, event->keycode, col);
+     ^~~~~~
+XKBBind.c:96:1: note: declared here
+ XKeycodeToKeysym(Display *dpy,
+ ^~~~~~~~~~~~~~~~
+  CC       XKBCompat.lo
+  CC       XKBCtrls.lo
+  CC       XKBCvt.lo
+  CC       XKBGetMap.lo
+  CC       XKBGetByName.lo
+  CC       XKBNames.lo
+  CC       XKBRdBuf.lo
+  CC       XKBSetMap.lo
+  CC       XKBUse.lo
+  CC       XKBleds.lo
+  CC       XKBBell.lo
+  CC       XKBGeom.lo
+  CC       XKBSetGeom.lo
+  CC       XKBExtDev.lo
+  CC       XKBList.lo
+  CC       XKBMisc.lo
+  CC       XKBMAlloc.lo
+  CC       XKBGAlloc.lo
+  CC       XKBAlloc.lo
+  CCLD     libxkb.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xkb'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+  CC       AllCells.lo
+  CC       AllowEv.lo
+  CC       AllPlanes.lo
+  CC       AutoRep.lo
+  CC       Backgnd.lo
+  CC       BdrWidth.lo
+  CC       Bell.lo
+  CC       Border.lo
+  CC       ChAccCon.lo
+  CC       ChActPGb.lo
+  CC       ChClMode.lo
+  CC       ChCmap.lo
+  CC       ChGC.lo
+  CC       ChKeyCon.lo
+  CC       ChkIfEv.lo
+  CC       ChkMaskEv.lo
+  CC       ChkTypEv.lo
+  CC       ChkTypWEv.lo
+  CC       ChkWinEv.lo
+  CC       ChPntCon.lo
+  CC       ChProp.lo
+  CC       ChSaveSet.lo
+  CC       ChWAttrs.lo
+  CC       ChWindow.lo
+  CC       CirWin.lo
+  CC       CirWinDn.lo
+  CC       CirWinUp.lo
+  CC       ClDisplay.lo
+  CC       ClearArea.lo
+  CC       Clear.lo
+  CC       ConfWind.lo
+  CC       Context.lo
+  CC       ConvSel.lo
+  CC       CopyArea.lo
+  CC       CopyCmap.lo
+  CC       CopyGC.lo
+  CC       CopyPlane.lo
+  CC       CrBFData.lo
+  CC       CrCmap.lo
+  CC       CrCursor.lo
+  CC       CrGC.lo
+  CC       CrGlCur.lo
+  CC       CrPFBData.lo
+  CC       CrPixmap.lo
+  CC       CrWindow.lo
+  CC       Cursor.lo
+  CC       DefCursor.lo
+  CC       DelProp.lo
+  CC       Depths.lo
+  CC       DestSubs.lo
+  CC       DestWind.lo
+  CC       DisName.lo
+DisName.c: In function ‘XDisplayName’:
+DisName.c:63:11: warning: return discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     return( "" );
+           ^
+  CC       DrArc.lo
+  CC       DrArcs.lo
+  CC       DrLine.lo
+  CC       DrLines.lo
+  CC       DrPoint.lo
+  CC       DrPoints.lo
+  CC       DrRect.lo
+  CC       DrRects.lo
+  CC       DrSegs.lo
+  CC       ErrDes.lo
+  CC       ErrHndlr.lo
+  CC       evtomask.lo
+  CC       EvToWire.lo
+  CC       FetchName.lo
+  CC       FillArc.lo
+  CC       FillArcs.lo
+  CC       FillPoly.lo
+  CC       FillRct.lo
+  CC       FillRcts.lo
+  CC       FilterEv.lo
+  CC       Flush.lo
+  CC       Font.lo
+  CC       FontInfo.lo
+  CC       FontNames.lo
+  CC       FreeCmap.lo
+  CC       FreeCols.lo
+  CC       FreeCurs.lo
+  CC       FreeEData.lo
+  CC       FreeEventData.lo
+  CC       FreeGC.lo
+  CC       FreePix.lo
+  CC       FSSaver.lo
+  CC       FSWrap.lo
+FSWrap.c: In function ‘XCreateFontSet’:
+FSWrap.c:198:18: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+      *def_string = "";
+                  ^
+  CC       GCMisc.lo
+  CC       Geom.lo
+  CC       GetAtomNm.lo
+  CC       GetColor.lo
+  CC       GetDflt.lo
+  CC       GetEventData.lo
+  CC       GetFPath.lo
+GetFPath.c: In function ‘XGetFontPath’:
+GetFPath.c:45:17: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+  register xReq *req;
+                 ^~~
+  CC       GetFProp.lo
+  CC       GetGCVals.lo
+  CC       GetGeom.lo
+  CC       GetHColor.lo
+  CC       GetHints.lo
+  CC       GetIFocus.lo
+GetIFocus.c: In function ‘XGetInputFocus’:
+GetIFocus.c:39:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+  CC       GetImage.lo
+  CC       GetKCnt.lo
+GetKCnt.c: In function ‘XGetKeyboardControl’:
+GetKCnt.c:38:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+  CC       GetMoEv.lo
+  CC       GetNrmHint.lo
+  CC       GetPCnt.lo
+GetPCnt.c: In function ‘XGetPointerControl’:
+GetPCnt.c:41:11: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     xReq *req;
+           ^~~
+  CC       GetPntMap.lo
+GetPntMap.c: In function ‘XGetPointerMapping’:
+GetPntMap.c:48:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+  CC       GetProp.lo
+  CC       GetRGBCMap.lo
+  CC       GetSOwner.lo
+  CC       GetSSaver.lo
+GetSSaver.c: In function ‘XGetScreenSaver’:
+GetSSaver.c:43:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+  CC       GetStCmap.lo
+  CC       GetTxtProp.lo
+  CC       GetWAttrs.lo
+  CC       GetWMCMapW.lo
+  CC       GetWMProto.lo
+  CC       globals.lo
+  CC       GrButton.lo
+  CC       GrKeybd.lo
+  CC       GrKey.lo
+  CC       GrPointer.lo
+  CC       GrServer.lo
+GrServer.c: In function ‘XGrabServer’:
+GrServer.c:35:17: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+  register xReq *req;
+                 ^~~
+  CC       Host.lo
+  CC       Iconify.lo
+  CC       IfEvent.lo
+  CC       imConv.lo
+  CC       ImText16.lo
+  CC       ImText.lo
+  CC       ImUtil.lo
+  CC       InitExt.lo
+  CC       InsCmap.lo
+  CC       IntAtom.lo
+  CC       KeyBind.lo
+  CC       KeysymStr.lo
+  CC       KillCl.lo
+  CC       LiHosts.lo
+LiHosts.c: In function ‘XListHosts’:
+LiHosts.c:80:29: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xListHostsReq *req;
+                             ^~~
+  CC       LiICmaps.lo
+  CC       LiProps.lo
+  CC       ListExt.lo
+ListExt.c: In function ‘XListExtensions’:
+ListExt.c:44:17: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+  register xReq *req;
+                 ^~~
+  CC       LoadFont.lo
+  CC       LockDis.lo
+  CC       locking.lo
+  CC       LookupCol.lo
+  CC       LowerWin.lo
+  CC       Macros.lo
+Macros.c: In function ‘XNoOp’:
+Macros.c:286:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+  CC       MapRaised.lo
+  CC       MapSubs.lo
+  CC       MapWindow.lo
+  CC       MaskEvent.lo
+  CC       Misc.lo
+  CC       ModMap.lo
+ModMap.c: In function ‘XGetModifierMapping’:
+ModMap.c:37:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+In file included from ModMap.c:30:0:
+ModMap.c: In function ‘XSetModifierMapping’:
+ModMap.c:87:15: warning: pointer targets in passing argument 2 of ‘_XSend’ differ in signedness [-Wpointer-sign]
+     Data(dpy, modifier_map->modifiermap, mapSize);
+               ^
+../include/X11/Xlibint.h:642:15: note: in definition of macro ‘Data’
+   _XSend(dpy, data, len);\
+               ^~~~
+../include/X11/Xlibint.h:1031:13: note: expected ‘const char *’ but argument is of type ‘KeyCode * {aka unsigned char *}’
+ extern void _XSend(
+             ^~~~~~
+  CC       MoveWin.lo
+  CC       NextEvent.lo
+  CC       OCWrap.lo
+  CC       OMWrap.lo
+  CC       OpenDis.lo
+  CC       ParseCmd.lo
+  CC       ParseCol.lo
+  CC       ParseGeom.lo
+  CC       PeekEvent.lo
+  CC       PeekIfEv.lo
+  CC       Pending.lo
+  CC       PixFormats.lo
+  CC       PmapBgnd.lo
+  CC       PmapBord.lo
+  CC       PolyReg.lo
+  CC       PolyTxt16.lo
+  CC       PolyTxt.lo
+  CC       PropAlloc.lo
+  CC       PutBEvent.lo
+  CC       PutImage.lo
+  CC       Quarks.lo
+  CC       QuBest.lo
+  CC       QuColor.lo
+  CC       QuColors.lo
+  CC       QuCurShp.lo
+  CC       QuExt.lo
+  CC       QuKeybd.lo
+QuKeybd.c: In function ‘XQueryKeymap’:
+QuKeybd.c:42:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+  CC       QuPntr.lo
+  CC       QuStipShp.lo
+  CC       QuTextE16.lo
+  CC       QuTextExt.lo
+  CC       QuTileShp.lo
+  CC       QuTree.lo
+  CC       RaiseWin.lo
+  CC       RdBitF.lo
+  CC       RecolorC.lo
+  CC       ReconfWin.lo
+  CC       ReconfWM.lo
+ReconfWM.c: In function ‘XReconfigureWMWindow’:
+ReconfWM.c:108:17: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+  register xReq *req;
+                 ^~~
+  CC       Region.lo
+  CC       RegstFlt.lo
+  CC       RepWindow.lo
+  CC       RestackWs.lo
+  CC       RotProp.lo
+  CC       ScrResStr.lo
+  CC       SelInput.lo
+  CC       SendEvent.lo
+  CC       SetBack.lo
+  CC       SetClMask.lo
+  CC       SetClOrig.lo
+  CC       SetCRects.lo
+  CC       SetDashes.lo
+  CC       SetFont.lo
+  CC       SetFore.lo
+  CC       SetFPath.lo
+  CC       SetFunc.lo
+  CC       SetHints.lo
+  CC       SetIFocus.lo
+  CC       SetLocale.lo
+  CC       SetLStyle.lo
+  CC       SetNrmHint.lo
+  CC       SetPMask.lo
+  CC       SetPntMap.lo
+  CC       SetRGBCMap.lo
+  CC       SetSOwner.lo
+  CC       SetSSaver.lo
+  CC       SetState.lo
+  CC       SetStCmap.lo
+  CC       SetStip.lo
+  CC       SetTile.lo
+  CC       SetTSOrig.lo
+  CC       SetTxtProp.lo
+  CC       SetWMCMapW.lo
+  CC       SetWMProto.lo
+  CC       StBytes.lo
+  CC       StColor.lo
+  CC       StColors.lo
+  CC       StName.lo
+  CC       StNColor.lo
+  CC       StrKeysym.lo
+StrKeysym.c: In function ‘XStringToKeysym’:
+StrKeysym.c:118:7: warning: declaration of ‘c’ shadows a previous local [-Wshadow]
+  char c;
+       ^
+StrKeysym.c:80:18: note: shadowed declaration is here
+     register int c;
+                  ^
+  CC       StrToText.lo
+  CC       Sync.lo
+Sync.c: In function ‘XSync’:
+Sync.c:40:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+  CC       Synchro.lo
+  CC       Text16.lo
+  CC       Text.lo
+  CC       TextExt16.lo
+  CC       TextExt.lo
+  CC       TextToStr.lo
+  CC       TrCoords.lo
+  CC       UndefCurs.lo
+  CC       UngrabBut.lo
+  CC       UngrabKbd.lo
+  CC       UngrabKey.lo
+  CC       UngrabPtr.lo
+  CC       UngrabSvr.lo
+UngrabSvr.c: In function ‘XUngrabServer’:
+UngrabSvr.c:36:24: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+         register xReq *req;
+                        ^~~
+  CC       UninsCmap.lo
+  CC       UnldFont.lo
+  CC       UnmapSubs.lo
+  CC       UnmapWin.lo
+  CC       VisUtil.lo
+  CC       WarpPtr.lo
+  CC       Window.lo
+  CC       WinEvent.lo
+  CC       Withdraw.lo
+  CC       WMGeom.lo
+  CC       WMProps.lo
+  CC       WrBitF.lo
+  CC       xcb_disp.lo
+  CC       xcb_io.lo
+  CC       XlibAsync.lo
+  CC       XlibInt.lo
+XlibInt.c: In function ‘_XSeqSyncFunction’:
+XlibInt.c:199:20: warning: variable ‘req’ set but not used [-Wunused-but-set-variable]
+     register xReq *req;
+                    ^~~
+XlibInt.c: In function ‘_XPrintDefaultError’:
+XlibInt.c:1284:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->request_code);
+                        ^~~~
+XlibInt.c:1304:21: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+  (void) fprintf(fp, mesg, event->minor_code);
+                     ^~~~
+XlibInt.c:1336:25: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+      (void) fprintf(fp, mesg, event->resourceid);
+                         ^~~~
+XlibInt.c:1364:21: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+  (void) fprintf(fp, mesg, event->resourceid);
+                     ^~~~
+XlibInt.c:1370:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->serial);
+                        ^~~~
+XlibInt.c:1374:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, (unsigned long long)(X_DPY_GET_REQUEST(dpy)));
+                        ^~~~
+XlibInt.c: In function ‘_XDefaultIOError’:
+XlibInt.c:1241:5: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+ int _XDefaultIOError(
+     ^~~~~~~~~~~~~~~~
+  CC       Xrm.lo
+Xrm.c: In function ‘PutEntry’:
+Xrm.c:900:15: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+    !quarks[2] != table->leaf)
+               ^~
+Xrm.c:900:4: note: add parentheses around left hand side expression to silence this warning
+    !quarks[2] != table->leaf)
+    ^~~~~~~~~~
+    (         )
+  CCLD     libX11.la
+  CC       x11_xcb.lo
+  CCLD     libX11-xcb.la
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+Making all in nls
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+  GEN      am_ET.UTF-8/XLC_LOCALE
+  GEN      armscii-8/XLC_LOCALE
+  GEN      C/XLC_LOCALE
+  GEN      cs_CZ.UTF-8/XLC_LOCALE
+  GEN      el_GR.UTF-8/XLC_LOCALE
+  GEN      en_US.UTF-8/XLC_LOCALE
+  GEN      fi_FI.UTF-8/XLC_LOCALE
+  GEN      georgian-academy/XLC_LOCALE
+  GEN      georgian-ps/XLC_LOCALE
+  GEN      ibm-cp1133/XLC_LOCALE
+  GEN      iscii-dev/XLC_LOCALE
+  GEN      isiri-3342/XLC_LOCALE
+  GEN      iso8859-1/XLC_LOCALE
+  GEN      iso8859-10/XLC_LOCALE
+  GEN      iso8859-11/XLC_LOCALE
+  GEN      iso8859-13/XLC_LOCALE
+  GEN      iso8859-14/XLC_LOCALE
+  GEN      iso8859-15/XLC_LOCALE
+  GEN      iso8859-2/XLC_LOCALE
+  GEN      iso8859-3/XLC_LOCALE
+  GEN      iso8859-4/XLC_LOCALE
+  GEN      iso8859-5/XLC_LOCALE
+  GEN      iso8859-6/XLC_LOCALE
+  GEN      iso8859-7/XLC_LOCALE
+  GEN      iso8859-8/XLC_LOCALE
+  GEN      iso8859-9/XLC_LOCALE
+  GEN      iso8859-9e/XLC_LOCALE
+  GEN      ja/XLC_LOCALE
+  GEN      ja.JIS/XLC_LOCALE
+  GEN      ja_JP.UTF-8/XLC_LOCALE
+  GEN      ja.SJIS/XLC_LOCALE
+  GEN      km_KH.UTF-8/XLC_LOCALE
+  GEN      ko/XLC_LOCALE
+  GEN      koi8-c/XLC_LOCALE
+  GEN      koi8-r/XLC_LOCALE
+  GEN      koi8-u/XLC_LOCALE
+  GEN      ko_KR.UTF-8/XLC_LOCALE
+  GEN      microsoft-cp1251/XLC_LOCALE
+  GEN      microsoft-cp1255/XLC_LOCALE
+  GEN      microsoft-cp1256/XLC_LOCALE
+  GEN      mulelao-1/XLC_LOCALE
+  GEN      nokhchi-1/XLC_LOCALE
+  GEN      pt_BR.UTF-8/XLC_LOCALE
+  GEN      pt_PT.UTF-8/XLC_LOCALE
+  GEN      ru_RU.UTF-8/XLC_LOCALE
+  GEN      sr_CS.UTF-8/XLC_LOCALE
+  GEN      tatar-cyr/XLC_LOCALE
+  GEN      th_TH/XLC_LOCALE
+  GEN      th_TH.UTF-8/XLC_LOCALE
+  GEN      tscii-0/XLC_LOCALE
+  GEN      vi_VN.tcvn/XLC_LOCALE
+  GEN      vi_VN.viscii/XLC_LOCALE
+  GEN      zh_CN/XLC_LOCALE
+  GEN      zh_CN.gb18030/XLC_LOCALE
+  GEN      zh_CN.gbk/XLC_LOCALE
+  GEN      zh_CN.UTF-8/XLC_LOCALE
+  GEN      zh_HK.big5/XLC_LOCALE
+  GEN      zh_HK.big5hkscs/XLC_LOCALE
+  GEN      zh_HK.UTF-8/XLC_LOCALE
+  GEN      zh_TW/XLC_LOCALE
+  GEN      zh_TW.big5/XLC_LOCALE
+  GEN      zh_TW.UTF-8/XLC_LOCALE
+  GEN      am_ET.UTF-8/Compose
+  GEN      armscii-8/Compose
+  GEN      C/Compose
+  GEN      cs_CZ.UTF-8/Compose
+  GEN      el_GR.UTF-8/Compose
+  GEN      en_US.UTF-8/Compose
+  GEN      fi_FI.UTF-8/Compose
+  GEN      georgian-academy/Compose
+  GEN      georgian-ps/Compose
+  GEN      ibm-cp1133/Compose
+  GEN      iscii-dev/Compose
+  GEN      isiri-3342/Compose
+  GEN      iso8859-1/Compose
+  GEN      iso8859-10/Compose
+  GEN      iso8859-11/Compose
+  GEN      iso8859-13/Compose
+  GEN      iso8859-14/Compose
+  GEN      iso8859-15/Compose
+  GEN      iso8859-2/Compose
+  GEN      iso8859-3/Compose
+  GEN      iso8859-4/Compose
+  GEN      iso8859-5/Compose
+  GEN      iso8859-6/Compose
+  GEN      iso8859-7/Compose
+  GEN      iso8859-8/Compose
+  GEN      iso8859-9/Compose
+  GEN      iso8859-9e/Compose
+  GEN      ja/Compose
+  GEN      ja.JIS/Compose
+  GEN      ja_JP.UTF-8/Compose
+  GEN      ja.SJIS/Compose
+  GEN      km_KH.UTF-8/Compose
+  GEN      ko/Compose
+  GEN      koi8-c/Compose
+  GEN      koi8-r/Compose
+  GEN      koi8-u/Compose
+  GEN      ko_KR.UTF-8/Compose
+  GEN      microsoft-cp1251/Compose
+  GEN      microsoft-cp1255/Compose
+  GEN      microsoft-cp1256/Compose
+  GEN      mulelao-1/Compose
+  GEN      nokhchi-1/Compose
+  GEN      pt_BR.UTF-8/Compose
+  GEN      pt_PT.UTF-8/Compose
+  GEN      ru_RU.UTF-8/Compose
+  GEN      sr_CS.UTF-8/Compose
+  GEN      tatar-cyr/Compose
+  GEN      th_TH/Compose
+  GEN      th_TH.UTF-8/Compose
+  GEN      tscii-0/Compose
+  GEN      vi_VN.tcvn/Compose
+  GEN      vi_VN.viscii/Compose
+  GEN      zh_CN/Compose
+  GEN      zh_CN.gb18030/Compose
+  GEN      zh_CN.gbk/Compose
+  GEN      zh_CN.UTF-8/Compose
+  GEN      zh_HK.big5/Compose
+  GEN      zh_HK.big5hkscs/Compose
+  GEN      zh_HK.UTF-8/Compose
+  GEN      zh_TW/Compose
+  GEN      zh_TW.big5/Compose
+  GEN      zh_TW.UTF-8/Compose
+  GEN      locale.alias
+LC_CTYPE=C sed -e '/^[^#][^	 ]*:/s/://' -e '/^[^#].*[	 ].*:/d' \
+        < locale.alias.l1 > locale.alias.l2
+cat locale.alias.l2 locale.alias.l1 > locale.alias
+  GEN      locale.dir
+LC_CTYPE=C sed -e '/^[^#][^	 ]*:/s/://' -e '/^[^#].*[	 ].*:/d' \
+        < locale.dir.l1 > locale.dir.l2
+cat locale.dir.l2 locale.dir.l1 > locale.dir
+  GEN      compose.dir
+LC_CTYPE=C sed -e '/^[^#][^	 ]*:/s/://' -e '/^[^#].*[	 ].*:/d' \
+        < compose.dir.l1 > compose.dir.l2
+cat compose.dir.l2 compose.dir.l1 > compose.dir
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+Making all in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+Making all in xkb
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man/xkb'
+  GEN      XkbActionCtrls.3
+  GEN      XkbAddDeviceLedInfo.3
+  GEN      XkbAddGeomColor.3
+  GEN      XkbAddGeomDoodad.3
+  GEN      XkbAddGeomKey.3
+  GEN      XkbAddGeomKeyAlias.3
+  GEN      XkbAddGeomOutline.3
+  GEN      XkbAddGeomOverlay.3
+  GEN      XkbAddGeomOverlayKey.3
+  GEN      XkbAddGeomOverlayRow.3
+  GEN      XkbAddGeomProperty.3
+  GEN      XkbAddGeomRow.3
+  GEN      XkbAddGeomSection.3
+  GEN      XkbAddGeomShape.3
+  GEN      XkbAddSymInterpret.3
+  GEN      XkbAllocClientMap.3
+  GEN      XkbAllocCompatMap.3
+  GEN      XkbAllocControls.3
+  GEN      XkbAllocDeviceInfo.3
+  GEN      XkbAllocDeviceLedInfo.3
+  GEN      XkbAllocGeomColors.3
+  GEN      XkbAllocGeomDoodads.3
+  GEN      XkbAllocGeomKeyAliases.3
+  GEN      XkbAllocGeomKeys.3
+  GEN      XkbAllocGeomOutlines.3
+  GEN      XkbAllocGeomOverlayKey.3
+  GEN      XkbAllocGeomOverlayRows.3
+  GEN      XkbAllocGeomOverlays.3
+  GEN      XkbAllocGeomPoints.3
+  GEN      XkbAllocGeomProps.3
+  GEN      XkbAllocGeomRows.3
+  GEN      XkbAllocGeomSectionDoodads.3
+  GEN      XkbAllocGeomSections.3
+  GEN      XkbAllocGeomShapes.3
+  GEN      XkbAllocGeometry.3
+  GEN      XkbAllocIndicatorMaps.3
+  GEN      XkbAllocKeyboard.3
+  GEN      XkbAllocNames.3
+  GEN      XkbAllocServerMap.3
+  GEN      XkbApplyCompatMapToKey.3
+  GEN      XkbBell.3
+  GEN      XkbBellEvent.3
+  GEN      XkbChangeControls.3
+  GEN      XkbChangeDeviceInfo.3
+  GEN      XkbChangeEnabledControls.3
+  GEN      XkbChangeIndicators.3
+  GEN      XkbChangeMap.3
+  GEN      XkbChangeNames.3
+  GEN      XkbChangeTypesOfKey.3
+  GEN      XkbComputeRowBounds.3
+  GEN      XkbComputeSectionBounds.3
+  GEN      XkbComputeShapeBounds.3
+  GEN      XkbComputeShapeTop.3
+  GEN      XkbCopyKeyType.3
+  GEN      XkbCopyKeyTypes.3
+  GEN      XkbDeviceBell.3
+  GEN      XkbDeviceBellEvent.3
+  GEN      XkbFindOverlayForKey.3
+  GEN      XkbForceBell.3
+  GEN      XkbForceDeviceBell.3
+  GEN      XkbFreeClientMap.3
+  GEN      XkbFreeCompatMap.3
+  GEN      XkbFreeComponentList.3
+  GEN      XkbFreeControls.3
+  GEN      XkbFreeDeviceInfo.3
+  GEN      XkbFreeGeomColors.3
+  GEN      XkbFreeGeomDoodads.3
+  GEN      XkbFreeGeomKeyAliases.3
+  GEN      XkbFreeGeomKeys.3
+  GEN      XkbFreeGeomOutlines.3
+  GEN      XkbFreeGeomOverlayKeys.3
+  GEN      XkbFreeGeomOverlayRows.3
+  GEN      XkbFreeGeomOverlays.3
+  GEN      XkbFreeGeomPoints.3
+  GEN      XkbFreeGeomProperties.3
+  GEN      XkbFreeGeomRows.3
+  GEN      XkbFreeGeomSections.3
+  GEN      XkbFreeGeomShapes.3
+  GEN      XkbFreeGeometry.3
+  GEN      XkbFreeIndicatorMaps.3
+  GEN      XkbFreeKeyboard.3
+  GEN      XkbFreeNames.3
+  GEN      XkbFreeServerMap.3
+  GEN      XkbGetAccessXTimeout.3
+  GEN      XkbGetAutoRepeatRate.3
+  GEN      XkbGetAutoResetControls.3
+  GEN      XkbGetBounceKeysDelay.3
+  GEN      XkbGetCompatMap.3
+  GEN      XkbGetControls.3
+  GEN      XkbGetControlsChanges.3
+  GEN      XkbGetDetectableAutoRepeat.3
+  GEN      XkbGetDeviceButtonActions.3
+  GEN      XkbGetDeviceInfo.3
+  GEN      XkbGetDeviceInfoChanges.3
+  GEN      XkbGetDeviceLedInfo.3
+  GEN      XkbGetGeometry.3
+  GEN      XkbGetIndicatorChanges.3
+  GEN      XkbGetIndicatorMap.3
+  GEN      XkbGetIndicatorState.3
+  GEN      XkbGetKeyActions.3
+  GEN      XkbGetKeyBehaviors.3
+  GEN      XkbGetKeyExplicitComponents.3
+  GEN      XkbGetKeyModifierMap.3
+  GEN      XkbGetKeySyms.3
+  GEN      XkbGetKeyTypes.3
+  GEN      XkbGetKeyVirtualModMap.3
+  GEN      XkbGetKeyboard.3
+  GEN      XkbGetKeyboardByName.3
+  GEN      XkbGetMap.3
+  GEN      XkbGetNameChanges.3
+  GEN      XkbGetNamedGeometry.3
+  GEN      XkbGetNamedIndicator.3
+  GEN      XkbGetNames.3
+  GEN      XkbGetSlowKeysDelay.3
+  GEN      XkbGetState.3
+  GEN      XkbGetStickyKeysOptions.3
+  GEN      XkbGetUpdatedMap.3
+  GEN      XkbGetVirtualMods.3
+  GEN      XkbGetXlibControls.3
+  GEN      XkbIgnoreExtension.3
+  GEN      XkbInitCanonicalKeyTypes.3
+  GEN      XkbKeyAction.3
+  GEN      XkbKeyActionEntry.3
+  GEN      XkbKeyActionsPtr.3
+  GEN      XkbKeyGroupInfo.3
+  GEN      XkbKeyGroupWidth.3
+  GEN      XkbKeyGroupsWidth.3
+  GEN      XkbKeyHasActions.3
+  GEN      XkbKeyNumActions.3
+  GEN      XkbKeyNumGroups.3
+  GEN      XkbKeyNumSyms.3
+  GEN      XkbKeySymEntry.3
+  GEN      XkbKeySymsOffset.3
+  GEN      XkbKeySymsPtr.3
+  GEN      XkbKeyType.3
+  GEN      XkbKeyTypeIndex.3
+  GEN      XkbKeyTypesForCoreSymbols.3
+  GEN      XkbKeycodeToKeysym.3
+  GEN      XkbKeysymToModifiers.3
+  GEN      XkbLatchGroup.3
+  GEN      XkbLatchModifiers.3
+  GEN      XkbLibraryVersion.3
+  GEN      XkbListComponents.3
+  GEN      XkbLockGroup.3
+  GEN      XkbLockModifiers.3
+  GEN      XkbLookupKeyBinding.3
+  GEN      XkbLookupKeySym.3
+  GEN      XkbModActionVMods.3
+  GEN      XkbNoteControlsChanges.3
+  GEN      XkbNoteDeviceChanges.3
+  GEN      XkbNoteIndicatorChanges.3
+  GEN      XkbNoteNameChanges.3
+  GEN      XkbOpenDisplay.3
+  GEN      XkbOutOfRangeGroupInfo.3
+  GEN      XkbOutOfRangeGroupNumber.3
+  GEN      XkbPtrActionX.3
+  GEN      XkbPtrActionY.3
+  GEN      XkbQueryExtension.3
+  GEN      XkbRefreshKeyboardMapping.3
+  GEN      XkbResizeDeviceButtonActions.3
+  GEN      XkbResizeKeyActions.3
+  GEN      XkbResizeKeySyms.3
+  GEN      XkbResizeKeyType.3
+  GEN      XkbSAActionSetCtrls.3
+  GEN      XkbSAGroup.3
+  GEN      XkbSAPtrDfltValue.3
+  GEN      XkbSARedirectSetVMods.3
+  GEN      XkbSARedirectSetVModsMask.3
+  GEN      XkbSARedirectVMods.3
+  GEN      XkbSARedirectVModsMask.3
+  GEN      XkbSAScreen.3
+  GEN      XkbSASetGroup.3
+  GEN      XkbSASetPtrDfltValue.3
+  GEN      XkbSASetScreen.3
+  GEN      XkbSelectEventDetails.3
+  GEN      XkbSelectEvents.3
+  GEN      XkbSetAccessXTimeout.3
+  GEN      XkbSetAutoRepeatRate.3
+  GEN      XkbSetAutoResetControls.3
+  GEN      XkbSetBounceKeysDelay.3
+  GEN      XkbSetCompatMap.3
+  GEN      XkbSetControls.3
+  GEN      XkbSetDebuggingFlags.3
+  GEN      XkbSetDetectableAutoRepeat.3
+  GEN      XkbSetDeviceButtonActions.3
+  GEN      XkbSetDeviceInfo.3
+  GEN      XkbSetIgnoreLockMods.3
+  GEN      XkbSetIndicatorMap.3
+  GEN      XkbSetMap.3
+  GEN      XkbSetModActionVMods.3
+  GEN      XkbSetNamedIndicator.3
+  GEN      XkbSetNames.3
+  GEN      XkbSetPtrActionX.3
+  GEN      XkbSetPtrActionY.3
+  GEN      XkbSetServerInternalMods.3
+  GEN      XkbSetXlibControls.3
+  GEN      XkbTranslateKeyCode.3
+  GEN      XkbTranslateKeySym.3
+  GEN      XkbUpdateMapFromCore.3
+  GEN      XkbVirtualModsToReal.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man/xkb'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+  GEN      Compose.5
+  GEN      XCompose.5
+  GEN      BlackPixel.3
+  GEN      WhitePixel.3
+  GEN      ConnectionNumber.3
+  GEN      DefaultColormap.3
+  GEN      DefaultDepth.3
+  GEN      XListDepths.3
+  GEN      DefaultGC.3
+  GEN      DefaultRootWindow.3
+  GEN      DefaultScreenOfDisplay.3
+  GEN      DefaultScreen.3
+  GEN      DefaultVisual.3
+  GEN      DisplayCells.3
+  GEN      DisplayPlanes.3
+  GEN      DisplayString.3
+  GEN      XMaxRequestSize.3
+  GEN      XExtendedMaxRequestSize.3
+  GEN      LastKnownRequestProcessed.3
+  GEN      NextRequest.3
+  GEN      ProtocolVersion.3
+  GEN      ProtocolRevision.3
+  GEN      QLength.3
+  GEN      RootWindow.3
+  GEN      ScreenCount.3
+  GEN      ScreenOfDisplay.3
+  GEN      ServerVendor.3
+  GEN      VendorRelease.3
+  GEN      WhitePixelOfScreen.3
+  GEN      CellsOfScreen.3
+  GEN      DefaultColormapOfScreen.3
+  GEN      DefaultDepthOfScreen.3
+  GEN      DefaultGCOfScreen.3
+  GEN      DefaultVisualOfScreen.3
+  GEN      DoesBackingStore.3
+  GEN      DoesSaveUnders.3
+  GEN      DisplayOfScreen.3
+  GEN      XScreenNumberOfScreen.3
+  GEN      EventMaskOfScreen.3
+  GEN      HeightOfScreen.3
+  GEN      HeightMMOfScreen.3
+  GEN      MaxCmapsOfScreen.3
+  GEN      MinCmapsOfScreen.3
+  GEN      PlanesOfScreen.3
+  GEN      RootWindowOfScreen.3
+  GEN      WidthOfScreen.3
+  GEN      WidthMMOfScreen.3
+  GEN      VisualOfCCC.3
+  GEN      ScreenNumberOfCCC.3
+  GEN      ScreenWhitePointOfCCC.3
+  GEN      ClientWhitePointOfCCC.3
+  GEN      BitmapBitOrder.3
+  GEN      BitmapPad.3
+  GEN      BitmapUnit.3
+  GEN      DisplayHeight.3
+  GEN      DisplayHeightMM.3
+  GEN      DisplayWidth.3
+  GEN      DisplayWidthMM.3
+  GEN      XListPixmapFormats.3
+  GEN      XPixmapFormatValues.3
+  GEN      IsFunctionKey.3
+  GEN      IsKeypadKey.3
+  GEN      IsMiscFunctionKey.3
+  GEN      IsModifierKey.3
+  GEN      IsPFKey.3
+  GEN      IsPrivateKeypadKey.3
+  GEN      XSetClassHint.3
+  GEN      XGetClassHint.3
+  GEN      XClassHint.3
+  GEN      XSetIconSizes.3
+  GEN      XGetIconSizes.3
+  GEN      XIconSize.3
+  GEN      XSetRGBColormaps.3
+  GEN      XGetRGBColormaps.3
+  GEN      XStandardColormap.3
+  GEN      XSetWMNormalHints.3
+  GEN      XGetWMNormalHints.3
+  GEN      XSetWMSizeHints.3
+  GEN      XGetWMSizeHints.3
+  GEN      XSizeHints.3
+  GEN      XSetWMHints.3
+  GEN      XGetWMHints.3
+  GEN      XWMHints.3
+  GEN      XAddHosts.3
+  GEN      XListHosts.3
+  GEN      XRemoveHost.3
+  GEN      XRemoveHosts.3
+  GEN      XSetAccessControl.3
+  GEN      XEnableAccessControl.3
+  GEN      XDisableAccessControl.3
+  GEN      XHostAddress.3
+  GEN      XAllocNamedColor.3
+  GEN      XAllocColorCells.3
+  GEN      XAllocColorPlanes.3
+  GEN      XFreeColors.3
+  GEN      XEvent.3
+  GEN      XKeyEvent.3
+  GEN      XMotionEvent.3
+  GEN      XGetKeyboardControl.3
+  GEN      XAutoRepeatOn.3
+  GEN      XAutoRepeatOff.3
+  GEN      XBell.3
+  GEN      XQueryKeymap.3
+  GEN      XKeyboardControl.3
+  GEN      XGetKeyboardMapping.3
+  GEN      XDisplayKeycodes.3
+  GEN      XSetModifierMapping.3
+  GEN      XGetModifierMapping.3
+  GEN      XNewModifiermap.3
+  GEN      XInsertModifiermapEntry.3
+  GEN      XDeleteModifiermapEntry.3
+  GEN      XFreeModifiermap.3
+  GEN      XModifierKeymap.3
+  GEN      XGetPointerControl.3
+  GEN      XAddToSaveSet.3
+  GEN      XRemoveFromSaveSet.3
+  GEN      XSetWindowBackground.3
+  GEN      XSetWindowBackgroundPixmap.3
+  GEN      XSetWindowBorder.3
+  GEN      XSetWindowBorderPixmap.3
+  GEN      XSetWindowColormap.3
+  GEN      XClearWindow.3
+  GEN      XMoveWindow.3
+  GEN      XResizeWindow.3
+  GEN      XMoveResizeWindow.3
+  GEN      XSetWindowBorderWidth.3
+  GEN      XWindowChanges.3
+  GEN      XCopyPlane.3
+  GEN      XCopyColormapAndFree.3
+  GEN      XFreeColormap.3
+  GEN      XColor.3
+  GEN      XCreatePixmapCursor.3
+  GEN      XCreateGlyphCursor.3
+  GEN      XFreeFontSet.3
+  GEN      XCopyGC.3
+  GEN      XChangeGC.3
+  GEN      XGetGCValues.3
+  GEN      XFreeGC.3
+  GEN      XGContextFromGC.3
+  GEN      XGCValues.3
+  GEN      XDestroyIC.3
+  GEN      XIMOfIC.3
+  GEN      XCreateImage.3
+  GEN      XGetPixel.3
+  GEN      XPutPixel.3
+  GEN      XSubImage.3
+  GEN      XAddPixel.3
+  GEN      XDestroyImage.3
+  GEN      XDestroyOC.3
+  GEN      XSetOCValues.3
+  GEN      XGetOCValues.3
+  GEN      XOMOfOC.3
+  GEN      XFreePixmap.3
+  GEN      XSetRegion.3
+  GEN      XDestroyRegion.3
+  GEN      XCreateSimpleWindow.3
+  GEN      XSetWindowAttributes.3
+  GEN      XUndefineCursor.3
+  GEN      XDestroySubwindows.3
+  GEN      XDrawArcs.3
+  GEN      XArc.3
+  GEN      XDrawImageString16.3
+  GEN      XDrawLines.3
+  GEN      XDrawSegments.3
+  GEN      XSegment.3
+  GEN      XDrawPoints.3
+  GEN      XPoint.3
+  GEN      XDrawRectangles.3
+  GEN      XRectangle.3
+  GEN      XDrawString16.3
+  GEN      XDrawText16.3
+  GEN      XTextItem.3
+  GEN      XTextItem16.3
+  GEN      XEqualRegion.3
+  GEN      XPointInRegion.3
+  GEN      XRectInRegion.3
+  GEN      XFillRectangles.3
+  GEN      XFillPolygon.3
+  GEN      XFillArc.3
+  GEN      XFillArcs.3
+  GEN      XSync.3
+  GEN      XEventsQueued.3
+  GEN      XPending.3
+  GEN      XBaseFontNameListOfFontSet.3
+  GEN      XLocaleOfFontSet.3
+  GEN      XContextDependentDrawing.3
+  GEN      XContextualDrawing.3
+  GEN      XDirectionalDependentDrawing.3
+  GEN      XNoExposeEvent.3
+  GEN      XrmPutFileDatabase.3
+  GEN      XrmGetStringDatabase.3
+  GEN      XrmLocaleOfDatabase.3
+  GEN      XrmGetDatabase.3
+  GEN      XrmSetDatabase.3
+  GEN      XrmDestroyDatabase.3
+  GEN      XrmQGetResource.3
+  GEN      XrmQGetSearchList.3
+  GEN      XrmQGetSearchResource.3
+  GEN      XFreeEventData.3
+  GEN      XGenericEventCookie.3
+  GEN      XMatchVisualInfo.3
+  GEN      XVisualIDFromVisual.3
+  GEN      XVisualInfo.3
+  GEN      XGetGeometry.3
+  GEN      XWindowAttributes.3
+  GEN      XListProperties.3
+  GEN      XChangeProperty.3
+  GEN      XRotateWindowProperties.3
+  GEN      XDeleteProperty.3
+  GEN      XUngrabButton.3
+  GEN      XUngrabKey.3
+  GEN      XUngrabKeyboard.3
+  GEN      XUngrabPointer.3
+  GEN      XChangeActivePointerGrab.3
+  GEN      XUngrabServer.3
+  GEN      XWithdrawWindow.3
+  GEN      XReconfigureWMWindow.3
+  GEN      XCheckIfEvent.3
+  GEN      XPeekIfEvent.3
+  GEN      XrmParseCommand.3
+  GEN      XrmValue.3
+  GEN      XrmOptionKind.3
+  GEN      XrmOptionDescRec.3
+  GEN      XUninstallColormap.3
+  GEN      XListInstalledColormaps.3
+  GEN      XRemoveConnectionWatch.3
+  GEN      XProcessInternalConnection.3
+  GEN      XInternalConnectionNumbers.3
+  GEN      XUnionRegion.3
+  GEN      XUnionRectWithRegion.3
+  GEN      XSubtractRegion.3
+  GEN      XXorRegion.3
+  GEN      XOffsetRegion.3
+  GEN      XShrinkRegion.3
+  GEN      XInternAtoms.3
+  GEN      XGetAtomName.3
+  GEN      XGetAtomNames.3
+  GEN      XFreeFontNames.3
+  GEN      XListFontsWithInfo.3
+  GEN      XFreeFontInfo.3
+  GEN      XQueryFont.3
+  GEN      XLoadQueryFont.3
+  GEN      XFreeFont.3
+  GEN      XGetFontProperty.3
+  GEN      XUnloadFont.3
+  GEN      XCharStruct.3
+  GEN      XFontProp.3
+  GEN      XChar2b.3
+  GEN      XFontStruct.3
+  GEN      XRefreshKeyboardMapping.3
+  GEN      XLookupString.3
+  GEN      XRebindKeysym.3
+  GEN      XrmCombineDatabase.3
+  GEN      XrmCombineFileDatabase.3
+  GEN      XMappingEvent.3
+  GEN      XMapRaised.3
+  GEN      XMapSubwindows.3
+  GEN      XPeekEvent.3
+  GEN      XWindowEvent.3
+  GEN      XCheckWindowEvent.3
+  GEN      XMaskEvent.3
+  GEN      XCheckMaskEvent.3
+  GEN      XCheckTypedEvent.3
+  GEN      XCheckTypedWindowEvent.3
+  GEN      XCloseDisplay.3
+  GEN      XCloseIM.3
+  GEN      XSetIMValues.3
+  GEN      XGetIMValues.3
+  GEN      XDisplayOfIM.3
+  GEN      XLocaleOfIM.3
+  GEN      XRegisterIMInstantiateCallback.3
+  GEN      XUnregisterIMInstantiateCallback.3
+  GEN      XCloseOM.3
+  GEN      XSetOMValues.3
+  GEN      XGetOMValues.3
+  GEN      XDisplayOfOM.3
+  GEN      XLocaleOfOM.3
+  GEN      XWMGeometry.3
+  GEN      XClipBox.3
+  GEN      XGetImage.3
+  GEN      XGetSubImage.3
+  GEN      XrmQPutResource.3
+  GEN      XrmPutStringResource.3
+  GEN      XrmQPutStringResource.3
+  GEN      XrmPutLineResource.3
+  GEN      XQueryBestTile.3
+  GEN      XQueryBestStipple.3
+  GEN      XQueryColors.3
+  GEN      XLookupColor.3
+  GEN      XParseColor.3
+  GEN      XListExtensions.3
+  GEN      XFreeExtensionList.3
+  GEN      XScreenResourceString.3
+  GEN      XLowerWindow.3
+  GEN      XCirculateSubwindows.3
+  GEN      XCirculateSubwindowsUp.3
+  GEN      XCirculateSubwindowsDown.3
+  GEN      XRestackWindows.3
+  GEN      XReadBitmapFileData.3
+  GEN      XWriteBitmapFile.3
+  GEN      XCreatePixmapFromBitmapData.3
+  GEN      XCreateBitmapFromData.3
+  GEN      XFreeCursor.3
+  GEN      XQueryBestCursor.3
+  GEN      XFindContext.3
+  GEN      XDeleteContext.3
+  GEN      XUniqueContext.3
+  GEN      XUnsetICFocus.3
+  GEN      XGetICValues.3
+  GEN      XTextPropertyToStringList.3
+  GEN      XFreeStringList.3
+  GEN      XTextProperty.3
+  GEN      XSetSubwindowMode.3
+  GEN      XSetGraphicsExposure.3
+  GEN      XSetClipMask.3
+  GEN      XSetClipRectangles.3
+  GEN      XKillClient.3
+  GEN      XGetCommand.3
+  GEN      XGetErrorText.3
+  GEN      XDisplayName.3
+  GEN      XSetIOErrorHandler.3
+  GEN      XGetErrorDatabaseText.3
+  GEN      XDisplayMotionBufferSize.3
+  GEN      XGetMotionEvents.3
+  GEN      XTimeCoord.3
+  GEN      XSetFillRule.3
+  GEN      XGetFontPath.3
+  GEN      XFreeFontPath.3
+  GEN      XGetInputFocus.3
+  GEN      XSetDashes.3
+  GEN      XGetPointerMapping.3
+  GEN      XForceScreenSaver.3
+  GEN      XActivateScreenSaver.3
+  GEN      XResetScreenSaver.3
+  GEN      XGetScreenSaver.3
+  GEN      XGetSelectionOwner.3
+  GEN      XConvertSelection.3
+  GEN      XSetFunction.3
+  GEN      XSetPlaneMask.3
+  GEN      XSetForeground.3
+  GEN      XSetBackground.3
+  GEN      XGetTransientForHint.3
+  GEN      XGetTextProperty.3
+  GEN      XSetStipple.3
+  GEN      XSetTSOrigin.3
+  GEN      XGetWMClientMachine.3
+  GEN      XGetWMColormapWindows.3
+  GEN      XGetWMIconName.3
+  GEN      XSetIconName.3
+  GEN      XGetIconName.3
+  GEN      XGetWMName.3
+  GEN      XStoreName.3
+  GEN      XFetchName.3
+  GEN      XmbSetWMProperties.3
+  GEN      Xutf8SetWMProperties.3
+  GEN      XGetWMProtocols.3
+  GEN      XStoreBuffer.3
+  GEN      XFetchBytes.3
+  GEN      XFetchBuffer.3
+  GEN      XRotateBuffers.3
+  GEN      XStoreColor.3
+  GEN      XStoreNamedColor.3
+  GEN      XKeysymToString.3
+  GEN      XKeycodeToKeysym.3
+  GEN      XKeysymToKeycode.3
+  GEN      XConvertCase.3
+  GEN      XSetLocaleModifiers.3
+  GEN      XSetAfterFunction.3
+  GEN      XwcTextListToTextProperty.3
+  GEN      Xutf8TextListToTextProperty.3
+  GEN      XmbTextPropertyToTextList.3
+  GEN      XwcTextPropertyToTextList.3
+  GEN      Xutf8TextPropertyToTextList.3
+  GEN      XwcFreeStringList.3
+  GEN      XDefaultString.3
+  GEN      XTextExtents16.3
+  GEN      XQueryTextExtents.3
+  GEN      XQueryTextExtents16.3
+  GEN      XTextWidth16.3
+  GEN      XLockDisplay.3
+  GEN      XUnlockDisplay.3
+  GEN      XrmStringToQuark.3
+  GEN      XrmPermStringToQuark.3
+  GEN      XrmQuarkToString.3
+  GEN      XrmStringToQuarkList.3
+  GEN      XrmStringToBindingQuarkList.3
+  GEN      XUnmapSubwindows.3
+  GEN      XcmsSetCCCOfColormap.3
+  GEN      XcmsAllocNamedColor.3
+  GEN      XcmsRGB.3
+  GEN      XcmsRGBi.3
+  GEN      XcmsCIEXYZ.3
+  GEN      XcmsCIEuvY.3
+  GEN      XcmsCIExyY.3
+  GEN      XcmsCIELab.3
+  GEN      XcmsCIELuv.3
+  GEN      XcmsTekHVC.3
+  GEN      XcmsPad.3
+  GEN      XcmsFreeCCC.3
+  GEN      XcmsCIELabQueryMaxL.3
+  GEN      XcmsCIELabQueryMaxLC.3
+  GEN      XcmsCIELabQueryMinL.3
+  GEN      XcmsCIELuvQueryMaxL.3
+  GEN      XcmsCIELuvQueryMaxLC.3
+  GEN      XcmsCIELuvQueryMinL.3
+  GEN      XcmsQueryBlue.3
+  GEN      XcmsQueryGreen.3
+  GEN      XcmsQueryRed.3
+  GEN      XcmsQueryWhite.3
+  GEN      XcmsQueryColors.3
+  GEN      XcmsLookupColor.3
+  GEN      XcmsStoreColors.3
+  GEN      XcmsSetWhiteAdjustProc.3
+  GEN      XcmsTekHVCQueryMaxV.3
+  GEN      XcmsTekHVCQueryMaxVC.3
+  GEN      XcmsTekHVCQueryMaxVSamples.3
+  GEN      XcmsTekHVCQueryMinV.3
+  GEN      XwcDrawImageString.3
+  GEN      Xutf8DrawImageString.3
+  GEN      XwcDrawString.3
+  GEN      Xutf8DrawString.3
+  GEN      XwcDrawText.3
+  GEN      Xutf8DrawText.3
+  GEN      XwcLookupString.3
+  GEN      Xutf8LookupString.3
+  GEN      XwcResetIC.3
+  GEN      Xutf8ResetIC.3
+  GEN      XwcTextEscapement.3
+  GEN      Xutf8TextEscapement.3
+  GEN      XwcTextExtents.3
+  GEN      Xutf8TextExtents.3
+  GEN      XwcTextPerCharExtents.3
+  GEN      Xutf8TextPerCharExtents.3
+  GEN      XCompose.3
+  GEN      AllPlanes.3
+  GEN      BlackPixelOfScreen.3
+  GEN      DisplayOfCCC.3
+  GEN      ImageByteOrder.3
+  GEN      IsCursorKey.3
+  GEN      XAddConnectionWatch.3
+  GEN      XAddHost.3
+  GEN      XAllocClassHint.3
+  GEN      XAllocColor.3
+  GEN      XAllocIconSize.3
+  GEN      XAllocSizeHints.3
+  GEN      XAllocStandardColormap.3
+  GEN      XAllocWMHints.3
+  GEN      XAllowEvents.3
+  GEN      XAnyEvent.3
+  GEN      XButtonEvent.3
+  GEN      XChangeKeyboardControl.3
+  GEN      XChangeKeyboardMapping.3
+  GEN      XChangePointerControl.3
+  GEN      XChangeSaveSet.3
+  GEN      XChangeWindowAttributes.3
+  GEN      XCirculateEvent.3
+  GEN      XCirculateRequestEvent.3
+  GEN      XClearArea.3
+  GEN      XClientMessageEvent.3
+  GEN      XcmsAllocColor.3
+  GEN      XcmsCCCOfColormap.3
+  GEN      XcmsCIELabQueryMaxC.3
+  GEN      XcmsCIELuvQueryMaxC.3
+  GEN      XcmsColor.3
+  GEN      XcmsConvertColors.3
+  GEN      XcmsCreateCCC.3
+  GEN      XcmsDefaultCCC.3
+  GEN      XcmsQueryBlack.3
+  GEN      XcmsQueryColor.3
+  GEN      XcmsSetWhitePoint.3
+  GEN      XcmsStoreColor.3
+  GEN      XcmsTekHVCQueryMaxC.3
+  GEN      XColormapEvent.3
+  GEN      XConfigureEvent.3
+  GEN      XConfigureRequestEvent.3
+  GEN      XConfigureWindow.3
+  GEN      XCopyArea.3
+  GEN      XCreateColormap.3
+  GEN      XCreateFontCursor.3
+  GEN      XCreateFontSet.3
+  GEN      XCreateGC.3
+  GEN      XCreateIC.3
+  GEN      XCreateOC.3
+  GEN      XCreatePixmap.3
+  GEN      XCreateRegion.3
+  GEN      XCreateWindowEvent.3
+  GEN      XCreateWindow.3
+  GEN      XCrossingEvent.3
+  GEN      XDefineCursor.3
+  GEN      XDestroyWindowEvent.3
+  GEN      XDestroyWindow.3
+  GEN      XDrawArc.3
+  GEN      XDrawImageString.3
+  GEN      XDrawLine.3
+  GEN      XDrawPoint.3
+  GEN      XDrawRectangle.3
+  GEN      XDrawString.3
+  GEN      XDrawText.3
+  GEN      XEmptyRegion.3
+  GEN      XErrorEvent.3
+  GEN      XExposeEvent.3
+  GEN      XExtentsOfFontSet.3
+  GEN      XFillRectangle.3
+  GEN      XFilterEvent.3
+  GEN      XFlush.3
+  GEN      XFocusChangeEvent.3
+  GEN      XFontSetExtents.3
+  GEN      XFontsOfFontSet.3
+  GEN      XFree.3
+  GEN      XGetEventData.3
+  GEN      XGetVisualInfo.3
+  GEN      XGetWindowAttributes.3
+  GEN      XGetWindowProperty.3
+  GEN      XGetXCBConnection.3
+  GEN      XGrabButton.3
+  GEN      XGrabKeyboard.3
+  GEN      XGrabKey.3
+  GEN      XGrabPointer.3
+  GEN      XGrabServer.3
+  GEN      XGraphicsExposeEvent.3
+  GEN      XGravityEvent.3
+  GEN      XIconifyWindow.3
+  GEN      XIfEvent.3
+  GEN      XInitImage.3
+  GEN      XInitThreads.3
+  GEN      XInstallColormap.3
+  GEN      XInternAtom.3
+  GEN      XIntersectRegion.3
+  GEN      XKeymapEvent.3
+  GEN      XListFonts.3
+  GEN      XLoadFont.3
+  GEN      XLookupKeysym.3
+  GEN      XMapEvent.3
+  GEN      XMapRequestEvent.3
+  GEN      XMapWindow.3
+  GEN      XmbDrawImageString.3
+  GEN      XmbDrawString.3
+  GEN      XmbDrawText.3
+  GEN      XmbLookupString.3
+  GEN      XmbResetIC.3
+  GEN      XmbTextEscapement.3
+  GEN      XmbTextExtents.3
+  GEN      XmbTextListToTextProperty.3
+  GEN      XmbTextPerCharExtents.3
+  GEN      XNextEvent.3
+  GEN      XNoOp.3
+  GEN      XOpenDisplay.3
+  GEN      XOpenIM.3
+  GEN      XOpenOM.3
+  GEN      XParseGeometry.3
+  GEN      XPolygonRegion.3
+  GEN      XPropertyEvent.3
+  GEN      XPutBackEvent.3
+  GEN      XPutImage.3
+  GEN      XQueryBestSize.3
+  GEN      XQueryColor.3
+  GEN      XQueryExtension.3
+  GEN      XQueryPointer.3
+  GEN      XQueryTree.3
+  GEN      XRaiseWindow.3
+  GEN      XReadBitmapFile.3
+  GEN      XRecolorCursor.3
+  GEN      XReparentEvent.3
+  GEN      XReparentWindow.3
+  GEN      XResizeRequestEvent.3
+  GEN      XResourceManagerString.3
+  GEN      XrmEnumerateDatabase.3
+  GEN      XrmGetFileDatabase.3
+  GEN      XrmGetResource.3
+  GEN      XrmInitialize.3
+  GEN      XrmMergeDatabases.3
+  GEN      XrmPutResource.3
+  GEN      XrmUniqueQuark.3
+  GEN      XSaveContext.3
+  GEN      XSelectInput.3
+  GEN      XSelectionClearEvent.3
+  GEN      XSelectionEvent.3
+  GEN      XSelectionRequestEvent.3
+  GEN      XSendEvent.3
+  GEN      XSetArcMode.3
+  GEN      XSetClipOrigin.3
+  GEN      XSetCloseDownMode.3
+  GEN      XSetCommand.3
+  GEN      XSetErrorHandler.3
+  GEN      XSetEventQueueOwner.3
+  GEN      XSetFillStyle.3
+  GEN      XSetFont.3
+  GEN      XSetFontPath.3
+  GEN      XSetICFocus.3
+  GEN      XSetICValues.3
+  GEN      XSetInputFocus.3
+  GEN      XSetLineAttributes.3
+  GEN      XSetPointerMapping.3
+  GEN      XSetScreenSaver.3
+  GEN      XSetSelectionOwner.3
+  GEN      XSetState.3
+  GEN      XSetTextProperty.3
+  GEN      XSetTile.3
+  GEN      XSetTransientForHint.3
+  GEN      XSetWMClientMachine.3
+  GEN      XSetWMColormapWindows.3
+  GEN      XSetWMIconName.3
+  GEN      XSetWMName.3
+  GEN      XSetWMProperties.3
+  GEN      XSetWMProtocols.3
+  GEN      XStoreBytes.3
+  GEN      XStoreColors.3
+  GEN      XStringListToTextProperty.3
+  GEN      XStringToKeysym.3
+  GEN      XSupportsLocale.3
+  GEN      XSynchronize.3
+  GEN      XTextExtents.3
+  GEN      XTextWidth.3
+  GEN      XTranslateCoordinates.3
+  GEN      XUnmapEvent.3
+  GEN      XUnmapWindow.3
+  GEN      XVaCreateNestedList.3
+  GEN      XVisibilityEvent.3
+  GEN      XWarpPointer.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+Making all in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+Making all in libX11
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/libX11'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/libX11'
+Making all in i18n
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+Making all in compose
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/compose'
+  GEN      am_ET.UTF-8.xml
+  GEN      armscii-8.xml
+  GEN      C.xml
+  GEN      cs_CZ.UTF-8.xml
+  GEN      el_GR.UTF-8.xml
+  GEN      en_US.UTF-8.xml
+  GEN      fi_FI.UTF-8.xml
+  GEN      georgian-academy.xml
+  GEN      georgian-ps.xml
+  GEN      ibm-cp1133.xml
+  GEN      iscii-dev.xml
+  GEN      isiri-3342.xml
+  GEN      iso8859-1.xml
+  GEN      iso8859-10.xml
+  GEN      iso8859-11.xml
+  GEN      iso8859-13.xml
+  GEN      iso8859-14.xml
+  GEN      iso8859-15.xml
+  GEN      iso8859-2.xml
+  GEN      iso8859-3.xml
+  GEN      iso8859-4.xml
+  GEN      iso8859-5.xml
+  GEN      iso8859-6.xml
+  GEN      iso8859-7.xml
+  GEN      iso8859-8.xml
+  GEN      iso8859-9.xml
+  GEN      iso8859-9e.xml
+  GEN      ja.xml
+  GEN      ja.JIS.xml
+  GEN      ja_JP.UTF-8.xml
+  GEN      ja.SJIS.xml
+  GEN      km_KH.UTF-8.xml
+  GEN      ko.xml
+  GEN      koi8-c.xml
+  GEN      koi8-r.xml
+  GEN      koi8-u.xml
+  GEN      ko_KR.UTF-8.xml
+  GEN      microsoft-cp1251.xml
+  GEN      microsoft-cp1255.xml
+  GEN      microsoft-cp1256.xml
+  GEN      mulelao-1.xml
+  GEN      nokhchi-1.xml
+  GEN      pt_BR.UTF-8.xml
+  GEN      pt_PT.UTF-8.xml
+  GEN      ru_RU.UTF-8.xml
+  GEN      sr_CS.UTF-8.xml
+  GEN      tatar-cyr.xml
+  GEN      th_TH.xml
+  GEN      th_TH.UTF-8.xml
+  GEN      tscii-0.xml
+  GEN      vi_VN.tcvn.xml
+  GEN      vi_VN.viscii.xml
+  GEN      zh_CN.xml
+  GEN      zh_CN.gb18030.xml
+  GEN      zh_CN.gbk.xml
+  GEN      zh_CN.UTF-8.xml
+  GEN      zh_HK.big5.xml
+  GEN      zh_HK.big5hkscs.xml
+  GEN      zh_HK.UTF-8.xml
+  GEN      zh_TW.xml
+  GEN      zh_TW.big5.xml
+  GEN      zh_TW.UTF-8.xml
+  GEN      libX11-keys.xml
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/compose'
+Making all in framework
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/framework'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/framework'
+Making all in localedb
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/localedb'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/localedb'
+Making all in trans
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/trans'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/trans'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+Making all in XIM
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XIM'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XIM'
+Making all in XKB
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XKB'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XKB'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5'
+###############################
+# Make libXext-1.3.3.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libFS-1.0.7.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/src'
+  CC       FSCloseFt.lo
+  CC       FSClServ.lo
+  CC       FSConnServ.lo
+  CC       FSErrDis.lo
+  CC       FSErrHndlr.lo
+  CC       FSFlush.lo
+  CC       FSFontInfo.lo
+  CC       FSFtNames.lo
+  CC       FSGetCats.lo
+  CC       FSlibInt.lo
+FSlibInt.c: In function '_FSPrintDefaultError':
+FSlibInt.c:843:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->request_code);
+                        ^~~~
+FSlibInt.c:864:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->minor_code);
+                        ^~~~
+FSlibInt.c:874:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->resourceid);
+                        ^~~~
+FSlibInt.c:878:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, event->serial);
+                        ^~~~
+FSlibInt.c:882:24: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     (void) fprintf(fp, mesg, svr->request);
+                        ^~~~
+  CC       FSListCats.lo
+  CC       FSListExt.lo
+  CC       FSMisc.lo
+  CC       FSNextEv.lo
+  CC       FSOpenFont.lo
+  CC       FSOpenServ.lo
+  CC       FSQGlyphs.lo
+  CC       FSQuExt.lo
+  CC       FSQXExt.lo
+  CC       FSQXInfo.lo
+  CC       FSServName.lo
+  CC       FSSetCats.lo
+  CC       FSSync.lo
+  CC       FSSynchro.lo
+  CC       fs_transport.lo
+  CCLD     libFS.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/src'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/test'
+  CC       FSGetErrorText.o
+  CCLD     FSGetErrorText
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/test'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+###############################
+# Make libICE-1.0.9.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/doc'
+Making all in specs
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/specs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/specs'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/src'
+  CC       accept.lo
+  CC       authutil.lo
+  CC       connect.lo
+connect.c: In function 'IceOpenConnection':
+connect.c:106:11: warning: declaration of 'iceConn' shadows a previous local [-Wshadow]
+   IceConn iceConn = _IceConnectionObjs[i];
+           ^~~~~~~
+connect.c:52:15: note: shadowed declaration is here
+     IceConn   iceConn;
+               ^~~~~~~
+  CC       error.lo
+  CC       getauth.lo
+  CC       iceauth.lo
+  CC       icetrans.lo
+  CC       listen.lo
+  CC       listenwk.lo
+  CC       locking.lo
+  CC       misc.lo
+  CC       ping.lo
+  CC       process.lo
+process.c: In function 'ProcessError':
+process.c:718:23: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      char *errorStr = "";
+                       ^~
+process.c: In function 'ProcessAuthReply':
+process.c:1471:13: warning: declaration of 'status' shadows a previous local [-Wshadow]
+      Status status = 1;
+             ^~~~~~
+process.c:1418:18: note: shadowed declaration is here
+  IcePaAuthStatus status =
+                  ^~~~~~
+process.c: In function 'ProcessConnectionReply':
+process.c:1799:32: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      errorReply->error_message =
+                                ^
+process.c: In function 'ProcessProtocolReply':
+process.c:2302:32: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      errorReply->error_message =
+                                ^
+  CC       protosetup.lo
+  CC       register.lo
+  CC       replywait.lo
+  CC       setauth.lo
+  CC       shutdown.lo
+  CC       watch.lo
+  CCLD     libICE.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+###############################
+# Make libSM-1.2.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+  CC       sm_auth.lo
+  CC       sm_client.lo
+  CC       sm_error.lo
+  CC       sm_genid.lo
+  CC       sm_manager.lo
+  CC       sm_misc.lo
+  CC       sm_process.lo
+  CCLD     libSM.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+###############################
+# Make libXScrnSaver-1.2.2.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXt-1.1.5.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXmu-1.1.2.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXpm-3.5.12.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXaw-1.0.13.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXfixes-5.0.3.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXcomposite-0.4.4.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXrender-0.9.10.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXcursor-1.1.15.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXdamage-1.1.4.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libfontenc-1.1.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+  CC       encparse.lo
+encparse.c: In function 'FontEncDirectory':
+encparse.c:844:17: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+             dir = FONT_ENCODINGS_DIRECTORY;
+                 ^
+encparse.c: In function 'FontEncReallyReallyLoad':
+encparse.c:903:30: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+         count = fscanf(file, format, encoding_name, file_name);
+                              ^~~~~~
+  CC       fontenc.lo
+fontenc.c:581:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ static char *iso8859_15_aliases[2] = { "fcd8859-15", NULL };
+                                        ^~~~~~~~~~~~
+fontenc.c:584:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso10646-1", NULL, 256 * 256, 0, iso10646, NULL, 0, 0},   /* Unicode */
+      ^~~~~~~~~~~~
+fontenc.c:585:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-1", NULL, 256, 0, iso8859_1, NULL, 0, 0}, /* Latin 1 (West European) */
+      ^~~~~~~~~~~
+fontenc.c:586:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-2", NULL, 256, 0, iso8859_2, NULL, 0, 0}, /* Latin 2 (East European) */
+      ^~~~~~~~~~~
+fontenc.c:587:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-3", NULL, 256, 0, iso8859_3, NULL, 0, 0}, /* Latin 3 (South European) */
+      ^~~~~~~~~~~
+fontenc.c:588:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-4", NULL, 256, 0, iso8859_4, NULL, 0, 0}, /* Latin 4 (North European) */
+      ^~~~~~~~~~~
+fontenc.c:589:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-5", NULL, 256, 0, iso8859_5, NULL, 0, 0}, /* Cyrillic */
+      ^~~~~~~~~~~
+fontenc.c:590:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-6", NULL, 256, 0, iso8859_6, NULL, 0, 0}, /* Arabic */
+      ^~~~~~~~~~~
+fontenc.c:591:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-7", NULL, 256, 0, iso8859_7, NULL, 0, 0}, /* Greek */
+      ^~~~~~~~~~~
+fontenc.c:592:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-8", NULL, 256, 0, iso8859_8, NULL, 0, 0}, /* Hebrew */
+      ^~~~~~~~~~~
+fontenc.c:593:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-9", NULL, 256, 0, iso8859_9, NULL, 0, 0}, /* Latin 5 (Turkish) */
+      ^~~~~~~~~~~
+fontenc.c:594:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-10", NULL, 256, 0, iso8859_10, NULL, 0, 0},       /* Latin 6 (Nordic) */
+      ^~~~~~~~~~~~
+fontenc.c:595:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"iso8859-15", iso8859_15_aliases, 256, 0, iso8859_15, NULL, 0, 0}, /* Latin 9 */
+      ^~~~~~~~~~~~
+fontenc.c:596:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"koi8-r", NULL, 256, 0, koi8_r, NULL, 0, 0},       /* Russian */
+      ^~~~~~~~
+fontenc.c:597:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"koi8-ru", NULL, 256, 0, koi8_ru, NULL, 0, 0},     /* Ukrainian */
+      ^~~~~~~~~
+fontenc.c:598:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"koi8-uni", NULL, 256, 0, koi8_uni, NULL, 0, 0},   /* Russian/Ukrainian/Bielorussian */
+      ^~~~~~~~~~
+fontenc.c:599:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"koi8-e", NULL, 256, 0, koi8_e, NULL, 0, 0},       /* ``European'' */
+      ^~~~~~~~
+fontenc.c:600:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"koi8-u", NULL, 256, 0, koi8_u, NULL, 0, 0},       /* Ukrainian too */
+      ^~~~~~~~
+fontenc.c:601:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"microsoft-symbol", NULL, 256, 0, microsoft_symbol, NULL, 0, 0},
+      ^~~~~~~~~~~~~~~~~~
+fontenc.c:602:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"apple-roman", NULL, 256, 0, apple_roman, NULL, 0, 0},
+      ^~~~~~~~~~~~~
+  CCLD     libfontenc.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+###############################
+# Make libXfont2-2.0.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+  CC       src/stubs/atom.lo
+  CC       src/stubs/libxfontstubs.lo
+  CC       src/util/fontaccel.lo
+  CC       src/util/fontnames.lo
+  CC       src/util/fontutil.lo
+  CC       src/util/fontxlfd.lo
+  CC       src/util/format.lo
+  CC       src/util/miscutil.lo
+  CC       src/util/patcache.lo
+  CC       src/util/private.lo
+  CC       src/util/utilbitmap.lo
+  CC       src/fontfile/bitsource.lo
+  CC       src/fontfile/bufio.lo
+  CC       src/fontfile/decompress.lo
+  CC       src/fontfile/defaults.lo
+  CC       src/fontfile/dirfile.lo
+  CC       src/fontfile/fileio.lo
+  CC       src/fontfile/filewr.lo
+  CC       src/fontfile/fontdir.lo
+  CC       src/fontfile/fontencc.lo
+  CC       src/fontfile/fontfile.lo
+  CC       src/fontfile/fontscale.lo
+  CC       src/fontfile/gunzip.lo
+  CC       src/fontfile/register.lo
+  CC       src/fontfile/renderers.lo
+  CC       src/fontfile/catalogue.lo
+  CC       src/FreeType/ftenc.lo
+  CC       src/FreeType/ftfuncs.lo
+  CC       src/FreeType/fttools.lo
+  CC       src/FreeType/xttcap.lo
+  CC       src/bitmap/bitmap.lo
+  CC       src/bitmap/bitmapfunc.lo
+  CC       src/bitmap/bitmaputil.lo
+  CC       src/bitmap/bitscale.lo
+  CC       src/bitmap/fontink.lo
+  CC       src/bitmap/bdfread.lo
+  CC       src/bitmap/bdfutils.lo
+  CC       src/bitmap/pcfread.lo
+  CC       src/bitmap/pcfwrite.lo
+  CC       src/builtins/dir.lo
+  CC       src/builtins/file.lo
+  CC       src/builtins/fonts.lo
+  CC       src/builtins/fpe.lo
+  CC       src/builtins/render.lo
+  CC       src/fc/fsconvert.lo
+  CC       src/fc/fserve.lo
+  CC       src/fc/fsio.lo
+  CC       src/fc/fstrans.lo
+  CCLD     libXfont2.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+###############################
+# Make libXft-2.3.2.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXi-1.7.9.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXinerama-1.1.3.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXrandr-1.5.1.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXres-1.2.0.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXtst-1.2.3.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXv-1.0.11.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXvMC-1.0.10.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXxf86dga-1.1.4.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libXxf86vm-1.1.4.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libdmx-1.1.3.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libpciaccess-0.14.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/include'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/man'
+  GEN      scanpci.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/man'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/src'
+  CC       common_bridge.lo
+  CC       common_iterator.lo
+  CC       common_init.lo
+common_init.c: In function ‘pci_system_cleanup’:
+common_init.c:106:3: warning: ‘pci_device_unmap_region’ is deprecated [-Wdeprecated-declarations]
+   (void) pci_device_unmap_region( & pci_sys->devices[i].base, j );
+   ^
+In file included from common_init.c:38:0:
+../include/pciaccess.h:88:18: note: declared here
+ int __deprecated pci_device_unmap_region(struct pci_device *dev,
+                  ^~~~~~~~~~~~~~~~~~~~~~~
+  CC       common_interface.lo
+  CC       common_io.lo
+  CC       common_capability.lo
+  CC       common_device_name.lo
+  CC       common_map.lo
+  CC       common_vgaarb.lo
+  CC       linux_sysfs.lo
+  CC       linux_devmem.lo
+  CCLD     libpciaccess.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/src'
+Making all in scanpci
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/scanpci'
+  CC       scanpci.o
+  CCLD     scanpci
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/scanpci'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+###############################
+# Make libxkbfile-1.0.9.tar.bz2 #
+###############################
+make: *** No targets specified and no makefile found.  Stop.
+###############################
+# Make libxshmfence-1.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/src'
+  CC       xshmfence_alloc.lo
+  CC       xshmfence_futex.lo
+  CCLD     libxshmfence.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/src'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'

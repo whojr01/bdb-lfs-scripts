@@ -1,0 +1,2435 @@
+[1/1483] Generating systemd.bg.catalog with a meson_exe.py custom command.
+[2/1483] Generating systemd.be.catalog with a meson_exe.py custom command.
+[3/1483] Generating systemd.be@latin.catalog with a meson_exe.py custom command.
+[4/1483] Generating systemd.de.catalog with a meson_exe.py custom command.
+[5/1483] Generating systemd.fr.catalog with a meson_exe.py custom command.
+[6/1483] Generating systemd.it.catalog with a meson_exe.py custom command.
+[7/1483] Generating systemd.pl.catalog with a meson_exe.py custom command.
+[8/1483] Generating systemd.pt_BR.catalog with a meson_exe.py custom command.
+[9/1483] Generating systemd.ru.catalog with a meson_exe.py custom command.
+[10/1483] Generating systemd.zh_CN.catalog with a meson_exe.py custom command.
+[11/1483] Generating systemd.zh_TW.catalog with a meson_exe.py custom command.
+[12/1483] Generating systemd.catalog with a meson_exe.py custom command.
+[13/1483] Generating af-list.txt with a meson_exe.py custom command.
+[14/1483] Generating arphrd-list.txt with a meson_exe.py custom command.
+[15/1483] Generating cap-list.txt with a meson_exe.py custom command.
+[16/1483] Generating errno-list.txt with a meson_exe.py custom command.
+[17/1483] Generating socket-protocol-list.txt with a meson_exe.py custom command.
+[18/1483] Generating af-from-name.gperf with a meson_exe.py custom command.
+[19/1483] Generating af-to-name.h with a meson_exe.py custom command.
+[20/1483] Generating af-from-name.h with a meson_exe.py custom command.
+[21/1483] Generating arphrd-from-name.gperf with a meson_exe.py custom command.
+[22/1483] Generating arphrd-to-name.h with a meson_exe.py custom command.
+[23/1483] Generating arphrd-from-name.h with a meson_exe.py custom command.
+[24/1483] Generating cap-from-name.gperf with a meson_exe.py custom command.
+[25/1483] Generating cap-to-name.h with a meson_exe.py custom command.
+[26/1483] Generating cap-from-name.h with a meson_exe.py custom command.
+[27/1483] Generating errno-from-name.gperf with a meson_exe.py custom command.
+[28/1483] Generating errno-to-name.h with a meson_exe.py custom command.
+[29/1483] Generating errno-from-name.h with a meson_exe.py custom command.
+[30/1483] Generating socket-protocol-from-name.gperf with a meson_exe.py custom command.
+[31/1483] Generating socket-protocol-to-name.h with a meson_exe.py custom command.
+[32/1483] Generating socket-protocol-from-name.h with a meson_exe.py custom command.
+[33/1483] Compiling C object 'src/basic/basic@sta/MurmurHash2.c.o'.
+[34/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-network_sd-network.c.o'.
+[35/1483] Compiling C object 'src/basic/basic@sta/dirent-util.c.o'.
+[36/1483] Compiling C object 'src/basic/basic@sta/arphrd-list.c.o'.
+[37/1483] Compiling C object 'src/basic/basic@sta/cpu-set-util.c.o'.
+[38/1483] Compiling C object 'src/basic/basic@sta/af-list.c.o'.
+[39/1483] Compiling C object 'src/basic/basic@sta/blockdev-util.c.o'.
+[40/1483] Compiling C object 'src/basic/basic@sta/alloc-util.c.o'.
+[41/1483] Compiling C object 'src/basic/basic@sta/architecture.c.o'.
+[42/1483] Compiling C object 'src/basic/basic@sta/async.c.o'.
+[43/1483] Compiling C object 'src/basic/basic@sta/audit-util.c.o'.
+[44/1483] Compiling C object 'src/basic/basic@sta/login-util.c.o'.
+[45/1483] Compiling C object 'src/basic/basic@sta/bitmap.c.o'.
+[46/1483] Compiling C object 'src/basic/basic@sta/barrier.c.o'.
+[47/1483] Compiling C object 'src/basic/basic@sta/bus-label.c.o'.
+[48/1483] Compiling C object 'src/basic/basic@sta/bpf-program.c.o'.
+[49/1483] Compiling C object 'src/basic/basic@sta/calendarspec.c.o'.
+[50/1483] Compiling C object 'src/basic/basic@sta/btrfs-util.c.o'.
+[51/1483] Compiling C object 'src/basic/basic@sta/cap-list.c.o'.
+[52/1483] Compiling C object 'src/basic/basic@sta/capability-util.c.o'.
+[53/1483] Compiling C object 'src/basic/basic@sta/chattr-util.c.o'.
+[54/1483] Compiling C object 'src/basic/basic@sta/cgroup-util.c.o'.
+[55/1483] Compiling C object 'src/basic/basic@sta/clock-util.c.o'.
+[56/1483] Compiling C object 'src/basic/basic@sta/crypt-util.c.o'.
+[57/1483] Compiling C object 'src/basic/basic@sta/conf-files.c.o'.
+[58/1483] Compiling C object 'src/basic/basic@sta/device-nodes.c.o'.
+[59/1483] Compiling C object 'src/basic/basic@sta/copy.c.o'.
+[60/1483] Compiling C object 'src/basic/basic@sta/exec-util.c.o'.
+[61/1483] Compiling C object 'src/basic/basic@sta/errno-list.c.o'.
+[62/1483] Compiling C object 'src/basic/basic@sta/ether-addr-util.c.o'.
+[63/1483] Compiling C object 'src/basic/basic@sta/escape.c.o'.
+[64/1483] Compiling C object 'src/basic/basic@sta/extract-word.c.o'.
+[65/1483] Compiling C object 'src/basic/basic@sta/env-util.c.o'.
+[66/1483] Compiling C object 'src/basic/basic@sta/fd-util.c.o'.
+[67/1483] Compiling C object 'src/basic/basic@sta/exit-status.c.o'.
+[68/1483] Compiling C object 'src/basic/basic@sta/fileio-label.c.o'.
+[69/1483] Compiling C object 'src/basic/basic@sta/memfd-util.c.o'.
+[70/1483] Compiling C object 'src/basic/basic@sta/fileio.c.o'.
+[71/1483] Compiling C object 'src/basic/basic@sta/fs-util.c.o'.
+[72/1483] Compiling C object 'src/basic/basic@sta/gunicode.c.o'.
+[73/1483] Compiling C object 'src/basic/basic@sta/glob-util.c.o'.
+[74/1483] Compiling C object 'src/basic/basic@sta/hash-funcs.c.o'.
+[75/1483] Compiling C object 'src/basic/basic@sta/hexdecoct.c.o'.
+[76/1483] Compiling C object 'src/basic/basic@sta/hashmap.c.o'.
+[77/1483] Compiling C object 'src/basic/basic@sta/hostname-util.c.o'.
+[78/1483] Compiling C object 'src/basic/basic@sta/in-addr-util.c.o'.
+[79/1483] Compiling C object 'src/basic/basic@sta/io-util.c.o'.
+[80/1483] Compiling C object 'src/basic/basic@sta/journal-importer.c.o'.
+[81/1483] Compiling C object 'src/basic/basic@sta/khash.c.o'.
+[82/1483] Compiling C object 'src/basic/basic@sta/label.c.o'.
+[83/1483] Compiling C object 'src/basic/basic@sta/locale-util.c.o'.
+[84/1483] Compiling C object 'src/basic/basic@sta/lockfile-util.c.o'.
+[85/1483] Compiling C object 'src/basic/basic@sta/mempool.c.o'.
+[86/1483] Compiling C object 'src/basic/basic@sta/mkdir-label.c.o'.
+[87/1483] Compiling C object 'src/basic/basic@sta/log.c.o'.
+[88/1483] Compiling C object 'src/basic/basic@sta/parse-util.c.o'.
+[89/1483] Compiling C object 'src/basic/basic@sta/path-util.c.o'.
+[90/1483] Compiling C object 'src/basic/basic@sta/ordered-set.c.o'.
+[91/1483] Compiling C object 'src/basic/basic@sta/mount-util.c.o'.
+[92/1483] Compiling C object 'src/basic/basic@sta/procfs-util.c.o'.
+[93/1483] Compiling C object 'src/basic/basic@sta/mkdir.c.o'.
+[94/1483] Compiling C object 'src/basic/basic@sta/random-util.c.o'.
+[95/1483] Compiling C object 'src/basic/basic@sta/proc-cmdline.c.o'.
+[96/1483] Compiling C object 'src/basic/basic@sta/prioq.c.o'.
+[97/1483] Compiling C object 'src/basic/basic@sta/replace-var.c.o'.
+[98/1483] Compiling C object 'src/basic/basic@sta/process-util.c.o'.
+[99/1483] Compiling C object 'src/shared/systemd-shared-237@sta/boot-timestamps.c.o'.
+[100/1483] Compiling C object 'src/basic/basic@sta/ratelimit.c.o'.
+[101/1483] Compiling C object 'src/shared/systemd-shared-237@sta/ask-password-api.c.o'.
+[102/1483] Compiling C object 'src/shared/systemd-shared-237@sta/bootspec.c.o'.
+[103/1483] Compiling C object 'src/basic/basic@sta/strxcpyx.c.o'.
+[104/1483] Compiling C object 'src/basic/basic@sta/strv.c.o'.
+[105/1483] Compiling C object 'src/basic/basic@sta/rlimit-util.c.o'.
+[106/1483] Compiling C object 'src/basic/basic@sta/securebits-util.c.o'.
+[107/1483] Compiling C object 'src/basic/basic@sta/rm-rf.c.o'.
+[108/1483] Compiling C object 'src/basic/basic@sta/selinux-util.c.o'.
+[109/1483] Compiling C object 'src/basic/basic@sta/set.c.o'.
+[110/1483] Compiling C object 'src/basic/basic@sta/sigbus.c.o'.
+[111/1483] Compiling C object 'src/basic/basic@sta/signal-util.c.o'.
+[112/1483] Compiling C object 'src/basic/basic@sta/siphash24.c.o'.
+[113/1483] Compiling C object 'src/basic/basic@sta/smack-util.c.o'.
+[114/1483] Compiling C object 'src/basic/basic@sta/socket-protocol-list.c.o'.
+[115/1483] Compiling C object 'src/basic/basic@sta/socket-label.c.o'.
+[116/1483] Compiling C object 'src/basic/basic@sta/stat-util.c.o'.
+[117/1483] Compiling C object 'src/basic/basic@sta/strbuf.c.o'.
+[118/1483] Compiling C object 'src/basic/basic@sta/socket-util.c.o'.
+[119/1483] Compiling C object 'src/basic/basic@sta/string-table.c.o'.
+[120/1483] Compiling C object 'src/basic/basic@sta/syslog-util.c.o'.
+[121/1483] Compiling C object 'src/basic/basic@sta/string-util.c.o'.
+[122/1483] Compiling C object 'src/basic/basic@sta/unit-def.c.o'.
+[123/1483] Compiling C object 'src/basic/basic@sta/time-util.c.o'.
+[124/1483] Compiling C object 'src/basic/basic@sta/terminal-util.c.o'.
+[125/1483] Compiling C object 'src/basic/basic@sta/unit-name.c.o'.
+[126/1483] Compiling C object 'src/basic/basic@sta/verbs.c.o'.
+[127/1483] Compiling C object 'src/basic/basic@sta/virt.c.o'.
+[128/1483] Compiling C object 'src/basic/basic@sta/user-util.c.o'.
+[129/1483] Compiling C object 'src/basic/basic@sta/utf8.c.o'.
+[130/1483] Compiling C object 'src/basic/basic@sta/web-util.c.o'.
+[131/1483] Compiling C object 'src/basic/basic@sta/util.c.o'.
+[132/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-error.c.o'.
+[133/1483] Compiling C object 'src/basic/basic@sta/xml.c.o'.
+[134/1483] Compiling C object 'src/basic/basic-gcrypt@sta/gcrypt-util.c.o'.
+[135/1483] Linking static target src/basic/libbasic-gcrypt.a.
+[136/1483] Compiling C object 'src/basic/basic@sta/xattr-util.c.o'.
+[137/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-container.c.o'.
+[138/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-convenience.c.o'.
+[139/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-common-errors.c.o'.
+[140/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-control.c.o'.
+[141/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp-client.c.o'.
+[142/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp-server.c.o'.
+[143/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-dump.c.o'.
+[144/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-creds.c.o'.
+[145/1483] Linking static target src/basic/libbasic.a.
+[146/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-gvariant.c.o'.
+[147/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-internal.c.o'.
+[148/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-introspect.c.o'.
+[149/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-kernel.c.o'.
+[150/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-match.c.o'.
+[151/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-objects.c.o'.
+[152/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-signature.c.o'.
+[153/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-message.c.o'.
+[154/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-slot.c.o'.
+[155/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-track.c.o'.
+[156/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-socket.c.o'.
+[157/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-type.c.o'.
+[158/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-daemon_sd-daemon.c.o'.
+[159/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-device_device-enumerator.c.o'.
+[160/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_sd-bus.c.o'.
+[161/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-device_device-private.c.o'.
+[162/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-device_sd-device.c.o'.
+[163/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-event_sd-event.c.o'.
+[164/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-hwdb_sd-hwdb.c.o'.
+[165/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-id128_id128-util.c.o'.
+[166/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-id128_sd-id128.c.o'.
+[167/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_generic-netlink.c.o'.
+[168/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_local-addresses.c.o'.
+[169/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-socket.c.o'.
+[170/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-message.c.o'.
+[171/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-util.c.o'.
+[172/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-types.c.o'.
+[173/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_sd-netlink.c.o'.
+[174/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_rtnl-message.c.o'.
+[175/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-network_network-util.c.o'.
+[176/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-path_sd-path.c.o'.
+[177/1483] Compiling C object 'src/core/core@sta/swap.c.o'.
+[178/1483] Compiling C object 'src/core/core@sta/socket.c.o'.
+[179/1483] Compiling C object 'src/core/core@sta/slice.c.o'.
+[180/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-utf8_sd-utf8.c.o'.
+[181/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-resolve_sd-resolve.c.o'.
+[182/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-option.c.o'.
+[183/1483] Compiling C object 'src/libsystemd/systemd@sta/sd-login_sd-login.c.o'.
+[184/1483] Linking static target src/libsystemd/libsystemd.a.
+[185/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-network.c.o'.
+[186/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-packet.c.o'.
+[187/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-ipv4ll.c.o'.
+[188/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp-lease.c.o'.
+[189/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-ipv4acd.c.o'.
+[190/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/arp-util.c.o'.
+[191/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/icmp6-util.c.o'.
+[192/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/network-internal.c.o'.
+[193/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-ndisc.c.o'.
+[194/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp6-client.c.o'.
+[195/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/ndisc-router.c.o'.
+[196/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-radv.c.o'.
+[197/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-lldp.c.o'.
+[198/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp6-lease.c.o'.
+[199/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp6-network.c.o'.
+[200/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp6-option.c.o'.
+[201/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-identifier.c.o'.
+[202/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/lldp-network.c.o'.
+[203/1483] Compiling C object 'src/libsystemd-network/systemd-network@sta/lldp-neighbor.c.o'.
+[204/1483] Linking static target src/libsystemd-network/libsystemd-network.a.
+[205/1483] Generating journald-gperf.c with a custom command.
+[206/1483] Generating logind_gperf.c with a custom command.
+[207/1483] Compiling C object 'src/login/logind-core@sta/logind-core.c.o'.
+[208/1483] Compiling C object 'src/login/logind-core@sta/logind-device.c.o'.
+[209/1483] Generating audit_type-list.txt with a meson_exe.py custom command.
+[210/1483] Compiling C object 'src/login/logind-core@sta/logind-button.c.o'.
+[211/1483] Compiling C object 'src/login/logind-core@sta/logind-action.c.o'.
+[212/1483] Compiling C object 'src/login/logind-core@sta/logind-seat.c.o'.
+[213/1483] Generating audit_type-to-name.h with a meson_exe.py custom command.
+[214/1483] Compiling C object 'src/journal/journal-client@sta/catalog.c.o'.
+[215/1483] Compiling C object 'src/login/logind-core@sta/logind-session.c.o'.
+[216/1483] Compiling C object 'src/journal/journal-client@sta/audit-type.c.o'.
+[217/1483] Compiling C object 'src/journal/journal-client@sta/compress.c.o'.
+[218/1483] Compiling C object 'src/journal/journal-client@sta/journal-send.c.o'.
+[219/1483] Compiling C object 'src/journal/journal-client@sta/journal-vacuum.c.o'.
+[220/1483] Compiling C object 'src/journal/journal-client@sta/journal-file.c.o'.
+[221/1483] Compiling C object 'src/journal/journal-client@sta/lookup3.c.o'.
+[222/1483] Compiling C object 'src/journal/journal-client@sta/journal-verify.c.o'.
+[223/1483] Compiling C object 'src/journal/journal-client@sta/mmap-cache.c.o'.
+[224/1483] Compiling C object 'src/journal/journal-client@sta/journal-authenticate.c.o'.
+[225/1483] Compiling C object 'src/journal/journal-client@sta/fsprg.c.o'.
+[226/1483] Compiling C object 'src/journal/journal-client@sta/sd-journal.c.o'.
+[227/1483] Linking static target src/journal/libjournal-client.a.
+[228/1483] Compiling C object 'src/login/logind-core@sta/logind-session-device.c.o'.
+[229/1483] Compiling C object 'src/login/logind-core@sta/logind-inhibit.c.o'.
+[230/1483] Compiling C object 'src/login/logind-core@sta/logind-user.c.o'.
+[231/1483] Compiling C object 'src/login/logind-core@sta/logind-session-dbus.c.o'.
+[232/1483] Compiling C object 'src/login/logind-core@sta/logind-seat-dbus.c.o'.
+[233/1483] Compiling C object 'src/login/logind-core@sta/logind-dbus.c.o'.
+[234/1483] Compiling C object 'src/login/logind-core@sta/logind-user-dbus.c.o'.
+[235/1483] Compiling C object 'src/login/logind-core@sta/logind-utmp.c.o'.
+[236/1483] Compiling C object 'src/login/logind-core@sta/logind-acl.c.o'.
+[237/1483] Linking static target src/login/liblogind-core.a.
+[238/1483] Generating org.freedesktop.login1.policy_merge with a custom command.
+[239/1483] Generating 73-seat-late.rules with a meson_exe.py custom command.
+[240/1483] Compiling C object 'journal-core@sta/meson-generated_.._src_journal_journald-gperf.c.o'.
+[241/1483] Compiling C object 'journal-core@sta/src_journal_journald-rate-limit.c.o'.
+[242/1483] Generating systemd-user with a meson_exe.py custom command.
+[243/1483] Compiling C object 'journal-core@sta/src_journal_journald-kmsg.c.o'.
+[244/1483] Compiling C object 'journal-core@sta/src_journal_journald-server.c.o'.
+[245/1483] Compiling C object 'journal-core@sta/src_journal_journald-console.c.o'.
+[246/1483] Compiling C object 'journal-core@sta/src_journal_journald-context.c.o'.
+[247/1483] Compiling C object 'journal-core@sta/src_journal_journald-audit.c.o'.
+[248/1483] Compiling C object 'journal-core@sta/src_journal_journald-native.c.o'.
+[249/1483] Compiling C object 'journal-core@sta/src_journal_journald-stream.c.o'.
+[250/1483] Compiling C object 'journal-core@sta/src_journal_journald-syslog.c.o'.
+[251/1483] Compiling C object 'src/shared/systemd-shared-237@sta/acpi-fpdt.c.o'.
+[252/1483] Compiling C object 'journal-core@sta/src_journal_journald-wall.c.o'.
+[253/1483] Linking target libsystemd.so.0.21.0.
+[254/1483] Linking static target libjournal-core.a.
+[255/1483] Compiling C object 'src/shared/systemd-shared-237@sta/apparmor-util.c.o'.
+[256/1483] Compiling C object 'nss_systemd@sha/src_nss-systemd_nss-systemd.c.o'.
+[257/1483] Linking target libnss_systemd.so.2.
+[258/1483] Compiling C object 'test-dlopen@exe/src_test_test-dlopen.c.o'.
+[259/1483] Generating symbol file 'systemd@sha/libsystemd.so.0.21.0.symbols'.
+[260/1483] Compiling C object 'src/shared/systemd-shared-237@sta/base-filesystem.c.o'.
+[261/1483] Compiling C object 'src/shared/systemd-shared-237@sta/cgroup-show.c.o'.
+[262/1483] Compiling C object 'src/shared/systemd-shared-237@sta/bus-util.c.o'.
+[263/1483] Compiling C object 'src/shared/systemd-shared-237@sta/bus-unit-util.c.o'.
+[264/1483] Compiling C object 'src/shared/systemd-shared-237@sta/condition.c.o'.
+[265/1483] Compiling C object 'src/shared/systemd-shared-237@sta/dissect-image.c.o'.
+[266/1483] Compiling C object 'src/shared/systemd-shared-237@sta/clean-ipc.c.o'.
+[267/1483] Compiling C object 'src/shared/systemd-shared-237@sta/conf-parser.c.o'.
+[268/1483] Compiling C object 'src/shared/systemd-shared-237@sta/dropin.c.o'.
+[269/1483] Compiling C object 'src/shared/systemd-shared-237@sta/dev-setup.c.o'.
+[270/1483] Compiling C object 'src/shared/systemd-shared-237@sta/efivars.c.o'.
+[271/1483] Compiling C object 'src/shared/systemd-shared-237@sta/fdset.c.o'.
+[272/1483] Compiling C object 'src/shared/systemd-shared-237@sta/import-util.c.o'.
+[273/1483] Compiling C object 'src/shared/systemd-shared-237@sta/dns-domain.c.o'.
+[274/1483] Compiling C object 'src/shared/systemd-shared-237@sta/fstab-util.c.o'.
+[275/1483] Compiling C object 'src/shared/systemd-shared-237@sta/generator.c.o'.
+[276/1483] Compiling C object 'src/shared/systemd-shared-237@sta/install-printf.c.o'.
+[277/1483] Compiling C object 'src/shared/systemd-shared-237@sta/ima-util.c.o'.
+[278/1483] Compiling C object 'src/shared/systemd-shared-237@sta/install.c.o'.
+[279/1483] Compiling C object 'src/shared/systemd-shared-237@sta/machine-image.c.o'.
+[280/1483] Compiling C object 'src/shared/systemd-shared-237@sta/journal-util.c.o'.
+[281/1483] Compiling C object 'src/shared/systemd-shared-237@sta/machine-pool.c.o'.
+[282/1483] Compiling C object 'src/shared/systemd-shared-237@sta/logs-show.c.o'.
+[283/1483] Compiling C object 'src/shared/systemd-shared-237@sta/loop-util.c.o'.
+[284/1483] Compiling C object 'src/shared/systemd-shared-237@sta/output-mode.c.o'.
+[285/1483] Compiling C object 'src/shared/systemd-shared-237@sta/ptyfwd.c.o'.
+[286/1483] Compiling C object 'src/shared/systemd-shared-237@sta/nsflags.c.o'.
+[287/1483] Compiling C object 'src/shared/systemd-shared-237@sta/pager.c.o'.
+[288/1483] Compiling C object 'src/shared/systemd-shared-237@sta/resolve-util.c.o'.
+[289/1483] Compiling C object 'src/shared/systemd-shared-237@sta/switch-root.c.o'.
+[290/1483] Compiling C object 'src/shared/systemd-shared-237@sta/path-lookup.c.o'.
+[291/1483] Compiling C object 'src/shared/systemd-shared-237@sta/spawn-ask-password-agent.c.o'.
+[292/1483] Compiling C object 'src/shared/systemd-shared-237@sta/sleep-config.c.o'.
+[293/1483] Compiling C object 'src/shared/systemd-shared-237@sta/spawn-polkit-agent.c.o'.
+[294/1483] Compiling C object 'src/shared/systemd-shared-237@sta/tests.c.o'.
+[295/1483] Compiling C object 'src/shared/systemd-shared-237@sta/tomoyo-util.c.o'.
+[296/1483] Compiling C object 'src/shared/systemd-shared-237@sta/specifier.c.o'.
+[297/1483] Compiling C object 'src/shared/systemd-shared-237@sta/sysctl-util.c.o'.
+[298/1483] Compiling C object 'src/shared/systemd-shared-237@sta/watchdog.c.o'.
+[299/1483] Compiling C object 'src/shared/systemd-shared-237@sta/uid-range.c.o'.
+[300/1483] Compiling C object 'src/shared/systemd-shared-237@sta/vlan-util.c.o'.
+[301/1483] Compiling C object 'src/shared/systemd-shared-237@sta/udev-util.c.o'.
+[302/1483] Compiling C object 'src/shared/systemd-shared-237@sta/volatile-util.c.o'.
+[303/1483] Compiling C object 'src/shared/systemd-shared-237@sta/utmp-wtmp.c.o'.
+[304/1483] Compiling C object 'src/shared/systemd-shared-237@sta/acl-util.c.o'.
+[305/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-util.c.o'.
+[306/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-list.c.o'.
+[307/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-device.c.o'.
+[308/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-hwdb.c.o'.
+[309/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-enumerate.c.o'.
+[310/1483] Linking static target src/shared/libsystemd-shared-237.a.
+[311/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev.c.o'.
+[312/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-device-private.c.o'.
+[313/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-monitor.c.o'.
+[314/1483] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-queue.c.o'.
+[315/1483] Linking target src/shared/libsystemd-shared-237.so.
+[316/1483] Generating load-fragment-gperf.gperf with a meson_exe.py custom command.
+[317/1483] Generating symbol file 'src/shared/systemd-shared-237@sha/src/shared/libsystemd-shared-237.so.symbols'.
+[318/1483] Generating load-fragment-gperf.c with a custom command.
+[319/1483] Compiling C object 'src/core/core@sta/meson-generated_.._load-fragment-gperf.c.o'.
+[320/1483] Generating load-fragment-gperf-nulstr.c with a meson_exe.py custom command.
+[321/1483] Compiling C object 'src/core/core@sta/dbus-mount.c.o'.
+[322/1483] Compiling C object 'src/core/core@sta/dbus-manager.c.o'.
+[323/1483] Compiling C object 'src/core/core@sta/chown-recursive.c.o'.
+[324/1483] Compiling C object 'src/core/core@sta/dbus-job.c.o'.
+[325/1483] Compiling C object 'src/core/core@sta/meson-generated_.._load-fragment-gperf-nulstr.c.o'.
+[326/1483] Compiling C object 'src/core/core@sta/dbus-automount.c.o'.
+[327/1483] Compiling C object 'src/core/core@sta/audit-fd.c.o'.
+[328/1483] Compiling C object 'src/core/core@sta/bpf-firewall.c.o'.
+[329/1483] Compiling C object 'src/core/core@sta/automount.c.o'.
+[330/1483] Compiling C object 'src/core/core@sta/dbus-cgroup.c.o'.
+[331/1483] Compiling C object 'src/core/core@sta/cgroup.c.o'.
+[332/1483] Compiling C object 'src/core/core@sta/dbus-device.c.o'.
+[333/1483] Compiling C object 'src/core/core@sta/dbus-kill.c.o'.
+[334/1483] Compiling C object 'src/core/core@sta/dbus-target.c.o'.
+[335/1483] Compiling C object 'src/core/core@sta/dbus-execute.c.o'.
+[336/1483] Compiling C object 'src/core/core@sta/dbus-timer.c.o'.
+[337/1483] Compiling C object 'src/core/core@sta/dbus-socket.c.o'.
+[338/1483] Compiling C object 'src/core/core@sta/dbus-path.c.o'.
+[339/1483] Compiling C object 'src/core/core@sta/dbus-slice.c.o'.
+[340/1483] Compiling C object 'src/core/core@sta/dbus-service.c.o'.
+[341/1483] Compiling C object 'src/core/core@sta/dbus-swap.c.o'.
+[342/1483] Compiling C object 'src/core/core@sta/dbus-scope.c.o'.
+[343/1483] Compiling C object 'src/core/core@sta/device.c.o'.
+[344/1483] Compiling C object 'src/core/core@sta/dbus.c.o'.
+[345/1483] Compiling C object 'src/core/core@sta/dbus-util.c.o'.
+[346/1483] Compiling C object 'src/core/core@sta/hostname-setup.c.o'.
+[347/1483] Compiling C object 'src/core/core@sta/dbus-unit.c.o'.
+[348/1483] Compiling C object 'src/core/core@sta/ima-setup.c.o'.
+[349/1483] Compiling C object 'src/core/core@sta/emergency-action.c.o'.
+[350/1483] Compiling C object 'src/core/core@sta/dynamic-user.c.o'.
+[351/1483] Compiling C object 'src/core/core@sta/load-dropin.c.o'.
+[352/1483] Compiling C object 'src/core/core@sta/execute.c.o'.
+[353/1483] Compiling C object 'src/core/core@sta/killall.c.o'.
+[354/1483] Compiling C object 'src/core/core@sta/job.c.o'.
+[355/1483] Compiling C object 'src/core/core@sta/load-fragment.c.o'.
+[356/1483] Compiling C object 'src/core/core@sta/kill.c.o'.
+[357/1483] Compiling C object 'src/core/core@sta/kmod-setup.c.o'.
+[358/1483] Compiling C object 'src/core/core@sta/ip-address-access.c.o'.
+[359/1483] Compiling C object 'src/core/core@sta/machine-id-setup.c.o'.
+[360/1483] Compiling C object 'src/core/core@sta/locale-setup.c.o'.
+[361/1483] Compiling C object 'src/core/core@sta/loopback-setup.c.o'.
+[362/1483] Compiling C object 'src/core/core@sta/manager.c.o'.
+[363/1483] Compiling C object 'src/core/core@sta/namespace.c.o'.
+[364/1483] Compiling C object 'src/core/core@sta/mount-setup.c.o'.
+[365/1483] Compiling C object 'src/core/core@sta/path.c.o'.
+[366/1483] Compiling C object 'src/core/core@sta/selinux-setup.c.o'.
+[367/1483] Compiling C object 'src/core/core@sta/mount.c.o'.
+[368/1483] Compiling C object 'src/core/core@sta/scope.c.o'.
+[369/1483] Compiling C object 'src/core/core@sta/selinux-access.c.o'.
+[370/1483] Compiling C object 'src/core/core@sta/service.c.o'.
+[371/1483] Compiling C object 'test-boot-timestamps@exe/src_test_test-boot-timestamps.c.o'.
+[372/1483] Compiling C object 'test-unit-name@exe/src_test_test-helper.c.o'.
+[373/1483] Compiling C object 'test-unit-file@exe/src_test_test-unit-file.c.o'.
+[374/1483] Compiling C object 'test-unit-file@exe/src_test_test-helper.c.o'.
+[375/1483] Compiling C object 'test-utf8@exe/src_test_test-utf8.c.o'.
+[376/1483] Compiling C object 'src/core/core@sta/smack-setup.c.o'.
+[377/1483] Compiling C object 'src/core/core@sta/show-status.c.o'.
+[378/1483] Compiling C object 'src/core/core@sta/unit-printf.c.o'.
+[379/1483] Compiling C object 'src/core/core@sta/timer.c.o'.
+[380/1483] Compiling C object 'src/core/core@sta/transaction.c.o'.
+[381/1483] Compiling C object 'src/core/core@sta/unit.c.o'.
+[382/1483] Compiling C object 'src/core/core@sta/target.c.o'.
+[383/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-list.c.o'.
+[384/1483] Linking static target src/udev/libudev.a.
+[385/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-util.c.o'.
+[386/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev.c.o'.
+[387/1483] Linking static target src/core/libcore.a.
+[388/1483] Generating org.freedesktop.systemd1.policy_merge with a custom command.
+[389/1483] Linking target test-unit-file.
+[390/1483] Generating link-config-gperf.c with a custom command.
+[391/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-device.c.o'.
+[392/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-device-private.c.o'.
+[393/1483] Generating keyboard-keys-list.txt with a meson_exe.py custom command.
+[394/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-enumerate.c.o'.
+[395/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-monitor.c.o'.
+[396/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-queue.c.o'.
+[397/1483] Compiling C object 'src/udev/udev-basic@sta/.._libudev_libudev-hwdb.c.o'.
+[398/1483] Generating keyboard-keys-from-name.gperf with a meson_exe.py custom command.
+[399/1483] Linking static target src/udev/libudev-basic.a.
+[400/1483] Linking target src/udev/libudev.so.1.6.9.
+[401/1483] Generating symbol file 'src/udev/udev@sha/src/udev/libudev.so.1.6.9.symbols'.
+[402/1483] Generating keyboard-keys-from-name.h with a meson_exe.py custom command.
+[403/1483] Compiling C object 'src/udev/collect@exe/collect_collect.c.o'.
+[404/1483] Compiling C object 'src/udev/udev-core@sta/meson-generated_.._link-config-gperf.c.o'.
+[405/1483] Compiling C object 'src/udev/udev-core@sta/udev-event.c.o'.
+[406/1483] Compiling C object 'src/udev/udev-core@sta/udev-watch.c.o'.
+[407/1483] Compiling C object 'src/udev/udev-core@sta/udev-node.c.o'.
+[408/1483] Compiling C object 'src/udev/udev-core@sta/udev-ctrl.c.o'.
+[409/1483] Compiling C object 'src/udev/udev-core@sta/udev-rules.c.o'.
+[410/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin.c.o'.
+[411/1483] Compiling C object 'src/udev/udev-core@sta/net_ethtool-util.c.o'.
+[412/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-kmod.c.o'.
+[413/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-btrfs.c.o'.
+[414/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-blkid.c.o'.
+[415/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-hwdb.c.o'.
+[416/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-input_id.c.o'.
+[417/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-net_id.c.o'.
+[418/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-keyboard.c.o'.
+[419/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-net_setup_link.c.o'.
+[420/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-path_id.c.o'.
+[421/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-usb_id.c.o'.
+[422/1483] Linking target src/udev/collect.
+[423/1483] Compiling C object 'src/udev/udev-core@sta/net_link-config.c.o'.
+[424/1483] Compiling C object 'src/udev/scsi_id@exe/scsi_id_scsi_id.c.o'.
+[425/1483] Compiling C object 'src/udev/udev-core@sta/.._libsystemd_sd-login_sd-login.c.o'.
+[426/1483] Compiling C object 'src/udev/udev-core@sta/udev-builtin-uaccess.c.o'.
+[427/1483] Compiling C object 'src/udev/udev-core@sta/.._login_logind-acl.c.o'.
+[428/1483] Compiling C object 'src/udev/ata_id@exe/ata_id_ata_id.c.o'.
+[429/1483] Linking static target src/udev/libudev-core.a.
+[430/1483] Linking target src/udev/ata_id.
+[431/1483] Generating networkd-network-gperf.c with a custom command.
+[432/1483] Generating netdev-gperf.c with a custom command.
+[433/1483] Compiling C object 'src/udev/cdrom_id@exe/cdrom_id_cdrom_id.c.o'.
+[434/1483] Linking target src/udev/cdrom_id.
+[435/1483] Compiling C object 'src/udev/scsi_id@exe/scsi_id_scsi_serial.c.o'.
+[436/1483] Compiling C object 'src/udev/v4l_id@exe/v4l_id_v4l_id.c.o'.
+[437/1483] Linking target src/udev/scsi_id.
+[438/1483] Linking target src/udev/v4l_id.
+[439/1483] Compiling C object 'src/udev/mtd_probe@exe/mtd_probe_mtd_probe.c.o'.
+[440/1483] Generating networkd-gperf.c with a custom command.
+[441/1483] Compiling C object 'src/udev/mtd_probe@exe/mtd_probe_probe_smartmedia.c.o'.
+[442/1483] Linking target src/udev/mtd_probe.
+[443/1483] Compiling C object 'src/network/networkd-core@sta/meson-generated_.._networkd-gperf.c.o'.
+[444/1483] Compiling C object 'src/network/networkd-core@sta/meson-generated_.._networkd-network-gperf.c.o'.
+[445/1483] Compiling C object 'src/machine/machine-core@sta/machined-dbus.c.o'.
+[446/1483] Compiling C object 'src/network/networkd-core@sta/meson-generated_.._netdev-gperf.c.o'.
+[447/1483] Compiling C object 'src/network/networkd-core@sta/netdev_bond.c.o'.
+[448/1483] Compiling C object 'src/network/networkd-core@sta/netdev_bridge.c.o'.
+[449/1483] Compiling C object 'src/network/networkd-core@sta/netdev_dummy.c.o'.
+[450/1483] Compiling C object 'src/network/networkd-core@sta/netdev_ipvlan.c.o'.
+[451/1483] Compiling C object 'src/network/networkd-core@sta/netdev_macvlan.c.o'.
+[452/1483] Compiling C object 'src/network/networkd-core@sta/netdev_netdev.c.o'.
+[453/1483] Compiling C object 'src/network/networkd-core@sta/netdev_tunnel.c.o'.
+[454/1483] Compiling C object 'src/network/networkd-core@sta/netdev_vcan.c.o'.
+[455/1483] Compiling C object 'src/network/networkd-core@sta/netdev_tuntap.c.o'.
+[456/1483] Compiling C object 'src/network/networkd-core@sta/netdev_veth.c.o'.
+[457/1483] Compiling C object 'src/network/networkd-core@sta/netdev_vlan.c.o'.
+[458/1483] Compiling C object 'src/network/networkd-core@sta/netdev_vrf.c.o'.
+[459/1483] Compiling C object 'src/network/networkd-core@sta/netdev_vxlan.c.o'.
+[460/1483] Compiling C object 'src/network/networkd-core@sta/netdev_geneve.c.o'.
+[461/1483] Compiling C object 'src/network/networkd-core@sta/netdev_vxcan.c.o'.
+[462/1483] Compiling C object 'src/network/networkd-core@sta/netdev_wireguard.c.o'.
+[463/1483] Compiling C object 'src/network/networkd-core@sta/networkd-address-label.c.o'.
+[464/1483] Compiling C object 'src/network/networkd-core@sta/networkd-address-pool.c.o'.
+[465/1483] Compiling C object 'src/network/networkd-core@sta/networkd-address.c.o'.
+[466/1483] Compiling C object 'src/network/networkd-core@sta/networkd-brvlan.c.o'.
+[467/1483] Compiling C object 'src/network/networkd-core@sta/networkd-conf.c.o'.
+[468/1483] Compiling C object 'src/network/networkd-core@sta/networkd-dhcp4.c.o'.
+[469/1483] Compiling C object 'src/network/networkd-core@sta/networkd-dhcp6.c.o'.
+[470/1483] Compiling C object 'src/network/networkd-core@sta/networkd-fdb.c.o'.
+[471/1483] Compiling C object 'src/network/networkd-core@sta/networkd-ipv4ll.c.o'.
+[472/1483] Compiling C object 'src/network/networkd-core@sta/networkd-ipv6-proxy-ndp.c.o'.
+[473/1483] Compiling C object 'src/network/networkd-core@sta/networkd-link-bus.c.o'.
+[474/1483] Compiling C object 'src/network/networkd-core@sta/networkd-lldp-tx.c.o'.
+[475/1483] Compiling C object 'src/network/networkd-core@sta/networkd-manager-bus.c.o'.
+[476/1483] Compiling C object 'src/network/networkd-core@sta/networkd-link.c.o'.
+[477/1483] Compiling C object 'src/network/networkd-core@sta/networkd-manager.c.o'.
+[478/1483] Compiling C object 'src/network/networkd-core@sta/networkd-ndisc.c.o'.
+[479/1483] Compiling C object 'src/network/networkd-core@sta/networkd-radv.c.o'.
+[480/1483] Compiling C object 'src/network/networkd-core@sta/networkd-network-bus.c.o'.
+[481/1483] Compiling C object 'src/network/networkd-core@sta/networkd-network.c.o'.
+[482/1483] Compiling C object 'src/network/networkd-core@sta/networkd-route.c.o'.
+[483/1483] Compiling C object 'src/network/networkd-core@sta/networkd-util.c.o'.
+[484/1483] Compiling C object 'src/network/networkd-core@sta/networkd-routing-policy-rule.c.o'.
+[485/1483] Compiling C object 'src/machine/machine-core@sta/machine.c.o'.
+[486/1483] Compiling C object 'src/machine/machine-core@sta/machine-dbus.c.o'.
+[487/1483] Generating org.freedesktop.hostname1.policy_merge with a custom command.
+[488/1483] Linking static target src/network/libnetworkd-core.a.
+[489/1483] Generating org.freedesktop.import1.policy_merge with a custom command.
+[490/1483] Compiling C object 'src/machine/machine-core@sta/image-dbus.c.o'.
+[491/1483] Generating org.freedesktop.locale1.policy_merge with a custom command.
+[492/1483] Generating nspawn-gperf.c with a custom command.
+[493/1483] Compiling C object 'src/machine/machine-core@sta/operation.c.o'.
+[494/1483] Linking static target src/machine/libmachine-core.a.
+[495/1483] Generating org.freedesktop.machine1.policy_merge with a custom command.
+[496/1483] Generating resolved_gperf.c with a custom command.
+[497/1483] Generating resolved_dnssd_gperf.c with a custom command.
+[498/1483] Generating dns_type-list.txt with a meson_exe.py custom command.
+[499/1483] Generating org.freedesktop.resolve1.policy_merge with a custom command.
+[500/1483] Generating dns_type-from-name.gperf with a meson_exe.py custom command.
+[501/1483] Generating dns_type-to-name.h with a meson_exe.py custom command.
+[502/1483] Generating dns_type-from-name.h with a meson_exe.py custom command.
+[503/1483] Generating org.freedesktop.timedate1.policy_merge with a custom command.
+[504/1483] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-dnssec.c.o'.
+[505/1483] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-answer.c.o'.
+[506/1483] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-packet.c.o'.
+[507/1483] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-question.c.o'.
+[508/1483] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-rr.c.o'.
+[509/1483] Generating timesyncd-gperf.c with a custom command.
+[510/1483] Compiling C object 'src/resolve/systemd-resolve-core@sta/dns-type.c.o'.
+[511/1483] Linking static target src/resolve/libsystemd-resolve-core.a.
+[512/1483] Generating test-hashmap-ordered.c with a meson_exe.py custom command.
+[513/1483] Generating test-libsystemd-sym.c with a meson_exe.py custom command.
+[514/1483] Generating test-libudev-sym.c with a meson_exe.py custom command.
+[515/1483] Generating sys with a custom command.
+[516/1483] Compiling C object 'test-watchdog@exe/src_test_test-watchdog.c.o'.
+[517/1483] Compiling C object 'test-install@exe/src_test_test-install.c.o'.
+[518/1483] Linking target test-install.
+[519/1483] Compiling C object 'test-execute@exe/src_test_test-helper.c.o'.
+[520/1483] Linking target test-dlopen.
+[521/1483] Compiling C object 'nss_myhostname@sha/src_nss-myhostname_nss-myhostname.c.o'.
+[522/1483] Linking target libnss_myhostname.so.2.
+[523/1483] Compiling C object 'nss_resolve@sha/src_nss-resolve_nss-resolve.c.o'.
+[524/1483] Compiling C object 'nss_mymachines@sha/src_nss-mymachines_nss-mymachines.c.o'.
+[525/1483] Linking target libnss_mymachines.so.2.
+[526/1483] Compiling C object 'systemd@exe/src_core_main.c.o'.
+[527/1483] Linking target libnss_resolve.so.2.
+[528/1483] Compiling C object 'systemd-analyze@exe/src_analyze_analyze.c.o'.
+[529/1483] Linking target systemd.
+[530/1483] Compiling C object 'systemd-analyze@exe/src_analyze_analyze-verify.c.o'.
+[531/1483] Compiling C object 'systemd-journald@exe/src_journal_journald.c.o'.
+[532/1483] Linking target systemd-journald.
+[533/1483] Compiling C object 'systemd-cat@exe/src_journal_cat.c.o'.
+[534/1483] Linking target systemd-cat.
+[535/1483] Linking target systemd-analyze.
+[536/1483] Compiling C object 'systemd-getty-generator@exe/src_getty-generator_getty-generator.c.o'.
+[537/1483] Linking target systemd-getty-generator.
+[538/1483] Compiling C object 'journalctl@exe/src_journal_journalctl.c.o'.
+[539/1483] Linking target journalctl.
+[540/1483] Compiling C object 'systemd-hibernate-resume-generator@exe/src_hibernate-resume_hibernate-resume-generator.c.o'.
+[541/1483] Linking target systemd-hibernate-resume-generator.
+[542/1483] Compiling C object 'systemd-debug-generator@exe/src_debug-generator_debug-generator.c.o'.
+[543/1483] Linking target systemd-debug-generator.
+[544/1483] Compiling C object 'systemd-fstab-generator@exe/src_fstab-generator_fstab-generator.c.o'.
+[545/1483] Compiling C object 'systemd-fstab-generator@exe/src_core_mount-setup.c.o'.
+[546/1483] Linking target systemd-fstab-generator.
+[547/1483] Compiling C object '30-systemd-environment-d-generator@exe/src_environment-d-generator_environment-d-generator.c.o'.
+[548/1483] Linking target 30-systemd-environment-d-generator.
+[549/1483] Compiling C object 'systemd-resolved@exe/meson-generated_.._src_resolve_resolved-gperf.c.o'.
+[550/1483] Compiling C object 'systemd-gpt-auto-generator@exe/src_gpt-auto-generator_gpt-auto-generator.c.o'.
+[551/1483] Compiling C object 'systemd-hibernate-resume@exe/src_hibernate-resume_hibernate-resume.c.o'.
+[552/1483] Linking target systemd-hibernate-resume.
+[553/1483] Linking target systemd-gpt-auto-generator.
+[554/1483] Compiling C object 'systemd-dissect@exe/src_dissect_dissect.c.o'.
+[555/1483] Linking target systemd-dissect.
+[556/1483] Compiling C object 'systemd-resolved@exe/meson-generated_.._src_resolve_resolved-dnssd-gperf.c.o'.
+[557/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved.c.o'.
+[558/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-manager.c.o'.
+[559/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dnssd.c.o'.
+[560/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dnssd-bus.c.o'.
+[561/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-conf.c.o'.
+[562/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-query.c.o'.
+[563/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-synthesize.c.o'.
+[564/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-resolv-conf.c.o'.
+[565/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-bus.c.o'.
+[566/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-link.c.o'.
+[567/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-link-bus.c.o'.
+[568/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-llmnr.c.o'.
+[569/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-mdns.c.o'.
+[570/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-transaction.c.o'.
+[571/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-scope.c.o'.
+[572/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-server.c.o'.
+[573/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-search-domain.c.o'.
+[574/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-cache.c.o'.
+[575/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-zone.c.o'.
+[576/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-stream.c.o'.
+[577/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-trust-anchor.c.o'.
+[578/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-dns-stub.c.o'.
+[579/1483] Compiling C object 'systemd-resolved@exe/src_resolve_resolved-etc-hosts.c.o'.
+[580/1483] Linking target systemd-resolved.
+[581/1483] Compiling C object 'systemd-resolve@exe/src_resolve_resolve-tool.c.o'.
+[582/1483] Linking target systemd-resolve.
+[583/1483] Compiling C object 'systemd-logind@exe/meson-generated_.._src_login_logind-gperf.c.o'.
+[584/1483] Compiling C object 'systemd-logind@exe/src_login_logind.c.o'.
+[585/1483] Linking target systemd-logind.
+[586/1483] Compiling C object 'pam_systemd@sha/src_login_pam_systemd.c.o'.
+[587/1483] Compiling C object 'loginctl@exe/src_login_loginctl.c.o'.
+[588/1483] Compiling C object 'loginctl@exe/src_login_sysfs-show.c.o'.
+[589/1483] Linking target loginctl.
+[590/1483] Compiling C object 'systemd-inhibit@exe/src_login_inhibit.c.o'.
+[591/1483] Linking target systemd-inhibit.
+[592/1483] Compiling C object 'systemd-socket-activate@exe/src_activate_activate.c.o'.
+[593/1483] Linking target systemd-socket-activate.
+[594/1483] Linking target pam_systemd.so.
+[595/1483] Compiling C object 'systemd-user-sessions@exe/src_user-sessions_user-sessions.c.o'.
+[596/1483] Linking target systemd-user-sessions.
+[597/1483] Compiling C object 'bootctl@exe/src_boot_bootctl.c.o'.
+[598/1483] Linking target bootctl.
+[599/1483] Compiling C object 'systemctl@exe/src_systemctl_systemctl.c.o'.
+[600/1483] Linking target systemctl.
+[601/1483] Compiling C object 'systemd-backlight@exe/src_backlight_backlight.c.o'.
+[602/1483] Linking target systemd-backlight.
+[603/1483] Compiling C object 'systemd-cryptsetup@exe/src_cryptsetup_cryptsetup.c.o'.
+[604/1483] Compiling C object 'systemd-rfkill@exe/src_rfkill_rfkill.c.o'.
+[605/1483] Linking target systemd-rfkill.
+[606/1483] Compiling C object 'systemd-system-update-generator@exe/src_system-update-generator_system-update-generator.c.o'.
+[607/1483] Linking target systemd-system-update-generator.
+[608/1483] Compiling C object 'systemd-hostnamed@exe/src_hostname_hostnamed.c.o'.
+[609/1483] Compiling C object 'systemd-rc-local-generator@exe/src_rc-local-generator_rc-local-generator.c.o'.
+[610/1483] Linking target systemd-rc-local-generator.
+[611/1483] Compiling C object 'systemd-sysv-generator@exe/src_sysv-generator_sysv-generator.c.o'.
+[612/1483] Linking target systemd-cryptsetup.
+[613/1483] Compiling C object 'systemd-cryptsetup-generator@exe/src_cryptsetup_cryptsetup-generator.c.o'.
+[614/1483] Linking target systemd-cryptsetup-generator.
+[615/1483] Compiling C object 'systemd-veritysetup@exe/src_veritysetup_veritysetup.c.o'.
+[616/1483] Linking target systemd-veritysetup.
+[617/1483] Compiling C object 'systemd-veritysetup-generator@exe/src_veritysetup_veritysetup-generator.c.o'.
+[618/1483] Linking target systemd-veritysetup-generator.
+[619/1483] Linking target systemd-sysv-generator.
+[620/1483] Linking target systemd-hostnamed.
+[621/1483] Compiling C object 'hostnamectl@exe/src_hostname_hostnamectl.c.o'.
+[622/1483] Compiling C object 'systemd-timesyncd@exe/meson-generated_.._src_timesync_timesyncd-gperf.c.o'.
+[623/1483] Compiling C object 'systemd-timesyncd@exe/src_timesync_timesyncd.c.o'.
+[624/1483] Compiling C object 'systemd-timesyncd@exe/src_timesync_timesyncd-manager.c.o'.
+[625/1483] Linking target hostnamectl.
+[626/1483] Compiling C object 'systemd-localed@exe/src_locale_localed.c.o'.
+[627/1483] Compiling C object 'systemd-localed@exe/src_locale_keymap-util.c.o'.
+[628/1483] Linking target systemd-localed.
+[629/1483] Compiling C object 'localectl@exe/src_locale_localectl.c.o'.
+[630/1483] Linking target localectl.
+[631/1483] Compiling C object 'systemd-timedated@exe/src_timedate_timedated.c.o'.
+[632/1483] Linking target systemd-timedated.
+[633/1483] Compiling C object 'timedatectl@exe/src_timedate_timedatectl.c.o'.
+[634/1483] Linking target timedatectl.
+[635/1483] Compiling C object 'systemd-machined@exe/src_machine_machined.c.o'.
+[636/1483] Linking target systemd-machined.
+[637/1483] Compiling C object 'machinectl@exe/src_machine_machinectl.c.o'.
+[638/1483] Compiling C object 'systemd-timesyncd@exe/src_timesync_timesyncd-conf.c.o'.
+[639/1483] Compiling C object 'systemd-timesyncd@exe/src_timesync_timesyncd-server.c.o'.
+[640/1483] Linking target systemd-timesyncd.
+[641/1483] Compiling C object 'systemd-pull@exe/src_import_qcow2-util.c.o'.
+[642/1483] Compiling C object 'systemd-pull@exe/src_import_import-common.c.o'.
+[643/1483] Compiling C object 'systemd-pull@exe/src_import_pull.c.o'.
+[644/1483] Linking target machinectl.
+[645/1483] Compiling C object 'systemd-importd@exe/src_import_importd.c.o'.
+[646/1483] Linking target systemd-importd.
+[647/1483] Compiling C object 'systemd-pull@exe/src_import_pull-raw.c.o'.
+[648/1483] Compiling C object 'systemd-pull@exe/src_import_pull-tar.c.o'.
+[649/1483] Compiling C object 'systemd-pull@exe/src_import_pull-job.c.o'.
+[650/1483] Compiling C object 'systemd-pull@exe/src_import_import-compress.c.o'.
+[651/1483] Compiling C object 'systemd-pull@exe/src_import_pull-common.c.o'.
+[652/1483] Compiling C object 'systemd-import@exe/src_import_import.c.o'.
+[653/1483] Compiling C object 'systemd-pull@exe/src_import_curl-util.c.o'.
+[654/1483] Linking target systemd-pull.
+[655/1483] Compiling C object 'systemd-import@exe/src_import_import-common.c.o'.
+[656/1483] Compiling C object 'systemd-import@exe/src_import_import-raw.c.o'.
+[657/1483] Compiling C object 'systemd-import@exe/src_import_import-tar.c.o'.
+[658/1483] Compiling C object 'systemd-export@exe/src_import_export.c.o'.
+[659/1483] Compiling C object 'systemd-import@exe/src_import_import-compress.c.o'.
+[660/1483] Compiling C object 'systemd-import@exe/src_import_qcow2-util.c.o'.
+[661/1483] Linking target systemd-import.
+[662/1483] Compiling C object 'systemd-coredump@exe/src_coredump_coredump-vacuum.c.o'.
+[663/1483] Compiling C object 'systemd-coredump@exe/src_coredump_stacktrace.c.o'.
+[664/1483] Compiling C object 'systemd-journal-upload@exe/src_journal-remote_journal-upload.c.o'.
+[665/1483] Compiling C object 'systemd-export@exe/src_import_export-raw.c.o'.
+[666/1483] Compiling C object 'systemd-export@exe/src_import_import-common.c.o'.
+[667/1483] Compiling C object 'systemd-export@exe/src_import_export-tar.c.o'.
+[668/1483] Compiling C object 'systemd-export@exe/src_import_import-compress.c.o'.
+[669/1483] Linking target systemd-export.
+[670/1483] Compiling C object 'systemd-journal-upload@exe/src_journal-remote_journal-upload-journal.c.o'.
+[671/1483] Linking target systemd-journal-upload.
+[672/1483] Compiling C object 'systemd-coredump@exe/src_coredump_coredump.c.o'.
+[673/1483] Compiling C object 'systemd-vconsole-setup@exe/src_vconsole_vconsole-setup.c.o'.
+[674/1483] Compiling C object 'coredumpctl@exe/src_coredump_coredumpctl.c.o'.
+[675/1483] Linking target systemd-coredump.
+[676/1483] Linking target coredumpctl.
+[677/1483] Compiling C object 'systemd-binfmt@exe/src_binfmt_binfmt.c.o'.
+[678/1483] Linking target systemd-binfmt.
+[679/1483] Compiling C object 'systemd-firstboot@exe/src_firstboot_firstboot.c.o'.
+[680/1483] Linking target systemd-firstboot.
+[681/1483] Compiling C object 'systemd-remount-fs@exe/src_remount-fs_remount-fs.c.o'.
+[682/1483] Linking target systemd-vconsole-setup.
+[683/1483] Compiling C object 'systemd-random-seed@exe/src_random-seed_random-seed.c.o'.
+[684/1483] Linking target systemd-random-seed.
+[685/1483] Compiling C object 'systemd-machine-id-setup@exe/src_core_machine-id-setup.c.o'.
+[686/1483] Compiling C object 'systemd-remount-fs@exe/src_core_mount-setup.c.o'.
+[687/1483] Linking target systemd-remount-fs.
+[688/1483] Compiling C object 'systemd-machine-id-setup@exe/src_machine-id-setup_machine-id-setup-main.c.o'.
+[689/1483] Linking target systemd-machine-id-setup.
+[690/1483] Compiling C object 'systemd-fsck@exe/src_fsck_fsck.c.o'.
+[691/1483] Linking target systemd-fsck.
+[692/1483] Compiling C object 'systemd-growfs@exe/src_partition_growfs.c.o'.
+[693/1483] Linking target systemd-growfs.
+[694/1483] Compiling C object 'systemd-sleep@exe/src_sleep_sleep.c.o'.
+[695/1483] Linking target systemd-sleep.
+[696/1483] Compiling C object 'systemd-sysctl@exe/src_sysctl_sysctl.c.o'.
+[697/1483] Compiling C object 'systemd-makefs@exe/src_partition_makefs.c.o'.
+[698/1483] Linking target systemd-makefs.
+[699/1483] Linking target systemd-sysctl.
+[700/1483] Compiling C object 'systemd-ac-power@exe/src_ac-power_ac-power.c.o'.
+[701/1483] Linking target systemd-ac-power.
+[702/1483] Compiling C object 'systemd-detect-virt@exe/src_detect-virt_detect-virt.c.o'.
+[703/1483] Linking target systemd-detect-virt.
+[704/1483] Compiling C object 'systemd-escape@exe/src_escape_escape.c.o'.
+[705/1483] Compiling C object 'systemd-delta@exe/src_delta_delta.c.o'.
+[706/1483] Linking target systemd-delta.
+[707/1483] Linking target systemd-escape.
+[708/1483] Compiling C object 'systemd-cgroups-agent@exe/src_cgroups-agent_cgroups-agent.c.o'.
+[709/1483] Compiling C object 'systemd-notify@exe/src_notify_notify.c.o'.
+[710/1483] Linking target systemd-notify.
+[711/1483] Compiling C object 'systemd-path@exe/src_path_path.c.o'.
+[712/1483] Linking target systemd-path.
+[713/1483] Compiling C object 'systemd-volatile-root@exe/src_volatile-root_volatile-root.c.o'.
+[714/1483] Linking target systemd-volatile-root.
+[715/1483] Linking target systemd-cgroups-agent.
+[716/1483] Compiling C object 'systemd-ask-password@exe/src_ask-password_ask-password.c.o'.
+[717/1483] Linking target systemd-ask-password.
+[718/1483] Compiling C object 'systemd-cgls@exe/src_cgls_cgls.c.o'.
+[719/1483] Compiling C object 'systemd-reply-password@exe/src_reply-password_reply-password.c.o'.
+[720/1483] Linking target systemd-reply-password.
+[721/1483] Compiling C object 'systemd-tty-ask-password-agent@exe/src_tty-ask-password-agent_tty-ask-password-agent.c.o'.
+[722/1483] Linking target systemd-tty-ask-password-agent.
+[723/1483] Linking target systemd-cgls.
+[724/1483] Compiling C object 'systemd-cgtop@exe/src_cgtop_cgtop.c.o'.
+[725/1483] Linking target systemd-cgtop.
+[726/1483] Compiling C object 'systemd-run@exe/src_run_run.c.o'.
+[727/1483] Compiling C object 'systemd-initctl@exe/src_initctl_initctl.c.o'.
+[728/1483] Linking target systemd-initctl.
+[729/1483] Compiling C object 'systemd-tmpfiles@exe/src_tmpfiles_tmpfiles.c.o'.
+[730/1483] Compiling C object 'busctl@exe/src_busctl_busctl-introspect.c.o'.
+[731/1483] Compiling C object 'systemd-mount@exe/src_mount_mount-tool.c.o'.
+[732/1483] Linking target systemd-mount.
+[733/1483] Linking target systemd-run.
+[734/1483] Compiling C object 'systemd-stdio-bridge@exe/src_stdio-bridge_stdio-bridge.c.o'.
+[735/1483] Linking target systemd-stdio-bridge.
+[736/1483] Compiling C object 'busctl@exe/src_busctl_busctl.c.o'.
+[737/1483] Compiling C object 'systemd-sysusers@exe/src_sysusers_sysusers.c.o'.
+[738/1483] Linking target systemd-sysusers.
+[739/1483] Linking target busctl.
+[740/1483] Compiling C object 'systemd-quotacheck@exe/src_quotacheck_quotacheck.c.o'.
+[741/1483] Linking target systemd-quotacheck.
+[742/1483] Compiling C object 'systemd-socket-proxyd@exe/src_socket-proxy_socket-proxyd.c.o'.
+[743/1483] Linking target systemd-tmpfiles.
+[744/1483] Compiling C object 'systemd-hwdb@exe/src_hwdb_hwdb.c.o'.
+[745/1483] Linking target systemd-hwdb.
+[746/1483] Linking target systemd-socket-proxyd.
+[747/1483] Compiling C object 'systemd-udevd@exe/src_udev_udevd.c.o'.
+[748/1483] Linking target systemd-udevd.
+[749/1483] Compiling C object 'udevadm@exe/src_udev_udevadm.c.o'.
+[750/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-info.c.o'.
+[751/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-control.c.o'.
+[752/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-monitor.c.o'.
+[753/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-hwdb.c.o'.
+[754/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-settle.c.o'.
+[755/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-trigger.c.o'.
+[756/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-test.c.o'.
+[757/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-test-builtin.c.o'.
+[758/1483] Compiling C object 'udevadm@exe/src_udev_udevadm-util.c.o'.
+[759/1483] Linking target udevadm.
+[760/1483] Compiling C object 'systemd-shutdown@exe/src_core_shutdown.c.o'.
+[761/1483] Compiling C object 'systemd-shutdown@exe/src_core_umount.c.o'.
+[762/1483] Compiling C object 'systemd-shutdown@exe/src_core_mount-setup.c.o'.
+[763/1483] Compiling C object 'systemd-shutdown@exe/src_core_killall.c.o'.
+[764/1483] Linking target systemd-shutdown.
+[765/1483] Compiling C object 'systemd-update-utmp@exe/src_update-utmp_update-utmp.c.o'.
+[766/1483] Compiling C object 'systemd-update-done@exe/src_update-done_update-done.c.o'.
+[767/1483] Linking target systemd-update-done.
+[768/1483] Linking target systemd-update-utmp.
+[769/1483] Compiling C object 'systemd-modules-load@exe/src_modules-load_modules-load.c.o'.
+[770/1483] Linking target systemd-modules-load.
+[771/1483] Compiling C object 'systemd-nspawn@exe/meson-generated_.._src_nspawn_nspawn-gperf.c.o'.
+[772/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-expose-ports.c.o'.
+[773/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-mount.c.o'.
+[774/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-network.c.o'.
+[775/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-cgroup.c.o'.
+[776/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-seccomp.c.o'.
+[777/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-settings.c.o'.
+[778/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-patch-uid.c.o'.
+[779/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-register.c.o'.
+[780/1483] Compiling C object 'systemd-nspawn@exe/src_core_mount-setup.c.o'.
+[781/1483] Compiling C object 'systemd-nspawn@exe/src_core_loopback-setup.c.o'.
+[782/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-stub-pid1.c.o'.
+[783/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn.c.o'.
+[784/1483] Compiling C object 'systemd-nspawn@exe/src_nspawn_nspawn-setuid.c.o'.
+[785/1483] Compiling C object 'systemd-networkd-wait-online@exe/src_network_wait-online_manager.c.o'.
+[786/1483] Compiling C object 'systemd-networkd@exe/src_network_networkd.c.o'.
+[787/1483] Generating sanitize-address-fuzzers with a custom command.
++ src=/lfskernel/sources/boot/systemd-237
++ dst=test/fuzz-regressions/sanitize-address-fuzzers
++ target=fuzzers
++ options='-Db_lundef=false -Db_sanitize=address'
++ '[' -d test/fuzz-regressions/sanitize-address-fuzzers ']'
++ meson /lfskernel/sources/boot/systemd-237 test/fuzz-regressions/sanitize-address-fuzzers -Db_lundef=false -Db_sanitize=address
+The Meson build system
+Version: 0.44.0
+Source dir: /lfskernel/sources/boot/systemd-237
+Build dir: /lfskernel/sources/boot/systemd-237/build/test/fuzz-regressions/sanitize-address-fuzzers
+Build type: native build
+Project name: systemd
+Native C compiler: cc (gcc 7.2.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Program tools/meson-check-compilation.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-check-compilation.sh)
+Program tools/meson-build.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-build.sh)
+Program c++ found: YES (/usr/bin/c++)
+Native C++ compiler: c++ (gcc 7.2.0)
+Compiler for C supports argument -Wextra: YES
+Compiler for C supports argument -Werror=undef: YES
+Compiler for C supports argument -Wlogical-op: YES
+Compiler for C supports argument -Wmissing-include-dirs: YES
+Compiler for C supports argument -Wold-style-definition: YES
+Compiler for C supports argument -Wpointer-arith: YES
+Compiler for C supports argument -Winit-self: YES
+Compiler for C supports argument -Wdeclaration-after-statement: YES
+Compiler for C supports argument -Wfloat-equal: YES
+Compiler for C supports argument -Wsuggest-attribute=noreturn: YES
+Compiler for C supports argument -Werror=missing-prototypes: YES
+Compiler for C supports argument -Werror=implicit-function-declaration: YES
+Compiler for C supports argument -Werror=missing-declarations: YES
+Compiler for C supports argument -Werror=return-type: YES
+Compiler for C supports argument -Werror=incompatible-pointer-types: YES
+Compiler for C supports argument -Werror=format=2: YES
+Compiler for C supports argument -Wstrict-prototypes: YES
+Compiler for C supports argument -Wredundant-decls: YES
+Compiler for C supports argument -Wmissing-noreturn: YES
+Compiler for C supports argument -Wimplicit-fallthrough=5: YES
+Compiler for C supports argument -Wshadow: YES
+Compiler for C supports argument -Wendif-labels: YES
+Compiler for C supports argument -Wstrict-aliasing=2: YES
+Compiler for C supports argument -Wwrite-strings: YES
+Compiler for C supports argument -Werror=overflow: YES
+Compiler for C supports argument -Wdate-time: YES
+Compiler for C supports argument -Wnested-externs: YES
+Compiler for C supports argument -ffast-math: YES
+Compiler for C supports argument -fno-common: YES
+Compiler for C supports argument -fdiagnostics-show-option: YES
+Compiler for C supports argument -fno-strict-aliasing: YES
+Compiler for C supports argument -fvisibility=hidden: YES
+Compiler for C supports argument -fstack-protector: YES
+Compiler for C supports argument -fstack-protector-strong: YES
+Compiler for C supports argument --param=ssp-buffer-size=4: YES
+Compiler for C supports argument -fPIE: YES
+Compiler for C supports argument -Wunused-parameter: YES
+Compiler for C supports argument -Wmissing-field-initializers: YES
+Compiler for C supports argument -Wunused-result: YES
+Compiler for C supports argument -Wformat-signedness: YES
+Compiler for C supports argument -Werror=nonnull: YES
+Checking if "-Werror=shadow with local shadowing" compiles: YES
+Message: Linking with -Wl,-z,relro supported: yes
+Message: Linking with -Wl,-z,now supported: yes
+Message: Linking with -pie supported: yes
+Message: address sanitizer supported: yes
+Checking for size of "pid_t": 4
+Checking for size of "uid_t": 4
+Checking for size of "gid_t": 4
+Checking for size of "dev_t": 8
+Checking for size of "ino_t": 8
+Checking for size of "time_t": 8
+Checking for size of "rlim_t": 8
+Checking for size of "char16_t": 2
+Checking for size of "char32_t": 4
+Checking for size of "key_serial_t": -1
+Checking for size of "struct ethtool_link_settings": 48
+Checking for size of "struct fib_rule_uid_range": 8
+Header <linux/if_link.h> has symbol "IFLA_INET6_ADDR_GEN_MODE": YES
+Header <linux/if_link.h> has symbol "IN6_ADDR_GEN_MODE_STABLE_PRIVACY": YES
+Header <linux/if_link.h> has symbol "IFLA_VRF_TABLE": YES
+Header <linux/if_link.h> has symbol "IFLA_MACVLAN_FLAGS": YES
+Header <linux/if_link.h> has symbol "IFLA_IPVLAN_FLAGS": NO
+Header <linux/if_link.h> has symbol "IFLA_PHYS_PORT_ID": YES
+Header <linux/if_link.h> has symbol "IFLA_BOND_AD_INFO": YES
+Header <linux/if_link.h> has symbol "IFLA_VLAN_PROTOCOL": YES
+Header <linux/if_link.h> has symbol "IFLA_VXLAN_REMCSUM_NOPARTIAL": YES
+Header <linux/if_link.h> has symbol "IFLA_VXLAN_GPE": YES
+Header <linux/if_link.h> has symbol "IFLA_GENEVE_LABEL": YES
+Header <linux/if_tunnel.h> has symbol "IFLA_VTI_REMOTE": YES
+Header <linux/if_tunnel.h> has symbol "IFLA_IPTUN_ENCAP_DPORT": YES
+Header <linux/if_tunnel.h> has symbol "IFLA_GRE_ENCAP_DPORT": YES
+Header <linux/if_bridge.h> has symbol "IFLA_BRIDGE_VLAN_INFO": YES
+Header <linux/if_link.h> has symbol "IFLA_BRPORT_PROXYARP": YES
+Header <linux/if_link.h> has symbol "IFLA_BRPORT_LEARNING_SYNC": YES
+Header <linux/if_link.h> has symbol "IFLA_BR_VLAN_DEFAULT_PVID": YES
+Header <linux/if_link.h> has symbol "IPVLAN_F_PRIVATE": NO
+Header <linux/neighbour.h> has symbol "NDA_IFINDEX": YES
+Header <linux/if_addr.h> has symbol "IFA_FLAGS": YES
+Header <linux/fib_rules.h> has symbol "FRA_UID_RANGE": YES
+Header <linux/loop.h> has symbol "LO_FLAGS_PARTSCAN": YES
+Header <linux/can/vxcan.h> has symbol "VXCAN_INFO_PEER": YES
+Checking for function "secure_getenv": YES
+Checking for function "__secure_getenv": NO
+Checking for function "memfd_create": NO
+Checking for function "gettid": NO
+Checking for function "pivot_root": NO
+Checking for function "name_to_handle_at": YES
+Checking for function "setns": YES
+Checking for function "renameat2": NO
+Checking for function "kcmp": NO
+Checking for function "keyctl": NO
+Checking for function "copy_file_range": NO
+Checking for function "bpf": NO
+Checking for function "explicit_bzero": YES
+Checking for function "getrandom": YES
+Program sed found: YES (/bin/sed)
+Program awk found: YES (/usr/bin/awk)
+Program m4 found: YES (/usr/bin/m4)
+Program stat found: YES (/usr/bin/stat)
+Program git found: NO
+Program nonexistingprogram found: NO
+Program env found: YES (/usr/bin/env)
+Program test/test-efi-create-disk.sh found: YES (/lfskernel/sources/boot/systemd-237/test/test-efi-create-disk.sh)
+Program quotaon found: NO
+Program /usr/sbin/quotaon found: NO
+Program /sbin/quotaon found: NO
+Program nonexistingprogram found: NO
+Program quotacheck found: NO
+Program /usr/sbin/quotacheck found: NO
+Program /sbin/quotacheck found: NO
+Program nonexistingprogram found: NO
+Program kill found: YES (/bin/kill)
+Program kmod found: YES (/bin/kmod)
+Program kexec found: NO
+Program /usr/sbin/kexec found: NO
+Program /sbin/kexec found: NO
+Program nonexistingprogram found: NO
+Program sulogin found: YES (/sbin/sulogin)
+Program mount found: YES (/bin/mount)
+Program umount found: YES (/bin/umount)
+Program loadkeys found: YES (/usr/bin/loadkeys)
+Program setfont found: YES (/usr/bin/setfont)
+Program gperf found: YES (/usr/bin/gperf)
+Message: gperf len type is size_t
+Has header "sys/capability.h": YES
+Has header "crypt.h": YES
+Has header "linux/btrfs.h": YES
+Has header "linux/memfd.h": YES
+Has header "linux/vm_sockets.h": YES
+Has header "sys/auxv.h": YES
+Has header "valgrind/memcheck.h": NO
+Has header "valgrind/valgrind.h": NO
+Message: maximum system UID is 999
+Message: maximum system GID is 999
+Message: WARNING:
+        The local group with the GID 65534 does not match the configured group name "nobody" of the nobody group (its name is nogroup).
+        Your build will result in an group table setup that is incompatible with the local system.
+Dependency threads found: YES
+Library rt found: YES
+Library m found: YES
+Library dl found: YES
+Library crypt found: YES
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Native dependency libcap found: YES 2.25
+Native dependency mount found: YES 2.31.1
+Dependency libseccomp found: NO
+Dependency libselinux found: NO
+Dependency libapparmor found: NO
+Dependency polkit-gobject-1 found: NO
+Library acl found: YES
+Dependency audit found: NO
+Native dependency blkid found: YES 2.31.1
+Native dependency libkmod found: YES 25
+Library pam found: YES
+Library pam_misc found: YES
+Dependency libmicrohttpd found: NO
+Native dependency libcryptsetup found: YES 1.7.5
+Native dependency libcurl found: YES 7.55.1
+Dependency libidn found: NO
+Dependency libidn2 found: NO
+Dependency libiptc found: NO
+Dependency libqrencode found: NO
+Library gcrypt found: YES
+Library gpg-error found: YES
+Dependency gnutls found: NO
+Native dependency libdw found: YES 0.170
+Native dependency zlib found: YES 1.2.11
+Library bz2 found: YES
+Native dependency liblzma found: YES 5.2.3
+Native dependency liblz4 found: YES 1.8.2
+Native dependency xkbcommon found: YES 0.8.0
+Dependency libpcre2-8 found: NO
+Native dependency glib-2.0 found: YES 2.54.3
+Native dependency gobject-2.0 found: YES 2.54.3
+Native dependency gio-2.0 found: YES 2.54.3
+Native dependency dbus-1 found: YES 1.12.2
+Configuring config.h using configuration
+Program sh found: YES (/bin/sh)
+Program c++ found: YES (/usr/bin/c++)
+Program generate-gperfs.py found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-gperfs.py)
+Program generate-af-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-af-list.sh)
+Program generate-arphrd-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-arphrd-list.sh)
+Program generate-cap-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-cap-list.sh)
+Program generate-errno-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-errno-list.sh)
+Program generate-socket-protocol-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/basic/generate-socket-protocol-list.sh)
+Configuring libsystemd.pc using configuration
+Program generate-audit_type-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/journal/generate-audit_type-list.sh)
+Program sh found: YES (/bin/sh)
+Configuring logind.conf using configuration
+Configuring 71-seat.rules using configuration
+Configuring libudev.pc using configuration
+Configuring macros.systemd using configuration
+Configuring triggers.systemd using configuration
+Configuring systemd.pc using configuration
+Configuring org.freedesktop.systemd1.policy.in using configuration
+Program sh found: YES (/bin/sh)
+Program generate-keyboard-keys-list.sh found: YES (/lfskernel/sources/boot/systemd-237/src/udev/generate-keyboard-keys-list.sh)
+Program generate-keyboard-keys-gperf.sh found: YES (/lfskernel/sources/boot/systemd-237/src/udev/generate-keyboard-keys-gperf.sh)
+Configuring udev.pc using configuration
+Program sh found: YES (/bin/sh)
+Configuring journal-upload.conf using configuration
+Program sh found: YES (/bin/sh)
+Program generate-dns_type-gperf.py found: YES (/lfskernel/sources/boot/systemd-237/src/resolve/generate-dns_type-gperf.py)
+Configuring resolved.conf using configuration
+Configuring timesyncd.conf using configuration
+Configuring 90-vconsole.rules using configuration
+Has header "/usr/include/efi/x86_64/efibind.h": NO
+Program generate-sym-test.py found: YES (/lfskernel/sources/boot/systemd-237/src/test/generate-sym-test.py)
+Program test-systemd-tmpfiles.py found: YES (/lfskernel/sources/boot/systemd-237/src/test/test-systemd-tmpfiles.py)
+Configuring 50-udev-default.rules using configuration
+Configuring 64-btrfs.rules using configuration
+Configuring 99-systemd.rules using configuration
+Program rule-syntax-check.py found: YES (/lfskernel/sources/boot/systemd-237/test/rule-syntax-check.py)
+Program sysv-generator-test.py found: YES (/lfskernel/sources/boot/systemd-237/test/sysv-generator-test.py)
+Program sys-script.py found: YES (/lfskernel/sources/boot/systemd-237/test/sys-script.py)
+Program udev-test.pl found: YES (/lfskernel/sources/boot/systemd-237/test/udev-test.pl)
+Program hwdb-test.sh found: YES (/lfskernel/sources/boot/systemd-237/test/hwdb-test.sh)
+Program sh found: YES (/bin/sh)
+Program /lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh)
+Message: test-coredump-vacuum is a manual test
+Message: test-qcow2 is a manual test
+Message: test-patch-uid is a manual test
+Message: test-ns is a manual test
+Message: test-hostname is an unsafe test
+Message: Not compiling test-seccomp because HAVE_SECCOMP is not true
+Message: test-ask-password-api is a manual test
+Message: test-dissect-image is a manual test
+Message: test-ipcrm is an unsafe test
+Message: test-btrfs is a manual test
+Message: Not compiling test-firewall-util because HAVE_LIBIPTC is not true
+Message: test-netlink-manual is a manual test
+Message: test-cgroup is a manual test
+Message: test-install is a manual test
+Message: test-udev is a manual test
+Message: test-nss is a manual test
+Message: test-bus-benchmark is a manual test
+Message: test-ipv4ll-manual is a manual test
+Message: test-acd is a manual test
+Message: test-inhibit is a manual test
+Program tools/make-directive-index.py found: YES (/lfskernel/sources/boot/systemd-237/tools/make-directive-index.py)
+Program tools/make-man-index.py found: YES (/lfskernel/sources/boot/systemd-237/tools/make-man-index.py)
+Program tools/xml_helper.py found: YES (/lfskernel/sources/boot/systemd-237/tools/xml_helper.py)
+Program tools/meson-hwdb-update.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-hwdb-update.sh)
+Configuring console-getty.service.m4 using configuration
+Configuring container-getty@.service.m4 using configuration
+Configuring debug-shell.service.tmp using configuration
+Configuring emergency.service.tmp using configuration
+Configuring halt-local.service.tmp using configuration
+Configuring initrd-cleanup.service.tmp using configuration
+Configuring initrd-parse-etc.service.tmp using configuration
+Configuring initrd-switch-root.service.tmp using configuration
+Configuring initrd-udevadm-cleanup-db.service.tmp using configuration
+Configuring kmod-static-nodes.service.tmp using configuration
+Program meson-add-wants.sh found: YES (/lfskernel/sources/boot/systemd-237/units/meson-add-wants.sh)
+Configuring quotaon.service.tmp using configuration
+Configuring rc-local.service.tmp using configuration
+Configuring rescue.service.tmp using configuration
+Configuring system-update-cleanup.service.tmp using configuration
+Configuring systemd-ask-password-console.service.tmp using configuration
+Configuring systemd-ask-password-wall.service.tmp using configuration
+Configuring systemd-backlight@.service.tmp using configuration
+Configuring systemd-binfmt.service.tmp using configuration
+Configuring systemd-coredump@.service.tmp using configuration
+Configuring systemd-exit.service.tmp using configuration
+Configuring systemd-firstboot.service.tmp using configuration
+Configuring systemd-fsck-root.service.tmp using configuration
+Configuring systemd-fsck@.service.tmp using configuration
+Configuring systemd-halt.service.tmp using configuration
+Configuring systemd-hibernate-resume@.service.tmp using configuration
+Configuring systemd-hibernate.service.tmp using configuration
+Configuring systemd-hybrid-sleep.service.tmp using configuration
+Configuring systemd-hostnamed.service.tmp using configuration
+Configuring systemd-hwdb-update.service.tmp using configuration
+Configuring systemd-importd.service.tmp using configuration
+Configuring systemd-initctl.service.tmp using configuration
+Configuring systemd-journal-catalog-update.service.tmp using configuration
+Configuring systemd-journal-flush.service.tmp using configuration
+Configuring systemd-journal-gatewayd.service.tmp using configuration
+Configuring systemd-journal-remote.service.tmp using configuration
+Configuring systemd-journal-upload.service.tmp using configuration
+Configuring systemd-journald.service.tmp using configuration
+Configuring systemd-kexec.service.tmp using configuration
+Configuring systemd-localed.service.tmp using configuration
+Configuring systemd-logind.service.tmp using configuration
+Configuring systemd-machine-id-commit.service.tmp using configuration
+Configuring systemd-machined.service.tmp using configuration
+Configuring systemd-modules-load.service.tmp using configuration
+Configuring systemd-networkd.service.tmp using configuration
+Configuring systemd-networkd-wait-online.service.tmp using configuration
+Configuring systemd-nspawn@.service.tmp using configuration
+Configuring systemd-poweroff.service.tmp using configuration
+Configuring systemd-quotacheck.service.tmp using configuration
+Configuring systemd-random-seed.service.tmp using configuration
+Configuring systemd-reboot.service.tmp using configuration
+Configuring systemd-remount-fs.service.tmp using configuration
+Configuring systemd-resolved.service.tmp using configuration
+Configuring systemd-rfkill.service.tmp using configuration
+Configuring systemd-suspend.service.tmp using configuration
+Configuring systemd-sysctl.service.tmp using configuration
+Configuring systemd-sysusers.service.tmp using configuration
+Configuring systemd-timedated.service.tmp using configuration
+Configuring systemd-timesyncd.service.tmp using configuration
+Configuring systemd-tmpfiles-clean.service.tmp using configuration
+Configuring systemd-tmpfiles-setup-dev.service.tmp using configuration
+Configuring systemd-tmpfiles-setup.service.tmp using configuration
+Configuring systemd-udev-settle.service.tmp using configuration
+Configuring systemd-udev-trigger.service.tmp using configuration
+Configuring systemd-udevd.service.tmp using configuration
+Configuring systemd-update-done.service.tmp using configuration
+Configuring systemd-update-utmp-runlevel.service.tmp using configuration
+Configuring systemd-update-utmp.service.tmp using configuration
+Configuring systemd-user-sessions.service.tmp using configuration
+Configuring systemd-vconsole-setup.service.tmp using configuration
+Configuring systemd-volatile-root.service.tmp using configuration
+Configuring user@.service.tmp using configuration
+Program /lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-make-symlink.sh)
+Program sh found: YES (/bin/sh)
+Configuring systemd-exit.service using configuration
+Configuring systemd-tmpfiles-clean.service using configuration
+Configuring systemd-tmpfiles-setup.service using configuration
+Configuring 50-coredump.conf using configuration
+Program sh found: YES (/bin/sh)
+Configuring basic.conf using configuration
+Program sh found: YES (/bin/sh)
+Program sh found: YES (/bin/sh)
+Program parse_hwdb.py found: YES (/lfskernel/sources/boot/systemd-237/hwdb/parse_hwdb.py)
+Program sh found: YES (/bin/sh)
+Program xsltproc found: YES (/usr/bin/xsltproc)
+Configuring custom-entities.ent using configuration
+Message: Skipping journal-remote.conf.5 because HAVE_MICROHTTPD is false
+Message: Skipping journal-upload.conf.5 because HAVE_MICROHTTPD is false
+Message: Skipping systemd-journal-gatewayd.service.8 because HAVE_MICROHTTPD is false
+Message: Skipping systemd-journal-remote.8 because HAVE_MICROHTTPD is false
+Message: Skipping systemd-journal-upload.8 because HAVE_MICROHTTPD is false
+Message: python-lxml not available, not making man page indices
+Dependency bash-completion found: NO
+Message: bash completions: /usr/share/bash-completion/completions
+Configuring systemctl using configuration
+Message: zsh completions: /usr/share/zsh/site-functions
+Configuring _systemctl using configuration
+Configuring README using configuration
+Configuring README using configuration
+Program tools/meson-check-help.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-check-help.sh)
+Message: Not compiling fuzz-dns-packet:address because slow-tests is set to false
+Program tools/meson-check-api-docs.sh found: YES (/lfskernel/sources/boot/systemd-237/tools/meson-check-api-docs.sh)
+Message: systemd 237
+         prefix directory:                  /usr
+         rootprefix directory:              /usr
+         sysconf directory:                 /etc
+         include directory:                 /usr/include
+         lib directory:                     /usr/lib
+         rootlib directory:                 /usr/lib
+         SysV init scripts:                 /etc/init.d
+         SysV rc?.d directories:            /etc/rc.d
+         PAM modules directory:             /usr/lib/security
+         PAM configuration directory:       /etc/pam.d
+         RPM macros directory:              /usr/lib/rpm/macros.d
+         modprobe.d directory:              /usr/lib/modprobe.d
+         D-Bus policy directory:            /usr/share/dbus-1/system.d
+         D-Bus session directory:           /usr/share/dbus-1/services
+         D-Bus system directory:            /usr/share/dbus-1/system-services
+         bash completions directory:        /usr/share/bash-completion/completions
+         zsh completions directory:         /usr/share/zsh/site-functions
+         extra start script:                /etc/rc.local
+         extra stop script:                 /usr/sbin/halt.local
+         debug shell:                       /bin/sh @ /dev/tty9
+         TTY GID:                           5
+         users GID:                         -
+         maximum system UID:                999
+         maximum system GID:                999
+         minimum dynamic UID:               61184
+         maximum dynamic UID:               65519
+         minimum container UID base:        524288
+         maximum container UID base:        1878982656
+         /dev/kvm access mode:              0666
+         render group access mode:          0666
+         certificate root directory:        /etc/ssl
+         support URL:                       https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+         nobody user name:                  nobody
+         nobody group name:                 nobody
+         fallback hostname:                 localhost
+         symbolic gateway hostnames:        _gateway
+         default DNSSEC mode:               allow-downgrade
+         default cgroup hierarchy:          hybrid
+         default KillUserProcesses setting: true
+         default DNS servers:               8.8.8.8
+                                            8.8.4.4
+                                            2001:4860:4860::8888
+                                            2001:4860:4860::8844
+         default NTP servers:               time1.google.com
+                                            time2.google.com
+                                            time3.google.com
+                                            time4.google.com
+         time epoch:                        1517155097 (2018-01-28T15:58:17+00:00)
+         efi arch:                          x86_64
+         
+         enabled features: libcryptsetup, PAM, IMA, SMACK, zlib, xz, lz4, bzip2, ACL, gcrypt, libcurl, idn, nss-systemd, elfutils, binfmt, vconsole, quotacheck, tmpfiles, environment.d, sysusers, firstboot, randomseed, backlight, rfkill, logind, machined, importd, hostnamed, timedated, timesyncd, localed, networkd, resolve, coredump, polkit, efi, kmod, xkbcommon, blkid, dbus, glib, nss-myhostname, hwdb, tpm, man pages, SysV compat, utmp, ldconfig, hibernate, adm group, wheel group, gshadow
+         
+         disabled features: AUDIT, AppArmor, SELinux, SECCOMP, qrencode, microhttpd, gnutls, libidn2, libidn, libiptc, legacy pkla, gnu-efi, pcre2, html pages, man page indices, split /usr, debug hashmap, debug mmap cache
+         
+Build targets in project: 1409
+Found ninja-1.8.2 at /usr/bin/ninja
++ ninja -C test/fuzz-regressions/sanitize-address-fuzzers fuzzers
+ninja: Entering directory `test/fuzz-regressions/sanitize-address-fuzzers'
+[1/281] Generating af-list.txt with a meson_exe.py custom command.
+[2/281] Generating arphrd-list.txt with a meson_exe.py custom command.
+[3/281] Generating errno-list.txt with a meson_exe.py custom command.
+[4/281] Generating cap-list.txt with a meson_exe.py custom command.
+[5/281] Generating socket-protocol-list.txt with a meson_exe.py custom command.
+[6/281] Generating af-from-name.gperf with a meson_exe.py custom command.
+[7/281] Generating af-to-name.h with a meson_exe.py custom command.
+[8/281] Generating af-from-name.h with a meson_exe.py custom command.
+[9/281] Generating arphrd-from-name.gperf with a meson_exe.py custom command.
+[10/281] Generating arphrd-to-name.h with a meson_exe.py custom command.
+[11/281] Generating arphrd-from-name.h with a meson_exe.py custom command.
+[12/281] Generating cap-from-name.gperf with a meson_exe.py custom command.
+[13/281] Generating cap-to-name.h with a meson_exe.py custom command.
+[14/281] Generating cap-from-name.h with a meson_exe.py custom command.
+[15/281] Generating errno-from-name.gperf with a meson_exe.py custom command.
+[16/281] Generating errno-to-name.h with a meson_exe.py custom command.
+[17/281] Generating errno-from-name.h with a meson_exe.py custom command.
+[18/281] Generating socket-protocol-from-name.gperf with a meson_exe.py custom command.
+[19/281] Generating socket-protocol-to-name.h with a meson_exe.py custom command.
+[20/281] Generating socket-protocol-from-name.h with a meson_exe.py custom command.
+[21/281] Compiling C object 'src/basic/basic@sta/MurmurHash2.c.o'.
+[22/281] Compiling C object 'src/libsystemd/systemd@sta/sd-network_sd-network.c.o'.
+[23/281] Compiling C object 'src/basic/basic@sta/bpf-program.c.o'.
+[24/281] Compiling C object 'src/basic/basic@sta/af-list.c.o'.
+[25/281] Compiling C object 'src/basic/basic@sta/alloc-util.c.o'.
+[26/281] Compiling C object 'src/basic/basic@sta/architecture.c.o'.
+[27/281] Compiling C object 'src/basic/basic@sta/arphrd-list.c.o'.
+[28/281] Compiling C object 'src/basic/basic@sta/async.c.o'.
+[29/281] Compiling C object 'src/basic/basic@sta/blockdev-util.c.o'.
+[30/281] Compiling C object 'src/basic/basic@sta/mempool.c.o'.
+[31/281] Compiling C object 'src/basic/basic@sta/memfd-util.c.o'.
+[32/281] Compiling C object 'src/basic/basic@sta/audit-util.c.o'.
+[33/281] Compiling C object 'src/basic/basic@sta/barrier.c.o'.
+[34/281] Compiling C object 'src/basic/basic@sta/bitmap.c.o'.
+[35/281] Compiling C object 'src/basic/basic@sta/env-util.c.o'.
+[36/281] Compiling C object 'src/basic/basic@sta/errno-list.c.o'.
+[37/281] Compiling C object 'src/basic/basic@sta/btrfs-util.c.o'.
+[38/281] Compiling C object 'src/basic/basic@sta/device-nodes.c.o'.
+[39/281] Compiling C object 'src/basic/basic@sta/cap-list.c.o'.
+[40/281] Compiling C object 'src/basic/basic@sta/bus-label.c.o'.
+[41/281] Compiling C object 'src/basic/basic@sta/calendarspec.c.o'.
+[42/281] Compiling C object 'src/basic/basic@sta/capability-util.c.o'.
+[43/281] Compiling C object 'src/basic/basic@sta/chattr-util.c.o'.
+[44/281] Compiling C object 'src/basic/basic@sta/clock-util.c.o'.
+[45/281] Compiling C object 'src/basic/basic@sta/conf-files.c.o'.
+[46/281] Compiling C object 'src/basic/basic@sta/cgroup-util.c.o'.
+[47/281] Compiling C object 'src/basic/basic@sta/crypt-util.c.o'.
+[48/281] Compiling C object 'src/basic/basic@sta/cpu-set-util.c.o'.
+[49/281] Compiling C object 'src/basic/basic@sta/dirent-util.c.o'.
+[50/281] Compiling C object 'src/basic/basic@sta/extract-word.c.o'.
+[51/281] Compiling C object 'src/basic/basic@sta/copy.c.o'.
+[52/281] Compiling C object 'src/basic/basic@sta/fd-util.c.o'.
+[53/281] Compiling C object 'src/basic/basic@sta/exec-util.c.o'.
+[54/281] Compiling C object 'src/basic/basic@sta/ether-addr-util.c.o'.
+[55/281] Compiling C object 'src/basic/basic@sta/escape.c.o'.
+[56/281] Compiling C object 'src/basic/basic@sta/exit-status.c.o'.
+[57/281] Compiling C object 'src/basic/basic@sta/fileio-label.c.o'.
+[58/281] Compiling C object 'src/basic/basic@sta/in-addr-util.c.o'.
+[59/281] Compiling C object 'src/basic/basic@sta/hexdecoct.c.o'.
+[60/281] Compiling C object 'src/basic/basic@sta/hash-funcs.c.o'.
+[61/281] Compiling C object 'src/basic/basic@sta/glob-util.c.o'.
+[62/281] Compiling C object 'src/basic/basic@sta/fs-util.c.o'.
+[63/281] Compiling C object 'src/basic/basic@sta/gunicode.c.o'.
+[64/281] Compiling C object 'src/basic/basic@sta/fileio.c.o'.
+[65/281] Compiling C object 'src/basic/basic@sta/io-util.c.o'.
+[66/281] Compiling C object 'src/basic/basic@sta/hashmap.c.o'.
+[67/281] Compiling C object 'src/basic/basic@sta/journal-importer.c.o'.
+[68/281] Compiling C object 'src/basic/basic@sta/hostname-util.c.o'.
+[69/281] Compiling C object 'src/basic/basic@sta/lockfile-util.c.o'.
+[70/281] Compiling C object 'src/basic/basic@sta/locale-util.c.o'.
+[71/281] Compiling C object 'src/basic/basic@sta/label.c.o'.
+[72/281] Compiling C object 'src/basic/basic@sta/khash.c.o'.
+[73/281] Compiling C object 'src/basic/basic@sta/mkdir.c.o'.
+[74/281] Compiling C object 'src/basic/basic@sta/login-util.c.o'.
+[75/281] Compiling C object 'src/basic/basic@sta/log.c.o'.
+[76/281] Compiling C object 'src/basic/basic@sta/mount-util.c.o'.
+[77/281] Compiling C object 'src/basic/basic@sta/ordered-set.c.o'.
+[78/281] Compiling C object 'src/basic/basic@sta/mkdir-label.c.o'.
+[79/281] Compiling C object 'src/basic/basic@sta/procfs-util.c.o'.
+[80/281] Compiling C object 'src/basic/basic@sta/prioq.c.o'.
+[81/281] Compiling C object 'src/basic/basic@sta/process-util.c.o'.
+[82/281] Compiling C object 'src/basic/basic@sta/parse-util.c.o'.
+[83/281] Compiling C object 'src/basic/basic@sta/path-util.c.o'.
+[84/281] Compiling C object 'src/basic/basic@sta/replace-var.c.o'.
+[85/281] Compiling C object 'src/basic/basic@sta/proc-cmdline.c.o'.
+[86/281] Compiling C object 'src/basic/basic@sta/random-util.c.o'.
+[87/281] Compiling C object 'src/basic/basic@sta/ratelimit.c.o'.
+[88/281] Compiling C object 'src/basic/basic@sta/siphash24.c.o'.
+[89/281] Compiling C object 'src/basic/basic@sta/rlimit-util.c.o'.
+[90/281] Compiling C object 'src/basic/basic@sta/smack-util.c.o'.
+[91/281] Compiling C object 'src/basic/basic@sta/sigbus.c.o'.
+[92/281] Compiling C object 'src/basic/basic@sta/rm-rf.c.o'.
+[93/281] Compiling C object 'src/basic/basic@sta/securebits-util.c.o'.
+[94/281] Compiling C object 'src/basic/basic@sta/selinux-util.c.o'.
+[95/281] Compiling C object 'src/basic/basic@sta/set.c.o'.
+[96/281] Compiling C object 'src/basic/basic@sta/signal-util.c.o'.
+[97/281] Compiling C object 'src/basic/basic@sta/stat-util.c.o'.
+[98/281] Compiling C object 'src/basic/basic@sta/socket-util.c.o'.
+[99/281] Compiling C object 'src/basic/basic@sta/socket-label.c.o'.
+[100/281] Compiling C object 'src/basic/basic@sta/socket-protocol-list.c.o'.
+[101/281] Compiling C object 'src/basic/basic@sta/syslog-util.c.o'.
+[102/281] Compiling C object 'src/basic/basic@sta/strv.c.o'.
+[103/281] Compiling C object 'src/basic/basic@sta/terminal-util.c.o'.
+[104/281] Compiling C object 'src/basic/basic@sta/string-table.c.o'.
+[105/281] Compiling C object 'src/basic/basic@sta/strbuf.c.o'.
+[106/281] Compiling C object 'src/basic/basic@sta/strxcpyx.c.o'.
+[107/281] Compiling C object 'src/basic/basic@sta/verbs.c.o'.
+[108/281] Compiling C object 'src/basic/basic@sta/string-util.c.o'.
+[109/281] Compiling C object 'src/basic/basic@sta/unit-name.c.o'.
+[110/281] Compiling C object 'src/basic/basic@sta/unit-def.c.o'.
+[111/281] Compiling C object 'src/basic/basic@sta/time-util.c.o'.
+[112/281] Compiling C object 'src/basic/basic@sta/utf8.c.o'.
+[113/281] Compiling C object 'src/basic/basic@sta/user-util.c.o'.
+[114/281] Compiling C object 'src/shared/systemd-shared-237@sta/boot-timestamps.c.o'.
+[115/281] Compiling C object 'src/shared/systemd-shared-237@sta/ask-password-api.c.o'.
+[116/281] Compiling C object 'src/shared/systemd-shared-237@sta/bootspec.c.o'.
+[117/281] Compiling C object 'src/basic/basic@sta/web-util.c.o'.
+[118/281] Compiling C object 'src/basic/basic@sta/virt.c.o'.
+[119/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-common-errors.c.o'.
+[120/281] Compiling C object 'src/basic/basic@sta/util.c.o'.
+[121/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-control.c.o'.
+[122/281] Compiling C object 'src/basic/basic-gcrypt@sta/gcrypt-util.c.o'.
+[123/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-convenience.c.o'.
+[124/281] Linking static target src/basic/libbasic-gcrypt.a.
+[125/281] Compiling C object 'src/basic/basic@sta/xml.c.o'.
+[126/281] Compiling C object 'src/basic/basic@sta/xattr-util.c.o'.
+[127/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-dump.c.o'.
+[128/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-error.c.o'.
+[129/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-match.c.o'.
+[130/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-creds.c.o'.
+[131/281] Linking static target src/basic/libbasic.a.
+[132/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-container.c.o'.
+[133/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-gvariant.c.o'.
+[134/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-internal.c.o'.
+[135/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-introspect.c.o'.
+[136/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-kernel.c.o'.
+[137/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-objects.c.o'.
+[138/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-signature.c.o'.
+[139/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-slot.c.o'.
+[140/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-message.c.o'.
+[141/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-socket.c.o'.
+[142/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-track.c.o'.
+[143/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_bus-type.c.o'.
+[144/281] Compiling C object 'src/libsystemd/systemd@sta/sd-daemon_sd-daemon.c.o'.
+[145/281] Compiling C object 'src/libsystemd/systemd@sta/sd-device_device-enumerator.c.o'.
+[146/281] Compiling C object 'src/libsystemd/systemd@sta/sd-bus_sd-bus.c.o'.
+[147/281] Compiling C object 'src/libsystemd/systemd@sta/sd-device_device-private.c.o'.
+[148/281] Compiling C object 'src/libsystemd/systemd@sta/sd-device_sd-device.c.o'.
+[149/281] Compiling C object 'src/libsystemd/systemd@sta/sd-event_sd-event.c.o'.
+[150/281] Compiling C object 'src/libsystemd/systemd@sta/sd-hwdb_sd-hwdb.c.o'.
+[151/281] Compiling C object 'src/libsystemd/systemd@sta/sd-id128_id128-util.c.o'.
+[152/281] Compiling C object 'src/libsystemd/systemd@sta/sd-id128_sd-id128.c.o'.
+[153/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_generic-netlink.c.o'.
+[154/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_local-addresses.c.o'.
+[155/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-socket.c.o'.
+[156/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-message.c.o'.
+[157/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-util.c.o'.
+[158/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_netlink-types.c.o'.
+[159/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_sd-netlink.c.o'.
+[160/281] Compiling C object 'src/libsystemd/systemd@sta/sd-netlink_rtnl-message.c.o'.
+[161/281] Compiling C object 'src/libsystemd/systemd@sta/sd-network_network-util.c.o'.
+[162/281] Compiling C object 'src/libsystemd/systemd@sta/sd-path_sd-path.c.o'.
+[163/281] Compiling C object 'src/libsystemd/systemd@sta/sd-utf8_sd-utf8.c.o'.
+[164/281] Compiling C object 'src/libsystemd/systemd@sta/sd-resolve_sd-resolve.c.o'.
+[165/281] Compiling C object 'src/libsystemd/systemd@sta/sd-login_sd-login.c.o'.
+[166/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp-client.c.o'.
+[167/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp-server.c.o'.
+[168/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-option.c.o'.
+[169/281] Linking static target src/libsystemd/libsystemd.a.
+[170/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-network.c.o'.
+[171/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-packet.c.o'.
+[172/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-ipv4ll.c.o'.
+[173/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp-lease.c.o'.
+[174/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-ipv4acd.c.o'.
+[175/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/arp-util.c.o'.
+[176/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/network-internal.c.o'.
+[177/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-ndisc.c.o'.
+[178/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/ndisc-router.c.o'.
+[179/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-radv.c.o'.
+[180/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/icmp6-util.c.o'.
+[181/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp6-network.c.o'.
+[182/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp6-client.c.o'.
+[183/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp6-option.c.o'.
+[184/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/dhcp-identifier.c.o'.
+[185/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-dhcp6-lease.c.o'.
+[186/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/lldp-network.c.o'.
+[187/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/lldp-neighbor.c.o'.
+[188/281] Compiling C object 'src/libsystemd-network/systemd-network@sta/sd-lldp.c.o'.
+[189/281] Linking static target src/libsystemd-network/libsystemd-network.a.
+[190/281] Compiling C object 'src/shared/systemd-shared-237@sta/acpi-fpdt.c.o'.
+[191/281] Compiling C object 'src/shared/systemd-shared-237@sta/apparmor-util.c.o'.
+[192/281] Compiling C object 'src/shared/systemd-shared-237@sta/base-filesystem.c.o'.
+[193/281] Generating audit_type-list.txt with a meson_exe.py custom command.
+[194/281] Compiling C object 'src/shared/systemd-shared-237@sta/dissect-image.c.o'.
+[195/281] Compiling C object 'src/shared/systemd-shared-237@sta/condition.c.o'.
+[196/281] Generating audit_type-to-name.h with a meson_exe.py custom command.
+[197/281] Compiling C object 'src/journal/journal-client@sta/audit-type.c.o'.
+[198/281] Compiling C object 'src/journal/journal-client@sta/catalog.c.o'.
+[199/281] Compiling C object 'src/journal/journal-client@sta/compress.c.o'.
+[200/281] Compiling C object 'src/shared/systemd-shared-237@sta/bus-unit-util.c.o'.
+[201/281] Compiling C object 'src/journal/journal-client@sta/journal-send.c.o'.
+[202/281] Compiling C object 'src/journal/journal-client@sta/journal-vacuum.c.o'.
+[203/281] Compiling C object 'src/journal/journal-client@sta/journal-verify.c.o'.
+[204/281] Compiling C object 'src/journal/journal-client@sta/journal-file.c.o'.
+[205/281] Compiling C object 'src/journal/journal-client@sta/lookup3.c.o'.
+[206/281] Compiling C object 'src/journal/journal-client@sta/mmap-cache.c.o'.
+[207/281] Compiling C object 'src/journal/journal-client@sta/journal-authenticate.c.o'.
+[208/281] Compiling C object 'src/journal/journal-client@sta/fsprg.c.o'.
+[209/281] Compiling C object 'src/journal/journal-client@sta/sd-journal.c.o'.
+[210/281] Linking static target src/journal/libjournal-client.a.
+[211/281] Compiling C object 'src/shared/systemd-shared-237@sta/bus-util.c.o'.
+[212/281] Compiling C object 'src/shared/systemd-shared-237@sta/cgroup-show.c.o'.
+[213/281] Compiling C object 'src/shared/systemd-shared-237@sta/clean-ipc.c.o'.
+[214/281] Compiling C object 'src/shared/systemd-shared-237@sta/conf-parser.c.o'.
+[215/281] Compiling C object 'src/shared/systemd-shared-237@sta/dns-domain.c.o'.
+[216/281] Compiling C object 'src/shared/systemd-shared-237@sta/dropin.c.o'.
+[217/281] Compiling C object 'src/shared/systemd-shared-237@sta/dev-setup.c.o'.
+[218/281] Compiling C object 'src/shared/systemd-shared-237@sta/fstab-util.c.o'.
+[219/281] Compiling C object 'src/shared/systemd-shared-237@sta/generator.c.o'.
+[220/281] Compiling C object 'src/shared/systemd-shared-237@sta/efivars.c.o'.
+[221/281] Compiling C object 'src/shared/systemd-shared-237@sta/fdset.c.o'.
+[222/281] Compiling C object 'src/shared/systemd-shared-237@sta/ima-util.c.o'.
+[223/281] Compiling C object 'src/shared/systemd-shared-237@sta/import-util.c.o'.
+[224/281] Compiling C object 'src/shared/systemd-shared-237@sta/loop-util.c.o'.
+[225/281] Compiling C object 'src/shared/systemd-shared-237@sta/journal-util.c.o'.
+[226/281] Compiling C object 'src/shared/systemd-shared-237@sta/install-printf.c.o'.
+[227/281] Compiling C object 'src/shared/systemd-shared-237@sta/install.c.o'.
+[228/281] Compiling C object 'src/shared/systemd-shared-237@sta/output-mode.c.o'.
+[229/281] Compiling C object 'src/shared/systemd-shared-237@sta/machine-pool.c.o'.
+[230/281] Compiling C object 'src/shared/systemd-shared-237@sta/logs-show.c.o'.
+[231/281] Compiling C object 'src/shared/systemd-shared-237@sta/nsflags.c.o'.
+[232/281] Compiling C object 'src/shared/systemd-shared-237@sta/resolve-util.c.o'.
+[233/281] Compiling C object 'src/shared/systemd-shared-237@sta/machine-image.c.o'.
+[234/281] Compiling C object 'src/shared/systemd-shared-237@sta/pager.c.o'.
+[235/281] Compiling C object 'src/shared/systemd-shared-237@sta/path-lookup.c.o'.
+[236/281] Compiling C object 'src/shared/systemd-shared-237@sta/spawn-polkit-agent.c.o'.
+[237/281] Compiling C object 'src/shared/systemd-shared-237@sta/ptyfwd.c.o'.
+[238/281] Compiling C object 'src/shared/systemd-shared-237@sta/switch-root.c.o'.
+[239/281] Compiling C object 'src/shared/systemd-shared-237@sta/spawn-ask-password-agent.c.o'.
+[240/281] Compiling C object 'src/shared/systemd-shared-237@sta/tests.c.o'.
+[241/281] Compiling C object 'src/shared/systemd-shared-237@sta/sleep-config.c.o'.
+[242/281] Compiling C object 'src/shared/systemd-shared-237@sta/tomoyo-util.c.o'.
+[243/281] Compiling C object 'src/shared/systemd-shared-237@sta/specifier.c.o'.
+[244/281] Compiling C object 'src/shared/systemd-shared-237@sta/udev-util.c.o'.
+[245/281] Compiling C object 'src/shared/systemd-shared-237@sta/sysctl-util.c.o'.
+[246/281] Compiling C object 'src/shared/systemd-shared-237@sta/volatile-util.c.o'.
+[247/281] Compiling C object 'src/shared/systemd-shared-237@sta/uid-range.c.o'.
+[248/281] Compiling C object 'src/shared/systemd-shared-237@sta/watchdog.c.o'.
+[249/281] Compiling C object 'src/shared/systemd-shared-237@sta/vlan-util.c.o'.
+[250/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-list.c.o'.
+[251/281] Compiling C object 'src/shared/systemd-shared-237@sta/acl-util.c.o'.
+[252/281] Compiling C object 'src/shared/systemd-shared-237@sta/utmp-wtmp.c.o'.
+[253/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev.c.o'.
+[254/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-device.c.o'.
+[255/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-hwdb.c.o'.
+[256/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-util.c.o'.
+[257/281] Linking static target src/shared/libsystemd-shared-237.a.
+[258/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-enumerate.c.o'.
+[259/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-device-private.c.o'.
+[260/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-queue.c.o'.
+[261/281] Compiling C object 'src/shared/systemd-shared-237@sha/.._libudev_libudev-monitor.c.o'.
+[262/281] Linking target src/shared/libsystemd-shared-237.so.
+[263/281] Generating dns_type-list.txt with a meson_exe.py custom command.
+[264/281] Generating symbol file 'src/shared/systemd-shared-237@sha/src/shared/libsystemd-shared-237.so.symbols'.
+[265/281] Generating dns_type-from-name.gperf with a meson_exe.py custom command.
+[266/281] Generating dns_type-to-name.h with a meson_exe.py custom command.
+[267/281] Compiling C object 'fuzz-dhcp-server@exe/src_fuzz_fuzz-main.c.o'.
+[268/281] Generating dns_type-from-name.h with a meson_exe.py custom command.
+[269/281] Compiling C object 'fuzz-dhcp-server@exe/src_fuzz_fuzz-dhcp-server.c.o'.
+[270/281] Compiling C object 'src/resolve/systemd-resolve-core@sta/dns-type.c.o'.
+[271/281] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-dnssec.c.o'.
+[272/281] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-rr.c.o'.
+[273/281] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-packet.c.o'.
+[274/281] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-question.c.o'.
+[275/281] Compiling C object 'src/resolve/systemd-resolve-core@sta/resolved-dns-answer.c.o'.
+[276/281] Compiling C object 'fuzz-dns-packet@exe/src_fuzz_fuzz-main.c.o'.
+[277/281] Linking static target src/resolve/libsystemd-resolve-core.a.
+[278/281] Linking target fuzz-dhcp-server.
+[279/281] Compiling C object 'fuzz-dns-packet@exe/src_fuzz_fuzz-dns-packet.c.o'.
+[280/281] Linking target fuzz-dns-packet.
+[280/281] Running external command fuzzers.
+[788/1483] Linking target systemd-networkd.
+[789/1483] Linking target systemd-nspawn.
+[790/1483] Compiling C object 'systemd-networkd-wait-online@exe/src_network_wait-online_link.c.o'.
+[791/1483] Compiling C object 'networkctl@exe/src_network_networkctl.c.o'.
+[792/1483] Compiling C object 'systemd-networkd-wait-online@exe/src_network_wait-online_wait-online.c.o'.
+[793/1483] Linking target networkctl.
+[794/1483] Linking target systemd-networkd-wait-online.
+[795/1483] Compiling C object 'systemd-sulogin-shell@exe/src_sulogin-shell_sulogin-shell.c.o'.
+[796/1483] Compiling C object 'test-network@exe/src_network_test-network.c.o'.
+[797/1483] Linking target systemd-sulogin-shell.
+[798/1483] Compiling C object 'test-networkd-conf@exe/src_network_test-networkd-conf.c.o'.
+[799/1483] Linking target test-network.
+[800/1483] Linking target test-networkd-conf.
+[801/1483] Compiling C object 'test-network-tables@exe/src_network_test-network-tables.c.o'.
+[802/1483] Compiling C object 'test-routing-policy-rule@exe/src_network_test-routing-policy-rule.c.o'.
+[803/1483] Linking target test-network-tables.
+[804/1483] Compiling C object 'test-coredump-vacuum@exe/src_coredump_test-coredump-vacuum.c.o'.
+[805/1483] Linking target test-routing-policy-rule.
+[806/1483] Compiling C object 'test-coredump-vacuum@exe/src_coredump_coredump-vacuum.c.o'.
+[807/1483] Linking target test-coredump-vacuum.
+[808/1483] Compiling C object 'test-keymap-util@exe/src_locale_keymap-util.c.o'.
+[809/1483] Compiling C object 'test-qcow2@exe/src_import_test-qcow2.c.o'.
+[810/1483] Compiling C object 'test-qcow2@exe/src_import_qcow2-util.c.o'.
+[811/1483] Compiling C object 'test-keymap-util@exe/src_locale_test-keymap-util.c.o'.
+[812/1483] Linking target test-qcow2.
+[813/1483] Linking target test-keymap-util.
+[814/1483] Compiling C object 'test-machine-tables@exe/src_machine_test-machine-tables.c.o'.
+[815/1483] Compiling C object 'test-patch-uid@exe/src_nspawn_test-patch-uid.c.o'.
+[816/1483] Linking target test-machine-tables.
+[817/1483] Compiling C object 'test-patch-uid@exe/src_nspawn_nspawn-patch-uid.c.o'.
+[818/1483] Compiling C object 'test-timesync@exe/src_timesync_timesyncd-server.c.o'.
+[819/1483] Linking target test-patch-uid.
+[820/1483] Compiling C object 'test-timesync@exe/meson-generated_.._src_timesync_timesyncd-gperf.c.o'.
+[821/1483] Compiling C object 'test-timesync@exe/src_timesync_timesyncd-manager.c.o'.
+[822/1483] Compiling C object 'test-timesync@exe/src_timesync_test-timesync.c.o'.
+[823/1483] Compiling C object 'test-device-nodes@exe/src_test_test-device-nodes.c.o'.
+[824/1483] Linking target test-device-nodes.
+[825/1483] Compiling C object 'test-timesync@exe/src_timesync_timesyncd-conf.c.o'.
+[826/1483] Compiling C object 'test-engine@exe/src_test_test-helper.c.o'.
+[827/1483] Linking target test-timesync.
+[828/1483] Compiling C object 'test-ns@exe/src_test_test-ns.c.o'.
+[829/1483] Compiling C object 'test-job-type@exe/src_test_test-job-type.c.o'.
+[830/1483] Compiling C object 'test-engine@exe/src_test_test-engine.c.o'.
+[831/1483] Linking target test-job-type.
+[832/1483] Compiling C object 'test-hostname@exe/src_test_test-hostname.c.o'.
+[833/1483] Linking target test-engine.
+[834/1483] Compiling C object 'test-loopback@exe/src_test_test-loopback.c.o'.
+[835/1483] Linking target test-ns.
+[836/1483] Linking target test-loopback.
+[837/1483] Linking target test-boot-timestamps.
+[838/1483] Linking target test-hostname.
+[839/1483] Compiling C object 'test-unit-name@exe/src_test_test-unit-name.c.o'.
+[840/1483] Compiling C object 'test-dns-domain@exe/src_test_test-dns-domain.c.o'.
+[841/1483] Linking target test-unit-name.
+[842/1483] Linking target test-dns-domain.
+[843/1483] Generating systemd-binfmt.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-binfmt.service
+[844/1483] Generating systemd-cat.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-cat
+[845/1483] Generating systemd-cgls.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-cgls
+[846/1483] Generating systemd-cgtop.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-cgtop
+[847/1483] Generating systemd-coredump.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-coredump
+[848/1483] Generating systemd-cryptsetup-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-cryptsetup-generator
+[849/1483] Linking target test-utf8.
+[850/1483] Generating systemd-cryptsetup@.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-cryptsetup@.service
+[851/1483] Compiling C object 'test-capability@exe/src_test_test-capability.c.o'.
+[852/1483] Compiling C object 'test-sigbus@exe/src_test_test-sigbus.c.o'.
+[853/1483] Linking target test-capability.
+[854/1483] Compiling C object 'test-async@exe/src_test_test-async.c.o'.
+[855/1483] Compiling C object 'test-locale-util@exe/src_test_test-locale-util.c.o'.
+[856/1483] Linking target test-async.
+[857/1483] Linking target test-locale-util.
+[858/1483] Linking target test-sigbus.
+[859/1483] Compiling C object 'test-copy@exe/src_test_test-copy.c.o'.
+[860/1483] Linking target test-copy.
+[861/1483] Compiling C object 'test-random-util@exe/src_test_test-random-util.c.o'.
+[862/1483] Compiling C object 'test-condition@exe/src_test_test-condition.c.o'.
+[863/1483] Linking target test-condition.
+[864/1483] Compiling C object 'test-fstab-util@exe/src_test_test-fstab-util.c.o'.
+[865/1483] Linking target test-fstab-util.
+[866/1483] Compiling C object 'test-fdset@exe/src_test_test-fdset.c.o'.
+[867/1483] Linking target test-random-util.
+[868/1483] Linking target test-fdset.
+[869/1483] Compiling C object 'test-ratelimit@exe/src_test_test-ratelimit.c.o'.
+[870/1483] Compiling C object 'test-ipv4ll@exe/src_libsystemd-network_test-ipv4ll.c.o'.
+[871/1483] Linking target test-ipv4ll.
+[872/1483] Compiling C object 'test-util@exe/src_test_test-util.c.o'.
+[873/1483] Linking target test-ratelimit.
+[874/1483] Compiling C object 'test-exec-util@exe/src_test_test-exec-util.c.o'.
+[875/1483] Compiling C object 'test-mount-util@exe/src_test_test-mount-util.c.o'.
+[876/1483] Linking target test-util.
+[877/1483] Linking target test-mount-util.
+[878/1483] Compiling C object 'test-io-util@exe/src_test_test-io-util.c.o'.
+[879/1483] Compiling C object 'test-xattr-util@exe/src_test_test-xattr-util.c.o'.
+[880/1483] Linking target test-exec-util.
+[881/1483] Linking target test-xattr-util.
+[882/1483] Compiling C object 'test-hexdecoct@exe/src_test_test-hexdecoct.c.o'.
+[883/1483] Compiling C object 'test-alloc-util@exe/src_test_test-alloc-util.c.o'.
+[884/1483] Linking target test-hexdecoct.
+[885/1483] Linking target test-alloc-util.
+[886/1483] Compiling C object 'test-proc-cmdline@exe/src_test_test-proc-cmdline.c.o'.
+[887/1483] Compiling C object 'test-fd-util@exe/src_test_test-fd-util.c.o'.
+[888/1483] Linking target test-proc-cmdline.
+[889/1483] Linking target test-io-util.
+[890/1483] Compiling C object 'test-glob-util@exe/src_test_test-glob-util.c.o'.
+[891/1483] Linking target test-glob-util.
+[892/1483] Compiling C object 'test-fs-util@exe/src_test_test-fs-util.c.o'.
+[893/1483] Compiling C object 'test-escape@exe/src_test_test-escape.c.o'.
+[894/1483] Linking target test-fs-util.
+[895/1483] Compiling C object 'test-web-util@exe/src_test_test-web-util.c.o'.
+[896/1483] Linking target test-fd-util.
+[897/1483] Linking target test-web-util.
+[898/1483] Compiling C object 'test-cpu-set-util@exe/src_test_test-cpu-set-util.c.o'.
+[899/1483] Linking target test-cpu-set-util.
+[900/1483] Compiling C object 'test-extract-word@exe/src_test_test-extract-word.c.o'.
+[901/1483] Linking target test-extract-word.
+[902/1483] Compiling C object 'test-stat-util@exe/src_test_test-stat-util.c.o'.
+[903/1483] Linking target test-escape.
+[904/1483] Linking target test-stat-util.
+[905/1483] Compiling C object 'test-specifier@exe/src_test_test-specifier.c.o'.
+[906/1483] Linking target test-specifier.
+[907/1483] Compiling C object 'test-string-util@exe/src_test_test-string-util.c.o'.
+[908/1483] Linking target test-string-util.
+[909/1483] Compiling C object 'test-parse-util@exe/src_test_test-parse-util.c.o'.
+[910/1483] Linking target test-parse-util.
+[911/1483] Compiling C object 'test-process-util@exe/src_test_test-process-util.c.o'.
+[912/1483] Linking target test-process-util.
+[913/1483] Compiling C object 'test-terminal-util@exe/src_test_test-terminal-util.c.o'.
+[914/1483] Compiling C object 'test-user-util@exe/src_test_test-user-util.c.o'.
+[915/1483] Compiling C object 'test-hostname-util@exe/src_test_test-hostname-util.c.o'.
+[916/1483] Linking target test-user-util.
+[917/1483] Linking target test-hostname-util.
+[918/1483] Compiling C object 'test-cap-list@exe/src_test_test-cap-list.c.o'.
+[919/1483] Compiling C object 'test-socket-util@exe/src_test_test-socket-util.c.o'.
+[920/1483] Linking target test-cap-list.
+[921/1483] Linking target test-terminal-util.
+[922/1483] Compiling C object 'test-uid-range@exe/src_test_test-uid-range.c.o'.
+[923/1483] Linking target test-uid-range.
+[924/1483] Compiling C object 'test-path-lookup@exe/src_test_test-path-lookup.c.o'.
+[925/1483] Linking target test-socket-util.
+[926/1483] Linking target test-path-lookup.
+[927/1483] Compiling C object 'test-in-addr-util@exe/src_test_test-in-addr-util.c.o'.
+[928/1483] Compiling C object 'test-verbs@exe/src_test_test-verbs.c.o'.
+[929/1483] Linking target test-in-addr-util.
+[930/1483] Compiling C object 'test-tmpfiles@exe/src_test_test-tmpfiles.c.o'.
+[931/1483] Linking target test-tmpfiles.
+[932/1483] Compiling C object 'test-barrier@exe/src_test_test-barrier.c.o'.
+[933/1483] Linking target test-verbs.
+[934/1483] Linking target test-barrier.
+[935/1483] Compiling C object 'test-namespace@exe/src_test_test-namespace.c.o'.
+[936/1483] Linking target test-namespace.
+[937/1483] Compiling C object 'test-acl-util@exe/src_test_test-acl-util.c.o'.
+[938/1483] Compiling C object 'test-signal-util@exe/src_test_test-signal-util.c.o'.
+[939/1483] Compiling C object 'test-install-root@exe/src_test_test-install-root.c.o'.
+[940/1483] Linking target test-signal-util.
+[941/1483] Linking target test-install-root.
+[942/1483] Linking target test-acl-util.
+[943/1483] Compiling C object 'test-dissect-image@exe/src_test_test-dissect-image.c.o'.
+[944/1483] Compiling C object 'test-rlimit-util@exe/src_test_test-rlimit-util.c.o'.
+[945/1483] Linking target test-dissect-image.
+[946/1483] Linking target test-rlimit-util.
+[947/1483] Compiling C object 'test-ask-password-api@exe/src_test_test-ask-password-api.c.o'.
+[948/1483] Compiling C object 'test-selinux@exe/src_test_test-selinux.c.o'.
+[949/1483] Linking target test-ask-password-api.
+[950/1483] Linking target test-selinux.
+[951/1483] Compiling C object 'test-bpf@exe/src_test_test-bpf.c.o'.
+[952/1483] Compiling C object 'test-watch-pid@exe/src_test_test-helper.c.o'.
+[953/1483] Compiling C object 'test-sizeof@exe/src_test_test-sizeof.c.o'.
+[954/1483] Compiling C object 'test-bpf@exe/src_test_test-helper.c.o'.
+[955/1483] Linking target test-sizeof.
+[956/1483] Compiling C object 'test-watch-pid@exe/src_test_test-watch-pid.c.o'.
+[957/1483] Linking target test-bpf.
+[958/1483] Compiling C object 'test-hashmap@exe/src_test_test-hashmap.c.o'.
+[959/1483] Linking target test-watch-pid.
+[960/1483] Compiling C object 'test-hashmap@exe/src_test_test-hashmap-plain.c.o'.
+[961/1483] Compiling C object 'test-hashmap@exe/meson-generated_.._src_test_test-hashmap-ordered.c.o'.
+[962/1483] Compiling C object 'test-bitmap@exe/src_test_test-bitmap.c.o'.
+[963/1483] Compiling C object 'test-set@exe/src_test_test-set.c.o'.
+[964/1483] Linking target test-hashmap.
+[965/1483] Linking target test-set.
+[966/1483] Linking target test-bitmap.
+[967/1483] Compiling C object 'test-xml@exe/src_test_test-xml.c.o'.
+[968/1483] Compiling C object 'test-unaligned@exe/src_test_test-unaligned.c.o'.
+[969/1483] Linking target test-xml.
+[970/1483] Compiling C object 'test-procfs-util@exe/src_test_test-procfs-util.c.o'.
+[971/1483] Compiling C object 'test-list@exe/src_test_test-list.c.o'.
+[972/1483] Linking target test-procfs-util.
+[973/1483] Linking target test-list.
+[974/1483] Linking target test-unaligned.
+[975/1483] Compiling C object 'test-tables@exe/src_test_test-tables.c.o'.
+[976/1483] Compiling C object 'test-prioq@exe/src_test_test-prioq.c.o'.
+[977/1483] Linking target test-prioq.
+[978/1483] Compiling C object 'test-tables@exe/src_journal_journald-server.c.o'.
+[979/1483] Compiling C object 'test-fileio@exe/src_test_test-fileio.c.o'.
+[980/1483] Linking target test-fileio.
+[981/1483] Linking target test-tables.
+[982/1483] Compiling C object 'test-clock@exe/src_test_test-clock.c.o'.
+[983/1483] Compiling C object 'test-time-util@exe/src_test_test-time-util.c.o'.
+[984/1483] Linking target test-clock.
+[985/1483] Linking target test-time-util.
+[986/1483] Compiling C object 'test-architecture@exe/src_test_test-architecture.c.o'.
+[987/1483] Compiling C object 'test-btrfs@exe/src_test_test-btrfs.c.o'.
+[988/1483] Linking target test-architecture.
+[989/1483] Compiling C object 'test-ipcrm@exe/src_test_test-ipcrm.c.o'.
+[990/1483] Compiling C object 'test-log@exe/src_test_test-log.c.o'.
+[991/1483] Linking target test-ipcrm.
+[992/1483] Linking target test-log.
+[993/1483] Compiling C object 'test-ellipsize@exe/src_test_test-ellipsize.c.o'.
+[994/1483] Compiling C object 'test-date@exe/src_test_test-date.c.o'.
+[995/1483] Linking target test-ellipsize.
+[996/1483] Linking target test-btrfs.
+[997/1483] Compiling C object 'test-netlink-manual@exe/src_test_test-netlink-manual.c.o'.
+[998/1483] Compiling C object 'test-calendarspec@exe/src_test_test-calendarspec.c.o'.
+[999/1483] Linking target test-netlink-manual.
+[1000/1483] Compiling C object 'test-replace-var@exe/src_test_test-replace-var.c.o'.
+[1001/1483] Compiling C object 'test-sleep@exe/src_test_test-sleep.c.o'.
+[1002/1483] Linking target test-replace-var.
+[1003/1483] Linking target test-date.
+[1004/1483] Linking target test-sleep.
+[1005/1483] Linking target test-calendarspec.
+[1006/1483] Compiling C object 'test-strip-tab-ansi@exe/src_test_test-strip-tab-ansi.c.o'.
+[1007/1483] Compiling C object 'test-cgroup@exe/src_test_test-cgroup.c.o'.
+[1008/1483] Compiling C object 'test-cgroup-util@exe/src_test_test-cgroup-util.c.o'.
+[1009/1483] Linking target test-strip-tab-ansi.
+[1010/1483] Compiling C object 'test-daemon@exe/src_test_test-daemon.c.o'.
+[1011/1483] Linking target test-cgroup.
+[1012/1483] Linking target test-daemon.
+[1013/1483] Compiling C object 'test-cgroup-mask@exe/src_test_test-helper.c.o'.
+[1014/1483] Compiling C object 'test-cgroup-mask@exe/src_test_test-cgroup-mask.c.o'.
+[1015/1483] Compiling C object 'test-strbuf@exe/src_test_test-strbuf.c.o'.
+[1016/1483] Linking target test-strbuf.
+[1017/1483] Linking target test-cgroup-mask.
+[1018/1483] Linking target test-cgroup-util.
+[1019/1483] Compiling C object 'test-path@exe/src_test_test-helper.c.o'.
+[1020/1483] Compiling C object 'test-env-util@exe/src_test_test-env-util.c.o'.
+[1021/1483] Linking target test-env-util.
+[1022/1483] Compiling C object 'test-strv@exe/src_test_test-strv.c.o'.
+[1023/1483] Compiling C object 'test-path-util@exe/src_test_test-path-util.c.o'.
+[1024/1483] Linking target test-strv.
+[1025/1483] Linking target test-path-util.
+[1026/1483] Compiling C object 'test-execute@exe/src_test_test-execute.c.o'.
+[1027/1483] Compiling C object 'test-path@exe/src_test_test-path.c.o'.
+[1028/1483] Linking target test-execute.
+[1029/1483] Linking target test-path.
+[1030/1483] Generating systemd.automount.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.automount
+[1031/1483] Generating systemd.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd
+[1032/1483] Generating systemd.device.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.device
+[1033/1483] Generating systemd.dnssd.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.dnssd
+[1034/1483] Compiling C object 'test-siphash24@exe/src_test_test-siphash24.c.o'.
+[1035/1483] Generating systemd.environment-generator.7 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.environment-generator
+[1036/1483] Linking target test-siphash24.
+[1037/1483] Compiling C object 'test-strxcpyx@exe/src_test_test-strxcpyx.c.o'.
+[1038/1483] Linking target test-watchdog.
+[1039/1483] Linking target test-strxcpyx.
+[1040/1483] Compiling C object 'test-sched-prio@exe/src_test_test-helper.c.o'.
+[1041/1483] Compiling C object 'test-journal-importer@exe/src_test_test-journal-importer.c.o'.
+[1042/1483] Compiling C object 'test-sched-prio@exe/src_test_test-sched-prio.c.o'.
+[1043/1483] Compiling C object 'test-conf-files@exe/src_test_test-conf-files.c.o'.
+[1044/1483] Linking target test-conf-files.
+[1045/1483] Linking target test-sched-prio.
+[1046/1483] Compiling C object 'test-af-list@exe/src_test_test-af-list.c.o'.
+[1047/1483] Linking target test-af-list.
+[1048/1483] Compiling C object 'test-arphrd-list@exe/src_test_test-arphrd-list.c.o'.
+[1049/1483] Linking target test-arphrd-list.
+[1050/1483] Linking target test-journal-importer.
+[1051/1483] Compiling C object 'test-conf-parser@exe/src_test_test-conf-parser.c.o'.
+[1052/1483] Linking target test-conf-parser.
+[1053/1483] Compiling C object 'test-udev@exe/src_test_test-udev.c.o'.
+[1054/1483] Compiling C object 'test-id128@exe/src_test_test-id128.c.o'.
+[1055/1483] Compiling C object 'test-libudev@exe/src_test_test-libudev.c.o'.
+[1056/1483] Linking target test-id128.
+[1057/1483] Linking target test-libudev.
+[1058/1483] Compiling C object 'test-hash@exe/src_test_test-hash.c.o'.
+[1059/1483] Linking target test-udev.
+[1060/1483] Linking target test-hash.
+[1061/1483] Compiling C object 'test-journal@exe/src_journal_test-journal.c.o'.
+[1062/1483] Linking target test-journal.
+[1063/1483] Compiling C object 'test-journal-send@exe/src_journal_test-journal-send.c.o'.
+[1064/1483] Compiling C object 'test-nss@exe/src_test_test-nss.c.o'.
+[1065/1483] Linking target test-journal-send.
+[1066/1483] Linking target test-nss.
+[1067/1483] Compiling C object 'test-journal-syslog@exe/src_journal_test-journal-syslog.c.o'.
+[1068/1483] Compiling C object 'test-journal-match@exe/src_journal_test-journal-match.c.o'.
+[1069/1483] Linking target test-journal-syslog.
+[1070/1483] Linking target test-journal-match.
+[1071/1483] Compiling C object 'test-journal-enum@exe/src_journal_test-journal-enum.c.o'.
+[1072/1483] Compiling C object 'test-journal-stream@exe/src_journal_test-journal-stream.c.o'.
+[1073/1483] Linking target test-journal-enum.
+[1074/1483] Compiling C object 'test-journal-flush@exe/src_journal_test-journal-flush.c.o'.
+[1075/1483] Compiling C object 'test-journal-init@exe/src_journal_test-journal-init.c.o'.
+[1076/1483] Linking target test-journal-flush.
+[1077/1483] Linking target test-journal-stream.
+[1078/1483] Linking target test-journal-init.
+[1079/1483] Compiling C object 'test-journal-verify@exe/src_journal_test-journal-verify.c.o'.
+[1080/1483] Compiling C object 'test-catalog@exe/src_journal_test-catalog.c.o'.
+[1081/1483] Linking target test-journal-verify.
+[1082/1483] Compiling C object 'test-journal-interleaving@exe/src_journal_test-journal-interleaving.c.o'.
+[1083/1483] Compiling C object 'test-mmap-cache@exe/src_journal_test-mmap-cache.c.o'.
+[1084/1483] Linking target test-journal-interleaving.
+[1085/1483] Linking target test-mmap-cache.
+[1086/1483] Compiling C object 'test-compress-benchmark@exe/src_journal_test-compress-benchmark.c.o'.
+[1087/1483] Linking target test-catalog.
+[1088/1483] Compiling C object 'test-compress@exe/src_journal_test-compress.c.o'.
+[1089/1483] Linking target test-compress-benchmark.
+[1090/1483] Compiling C object 'test-audit-type@exe/src_journal_test-audit-type.c.o'.
+[1091/1483] Linking target test-compress.
+[1092/1483] Linking target test-audit-type.
+[1093/1483] Compiling C object 'test-bus-signature@exe/src_libsystemd_sd-bus_test-bus-signature.c.o'.
+[1094/1483] Linking target test-bus-signature.
+[1095/1483] Compiling C object 'test-bus-marshal@exe/src_libsystemd_sd-bus_test-bus-marshal.c.o'.
+[1096/1483] Linking target test-bus-marshal.
+[1097/1483] Compiling C object 'test-bus-watch-bind@exe/src_libsystemd_sd-bus_test-bus-watch-bind.c.o'.
+[1098/1483] Linking target test-bus-watch-bind.
+[1099/1483] Compiling C object 'test-bus-chat@exe/src_libsystemd_sd-bus_test-bus-chat.c.o'.
+[1100/1483] Compiling C object 'test-bus-cleanup@exe/src_libsystemd_sd-bus_test-bus-cleanup.c.o'.
+[1101/1483] Linking target test-bus-chat.
+[1102/1483] Linking target test-bus-cleanup.
+[1103/1483] Compiling C object 'test-bus-error@exe/src_libsystemd_sd-bus_test-bus-error.c.o'.
+[1104/1483] Compiling C object 'test-bus-vtable@exe/src_libsystemd_sd-bus_test-bus-vtable.c.o'.
+[1105/1483] Compiling C object 'test-bus-objects@exe/src_libsystemd_sd-bus_test-bus-objects.c.o'.
+[1106/1483] Linking target test-bus-error.
+[1107/1483] Linking target test-bus-objects.
+[1108/1483] Compiling C object 'test-bus-track@exe/src_libsystemd_sd-bus_test-bus-track.c.o'.
+[1109/1483] Linking target test-bus-track.
+[1110/1483] Compiling C object 'test-bus-server@exe/src_libsystemd_sd-bus_test-bus-server.c.o'.
+[1111/1483] Linking target test-bus-server.
+[1112/1483] Compiling C object 'test-bus-match@exe/src_libsystemd_sd-bus_test-bus-match.c.o'.
+[1113/1483] Linking target test-bus-vtable.
+[1114/1483] Compiling C object 'test-local-addresses@exe/src_libsystemd_sd-netlink_test-local-addresses.c.o'.
+[1115/1483] Compiling C object 'test-bus-gvariant@exe/src_libsystemd_sd-bus_test-bus-gvariant.c.o'.
+[1116/1483] Linking target test-bus-gvariant.
+[1117/1483] Compiling C object 'test-netlink@exe/src_libsystemd_sd-netlink_test-netlink.c.o'.
+[1118/1483] Linking target test-netlink.
+[1119/1483] Compiling C object 'test-bus-creds@exe/src_libsystemd_sd-bus_test-bus-creds.c.o'.
+[1120/1483] Linking target test-bus-match.
+[1121/1483] Linking target test-bus-creds.
+[1122/1483] Compiling C object 'test-bus-introspect@exe/src_libsystemd_sd-bus_test-bus-introspect.c.o'.
+[1123/1483] Compiling C object 'test-bus-benchmark@exe/src_libsystemd_sd-bus_test-bus-benchmark.c.o'.
+[1124/1483] Linking target test-bus-introspect.
+[1125/1483] Linking target test-bus-benchmark.
+[1126/1483] Compiling C object 'test-resolve@exe/src_libsystemd_sd-resolve_test-resolve.c.o'.
+[1127/1483] Compiling C object 'test-event@exe/src_libsystemd_sd-event_test-event.c.o'.
+[1128/1483] Linking target test-resolve.
+[1129/1483] Linking target test-event.
+[1130/1483] Linking target test-local-addresses.
+[1131/1483] Compiling C++ object 'test-bus-vtable-cc@exe/src_libsystemd_sd-bus_test-bus-vtable-cc.cc.o'.
+[1132/1483] Linking target test-bus-vtable-cc.
+[1133/1483] Compiling C object 'test-login@exe/src_libsystemd_sd-login_test-login.c.o'.
+[1134/1483] Linking target test-login.
+[1135/1483] Compiling C object 'test-dhcp-option@exe/src_libsystemd-network_test-dhcp-option.c.o'.
+[1136/1483] Linking target test-dhcp-option.
+[1137/1483] Compiling C object 'test-sd-dhcp-lease@exe/src_libsystemd-network_test-sd-dhcp-lease.c.o'.
+[1138/1483] Linking target test-sd-dhcp-lease.
+[1139/1483] Compiling C object 'test-dhcp-client@exe/src_libsystemd-network_test-dhcp-client.c.o'.
+[1140/1483] Compiling C object 'test-dhcp-server@exe/src_libsystemd-network_test-dhcp-server.c.o'.
+[1141/1483] Linking target test-dhcp-client.
+[1142/1483] Linking target test-dhcp-server.
+[1143/1483] Compiling C object 'test-ipv4ll-manual@exe/src_libsystemd-network_test-ipv4ll-manual.c.o'.
+[1144/1483] Compiling C object 'test-ndisc-rs@exe/src_libsystemd-network_test-ndisc-rs.c.o'.
+[1145/1483] Compiling C object 'test-ndisc-rs@exe/src_libsystemd-network_dhcp-identifier.c.o'.
+[1146/1483] Linking target test-ipv4ll-manual.
+[1147/1483] Linking target test-ndisc-rs.
+[1148/1483] Compiling C object 'test-acd@exe/src_libsystemd-network_test-acd.c.o'.
+[1149/1483] Linking target test-acd.
+[1150/1483] Compiling C object 'test-dhcp6-client@exe/src_libsystemd-network_test-dhcp6-client.c.o'.
+[1151/1483] Compiling C object 'test-ndisc-ra@exe/src_libsystemd-network_test-ndisc-ra.c.o'.
+[1152/1483] Compiling C object 'test-dhcp6-client@exe/src_libsystemd-network_dhcp-identifier.c.o'.
+[1153/1483] Linking target test-ndisc-ra.
+[1154/1483] Linking target test-dhcp6-client.
+[1155/1483] Compiling C object 'test-lldp@exe/src_libsystemd-network_test-lldp.c.o'.
+[1156/1483] Compiling C object 'test-inhibit@exe/src_login_test-inhibit.c.o'.
+[1157/1483] Compiling C object 'test-login-shared@exe/src_login_test-login-shared.c.o'.
+[1158/1483] Linking target test-lldp.
+[1159/1483] Linking target test-login-shared.
+[1160/1483] Compiling C object 'fuzz-dhcp-server@exe/src_fuzz_fuzz-main.c.o'.
+[1161/1483] Compiling C object 'fuzz-dhcp-server@exe/src_fuzz_fuzz-dhcp-server.c.o'.
+[1162/1483] Compiling C object 'fuzz-dns-packet@exe/src_fuzz_fuzz-dns-packet.c.o'.
+[1163/1483] Linking target fuzz-dhcp-server.
+[1164/1483] Linking target test-inhibit.
+[1165/1483] Compiling C object 'test-libsystemd-sym@exe/meson-generated_.._src_test_test-libsystemd-sym.c.o'.
+[1166/1483] Compiling C object 'test-login-tables@exe/src_login_test-login-tables.c.o'.
+[1167/1483] Linking target test-libsystemd-sym.
+[1168/1483] Compiling C object 'test-libudev-sym@exe/meson-generated_.._src_test_test-libudev-sym.c.o'.
+[1169/1483] Linking target test-login-tables.
+[1170/1483] Linking target test-libudev-sym.
+[1171/1483] Compiling C object 'fuzz-dns-packet@exe/src_fuzz_fuzz-main.c.o'.
+[1172/1483] Linking target fuzz-dns-packet.
+[1173/1483] Generating debug-shell.service with a meson_exe.py custom command.
+[1174/1483] Generating emergency.service with a meson_exe.py custom command.
+[1175/1483] Generating halt-local.service with a meson_exe.py custom command.
+[1176/1483] Generating initrd-cleanup.service with a meson_exe.py custom command.
+[1177/1483] Generating initrd-parse-etc.service with a meson_exe.py custom command.
+[1178/1483] Generating initrd-switch-root.service with a meson_exe.py custom command.
+[1179/1483] Generating initrd-udevadm-cleanup-db.service with a meson_exe.py custom command.
+[1180/1483] Generating kmod-static-nodes.service with a meson_exe.py custom command.
+[1181/1483] Generating quotaon.service with a meson_exe.py custom command.
+[1182/1483] Generating rc-local.service with a meson_exe.py custom command.
+[1183/1483] Generating rescue.service with a meson_exe.py custom command.
+[1184/1483] Generating system-update-cleanup.service with a meson_exe.py custom command.
+[1185/1483] Generating systemd-ask-password-console.service with a meson_exe.py custom command.
+[1186/1483] Generating systemd-ask-password-wall.service with a meson_exe.py custom command.
+[1187/1483] Generating systemd-backlight@.service with a meson_exe.py custom command.
+[1188/1483] Generating systemd-binfmt.service with a meson_exe.py custom command.
+[1189/1483] Generating systemd-coredump@.service with a meson_exe.py custom command.
+[1190/1483] Generating systemd-exit.service with a meson_exe.py custom command.
+[1191/1483] Generating systemd-firstboot.service with a meson_exe.py custom command.
+[1192/1483] Generating systemd-fsck-root.service with a meson_exe.py custom command.
+[1193/1483] Generating systemd-fsck@.service with a meson_exe.py custom command.
+[1194/1483] Generating systemd-halt.service with a meson_exe.py custom command.
+[1195/1483] Generating systemd-hibernate-resume@.service with a meson_exe.py custom command.
+[1196/1483] Generating systemd-hibernate.service with a meson_exe.py custom command.
+[1197/1483] Generating systemd-hybrid-sleep.service with a meson_exe.py custom command.
+[1198/1483] Generating systemd-hostnamed.service with a meson_exe.py custom command.
+[1199/1483] Generating systemd-hwdb-update.service with a meson_exe.py custom command.
+[1200/1483] Generating systemd-importd.service with a meson_exe.py custom command.
+[1201/1483] Generating systemd-initctl.service with a meson_exe.py custom command.
+[1202/1483] Generating systemd-journal-catalog-update.service with a meson_exe.py custom command.
+[1203/1483] Generating systemd-journal-flush.service with a meson_exe.py custom command.
+[1204/1483] Generating systemd-journal-upload.service with a meson_exe.py custom command.
+[1205/1483] Generating systemd-journald.service with a meson_exe.py custom command.
+[1206/1483] Generating systemd-kexec.service with a meson_exe.py custom command.
+[1207/1483] Generating systemd-localed.service with a meson_exe.py custom command.
+[1208/1483] Generating systemd-logind.service with a meson_exe.py custom command.
+[1209/1483] Generating systemd-machine-id-commit.service with a meson_exe.py custom command.
+[1210/1483] Generating systemd-machined.service with a meson_exe.py custom command.
+[1211/1483] Generating systemd-modules-load.service with a meson_exe.py custom command.
+[1212/1483] Generating systemd-networkd.service with a meson_exe.py custom command.
+[1213/1483] Generating systemd-networkd-wait-online.service with a meson_exe.py custom command.
+[1214/1483] Generating systemd-nspawn@.service with a meson_exe.py custom command.
+[1215/1483] Generating systemd-poweroff.service with a meson_exe.py custom command.
+[1216/1483] Generating systemd-quotacheck.service with a meson_exe.py custom command.
+[1217/1483] Generating systemd-random-seed.service with a meson_exe.py custom command.
+[1218/1483] Generating systemd-reboot.service with a meson_exe.py custom command.
+[1219/1483] Generating systemd-remount-fs.service with a meson_exe.py custom command.
+[1220/1483] Generating systemd-resolved.service with a meson_exe.py custom command.
+[1221/1483] Generating systemd-rfkill.service with a meson_exe.py custom command.
+[1222/1483] Generating systemd-suspend.service with a meson_exe.py custom command.
+[1223/1483] Generating systemd-sysctl.service with a meson_exe.py custom command.
+[1224/1483] Generating systemd-sysusers.service with a meson_exe.py custom command.
+[1225/1483] Generating systemd-timedated.service with a meson_exe.py custom command.
+[1226/1483] Generating systemd-timesyncd.service with a meson_exe.py custom command.
+[1227/1483] Generating systemd-tmpfiles-clean.service with a meson_exe.py custom command.
+[1228/1483] Generating systemd-tmpfiles-setup-dev.service with a meson_exe.py custom command.
+[1229/1483] Generating systemd-tmpfiles-setup.service with a meson_exe.py custom command.
+[1230/1483] Generating systemd-udev-settle.service with a meson_exe.py custom command.
+[1231/1483] Generating systemd-udev-trigger.service with a meson_exe.py custom command.
+[1232/1483] Generating systemd-udevd.service with a meson_exe.py custom command.
+[1233/1483] Generating systemd-update-done.service with a meson_exe.py custom command.
+[1234/1483] Generating systemd-update-utmp-runlevel.service with a meson_exe.py custom command.
+[1235/1483] Generating systemd-update-utmp.service with a meson_exe.py custom command.
+[1236/1483] Generating systemd-user-sessions.service with a meson_exe.py custom command.
+[1237/1483] Generating systemd-vconsole-setup.service with a meson_exe.py custom command.
+[1238/1483] Generating systemd-volatile-root.service with a meson_exe.py custom command.
+[1239/1483] Generating user@.service with a meson_exe.py custom command.
+[1240/1483] Generating getty@.service with a meson_exe.py custom command.
+[1241/1483] Generating serial-getty@.service with a meson_exe.py custom command.
+[1242/1483] Generating console-getty.service with a meson_exe.py custom command.
+[1243/1483] Generating container-getty@.service with a meson_exe.py custom command.
+[1244/1483] Generating sysusers.d_systemd.conf with a meson_exe.py custom command.
+[1245/1483] Generating tmpfiles.d_etc.conf with a meson_exe.py custom command.
+[1246/1483] Generating tmpfiles.d_systemd.conf with a meson_exe.py custom command.
+[1247/1483] Generating tmpfiles.d_var.conf with a meson_exe.py custom command.
+[1248/1483] Generating binfmt.d.5 with a custom command.
+Note: namesp. add : added namespace before processing              binfmt.d
+[1249/1483] Generating bootctl.1 with a custom command.
+Note: namesp. add : added namespace before processing              bootctl
+[1250/1483] Generating bootup.7 with a custom command.
+Note: namesp. add : added namespace before processing              bootup
+[1251/1483] Generating coredump.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              coredump.conf
+[1252/1483] Generating busctl.1 with a custom command.
+Note: namesp. add : added namespace before processing              busctl
+[1253/1483] Generating crypttab.5 with a custom command.
+Note: namesp. add : added namespace before processing              crypttab
+[1254/1483] Generating coredumpctl.1 with a custom command.
+Note: namesp. add : added namespace before processing              coredumpctl
+[1255/1483] Generating dnssec-trust-anchors.d.5 with a custom command.
+Note: namesp. add : added namespace before processing              dnssec-trust-anchors.d
+[1256/1483] Generating daemon.7 with a custom command.
+Note: namesp. add : added namespace before processing              daemon
+[1257/1483] Generating environment.d.5 with a custom command.
+Note: namesp. add : added namespace before processing              environment.d
+[1258/1483] Generating file-hierarchy.7 with a custom command.
+Note: namesp. add : added namespace before processing              file-hierarchy
+[1259/1483] Generating halt.8 with a custom command.
+Note: namesp. add : added namespace before processing              halt
+[1260/1483] Generating hostname.5 with a custom command.
+Note: namesp. add : added namespace before processing              hostname
+[1261/1483] Generating hwdb.7 with a custom command.
+Note: namesp. add : added namespace before processing              hwdb
+[1262/1483] Generating hostnamectl.1 with a custom command.
+Note: namesp. add : added namespace before processing              hostnamectl
+[1263/1483] Generating journald.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              journald.conf
+[1264/1483] Generating journalctl.1 with a custom command.
+Note: namesp. add : added namespace before processing              journalctl
+[1265/1483] Generating kernel-command-line.7 with a custom command.
+Note: namesp. add : added namespace before processing              kernel-command-line
+[1266/1483] Generating kernel-install.8 with a custom command.
+Note: namesp. add : added namespace before processing              kernel-install
+[1267/1483] Generating libudev.3 with a custom command.
+Note: namesp. add : added namespace before processing              libudev
+[1268/1483] Generating locale.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              locale.conf
+[1269/1483] Generating localtime.5 with a custom command.
+Note: namesp. add : added namespace before processing              localtime
+[1270/1483] Generating localectl.1 with a custom command.
+Note: namesp. add : added namespace before processing              localectl
+[1271/1483] Generating loginctl.1 with a custom command.
+Note: namesp. add : added namespace before processing              loginctl
+[1272/1483] Generating logind.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              logind.conf
+[1273/1483] Generating machine-id.5 with a custom command.
+Note: namesp. add : added namespace before processing              machine-id
+[1274/1483] Generating machine-info.5 with a custom command.
+Note: namesp. add : added namespace before processing              machine-info
+[1275/1483] Generating modules-load.d.5 with a custom command.
+Note: namesp. add : added namespace before processing              modules-load.d
+[1276/1483] Generating machinectl.1 with a custom command.
+Note: namesp. add : added namespace before processing              machinectl
+[1277/1483] Generating networkctl.1 with a custom command.
+Note: namesp. add : added namespace before processing              networkctl
+[1278/1483] Generating networkd.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              networkd.conf
+[1279/1483] Generating nss-myhostname.8 with a custom command.
+Note: namesp. add : added namespace before processing              nss-myhostname
+[1280/1483] Generating nss-mymachines.8 with a custom command.
+Note: namesp. add : added namespace before processing              nss-mymachines
+[1281/1483] Generating nss-resolve.8 with a custom command.
+Note: namesp. add : added namespace before processing              nss-resolve
+[1282/1483] Generating nss-systemd.8 with a custom command.
+Note: namesp. add : added namespace before processing              nss-systemd
+[1283/1483] Generating os-release.5 with a custom command.
+Note: namesp. add : added namespace before processing              os-release
+[1284/1483] Generating pam_systemd.8 with a custom command.
+Note: namesp. add : added namespace before processing              pam_systemd
+[1285/1483] Generating resolved.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              resolved.conf
+[1286/1483] Generating runlevel.8 with a custom command.
+Note: namesp. add : added namespace before processing              runlevel
+[1287/1483] Generating sd-bus-errors.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd-bus-errors
+[1288/1483] Generating sd-bus.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd-bus
+[1289/1483] Generating sd-daemon.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd-daemon
+[1290/1483] Generating sd-event.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd-event
+[1291/1483] Generating sd-id128.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd-id128
+[1292/1483] Generating sd-journal.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd-journal
+[1293/1483] Generating sd-login.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd-login
+[1294/1483] Generating sd_booted.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_booted
+[1295/1483] Generating sd_bus_add_match.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_add_match
+[1296/1483] Generating sd_bus_creds_get_pid.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_creds_get_pid
+[1297/1483] Generating sd_bus_creds_new_from_pid.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_creds_new_from_pid
+[1298/1483] Generating sd_bus_default.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_default
+[1299/1483] Generating sd_bus_error.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_error
+[1300/1483] Generating sd_bus_error_add_map.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_error_add_map
+[1301/1483] Generating sd_bus_get_fd.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_get_fd
+[1302/1483] Generating sd_bus_is_open.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_is_open
+[1303/1483] Generating sd_bus_message_append.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_append
+[1304/1483] Generating sd_bus_message_append_array.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_append_array
+[1305/1483] Generating sd_bus_message_append_basic.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_append_basic
+[1306/1483] Generating sd_bus_message_append_string_memfd.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_append_string_memfd
+[1307/1483] Generating sd_bus_message_append_strv.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_append_strv
+[1308/1483] Generating sd_bus_message_get_cookie.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_get_cookie
+[1309/1483] Generating sd_bus_message_get_monotonic_usec.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_get_monotonic_usec
+[1310/1483] Generating sd_bus_message_read_basic.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_read_basic
+[1311/1483] Generating sd_bus_message_set_destination.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_message_set_destination
+[1312/1483] Generating sd_bus_negotiate_fds.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_negotiate_fds
+[1313/1483] Generating sd_bus_new.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_new
+[1314/1483] Generating sd_bus_path_encode.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_path_encode
+[1315/1483] Generating sd_bus_process.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_process
+[1316/1483] Generating sd_bus_request_name.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_request_name
+[1317/1483] Generating sd_bus_set_connected_signal.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_set_connected_signal
+[1318/1483] Generating sd_bus_set_sender.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_set_sender
+[1319/1483] Generating sd_bus_set_watch_bind.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_set_watch_bind
+[1320/1483] Generating sd_bus_track_add_name.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_track_add_name
+[1321/1483] Generating sd_bus_track_new.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_bus_track_new
+[1322/1483] Generating sd_event_add_child.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_add_child
+[1323/1483] Generating sd_event_add_defer.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_add_defer
+[1324/1483] Generating sd_event_add_io.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_add_io
+[1325/1483] Generating sd_event_add_signal.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_add_signal
+[1326/1483] Generating sd_event_add_time.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_add_time
+[1327/1483] Generating sd_event_exit.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_exit
+[1328/1483] Generating sd_event_get_fd.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_get_fd
+[1329/1483] Generating sd_event_new.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_new
+[1330/1483] Generating sd_event_now.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_now
+[1331/1483] Generating sd_event_run.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_run
+[1332/1483] Generating sd_event_set_watchdog.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_set_watchdog
+[1333/1483] Generating sd_event_source_get_event.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_get_event
+[1334/1483] Generating sd_event_source_get_pending.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_get_pending
+[1335/1483] Generating sd_event_source_set_description.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_set_description
+[1336/1483] Generating sd_event_source_set_enabled.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_set_enabled
+[1337/1483] Generating sd_event_source_set_prepare.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_set_prepare
+[1338/1483] Generating sd_event_source_set_priority.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_set_priority
+[1339/1483] Generating sd_event_source_set_userdata.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_set_userdata
+[1340/1483] Generating sd_event_source_unref.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_source_unref
+[1341/1483] Generating sd_event_wait.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_event_wait
+[1342/1483] Generating sd_get_seats.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_get_seats
+[1343/1483] Generating sd_id128_get_machine.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_id128_get_machine
+[1344/1483] Generating sd_id128_randomize.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_id128_randomize
+[1345/1483] Generating sd_id128_to_string.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_id128_to_string
+[1346/1483] Generating sd_is_fifo.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_is_fifo
+[1347/1483] Generating sd_journal_add_match.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_add_match
+[1348/1483] Generating sd_journal_enumerate_fields.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_enumerate_fields
+[1349/1483] Generating sd_journal_get_catalog.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_get_catalog
+[1350/1483] Generating sd_journal_get_cursor.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_get_cursor
+[1351/1483] Generating sd_journal_get_cutoff_realtime_usec.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_get_cutoff_realtime_usec
+[1352/1483] Generating sd_journal_get_data.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_get_data
+[1353/1483] Generating sd_journal_get_fd.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_get_fd
+[1354/1483] Generating sd_journal_get_realtime_usec.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_get_realtime_usec
+[1355/1483] Generating sd_journal_get_usage.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_get_usage
+[1356/1483] Generating sd_journal_has_runtime_files.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_has_runtime_files
+[1357/1483] Generating sd_journal_next.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_next
+[1358/1483] Generating sd_journal_open.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_open
+[1359/1483] Generating sd_journal_print.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_print
+[1360/1483] Generating sd_journal_query_unique.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_query_unique
+[1361/1483] Generating sd_journal_seek_head.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_seek_head
+[1362/1483] Generating sd_journal_stream_fd.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_journal_stream_fd
+[1363/1483] Generating sd_listen_fds.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_listen_fds
+[1364/1483] Generating sd_login_monitor_new.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_login_monitor_new
+[1365/1483] Generating sd_machine_get_class.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_machine_get_class
+[1366/1483] Generating sd_notify.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_notify
+[1367/1483] Generating sd_pid_get_owner_uid.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_pid_get_owner_uid
+[1368/1483] Generating sd_seat_get_active.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_seat_get_active
+[1369/1483] Generating sd_session_is_active.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_session_is_active
+[1370/1483] Generating sd_uid_get_state.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_uid_get_state
+[1371/1483] Generating sd_watchdog_enabled.3 with a custom command.
+Note: namesp. add : added namespace before processing              sd_watchdog_enabled
+[1372/1483] Generating shutdown.8 with a custom command.
+Note: namesp. add : added namespace before processing              shutdown
+[1373/1483] Generating sysctl.d.5 with a custom command.
+Note: namesp. add : added namespace before processing              sysctl.d
+[1374/1483] Generating systemd-analyze.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-analyze
+[1375/1483] Generating systemctl.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemctl
+[1376/1483] Generating systemd-ask-password-console.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-ask-password-console.service
+[1377/1483] Generating systemd-ask-password.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-ask-password
+[1378/1483] Generating systemd-backlight@.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-backlight@.service
+[1379/1483] Generating systemd-debug-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-debug-generator
+[1380/1483] Generating systemd-delta.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-delta
+[1381/1483] Generating systemd-detect-virt.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-detect-virt
+[1382/1483] Generating systemd-environment-d-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-environment-d-generator
+[1383/1483] Generating systemd-escape.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-escape
+[1384/1483] Generating systemd-firstboot.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-firstboot
+[1385/1483] Generating systemd-fsck@.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-fsck@.service
+[1386/1483] Generating systemd-fstab-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-fstab-generator
+[1387/1483] Generating systemd-getty-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-getty-generator
+[1388/1483] Generating systemd-gpt-auto-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-gpt-auto-generator
+[1389/1483] Generating systemd-halt.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-halt.service
+[1390/1483] Generating systemd-hibernate-resume-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-hibernate-resume-generator
+[1391/1483] Generating systemd-hibernate-resume@.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-hibernate-resume@.service
+[1392/1483] Generating systemd-hostnamed.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-hostnamed.service
+[1393/1483] Generating systemd-hwdb.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-hwdb
+[1394/1483] Generating systemd-importd.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-importd.service
+[1395/1483] Generating systemd-inhibit.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-inhibit
+[1396/1483] Generating systemd-initctl.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-initctl.service
+[1397/1483] Generating systemd-journald.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-journald.service
+[1398/1483] Generating systemd-localed.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-localed.service
+[1399/1483] Generating systemd-logind.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-logind.service
+[1400/1483] Generating systemd-machine-id-commit.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-machine-id-commit.service
+[1401/1483] Generating systemd-machined.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-machined.service
+[1402/1483] Generating systemd-machine-id-setup.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-machine-id-setup
+[1403/1483] Generating systemd-makefs@.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-makefs@.service
+[1404/1483] Generating systemd-modules-load.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-modules-load.service
+[1405/1483] Generating systemd-networkd-wait-online.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-networkd.service
+[1406/1483] Generating systemd-mount.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-mount
+[1407/1483] Generating systemd-networkd.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-networkd.service
+[1408/1483] Generating systemd-notify.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-notify
+[1409/1483] Generating systemd-path.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-path
+[1410/1483] Generating systemd-nspawn.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-nspawn
+[1411/1483] Generating systemd-quotacheck.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-quotacheck.service
+[1412/1483] Generating systemd-random-seed.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-random-seed.service
+[1413/1483] Generating systemd-rc-local-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-rc-local-generator
+[1414/1483] Generating systemd-remount-fs.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-remount-fs.service
+[1415/1483] Generating systemd-resolve.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-resolve
+[1416/1483] Generating systemd-resolved.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-resolved.service
+[1417/1483] Generating systemd-rfkill.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-rfkill.service
+[1418/1483] Generating systemd-run.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-run
+[1419/1483] Generating systemd-sleep.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-sleep.conf
+[1420/1483] Generating systemd-socket-activate.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-socket-activate
+[1421/1483] Generating systemd-socket-proxyd.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-socket-proxyd
+[1422/1483] Generating systemd-suspend.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-suspend.service
+[1423/1483] Generating systemd-sysctl.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-sysctl.service
+[1424/1483] Generating systemd-system-update-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-system-update-generator
+[1425/1483] Generating systemd-system.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-system.conf
+[1426/1483] Generating systemd-sysusers.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-sysusers
+[1427/1483] Generating systemd-sysv-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-sysv-generator
+[1428/1483] Generating systemd-timedated.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-timedated.service
+[1429/1483] Generating systemd-timesyncd.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-timesyncd.service
+[1430/1483] Generating systemd-tmpfiles.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-tmpfiles
+[1431/1483] Generating systemd-tty-ask-password-agent.1 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-tty-ask-password-agent
+[1432/1483] Generating systemd-udevd.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-udevd.service
+[1433/1483] Generating systemd-update-done.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-update-done.service
+[1434/1483] Generating systemd-update-utmp.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-update-utmp.service
+[1435/1483] Generating systemd-user-sessions.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-user-sessions.service
+[1436/1483] Generating systemd-vconsole-setup.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-vconsole-setup.service
+[1437/1483] Generating systemd-veritysetup-generator.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-veritysetup-generator
+[1438/1483] Generating systemd-veritysetup@.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-veritysetup@.service
+[1439/1483] Generating systemd-volatile-root.service.8 with a custom command.
+Note: namesp. add : added namespace before processing              systemd-volatile-root.service
+[1440/1483] Generating systemd.generator.7 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.generator
+[1441/1483] Generating systemd.exec.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.exec
+[1442/1483] Generating systemd.journal-fields.7 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.journal-fields
+[1443/1483] Generating systemd.kill.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.kill
+[1444/1483] Generating systemd.link.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.link
+[1445/1483] Generating systemd.mount.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.mount
+[1446/1483] Generating systemd.netdev.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.network
+[1447/1483] Generating systemd.nspawn.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.nspawn
+[1448/1483] Generating systemd.network.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.network
+[1449/1483] Generating systemd.offline-updates.7 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.offline-updates
+[1450/1483] Generating systemd.path.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.path
+[1451/1483] Generating systemd.preset.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.preset
+[1452/1483] Generating systemd.scope.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.scope
+[1453/1483] Generating systemd.resource-control.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.resource-control
+[1454/1483] Generating systemd.slice.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.slice
+[1455/1483] Generating systemd.service.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.service
+[1456/1483] Generating systemd.socket.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.socket
+[1457/1483] Generating systemd.special.7 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.special
+[1458/1483] Generating systemd.swap.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.swap
+[1459/1483] Generating systemd.target.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.target
+[1460/1483] Generating systemd.time.7 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.time
+[1461/1483] Generating systemd.timer.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.timer
+[1462/1483] Generating sysusers.d.5 with a custom command.
+Note: namesp. add : added namespace before processing              sysusers.d
+[1463/1483] Generating systemd.unit.5 with a custom command.
+Note: namesp. add : added namespace before processing              systemd.unit
+[1464/1483] Generating telinit.8 with a custom command.
+Note: namesp. add : added namespace before processing              telinit
+[1465/1483] Generating timedatectl.1 with a custom command.
+Note: namesp. add : added namespace before processing              timedatectl
+[1466/1483] Generating timesyncd.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              timesyncd.conf
+[1467/1483] Generating tmpfiles.d.5 with a custom command.
+Note: namesp. add : added namespace before processing              tmpfiles.d
+[1468/1483] Generating udev.7 with a custom command.
+Note: namesp. add : added namespace before processing              udev
+[1469/1483] Generating udev.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              udev.conf
+[1470/1483] Generating udev_device_get_syspath.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_device_get_syspath
+[1471/1483] Generating udev_device_has_tag.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_device_has_tag
+[1472/1483] Generating udev_device_new_from_syspath.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_device_new_from_syspath
+[1473/1483] Generating udev_enumerate_add_match_subsystem.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_enumerate_add_match_subsystem
+[1474/1483] Generating udev_enumerate_new.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_enumerate_new
+[1475/1483] Generating udev_enumerate_scan_devices.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_enumerate_scan_devices
+[1476/1483] Generating udev_list_entry.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_list_entry
+[1477/1483] Generating udev_monitor_filter_update.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_monitor_filter_update
+[1478/1483] Generating udev_monitor_new_from_netlink.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_monitor_new_from_netlink
+[1479/1483] Generating udev_monitor_receive_device.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_monitor_receive_device
+[1480/1483] Generating udev_new.3 with a custom command.
+Note: namesp. add : added namespace before processing              udev_new
+[1481/1483] Generating udevadm.8 with a custom command.
+Note: namesp. add : added namespace before processing              udevadm
+[1482/1483] Generating fuzz-dns-packet:address with a custom command.
+[1483/1483] Generating vconsole.conf.5 with a custom command.
+Note: namesp. add : added namespace before processing              vconsole.conf

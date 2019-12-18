@@ -1,0 +1,27 @@
+ninja: Entering directory `build-shared'
+[1/11] c++  -Ijsoncpp@sha -I. -I.. -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O3 -fPIC -MMD -MQ 'jsoncpp@sha/src_lib_json_json_value.cpp.o' -MF 'jsoncpp@sha/src_lib_json_json_value.cpp.o.d' -o 'jsoncpp@sha/src_lib_json_json_value.cpp.o' -c ../src/lib_json/json_value.cpp
+[2/11] c++  -Ijsoncpp@sha -I. -I.. -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O3 -fPIC -MMD -MQ 'jsoncpp@sha/src_lib_json_json_reader.cpp.o' -MF 'jsoncpp@sha/src_lib_json_json_reader.cpp.o.d' -o 'jsoncpp@sha/src_lib_json_json_reader.cpp.o' -c ../src/lib_json/json_reader.cpp
+[3/11] c++  -Ijsoncpp@sha -I. -I.. -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O3 -fPIC -MMD -MQ 'jsoncpp@sha/src_lib_json_json_writer.cpp.o' -MF 'jsoncpp@sha/src_lib_json_json_writer.cpp.o.d' -o 'jsoncpp@sha/src_lib_json_json_writer.cpp.o' -c ../src/lib_json/json_writer.cpp
+[4/11] c++  -o libjsoncpp.so.20 'jsoncpp@sha/src_lib_json_json_reader.cpp.o' 'jsoncpp@sha/src_lib_json_json_value.cpp.o' 'jsoncpp@sha/src_lib_json_json_writer.cpp.o' -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -shared -fPIC -Wl,--start-group -Wl,-soname,libjsoncpp.so.20 -Wl,--end-group  
+[5/11] c++  -Ijsoncpp_test@exe -I. -I.. -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O3 -MMD -MQ 'jsoncpp_test@exe/src_test_lib_json_jsontest.cpp.o' -MF 'jsoncpp_test@exe/src_test_lib_json_jsontest.cpp.o.d' -o 'jsoncpp_test@exe/src_test_lib_json_jsontest.cpp.o' -c ../src/test_lib_json/jsontest.cpp
+[6/11] /usr/bin/python3 /usr/bin/meson --internal symbolextractor libjsoncpp.so.20 'jsoncpp@sha/libjsoncpp.so.20.symbols' 
+Warning: You are using 'ANSI_X3.4-1968' which is not a Unicode-compatible locale.
+You might see errors if you use UTF-8 strings as filenames, as strings, or as file contents.
+Please switch to a UTF-8 locale for your platform.
+[7/11] c++  -Ijsontestrunner@exe -I. -I.. -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O3 -MMD -MQ 'jsontestrunner@exe/src_jsontestrunner_main.cpp.o' -MF 'jsontestrunner@exe/src_jsontestrunner_main.cpp.o.d' -o 'jsontestrunner@exe/src_jsontestrunner_main.cpp.o' -c ../src/jsontestrunner/main.cpp
+[8/11] c++  -o jsontestrunner 'jsontestrunner@exe/src_jsontestrunner_main.cpp.o' -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group libjsoncpp.so.20 -Wl,--end-group '-Wl,-rpath,$ORIGIN/' -Wl,-rpath-link,/lfskernel/sources/boot/jsoncpp-1.8.4/build-shared/  
+[9/11] c++  -Ijsoncpp_test@exe -I. -I.. -I../include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -O3 -MMD -MQ 'jsoncpp_test@exe/src_test_lib_json_main.cpp.o' -MF 'jsoncpp_test@exe/src_test_lib_json_main.cpp.o.d' -o 'jsoncpp_test@exe/src_test_lib_json_main.cpp.o' -c ../src/test_lib_json/main.cpp
+[10/11] c++  -o jsoncpp_test 'jsoncpp_test@exe/src_test_lib_json_jsontest.cpp.o' 'jsoncpp_test@exe/src_test_lib_json_main.cpp.o' -Wl,--no-undefined -Wl,--as-needed -Wl,-O1 -Wl,--start-group libjsoncpp.so.20 -Wl,--end-group '-Wl,-rpath,$ORIGIN/' -Wl,-rpath-link,/lfskernel/sources/boot/jsoncpp-1.8.4/build-shared/  
+[10/11] /usr/bin/python3 -u /usr/bin/meson test --no-rebuild --print-errorlogs
+Warning: You are using 'ANSI_X3.4-1968' which is not a Unicode-compatible locale.
+You might see errors if you use UTF-8 strings as filenames, as strings, or as file contents.
+Please switch to a UTF-8 locale for your platform.
+1/2 unittest_jsoncpp_test                   OK       0.00 s
+2/2 unittest_jsontestrunner                 OK       0.65 s
+
+OK:         2
+FAIL:       0
+SKIP:       0
+TIMEOUT:    0
+
+Full log written to /lfskernel/sources/boot/jsoncpp-1.8.4/build-shared/meson-logs/testlog.txt

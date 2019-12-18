@@ -1,0 +1,849 @@
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+updating git_sha1.h
+make  install-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+Making install in .
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/GL'
+ /usr/bin/install -c -m 644 ../include/GL/gl.h ../include/GL/glext.h ../include/GL/glcorearb.h ../include/GL/gl_mangle.h '/usr/include/GL'
+ /bin/mkdir -p '/usr/include/GL'
+ /usr/bin/install -c -m 644 ../include/GL/glx.h ../include/GL/glxext.h ../include/GL/glx_mangle.h '/usr/include/GL'
+ /bin/mkdir -p '/usr/include/GL'
+ /usr/bin/install -c -m 644 ../include/GL/osmesa.h '/usr/include/GL'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 mesa/gl.pc '/usr/lib/pkgconfig'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+Making install in gtest
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+Making install in util
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make  install-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making install in .
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+ /bin/mkdir -p '/etc'
+ /usr/bin/install -c -m 644 drirc '/etc'
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making install in xmlpool
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make  install-am
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+Making install in tests/hash_table
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+Making install in tests/string_buffer
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making install in mapi/glapi/gen
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make  install-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+Making install in mapi
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make  install-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   shared-glapi/libglapi.la es1api/libGLESv1_CM.la es2api/libGLESv2.la '/usr/lib'
+libtool: install: /usr/bin/install -c shared-glapi/.libs/libglapi.so.0.0.0 /usr/lib/libglapi.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libglapi.so.0.0.0 libglapi.so.0 || { rm -f libglapi.so.0 && ln -s libglapi.so.0.0.0 libglapi.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libglapi.so.0.0.0 libglapi.so || { rm -f libglapi.so && ln -s libglapi.so.0.0.0 libglapi.so; }; })
+libtool: install: /usr/bin/install -c shared-glapi/.libs/libglapi.lai /usr/lib/libglapi.la
+libtool: warning: relinking 'es1api/libGLESv1_CM.la'
+libtool: install: (cd /lfskernel/sources/boot/mesa-17.3.6/src/mapi; /bin/sh "/lfskernel/sources/boot/mesa-17.3.6/libtool"  --silent --tag CC --mode=relink gcc -pthread -Werror=vla -fvisibility=hidden -O2 -Wall -Werror=implicit-function-declaration -Werror=missing-prototypes -Wmissing-prototypes -fno-math-errno -fno-trapping-math -std=c99 -no-undefined -version-number 1:1 -Wl,--gc-sections -Wl,--no-undefined -o es1api/libGLESv1_CM.la -rpath /usr/lib es1api_libGLESv1_CM_la-entry.lo -ldrm -lm -lpthread -pthread -ldl shared-glapi/libglapi.la )
+libtool: install: /usr/bin/install -c es1api/.libs/libGLESv1_CM.so.1.1.0T /usr/lib/libGLESv1_CM.so.1.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv1_CM.so.1.1.0 libGLESv1_CM.so.1 || { rm -f libGLESv1_CM.so.1 && ln -s libGLESv1_CM.so.1.1.0 libGLESv1_CM.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv1_CM.so.1.1.0 libGLESv1_CM.so || { rm -f libGLESv1_CM.so && ln -s libGLESv1_CM.so.1.1.0 libGLESv1_CM.so; }; })
+libtool: install: /usr/bin/install -c es1api/.libs/libGLESv1_CM.lai /usr/lib/libGLESv1_CM.la
+libtool: warning: relinking 'es2api/libGLESv2.la'
+libtool: install: (cd /lfskernel/sources/boot/mesa-17.3.6/src/mapi; /bin/sh "/lfskernel/sources/boot/mesa-17.3.6/libtool"  --silent --tag CC --mode=relink gcc -pthread -Werror=vla -fvisibility=hidden -O2 -Wall -Werror=implicit-function-declaration -Werror=missing-prototypes -Wmissing-prototypes -fno-math-errno -fno-trapping-math -std=c99 -no-undefined -version-number 2 -Wl,--gc-sections -Wl,--no-undefined -o es2api/libGLESv2.la -rpath /usr/lib es2api_libGLESv2_la-entry.lo -ldrm -lm -lpthread -pthread -ldl shared-glapi/libglapi.la )
+libtool: install: /usr/bin/install -c es2api/.libs/libGLESv2.so.2.0.0T /usr/lib/libGLESv2.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv2.so.2.0.0 libGLESv2.so.2 || { rm -f libGLESv2.so.2 && ln -s libGLESv2.so.2.0.0 libGLESv2.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv2.so.2.0.0 libGLESv2.so || { rm -f libGLESv2.so && ln -s libGLESv2.so.2.0.0 libGLESv2.so; }; })
+libtool: install: /usr/bin/install -c es2api/.libs/libGLESv2.lai /usr/lib/libGLESv2.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/GLES2'
+ /usr/bin/install -c -m 644 ../../include/GLES2/gl2.h ../../include/GLES2/gl2ext.h ../../include/GLES2/gl2platform.h '/usr/include/GLES2'
+ /bin/mkdir -p '/usr/include/GLES3'
+ /usr/bin/install -c -m 644 ../../include/GLES3/gl3.h ../../include/GLES3/gl31.h ../../include/GLES3/gl32.h ../../include/GLES3/gl3ext.h ../../include/GLES3/gl3platform.h '/usr/include/GLES3'
+ /bin/mkdir -p '/usr/include/GLES'
+ /usr/bin/install -c -m 644 ../../include/GLES/egl.h ../../include/GLES/gl.h ../../include/GLES/glext.h ../../include/GLES/glplatform.h '/usr/include/GLES'
+ /bin/mkdir -p '/usr/include/KHR'
+ /usr/bin/install -c -m 644 ../../include/KHR/khrplatform.h '/usr/include/KHR'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 es1api/glesv1_cm.pc es2api/glesv2.pc '/usr/lib/pkgconfig'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+Making install in compiler
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make  install-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+Making install in amd
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make  install-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+Making install in intel
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make  install-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+Making install in mesa
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make  install-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making install in .
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making install in main/tests
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+Making install in state_tracker/tests
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+Making install in drivers/dri
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making install in common
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+Making install in i915
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+Making install in i965
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make  install-am
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[8]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[8]: Nothing to be done for 'install-exec-am'.
+make[8]: Nothing to be done for 'install-data-am'.
+make[8]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+Making install in nouveau
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+Making install in r200
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+Making install in radeon
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+Making install in swrast
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+make[7]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   mesa_dri_drivers.la '/usr/lib/dri'
+libtool: warning: relinking 'mesa_dri_drivers.la'
+libtool: install: (cd /lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri; /bin/sh "/lfskernel/sources/boot/mesa-17.3.6/libtool"  --silent --tag CXX --mode=relink g++ -O2 -Wall -fno-math-errno -fno-trapping-math -shared -shrext .so -module -no-undefined -avoid-version -Wl,-Bsymbolic -Wl,--gc-sections -Wl,--no-undefined -o mesa_dri_drivers.la -rpath /usr/lib/dri ../../libmesa.la common/libmegadriver_stub.la common/libdricommon.la ../../../../src/util/libxmlconfig.la ../../../../src/mapi/shared-glapi/libglapi.la i915/libi915_dri.la i965/libi965_dri.la nouveau/libnouveau_dri.la r200/libr200_dri.la radeon/libradeon_dri.la swrast/libswrast_dri.la -ldrm -lexpat -lm -lpthread -pthread -ldl )
+libtool: install: /usr/bin/install -c .libs/mesa_dri_drivers.soT /usr/lib/dri/mesa_dri_drivers.so
+libtool: install: /usr/bin/install -c .libs/mesa_dri_drivers.lai /usr/lib/dri/mesa_dri_drivers.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/GL/internal'
+ /usr/bin/install -c -m 644 ../../../../include/GL/internal/dri_interface.h '/usr/include/GL/internal'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dri.pc '/usr/lib/pkgconfig'
+make  install-data-hook
+make[8]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+for i in i915_dri.so i965_dri.so nouveau_vieux_dri.so r200_dri.so radeon_dri.so swrast_dri.so; do \
+	ln -f /usr/lib/dri/mesa_dri_drivers.so \
+	      /usr/lib/dri/$i; \
+done;
+rm -f /usr/lib/dri/mesa_dri_drivers.*
+make[8]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making install in drivers/osmesa
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libOSMesa.la '/usr/lib'
+libtool: warning: relinking 'libOSMesa.la'
+libtool: install: (cd /lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa; /bin/sh "/lfskernel/sources/boot/mesa-17.3.6/libtool"  --silent --tag CXX --mode=relink g++ -O2 -Wall -fno-math-errno -fno-trapping-math -no-undefined -version-number 8 -Wl,--gc-sections -Wl,--no-undefined -o libOSMesa.la -rpath /usr/lib osmesa.lo ../../../../src/mesa/libmesa.la ../../../../src/mapi/glapi/libglapi.la ../../../../src/mapi/shared-glapi/libglapi.la -lm -lpthread -pthread -ldl )
+libtool: install: /usr/bin/install -c .libs/libOSMesa.so.8.0.0T /usr/lib/libOSMesa.so.8.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libOSMesa.so.8.0.0 libOSMesa.so.8 || { rm -f libOSMesa.so.8 && ln -s libOSMesa.so.8.0.0 libOSMesa.so.8; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libOSMesa.so.8.0.0 libOSMesa.so || { rm -f libOSMesa.so && ln -s libOSMesa.so.8.0.0 libOSMesa.so; }; })
+libtool: install: /usr/bin/install -c .libs/libOSMesa.lai /usr/lib/libOSMesa.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 osmesa.pc '/usr/lib/pkgconfig'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making install in loader
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+Making install in glx
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making install in .
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libGL.la '/usr/lib'
+libtool: warning: relinking 'libGL.la'
+libtool: install: (cd /lfskernel/sources/boot/mesa-17.3.6/src/glx; /bin/sh "/lfskernel/sources/boot/mesa-17.3.6/libtool"  --silent --tag CC --mode=relink gcc -I../../include -I../../include/GL/internal -I../../src -I../../src/loader -I../../src/mapi -I../../src/mapi -I../../src/mapi/glapi -I../../src/mapi/glapi -fvisibility=hidden -DXF86VIDMODE -D_REENTRANT -DDEFAULT_DRIVER_DIR=\"/usr/lib/dri\" -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_GNU_SOURCE -DUSE_SSE41 -DUSE_GCC_ATOMIC_BUILTINS -DNDEBUG -DTEXTURE_FLOAT_ENABLED -DUSE_X86_64_ASM -DHAVE_SYS_SYSCTL_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_STRTOD_L -DHAVE_DL_ITERATE_PHDR -DHAVE_POSIX_MEMALIGN -DHAVE_LIBDRM -DGLX_USE_DRM -DGLX_INDIRECT_RENDERING -DGLX_DIRECT_RENDERING -DGLX_USE_TLS -DHAVE_DRM_PLATFORM -DHAVE_X11_PLATFORM -DHAVE_DRI3 -DENABLE_SHADER_CACHE -DHAVE_MINCORE -DHAVE_ST_VDPAU -DHAVE_LLVM=0x0309 -DMESA_LLVM_VERSION_PATCH=1 -I/usr/include/libdrm -DGL_LIB_NAME=\"libGL.so.1\" -O2 -Wall -Werror=implicit-function-declaration -Werror=missing-prototypes -Wmissing-prototypes -fno-math-errno -fno-trapping-math -std=c99 -no-undefined -version-number 1:2 -Wl,-Bsymbolic -Wl,--gc-sections -Wl,--no-undefined -o libGL.la -rpath /usr/lib -ldrm libglx.la ../../src/mapi/glapi/libglapi.la ../../src/mapi/shared-glapi/libglapi.la -lXext -lXdamage -lXfixes -lX11-xcb -lX11 -lxcb -lxcb-glx -lxcb-dri2 -lXxf86vm -ldrm -lm -lpthread -pthread -ldl )
+libtool: install: /usr/bin/install -c .libs/libGL.so.1.2.0T /usr/lib/libGL.so.1.2.0
+libtool: install: (cd /usr/lib && { ln -s -f libGL.so.1.2.0 libGL.so.1 || { rm -f libGL.so.1 && ln -s libGL.so.1.2.0 libGL.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libGL.so.1.2.0 libGL.so || { rm -f libGL.so && ln -s libGL.so.1.2.0 libGL.so; }; })
+libtool: install: /usr/bin/install -c .libs/libGL.lai /usr/lib/libGL.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making install in tests
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making install in gbm
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgbm.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgbm.so.1.0.0 /usr/lib/libgbm.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libgbm.so.1.0.0 libgbm.so.1 || { rm -f libgbm.so.1 && ln -s libgbm.so.1.0.0 libgbm.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgbm.so.1.0.0 libgbm.so || { rm -f libgbm.so && ln -s libgbm.so.1.0.0 libgbm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgbm.lai /usr/lib/libgbm.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 main/gbm.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 main/gbm.pc '/usr/lib/pkgconfig'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+Making install in egl
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make  install-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libEGL.la '/usr/lib'
+libtool: warning: relinking 'libEGL.la'
+libtool: install: (cd /lfskernel/sources/boot/mesa-17.3.6/src/egl; /bin/sh "/lfskernel/sources/boot/mesa-17.3.6/libtool"  --silent --tag CC --mode=relink gcc -I../../include -I../../src/mapi -I../../src/egl/main -I../../src/gbm/main -I../../src -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D_GNU_SOURCE -DUSE_SSE41 -DUSE_GCC_ATOMIC_BUILTINS -DNDEBUG -DTEXTURE_FLOAT_ENABLED -DUSE_X86_64_ASM -DHAVE_SYS_SYSCTL_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_STRTOD_L -DHAVE_DL_ITERATE_PHDR -DHAVE_POSIX_MEMALIGN -DHAVE_LIBDRM -DGLX_USE_DRM -DGLX_INDIRECT_RENDERING -DGLX_DIRECT_RENDERING -DGLX_USE_TLS -DHAVE_DRM_PLATFORM -DHAVE_X11_PLATFORM -DHAVE_DRI3 -DENABLE_SHADER_CACHE -DHAVE_MINCORE -DHAVE_ST_VDPAU -DHAVE_LLVM=0x0309 -DMESA_LLVM_VERSION_PATCH=1 -fvisibility=hidden -I/usr/include/libdrm -D_EGL_NATIVE_PLATFORM=_EGL_PLATFORM_DRM -I../../src/loader -I../../src/egl/drivers/dri2 -I../../src/egl/drivers/dri2 -I../../src/gbm/backends/dri -I../../src/egl/wayland/wayland-egl -I../../src/egl/wayland/wayland-drm -I../../src/egl/wayland/wayland-drm -DDEFAULT_DRIVER_DIR=\"/usr/lib/dri\" -D_EGL_BUILT_IN_DRIVER_DRI2 -O2 -Wall -Werror=implicit-function-declaration -Werror=missing-prototypes -Wmissing-prototypes -fno-math-errno -fno-trapping-math -std=c99 -no-undefined -version-number 1:0 -Wl,-Bsymbolic -Wl,--gc-sections -Wl,--no-undefined -o libEGL.la -rpath /usr/lib libEGL_common.la ../../src/mapi/shared-glapi/libglapi.la )
+libtool: install: /usr/bin/install -c .libs/libEGL.so.1.0.0T /usr/lib/libEGL.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libEGL.so.1.0.0 libEGL.so.1 || { rm -f libEGL.so.1 && ln -s libEGL.so.1.0.0 libEGL.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libEGL.so.1.0.0 libEGL.so || { rm -f libEGL.so && ln -s libEGL.so.1.0.0 libEGL.so; }; })
+libtool: install: /usr/bin/install -c .libs/libEGL.lai /usr/lib/libEGL.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/EGL'
+ /usr/bin/install -c -m 644 ../../include/EGL/eglext.h ../../include/EGL/egl.h ../../include/EGL/eglextchromium.h ../../include/EGL/eglmesaext.h ../../include/EGL/eglplatform.h '/usr/include/EGL'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 main/egl.pc '/usr/lib/pkgconfig'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+Making install in gallium
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+Making install in auxiliary
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+Making install in auxiliary/pipe-loader
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+Making install in drivers/ddebug
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+Making install in drivers/noop
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+Making install in drivers/trace
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+Making install in drivers/rbug
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+Making install in drivers/i915
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+Making install in winsys/i915/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+Making install in drivers/nouveau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+Making install in winsys/nouveau/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+Making install in drivers/svga
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+Making install in winsys/svga/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+Making install in drivers/radeon
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+Making install in drivers/r600
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make  install-am
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+Making install in drivers/radeonsi
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make  install-am
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+Making install in winsys/amdgpu/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+Making install in winsys/radeon/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+Making install in drivers/softpipe
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+Making install in drivers/llvmpipe
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+Making install in winsys/sw/null
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+Making install in winsys/sw/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+Making install in winsys/sw/kms-dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+Making install in winsys/sw/wrapper
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+Making install in state_trackers/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+Making install in targets/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+  GEN      all-local
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   gallium_dri.la '/usr/lib/dri'
+libtool: warning: relinking 'gallium_dri.la'
+libtool: install: (cd /lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri; /bin/sh "/lfskernel/sources/boot/mesa-17.3.6/libtool"  --silent --tag CXX --mode=relink g++ -O2 -Wall -fno-math-errno -fno-trapping-math -shared -shrext .so -module -no-undefined -avoid-version -Wl,--gc-sections -Wl,--no-undefined -Wl,--version-script=../../../../src/gallium/targets/dri/dri.sym -Wl,--dynamic-list=../../../../src/gallium/targets/dri-vdpau.dyn -L/usr/local/lib -o gallium_dri.la -rpath /usr/lib/dri gallium_dri_la-target.lo ../../../../src/mesa/libmesagallium.la ../../../../src/mesa/drivers/dri/common/libdricommon.la ../../../../src/mesa/drivers/dri/common/libmegadriver_stub.la ../../../../src/gallium/state_trackers/dri/libdri.la ../../../../src/gallium/auxiliary/libgalliumvl.la ../../../../src/gallium/auxiliary/libgallium.la ../../../../src/gallium/drivers/ddebug/libddebug.la ../../../../src/gallium/drivers/noop/libnoop.la ../../../../src/gallium/drivers/rbug/librbug.la ../../../../src/gallium/drivers/trace/libtrace.la ../../../../src/mapi/shared-glapi/libglapi.la -lexpat -ldrm -lm -lpthread -pthread -ldl -ldrm ../../../../src/gallium/auxiliary/pipe-loader/libpipe_loader_static.la ../../../../src/gallium/winsys/sw/null/libws_null.la ../../../../src/gallium/winsys/sw/wrapper/libwsw.la ../../../../src/gallium/winsys/sw/dri/libswdri.la ../../../../src/gallium/winsys/sw/kms-dri/libswkmsdri.la -ldrm ../../../../src/gallium/winsys/i915/drm/libi915drm.la ../../../../src/gallium/drivers/i915/libi915.la -ldrm_intel -ldrm -ldrm ../../../../src/gallium/winsys/nouveau/drm/libnouveaudrm.la ../../../../src/gallium/drivers/nouveau/libnouveau.la -ldrm -ldrm_nouveau -ldrm ../../../../src/gallium/drivers/r600/libr600.la -ldrm -ldrm_radeon -ldrm -lelf ../../../../src/gallium/drivers/radeonsi/libradeonsi.la -ldrm -ldrm_radeon -ldrm -ldrm -ldrm_amdgpu ../../../../src/gallium/winsys/svga/drm/libsvgadrm.la ../../../../src/gallium/drivers/svga/libsvga.la -ldrm ../../../../src/gallium/drivers/softpipe/libsoftpipe.la ../../../../src/gallium/drivers/llvmpipe/libllvmpipe.la ../../../../src/gallium/winsys/radeon/drm/libradeonwinsys.la ../../../../src/gallium/winsys/amdgpu/drm/libamdgpuwinsys.la ../../../../src/gallium/drivers/radeon/libradeon.la ../../../../src/amd/common/libamd_common.la -lLLVM-3.9 )
+libtool: install: /usr/bin/install -c .libs/gallium_dri.soT /usr/lib/dri/gallium_dri.so
+libtool: install: /usr/bin/install -c .libs/gallium_dri.lai /usr/lib/dri/gallium_dri.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+for i in i915 nouveau  r600 radeonsi vmwgfx        swrast kms_swrast ; do                                  \
+	ln -f /usr/lib/dri/gallium_dri.so                \
+	      /usr/lib/dri/${i}_dri.so;                 \
+done;                                                           \
+rm -f /usr/lib/dri/gallium_dri.*;                        \
+rm -f -d /usr/lib/dri &>/dev/null || true
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+Making install in state_trackers/va
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+Making install in targets/va
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   gallium_drv_video.la '/usr/lib/dri'
+libtool: install: /usr/bin/install -c .libs/gallium_drv_video.so /usr/lib/dri/gallium_drv_video.so
+libtool: install: /usr/bin/install -c .libs/gallium_drv_video.lai /usr/lib/dri/gallium_drv_video.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+for i in nouveau r600 radeonsi; do                                  \
+	ln -f /usr/lib/dri/gallium_drv_video.so                \
+	      /usr/lib/dri/${i}_drv_video.so;                 \
+done;                                                           \
+rm -f /usr/lib/dri/gallium_drv_video.*
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+Making install in state_trackers/vdpau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+Making install in targets/vdpau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+  GEN      all-local
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/vdpau'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libvdpau_gallium.la '/usr/lib/vdpau'
+libtool: install: /usr/bin/install -c .libs/libvdpau_gallium.so.1.0.0 /usr/lib/vdpau/libvdpau_gallium.so.1.0.0
+libtool: install: (cd /usr/lib/vdpau && { ln -s -f libvdpau_gallium.so.1.0.0 libvdpau_gallium.so.1 || { rm -f libvdpau_gallium.so.1 && ln -s libvdpau_gallium.so.1.0.0 libvdpau_gallium.so.1; }; })
+libtool: install: (cd /usr/lib/vdpau && { ln -s -f libvdpau_gallium.so.1.0.0 libvdpau_gallium.so || { rm -f libvdpau_gallium.so && ln -s libvdpau_gallium.so.1.0.0 libvdpau_gallium.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvdpau_gallium.lai /usr/lib/vdpau/libvdpau_gallium.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/vdpau
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/vdpau
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+  GEN      install-data-hook
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+Making install in state_trackers/xa
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 xa_composite.h xa_context.h xa_tracker.h '/usr/include'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+Making install in targets/xa
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libxatracker.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxatracker.so.2.3.0 /usr/lib/libxatracker.so.2.3.0
+libtool: install: (cd /usr/lib && { ln -s -f libxatracker.so.2.3.0 libxatracker.so.2 || { rm -f libxatracker.so.2 && ln -s libxatracker.so.2.3.0 libxatracker.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxatracker.so.2.3.0 libxatracker.so || { rm -f libxatracker.so && ln -s libxatracker.so.2.3.0 libxatracker.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxatracker.lai /usr/lib/libxatracker.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xatracker.pc '/usr/lib/pkgconfig'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+Making install in state_trackers/xvmc
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+Making install in targets/xvmc
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libXvMCgallium.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libXvMCgallium.so.1.0.0 /usr/lib/libXvMCgallium.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libXvMCgallium.so.1.0.0 libXvMCgallium.so.1 || { rm -f libXvMCgallium.so.1 && ln -s libXvMCgallium.so.1.0.0 libXvMCgallium.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libXvMCgallium.so.1.0.0 libXvMCgallium.so || { rm -f libXvMCgallium.so && ln -s libXvMCgallium.so.1.0.0 libXvMCgallium.so; }; })
+libtool: install: /usr/bin/install -c .libs/libXvMCgallium.lai /usr/lib/libXvMCgallium.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+  GEN      install-data-hook
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[2]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[1]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6'
+make[2]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6'
+make[1]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6'
+make: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/xdemos'
+test -e /usr/bin || install -dm755 /usr/bin
+test -e /usr/share/man/man1 || install -dm755 /usr/share/man/man1
+install -m755 glxgears glxinfo /usr/bin
+install -m644 glxgears.1 glxinfo.1 /usr/share/man/man1
+make: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/xdemos'

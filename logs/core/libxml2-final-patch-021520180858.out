@@ -1,0 +1,20 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By: Pierre Labastie <pierre dot labastie at neuf dot fr>
+|Date: 2017-11-23
+|Initial Package Version: 2.9.7
+|Upstream Status: Bug reported (https://bugzilla.gnome.org/show_bug.cgi?id=789714)
+|Origin: Jan Majetek/OpenSuse (https://bugzilla.opensuse.org/show_bug.cgi?id=1065270)
+|Description: Fix a segfault in the Python 3 module. It is only a hack.
+|
+|Index: libxml2-2.9.5/python/libxml.c
+|===================================================================
+|--- libxml2-2.9.5.orig/python/libxml.c
+|+++ libxml2-2.9.5/python/libxml.c
+--------------------------
+patching file python/libxml.c
+Using Plan A...
+Hunk #1 succeeded at 1620.
+Hunk #2 succeeded at 1637.
+done

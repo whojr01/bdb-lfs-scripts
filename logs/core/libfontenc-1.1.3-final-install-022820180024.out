@@ -1,0 +1,42 @@
+###############################
+# Install libfontenc-1.1.3.tar.bz2 #
+###############################
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libfontenc.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libfontenc.so.1.0.0 /usr/lib/libfontenc.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libfontenc.so.1.0.0 libfontenc.so.1 || { rm -f libfontenc.so.1 && ln -s libfontenc.so.1.0.0 libfontenc.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfontenc.so.1.0.0 libfontenc.so || { rm -f libfontenc.so && ln -s libfontenc.so.1.0.0 libfontenc.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfontenc.lai /usr/lib/libfontenc.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/X11/fonts'
+ /usr/bin/install -c -m 644 ../include/X11/fonts/fontenc.h '/usr/include/X11/fonts'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 fontenc.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'

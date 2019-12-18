@@ -1,0 +1,307 @@
+Making install in compat
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/compat'
+ /usr/bin/install -c -m 644 accessx basic caps complete iso9995 japan ledcaps lednum ledscroll level5 misc mousekeys olpc pc pc98 xfree86 xtest README '/usr/share/X11/xkb/compat'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+Making install in geometry
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+Making install in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/geometry/digital_vndr'
+ /usr/bin/install -c -m 644 lk pc unix '/usr/share/X11/xkb/geometry/digital_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+Making install in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/geometry/sgi_vndr'
+ /usr/bin/install -c -m 644 indigo indy O2 '/usr/share/X11/xkb/geometry/sgi_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/geometry'
+ /usr/bin/install -c -m 644 amiga ataritt chicony dell everex fujitsu hhk hp keytronic kinesis macintosh microsoft nec nokia northgate pc sanwa sony thinkpad sun teck steelseries typematrix winbook README '/usr/share/X11/xkb/geometry'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+Making install in keycodes
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+Making install in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/keycodes/digital_vndr'
+ /usr/bin/install -c -m 644 lk pc '/usr/share/X11/xkb/keycodes/digital_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+Making install in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/keycodes/sgi_vndr'
+ /usr/bin/install -c -m 644 indigo indy iris '/usr/share/X11/xkb/keycodes/sgi_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/keycodes'
+ /usr/bin/install -c -m 644 aliases amiga ataritt empty evdev fujitsu hp ibm jolla macintosh olpc sony sun xfree86 xfree98 README '/usr/share/X11/xkb/keycodes'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+Making install in po
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/po'
+linguas="af az bg ca crh cs da de el en_GB eo es fi fr fur gl hr hu id it ja ka ko ky lt nb nl pl pt_BR ro ru rw sk sl sq sr sv tr uk vi zh_CN zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /lfskernel/sources/boot/xkeyboard-config-2.23.1/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/xkeyboard-config.mo; \
+    echo "installing $lang.gmo as $dir/xkeyboard-config.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/xkeyboard-config.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/xkeyboard-config.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/xkeyboard-config.mo.m; \
+    echo "installing $lang.gmo.m as $dir/xkeyboard-config.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/xkeyboard-config.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/xkeyboard-config.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/xkeyboard-config.mo
+installing az.gmo as /usr/share/locale/az/LC_MESSAGES/xkeyboard-config.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/xkeyboard-config.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/xkeyboard-config.mo
+installing crh.gmo as /usr/share/locale/crh/LC_MESSAGES/xkeyboard-config.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/xkeyboard-config.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/xkeyboard-config.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/xkeyboard-config.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/xkeyboard-config.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/xkeyboard-config.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/xkeyboard-config.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/xkeyboard-config.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/xkeyboard-config.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/xkeyboard-config.mo
+installing fur.gmo as /usr/share/locale/fur/LC_MESSAGES/xkeyboard-config.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/xkeyboard-config.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/xkeyboard-config.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/xkeyboard-config.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/xkeyboard-config.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/xkeyboard-config.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/xkeyboard-config.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/xkeyboard-config.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/xkeyboard-config.mo
+installing ky.gmo as /usr/share/locale/ky/LC_MESSAGES/xkeyboard-config.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/xkeyboard-config.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/xkeyboard-config.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/xkeyboard-config.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/xkeyboard-config.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/xkeyboard-config.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/xkeyboard-config.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/xkeyboard-config.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/xkeyboard-config.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/xkeyboard-config.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/xkeyboard-config.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/xkeyboard-config.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/xkeyboard-config.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/xkeyboard-config.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/xkeyboard-config.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/xkeyboard-config.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/xkeyboard-config.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/xkeyboard-config.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/xkeyboard-config.mo
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/po'
+Making install in rules
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+Making install in bin
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+Making install in compat
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/rules'
+ /usr/bin/install -c -m 644 base evdev xfree98 base.lst evdev.lst xkb.dtd README '/usr/share/X11/xkb/rules'
+ /bin/mkdir -p '/usr/share/X11/xkb/rules'
+ /usr/bin/install -c -m 644 base.xml evdev.xml base.extras.xml evdev.extras.xml '/usr/share/X11/xkb/rules'
+make  install-data-hook
+make[4]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+for file in `echo "xorg" | sed 's/,/ /'` ; do \
+	extra_rules_file=$file ; \
+	extra_dir_file=$extra_rules_file.xml ; \
+	extra_lst_file=$extra_rules_file.lst ; \
+	ln -sf base     /usr/share/X11/xkb/rules/$extra_rules_file ; \
+	ln -sf base.lst /usr/share/X11/xkb/rules/$extra_lst_file ; \
+	ln -sf base.xml /usr/share/X11/xkb/rules/$extra_dir_file ; \
+done
+make[4]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+Making install in symbols
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+Making install in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/digital_vndr'
+ /usr/bin/install -c -m 644 lk pc us vt '/usr/share/X11/xkb/symbols/digital_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+Making install in fujitsu_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/fujitsu_vndr'
+ /usr/bin/install -c -m 644 jp us '/usr/share/X11/xkb/symbols/fujitsu_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+Making install in hp_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/hp_vndr'
+ /usr/bin/install -c -m 644 us '/usr/share/X11/xkb/symbols/hp_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+Making install in jolla_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/jolla_vndr'
+ /usr/bin/install -c -m 644 sbj '/usr/share/X11/xkb/symbols/jolla_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+Making install in macintosh_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/macintosh_vndr'
+ /usr/bin/install -c -m 644 apple ch de dk fi fr gb is it jp latam nl no pt se us '/usr/share/X11/xkb/symbols/macintosh_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+Making install in nec_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/nec_vndr'
+ /usr/bin/install -c -m 644 jp '/usr/share/X11/xkb/symbols/nec_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+Making install in nokia_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/nokia_vndr'
+ /usr/bin/install -c -m 644 rx-44 rx-51 su-8w '/usr/share/X11/xkb/symbols/nokia_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+Making install in sharp_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sharp_vndr'
+ /usr/bin/install -c -m 644 sl-c3x00 ws003sh ws007sh ws011sh ws020sh '/usr/share/X11/xkb/symbols/sharp_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+Making install in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sgi_vndr'
+ /usr/bin/install -c -m 644 jp '/usr/share/X11/xkb/symbols/sgi_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+Making install in sony_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sony_vndr'
+ /usr/bin/install -c -m 644 us '/usr/share/X11/xkb/symbols/sony_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+Making install in sun_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sun_vndr'
+ /usr/bin/install -c -m 644 ara be br ca ch cz de dk ee es fi fr gb gr it jp kr lt lv nl no pl pt ro ru se sk solaris tr tw ua us '/usr/share/X11/xkb/symbols/sun_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+Making install in xfree68_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/xfree68_vndr'
+ /usr/bin/install -c -m 644 amiga ataritt '/usr/share/X11/xkb/symbols/xfree68_vndr'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[3]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols'
+ /usr/bin/install -c -m 644 af al am apl ara at au az ba bd be bg br brai bt bw by ca cd ch cm cn cz de dk dz ee es et epo eu fi fo fr gb ge gh gn gr hr '/usr/share/X11/xkb/symbols'
+ /usr/bin/install -c -m 644 hu id ie il in iq ir is it jp ke kg kh kr kz la latam latin lk lt lv ma mao md me mk ml mm mn mt mv my ng nl no np parens pc ph pk '/usr/share/X11/xkb/symbols'
+ /usr/bin/install -c -m 644 pl pt ro rs ru se si sk sn sy th terminate tg tj tm tr tw tz ua us uz vn za altwin capslock compose ctrl empty eurosign rupeesign group inet keypad kpdl level3 level5 nbsp olpc shift srvr_ctrl '/usr/share/X11/xkb/symbols'
+ /usr/bin/install -c -m 644 typo '/usr/share/X11/xkb/symbols'
+make[3]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+Making install in types
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/types'
+ /usr/bin/install -c -m 644 basic cancel caps complete default extra iso9995 level5 mousekeys nokia numpad pc README '/usr/share/X11/xkb/types'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+Making install in docs
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man7'
+ /usr/bin/install -c -m 644 xkeyboard-config.7 '/usr/share/man/man7'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/pkgconfig'
+ /usr/bin/install -c -m 644 xkeyboard-config.pc '/usr/share/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'

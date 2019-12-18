@@ -1,0 +1,386 @@
+Making install in libxslt
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxslt.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxslt.so.1.1.32 /usr/lib/libxslt.so.1.1.32
+libtool: install: (cd /usr/lib && { ln -s -f libxslt.so.1.1.32 libxslt.so.1 || { rm -f libxslt.so.1 && ln -s libxslt.so.1.1.32 libxslt.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxslt.so.1.1.32 libxslt.so || { rm -f libxslt.so && ln -s libxslt.so.1.1.32 libxslt.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxslt.lai /usr/lib/libxslt.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+/bin/mkdir -p "/usr/lib/libxslt-plugins"
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 ../../libxslt/libxslt.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/include/libxslt'
+ /usr/bin/install -c -m 644 xsltconfig.h '/usr/include/libxslt'
+ /bin/mkdir -p '/usr/include/libxslt'
+ /usr/bin/install -c -m 644 ../../libxslt/xslt.h ../../libxslt/xsltutils.h ../../libxslt/pattern.h ../../libxslt/templates.h ../../libxslt/variables.h ../../libxslt/keys.h ../../libxslt/numbersInternals.h ../../libxslt/extensions.h ../../libxslt/extra.h ../../libxslt/functions.h ../../libxslt/namespaces.h ../../libxslt/imports.h ../../libxslt/attributes.h ../../libxslt/documents.h ../../libxslt/preproc.h ../../libxslt/transform.h ../../libxslt/security.h ../../libxslt/xsltInternals.h ../../libxslt/xsltexports.h ../../libxslt/xsltlocale.h '/usr/include/libxslt'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libxslt'
+Making install in libexslt
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libexslt.la '/usr/lib'
+libtool: warning: relinking 'libexslt.la'
+libtool: install: (cd /lfskernel/sources/boot/libxslt-1.1.32/build/libexslt; /bin/sh "/lfskernel/sources/boot/libxslt-1.1.32/build/libtool"  --silent --tag CC --mode=relink gcc -I/usr/include/libxml2 -g -O2 -Wall -Wformat=2 -Wmissing-format-attribute -version-info 8:20:8 -o libexslt.la -rpath /usr/lib exslt.lo common.lo crypto.lo math.lo sets.lo functions.lo strings.lo date.lo saxon.lo dynamic.lo ../libxslt/libxslt.la -lm )
+libtool: install: /usr/bin/install -c .libs/libexslt.so.0.8.20T /usr/lib/libexslt.so.0.8.20
+libtool: install: (cd /usr/lib && { ln -s -f libexslt.so.0.8.20 libexslt.so.0 || { rm -f libexslt.so.0 && ln -s libexslt.so.0.8.20 libexslt.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libexslt.so.0.8.20 libexslt.so || { rm -f libexslt.so && ln -s libexslt.so.0.8.20 libexslt.so; }; })
+libtool: install: /usr/bin/install -c .libs/libexslt.lai /usr/lib/libexslt.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libexslt'
+ /usr/bin/install -c -m 644 ../../libexslt/exslt.h ../../libexslt/exsltexports.h '/usr/include/libexslt'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 ../../libexslt/libexslt.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/include/libexslt'
+ /usr/bin/install -c -m 644 exsltconfig.h '/usr/include/libexslt'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/libexslt'
+Making install in xsltproc
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c xsltproc '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xsltproc /usr/bin/xsltproc
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/xsltproc'
+Making install in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+Rebuilding the man pages from the xml
+I/O error : Attempt to load network entity http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd
+../../doc/xsltproc.xml:8: warning: failed to load external entity "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"
+]>
+  ^
+I/O error : Attempt to load network entity http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl
+warning: failed to load external entity "http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl"
+error
+xsltParseStylesheetFile : cannot parse http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl
+compilation error: file ../../doc/xsltproc.xml line 10 element refentry
+xsltParseStylesheetProcess : document is not a stylesheet
+make[1]: [Makefile:823: xsltproc.1] Error 5 (ignored)
+I/O error : Attempt to load network entity http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
+../../doc/news.html:2: warning: failed to load external entity "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+ 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+                                                                               ^
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /usr/share/doc/libxslt-1.1.32/html
+/usr/bin/install -c -m 0644 ../../doc/*.html /usr/share/doc/libxslt-1.1.32/html
+/usr/bin/install -c -m 0644 ../../doc/*.gif /usr/share/doc/libxslt-1.1.32/html
+/bin/mkdir -p /usr/share/doc/libxslt-1.1.32/html/html
+/usr/bin/install -c -m 0644 ../../doc/html/*.html /usr/share/doc/libxslt-1.1.32/html/html
+/usr/bin/install -c -m 0644 ../../doc/html/*.png /usr/share/doc/libxslt-1.1.32/html/html
+/bin/mkdir -p /usr/share/doc/libxslt-1.1.32/html/EXSLT
+/usr/bin/install -c -m 0644 ../../doc/EXSLT/*.html /usr/share/doc/libxslt-1.1.32/html/EXSLT
+/bin/mkdir -p /usr/share/doc/libxslt-1.1.32/html/tutorial
+/usr/bin/install -c -m 0644 ../../doc/tutorial/* /usr/share/doc/libxslt-1.1.32/html/tutorial
+/bin/mkdir -p /usr/share/doc/libxslt-1.1.32/html/tutorial2
+/usr/bin/install -c -m 0644 ../../doc/tutorial2/* /usr/share/doc/libxslt-1.1.32/html/tutorial2
+Rebuilding the man pages from the xml
+I/O error : Attempt to load network entity http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd
+../../doc/xsltproc.xml:8: warning: failed to load external entity "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"
+]>
+  ^
+I/O error : Attempt to load network entity http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl
+warning: failed to load external entity "http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl"
+error
+xsltParseStylesheetFile : cannot parse http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl
+compilation error: file ../../doc/xsltproc.xml line 10 element refentry
+xsltParseStylesheetProcess : document is not a stylesheet
+make[2]: [Makefile:823: xsltproc.1] Error 5 (ignored)
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/xsltproc.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/doc'
+Making install in python
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making install in .
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+make[3]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /usr/lib/python2.7/site-packages
+/usr/bin/install -c -m 0644 libxslt.py /usr/lib/python2.7/site-packages
+/bin/mkdir -p /usr/share/doc/libxslt-python-1.1.32
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxsltmod.la '/usr/lib/python2.7/site-packages'
+libtool: warning: relinking 'libxsltmod.la'
+libtool: install: (cd /lfskernel/sources/boot/libxslt-1.1.32/build/python; /bin/sh "/lfskernel/sources/boot/libxslt-1.1.32/build/libtool"  --silent --tag CC --mode=relink gcc -I/usr/include/libxml2 -g -O2 -Wall -Wformat=2 -Wmissing-format-attribute -module -avoid-version -o libxsltmod.la -rpath /usr/lib/python2.7/site-packages libxsltmod_la-libxslt.lo libxsltmod_la-types.lo libxsltmod_la-libxslt-py.lo ../libxslt/libxslt.la ../libexslt/libexslt.la -lpython2.7 -lpthread -ldl -lutil -lm )
+libtool: install: /usr/bin/install -c .libs/libxsltmod.soT /usr/lib/python2.7/site-packages/libxsltmod.so
+libtool: install: /usr/bin/install -c .libs/libxsltmod.lai /usr/lib/python2.7/site-packages/libxsltmod.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making install in tests
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /usr/share/doc/libxslt-python-1.1.32/examples
+(for test in basic.py exslt.py extelem.py extfunc.py test.xml test.xsl pyxsltproc.py; \
+  do /usr/bin/install -c -m 0644 ../../../python/tests/$test /usr/share/doc/libxslt-python-1.1.32/examples ; done)
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/python'
+Making install in tests
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+Making install in docs
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docs'
+Making install in REC1
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC1'
+Making install in REC2
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC2'
+Making install in REC
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/REC'
+Making install in general
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/general'
+Making install in namespaces
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/namespaces'
+Making install in keys
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/keys'
+Making install in numbers
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/numbers'
+Making install in documents
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/documents'
+Making install in extensions
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/extensions'
+Making install in reports
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/reports'
+Making install in xmlspec
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xmlspec'
+Making install in multiple
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/multiple'
+Making install in xinclude
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/xinclude'
+Making install in XSLTMark
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/XSLTMark'
+Making install in docbook
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/docbook'
+Making install in exslt
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+Making install in common
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/common'
+Making install in functions
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/functions'
+Making install in math
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/math'
+Making install in saxon
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/saxon'
+Making install in sets
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/sets'
+Making install in strings
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/strings'
+Making install in dynamic
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/dynamic'
+Making install in date
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt/date'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[4]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/exslt'
+Making install in plugins
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests/plugins'
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[3]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build/tests'
+make[1]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+make[2]: Entering directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c xslt-config '/usr/bin'
+ /bin/mkdir -p '/usr/lib'
+ /usr/bin/install -c -m 644 xsltConf.sh '/usr/lib'
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 ../libxslt.m4 '/usr/share/aclocal'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxslt.pc libexslt.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxslt-1.1.32/build'

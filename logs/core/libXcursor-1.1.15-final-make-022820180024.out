@@ -1,0 +1,52 @@
+###############################
+# Make libXcursor-1.1.15.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15/src'
+  CC       cursor.lo
+  CC       display.lo
+  CC       file.lo
+  CC       library.lo
+  CC       xlib.lo
+  CCLD     libXcursor.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15/man'
+  GEN      Xcursor.3
+  GEN      XcursorImageCreate.3
+  GEN      XcursorImageDestroy.3
+  GEN      XcursorImagesCreate.3
+  GEN      XcursorImagesDestroy.3
+  GEN      XcursorCursorsCreate.3
+  GEN      XcursorCursorsDestroy.3
+  GEN      XcursorXcFileLoadImage.3
+  GEN      XcursorXcFileLoadImages.3
+  GEN      XcursorXcFileLoadAllImages.3
+  GEN      XcursorXcFileLoad.3
+  GEN      XcursorXcFileSave.3
+  GEN      XcursorFilenameLoadImage.3
+  GEN      XcursorFilenameLoadImages.3
+  GEN      XcursorFilenameLoadAllImages.3
+  GEN      XcursorFilenameLoad.3
+  GEN      XcursorFilenameSaveImages.3
+  GEN      XcursorFilenameSave.3
+  GEN      XcursorLibraryLoadImage.3
+  GEN      XcursorLibraryLoadImages.3
+  GEN      XcursorFilenameLoadCursor.3
+  GEN      XcursorLibraryLoadCursor.3
+  GEN      XcursorLibraryLoadCursors.3
+  GEN      XcursorShapeLoadImage.3
+  GEN      XcursorShapeLoadImages.3
+  GEN      XcursorShapeLoadCursor.3
+  GEN      XcursorShapeLoadCursors.3
+  GEN      XcursorSupportsARGB.3
+  GEN      XcursorSetDefaultSize.3
+  GEN      XcursorGetDefaultSize.3
+  GEN      XcursorSetTheme.3
+  GEN      XcursorGetTheme.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXcursor-1.1.15'

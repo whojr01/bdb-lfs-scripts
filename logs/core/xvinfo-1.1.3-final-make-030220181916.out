@@ -1,0 +1,14 @@
+###############################
+# Make xvinfo-1.1.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xvinfo-1.1.3'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xvinfo-1.1.3/man'
+  GEN      xvinfo.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xvinfo-1.1.3/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xvinfo-1.1.3'
+  CC       xvinfo.o
+  CCLD     xvinfo
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xvinfo-1.1.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xvinfo-1.1.3'

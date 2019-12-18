@@ -1,0 +1,63 @@
+Making check in lib
+make[1]: Entering directory '/sources/check-0.12.0/build/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/check-0.12.0/build/lib'
+Making check in src
+make[1]: Entering directory '/sources/check-0.12.0/build/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/check-0.12.0/build/src'
+Making check in doc
+make[1]: Entering directory '/sources/check-0.12.0/build/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/check-0.12.0/build/doc'
+Making check in .
+make[1]: Entering directory '/sources/check-0.12.0/build'
+make[1]: Leaving directory '/sources/check-0.12.0/build'
+Making check in checkmk
+make[1]: Entering directory '/sources/check-0.12.0/build/checkmk'
+make  check-TESTS
+make[2]: Entering directory '/sources/check-0.12.0/build/checkmk'
+make[3]: Entering directory '/sources/check-0.12.0/build/checkmk'
+PASS: test/check_checkmk
+============================================================================
+Testsuite summary for Check 0.12.0
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/check-0.12.0/build/checkmk'
+make[2]: Leaving directory '/sources/check-0.12.0/build/checkmk'
+make[1]: Leaving directory '/sources/check-0.12.0/build/checkmk'
+Making check in tests
+make[1]: Entering directory '/sources/check-0.12.0/build/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/check-0.12.0/build/tests'
+make[3]: Entering directory '/sources/check-0.12.0/build/tests'
+PASS: check_check_export
+PASS: check_check
+PASS: test_output.sh
+PASS: test_check_nofork.sh
+PASS: test_check_nofork_teardown.sh
+PASS: test_xml_output.sh
+PASS: test_log_output.sh
+PASS: test_set_max_msg_size.sh
+PASS: test_tap_output.sh
+============================================================================
+Testsuite summary for Check 0.12.0
+============================================================================
+# TOTAL: 9
+# PASS:  9
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/check-0.12.0/build/tests'
+make[2]: Leaving directory '/sources/check-0.12.0/build/tests'
+make[1]: Leaving directory '/sources/check-0.12.0/build/tests'

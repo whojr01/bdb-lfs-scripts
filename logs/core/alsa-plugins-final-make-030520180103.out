@@ -1,0 +1,29 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5'
+Making all in oss
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/oss'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/oss'
+Making all in mix
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/mix'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/mix'
+Making all in usb_stream
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/usb_stream'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/usb_stream'
+Making all in arcam-av
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/arcam-av'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/arcam-av'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/doc'
+Making all in pph
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/pph'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5/pph'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-plugins-1.1.5'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-plugins-1.1.5'

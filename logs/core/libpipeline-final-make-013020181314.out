@@ -1,0 +1,72 @@
+make  all-recursive
+make[1]: Entering directory '/sources/libpipeline-1.5.0/build'
+Making all in gnulib/lib
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+  GEN      alloca.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      fcntl.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/select.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/wait.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+make  all-recursive
+make[3]: Entering directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[4]: Entering directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+  CC       dirname.lo
+  CC       basename.lo
+  CC       dirname-lgpl.lo
+  CC       basename-lgpl.lo
+  CC       stripslash.lo
+  CC       exitfail.lo
+  CC       full-write.lo
+  CC       glthread/lock.lo
+  CC       malloca.lo
+  CC       safe-read.lo
+  CC       safe-write.lo
+  CC       sig-handler.lo
+  CC       tempname.lo
+  CC       glthread/threadlib.lo
+  CC       glthread/tls.lo
+  CC       unistd.lo
+  CC       xmalloc.lo
+  CC       xalloc-die.lo
+  CC       xsize.lo
+  CC       xstrndup.lo
+  CC       xvasprintf.lo
+  CC       xasprintf.lo
+  CC       asnprintf.lo
+  CC       printf-args.lo
+  CC       printf-parse.lo
+  CC       vasnprintf.lo
+  CCLD     libgnu.la
+make[4]: Leaving directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[3]: Leaving directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+Making all in lib
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/lib'
+  CC       libpipeline_la-appendstr.lo
+  CC       libpipeline_la-debug.lo
+  CC       libpipeline_la-pipeline.lo
+  CCLD     libpipeline.la
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/lib'
+Making all in man
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/man'
+Making all in tests
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/tests'
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build'
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build'
+make[1]: Leaving directory '/sources/libpipeline-1.5.0/build'

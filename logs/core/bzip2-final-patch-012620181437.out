@@ -1,0 +1,20 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By:            Matthew Burgess <matthew@linuxfromscratch.org>
+|Date:                    2007-01-31
+|Initial Package Version: 1.0.4
+|Upstream Status:         Not submitted
+|Origin:                  Randy McMurchy & Steve Crosby
+|Description:             Installs pre-formatted documentation
+|
+|diff -Naur bzip2-1.0.4.orig/Makefile bzip2-1.0.4/Makefile
+|--- bzip2-1.0.4.orig/Makefile	2007-01-03 03:49:21.000000000 +0000
+|+++ bzip2-1.0.4/Makefile	2007-01-26 20:00:01.000000000 +0000
+--------------------------
+patching file Makefile
+Using Plan A...
+Hunk #1 succeeded at 25.
+Hunk #2 succeeded at 74.
+Hunk #3 succeeded at 108.
+done

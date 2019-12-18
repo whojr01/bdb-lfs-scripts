@@ -1,0 +1,314 @@
+make  install-recursive
+make[1]: Entering directory '/sources/util-linux-2.31.1/build'
+Making install in po
+make[2]: Entering directory '/sources/util-linux-2.31.1/build/po'
+installing ../../po/ca.gmo as /usr/share/locale/ca/LC_MESSAGES/util-linux.mo
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/util-linux.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/util-linux.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/util-linux.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/util-linux.mo
+installing ../../po/et.gmo as /usr/share/locale/et/LC_MESSAGES/util-linux.mo
+installing ../../po/eu.gmo as /usr/share/locale/eu/LC_MESSAGES/util-linux.mo
+installing ../../po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/util-linux.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/util-linux.mo
+installing ../../po/gl.gmo as /usr/share/locale/gl/LC_MESSAGES/util-linux.mo
+installing ../../po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/util-linux.mo
+installing ../../po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/util-linux.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/util-linux.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/util-linux.mo
+installing ../../po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/util-linux.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/util-linux.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/util-linux.mo
+installing ../../po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/util-linux.mo
+installing ../../po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/util-linux.mo
+installing ../../po/sl.gmo as /usr/share/locale/sl/LC_MESSAGES/util-linux.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/util-linux.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/util-linux.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/util-linux.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/util-linux.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/util-linux.mo
+installing ../../po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/util-linux.mo
+if test "util-linux" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/util-linux-2.31.1/build/po'
+make[2]: Entering directory '/sources/util-linux-2.31.1/build'
+make[3]: Entering directory '/sources/util-linux-2.31.1/build'
+ /bin/mkdir -p '/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c more dmesg mount umount wdctl mountpoint lsblk findmnt kill '/bin'
+libtool: install: /usr/bin/install -c more /bin/more
+libtool: install: /usr/bin/install -c dmesg /bin/dmesg
+libtool: warning: 'libmount.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libblkid.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libuuid.la' has not been installed in '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/mount /bin/mount
+libtool: warning: 'libmount.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libblkid.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libuuid.la' has not been installed in '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/umount /bin/umount
+libtool: warning: 'libsmartcols.la' has not been installed in '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/wdctl /bin/wdctl
+libtool: warning: 'libmount.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libblkid.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libuuid.la' has not been installed in '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/mountpoint /bin/mountpoint
+libtool: warning: 'libblkid.la' has not been installed in '/usr/lib'
+libtool: warning: 'libmount.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libblkid.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libuuid.la' has not been installed in '/usr/lib'
+libtool: warning: 'libsmartcols.la' has not been installed in '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/lsblk /bin/lsblk
+libtool: warning: 'libmount.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libblkid.la' has not been installed in '/usr/lib'
+libtool: warning: 'libsmartcols.la' has not been installed in '/usr/lib'
+libtool: warning: 'libblkid.la' has not been installed in '/usr/lib'
+libtool: warning: '/sources/util-linux-2.31.1/build/libuuid.la' has not been installed in '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/findmnt /bin/findmnt
+libtool: install: /usr/bin/install -c kill /bin/kill
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libuuid.la libblkid.la libmount.la libsmartcols.la libfdisk.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libuuid.so.1.3.0 /usr/lib/libuuid.so.1.3.0
+libtool: install: (cd /usr/lib && { ln -s -f libuuid.so.1.3.0 libuuid.so.1 || { rm -f libuuid.so.1 && ln -s libuuid.so.1.3.0 libuuid.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libuuid.so.1.3.0 libuuid.so || { rm -f libuuid.so && ln -s libuuid.so.1.3.0 libuuid.so; }; })
+libtool: install: /usr/bin/install -c .libs/libuuid.lai /usr/lib/libuuid.la
+libtool: warning: relinking 'libblkid.la'
+libtool: install: (cd /sources/util-linux-2.31.1/build; /bin/sh "/sources/util-linux-2.31.1/build/libtool"  --silent --tag CC --mode=relink gcc -fsigned-char -fno-common -Wall -Werror=sequence-point -Wextra -Wmissing-declarations -Wmissing-parameter-type -Wmissing-prototypes -Wno-missing-field-initializers -Wredundant-decls -Wsign-compare -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-parameter -Wunused-result -Wunused-variable -Wnested-externs -Wpointer-arith -Wstrict-prototypes -Wimplicit-function-declaration -I./libblkid/src -I../libblkid/src -I../libuuid/src -g -O2 -Wl,--version-script,../libblkid/src/libblkid.sym -version-info 2:0:1 -o libblkid.la -rpath /usr/lib libblkid/src/libblkid_la-init.lo libblkid/src/libblkid_la-cache.lo libblkid/src/libblkid_la-config.lo libblkid/src/libblkid_la-dev.lo libblkid/src/libblkid_la-devname.lo libblkid/src/libblkid_la-devno.lo libblkid/src/libblkid_la-encode.lo libblkid/src/libblkid_la-evaluate.lo libblkid/src/libblkid_la-getsize.lo libblkid/src/libblkid_la-llseek.lo libblkid/src/libblkid_la-probe.lo libblkid/src/libblkid_la-read.lo libblkid/src/libblkid_la-resolve.lo libblkid/src/libblkid_la-save.lo libblkid/src/libblkid_la-tag.lo libblkid/src/libblkid_la-verify.lo libblkid/src/libblkid_la-version.lo libblkid/src/partitions/libblkid_la-aix.lo libblkid/src/partitions/libblkid_la-bsd.lo libblkid/src/partitions/libblkid_la-dos.lo libblkid/src/partitions/libblkid_la-gpt.lo libblkid/src/partitions/libblkid_la-mac.lo libblkid/src/partitions/libblkid_la-minix.lo libblkid/src/partitions/libblkid_la-partitions.lo libblkid/src/partitions/libblkid_la-sgi.lo libblkid/src/partitions/libblkid_la-solaris_x86.lo libblkid/src/partitions/libblkid_la-sun.lo libblkid/src/partitions/libblkid_la-ultrix.lo libblkid/src/partitions/libblkid_la-unixware.lo libblkid/src/superblocks/libblkid_la-adaptec_raid.lo libblkid/src/superblocks/libblkid_la-bcache.lo libblkid/src/superblocks/libblkid_la-befs.lo libblkid/src/superblocks/libblkid_la-bfs.lo libblkid/src/superblocks/libblkid_la-btrfs.lo libblkid/src/superblocks/libblkid_la-cramfs.lo libblkid/src/superblocks/libblkid_la-ddf_raid.lo libblkid/src/superblocks/libblkid_la-drbd.lo libblkid/src/superblocks/libblkid_la-drbdproxy_datalog.lo libblkid/src/superblocks/libblkid_la-drbdmanage.lo libblkid/src/superblocks/libblkid_la-exfat.lo libblkid/src/superblocks/libblkid_la-exfs.lo libblkid/src/superblocks/libblkid_la-ext.lo libblkid/src/superblocks/libblkid_la-f2fs.lo libblkid/src/superblocks/libblkid_la-gfs.lo libblkid/src/superblocks/libblkid_la-hfs.lo libblkid/src/superblocks/libblkid_la-highpoint_raid.lo libblkid/src/superblocks/libblkid_la-hpfs.lo libblkid/src/superblocks/libblkid_la-iso9660.lo libblkid/src/superblocks/libblkid_la-isw_raid.lo libblkid/src/superblocks/libblkid_la-jfs.lo libblkid/src/superblocks/libblkid_la-jmicron_raid.lo libblkid/src/superblocks/libblkid_la-linux_raid.lo libblkid/src/superblocks/libblkid_la-lsi_raid.lo libblkid/src/superblocks/libblkid_la-luks.lo libblkid/src/superblocks/libblkid_la-lvm.lo libblkid/src/superblocks/libblkid_la-minix.lo libblkid/src/superblocks/libblkid_la-netware.lo libblkid/src/superblocks/libblkid_la-nilfs.lo libblkid/src/superblocks/libblkid_la-ntfs.lo libblkid/src/superblocks/libblkid_la-refs.lo libblkid/src/superblocks/libblkid_la-nvidia_raid.lo libblkid/src/superblocks/libblkid_la-ocfs.lo libblkid/src/superblocks/libblkid_la-promise_raid.lo libblkid/src/superblocks/libblkid_la-reiserfs.lo libblkid/src/superblocks/libblkid_la-romfs.lo libblkid/src/superblocks/libblkid_la-silicon_raid.lo libblkid/src/superblocks/libblkid_la-squashfs.lo libblkid/src/superblocks/libblkid_la-superblocks.lo libblkid/src/superblocks/libblkid_la-swap.lo libblkid/src/superblocks/libblkid_la-sysv.lo libblkid/src/superblocks/libblkid_la-ubi.lo libblkid/src/superblocks/libblkid_la-ubifs.lo libblkid/src/superblocks/libblkid_la-udf.lo libblkid/src/superblocks/libblkid_la-ufs.lo libblkid/src/superblocks/libblkid_la-vfat.lo libblkid/src/superblocks/libblkid_la-via_raid.lo libblkid/src/superblocks/libblkid_la-vmfs.lo libblkid/src/superblocks/libblkid_la-vxfs.lo libblkid/src/superblocks/libblkid_la-xfs.lo libblkid/src/superblocks/libblkid_la-zfs.lo libblkid/src/topology/libblkid_la-topology.lo libblkid/src/topology/libblkid_la-dm.lo libblkid/src/topology/libblkid_la-evms.lo libblkid/src/topology/libblkid_la-ioctl.lo libblkid/src/topology/libblkid_la-lvm.lo libblkid/src/topology/libblkid_la-md.lo libblkid/src/topology/libblkid_la-sysfs.lo libcommon.la libuuid.la )
+libtool: install: /usr/bin/install -c .libs/libblkid.so.1.1.0T /usr/lib/libblkid.so.1.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libblkid.so.1.1.0 libblkid.so.1 || { rm -f libblkid.so.1 && ln -s libblkid.so.1.1.0 libblkid.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libblkid.so.1.1.0 libblkid.so || { rm -f libblkid.so && ln -s libblkid.so.1.1.0 libblkid.so; }; })
+libtool: install: /usr/bin/install -c .libs/libblkid.lai /usr/lib/libblkid.la
+libtool: warning: relinking 'libmount.la'
+libtool: install: (cd /sources/util-linux-2.31.1/build; /bin/sh "/sources/util-linux-2.31.1/build/libtool"  --silent --tag CC --mode=relink gcc -fsigned-char -fno-common -Wall -Werror=sequence-point -Wextra -Wmissing-declarations -Wmissing-parameter-type -Wmissing-prototypes -Wno-missing-field-initializers -Wredundant-decls -Wsign-compare -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-parameter -Wunused-result -Wunused-variable -Wnested-externs -Wpointer-arith -Wstrict-prototypes -Wimplicit-function-declaration -I./libblkid/src -I./libmount/src -I../libmount/src -g -O2 -Wl,--version-script,../libmount/src/libmount.sym -version-info 2:0:1 -o libmount.la -rpath /usr/lib lib/libmount_la-monotonic.lo libmount/src/libmount_la-cache.lo libmount/src/libmount_la-fs.lo libmount/src/libmount_la-init.lo libmount/src/libmount_la-iter.lo libmount/src/libmount_la-lock.lo libmount/src/libmount_la-optmap.lo libmount/src/libmount_la-optstr.lo libmount/src/libmount_la-tab.lo libmount/src/libmount_la-tab_diff.lo libmount/src/libmount_la-tab_parse.lo libmount/src/libmount_la-tab_update.lo libmount/src/libmount_la-test.lo libmount/src/libmount_la-utils.lo libmount/src/libmount_la-version.lo libmount/src/libmount_la-context.lo libmount/src/libmount_la-context_loopdev.lo libmount/src/libmount_la-context_mount.lo libmount/src/libmount_la-context_umount.lo libmount/src/libmount_la-monitor.lo libmount/src/libmount_la-btrfs.lo libcommon.la libblkid.la -lrt )
+libtool: install: /usr/bin/install -c .libs/libmount.so.1.1.0T /usr/lib/libmount.so.1.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libmount.so.1.1.0 libmount.so.1 || { rm -f libmount.so.1 && ln -s libmount.so.1.1.0 libmount.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libmount.so.1.1.0 libmount.so || { rm -f libmount.so && ln -s libmount.so.1.1.0 libmount.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmount.lai /usr/lib/libmount.la
+libtool: install: /usr/bin/install -c .libs/libsmartcols.so.1.1.0 /usr/lib/libsmartcols.so.1.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libsmartcols.so.1.1.0 libsmartcols.so.1 || { rm -f libsmartcols.so.1 && ln -s libsmartcols.so.1.1.0 libsmartcols.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libsmartcols.so.1.1.0 libsmartcols.so || { rm -f libsmartcols.so && ln -s libsmartcols.so.1.1.0 libsmartcols.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsmartcols.lai /usr/lib/libsmartcols.la
+libtool: warning: relinking 'libfdisk.la'
+libtool: install: (cd /sources/util-linux-2.31.1/build; /bin/sh "/sources/util-linux-2.31.1/build/libtool"  --silent --tag CC --mode=relink gcc -fsigned-char -fno-common -Wall -Werror=sequence-point -Wextra -Wmissing-declarations -Wmissing-parameter-type -Wmissing-prototypes -Wno-missing-field-initializers -Wredundant-decls -Wsign-compare -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-parameter -Wunused-result -Wunused-variable -Wnested-externs -Wpointer-arith -Wstrict-prototypes -Wimplicit-function-declaration -I../libuuid/src -I./libfdisk/src -I../libfdisk/src -I./libblkid/src -g -O2 -Wl,--version-script,../libfdisk/src/libfdisk.sym -version-info 2:0:1 -o libfdisk.la -rpath /usr/lib libfdisk/src/libfdisk_la-init.lo libfdisk/src/libfdisk_la-field.lo libfdisk/src/libfdisk_la-item.lo libfdisk/src/libfdisk_la-test.lo libfdisk/src/libfdisk_la-ask.lo libfdisk/src/libfdisk_la-alignment.lo libfdisk/src/libfdisk_la-label.lo libfdisk/src/libfdisk_la-utils.lo libfdisk/src/libfdisk_la-context.lo libfdisk/src/libfdisk_la-parttype.lo libfdisk/src/libfdisk_la-partition.lo libfdisk/src/libfdisk_la-table.lo libfdisk/src/libfdisk_la-iter.lo libfdisk/src/libfdisk_la-script.lo libfdisk/src/libfdisk_la-version.lo libfdisk/src/libfdisk_la-wipe.lo libfdisk/src/libfdisk_la-sun.lo libfdisk/src/libfdisk_la-sgi.lo libfdisk/src/libfdisk_la-dos.lo libfdisk/src/libfdisk_la-bsd.lo libfdisk/src/libfdisk_la-gpt.lo libcommon.la libuuid.la libblkid.la )
+libtool: install: /usr/bin/install -c .libs/libfdisk.so.1.1.0T /usr/lib/libfdisk.so.1.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libfdisk.so.1.1.0 libfdisk.so.1 || { rm -f libfdisk.so.1 && ln -s libfdisk.so.1.1.0 libfdisk.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfdisk.so.1.1.0 libfdisk.so || { rm -f libfdisk.so && ln -s libfdisk.so.1.1.0 libfdisk.so; }; })
+libtool: install: /usr/bin/install -c .libs/libfdisk.lai /usr/lib/libfdisk.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/sbin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c agetty sulogin fstrim ctrlaltdel fsfreeze blkdiscard blkzone losetup zramctl swapon swapoff chcpu pivot_root switch_root hwclock blkid findfs wipefs fsck.minix mkfs.minix mkfs mkfs.bfs mkswap swaplabel fsck raw fsck.cramfs mkfs.cramfs blockdev fdisk sfdisk cfdisk '/sbin'
+libtool: install: /usr/bin/install -c agetty /sbin/agetty
+libtool: install: /usr/bin/install -c sulogin /sbin/sulogin
+libtool: install: /usr/bin/install -c .libs/fstrim /sbin/fstrim
+libtool: install: /usr/bin/install -c ctrlaltdel /sbin/ctrlaltdel
+libtool: install: /usr/bin/install -c fsfreeze /sbin/fsfreeze
+libtool: install: /usr/bin/install -c blkdiscard /sbin/blkdiscard
+libtool: install: /usr/bin/install -c blkzone /sbin/blkzone
+libtool: install: /usr/bin/install -c .libs/losetup /sbin/losetup
+libtool: install: /usr/bin/install -c .libs/zramctl /sbin/zramctl
+libtool: install: /usr/bin/install -c .libs/swapon /sbin/swapon
+libtool: install: /usr/bin/install -c .libs/swapoff /sbin/swapoff
+libtool: install: /usr/bin/install -c chcpu /sbin/chcpu
+libtool: install: /usr/bin/install -c pivot_root /sbin/pivot_root
+libtool: install: /usr/bin/install -c switch_root /sbin/switch_root
+libtool: install: /usr/bin/install -c hwclock /sbin/hwclock
+libtool: install: /usr/bin/install -c .libs/blkid /sbin/blkid
+libtool: install: /usr/bin/install -c .libs/findfs /sbin/findfs
+libtool: install: /usr/bin/install -c .libs/wipefs /sbin/wipefs
+libtool: install: /usr/bin/install -c fsck.minix /sbin/fsck.minix
+libtool: install: /usr/bin/install -c mkfs.minix /sbin/mkfs.minix
+libtool: install: /usr/bin/install -c mkfs /sbin/mkfs
+libtool: install: /usr/bin/install -c mkfs.bfs /sbin/mkfs.bfs
+libtool: install: /usr/bin/install -c .libs/mkswap /sbin/mkswap
+libtool: install: /usr/bin/install -c .libs/swaplabel /sbin/swaplabel
+libtool: install: /usr/bin/install -c .libs/fsck /sbin/fsck
+libtool: install: /usr/bin/install -c raw /sbin/raw
+libtool: install: /usr/bin/install -c fsck.cramfs /sbin/fsck.cramfs
+libtool: install: /usr/bin/install -c mkfs.cramfs /sbin/mkfs.cramfs
+libtool: install: /usr/bin/install -c blockdev /sbin/blockdev
+libtool: install: /usr/bin/install -c .libs/fdisk /sbin/fdisk
+libtool: install: /usr/bin/install -c .libs/sfdisk /sbin/sfdisk
+libtool: install: /usr/bin/install -c .libs/cfdisk /sbin/cfdisk
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c chrt ionice taskset col colcrt colrm column hexdump rev ul script scriptreplay setterm mesg wall last utmpdump lslogins lsmem chmem flock ipcmk ipcrm ipcs lsipc renice setsid setarch eject prlimit lsns lscpu fallocate unshare nsenter cal logger look mcookie namei whereis lslocks uuidgen uuidparse rename getopt fincore isosize '/usr/bin'
+libtool: install: /usr/bin/install -c chrt /usr/bin/chrt
+libtool: install: /usr/bin/install -c ionice /usr/bin/ionice
+libtool: install: /usr/bin/install -c taskset /usr/bin/taskset
+libtool: install: /usr/bin/install -c col /usr/bin/col
+libtool: install: /usr/bin/install -c colcrt /usr/bin/colcrt
+libtool: install: /usr/bin/install -c colrm /usr/bin/colrm
+libtool: install: /usr/bin/install -c .libs/column /usr/bin/column
+libtool: install: /usr/bin/install -c hexdump /usr/bin/hexdump
+libtool: install: /usr/bin/install -c rev /usr/bin/rev
+libtool: install: /usr/bin/install -c ul /usr/bin/ul
+libtool: install: /usr/bin/install -c script /usr/bin/script
+libtool: install: /usr/bin/install -c scriptreplay /usr/bin/scriptreplay
+libtool: install: /usr/bin/install -c setterm /usr/bin/setterm
+libtool: install: /usr/bin/install -c mesg /usr/bin/mesg
+libtool: install: /usr/bin/install -c wall /usr/bin/wall
+libtool: install: /usr/bin/install -c last /usr/bin/last
+libtool: install: /usr/bin/install -c utmpdump /usr/bin/utmpdump
+libtool: install: /usr/bin/install -c .libs/lslogins /usr/bin/lslogins
+libtool: install: /usr/bin/install -c .libs/lsmem /usr/bin/lsmem
+libtool: install: /usr/bin/install -c chmem /usr/bin/chmem
+libtool: install: /usr/bin/install -c flock /usr/bin/flock
+libtool: install: /usr/bin/install -c ipcmk /usr/bin/ipcmk
+libtool: install: /usr/bin/install -c ipcrm /usr/bin/ipcrm
+libtool: install: /usr/bin/install -c ipcs /usr/bin/ipcs
+libtool: install: /usr/bin/install -c .libs/lsipc /usr/bin/lsipc
+libtool: install: /usr/bin/install -c renice /usr/bin/renice
+libtool: install: /usr/bin/install -c setsid /usr/bin/setsid
+libtool: install: /usr/bin/install -c setarch /usr/bin/setarch
+libtool: install: /usr/bin/install -c .libs/eject /usr/bin/eject
+libtool: install: /usr/bin/install -c .libs/prlimit /usr/bin/prlimit
+libtool: install: /usr/bin/install -c .libs/lsns /usr/bin/lsns
+libtool: install: /usr/bin/install -c .libs/lscpu /usr/bin/lscpu
+libtool: install: /usr/bin/install -c fallocate /usr/bin/fallocate
+libtool: install: /usr/bin/install -c unshare /usr/bin/unshare
+libtool: install: /usr/bin/install -c nsenter /usr/bin/nsenter
+libtool: install: /usr/bin/install -c cal /usr/bin/cal
+libtool: install: /usr/bin/install -c logger /usr/bin/logger
+libtool: install: /usr/bin/install -c look /usr/bin/look
+libtool: install: /usr/bin/install -c mcookie /usr/bin/mcookie
+libtool: install: /usr/bin/install -c namei /usr/bin/namei
+libtool: install: /usr/bin/install -c whereis /usr/bin/whereis
+libtool: install: /usr/bin/install -c .libs/lslocks /usr/bin/lslocks
+libtool: install: /usr/bin/install -c .libs/uuidgen /usr/bin/uuidgen
+libtool: install: /usr/bin/install -c .libs/uuidparse /usr/bin/uuidparse
+libtool: install: /usr/bin/install -c rename /usr/bin/rename
+libtool: install: /usr/bin/install -c getopt /usr/bin/getopt
+libtool: install: /usr/bin/install -c .libs/fincore /usr/bin/fincore
+libtool: install: /usr/bin/install -c isosize /usr/bin/isosize
+ /bin/mkdir -p '/usr/sbin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c rfkill readprofile ldattach rtcwake uuidd fdformat partx addpart delpart resizepart '/usr/sbin'
+libtool: install: /usr/bin/install -c .libs/rfkill /usr/sbin/rfkill
+libtool: install: /usr/bin/install -c readprofile /usr/sbin/readprofile
+libtool: install: /usr/bin/install -c ldattach /usr/sbin/ldattach
+libtool: install: /usr/bin/install -c rtcwake /usr/sbin/rtcwake
+libtool: install: /usr/bin/install -c .libs/uuidd /usr/sbin/uuidd
+libtool: install: /usr/bin/install -c fdformat /usr/sbin/fdformat
+libtool: install: /usr/bin/install -c .libs/partx /usr/sbin/partx
+libtool: install: /usr/bin/install -c addpart /usr/sbin/addpart
+libtool: install: /usr/bin/install -c delpart /usr/sbin/delpart
+libtool: install: /usr/bin/install -c resizepart /usr/sbin/resizepart
+make  install-exec-hook
+make[4]: Entering directory '/sources/util-linux-2.31.1/build'
+if test "/usr/lib" != "/lib" -a -f "/usr/lib/libuuid.so"; then \
+	/bin/mkdir -p /lib; \
+	mv /usr/lib/libuuid.so.* /lib; \
+	so_img_name=$(readlink /usr/lib/libuuid.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /usr/lib && \
+		rm -f libuuid.so && \
+		ln -s $so_img_rel_target/lib/$so_img_name libuuid.so); \
+fi
+if test "/usr/lib" != "/lib" -a -f "/usr/lib/libblkid.so"; then \
+	/bin/mkdir -p /lib; \
+	mv /usr/lib/libblkid.so.* /lib; \
+	so_img_name=$(readlink /usr/lib/libblkid.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /usr/lib && \
+		rm -f libblkid.so && \
+		ln -s $so_img_rel_target/lib/$so_img_name libblkid.so); \
+fi
+if test "/usr/lib" != "/lib" -a -f "/usr/lib/libmount.so"; then \
+	/bin/mkdir -p /lib; \
+	mv /usr/lib/libmount.so.* /lib; \
+	so_img_name=$(readlink /usr/lib/libmount.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /usr/lib && \
+		rm -f libmount.so && \
+		ln -s $so_img_rel_target/lib/$so_img_name libmount.so); \
+fi
+if test "/usr/lib" != "/lib" -a -f "/usr/lib/libsmartcols.so"; then \
+	/bin/mkdir -p /lib; \
+	mv /usr/lib/libsmartcols.so.* /lib; \
+	so_img_name=$(readlink /usr/lib/libsmartcols.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /usr/lib && \
+		rm -f libsmartcols.so && \
+		ln -s $so_img_rel_target/lib/$so_img_name libsmartcols.so); \
+fi
+if test "/usr/lib" != "/lib" -a -f "/usr/lib/libfdisk.so"; then \
+	/bin/mkdir -p /lib; \
+	mv /usr/lib/libfdisk.so.* /lib; \
+	so_img_name=$(readlink /usr/lib/libfdisk.so); \
+	so_img_rel_target=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /usr/lib && \
+		rm -f libfdisk.so && \
+		ln -s $so_img_rel_target/lib/$so_img_name libfdisk.so); \
+fi
+chgrp tty /usr/bin/wall
+chmod g+s /usr/bin/wall
+cd /usr/bin && ln -sf last lastb
+for I in uname26 linux32 linux64   i386 x86_64     ; do \
+	cd /usr/bin && ln -sf setarch $I ; \
+done
+chown root:root /bin/mount
+chmod 4755 /bin/mount
+chown root:root /bin/umount
+chmod 4755 /bin/umount
+make[4]: Leaving directory '/sources/util-linux-2.31.1/build'
+ /bin/mkdir -p '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 ../bash-completion/blkid ../bash-completion/cal ../bash-completion/col ../bash-completion/colcrt ../bash-completion/colrm ../bash-completion/column ../bash-completion/fincore ../bash-completion/findfs ../bash-completion/findmnt ../bash-completion/flock ../bash-completion/getopt ../bash-completion/hexdump ../bash-completion/ipcmk ../bash-completion/ipcrm ../bash-completion/ipcs ../bash-completion/isosize ../bash-completion/logger ../bash-completion/look ../bash-completion/lsipc ../bash-completion/lsns ../bash-completion/mcookie ../bash-completion/mkfs ../bash-completion/mkswap ../bash-completion/namei ../bash-completion/prlimit ../bash-completion/readprofile ../bash-completion/renice ../bash-completion/rev ../bash-completion/script ../bash-completion/scriptreplay ../bash-completion/setsid ../bash-completion/whereis ../bash-completion/wipefs ../bash-completion/fsck ../bash-completion/mkfs.bfs ../bash-completion/fsck.minix ../bash-completion/mkfs.minix ../bash-completion/fsck.cramfs ../bash-completion/mkfs.cramfs ../bash-completion/addpart '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 ../bash-completion/delpart ../bash-completion/resizepart ../bash-completion/partx ../bash-completion/raw ../bash-completion/swaplabel ../bash-completion/fdformat ../bash-completion/blockdev ../bash-completion/fdisk ../bash-completion/sfdisk ../bash-completion/cfdisk ../bash-completion/last ../bash-completion/lslogins ../bash-completion/utmpdump ../bash-completion/uuidgen ../bash-completion/uuidparse ../bash-completion/uuidd ../bash-completion/lsblk ../bash-completion/lslocks ../bash-completion/rename ../bash-completion/chrt ../bash-completion/ionice ../bash-completion/taskset ../bash-completion/chcpu ../bash-completion/chmem ../bash-completion/eject ../bash-completion/fallocate ../bash-completion/hwclock ../bash-completion/lscpu ../bash-completion/lsmem ../bash-completion/losetup ../bash-completion/mount ../bash-completion/umount ../bash-completion/mountpoint ../bash-completion/nsenter ../bash-completion/pivot_root ../bash-completion/swapon ../bash-completion/swapoff ../bash-completion/unshare ../bash-completion/wdctl ../bash-completion/blkdiscard '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 ../bash-completion/blkzone ../bash-completion/ctrlaltdel ../bash-completion/dmesg ../bash-completion/fsfreeze ../bash-completion/fstrim ../bash-completion/ldattach ../bash-completion/rfkill ../bash-completion/rtcwake ../bash-completion/setarch ../bash-completion/zramctl ../bash-completion/mesg ../bash-completion/wall ../bash-completion/setterm ../bash-completion/more ../bash-completion/ul '/usr/share/bash-completion/completions'
+ /bin/mkdir -p '/usr/share/doc/util-linux-2.31.1/getopt/'
+ /usr/bin/install -c ../misc-utils/getopt-parse.bash ../misc-utils/getopt-parse.tcsh '/usr/share/doc/util-linux-2.31.1/getopt/'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../schedutils/chrt.1 ../schedutils/ionice.1 ../schedutils/taskset.1 ../text-utils/col.1 ../text-utils/colcrt.1 ../text-utils/colrm.1 ../text-utils/column.1 ../text-utils/hexdump.1 ../text-utils/rev.1 ../text-utils/ul.1 ../text-utils/more.1 ../term-utils/script.1 ../term-utils/scriptreplay.1 ../term-utils/setterm.1 ../term-utils/mesg.1 ../term-utils/wall.1 ../login-utils/last.1 ../login-utils/lastb.1 ../login-utils/utmpdump.1 ../login-utils/lslogins.1 ../sys-utils/lsmem.1 ../sys-utils/flock.1 ../sys-utils/ipcmk.1 ../sys-utils/ipcrm.1 ../sys-utils/ipcs.1 ../sys-utils/lsipc.1 ../sys-utils/renice.1 ../sys-utils/setsid.1 ../sys-utils/dmesg.1 ../sys-utils/eject.1 ../sys-utils/prlimit.1 ../sys-utils/lscpu.1 ../sys-utils/mountpoint.1 ../sys-utils/fallocate.1 ../sys-utils/unshare.1 ../sys-utils/nsenter.1 ../misc-utils/cal.1 ../misc-utils/logger.1 ../misc-utils/look.1 ../misc-utils/mcookie.1 '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../misc-utils/namei.1 ../misc-utils/whereis.1 ../misc-utils/uuidgen.1 ../misc-utils/uuidparse.1 ../misc-utils/kill.1 ../misc-utils/rename.1 ../misc-utils/getopt.1 ../misc-utils/fincore.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 ../libuuid/man/uuid.3 ../libuuid/man/uuid_clear.3 ../libuuid/man/uuid_compare.3 ../libuuid/man/uuid_copy.3 ../libuuid/man/uuid_generate.3 ../libuuid/man/uuid_is_null.3 ../libuuid/man/uuid_parse.3 ../libuuid/man/uuid_time.3 ../libuuid/man/uuid_unparse.3 ../libuuid/man/uuid_generate_random.3 ../libuuid/man/uuid_generate_time.3 ../libuuid/man/uuid_generate_time_safe.3 ../libblkid/libblkid.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 ../lib/terminal-colors.d.5 ../sys-utils/fstab.5 '/usr/share/man/man5'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 ../term-utils/agetty.8 ../login-utils/sulogin.8 ../sys-utils/chmem.8 ../sys-utils/rfkill.8 ../sys-utils/readprofile.8 ../sys-utils/fstrim.8 ../sys-utils/ctrlaltdel.8 ../sys-utils/fsfreeze.8 ../sys-utils/blkdiscard.8 ../sys-utils/blkzone.8 ../sys-utils/ldattach.8 sys-utils/rtcwake.8 ../sys-utils/setarch.8 ../sys-utils/losetup.8 ../sys-utils/zramctl.8 ../sys-utils/lsns.8 ../sys-utils/mount.8 ../sys-utils/umount.8 ../sys-utils/swapoff.8 ../sys-utils/swapon.8 ../sys-utils/chcpu.8 ../sys-utils/wdctl.8 ../sys-utils/pivot_root.8 ../sys-utils/switch_root.8 sys-utils/hwclock.8 ../misc-utils/lslocks.8 ../misc-utils/lsblk.8 misc-utils/uuidd.8 ../misc-utils/blkid.8 ../misc-utils/findfs.8 ../misc-utils/wipefs.8 ../misc-utils/findmnt.8 ../disk-utils/fsck.minix.8 ../disk-utils/mkfs.minix.8 ../disk-utils/mkfs.8 ../disk-utils/isosize.8 ../disk-utils/mkfs.bfs.8 ../disk-utils/mkswap.8 ../disk-utils/swaplabel.8 ../disk-utils/fsck.8 '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 ../disk-utils/raw.8 ../disk-utils/fsck.cramfs.8 ../disk-utils/mkfs.cramfs.8 ../disk-utils/fdformat.8 ../disk-utils/blockdev.8 ../disk-utils/fdisk.8 ../disk-utils/sfdisk.8 ../disk-utils/cfdisk.8 ../disk-utils/addpart.8 ../disk-utils/delpart.8 ../disk-utils/resizepart.8 ../disk-utils/partx.8 sys-utils/uname26.8 sys-utils/linux32.8 sys-utils/linux64.8 sys-utils/i386.8 sys-utils/x86_64.8 '/usr/share/man/man8'
+ /bin/mkdir -p '/usr/include/blkid'
+ /usr/bin/install -c -m 644 ./libblkid/src/blkid.h '/usr/include/blkid'
+ /bin/mkdir -p '/usr/include/libfdisk'
+ /usr/bin/install -c -m 644 ./libfdisk/src/libfdisk.h '/usr/include/libfdisk'
+ /bin/mkdir -p '/usr/include/libmount'
+ /usr/bin/install -c -m 644 ./libmount/src/libmount.h '/usr/include/libmount'
+ /bin/mkdir -p '/usr/include/libsmartcols'
+ /usr/bin/install -c -m 644 ./libsmartcols/src/libsmartcols.h '/usr/include/libsmartcols'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libuuid/uuid.pc libblkid/blkid.pc libmount/mount.pc libsmartcols/smartcols.pc libfdisk/fdisk.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/lib/systemd/system'
+ /usr/bin/install -c -m 644 sys-utils/fstrim.service ../sys-utils/fstrim.timer misc-utils/uuidd.service misc-utils/uuidd.socket '/lib/systemd/system'
+ /bin/mkdir -p '/usr/include/uuid'
+ /usr/bin/install -c -m 644 ../libuuid/src/uuid.h '/usr/include/uuid'
+make  install-data-hook
+make[4]: Entering directory '/sources/util-linux-2.31.1/build'
+make[4]: Nothing to be done for 'install-data-hook'.
+make[4]: Leaving directory '/sources/util-linux-2.31.1/build'
+make[3]: Leaving directory '/sources/util-linux-2.31.1/build'
+make[2]: Leaving directory '/sources/util-linux-2.31.1/build'
+make[1]: Leaving directory '/sources/util-linux-2.31.1/build'

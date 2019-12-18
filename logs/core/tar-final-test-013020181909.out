@@ -1,0 +1,373 @@
+Making check in doc
+make[1]: Entering directory '/sources/tar-1.30/build/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/tar-1.30/build/doc'
+Making check in gnu
+make[1]: Entering directory '/sources/tar-1.30/build/gnu'
+make  check-recursive
+make[2]: Entering directory '/sources/tar-1.30/build/gnu'
+make[3]: Entering directory '/sources/tar-1.30/build/gnu'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/tar-1.30/build/gnu'
+make[2]: Leaving directory '/sources/tar-1.30/build/gnu'
+make[1]: Leaving directory '/sources/tar-1.30/build/gnu'
+Making check in lib
+make[1]: Entering directory '/sources/tar-1.30/build/lib'
+make  check-am
+make[2]: Entering directory '/sources/tar-1.30/build/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/tar-1.30/build/lib'
+make[1]: Leaving directory '/sources/tar-1.30/build/lib'
+Making check in rmt
+make[1]: Entering directory '/sources/tar-1.30/build/rmt'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/tar-1.30/build/rmt'
+Making check in src
+make[1]: Entering directory '/sources/tar-1.30/build/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/tar-1.30/build/src'
+Making check in scripts
+make[1]: Entering directory '/sources/tar-1.30/build/scripts'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/tar-1.30/build/scripts'
+Making check in po
+make[1]: Entering directory '/sources/tar-1.30/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/tar-1.30/build/po'
+Making check in tests
+make[1]: Entering directory '/sources/tar-1.30/build/tests'
+make  genfile checkseekhole ckmtime
+make[2]: Entering directory '/sources/tar-1.30/build/tests'
+  CC       genfile.o
+  CC       argcv.o
+  CCLD     genfile
+  CC       checkseekhole.o
+  CCLD     checkseekhole
+  CC       ckmtime.o
+  CCLD     ckmtime
+make[2]: Leaving directory '/sources/tar-1.30/build/tests'
+make  check-local
+make[2]: Entering directory '/sources/tar-1.30/build/tests'
+/bin/sh ../../tests/testsuite 
+## ------------------------ ##
+## GNU tar 1.30 test suite. ##
+## ------------------------ ##
+  1: tar version                                     ok
+  2: decompressing from stdin                        ok
+  3: mixing options                                  ok
+  4: interspersed options                            ok
+  5: TAR_OPTIONS with string arguments               ok
+
+Option compatibility
+
+  6: occurrence compatibility                        ok
+  7: occurrence compatibility                        ok
+  8: --verify compatibility                          ok
+  9: compress option compatibility                   ok
+ 10: --pax-option compatibility                      ok
+ 11: --pax-option compatibility                      ok
+
+Positional options
+
+ 12: Exclude                                         ok
+ 13: Directory                                       ok
+ 14: Several options                                 ok
+ 15: The --add-file option                           ok
+
+The -T option
+
+ 16: multiple file lists                             ok
+ 17: nested file lists                               ok
+ 18: recursive file lists                            ok
+ 19: files-from & recurse: toggle                    ok
+ 20: toggle --recursion (not) from -T                ok
+ 21: -C in file lists                                ok
+ 22: empty entries                                   ok
+ 23: 0-separated file without -0                     ok
+ 24: --null enables verbatim reading                 ok
+ 25: empty file                                      ok
+ 26: entries with missing newlines                   ok
+ 27: recursive extraction from --files-from          ok
+ 28: trailing slash in --files-from                  ok
+
+Various options
+
+ 29: tar --index-file=FILE --file=-                  ok
+ 30: tar cvf -                                       ok
+ 31: gzip                                            ok
+ 32: recurse                                         ok
+ 33: recurse: toggle                                 ok
+ 34: short records                                   ok
+ 35: --numeric-owner basic tests                     ok
+
+The --same-order option
+
+ 36: working -C with --same-order                    ok
+ 37: multiple -C options                             ok
+
+Append
+
+ 38: append                                          ok
+ 39: appending files with long names                 ok
+ 40: append vs. create                               ok
+ 41: append with name transformation                 ok
+ 42: append with verify                              ok
+ 43: append after changed blocking                   ok
+
+Transforms
+
+ 44: transforming hard links on create               ok
+ 45: transformations and GNU volume labels           ok
+ 46: transforming escaped delimiters on create       ok
+ 47: transforming hard link targets                  ok
+
+Exclude
+
+ 48: exclude                                         ok
+ 49: exclude wildcards                               ok
+ 50: exclude: anchoring                              ok
+ 51: exclude: wildcards match slash                  ok
+ 52: exclude: case insensitive                       ok
+ 53: exclude: lots of excludes                       ok
+ 54: exclude: long files in pax archives             ok
+ 55: exclude: --exclude-backups option               ok
+ 56: --exclude-tag option                            ok
+ 57: --exclude-tag option and --listed-incremental   ok
+ 58: --exclude-tag option in incremental pass        ok
+ 59: --exclude-tag-under option                      ok
+ 60: --exclude-tag-under and --listed-incremental    ok
+ 61: --exclude-tag-under option in incremental pass  ok
+ 62: --exclude-tag-all option                        ok
+ 63: --exclude-tag-all and --listed-incremental      ok
+ 64: --exclude-tag-all option in incremental pass    ok
+
+Deletions
+
+ 65: deleting a member after a big one               ok
+ 66: deleting a member from stdin archive            ok
+ 67: deleting members with long names                ok
+ 68: deleting a large last member                    ok
+ 69: deleting non-existing member                    ok
+
+Extracting
+
+ 70: extract over an existing directory              ok
+ 71: extracting symlinks over an existing file       ok
+ 72: extraction loops                                ok
+ 73: extract + fnmatch                               ok
+ 74: extracting selected members from pax            ok
+ 75: mode of extracted directories                   ok
+ 76: extracting symlinks to a read-only dir          skipped (extrac07.at:31)
+ 77: restoring mode on existing directory            ok
+ 78: extracting even when . and .. are unreadable    skipped (extrac09.at:37)
+ 79: -C and delayed setting of metadata              ok
+ 80: scarce file descriptors                         ok
+ 81: extract dot permissions                         ok
+ 82: extract over symlinks                           ok
+ 83: extract -C symlink                              ok
+ 84: extract parent mkdir failure                    skipped (extrac15.at:28)
+ 85: extract empty directory with -C                 ok
+ 86: name matching/transformation ordering           ok
+ 87: keep-old-files                                  ok
+ 88: skip-old-files                                  ok
+ 89: keep-directory-symlink                          ok
+ 90: delay-directory-restore                         skipped (extrac21.at:33)
+ 91: extracting existing dir with --backup           ok
+
+Comparing
+
+ 92: link mismatch                                   ok
+
+Volume label operations
+
+ 93: single-volume label                             ok
+ 94: multi-volume label                              ok
+ 95: test-label option                               ok
+ 96: label with non-create option                    ok
+ 97: label with non-create option                    ok
+
+Incremental archives
+
+ 98: incremental                                     ok
+ 99: restore broken symlinks from incremental        ok
+100: restoring timestamps from incremental           ok
+101: --listed for individual files                   ok
+102: working --listed                                ok
+103: incremental dump when the parent directory is unreadable skipped (listed03.at:27)
+104: --listed-incremental and --one-file-system      ok
+105: --listed-incremental and remounted directories  ok
+106: renamed files in incrementals                   ok
+107: proper icontents initialization                 ok
+108: incremental dumps with -C                       ok
+109: incremental dumps of nested directories         ok
+110: incremental restores with -C                    ok
+111: filename normalization                          ok
+112: incremental with alternating -C                 ok
+113: concatenated incremental archives (deletes)     ok
+114: concatenated incremental archives (renames)     ok
+
+Files removed while archiving
+
+115: file removed as we read it (ca. 22 seconds)     ok
+116: toplevel file removed (ca. 24 seconds)          ok
+
+Directories removed while archiving
+
+117: directory removed before reading                ok
+118: explicitly named directory removed before reading ok
+
+Renames
+
+119: renamed dirs in incrementals                    ok
+120: move between hierarchies                        ok
+121: cyclic renames                                  ok
+122: renamed directory containing subdirectories     ok
+123: renamed subdirectories                          ok
+124: changed file types in incrementals              ok
+
+Ignore failing reads
+
+125: ignfail                                         skipped (ignfail.at:27)
+
+Link handling
+
+126: link count gt 2                                 ok
+127: preserve hard links with --remove-files         ok
+128: working -l with --remove-files                  ok
+129: link count is 1 but multiple occurrences        ok
+
+Specific archive formats
+
+130: long names in V7 archives                       ok
+131: long file names divisible by block size         ok
+132: ustar: unsplittable file name                   ok
+133: ustar: unsplittable path name                   ok
+134: ustar: splitting long names                     ok
+135: old archives                                    ok
+136: time: tricky time stamps                        ok
+137: time: clamping mtime                            ok
+
+Multivolume archives
+
+138: multivolume dumps from pipes                    ok
+139: skipping a straddling member                    ok
+140: MV archive & long filenames                     ok
+141: split directory members in a MV archive         ok
+142: Restoring after an out of sync volume           ok
+143: Multivolumes with L=record_size                 ok
+144: volumes split at an extended header             skipped (multiv07.at:31)
+145: multivolume header creation                     ok
+146: bad next volume                                 ok
+147: file start at the beginning of a posix volume   ok
+
+Owner and Groups
+
+148: --owner and --group                             ok
+149: --owner-map and --group-map                     ok
+
+Sparse files
+
+150: sparse files                                    ok
+151: extracting sparse file over a pipe              ok
+152: storing sparse files > 8G                       ok
+153: storing long sparse file names                  ok
+154: listing sparse files bigger than 2^33 B         ok
+155: storing sparse file using seek method           ok
+156: sparse files with unicode names                 ok
+157: sparse files in MV archives                     ok
+158: sparse files in PAX MV archives, v.0.0          ok
+159: sparse files in PAX MV archives, v.0.1          ok
+160: sparse files in PAX MV archives, v.1.0          ok
+
+Updates
+
+161: update unchanged directories                    ok
+162: update directories                              ok
+163: update changed files                            ok
+164: update with chdir                               ok
+
+Verifying the archive
+
+165: verify                                          ok
+
+Volume operations
+
+166: volume                                          ok
+167: volume header size                              skipped (volsize.at:33)
+
+168: compressed format recognition                   ok
+169: short input files                               ok
+170: updating short archives                         ok
+171: truncate                                        ok
+172: grow                                            ok
+173: sigpipe handling                                ok
+174: compressor program failure                      ok
+
+Removing files after archiving
+
+175: remove-files with compression                   skipped (remfiles01.at:32)
+176: remove-files with compression: grand-child      ok
+177: remove-files with symbolic links                ok
+178: remove-files with -C:rel in -c/non-incr. mode   ok
+179: remove-files with -C:rel in -c/incr. mode       ok
+180: remove-files with -C:rel in -r mode             ok
+181: remove-files with -C:rel,rel in -c/non-incr. mode ok
+182: remove-files with -C:rel,rel in -c/incr. mode   ok
+183: remove-files with -C:rel,rel in -r mode         ok
+184: remove-files with -C:rel,abs in -c/non-incr. mode ok
+185: remove-files with -C:rel,abs in -c/incr. mode   ok
+186: remove-files with -C:rel,abs in -r mode         ok
+187: remove-files with -C:abs,rel in -c/non-incr. mode ok
+188: remove-files with -C:abs,rel in -c/incr. mode   ok
+189: remove-files with -C:abs,rel in -r mode         ok
+190: remove-files deleting two subdirs in -c/non-incr. mode ok
+191: remove-files deleting two subdirs in -c/incr. mode ok
+192: remove-files deleting two subdirs in -r mode    ok
+193: remove-files on full directory in -c/non-incr. mode ok
+194: remove-files on full directory in -c/incr. mode ok
+195: remove-files on full directory in -r mode       ok
+196: remove-files                                    ok
+
+Extended attributes
+
+197: xattrs: basic functionality                     ok
+198: xattrs: change directory with -C option         ok
+199: xattrs: trusted.* attributes                    ok
+200: xattrs: s/open/openat/ regression               ok
+201: xattrs: keywords with '=' and '%'               ok
+202: xattrs: exclude xattrs on create                ok
+203: xattrs: xattrs and --skip-old-files             ok
+204: acls: basic functionality                       ok
+205: acls: work with -C                              ok
+206: acls: default ACLs                              ok
+207: selinux: basic store/restore                    skipped (selnx01.at:28)
+208: acls/selinux: special files & fifos             skipped (selacl01.at:28)
+209: capabilities: binary store/restore              ok
+
+One top level
+
+210: tar --one-top-level                             ok
+211: tar --one-top-level --show-transformed          ok
+212: tar --one-top-level --transform                 ok
+213: tar --one-top-level --transform                 ok
+214: tar --one-top-level restoring permissions       ok
+
+Star tests
+
+215: gtarfail                                        skipped (gtarfail.at:27)
+216: gtarfail2                                       skipped (gtarfail2.at:27)
+217: multi-fail                                      skipped (multi-fail.at:27)
+218: ustar-big-2g                                    skipped (ustar-big-2g.at:27)
+219: ustar-big-8g                                    skipped (ustar-big-8g.at:27)
+220: pax-big-10g                                     skipped (pax-big-10g.at:27)
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+203 tests were successful.
+17 tests were skipped.
+make[2]: Leaving directory '/sources/tar-1.30/build/tests'
+make[1]: Leaving directory '/sources/tar-1.30/build/tests'
+make[1]: Entering directory '/sources/tar-1.30/build'
+make[1]: Leaving directory '/sources/tar-1.30/build'

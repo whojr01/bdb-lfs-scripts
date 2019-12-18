@@ -1,0 +1,159 @@
+make  install-recursive
+make[1]: Entering directory `/lfsbuild/sources/bison-3.0.4/build'
+Making install in po
+make[2]: Entering directory `/lfsbuild/sources/bison-3.0.4/build/po'
+installing ../../po/da.gmo as /tools/share/locale/da/LC_MESSAGES/bison.mo
+installing ../../po/de.gmo as /tools/share/locale/de/LC_MESSAGES/bison.mo
+installing ../../po/el.gmo as /tools/share/locale/el/LC_MESSAGES/bison.mo
+installing ../../po/eo.gmo as /tools/share/locale/eo/LC_MESSAGES/bison.mo
+installing ../../po/es.gmo as /tools/share/locale/es/LC_MESSAGES/bison.mo
+installing ../../po/et.gmo as /tools/share/locale/et/LC_MESSAGES/bison.mo
+installing ../../po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/bison.mo
+installing ../../po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/bison.mo
+installing ../../po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/bison.mo
+installing ../../po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/bison.mo
+installing ../../po/id.gmo as /tools/share/locale/id/LC_MESSAGES/bison.mo
+installing ../../po/it.gmo as /tools/share/locale/it/LC_MESSAGES/bison.mo
+installing ../../po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/bison.mo
+installing ../../po/ms.gmo as /tools/share/locale/ms/LC_MESSAGES/bison.mo
+installing ../../po/nb.gmo as /tools/share/locale/nb/LC_MESSAGES/bison.mo
+installing ../../po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/bison.mo
+installing ../../po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/bison.mo
+installing ../../po/pt.gmo as /tools/share/locale/pt/LC_MESSAGES/bison.mo
+installing ../../po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/bison.mo
+installing ../../po/ro.gmo as /tools/share/locale/ro/LC_MESSAGES/bison.mo
+installing ../../po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/bison.mo
+installing ../../po/sr.gmo as /tools/share/locale/sr/LC_MESSAGES/bison.mo
+installing ../../po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/bison.mo
+installing ../../po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/bison.mo
+installing ../../po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/bison.mo
+installing ../../po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/bison.mo
+installing ../../po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/bison.mo
+installing ../../po/zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/bison.mo
+if test "bison" = "gettext-tools"; then \
+  /bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /bin/install -c -m 644 ../../po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/lfsbuild/sources/bison-3.0.4/build/po'
+Making install in runtime-po
+make[2]: Entering directory `/lfsbuild/sources/bison-3.0.4/build/runtime-po'
+installing ../../runtime-po/ast.gmo as /tools/share/locale/ast/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/da.gmo as /tools/share/locale/da/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/de.gmo as /tools/share/locale/de/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/el.gmo as /tools/share/locale/el/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/eo.gmo as /tools/share/locale/eo/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/es.gmo as /tools/share/locale/es/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/et.gmo as /tools/share/locale/et/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/gl.gmo as /tools/share/locale/gl/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/hu.gmo as /tools/share/locale/hu/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/ia.gmo as /tools/share/locale/ia/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/id.gmo as /tools/share/locale/id/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/it.gmo as /tools/share/locale/it/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/ky.gmo as /tools/share/locale/ky/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/lt.gmo as /tools/share/locale/lt/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/lv.gmo as /tools/share/locale/lv/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/ms.gmo as /tools/share/locale/ms/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/nb.gmo as /tools/share/locale/nb/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/pt.gmo as /tools/share/locale/pt/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/ro.gmo as /tools/share/locale/ro/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/sl.gmo as /tools/share/locale/sl/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/sq.gmo as /tools/share/locale/sq/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/sr.gmo as /tools/share/locale/sr/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/th.gmo as /tools/share/locale/th/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/bison-runtime.mo
+installing ../../runtime-po/zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/bison-runtime.mo
+if test "bison" = "gettext-tools"; then \
+  /bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /bin/install -c -m 644 ../../runtime-po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/lfsbuild/sources/bison-3.0.4/build/runtime-po'
+Making install in .
+make[2]: Entering directory `/lfsbuild/sources/bison-3.0.4/build'
+  GEN      ../doc/bison.help
+make[3]: Entering directory `/lfsbuild/sources/bison-3.0.4/build'
+ /bin/mkdir -p '/tools/bin'
+  /bin/install -c src/bison '/tools/bin'
+ /bin/mkdir -p '/tools/bin'
+ /bin/install -c src/yacc '/tools/bin'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /lfsbuild/sources/bison-3.0.4/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f lib/ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f lib/ref-add.sed lib/charset.alias > /tools/lib/charset.tmp ; \
+    /bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+ /bin/mkdir -p '/tools/lib'
+ /bin/install -c -m 644  lib/liby.a '/tools/lib'
+ ( cd '/tools/lib' && ranlib liby.a )
+ /bin/mkdir -p '/tools/share/aclocal'
+ /bin/install -c -m 644 ../m4/bison-i18n.m4 '/tools/share/aclocal'
+ /bin/mkdir -p '/tools/share/doc/bison/examples/calc++'
+ /bin/install -c -m 644 examples/calc++/calc++-driver.cc examples/calc++/calc++-driver.hh examples/calc++/calc++-scanner.ll examples/calc++/calc++.cc examples/calc++/calc++-parser.yy '/tools/share/doc/bison/examples/calc++'
+ /bin/mkdir -p '/tools/share/doc/bison'
+ /bin/install -c -m 644 ../AUTHORS ../COPYING ../NEWS ../README ../THANKS ../TODO '/tools/share/doc/bison'
+ /bin/mkdir -p '/tools/share/bison/m4sugar'
+ /bin/install -c -m 644 ../data/m4sugar/foreach.m4 ../data/m4sugar/m4sugar.m4 '/tools/share/bison/m4sugar'
+ /bin/mkdir -p '/tools/share/bison'
+ /bin/install -c -m 644 ../data/README ../data/bison.m4 ../data/c++-skel.m4 ../data/c++.m4 ../data/c-like.m4 ../data/c-skel.m4 ../data/c.m4 ../data/glr.c ../data/glr.cc ../data/java-skel.m4 ../data/java.m4 ../data/lalr1.cc ../data/lalr1.java ../data/location.cc ../data/stack.hh ../data/variant.hh ../data/yacc.c '/tools/share/bison'
+ /bin/mkdir -p '/tools/share/bison/xslt'
+ /bin/install -c -m 644 ../data/xslt/bison.xsl ../data/xslt/xml2dot.xsl ../data/xslt/xml2text.xsl ../data/xslt/xml2xhtml.xsl '/tools/share/bison/xslt'
+  GEN      ../doc/bison.help
+ /bin/mkdir -p '/tools/share/info'
+ /bin/install -c -m 644 ../doc/bison.info '/tools/share/info'
+ /bin/mkdir -p '/tools/share/man/man1'
+ /bin/install -c -m 644 ../doc/bison.1 doc/yacc.1 '/tools/share/man/man1'
+ /bin/mkdir -p '/tools/share/doc/bison/examples/mfcalc'
+ /bin/install -c -m 644 examples/mfcalc/calc.h examples/mfcalc/mfcalc.y '/tools/share/doc/bison/examples/mfcalc'
+ /bin/mkdir -p '/tools/share/doc/bison/examples/rpcalc'
+ /bin/install -c -m 644 examples/rpcalc/rpcalc.y '/tools/share/doc/bison/examples/rpcalc'
+make[3]: Leaving directory `/lfsbuild/sources/bison-3.0.4/build'
+make[2]: Leaving directory `/lfsbuild/sources/bison-3.0.4/build'
+make[1]: Leaving directory `/lfsbuild/sources/bison-3.0.4/build'

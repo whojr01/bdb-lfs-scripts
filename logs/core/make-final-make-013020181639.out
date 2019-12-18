@@ -1,0 +1,80 @@
+make  all-recursive
+make[1]: Entering directory '/sources/make-4.2.1/build'
+Making all in glob
+make[2]: Entering directory '/sources/make-4.2.1/build/glob'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/make-4.2.1/build/glob'
+Making all in config
+make[2]: Entering directory '/sources/make-4.2.1/build/config'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/make-4.2.1/build/config'
+Making all in po
+make[2]: Entering directory '/sources/make-4.2.1/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/make-4.2.1/build/po'
+Making all in doc
+make[2]: Entering directory '/sources/make-4.2.1/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/make-4.2.1/build/doc'
+make[2]: Entering directory '/sources/make-4.2.1/build'
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT ar.o -MD -MP -MF .deps/ar.Tpo -c -o ar.o ../ar.c
+mv -f .deps/ar.Tpo .deps/ar.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT arscan.o -MD -MP -MF .deps/arscan.Tpo -c -o arscan.o ../arscan.c
+mv -f .deps/arscan.Tpo .deps/arscan.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT commands.o -MD -MP -MF .deps/commands.Tpo -c -o commands.o ../commands.c
+mv -f .deps/commands.Tpo .deps/commands.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT default.o -MD -MP -MF .deps/default.Tpo -c -o default.o ../default.c
+mv -f .deps/default.Tpo .deps/default.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT dir.o -MD -MP -MF .deps/dir.Tpo -c -o dir.o ../dir.c
+mv -f .deps/dir.Tpo .deps/dir.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT expand.o -MD -MP -MF .deps/expand.Tpo -c -o expand.o ../expand.c
+mv -f .deps/expand.Tpo .deps/expand.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT file.o -MD -MP -MF .deps/file.Tpo -c -o file.o ../file.c
+mv -f .deps/file.Tpo .deps/file.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT function.o -MD -MP -MF .deps/function.Tpo -c -o function.o ../function.c
+mv -f .deps/function.Tpo .deps/function.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o ../getopt.c
+mv -f .deps/getopt.Tpo .deps/getopt.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o ../getopt1.c
+mv -f .deps/getopt1.Tpo .deps/getopt1.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT guile.o -MD -MP -MF .deps/guile.Tpo -c -o guile.o ../guile.c
+mv -f .deps/guile.Tpo .deps/guile.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT implicit.o -MD -MP -MF .deps/implicit.Tpo -c -o implicit.o ../implicit.c
+mv -f .deps/implicit.Tpo .deps/implicit.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT job.o -MD -MP -MF .deps/job.Tpo -c -o job.o ../job.c
+mv -f .deps/job.Tpo .deps/job.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT load.o -MD -MP -MF .deps/load.Tpo -c -o load.o ../load.c
+mv -f .deps/load.Tpo .deps/load.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT loadapi.o -MD -MP -MF .deps/loadapi.Tpo -c -o loadapi.o ../loadapi.c
+mv -f .deps/loadapi.Tpo .deps/loadapi.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o ../main.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o ../misc.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT posixos.o -MD -MP -MF .deps/posixos.Tpo -c -o posixos.o ../posixos.c
+mv -f .deps/posixos.Tpo .deps/posixos.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT output.o -MD -MP -MF .deps/output.Tpo -c -o output.o ../output.c
+mv -f .deps/output.Tpo .deps/output.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT read.o -MD -MP -MF .deps/read.Tpo -c -o read.o ../read.c
+mv -f .deps/read.Tpo .deps/read.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT remake.o -MD -MP -MF .deps/remake.Tpo -c -o remake.o ../remake.c
+mv -f .deps/remake.Tpo .deps/remake.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT rule.o -MD -MP -MF .deps/rule.Tpo -c -o rule.o ../rule.c
+mv -f .deps/rule.Tpo .deps/rule.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT signame.o -MD -MP -MF .deps/signame.Tpo -c -o signame.o ../signame.c
+mv -f .deps/signame.Tpo .deps/signame.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT strcache.o -MD -MP -MF .deps/strcache.Tpo -c -o strcache.o ../strcache.c
+mv -f .deps/strcache.Tpo .deps/strcache.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT variable.o -MD -MP -MF .deps/variable.Tpo -c -o variable.o ../variable.c
+mv -f .deps/variable.Tpo .deps/variable.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT version.o -MD -MP -MF .deps/version.Tpo -c -o version.o ../version.c
+mv -f .deps/version.Tpo .deps/version.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT vpath.o -MD -MP -MF .deps/vpath.Tpo -c -o vpath.o ../vpath.c
+mv -f .deps/vpath.Tpo .deps/vpath.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o hash.o ../hash.c
+mv -f .deps/hash.Tpo .deps/hash.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I..      -g -O2 -MT remote-stub.o -MD -MP -MF .deps/remote-stub.Tpo -c -o remote-stub.o ../remote-stub.c
+mv -f .deps/remote-stub.Tpo .deps/remote-stub.Po
+gcc  -g -O2 -Wl,--export-dynamic  -o make ar.o arscan.o commands.o default.o dir.o expand.o file.o function.o getopt.o getopt1.o guile.o implicit.o job.o load.o loadapi.o main.o misc.o posixos.o output.o read.o remake.o rule.o signame.o strcache.o variable.o version.o vpath.o hash.o remote-stub.o    -ldl 
+make[2]: Leaving directory '/sources/make-4.2.1/build'
+make[1]: Leaving directory '/sources/make-4.2.1/build'

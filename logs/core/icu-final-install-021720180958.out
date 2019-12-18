@@ -1,0 +1,422 @@
+make[0]: Making `install' in `stubdata'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/stubdata'
+/bin/sh ../mkinstalldirs /usr/lib
+/usr/bin/install -c libicudata.so.60.2 /usr/lib
+cd /usr/lib && rm -f libicudata.so && ln -s libicudata.so.60.2 libicudata.so
+cd /usr/lib && rm -f libicudata.so.60 && ln -s libicudata.so.60.2 libicudata.so.60
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/stubdata'
+make[0]: Making `install' in `common'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/common'
+/bin/sh ../mkinstalldirs /usr/include/unicode
+mkdir /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/appendable.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/brkiter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/bytestream.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/bytestrie.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/bytestriebuilder.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/caniter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/casemap.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/char16ptr.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/chariter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dbbi.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/docmain.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dtintrv.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/edits.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/enumset.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/errorcode.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/filteredbrk.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/icudataver.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/icuplug.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/idna.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/listformatter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/localpointer.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/locdspnm.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/locid.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/messagepattern.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/normalizer2.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/normlzr.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/parseerr.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/parsepos.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/platform.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ptypes.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/putil.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/rbbi.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/rep.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/resbund.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/schriter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/simpleformatter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/std_string.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/strenum.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/stringoptions.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/stringpiece.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/stringtriebuilder.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/symtable.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ubidi.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ubiditransform.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ubrk.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucasemap.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucat.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uchar.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucharstrie.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucharstriebuilder.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uchriter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uclean.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucnv.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucnv_cb.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucnv_err.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucnvsel.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uconfig.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucurr.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/udata.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/udisplaycontext.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uenum.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uidna.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uiter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uldnames.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ulistformatter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uloc.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/umachine.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/umisc.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unifilt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unifunct.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unimatch.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uniset.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unistr.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unorm.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unorm2.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uobject.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/urename.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/urep.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ures.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uscript.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uset.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/usetiter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ushape.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/usprep.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ustring.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ustringtrie.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utext.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utf.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utf16.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utf32.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utf8.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utf_old.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utrace.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utypes.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uvernum.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uversion.h /usr/include/unicode
+/bin/sh ../mkinstalldirs /usr/lib
+/usr/bin/install -c ../lib/libicuuc.so.60.2 /usr/lib
+cd /usr/lib && rm -f libicuuc.so && ln -s libicuuc.so.60.2 libicuuc.so
+cd /usr/lib && rm -f libicuuc.so.60 && ln -s libicuuc.so.60.2 libicuuc.so.60
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/common'
+make[0]: Making `install' in `i18n'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/i18n'
+/bin/sh ../mkinstalldirs /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/alphaindex.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/basictz.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/calendar.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/choicfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/coleitr.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/coll.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/compactdecimalformat.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/curramt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/currpinf.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/currunit.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/datefmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dcfmtsym.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/decimfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dtfmtsym.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dtitvfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dtitvinf.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dtptngen.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/dtrule.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/fieldpos.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/fmtable.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/format.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/fpositer.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/gender.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/gregocal.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/measfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/measunit.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/measure.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/msgfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/nounit.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/numberformatter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/numfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/numsys.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/plurfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/plurrule.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/rbnf.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/rbtz.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/regex.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/region.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/reldatefmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/scientificnumberformatter.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/search.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/selfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/simpletz.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/smpdtfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/sortkey.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/stsearch.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tblcoll.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/timezone.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tmunit.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tmutamt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tmutfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/translit.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tzfmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tznames.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tzrule.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/tztrans.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucal.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucol.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucoleitr.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ucsdet.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/udat.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/udateintervalformat.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/udatpg.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ufieldpositer.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uformattable.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ugender.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ulocdata.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/umsg.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unirepl.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unum.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/unumsys.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/upluralrules.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uregex.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uregion.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ureldatefmt.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/usearch.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/uspoof.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utmscale.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/utrans.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/vtzone.h /usr/include/unicode
+/bin/sh ../mkinstalldirs /usr/lib
+/usr/bin/install -c ../lib/libicui18n.so.60.2 /usr/lib
+cd /usr/lib && rm -f libicui18n.so && ln -s libicui18n.so.60.2 libicui18n.so
+cd /usr/lib && rm -f libicui18n.so.60 && ln -s libicui18n.so.60.2 libicui18n.so.60
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/i18n'
+make[0]: Making `install' in `io'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/io'
+/bin/sh ../mkinstalldirs /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ustdio.h /usr/include/unicode
+/usr/bin/install -c -m 644 ./unicode/ustream.h /usr/include/unicode
+/bin/sh ../mkinstalldirs /usr/lib
+/usr/bin/install -c ../lib/libicuio.so.60.2 /usr/lib
+cd /usr/lib && rm -f libicuio.so && ln -s libicuio.so.60.2 libicuio.so
+cd /usr/lib && rm -f libicuio.so.60 && ln -s libicuio.so.60.2 libicuio.so.60
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/io'
+make[0]: Making `install' in `tools'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/tools'
+make[1]: Making `install' in `toolutil'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/toolutil'
+/bin/sh ../../mkinstalldirs /usr/lib
+/usr/bin/install -c ../../lib/libicutu.so.60.2 /usr/lib
+cd /usr/lib && rm -f libicutu.so && ln -s libicutu.so.60.2 libicutu.so
+cd /usr/lib && rm -f libicutu.so.60 && ln -s libicutu.so.60.2 libicutu.so.60
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/toolutil'
+make[1]: Making `install' in `ctestfw'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/ctestfw'
+/bin/sh ../../mkinstalldirs /usr/lib
+/usr/bin/install -c libicutest.so.60.2 /usr/lib
+cd /usr/lib && rm -f libicutest.so && ln -s libicutest.so.60.2 libicutest.so
+cd /usr/lib && rm -f libicutest.so.60 && ln -s libicutest.so.60.2 libicutest.so.60
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/ctestfw'
+make[1]: Making `install' in `makeconv'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/makeconv'
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 makeconv.1 /usr/share/man/man1
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/makeconv /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/makeconv'
+make[1]: Making `install' in `genrb'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/genrb'
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 genrb.1 derb.1 /usr/share/man/man1
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/genrb /usr/bin
+/usr/bin/install -c ../../bin/derb /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/genrb'
+make[1]: Making `install' in `genbrk'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/genbrk'
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 genbrk.1 /usr/share/man/man1
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/genbrk /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/genbrk'
+make[1]: Making `install' in `gencnval'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/gencnval'
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 gencnval.1 /usr/share/man/man1
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/gencnval /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/gencnval'
+make[1]: Making `install' in `gensprep'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/gensprep'
+/bin/sh ../../mkinstalldirs /usr/share/man/man8
+/usr/bin/install -c -m 644 gensprep.8 /usr/share/man/man8
+/bin/sh ../../mkinstalldirs /usr/sbin
+/usr/bin/install -c ../../bin/gensprep /usr/sbin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/gensprep'
+make[1]: Making `install' in `icuinfo'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/icuinfo'
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c icuinfo /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/icuinfo'
+make[1]: Making `install' in `genccode'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/genccode'
+/bin/sh ../../mkinstalldirs /usr/share/man/man8
+/usr/bin/install -c -m 644 genccode.8 /usr/share/man/man8
+/bin/sh ../../mkinstalldirs /usr/sbin
+/usr/bin/install -c ../../bin/genccode /usr/sbin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/genccode'
+make[1]: Making `install' in `gencmn'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/gencmn'
+/bin/sh ../../mkinstalldirs /usr/share/man/man8
+/usr/bin/install -c -m 644 gencmn.8 /usr/share/man/man8
+/bin/sh ../../mkinstalldirs /usr/sbin
+/usr/bin/install -c ../../bin/gencmn /usr/sbin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/gencmn'
+make[1]: Making `install' in `icupkg'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/icupkg'
+/bin/sh ../../mkinstalldirs /usr/share/man/man8
+/usr/bin/install -c -m 644 icupkg.8 /usr/share/man/man8
+/bin/sh ../../mkinstalldirs /usr/sbin
+/usr/bin/install -c ../../bin/icupkg /usr/sbin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/icupkg'
+make[1]: Making `install' in `pkgdata'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/pkgdata'
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 pkgdata.1 /usr/share/man/man1
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/pkgdata /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/pkgdata'
+make[1]: Making `install' in `gentest'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/gentest'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/gentest'
+make[1]: Making `install' in `gennorm2'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/gennorm2'
+/bin/sh ../../mkinstalldirs /usr/sbin
+/usr/bin/install -c ../../bin/gennorm2 /usr/sbin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/gennorm2'
+make[1]: Making `install' in `gencfu'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/gencfu'
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 gencfu.1 /usr/share/man/man1
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/gencfu /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/gencfu'
+make[1]: Making `install' in `gendict'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/gendict'
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 gendict.1 /usr/share/man/man1
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/gendict /usr/bin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/gendict'
+make[1]: Making `install' in `escapesrc'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools/escapesrc'
+/bin/sh ../../mkinstalldirs /usr/sbin
+/usr/bin/install -c ../../bin/escapesrc /usr/sbin
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools/escapesrc'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/tools'
+make[2]: Nothing to be done for 'install-local'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/tools'
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/tools'
+make[0]: Making `install' in `data'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/data'
+/bin/sh ../mkinstalldirs  /usr/lib
+LD_LIBRARY_PATH=../stubdata:../tools/ctestfw:../lib:$LD_LIBRARY_PATH  ../bin/pkgdata -O ../data/icupkg.inc -q -c -s /sources/boot/icu/source/data/out/build/icudt60l -d ../lib -m dll -r 60.2 -e icudt60  -T ./out/tmp -s ./out/build/icudt60l -p icudt60l -L icudata ./out/tmp/icudata.lst -I /usr/lib
+pkgdata: cd ../lib/ && /usr/bin/install -c libicudata.so.60.2 /usr/lib/libicudata.so.60.2
+pkgdata: cd /usr/lib && rm -f libicudata.so.60 && ln -s libicudata.so.60.2 libicudata.so.60
+pkgdata: cd /usr/lib && rm -f libicudata.so && ln -s libicudata.so.60.2 libicudata.so
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/data'
+make[0]: Making `install' in `extra'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/extra'
+make[1]: Making `install' in `uconv'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/extra/uconv'
+/bin/sh ../../mkinstalldirs /usr/bin
+/usr/bin/install -c ../../bin/uconv /usr/bin
+/bin/sh ../../mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 uconv.1 /usr/share/man/man1
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/extra/uconv'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/extra'
+make[2]: Nothing to be done for 'install-local'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/extra'
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/extra'
+make[0]: Making `install' in `samples'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/samples'
+make[1]: Making `install' in `date'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/samples/date'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/samples/date'
+make[1]: Making `install' in `cal'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/samples/cal'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/samples/cal'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/samples'
+make[2]: Nothing to be done for 'install-local'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/samples'
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/samples'
+make[0]: Making `install' in `test'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source/test'
+make[1]: Making `install' in `testdata'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/test/testdata'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/test/testdata'
+make[1]: Making `install' in `intltest'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/test/intltest'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/test/intltest'
+make[1]: Making `install' in `iotest'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/test/iotest'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/test/iotest'
+make[1]: Making `install' in `cintltst'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/test/cintltst'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/test/cintltst'
+make[2]: Entering directory '/lfskernel/sources/boot/icu/source/test'
+make[2]: Nothing to be done for 'install-local'.
+make[2]: Leaving directory '/lfskernel/sources/boot/icu/source/test'
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source/test'
+make[1]: Entering directory '/lfskernel/sources/boot/icu/source'
+mkdir /usr/share/icu
+mkdir /usr/share/icu/60.2
+mkdir /usr/share/icu/60.2/config
+mkdir /usr/lib/icu
+mkdir /usr/lib/icu/60.2
+/usr/bin/install -c -m 644 ./config/mh-linux /usr/share/icu/60.2/config/mh-linux
+/usr/bin/install -c ./mkinstalldirs /usr/share/icu/60.2/mkinstalldirs
+/usr/bin/install -c ./install-sh /usr/share/icu/60.2/install-sh
+/usr/bin/install -c -m 644 ./config/icu-uc.pc ./config/icu-i18n.pc ./config/icu-io.pc /usr/lib/pkgconfig/
+/usr/bin/install -c -m 644 ./../LICENSE /usr/share/icu/60.2/LICENSE
+/usr/bin/install -c ./config/icu-config /usr/bin/icu-config
+/usr/bin/install -c -m 644 ./config/Makefile.inc /usr/lib/icu/60.2/Makefile.inc
+/usr/bin/install -c -m 644 ./config/pkgdata.inc /usr/lib/icu/60.2/pkgdata.inc
+cd /usr/lib/icu/60.2/..; \
+    rm -f current && ln -s 60.2 current; \
+    rm -f Makefile.inc && ln -s current/Makefile.inc Makefile.inc; \
+    rm -f pkgdata.inc && ln -s current/pkgdata.inc pkgdata.inc
+cd . \
+ && CONFIG_FILES=./config/icu-config.1 CONFIG_HEADERS= /bin/sh ./config.status
+config.status: creating ./config/icu-config.1
+/bin/sh ./mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 config/icu-config.1 /usr/share/man/man1
+make[1]: Leaving directory '/lfskernel/sources/boot/icu/source'
+/usr/bin/install -c -m 644 ./config/mh-linux /usr/share/icu/60.2/config/mh-linux
+/usr/bin/install -c ./mkinstalldirs /usr/share/icu/60.2/mkinstalldirs
+/usr/bin/install -c ./install-sh /usr/share/icu/60.2/install-sh
+/usr/bin/install -c -m 644 ./config/icu-uc.pc ./config/icu-i18n.pc ./config/icu-io.pc /usr/lib/pkgconfig/
+/usr/bin/install -c -m 644 ./../LICENSE /usr/share/icu/60.2/LICENSE
+/usr/bin/install -c ./config/icu-config /usr/bin/icu-config
+/usr/bin/install -c -m 644 ./config/Makefile.inc /usr/lib/icu/60.2/Makefile.inc
+/usr/bin/install -c -m 644 ./config/pkgdata.inc /usr/lib/icu/60.2/pkgdata.inc
+cd /usr/lib/icu/60.2/..; \
+    rm -f current && ln -s 60.2 current; \
+    rm -f Makefile.inc && ln -s current/Makefile.inc Makefile.inc; \
+    rm -f pkgdata.inc && ln -s current/pkgdata.inc pkgdata.inc
+/bin/sh ./mkinstalldirs /usr/share/man/man1
+/usr/bin/install -c -m 644 config/icu-config.1 /usr/share/man/man1

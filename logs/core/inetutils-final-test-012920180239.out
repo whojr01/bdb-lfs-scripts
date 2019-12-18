@@ -1,0 +1,136 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/inetutils-1.9.4/build'
+Making check in lib
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+make  check-recursive
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+Making check in libinetutils
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libinetutils'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libinetutils'
+Making check in libtelnet
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libtelnet'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libtelnet'
+Making check in libicmp
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libicmp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libicmp'
+Making check in libls
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libls'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libls'
+Making check in src
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/src'
+Making check in telnet
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/telnet'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/telnet'
+Making check in telnetd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/telnetd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/telnetd'
+Making check in ftp
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ftp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ftp'
+Making check in ftpd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ftpd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ftpd'
+Making check in talk
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/talk'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/talk'
+Making check in talkd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/talkd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/talkd'
+Making check in whois
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/whois'
+make  check-am
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/whois'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/whois'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/whois'
+Making check in ping
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ping'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ping'
+Making check in ifconfig
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig'
+Making check in system
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig'
+Making check in doc
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/doc'
+Making check in man
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/man'
+Making check in tests
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+make  check-am
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+make  localhost readutmp waitdaemon  \
+  utmp.sh libls.sh ping-localhost.sh traceroute-localhost.sh      hostname.sh dnsdomainname.sh ifconfig.sh
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+  CC       localhost.o
+  CCLD     localhost
+  CC       readutmp.o
+  CCLD     readutmp
+  CC       waitdaemon.o
+  CCLD     waitdaemon
+make[4]: Nothing to be done for '../../tests/utmp.sh'.
+make[4]: Nothing to be done for '../../tests/libls.sh'.
+make[4]: Nothing to be done for '../../tests/ping-localhost.sh'.
+make[4]: Nothing to be done for '../../tests/traceroute-localhost.sh'.
+make[4]: Nothing to be done for '../../tests/hostname.sh'.
+make[4]: Nothing to be done for '../../tests/dnsdomainname.sh'.
+make[4]: Nothing to be done for '../../tests/ifconfig.sh'.
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+make[5]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+PASS: localhost
+PASS: waitdaemon
+PASS: utmp.sh
+PASS: libls.sh
+PASS: ping-localhost.sh
+PASS: traceroute-localhost.sh
+PASS: hostname.sh
+PASS: dnsdomainname.sh
+PASS: ifconfig.sh
+============================================================================
+Testsuite summary for GNU inetutils 1.9.4
+============================================================================
+# TOTAL: 9
+# PASS:  9
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[2]: Entering directory '/sources/inetutils-1.9.4/build'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build'
+make[1]: Leaving directory '/sources/inetutils-1.9.4/build'

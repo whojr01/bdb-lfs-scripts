@@ -1,0 +1,182 @@
+make  install-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+Making install in include
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+Making install in libxml
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include/libxml'
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include/libxml'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 ../../../include/libxml/SAX.h ../../../include/libxml/entities.h ../../../include/libxml/encoding.h ../../../include/libxml/parser.h ../../../include/libxml/parserInternals.h ../../../include/libxml/xmlerror.h ../../../include/libxml/HTMLparser.h ../../../include/libxml/HTMLtree.h ../../../include/libxml/debugXML.h ../../../include/libxml/tree.h ../../../include/libxml/list.h ../../../include/libxml/hash.h ../../../include/libxml/xpath.h ../../../include/libxml/xpathInternals.h ../../../include/libxml/xpointer.h ../../../include/libxml/xinclude.h ../../../include/libxml/xmlIO.h ../../../include/libxml/xmlmemory.h ../../../include/libxml/nanohttp.h ../../../include/libxml/nanoftp.h ../../../include/libxml/uri.h ../../../include/libxml/valid.h ../../../include/libxml/xlink.h xmlversion.h ../../../include/libxml/DOCBparser.h ../../../include/libxml/catalog.h ../../../include/libxml/threads.h ../../../include/libxml/globals.h ../../../include/libxml/c14n.h ../../../include/libxml/xmlautomata.h ../../../include/libxml/xmlregexp.h ../../../include/libxml/xmlmodule.h ../../../include/libxml/xmlschemas.h ../../../include/libxml/schemasInternals.h ../../../include/libxml/xmlschemastypes.h ../../../include/libxml/xmlstring.h ../../../include/libxml/xmlunicode.h ../../../include/libxml/xmlreader.h ../../../include/libxml/relaxng.h ../../../include/libxml/dict.h '/usr/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 ../../../include/libxml/SAX2.h ../../../include/libxml/xmlexports.h ../../../include/libxml/xmlwriter.h ../../../include/libxml/chvalid.h ../../../include/libxml/pattern.h ../../../include/libxml/xmlsave.h ../../../include/libxml/schematron.h '/usr/include/libxml2/libxml'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include/libxml'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include/libxml'
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+Making install in .
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libxml2.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxml2.so.2.9.7 /usr/lib/libxml2.so.2.9.7
+libtool: install: (cd /usr/lib && { ln -s -f libxml2.so.2.9.7 libxml2.so.2 || { rm -f libxml2.so.2 && ln -s libxml2.so.2.9.7 libxml2.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxml2.so.2.9.7 libxml2.so || { rm -f libxml2.so && ln -s libxml2.so.2.9.7 libxml2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxml2.lai /usr/lib/libxml2.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c xmllint xmlcatalog '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xmllint /usr/bin/xmllint
+libtool: install: /usr/bin/install -c .libs/xmlcatalog /usr/bin/xmlcatalog
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c xml2-config '/usr/bin'
+ /bin/mkdir -p '/usr/lib'
+ /usr/bin/install -c -m 644 xml2Conf.sh '/usr/lib'
+ /bin/mkdir -p '/usr/lib/cmake/libxml2'
+ /usr/bin/install -c -m 644 libxml2-config.cmake '/usr/lib/cmake/libxml2'
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7
+/usr/bin/install -c -m 0644 ../Copyright /usr/share/doc/libxml2-2.9.7
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7/examples
+/usr/bin/install -c -m 0644 ../xmllint.c /usr/share/doc/libxml2-2.9.7/examples
+/usr/bin/install -c -m 0644 ../testSAX.c /usr/share/doc/libxml2-2.9.7/examples
+/usr/bin/install -c -m 0644 ../testHTML.c /usr/share/doc/libxml2-2.9.7/examples
+/usr/bin/install -c -m 0644 ../testXPath.c /usr/share/doc/libxml2-2.9.7/examples
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 ../libxml.m4 '/usr/share/aclocal'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../xml2-config.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 ../libxml.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxml-2.0.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+Making install in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+Making install in .
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7/html
+/usr/bin/install -c -m 0644 ../../doc/xml.html ../../doc/encoding.html ../../doc/FAQ.html ../../doc/structure.gif ../../doc/DOM.gif ../../doc/smallfootonly.gif ../../doc/redhat.gif ../../doc/libxml.gif ../../doc/w3c.png ../../doc/Libxml2-Logo-180x168.gif ../../doc/Libxml2-Logo-90x34.gif /usr/share/doc/libxml2-2.9.7/html
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7/html/html
+/usr/bin/install -c -m 0644 ../../doc/html/*.html /usr/share/doc/libxml2-2.9.7/html/html
+/usr/bin/install -c -m 0644 ../../doc/html/*.png /usr/share/doc/libxml2-2.9.7/html/html
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7/html/tutorial
+/usr/bin/install -c -m 0644 ../../doc/tutorial/*.* \
+	/usr/share/doc/libxml2-2.9.7/html/tutorial
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7/html/tutorial/images
+/usr/bin/install -c -m 0644 ../../doc/tutorial/images/*.* \
+	/usr/share/doc/libxml2-2.9.7/html/tutorial/images
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7/html/tutorial/images/callouts
+/usr/bin/install -c -m 0644 ../../doc/tutorial/images/callouts/*.* \
+	/usr/share/doc/libxml2-2.9.7/html/tutorial/images/callouts
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/xmllint.1 ../../doc/xmlcatalog.1 '/usr/share/man/man1'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+Making install in devhelp
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/devhelp'
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/devhelp'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/gtk-doc/html/libxml2'
+ /usr/bin/install -c -m 644 ../../../doc/devhelp/libxml2.devhelp ../../../doc/devhelp/general.html ../../../doc/devhelp/index.html ../../../doc/devhelp/libxml2-c14n.html ../../../doc/devhelp/libxml2-catalog.html ../../../doc/devhelp/libxml2-chvalid.html ../../../doc/devhelp/libxml2-debugXML.html ../../../doc/devhelp/libxml2-dict.html ../../../doc/devhelp/libxml2-DOCBparser.html ../../../doc/devhelp/libxml2-encoding.html ../../../doc/devhelp/libxml2-entities.html ../../../doc/devhelp/libxml2-globals.html ../../../doc/devhelp/libxml2-hash.html ../../../doc/devhelp/libxml2-HTMLparser.html ../../../doc/devhelp/libxml2-HTMLtree.html ../../../doc/devhelp/libxml2-list.html ../../../doc/devhelp/libxml2-nanoftp.html ../../../doc/devhelp/libxml2-nanohttp.html ../../../doc/devhelp/libxml2-parser.html ../../../doc/devhelp/libxml2-parserInternals.html ../../../doc/devhelp/libxml2-pattern.html ../../../doc/devhelp/libxml2-relaxng.html ../../../doc/devhelp/libxml2-SAX2.html ../../../doc/devhelp/libxml2-SAX.html ../../../doc/devhelp/libxml2-schemasInternals.html ../../../doc/devhelp/libxml2-schematron.html ../../../doc/devhelp/libxml2-threads.html ../../../doc/devhelp/libxml2-tree.html ../../../doc/devhelp/libxml2-uri.html ../../../doc/devhelp/libxml2-valid.html ../../../doc/devhelp/libxml2-xinclude.html ../../../doc/devhelp/libxml2-xlink.html ../../../doc/devhelp/libxml2-xmlautomata.html ../../../doc/devhelp/libxml2-xmlerror.html ../../../doc/devhelp/libxml2-xmlexports.html ../../../doc/devhelp/libxml2-xmlIO.html ../../../doc/devhelp/libxml2-xmlmemory.html ../../../doc/devhelp/libxml2-xmlmodule.html ../../../doc/devhelp/libxml2-xmlreader.html ../../../doc/devhelp/libxml2-xmlregexp.html '/usr/share/gtk-doc/html/libxml2'
+ /usr/bin/install -c -m 644 ../../../doc/devhelp/libxml2-xmlsave.html ../../../doc/devhelp/libxml2-xmlschemas.html ../../../doc/devhelp/libxml2-xmlschemastypes.html ../../../doc/devhelp/libxml2-xmlstring.html ../../../doc/devhelp/libxml2-xmlunicode.html ../../../doc/devhelp/libxml2-xmlversion.html ../../../doc/devhelp/libxml2-xmlwriter.html ../../../doc/devhelp/libxml2-xpath.html ../../../doc/devhelp/libxml2-xpathInternals.html ../../../doc/devhelp/libxml2-xpointer.html ../../../doc/devhelp/home.png ../../../doc/devhelp/left.png ../../../doc/devhelp/right.png ../../../doc/devhelp/up.png ../../../doc/devhelp/style.css '/usr/share/gtk-doc/html/libxml2'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/devhelp'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/devhelp'
+Making install in examples
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/examples'
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/examples'
+make[4]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.7/html
+/usr/bin/install -c -m 0644 ../../../doc/examples/*.html ../../../doc/examples/*.c ../../../doc/examples/*.xml ../../../doc/examples/*.xsl ../../../doc/examples/*.res /usr/share/doc/libxml2-2.9.7/html
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/examples'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/examples'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+Making install in example
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/example'
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/example'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/example'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/example'
+Making install in xstc
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/xstc'
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/xstc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/xstc'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/xstc'
+Making install in python
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make  install-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+Making install in .
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make[5]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libxml2-python-2.9.7'
+ /usr/bin/install -c -m 644 ../../python/TODO '/usr/share/doc/libxml2-python-2.9.7'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+ /usr/bin/install -c -m 644 ../../python/drv_libxml2.py ../../python/libxml2.py '/usr/lib/python2.7/site-packages'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxml2mod.la '/usr/lib/python2.7/site-packages'
+libtool: warning: relinking 'libxml2mod.la'
+libtool: install: (cd /lfskernel/sources/boot/libxml2-2.9.7/build/python; /bin/sh "/lfskernel/sources/boot/libxml2-2.9.7/build/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -pedantic -W -Wformat -Wno-format-extra-args -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wno-long-long -module -avoid-version ../libxml2.la -lpython2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -o libxml2mod.la -rpath /usr/lib/python2.7/site-packages libxml.lo libxml2-py.lo types.lo )
+libtool: install: /usr/bin/install -c .libs/libxml2mod.soT /usr/lib/python2.7/site-packages/libxml2mod.so
+libtool: install: /usr/bin/install -c .libs/libxml2mod.lai /usr/lib/python2.7/site-packages/libxml2mod.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+Making install in tests
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python/tests'
+make[5]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libxml2-python-2.9.7/examples'
+ /usr/bin/install -c -m 644 ../../../python/tests/build.py ../../../python/tests/attribs.py ../../../python/tests/tst.py ../../../python/tests/tstxpath.py ../../../python/tests/xpathext.py ../../../python/tests/push.py ../../../python/tests/pushSAX.py ../../../python/tests/pushSAXhtml.py ../../../python/tests/error.py ../../../python/tests/serialize.py ../../../python/tests/validate.py ../../../python/tests/tstURI.py ../../../python/tests/cutnpaste.py ../../../python/tests/xpathret.py ../../../python/tests/xpath.py ../../../python/tests/outbuf.py ../../../python/tests/inbuf.py ../../../python/tests/input_callback.py ../../../python/tests/resolver.py ../../../python/tests/regexp.py ../../../python/tests/reader.py ../../../python/tests/reader2.py ../../../python/tests/reader3.py ../../../python/tests/reader4.py ../../../python/tests/reader5.py ../../../python/tests/reader6.py ../../../python/tests/reader7.py ../../../python/tests/reader8.py ../../../python/tests/readernext.py ../../../python/tests/walker.py ../../../python/tests/nsdel.py ../../../python/tests/ctxterror.py ../../../python/tests/readererr.py ../../../python/tests/relaxng.py ../../../python/tests/schema.py ../../../python/tests/thread2.py ../../../python/tests/sync.py ../../../python/tests/tstLastError.py ../../../python/tests/indexes.py ../../../python/tests/dtdvalid.py '/usr/share/doc/libxml2-python-2.9.7/examples'
+ /usr/bin/install -c -m 644 ../../../python/tests/tstmem.py ../../../python/tests/validDTD.py ../../../python/tests/validSchemas.py ../../../python/tests/validRNG.py ../../../python/tests/compareNodes.py ../../../python/tests/xpathns.py ../../../python/tests/xpathleak.py tst.xml valid.xml invalid.xml test.dtd '/usr/share/doc/libxml2-python-2.9.7/examples'
+make[5]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python/tests'
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python/tests'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build'

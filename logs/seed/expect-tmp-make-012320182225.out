@@ -1,0 +1,281 @@
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_command.c` -o exp_command.o
+../exp_command.c: In function 'Exp_SpawnObjCmd':
+../exp_command.c:587:9: warning: unused variable 'ttyfd' [-Wunused-variable]
+     int ttyfd;
+         ^~~~~
+../exp_command.c: In function 'Exp_DisconnectObjCmd':
+../exp_command.c:3120:9: warning: unused variable 'ttyfd' [-Wunused-variable]
+     int ttyfd;
+         ^~~~~
+At top level:
+../exp_command.c:537:1: warning: 'expSetpgrp' defined but not used [-Wunused-function]
+ expSetpgrp()
+ ^~~~~~~~~~
+../exp_command.c: In function 'Exp_SpawnObjCmd':
+../exp_command.c:955:22: warning: 'channel' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   orig->channel_orig = channel;
+   ~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../exp_command.c:940:8: warning: 'write_master' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  esPtr = expCreateChannel(interp,master,write_master,EXP_NOPID);
+  ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../exp_command.c:924:9: warning: 'wfd' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      if (-1 == (write_master = dup(wfd))) {
+         ^
+../exp_command.c:923:53: warning: 'rfd' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if ((mode & TCL_READABLE) && (mode & TCL_WRITABLE) && (wfd != rfd)) {
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../exp_command.c: In function 'Exp_SendObjCmd':
+../exp_command.c:2063:8: warning: 'string' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  len = strlen(string);
+        ^~~~~~~~~~~~~~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../expect.c` -o expect.o
+../expect.c: In function 'exp_eval_with_one_arg':
+../expect.c:287:9: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+     int rc;
+         ^~
+../expect.c: In function 'expIRead':
+../expect.c:1765:9: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+     int size;
+         ^~~~
+../expect.c: In function 'Exp_ExpectObjCmd':
+../expect.c:2547:12: warning: variable 'start_time' set but not used [-Wunused-but-set-variable]
+     time_t start_time = 0; /* time when restart label hit */
+            ^~~~~~~~~~
+../expect.c: In function 'process_di.constprop':
+../expect.c:2955:12: warning: 'esPtr' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     *esOut = esPtr;
+     ~~~~~~~^~~~~~~
+../expect.c: In function 'Exp_ExpectObjCmd':
+../expect.c:2735:25: warning: 'end_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      remtime = end_time - current_time;
+                ~~~~~~~~~^~~~~~~~~~~~~~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_inter.c` -o exp_inter.o
+../exp_inter.c:710:13: warning: 'interpreter_cmd' defined but not used [-Wunused-variable]
+ static char interpreter_cmd[] = "interpreter";
+             ^~~~~~~~~~~~~~~
+../exp_inter.c:709:13: warning: 'return_cmd' defined but not used [-Wunused-variable]
+ static char return_cmd[] = "return";
+             ^~~~~~~~~~
+../exp_inter.c: In function 'Exp_InteractObjCmd':
+../exp_inter.c:421:28: warning: 'offsetBytes' may be used uninitialized in this function [-Wmaybe-uninitialized]
+        esPtr->input.buffer + offsetBytes,
+                            ^
+../exp_inter.c:408:9: note: 'offsetBytes' was declared here
+     int offsetBytes;
+         ^~~~~~~~~~~
+../exp_inter.c:420:5: warning: 'echoBytes' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     (void) expWriteCharsUni(esPtr,
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        esPtr->input.buffer + offsetBytes,
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      echoBytes);
+      ~~~~~~~~~~
+../exp_inter.c:407:9: note: 'echoBytes' was declared here
+     int echoBytes;
+         ^~~~~~~~~
+../exp_inter.c:1412:31: warning: 'previous_time' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      time_diff = current_time - previous_time;
+                  ~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_regexp.c` -o exp_regexp.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_tty.c` -o exp_tty.o
+../exp_tty.c: In function 'exec_stty':
+../exp_tty.c:323:6: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+  int rc;
+      ^~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_log.c` -o exp_log.o
+../exp_log.c: In function 'expPrintf':
+../exp_log.c:304:9: warning: variable 'fmt' set but not used [-Wunused-but-set-variable]
+   char *fmt;
+         ^~~
+../exp_log.c: In function 'expWriteBytesAndLogIfTtyU':
+../exp_log.c:101:12: warning: 'wc' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return wc;
+            ^~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_main_sub.c` -o exp_main_sub.o
+../exp_main_sub.c: In function 'exp_interpreter':
+../exp_main_sub.c:306:16: warning: implicit declaration of function 'exp_tty_cooked_echo'; did you mean 'exp_tty_raw_noecho'? [-Wimplicit-function-declaration]
+  tty_changed = exp_tty_cooked_echo(interp,&tty_old,&was_raw,&was_echo);
+                ^~~~~~~~~~~~~~~~~~~
+                exp_tty_raw_noecho
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_pty.c` -o exp_pty.o
+../exp_pty.c:138:21: warning: 'oldHupHandler' defined but not used [-Wunused-variable]
+ static RETSIGTYPE (*oldHupHandler)();
+                     ^~~~~~~~~~~~~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_trap.c` -o exp_trap.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_strf.c` -o exp_strf.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_console.c` -o exp_console.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_glob.c` -o exp_glob.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_win.c` -o exp_win.o
+../exp_win.c: In function 'exp_window_size_set':
+../exp_win.c:90:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../exp_win.c: In function 'exp_window_size_get':
+../exp_win.c:105:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../exp_win.c: In function 'exp_win2_size_set':
+../exp_win.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../exp_win.c: In function 'exp_win2_size_get':
+../exp_win.c:165:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_clib.c` -o exp_clib.o
+../exp_clib.c: In function 'exp_setpgrp':
+../exp_clib.c:1821:12: warning: implicit declaration of function 'setpgrp'; did you mean 'setjmp'? [-Wimplicit-function-declaration]
+     (void) setpgrp();
+            ^~~~~~~
+            setjmp
+../exp_clib.c: In function 'exp_spawnv':
+../exp_clib.c:1852:3: warning: implicit declaration of function 'exp_init_tty'; did you mean 'exp_init_pty'? [-Wimplicit-function-declaration]
+   exp_init_tty();
+   ^~~~~~~~~~~~
+   exp_init_pty
+../exp_clib.c:1892:13: warning: implicit declaration of function 'pipe'; did you mean 'time'? [-Wimplicit-function-declaration]
+  if (-1 == (pipe(sync_fds))) {
+             ^~~~
+             time
+../exp_clib.c:1896:3: warning: implicit declaration of function 'close'; did you mean 'pclose'? [-Wimplicit-function-declaration]
+   close(sync_fds[0]);
+   ^~~~~
+   pclose
+../exp_clib.c:1909:17: warning: implicit declaration of function 'fork' [-Wimplicit-function-declaration]
+  if ((exp_pid = fork()) == -1) return(-1);
+                 ^~~~
+../exp_clib.c:1949:8: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+   cc = read(sync_fds[0],&sync_byte,1);
+        ^~~~
+        fread
+../exp_clib.c:1963:8: warning: implicit declaration of function 'write'; did you mean 'fwrite'? [-Wimplicit-function-declaration]
+   cc = write(sync2_fds[1]," ",1);
+        ^~~~~
+        fwrite
+../exp_clib.c:1990:4: warning: implicit declaration of function 'waitpid'; did you mean 'si_pid'? [-Wimplicit-function-declaration]
+    waitpid(exp_pid, NULL, 0);
+    ^~~~~~~
+    si_pid
+../exp_clib.c:2021:2: warning: implicit declaration of function 'setsid'; did you mean 'setenv'? [-Wimplicit-function-declaration]
+  setsid();
+  ^~~~~~
+  setenv
+../exp_clib.c:2217:16: warning: implicit declaration of function 'execvp' [-Wimplicit-function-declaration]
+         (void) execvp(file,argv);
+                ^~~~~~
+../exp_clib.c:1836:6: warning: unused variable 'ttyfd' [-Wunused-variable]
+  int ttyfd;
+      ^~~~~
+../exp_clib.c: In function 'i_read':
+../exp_clib.c:2333:19: warning: implicit declaration of function 'alarm' [-Wimplicit-function-declaration]
+  if (timeout > 0) alarm(timeout);
+                   ^~~~~
+../exp_clib.c: In function 'exp_disconnect':
+../exp_clib.c:2856:6: warning: unused variable 'ttyfd' [-Wunused-variable]
+  int ttyfd;
+      ^~~~~
+At top level:
+../exp_clib.c:1812:1: warning: 'exp_setpgrp' defined but not used [-Wunused-function]
+ exp_setpgrp()
+ ^~~~~~~~~~~
+../exp_clib.c: In function 'expectv':
+../exp_clib.c:2444:6: warning: 'return_val' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  int return_val;
+      ^~~~~~~~~~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_closetcl.c` -o exp_closetcl.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_memmove.c` -o exp_memmove.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_tty_comm.c` -o exp_tty_comm.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_chan.c` -o exp_chan.o
+../exp_chan.c:61:5: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     ExpBlockModeProc,   /* Set blocking/nonblocking mode.*/
+     ^~~~~~~~~~~~~~~~
+../exp_chan.c:61:5: note: (near initialization for 'expChannelType.version')
+../exp_chan.c: In function 'ExpGetHandleProc':
+../exp_chan.c:439:15: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  *handlePtr = (ClientData) esPtr->fdin;
+               ^
+../exp_chan.c:442:15: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  *handlePtr = (ClientData) esPtr->fdin;
+               ^
+../exp_chan.c: In function 'exp_background_channelhandlers_run_all':
+../exp_chan.c:653:6: warning: implicit declaration of function 'exp_background_channelhandler'; did you mean 'exp_background_channelhandlers_run_all'? [-Wimplicit-function-declaration]
+      exp_background_channelhandler((ClientData)esPtr,0);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      exp_background_channelhandlers_run_all
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../Dbg.c` -o Dbg.o
+../Dbg.c: In function 'debugger_trap':
+../Dbg.c:632:2: warning: enumeration value 'none' not handled in switch [-Wswitch]
+  switch (debug_cmd) {
+  ^~~~~~
+../Dbg.c:632:2: warning: enumeration value 'up' not handled in switch [-Wswitch]
+../Dbg.c:632:2: warning: enumeration value 'down' not handled in switch [-Wswitch]
+../Dbg.c:632:2: warning: enumeration value 'where' not handled in switch [-Wswitch]
+../Dbg.c:698:2: warning: enumeration value 'none' not handled in switch [-Wswitch]
+  switch (debug_cmd) {
+  ^~~~~~
+../Dbg.c:698:2: warning: enumeration value 'up' not handled in switch [-Wswitch]
+../Dbg.c:698:2: warning: enumeration value 'down' not handled in switch [-Wswitch]
+../Dbg.c:293:18: warning: 'framePtr' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      if (framePtr->level == level) {
+          ~~~~~~~~^~~~~~~
+../Dbg.c:242:16: note: 'framePtr' was declared here
+     CallFrame *framePtr; /* frame currently being searched */
+                ^~~~~~~~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../pty_termios.c` -o pty_termios.o
+../pty_termios.c: In function 'exp_getptymaster':
+../pty_termios.c:473:6: warning: implicit declaration of function 'openpty'; did you mean 'openat'? [-Wimplicit-function-declaration]
+  if (openpty(&master, &slave, master_name, 0, 0) != 0) {
+      ^~~~~~~
+      openat
+../pty_termios.c:379:6: warning: unused variable 'num' [-Wunused-variable]
+  int num;
+      ^~~
+../pty_termios.c:376:14: warning: unused variable 'stat_buf' [-Wunused-variable]
+  struct stat stat_buf;
+              ^~~~~~~~
+../pty_termios.c:375:14: warning: unused variable 'bank' [-Wunused-variable]
+  char *hex, *bank;
+              ^~~~
+../pty_termios.c:375:8: warning: unused variable 'hex' [-Wunused-variable]
+  char *hex, *bank;
+        ^~~
+../pty_termios.c: In function 'exp_getptyslave':
+../pty_termios.c:644:66: warning: implicit declaration of function 'expErrnoMsg'; did you mean 'Tcl_ErrnoMsg'? [-Wimplicit-function-declaration]
+   sprintf(exp_pty_error,"open(%s,rw) = %d (%s)",slave_name,slave,expErrnoMsg(errno));
+                                                                  ^~~~~~~~~~~
+                                                                  Tcl_ErrnoMsg
+../pty_termios.c:644:45: warning: format '%s' expects argument of type 'char *', but argument 5 has type 'int' [-Wformat=]
+   sprintf(exp_pty_error,"open(%s,rw) = %d (%s)",slave_name,slave,expErrnoMsg(errno));
+                                            ~^                    ~~~~~~~~~~~~~~~~~~
+                                            %d
+../pty_termios.c:639:7: warning: unused variable 'buf' [-Wunused-variable]
+  char buf[10240];
+       ^~~
+../pty_termios.c:638:13: warning: unused variable 'slave2' [-Wunused-variable]
+  int slave, slave2;
+             ^~~~~~
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_select.c` -o exp_select.o
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_event.c` -o exp_event.o
+../exp_event.c: In function 'exp_unblock_background_channelhandler':
+../exp_event.c:116:5: warning: enumeration value 'armed' not handled in switch [-Wswitch]
+     switch (esPtr->bg_status) {
+     ^~~~~~
+../exp_event.c:116:5: warning: enumeration value 'unarmed' not handled in switch [-Wswitch]
+rm -f libexpect5.45.3.so
+gcc -shared -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -Wl,--export-dynamic  -o libexpect5.45.3.so exp_command.o expect.o exp_inter.o exp_regexp.o exp_tty.o exp_log.o exp_main_sub.o exp_pty.o exp_trap.o exp_strf.o exp_console.o exp_glob.o exp_win.o exp_clib.o exp_closetcl.o exp_memmove.o exp_tty_comm.o exp_chan.o Dbg.o pty_termios.o exp_select.o exp_event.o -lutil -lieee -lm -Wl,-rpath,/tools/lib -L/tools/lib -ltclstub8.6 
+: libexpect5.45.3.so
+gcc -DPACKAGE_NAME=\"expect\" -DPACKAGE_TARNAME=\"expect\" -DPACKAGE_VERSION=\"5.45.3\" -DPACKAGE_STRING=\"expect\ 5.45.3\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_expect=/\*\*/ -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TCL_STUBS=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_SYSMACROS_H=1 -DHAVE_STROPTS_H=1 -DHAVE_SYS_FCNTL_H=1 -DRETSIGTYPE=void -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_STRUCT_TM_TM_ZONE=1 -DHAVE_TM_ZONE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DNO_UNION_WAIT=1 -DHAVE_OPENPTY=1 -DHAVE_MEMMOVE=1 -DHAVE_SYSCONF=1 -DHAVE_STRFTIME=1 -DHAVE_STRCHR=1 -DHAVE_TIMEZONE=1 -DHAVE_SIGLONGJMP=1 -DHAVE_MEMCPY=1 -DWNOHANG_BACKUP_VALUE=1 -DSELECT_MASK_TYPE=fd_set -DHAVE_PTMX=1 -DHAVE_TCSETATTR=1 -DPOSIX=1 -DHAVE_TERMIO=1 -DHAVE_TERMIOS=1 -DSETPGRP_VOID=1 -DHAVE_SV_TIMEZONE=1 -DHAVE_LONG_FILE_NAMES=1 -DTCL_DEBUGGER -DUSE_NON_CONST -DSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DEXECSCRIPTDIR=\"/tools/lib/expect5.45.3\" -DSTTY_BIN=\"/bin/stty\" -DDFLT_STTY="\"sane\"" -I. -I".." -I"/tools/include"    -pipe -O2 -fomit-frame-pointer -Wall -fPIC  -c `echo ../exp_main_exp.c` -o exp_main_exp.o
+gcc \
+	 -pipe -O2 -fomit-frame-pointer -Wall -fPIC  \
+	 -Wl,--export-dynamic  \
+	-o expect exp_main_exp.o \
+	-L/lfsbuild/sources/expect5.45.3/build -lexpect5.45.3 \
+	-L/tools/lib -ltcl8.6 \
+	-ldl  -lieee -lm \
+	-Wl,-rpath,/tools/lib \
+	-Wl,-rpath,/tools/lib/expect5.45.3
+: expect
+(echo 'if {![package vsatisfies [package provide Tcl] 8.6]} {return}' ; \
+ echo 'package ifneeded Expect 5.45.3 \
+    [list load [file join $dir libexpect5.45.3.so]]'\
+) > pkgIndex.tcl

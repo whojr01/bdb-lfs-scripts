@@ -1,0 +1,18 @@
+###############################
+# Make libxshmfence-1.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/src'
+  CC       xshmfence_alloc.lo
+  CC       xshmfence_futex.lo
+  CCLD     libxshmfence.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/src'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'

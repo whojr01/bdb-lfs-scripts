@@ -1,0 +1,14 @@
+###############################
+# Make xbacklight-1.2.1.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1/man'
+  GEN      xbacklight.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1'
+  CC       xbacklight.o
+  CCLD     xbacklight
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xbacklight-1.2.1'

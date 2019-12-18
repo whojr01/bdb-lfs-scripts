@@ -1,0 +1,39 @@
+###############################
+# Make libXxf86dga-1.1.4.tar.bz2 #
+###############################
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4/src'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4/src'
+  CC       XF86DGA.lo
+  CC       XF86DGA2.lo
+  CCLD     libXxf86dga.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4/src'
+Making all in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4/man'
+  GEN      XDGA.3
+  GEN      XF86DGA.3
+  GEN      XFree86-DGA.3
+  GEN      XDGAQueryExtension.3
+  GEN      XDGAQueryVersion.3
+  GEN      XDGAQueryModes.3
+  GEN      XDGASetMode.3
+  GEN      XDGAOpenFramebuffer.3
+  GEN      XDGACloseFramebuffer.3
+  GEN      XDGASetViewport.3
+  GEN      XDGAInstallColormap.3
+  GEN      XDGACreateColormap.3
+  GEN      XDGASelectInput.3
+  GEN      XDGAFillRectangle.3
+  GEN      XDGACopyArea.3
+  GEN      XDGACopyTransparentArea.3
+  GEN      XDGAGetViewportStatus.3
+  GEN      XDGASync.3
+  GEN      XDGASetClientVersion.3
+  GEN      XDGAChangePixmapMode.3
+  GEN      XDGAKeyEventToXKeyEvent.3
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86dga-1.1.4'

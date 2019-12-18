@@ -1,0 +1,150 @@
+###############################
+# Make libXi-1.7.9.tar.bz2 #
+###############################
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/src'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/src'
+  CC       XAllowDv.lo
+  CC       XChDProp.lo
+  CC       XChgDCtl.lo
+  CC       XChgFCtl.lo
+  CC       XChgKbd.lo
+  CC       XChgKMap.lo
+  CC       XChgPnt.lo
+  CC       XChgProp.lo
+  CC       XCloseDev.lo
+  CC       XDelDProp.lo
+  CC       XDevBell.lo
+  CC       XExtToWire.lo
+  CC       XGetBMap.lo
+  CC       XGetCPtr.lo
+  CC       XGetDCtl.lo
+  CC       XGetDProp.lo
+  CC       XGetFCtl.lo
+  CC       XGetKMap.lo
+  CC       XGetMMap.lo
+  CC       XGetProp.lo
+  CC       XGetVers.lo
+  CC       XGMotion.lo
+  CC       XGrabDev.lo
+  CC       XGrDvBut.lo
+  CC       XGrDvKey.lo
+  CC       XGtFocus.lo
+  CC       XGtSelect.lo
+  CC       XListDev.lo
+  CC       XListDProp.lo
+  CC       XOpenDev.lo
+  CC       XQueryDv.lo
+  CC       XSelect.lo
+  CC       XSetBMap.lo
+  CC       XSetDVal.lo
+  CC       XSetMMap.lo
+  CC       XSetMode.lo
+  CC       XSndExEv.lo
+  CC       XStFocus.lo
+  CC       XUngrDev.lo
+  CC       XUngrDvB.lo
+  CC       XUngrDvK.lo
+  CC       XExtInt.lo
+  CC       XIAllowEvents.lo
+  CC       XIGrabDevice.lo
+  CC       XIQueryVersion.lo
+  CC       XIQueryDevice.lo
+  CC       XISetDevFocus.lo
+  CC       XIGetDevFocus.lo
+  CC       XIPassiveGrab.lo
+  CC       XIProperties.lo
+  CC       XISelEv.lo
+  CC       XISetCPtr.lo
+  CC       XIWarpPointer.lo
+  CC       XIHierarchy.lo
+  CC       XIDefineCursor.lo
+  CC       XIQueryPointer.lo
+  CC       XIBarrier.lo
+  CCLD     libXi.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/src'
+Making all in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/man'
+  GEN      XAllowDeviceEvents.3
+  GEN      XChangeDeviceDontPropagateList.3
+  GEN      XChangeKeyboardDevice.3
+  GEN      XChangePointerDevice.3
+  GEN      XDeviceBell.3
+  GEN      XGetDeviceControl.3
+  GEN      XGetDeviceKeyMapping.3
+  GEN      XGetDeviceModifierMapping.3
+  GEN      XGetDeviceMotionEvents.3
+  GEN      XGetDeviceProperty.3
+  GEN      XGetExtensionVersion.3
+  GEN      XGetFeedbackControl.3
+  GEN      XGrabDeviceButton.3
+  GEN      XGrabDeviceKey.3
+  GEN      XGrabDevice.3
+  GEN      XListDeviceProperties.3
+  GEN      XListInputDevices.3
+  GEN      XOpenDevice.3
+  GEN      XQueryDeviceState.3
+  GEN      XSelectExtensionEvent.3
+  GEN      XSendExtensionEvent.3
+  GEN      XSetDeviceButtonMapping.3
+  GEN      XSetDeviceFocus.3
+  GEN      XSetDeviceMode.3
+  GEN      XSetDeviceValuators.3
+  GEN      XIBarrierReleasePointer.3
+  GEN      XIChangeHierarchy.3
+  GEN      XIDefineCursor.3
+  GEN      XIGrabButton.3
+  GEN      XIGrabDevice.3
+  GEN      XIGrabEnter.3
+  GEN      XIQueryDevice.3
+  GEN      XIQueryPointer.3
+  GEN      XIQueryVersion.3
+  GEN      XISelectEvents.3
+  GEN      XISetClientPointer.3
+  GEN      XISetFocus.3
+  GEN      XIWarpPointer.3
+  GEN      XIListProperties.3
+  GEN      XIChangeProperty.3
+  GEN      XGetDeviceDontPropagateList.3
+  GEN      XChangeDeviceControl.3
+  GEN      XChangeDeviceKeyMapping.3
+  GEN      XSetDeviceModifierMapping.3
+  GEN      XChangeFeedbackControl.3
+  GEN      XUngrabDeviceButton.3
+  GEN      XUngrabDeviceKey.3
+  GEN      XUngrabDevice.3
+  GEN      XDeviceTimeCoord.3
+  GEN      XFreeDeviceList.3
+  GEN      XCloseDevice.3
+  GEN      XGetSelectedExtensionEvents.3
+  GEN      XGetDeviceButtonMapping.3
+  GEN      XGetDeviceFocus.3
+  GEN      XChangeDeviceProperty.3
+  GEN      XDeleteDeviceProperty.3
+  GEN      XIBarrierReleasePointers.3
+  GEN      XIUndefineCursor.3
+  GEN      XIUngrabButton.3
+  GEN      XIGrabKeycode.3
+  GEN      XIUngrabKeycode.3
+  GEN      XIUngrabDevice.3
+  GEN      XIUngrabEnter.3
+  GEN      XIGrabFocusIn.3
+  GEN      XIUngrabFocusIn.3
+  GEN      XIGetClientPointer.3
+  GEN      XIGetFocus.3
+  GEN      XIGetSelectedEvents.3
+  GEN      XIDeleteProperty.3
+  GEN      XIGetProperty.3
+  GEN      XIFreeDeviceInfo.3
+  GEN      XIGrabTouchBegin.3
+  GEN      XIUngrabTouchBegin.3
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/man'
+Making all in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/specs'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXi-1.7.9'

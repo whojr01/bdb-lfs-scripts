@@ -1,0 +1,163 @@
+Making install in debian.upstream
+make[1]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/debian.upstream'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/debian.upstream'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/debian.upstream'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/debian.upstream'
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+  GEN      intel_version.h
+make  install-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+Making install in shaders
+make[3]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+Making install in h264
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+Making install in ildb
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/ildb'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/ildb'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/ildb'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/ildb'
+Making install in mc
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/mc'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/mc'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/mc'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264/mc'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/h264'
+Making install in mpeg2
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+Making install in vld
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2/vld'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2/vld'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2/vld'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2/vld'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/mpeg2'
+Making install in render
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/render'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/render'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/render'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/render'
+Making install in post_processing
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+Making install in gen5_6
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen5_6'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen5_6'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen5_6'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen5_6'
+Making install in gen7
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen7'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen7'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen7'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen7'
+Making install in gen75
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen75'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen75'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen75'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen75'
+Making install in gen8
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen8'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen8'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen8'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen8'
+Making install in gen9
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen9'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen9'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen9'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing/gen9'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+make[6]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/post_processing'
+Making install in vme
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/vme'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/vme'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/vme'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/vme'
+Making install in utils
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/utils'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/utils'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/utils'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders/utils'
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[5]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src/shaders'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+  GEN      intel_version.h
+make[4]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[4]: Nothing to be done for 'install-exec-am'.
+  GEN      intel_version.h
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   i965_drv_video.la '/usr/lib/dri'
+libtool: install: /usr/bin/install -c .libs/i965_drv_video.so /usr/lib/dri/i965_drv_video.so
+libtool: install: /usr/bin/install -c .libs/i965_drv_video.lai /usr/lib/dri/i965_drv_video.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3/src'
+make[1]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-intel-driver-1.7.3'

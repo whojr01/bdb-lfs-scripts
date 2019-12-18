@@ -1,0 +1,146 @@
+make  all-recursive
+make[1]: Entering directory '/sources/grep-3.1/build'
+Making all in po
+make[2]: Entering directory '/sources/grep-3.1/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/grep-3.1/build/po'
+Making all in lib
+make[2]: Entering directory '/sources/grep-3.1/build/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      ctype.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      iconv.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/stat.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      uniwidth.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-am
+make[3]: Entering directory '/sources/grep-3.1/build/lib'
+  CC       argmatch.o
+  CC       binary-io.o
+  CC       bitrotate.o
+  CC       c-ctype.o
+  CC       c-strcasecmp.o
+  CC       c-strncasecmp.o
+  CC       cloexec.o
+  CC       close-stream.o
+  CC       closeout.o
+  CC       cycle-check.o
+  CC       dfa.o
+  CC       localeinfo.o
+  CC       opendir-safer.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exclude.o
+  CC       exitfail.o
+  CC       creat-safer.o
+  CC       open-safer.o
+  CC       fd-hook.o
+  CC       filenamecat-lgpl.o
+  CC       getprogname.o
+  CC       hard-locale.o
+  CC       hash.o
+  CC       i-ring.o
+  CC       localcharset.o
+  CC       glthread/lock.o
+  CC       malloca.o
+  CC       mbchar.o
+  CC       mbiter.o
+  CC       mbscasecmp.o
+  CC       mbslen.o
+  CC       mbsstr.o
+  CC       mbuiter.o
+  CC       memchr2.o
+  CC       openat-die.o
+  CC       openat-safer.o
+  CC       propername.o
+  CC       quotearg.o
+  CC       safe-read.o
+  CC       save-cwd.o
+  CC       striconv.o
+  CC       strnlen1.o
+  CC       glthread/threadlib.o
+  CC       trim.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       unistr/u8-mbtoucr.o
+  CC       unistr/u8-uctomb.o
+  CC       unistr/u8-uctomb-aux.o
+  CC       uniwidth/width.o
+  CC       version-etc.o
+  CC       version-etc-fsf.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       xbinary-io.o
+  CC       xstriconv.o
+  CC       xstrtoimax.o
+  CC       xstrtol.o
+  CC       xstrtoul.o
+  CC       xstrtol-error.o
+  CC       colorize.o
+  CC       chdir-long.o
+  CC       fcntl.o
+  CC       fts.o
+  CC       mbrlen.o
+  CC       mbrtowc.o
+  CC       obstack.o
+  CC       openat-proc.o
+  AR       libgreputils.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[3]: Leaving directory '/sources/grep-3.1/build/lib'
+make[2]: Leaving directory '/sources/grep-3.1/build/lib'
+Making all in doc
+make[2]: Entering directory '/sources/grep-3.1/build/doc'
+  GEN      grep.1
+  GEN      fgrep.1
+  GEN      egrep.1
+make[2]: Leaving directory '/sources/grep-3.1/build/doc'
+Making all in src
+make[2]: Entering directory '/sources/grep-3.1/build/src'
+  CC       dfasearch.o
+  CC       grep.o
+  CC       kwsearch.o
+  CC       kwset.o
+  CC       pcresearch.o
+  CC       searchutils.o
+  CCLD     grep
+  GEN      egrep
+  GEN      fgrep
+make[2]: Leaving directory '/sources/grep-3.1/build/src'
+Making all in tests
+make[2]: Entering directory '/sources/grep-3.1/build/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/grep-3.1/build/tests'
+Making all in gnulib-tests
+make[2]: Entering directory '/sources/grep-3.1/build/gnulib-tests'
+make  all-recursive
+make[3]: Entering directory '/sources/grep-3.1/build/gnulib-tests'
+Making all in .
+make[4]: Entering directory '/sources/grep-3.1/build/gnulib-tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/grep-3.1/build/gnulib-tests'
+make[3]: Leaving directory '/sources/grep-3.1/build/gnulib-tests'
+make[2]: Leaving directory '/sources/grep-3.1/build/gnulib-tests'
+make[2]: Entering directory '/sources/grep-3.1/build'
+make[2]: Leaving directory '/sources/grep-3.1/build'
+make[1]: Leaving directory '/sources/grep-3.1/build'

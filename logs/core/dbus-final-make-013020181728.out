@@ -1,0 +1,172 @@
+make  all-recursive
+make[1]: Entering directory '/sources/dbus-1.12.2/build'
+Making all in dbus
+make[2]: Entering directory '/sources/dbus-1.12.2/build/dbus'
+make  all-am
+make[3]: Entering directory '/sources/dbus-1.12.2/build/dbus'
+  CC       libdbus_1_la-dbus-address.lo
+  CC       libdbus_1_la-dbus-auth.lo
+  CC       libdbus_1_la-dbus-bus.lo
+  CC       libdbus_1_la-dbus-connection.lo
+  CC       libdbus_1_la-dbus-credentials.lo
+  CC       libdbus_1_la-dbus-errors.lo
+  CC       libdbus_1_la-dbus-keyring.lo
+  CC       libdbus_1_la-dbus-marshal-header.lo
+  CC       libdbus_1_la-dbus-marshal-byteswap.lo
+  CC       libdbus_1_la-dbus-marshal-recursive.lo
+  CC       libdbus_1_la-dbus-marshal-validate.lo
+  CC       libdbus_1_la-dbus-message.lo
+../../dbus/dbus-message.c: In function '_dbus_variant_get_signature':
+../../dbus/dbus-message.c:5394:17: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+   unsigned char len;
+                 ^~~
+  CC       libdbus_1_la-dbus-misc.lo
+  CC       libdbus_1_la-dbus-nonce.lo
+  CC       libdbus_1_la-dbus-object-tree.lo
+  CC       libdbus_1_la-dbus-pending-call.lo
+  CC       libdbus_1_la-dbus-resources.lo
+  CC       libdbus_1_la-dbus-server.lo
+  CC       libdbus_1_la-dbus-server-debug-pipe.lo
+  CC       libdbus_1_la-dbus-server-socket.lo
+  CC       libdbus_1_la-dbus-uuidgen.lo
+  CC       libdbus_1_la-dbus-server-unix.lo
+  CC       libdbus_1_la-dbus-sha.lo
+  CC       libdbus_1_la-dbus-signature.lo
+  CC       libdbus_1_la-dbus-syntax.lo
+  CC       libdbus_1_la-dbus-timeout.lo
+  CC       libdbus_1_la-dbus-threads.lo
+  CC       libdbus_1_la-dbus-transport.lo
+  CC       libdbus_1_la-dbus-transport-socket.lo
+  CC       libdbus_1_la-dbus-watch.lo
+  CC       libdbus_1_la-dbus-dataslot.lo
+  CC       libdbus_1_la-dbus-file.lo
+  CC       libdbus_1_la-dbus-hash.lo
+  CC       libdbus_1_la-dbus-internals.lo
+  CC       libdbus_1_la-dbus-list.lo
+  CC       libdbus_1_la-dbus-marshal-basic.lo
+  CC       libdbus_1_la-dbus-memory.lo
+  CC       libdbus_1_la-dbus-mempool.lo
+  CC       libdbus_1_la-dbus-pipe.lo
+  CC       libdbus_1_la-dbus-string.lo
+  CC       libdbus_1_la-dbus-file-unix.lo
+  CC       libdbus_1_la-dbus-pipe-unix.lo
+  CC       libdbus_1_la-dbus-sysdeps-unix.lo
+  CC       libdbus_1_la-dbus-sysdeps-pthread.lo
+  CC       libdbus_1_la-dbus-transport-unix.lo
+  CC       libdbus_1_la-dbus-userdb.lo
+  CC       libdbus_1_la-dbus-sysdeps.lo
+  CCLD     libdbus-1.la
+  CC       dbus-asv-util.lo
+  CC       dbus-auth-script.lo
+  CC       dbus-auth-util.lo
+  CC       dbus-credentials-util.lo
+  CC       dbus-mainloop.lo
+  CC       dbus-marshal-byteswap-util.lo
+  CC       dbus-marshal-recursive-util.lo
+  CC       dbus-marshal-validate-util.lo
+  CC       dbus-message-factory.lo
+  CC       dbus-message-util.lo
+  CC       dbus-shell.lo
+  CC       dbus-sysdeps-util-unix.lo
+  CC       dbus-userdb-util.lo
+  CC       dbus-spawn.lo
+  CC       dbus-socket-set-epoll.lo
+  CC       dbus-socket-set.lo
+  CC       dbus-socket-set-poll.lo
+  CC       dbus-string-util.lo
+  CC       dbus-sysdeps-util.lo
+  CC       dbus-test.lo
+  CCLD     libdbus-internal.la
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/dbus'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/dbus'
+Making all in bus
+make[2]: Entering directory '/sources/dbus-1.12.2/build/bus'
+  CC       activation.o
+  CC       apparmor.o
+  CC       audit.o
+  CC       bus.o
+  CC       config-loader-expat.o
+  CC       config-parser.o
+  CC       config-parser-common.o
+  CC       connection.o
+  CC       desktop-file.o
+  CC       dir-watch-inotify.o
+  CC       dispatch.o
+  CC       driver.o
+  CC       expirelist.o
+  CC       policy.o
+  CC       selinux.o
+  CC       services.o
+  CC       signals.o
+  CC       stats.o
+  CC       test.o
+  CC       utils.o
+  CC       main.o
+  CCLD     dbus-daemon
+  CC       activation-helper-bin.o
+  CC       config-parser-trivial.o
+  CC       activation-helper.o
+  CCLD     dbus-daemon-launch-helper
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/bus'
+Making all in tools
+make[2]: Entering directory '/sources/dbus-1.12.2/build/tools'
+  CC       dbus_launch-dbus-launch.o
+../../tools/dbus-launch.c: In function 'main':
+../../tools/dbus-launch.c:844:13: warning: unused variable 'error' [-Wunused-variable]
+   DBusError error = DBUS_ERROR_INIT;
+             ^~~~~
+  CC       dbus_launch-dbus-launch-x11.o
+  CC       dbus_launch-tool-common.o
+  CCLD     dbus-launch
+  CC       dbus-monitor.o
+  CC       dbus-print-message.o
+  CC       tool-common.o
+  CCLD     dbus-monitor
+  CC       dbus-send.o
+  CCLD     dbus-send
+  CC       dbus-echo.o
+  CC       dbus-spam.o
+  CC       test-tool.o
+  CCLD     dbus-test-tool
+  CC       dbus-update-activation-environment.o
+  CCLD     dbus-update-activation-environment
+  CC       dbus-cleanup-sockets.o
+  CCLD     dbus-cleanup-sockets
+  CC       dbus-run-session.o
+  CCLD     dbus-run-session
+  CC       dbus-uuidgen.o
+  CCLD     dbus-uuidgen
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/tools'
+Making all in test
+make[2]: Entering directory '/sources/dbus-1.12.2/build/test'
+Making all in .
+make[3]: Entering directory '/sources/dbus-1.12.2/build/test'
+  CC       test-utils.lo
+  CCLD     libdbus-testutils.la
+  CC       shell-test.o
+  CCLD     test-shell
+  CC       internals/printf.o
+  CCLD     test-printf
+  CC       manual-backtrace.o
+  CCLD     manual-backtrace
+  CC       manual-dir-iter.o
+  CCLD     manual-dir-iter
+  CC       manual-tcp.o
+  CCLD     manual-tcp
+  GEN      data/valid-config-files/session.conf
+  GEN      data/valid-config-files-system/system.conf
+  GEN      copy-config-local
+  GEN      uninstalled-config-local
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/test'
+Making all in name-test
+make[3]: Entering directory '/sources/dbus-1.12.2/build/test/name-test'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/test/name-test'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/test'
+Making all in doc
+make[2]: Entering directory '/sources/dbus-1.12.2/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/doc'
+make[2]: Entering directory '/sources/dbus-1.12.2/build'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build'
+make[1]: Leaving directory '/sources/dbus-1.12.2/build'

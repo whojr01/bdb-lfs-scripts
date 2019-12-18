@@ -1,0 +1,20 @@
+###############################
+# Make xset-1.2.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xset-1.2.3'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xset-1.2.3/man'
+  GEN      xset.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xset-1.2.3/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xset-1.2.3'
+  CC       xset.o
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from xset.c:52:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CCLD     xset
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xset-1.2.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xset-1.2.3'

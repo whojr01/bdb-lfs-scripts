@@ -1,0 +1,239 @@
+###############################
+# Make libXpm-3.5.12.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/doc'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/include'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/man'
+  GEN      sxpm.1
+  GEN      cxpm.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/man'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/src'
+  CC       Attrib.lo
+  CC       CrBufFrI.lo
+  CC       CrBufFrP.lo
+  CC       CrDatFrI.lo
+  CC       CrDatFrP.lo
+  CC       CrIFrBuf.lo
+  CC       CrIFrDat.lo
+  CC       CrIFrP.lo
+  CC       CrPFrBuf.lo
+  CC       CrPFrDat.lo
+  CC       CrPFrI.lo
+  CC       Image.lo
+  CC       Info.lo
+  CC       RdFToBuf.lo
+  CC       RdFToDat.lo
+  CC       RdFToI.lo
+  CC       RdFToP.lo
+  CC       WrFFrBuf.lo
+  CC       WrFFrDat.lo
+  CC       WrFFrI.lo
+  CC       WrFFrP.lo
+  CC       create.lo
+  CC       data.lo
+  CC       hashtab.lo
+  CC       misc.lo
+misc.c: In function 'XpmGetErrorString':
+misc.c:88:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmColorError");
+         ^
+misc.c:90:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmSuccess");
+         ^
+misc.c:92:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmOpenFailed");
+         ^
+misc.c:94:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmFileInvalid");
+         ^
+misc.c:96:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmNoMemory");
+         ^
+misc.c:98:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmColorFailed");
+         ^
+misc.c:100:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("Invalid XpmError");
+         ^
+  CC       parse.lo
+  CC       rgb.lo
+  CC       scan.lo
+  CCLD     libXpm.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/src'
+Making all in sxpm
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/sxpm'
+  CC       sxpm.o
+sxpm.c:64:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "22 22 4 2 XPMEXT",
+     ^~~~~~~~~~~~~~~~~~
+sxpm.c:66:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "   c red  m white  s light_color",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:67:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "Y  c green m black  s lines_in_mix",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:68:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "+  c yellow m white  s lines_in_dark",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:69:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x   m black  s dark_color",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:71:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x   x   x x x   x   x x x x x x + x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:72:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "  x   x   x   x   x   x x x x x x x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:73:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x   x   x x x   x   x x x x x x + x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:74:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "  x   x   x   x   x   x x x x x x x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:75:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x   x   x x x   x   x x x x x x + x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:76:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "Y Y Y Y Y x Y Y Y Y Y + x + x + x + x + x + ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:77:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x   x   x x x   x   x x x x x x + x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:78:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "  x   x   x   x   x   x x x x x x x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:79:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x   x   x x x   x   x x x x x x + x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:80:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "  x   x   x   x   x   x x x x x x x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:81:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x   x   x x x   x   x x x x x x + x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:82:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x           x   x   x Y x   x   x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:83:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x             x   x   Y   x   x   ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:84:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x           x   x   x Y x   x   x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:85:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x             x   x   Y   x   x   ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:86:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x           x   x   x Y x   x   x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:87:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "x x x x x x x x x x x x x x x x x x x x x x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:88:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x           x   x   x Y x   x   x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:89:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x             x   x   Y   x   x   ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:90:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x           x   x   x Y x   x   x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:91:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x             x   x   Y   x   x   ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:92:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "          x           x   x   x Y x   x   x ",
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sxpm.c:93:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "bullshit",
+     ^~~~~~~~~~
+sxpm.c:94:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "XPMEXT ext1 data1",
+     ^~~~~~~~~~~~~~~~~~~
+sxpm.c:95:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "XPMEXT ext2",
+     ^~~~~~~~~~~~~
+sxpm.c:96:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "data2_1",
+     ^~~~~~~~~
+sxpm.c:97:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "data2_2",
+     ^~~~~~~~~
+sxpm.c:98:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "XPMEXT",
+     ^~~~~~~~
+sxpm.c:99:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "foo",
+     ^~~~~
+sxpm.c:100:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "",
+     ^~
+sxpm.c:101:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "XPMEXT ext3",
+     ^~~~~~~~~~~~~
+sxpm.c:102:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "data3",
+     ^~~~~~~
+sxpm.c:103:5: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "XPMENDEXT"
+     ^~~~~~~~~~~
+sxpm.c:134:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-hints", ".hints", XrmoptionNoArg, (XtPointer) "True"},
+      ^~~~~~~~
+sxpm.c:134:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-hints", ".hints", XrmoptionNoArg, (XtPointer) "True"},
+                ^~~~~~~~
+sxpm.c:134:42: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     {"-hints", ".hints", XrmoptionNoArg, (XtPointer) "True"},
+                                          ^
+sxpm.c:135:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-icon", ".icon", XrmoptionSepArg, (XtPointer) NULL},
+      ^~~~~~~
+sxpm.c:135:15: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-icon", ".icon", XrmoptionSepArg, (XtPointer) NULL},
+               ^~~~~~~
+  CCLD     sxpm
+  GEN      sxpm.po
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/sxpm'
+Making all in cxpm
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/cxpm'
+  CC       cxpm.o
+In file included from cxpm.c:87:0:
+../src/misc.c: In function 'XpmGetErrorString':
+../src/misc.c:88:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmColorError");
+         ^
+../src/misc.c:90:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmSuccess");
+         ^
+../src/misc.c:92:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmOpenFailed");
+         ^
+../src/misc.c:94:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmFileInvalid");
+         ^
+../src/misc.c:96:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmNoMemory");
+         ^
+../src/misc.c:98:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("XpmColorFailed");
+         ^
+../src/misc.c:100:9: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  return ("Invalid XpmError");
+         ^
+  CCLD     cxpm
+  GEN      cxpm.po
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12/cxpm'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXpm-3.5.12'

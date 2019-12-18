@@ -1,0 +1,42 @@
+Making check in src
+make[1]: Entering directory `/lfsbuild/sources/file-5.32/build/src'
+make  check-am
+make[2]: Entering directory `/lfsbuild/sources/file-5.32/build/src'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/lfsbuild/sources/file-5.32/build/src'
+make[1]: Leaving directory `/lfsbuild/sources/file-5.32/build/src'
+Making check in magic
+make[1]: Entering directory `/lfsbuild/sources/file-5.32/build/magic'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/lfsbuild/sources/file-5.32/build/magic'
+Making check in tests
+make[1]: Entering directory `/lfsbuild/sources/file-5.32/build/tests'
+make  test
+make[2]: Entering directory `/lfsbuild/sources/file-5.32/build/tests'
+  CC       test-test.o
+  CCLD     test
+make[2]: Leaving directory `/lfsbuild/sources/file-5.32/build/tests'
+make  check-local
+make[2]: Entering directory `/lfsbuild/sources/file-5.32/build/tests'
+MAGIC=../magic/magic ./test
+set -e; for i in ../../tests/*.testfile; do echo Running test: $i; TZ=UTC MAGIC=../magic/magic ./test $i ${i%%.testfile}.result; done
+Running test: ../../tests/escapevel.testfile
+../../tests/escapevel.testfile: Zip data (MIME type "application/vnd.nz.gen.geek_central.ti5x"?)
+Running test: ../../tests/gedcom.testfile
+../../tests/gedcom.testfile: GEDCOM genealogy text version 5.5, ASCII text
+Running test: ../../tests/hddrawcopytool.testfile
+../../tests/hddrawcopytool.testfile: HDD Raw Copy Tool 1.10 - HD model: ST500DM0 02-1BD142 serial: 51D20233A7C0
+Running test: ../../tests/issue311docx.testfile
+../../tests/issue311docx.testfile: Microsoft Word 2007+
+make[2]: Leaving directory `/lfsbuild/sources/file-5.32/build/tests'
+make[1]: Leaving directory `/lfsbuild/sources/file-5.32/build/tests'
+Making check in doc
+make[1]: Entering directory `/lfsbuild/sources/file-5.32/build/doc'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/lfsbuild/sources/file-5.32/build/doc'
+Making check in python
+make[1]: Entering directory `/lfsbuild/sources/file-5.32/build/python'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/lfsbuild/sources/file-5.32/build/python'
+make[1]: Entering directory `/lfsbuild/sources/file-5.32/build'
+make[1]: Leaving directory `/lfsbuild/sources/file-5.32/build'

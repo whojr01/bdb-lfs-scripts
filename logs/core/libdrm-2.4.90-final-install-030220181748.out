@@ -1,0 +1,207 @@
+Making install in .
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 include/drm/drm.h include/drm/drm_fourcc.h include/drm/drm_mode.h include/drm/drm_sarea.h include/drm/i915_drm.h include/drm/mach64_drm.h include/drm/mga_drm.h include/drm/nouveau_drm.h include/drm/qxl_drm.h include/drm/r128_drm.h include/drm/radeon_drm.h include/drm/amdgpu_drm.h include/drm/savage_drm.h include/drm/sis_drm.h include/drm/tegra_drm.h include/drm/vc4_drm.h include/drm/via_drm.h include/drm/virtgpu_drm.h include/drm/vmwgfx_drm.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libdrm.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libdrm.so.2.4.0 /usr/lib/libdrm.so.2.4.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm.so.2.4.0 libdrm.so.2 || { rm -f libdrm.so.2 && ln -s libdrm.so.2.4.0 libdrm.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm.so.2.4.0 libdrm.so || { rm -f libdrm.so && ln -s libdrm.so.2.4.0 libdrm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm.lai /usr/lib/libdrm.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 libsync.h xf86drm.h xf86drmMode.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm.pc '/usr/lib/pkgconfig'
+Making install in libkms
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libkms.la '/usr/lib'
+libtool: warning: relinking 'libkms.la'
+libtool: install: (cd /lfskernel/sources/boot/libdrm-2.4.90/libkms; /bin/sh "/lfskernel/sources/boot/libdrm-2.4.90/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Werror=undef -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -Wno-missing-field-initializers -I../include/drm -I.. -g -O2 -version-number 1:0:0 -no-undefined -o libkms.la -rpath /usr/lib linux.lo dumb.lo api.lo vmwgfx.lo intel.lo nouveau.lo radeon.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libkms.so.1.0.0T /usr/lib/libkms.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libkms.so.1.0.0 libkms.so.1 || { rm -f libkms.so.1 && ln -s libkms.so.1.0.0 libkms.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libkms.so.1.0.0 libkms.so || { rm -f libkms.so && ln -s libkms.so.1.0.0 libkms.so; }; })
+libtool: install: /usr/bin/install -c .libs/libkms.lai /usr/lib/libkms.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libkms'
+ /usr/bin/install -c -m 644 libkms.h '/usr/include/libkms'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libkms.pc '/usr/lib/pkgconfig'
+Making install in intel
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_intel.la '/usr/lib'
+libtool: warning: relinking 'libdrm_intel.la'
+libtool: install: (cd /lfskernel/sources/boot/libdrm-2.4.90/intel; /bin/sh "/lfskernel/sources/boot/libdrm-2.4.90/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Werror=undef -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -Wno-missing-field-initializers -I.. -I../include/drm -g -O2 -version-number 1:0:0 -no-undefined -o libdrm_intel.la -rpath /usr/lib intel_bufmgr.lo intel_bufmgr_fake.lo intel_bufmgr_gem.lo intel_decode.lo mm.lo ../libdrm.la -lpciaccess )
+libtool: install: /usr/bin/install -c .libs/libdrm_intel.so.1.0.0T /usr/lib/libdrm_intel.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_intel.so.1.0.0 libdrm_intel.so.1 || { rm -f libdrm_intel.so.1 && ln -s libdrm_intel.so.1.0.0 libdrm_intel.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_intel.so.1.0.0 libdrm_intel.so || { rm -f libdrm_intel.so && ln -s libdrm_intel.so.1.0.0 libdrm_intel.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_intel.lai /usr/lib/libdrm_intel.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 intel_bufmgr.h intel_aub.h intel_debug.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_intel.pc '/usr/lib/pkgconfig'
+Making install in nouveau
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_nouveau.la '/usr/lib'
+libtool: warning: relinking 'libdrm_nouveau.la'
+libtool: install: (cd /lfskernel/sources/boot/libdrm-2.4.90/nouveau; /bin/sh "/lfskernel/sources/boot/libdrm-2.4.90/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Werror=undef -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -Wno-missing-field-initializers -I.. -I../include/drm -DDEBUG -g -O2 -version-number 2:0:0 -no-undefined -o libdrm_nouveau.la -rpath /usr/lib nouveau.lo pushbuf.lo bufctx.lo abi16.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libdrm_nouveau.so.2.0.0T /usr/lib/libdrm_nouveau.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_nouveau.so.2.0.0 libdrm_nouveau.so.2 || { rm -f libdrm_nouveau.so.2 && ln -s libdrm_nouveau.so.2.0.0 libdrm_nouveau.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_nouveau.so.2.0.0 libdrm_nouveau.so || { rm -f libdrm_nouveau.so && ln -s libdrm_nouveau.so.2.0.0 libdrm_nouveau.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_nouveau.lai /usr/lib/libdrm_nouveau.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm/nouveau'
+ /usr/bin/install -c -m 644 nouveau.h '/usr/include/libdrm/nouveau'
+ /bin/mkdir -p '/usr/include/libdrm/nouveau/nvif'
+ /usr/bin/install -c -m 644 nvif/class.h nvif/cl0080.h nvif/cl9097.h nvif/if0002.h nvif/if0003.h nvif/ioctl.h nvif/unpack.h '/usr/include/libdrm/nouveau/nvif'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_nouveau.pc '/usr/lib/pkgconfig'
+Making install in radeon
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_radeon.la '/usr/lib'
+libtool: warning: relinking 'libdrm_radeon.la'
+libtool: install: (cd /lfskernel/sources/boot/libdrm-2.4.90/radeon; /bin/sh "/lfskernel/sources/boot/libdrm-2.4.90/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Werror=undef -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -Wno-missing-field-initializers -I.. -I../include/drm -g -O2 -version-number 1:0:1 -no-undefined -o libdrm_radeon.la -rpath /usr/lib radeon_bo_gem.lo radeon_cs_gem.lo radeon_cs_space.lo radeon_bo.lo radeon_cs.lo radeon_surface.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libdrm_radeon.so.1.0.1T /usr/lib/libdrm_radeon.so.1.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_radeon.so.1.0.1 libdrm_radeon.so.1 || { rm -f libdrm_radeon.so.1 && ln -s libdrm_radeon.so.1.0.1 libdrm_radeon.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_radeon.so.1.0.1 libdrm_radeon.so || { rm -f libdrm_radeon.so && ln -s libdrm_radeon.so.1.0.1 libdrm_radeon.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_radeon.lai /usr/lib/libdrm_radeon.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 radeon_bo.h radeon_cs.h radeon_surface.h radeon_bo_gem.h radeon_cs_gem.h radeon_bo_int.h radeon_cs_int.h r600_pci_ids.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_radeon.pc '/usr/lib/pkgconfig'
+Making install in amdgpu
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_amdgpu.la '/usr/lib'
+libtool: warning: relinking 'libdrm_amdgpu.la'
+libtool: install: (cd /lfskernel/sources/boot/libdrm-2.4.90/amdgpu; /bin/sh "/lfskernel/sources/boot/libdrm-2.4.90/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Werror=undef -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -Wno-missing-field-initializers -I.. -I../include/drm -g -O2 -version-number 1:0:0 -no-undefined -o libdrm_amdgpu.la -rpath /usr/lib amdgpu_asic_id.lo amdgpu_bo.lo amdgpu_cs.lo amdgpu_device.lo amdgpu_gpu_info.lo amdgpu_vamgr.lo amdgpu_vm.lo util_hash.lo util_hash_table.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libdrm_amdgpu.so.1.0.0T /usr/lib/libdrm_amdgpu.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so.1 || { rm -f libdrm_amdgpu.so.1 && ln -s libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so || { rm -f libdrm_amdgpu.so && ln -s libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_amdgpu.lai /usr/lib/libdrm_amdgpu.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 amdgpu.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_amdgpu.pc '/usr/lib/pkgconfig'
+Making install in data
+ /bin/mkdir -p '/usr/share/libdrm'
+ /usr/bin/install -c -m 644 amdgpu.ids '/usr/share/libdrm'
+Making install in tests
+Making install in util
+Making install in kms
+Making install in modeprint
+Making install in proptest
+Making install in modetest
+Making install in vbltest
+Making install in kmstest
+Making install in radeon
+Making install in nouveau

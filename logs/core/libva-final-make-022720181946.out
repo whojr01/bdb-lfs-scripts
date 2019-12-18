@@ -1,0 +1,87 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3'
+Making all in va
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va'
+Making all in drm
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va/drm'
+  CC       va_drm.lo
+  CC       va_drm_auth.lo
+  CC       va_drm_utils.lo
+  CCLD     libva_drm.la
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va/drm'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va'
+  CC       va.lo
+  CC       va_compat.lo
+  CC       va_fool.lo
+  CC       va_trace.lo
+  CCLD     libva.la
+  CC       va_tpi.lo
+  CCLD     libva-tpi.la
+  CCLD     libva-drm.la
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va'
+Making all in dummy_drv_video
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/dummy_drv_video'
+  CC       dummy_drv_video.lo
+  CC       object_heap.lo
+  CCLD     dummy_drv_video.la
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/dummy_drv_video'
+Making all in pkgconfig
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/pkgconfig'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/pkgconfig'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test'
+Making all in common
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/common'
+  CC       libva_display_la-va_display.lo
+  CC       libva_display_la-va_display_drm.lo
+  CCLD     libva-display.la
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/common'
+Making all in decode
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/decode'
+  CXX      mpeg2vldemo.o
+  CXXLD    mpeg2vldemo
+  CC       loadjpeg.o
+  CC       tinyjpeg.o
+  CCLD     loadjpeg
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/decode'
+Making all in encode
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/encode'
+  CC       avcenc-avcenc.o
+  CCLD     avcenc
+  CC       mpeg2vaenc-mpeg2vaenc.o
+  CCLD     mpeg2vaenc
+  CC       h264encode-h264encode.o
+h264encode.c:1730:12: warning: 'render_hrd' defined but not used [-Wunused-function]
+ static int render_hrd(void)
+            ^~~~~~~~~~
+h264encode.c:1667:13: warning: 'render_packedsei' defined but not used [-Wunused-function]
+ static void render_packedsei(void)
+             ^~~~~~~~~~~~~~~~
+  CCLD     h264encode
+  CC       jpegenc-jpegenc.o
+  CCLD     jpegenc
+  CC       svctenc-svctenc.o
+  CCLD     svctenc
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/encode'
+Making all in vainfo
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/vainfo'
+  CC       vainfo-vainfo.o
+  CCLD     vainfo
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/vainfo'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test'
+Making all in debian.upstream
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/debian.upstream'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/debian.upstream'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3'

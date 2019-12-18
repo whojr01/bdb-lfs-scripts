@@ -1,0 +1,38 @@
+Using Compiler: gcc
+*********************
+ELF report
+*********************
+Interpreter:
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+
+Start (ctors):
+attempt to open /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crt1.o succeeded
+attempt to open /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o succeeded
+attempt to open /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o succeeded
+
+Headers:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed
+ /usr/include
+
+Search Dirs:
+SEARCH_DIR("/usr/x86_64-pc-linux-gnu/lib64")
+SEARCH_DIR("/usr/local/lib64")
+SEARCH_DIR("/lib64")
+SEARCH_DIR("/usr/lib64")
+SEARCH_DIR("/usr/x86_64-pc-linux-gnu/lib")
+SEARCH_DIR("/usr/local/lib")
+SEARCH_DIR("/lib")
+SEARCH_DIR("/usr/lib");
+
+Libc:
+attempt to open /lib/libc.so.6 succeeded
+/lib/libc.so.6
+ld-linux-x86-64.so.2 needed by /lib/libc.so.6
+
+Found:
+found ld-linux-x86-64.so.2 at /lib/ld-linux-x86-64.so.2
+
+done.

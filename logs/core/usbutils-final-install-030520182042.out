@@ -1,0 +1,63 @@
+Making install in usbhid-dump
+make[1]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+Making install in include
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+Making install in uhd
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[4]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[4]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+Making install in lib
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+Making install in src
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c usbhid-dump '/usr/bin'
+libtool: install: /usr/bin/install -c usbhid-dump /usr/bin/usbhid-dump
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+Making install in doc
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 usbhid-dump.8 '/usr/share/man/man8'
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[1]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[1]: Entering directory '/lfskernel/sources/boot/usbutils-009'
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c lsusb '/usr/bin'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c usb-devices lsusb.py '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 usb-devices.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 lsusb.8 '/usr/share/man/man8'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 usbutils.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009'
+make[1]: Leaving directory '/lfskernel/sources/boot/usbutils-009'

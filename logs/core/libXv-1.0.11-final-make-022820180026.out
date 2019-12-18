@@ -1,0 +1,58 @@
+###############################
+# Make libXv-1.0.11.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/src'
+  CC       Xv.lo
+  CCLD     libXv.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/man'
+  GEN      Xv.3
+  GEN      XvCreateImage.3
+  GEN      XvFreeAdaptorInfo.3
+  GEN      XvFreeEncodingInfo.3
+  GEN      XvGetPortAttribute.3
+  GEN      XvGetStill.3
+  GEN      XvGetVideo.3
+  GEN      XvGrabPort.3
+  GEN      XvListImageFormats.3
+  GEN      XvPortNotify.3
+  GEN      XvPutImage.3
+  GEN      XvPutStill.3
+  GEN      XvPutVideo.3
+  GEN      XvQueryAdaptors.3
+  GEN      XvQueryBestSize.3
+  GEN      XvQueryEncodings.3
+  GEN      XvQueryExtension.3
+  GEN      XvQueryPortAttributes.3
+  GEN      XvSelectPortNotify.3
+  GEN      XvSelectVideoNotify.3
+  GEN      XvSetPortAttribute.3
+  GEN      XvShmCreateImage.3
+  GEN      XvShmPutImage.3
+  GEN      XvStopVideo.3
+  GEN      XvUngrabPort.3
+  GEN      XvVideoNotify.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/man'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include'
+Making all in X11
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include/X11'
+Making all in extensions
+make[4]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include/X11/extensions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include/X11/extensions'
+make[4]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include/X11'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include/X11'
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include/X11'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11/include'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXv-1.0.11'

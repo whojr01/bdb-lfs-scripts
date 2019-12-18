@@ -1,0 +1,75 @@
+make  all-recursive
+make[1]: Entering directory '/sources/cracklib-2.9.6/build'
+Making all in m4
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/m4'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/m4'
+Making all in lib
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..  -I. -I.. -I../../lib -DIN_CRACKLIB '-DDEFAULT_CRACKLIB_DICT="/lib/cracklib/pw_dict"' -Wall   -g -O2 -MT fascist.lo -MD -MP -MF .deps/fascist.Tpo -c -o fascist.lo ../../lib/fascist.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -I. -I.. -I../../lib -DIN_CRACKLIB -DDEFAULT_CRACKLIB_DICT=\"/lib/cracklib/pw_dict\" -Wall -g -O2 -MT fascist.lo -MD -MP -MF .deps/fascist.Tpo -c ../../lib/fascist.c  -fPIC -DPIC -o .libs/fascist.o
+mv -f .deps/fascist.Tpo .deps/fascist.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..  -I. -I.. -I../../lib -DIN_CRACKLIB '-DDEFAULT_CRACKLIB_DICT="/lib/cracklib/pw_dict"' -Wall   -g -O2 -MT packlib.lo -MD -MP -MF .deps/packlib.Tpo -c -o packlib.lo ../../lib/packlib.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -I. -I.. -I../../lib -DIN_CRACKLIB -DDEFAULT_CRACKLIB_DICT=\"/lib/cracklib/pw_dict\" -Wall -g -O2 -MT packlib.lo -MD -MP -MF .deps/packlib.Tpo -c ../../lib/packlib.c  -fPIC -DPIC -o .libs/packlib.o
+../../lib/packlib.c:21:19: warning: 'vers_id' defined but not used [-Wunused-const-variable=]
+ static const char vers_id[] = "packlib.c : v2.3p2 Alec Muffett 18 May 1993";
+                   ^~~~~~~
+mv -f .deps/packlib.Tpo .deps/packlib.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..  -I. -I.. -I../../lib -DIN_CRACKLIB '-DDEFAULT_CRACKLIB_DICT="/lib/cracklib/pw_dict"' -Wall   -g -O2 -MT rules.lo -MD -MP -MF .deps/rules.Tpo -c -o rules.lo ../../lib/rules.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -I. -I.. -I../../lib -DIN_CRACKLIB -DDEFAULT_CRACKLIB_DICT=\"/lib/cracklib/pw_dict\" -Wall -g -O2 -MT rules.lo -MD -MP -MF .deps/rules.Tpo -c ../../lib/rules.c  -fPIC -DPIC -o .libs/rules.o
+../../lib/rules.c:7:19: warning: 'vers_id' defined but not used [-Wunused-const-variable=]
+ static const char vers_id[] = "rules.c : v5.0p3 Alec Muffett 20 May 1993";
+                   ^~~~~~~
+mv -f .deps/rules.Tpo .deps/rules.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..  -I. -I.. -I../../lib -DIN_CRACKLIB '-DDEFAULT_CRACKLIB_DICT="/lib/cracklib/pw_dict"' -Wall   -g -O2 -MT stringlib.lo -MD -MP -MF .deps/stringlib.Tpo -c -o stringlib.lo ../../lib/stringlib.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -I. -I.. -I../../lib -DIN_CRACKLIB -DDEFAULT_CRACKLIB_DICT=\"/lib/cracklib/pw_dict\" -Wall -g -O2 -MT stringlib.lo -MD -MP -MF .deps/stringlib.Tpo -c ../../lib/stringlib.c  -fPIC -DPIC -o .libs/stringlib.o
+../../lib/stringlib.c:15:19: warning: 'vers_id' defined but not used [-Wunused-const-variable=]
+ static const char vers_id[] = "stringlib.c : v2.3p2 Alec Muffett 18 May 1993";
+                   ^~~~~~~
+mv -f .deps/stringlib.Tpo .deps/stringlib.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -version-info 11:0:9  -o libcrack.la -rpath /usr/lib fascist.lo packlib.lo rules.lo stringlib.lo  -lz 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/fascist.o .libs/packlib.o .libs/rules.o .libs/stringlib.o   -lz  -O2   -Wl,-soname -Wl,libcrack.so.2 -o .libs/libcrack.so.2.9.0
+libtool: link: (cd ".libs" && rm -f "libcrack.so.2" && ln -s "libcrack.so.2.9.0" "libcrack.so.2")
+libtool: link: (cd ".libs" && rm -f "libcrack.so" && ln -s "libcrack.so.2.9.0" "libcrack.so")
+libtool: link: ( cd ".libs" && rm -f "libcrack.la" && ln -s "../libcrack.la" "libcrack.la" )
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/lib'
+Making all in util
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/util'
+gcc -DHAVE_CONFIG_H -I. -I../../util -I..  -I. -I.. -I../../lib '-DDEFAULT_CRACKLIB_DICT="/lib/cracklib/pw_dict"' -Wall   -g -O2 -MT packer.o -MD -MP -MF .deps/packer.Tpo -c -o packer.o ../../util/packer.c
+mv -f .deps/packer.Tpo .deps/packer.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o cracklib-packer packer.o ../lib/libcrack.la -lz 
+libtool: link: gcc -g -O2 -o .libs/cracklib-packer packer.o  ../lib/.libs/libcrack.so -lz
+gcc -DHAVE_CONFIG_H -I. -I../../util -I..  -I. -I.. -I../../lib '-DDEFAULT_CRACKLIB_DICT="/lib/cracklib/pw_dict"' -Wall   -g -O2 -MT unpacker.o -MD -MP -MF .deps/unpacker.Tpo -c -o unpacker.o ../../util/unpacker.c
+mv -f .deps/unpacker.Tpo .deps/unpacker.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o cracklib-unpacker unpacker.o ../lib/libcrack.la -lz 
+libtool: link: gcc -g -O2 -o .libs/cracklib-unpacker unpacker.o  ../lib/.libs/libcrack.so -lz
+gcc -DHAVE_CONFIG_H -I. -I../../util -I..  -I. -I.. -I../../lib '-DDEFAULT_CRACKLIB_DICT="/lib/cracklib/pw_dict"' -Wall   -g -O2 -MT check.o -MD -MP -MF .deps/check.Tpo -c -o check.o ../../util/check.c
+mv -f .deps/check.Tpo .deps/check.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o cracklib-check check.o ../lib/libcrack.la -lz 
+libtool: link: gcc -g -O2 -o .libs/cracklib-check check.o  ../lib/.libs/libcrack.so -lz
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/util'
+Making all in po
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/po'
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/po'
+Making all in doc
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/doc'
+Making all in python
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/python'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/python'
+Making all in dicts
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/dicts'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/dicts'
+make[2]: Entering directory '/sources/cracklib-2.9.6/build'
+
+=======================================================
+Be sure and obtain a large wordlist file and run
+make install and make dict to generate the word
+list index file. See the README file for more details.
+=======================================================
+
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build'

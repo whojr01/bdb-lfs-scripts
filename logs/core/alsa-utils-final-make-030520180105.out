@@ -1,0 +1,198 @@
+Making all in include
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+Making all in alsactl
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+Making all in init
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl/init'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl/init'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-alsactl.o -MD -MP -MF .deps/alsactl-alsactl.Tpo -c -o alsactl-alsactl.o `test -f 'alsactl.c' || echo './'`alsactl.c
+mv -f .deps/alsactl-alsactl.Tpo .deps/alsactl-alsactl.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-state.o -MD -MP -MF .deps/alsactl-state.Tpo -c -o alsactl-state.o `test -f 'state.c' || echo './'`state.c
+mv -f .deps/alsactl-state.Tpo .deps/alsactl-state.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-lock.o -MD -MP -MF .deps/alsactl-lock.Tpo -c -o alsactl-lock.o `test -f 'lock.c' || echo './'`lock.c
+mv -f .deps/alsactl-lock.Tpo .deps/alsactl-lock.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-utils.o -MD -MP -MF .deps/alsactl-utils.Tpo -c -o alsactl-utils.o `test -f 'utils.c' || echo './'`utils.c
+mv -f .deps/alsactl-utils.Tpo .deps/alsactl-utils.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-init_parse.o -MD -MP -MF .deps/alsactl-init_parse.Tpo -c -o alsactl-init_parse.o `test -f 'init_parse.c' || echo './'`init_parse.c
+mv -f .deps/alsactl-init_parse.Tpo .deps/alsactl-init_parse.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-daemon.o -MD -MP -MF .deps/alsactl-daemon.Tpo -c -o alsactl-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+mv -f .deps/alsactl-daemon.Tpo .deps/alsactl-daemon.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-monitor.o -MD -MP -MF .deps/alsactl-monitor.Tpo -c -o alsactl-monitor.o `test -f 'monitor.c' || echo './'`monitor.c
+mv -f .deps/alsactl-monitor.Tpo .deps/alsactl-monitor.Po
+gcc  -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2   -o alsactl alsactl-alsactl.o alsactl-state.o alsactl-lock.o alsactl-utils.o alsactl-init_parse.o alsactl-daemon.o alsactl-monitor.o  -lasound -lm -ldl -lpthread
+/bin/sed -r -e 's,@sbindir\@,/usr/sbin,g' -e 's,@mydatadir\@,/usr/share/alsa,g' -e 's,@daemonswitch\@,/etc/alsa/state-daemon.conf,g' < alsa-state.service.in > alsa-state.service || rm alsa-state.service
+/bin/sed -r -e 's,@sbindir\@,/usr/sbin,g' -e 's,@mydatadir\@,/usr/share/alsa,g' -e 's,@daemonswitch\@,/etc/alsa/state-daemon.conf,g' < alsa-restore.service.in > alsa-restore.service || rm alsa-restore.service
+/bin/sed -r -e 's,@sbindir\@,/usr/sbin,g' -e 's,@mydatadir\@,/usr/share/alsa,g' -e 's,@daemonswitch\@,/etc/alsa/state-daemon.conf,g' < 90-alsa-restore.rules.in > 90-alsa-restore.rules || rm 90-alsa-restore.rules
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+Making all in utils
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/utils'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/utils'
+Making all in m4
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/m4'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/m4'
+Making all in po
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/po'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/po'
+Making all in alsa-info
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsa-info'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsa-info'
+Making all in alsamixer
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsamixer'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-card_select.o -MD -MP -MF .deps/alsamixer-card_select.Tpo -c -o alsamixer-card_select.o `test -f 'card_select.c' || echo './'`card_select.c
+mv -f .deps/alsamixer-card_select.Tpo .deps/alsamixer-card_select.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-cli.o -MD -MP -MF .deps/alsamixer-cli.Tpo -c -o alsamixer-cli.o `test -f 'cli.c' || echo './'`cli.c
+mv -f .deps/alsamixer-cli.Tpo .deps/alsamixer-cli.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-colors.o -MD -MP -MF .deps/alsamixer-colors.Tpo -c -o alsamixer-colors.o `test -f 'colors.c' || echo './'`colors.c
+mv -f .deps/alsamixer-colors.Tpo .deps/alsamixer-colors.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-device_name.o -MD -MP -MF .deps/alsamixer-device_name.Tpo -c -o alsamixer-device_name.o `test -f 'device_name.c' || echo './'`device_name.c
+mv -f .deps/alsamixer-device_name.Tpo .deps/alsamixer-device_name.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-die.o -MD -MP -MF .deps/alsamixer-die.Tpo -c -o alsamixer-die.o `test -f 'die.c' || echo './'`die.c
+mv -f .deps/alsamixer-die.Tpo .deps/alsamixer-die.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mainloop.o -MD -MP -MF .deps/alsamixer-mainloop.Tpo -c -o alsamixer-mainloop.o `test -f 'mainloop.c' || echo './'`mainloop.c
+mv -f .deps/alsamixer-mainloop.Tpo .deps/alsamixer-mainloop.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mem.o -MD -MP -MF .deps/alsamixer-mem.Tpo -c -o alsamixer-mem.o `test -f 'mem.c' || echo './'`mem.c
+mem.c:19:0: warning: "_GNU_SOURCE" redefined
+ #define _GNU_SOURCE
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+mv -f .deps/alsamixer-mem.Tpo .deps/alsamixer-mem.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mixer_controls.o -MD -MP -MF .deps/alsamixer-mixer_controls.Tpo -c -o alsamixer-mixer_controls.o `test -f 'mixer_controls.c' || echo './'`mixer_controls.c
+mv -f .deps/alsamixer-mixer_controls.Tpo .deps/alsamixer-mixer_controls.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mixer_display.o -MD -MP -MF .deps/alsamixer-mixer_display.Tpo -c -o alsamixer-mixer_display.o `test -f 'mixer_display.c' || echo './'`mixer_display.c
+mv -f .deps/alsamixer-mixer_display.Tpo .deps/alsamixer-mixer_display.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mixer_widget.o -MD -MP -MF .deps/alsamixer-mixer_widget.Tpo -c -o alsamixer-mixer_widget.o `test -f 'mixer_widget.c' || echo './'`mixer_widget.c
+mv -f .deps/alsamixer-mixer_widget.Tpo .deps/alsamixer-mixer_widget.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-proc_files.o -MD -MP -MF .deps/alsamixer-proc_files.Tpo -c -o alsamixer-proc_files.o `test -f 'proc_files.c' || echo './'`proc_files.c
+mv -f .deps/alsamixer-proc_files.Tpo .deps/alsamixer-proc_files.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-textbox.o -MD -MP -MF .deps/alsamixer-textbox.Tpo -c -o alsamixer-textbox.o `test -f 'textbox.c' || echo './'`textbox.c
+mv -f .deps/alsamixer-textbox.Tpo .deps/alsamixer-textbox.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-utils.o -MD -MP -MF .deps/alsamixer-utils.Tpo -c -o alsamixer-utils.o `test -f 'utils.c' || echo './'`utils.c
+mv -f .deps/alsamixer-utils.Tpo .deps/alsamixer-utils.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-volume_mapping.o -MD -MP -MF .deps/alsamixer-volume_mapping.Tpo -c -o alsamixer-volume_mapping.o `test -f 'volume_mapping.c' || echo './'`volume_mapping.c
+volume_mapping.c:34:0: warning: "_GNU_SOURCE" redefined
+ #define _GNU_SOURCE /* exp10() */
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+mv -f .deps/alsamixer-volume_mapping.Tpo .deps/alsamixer-volume_mapping.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-widget.o -MD -MP -MF .deps/alsamixer-widget.Tpo -c -o alsamixer-widget.o `test -f 'widget.c' || echo './'`widget.c
+widget.c: In function 'get_active_widget':
+widget.c:121:10: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   return panel_userptr(active_panel);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+widget.c: In function 'window_size_changed':
+widget.c:137:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   widget = panel_userptr(panel);
+          ^
+mv -f .deps/alsamixer-widget.Tpo .deps/alsamixer-widget.Po
+gcc -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2   -o alsamixer alsamixer-card_select.o alsamixer-cli.o alsamixer-colors.o alsamixer-device_name.o alsamixer-die.o alsamixer-mainloop.o alsamixer-mem.o alsamixer-mixer_controls.o alsamixer-mixer_display.o alsamixer-mixer_widget.o alsamixer-proc_files.o alsamixer-textbox.o alsamixer-utils.o alsamixer-volume_mapping.o alsamixer-widget.o -lformw -lmenuw -lpanelw -lncursesw -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsamixer'
+Making all in amixer
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amixer'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT amixer.o -MD -MP -MF .deps/amixer.Tpo -c -o amixer.o amixer.c
+mv -f .deps/amixer.Tpo .deps/amixer.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT volume_mapping.o -MD -MP -MF .deps/volume_mapping.Tpo -c -o volume_mapping.o `test -f '../alsamixer/volume_mapping.c' || echo './'`../alsamixer/volume_mapping.c
+mv -f .deps/volume_mapping.Tpo .deps/volume_mapping.Po
+gcc  -g -O2   -o amixer amixer.o volume_mapping.o -lm -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amixer'
+Making all in amidi
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amidi'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT amidi.o -MD -MP -MF .deps/amidi.Tpo -c -o amidi.o amidi.c
+mv -f .deps/amidi.Tpo .deps/amidi.Po
+gcc  -g -O2   -o amidi amidi.o  -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amidi'
+Making all in aplay
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT aplay.o -MD -MP -MF .deps/aplay.Tpo -c -o aplay.o aplay.c
+mv -f .deps/aplay.Tpo .deps/aplay.Po
+gcc  -g -O2   -o aplay aplay.o  -lrt -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+Making all in iecset
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/iecset'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT iecset.o -MD -MP -MF .deps/iecset.Tpo -c -o iecset.o iecset.c
+mv -f .deps/iecset.Tpo .deps/iecset.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT iecbits.o -MD -MP -MF .deps/iecbits.Tpo -c -o iecbits.o iecbits.c
+mv -f .deps/iecbits.Tpo .deps/iecbits.Po
+gcc  -g -O2   -o iecset iecset.o iecbits.o -lm -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/iecset'
+Making all in speaker-test
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+Making all in samples
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test/samples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test/samples'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT speaker-test.o -MD -MP -MF .deps/speaker-test.Tpo -c -o speaker-test.o speaker-test.c
+mv -f .deps/speaker-test.Tpo .deps/speaker-test.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT pink.o -MD -MP -MF .deps/pink.Tpo -c -o pink.o pink.c
+mv -f .deps/pink.Tpo .deps/pink.Po
+gcc  -g -O2   -o speaker-test speaker-test.o pink.o  -lm -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+Making all in alsaloop
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaloop'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -g -O2 -MT alsaloop.o -MD -MP -MF .deps/alsaloop.Tpo -c -o alsaloop.o alsaloop.c
+mv -f .deps/alsaloop.Tpo .deps/alsaloop.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -g -O2 -MT pcmjob.o -MD -MP -MF .deps/pcmjob.Tpo -c -o pcmjob.o pcmjob.c
+mv -f .deps/pcmjob.Tpo .deps/pcmjob.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -g -O2 -MT control.o -MD -MP -MF .deps/control.Tpo -c -o control.o control.c
+mv -f .deps/control.Tpo .deps/control.Po
+gcc -D_GNU_SOURCE -g -O2   -o alsaloop alsaloop.o pcmjob.o control.o -lm  -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaloop'
+Making all in seq
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+Making all in aconnect
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aconnect'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aconnect.o -MD -MP -MF .deps/aconnect.Tpo -c -o aconnect.o aconnect.c
+mv -f .deps/aconnect.Tpo .deps/aconnect.Po
+gcc  -g -O2   -o aconnect aconnect.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aconnect'
+Making all in aplaymidi
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aplaymidi'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aplaymidi.o -MD -MP -MF .deps/aplaymidi.Tpo -c -o aplaymidi.o aplaymidi.c
+mv -f .deps/aplaymidi.Tpo .deps/aplaymidi.Po
+gcc  -g -O2   -o aplaymidi aplaymidi.o  -lasound -lm -ldl -lpthread
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT arecordmidi.o -MD -MP -MF .deps/arecordmidi.Tpo -c -o arecordmidi.o arecordmidi.c
+mv -f .deps/arecordmidi.Tpo .deps/arecordmidi.Po
+gcc  -g -O2   -o arecordmidi arecordmidi.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aplaymidi'
+Making all in aseqdump
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqdump'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aseqdump.o -MD -MP -MF .deps/aseqdump.Tpo -c -o aseqdump.o aseqdump.c
+mv -f .deps/aseqdump.Tpo .deps/aseqdump.Po
+gcc  -g -O2   -o aseqdump aseqdump.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqdump'
+Making all in aseqnet
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqnet'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aseqnet.o -MD -MP -MF .deps/aseqnet.Tpo -c -o aseqnet.o aseqnet.c
+mv -f .deps/aseqnet.Tpo .deps/aseqnet.Po
+gcc  -g -O2   -o aseqnet aseqnet.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqnet'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+Making all in alsaucm
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaucm'
+gcc -DHAVE_CONFIG_H -I. -I../include  -Wall -I../include   -g -O2 -MT usecase.o -MD -MP -MF .deps/usecase.Tpo -c -o usecase.o usecase.c
+mv -f .deps/usecase.Tpo .deps/usecase.Po
+gcc  -g -O2   -o alsaucm usecase.o -lasound -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaucm'
+Making all in topology
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/topology'
+gcc -DHAVE_CONFIG_H -I. -I../include  -Wall -I../include   -g -O2 -MT topology.o -MD -MP -MF .deps/topology.Tpo -c -o topology.o topology.c
+mv -f .deps/topology.Tpo .deps/topology.Po
+gcc  -g -O2   -o alsatplg topology.o -lasound -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/topology'
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5'

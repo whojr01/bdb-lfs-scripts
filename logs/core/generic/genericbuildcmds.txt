@@ -1,0 +1,97 @@
+zlib, ../configure --prefix=/tools, make ,, make  check,make install
+zlib, ../configure --prefix=/usr, make ,, make  check,make install
+file, ../configure --prefix=/usr, make ,, make  check,make install
+m4, ../configure --prefix=/usr, make ,, make  check,make install
+psmisc, ../configure --prefix=/usr, make ,,,make install
+iana-etc,, make ,,,make install
+bison, ../configure --prefix=/usr --docdir=/usr/share/doc/bison-3.0.4, make ,,,make install
+flex, ../configure --prefix=/usr --docdir=/usr/share/doc/flex-2.6.4, make ,, make  check,make install
+grep, ../configure --prefix=/usr , make ,, make  check,make install
+libtool, ../configure --prefix=/usr , make ,, make  check,make install
+gperf,WHAT THE FUCK [] ../configure --prefix=/usr , make ,, make -j1 check,make install
+gperf, ../configure --prefix=/usr , make ,, make -j1 check,make install
+gperf, ../configure --prefix=/usr , make ,, make -j1 check,make install
+gperf, ../configure --prefix=/usr , make ,, make -j1 check,make install
+gperf, ../configure --prefix=/usr , make ,, make -j1 check,make install
+gperf, ../configure --prefix=/usr --docdir=/usr/share/doc/gperf-3.1, make ,, make -j1 check,make install
+gperf, ../configure --prefix=/usr --docdir=/usr/share/doc/gperf-3.1, make ,, make -j1 check,make install
+expat, ../configure --prefix=/usr --disable-static, make ,, make  check,make install
+intltool, ../configure --prefix=/usr , make ,, make  check,make install
+xz, ../configure --prefix=/usr --disable-static --docdir=/usr/share/doc/xz-5.2.3, make ,, make  check,make install
+libffi, ../configure --prefix=/usr --disable-static, make ,, make  check,make install
+check, ../configure --prefix=/usr , make ,, make  check,make install
+diffutils, ../configure --prefix=/usr , make ,, make  check,make install
+gawk, ../configure --prefix=/usr , make ,, make  check,make install
+findutils, ../configure --prefix=/usr --localstatedir=/var/lib/locate, make ,, make  check,make install
+groff,PAGE=letter ../configure --prefix=/usr , make -j1,,,make install
+less, ../configure --prefix=/usr --sysconfdir=/etc, make ,,,make install
+gzip, ../configure --prefix=/usr , make ,, make  check,make install
+iproute2,, make ,,,
+kbd,PKG_CONFIG_PATH=/tools/lib/pkgconfig ../configure --prefix=/usr --disable-vlock, make ,, make  check,make install
+libpipeline,PKG_CONFIG_PATH=/tools/lib/pkgconfig ../configure --prefix=/usr , make ,, make  check,make install
+patch, ../configure --prefix=/usr , make ,, make  check,make install
+tar,FORCE_UNSAFE_CONFIGURE=1 ../configure --prefix=/usr --bindir=/bin, make ,, make  check,make install
+dash, ../configure --prefix=/usr --bindir=/bin --mandir=/usr/share/man,,,,make install
+help2man, ../configure --prefix=/usr , make ,,,make install
+devmapper, ./configure --prefix=/usr , make ,,,make install
+biosdevname, ../configure --prefix=/usr , make ,, make  check,make install
+biosdevname, ../configure --prefix=/usr , make ,, make  check,
+asciidoc, ../configure --prefix=/usr --sysconfdir=/etc --docdir=/usr/share/doc/asciidoc-8.6.9, make ,,,make install
+asciidoc, ./configure --prefix=/usr --sysconfdir=/etc --docdir=/usr/share/doc/asciidoc-8.6.9, make ,,,make install
+libxml2, ../configure --prefix=/usr --disable-static --with-history, make ,, make  check,make install
+libxslt, ../configure --prefix=/usr --disable-static, make ,, make  check,make install
+xmlto,LINKS=/usr/bin/links ../configure --prefix=/usr , make ,, make  check,make install
+talloc, ./configure --prefix=/usr , make ,, make  check,make install
+cifs-utils, ./configure --prefix=/usr --disable-pam, make ,, make  check,make install
+libgpg-error, ../configure --prefix=/usr , make ,, make  check,make install
+libgcrypt, ../configure --prefix=/usr , make ,, make  check,make install
+nettle, ../configure --prefix=/usr --disable-static, make ,, make  check,make install
+libaio,, make prefix=/usr,,,make install
+icu, ./configure --prefix=/usr , make ,, make  check,make install
+freetype2, ./configure --prefix=/usr --disable-static, make ,,,make install
+libpng,LIBS=-lpthread ./configure --prefix=/usr --disable-static, make ,, make  check,make install
+harfbuzz, ./configure --prefix=/usr --with-gobject, make ,, make  check,make install
+freetype2-pass2, ./configure --prefix=/usr --disable-static, make ,,,make install
+util-macros, ./configure --prefix=/usr /etc/X11,,,,make install
+util-macros, ./configure --prefix=/usr ,,,,make install
+libXau, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc     --localstatedir=/var --disable-static, make ,, make  check,make install
+xcb-proto, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc     --localstatedir=/var --disable-static, make ,, make  check,make install
+libxcb, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc     --localstatedir=/var --disable-static --enable-xinput --without-doxygen --docdir=''/doc/libxcb-1.12, make ,, make  check,make install
+libarchive, ./configure --prefix=/usr --disable-static, make ,, make  check,make install
+pixman, ./configure --prefix=/usr --disable-static, make ,, make  check,make install
+cairo, ./configure --prefix=/usr --disable-static --enable-tee, make ,,,make install
+pixman, ./configure --prefix=/usr --disable-static, make ,, make  check,make install
+cairo, ./configure --prefix=/usr --disable-static --enable-tee, make ,,,make install
+pygobject, ./configure --prefix=/usr --disable-introspection, make ,,,make install
+pygobject, ./configure --prefix=/usr , make ,,,make install
+at-spi2-core, ./configure --prefix=/usr --sysconfdir=/etc, make ,,,make install
+at-spi2-core, ./configure --prefix=/usr --sysconfdir=/etc, make ,,,make install
+bootchart,,,,,make install
+libdrm, ./configure --prefix=/usr --enable-udev, make ,,,make install
+libva, ./configure --prefix=/usr , make ,,,make install
+libva, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static, make ,,,make install
+libva-intel, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static, make ,,,make install
+libva, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static, make ,,,make install
+libva-intel, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static, make ,,,make install
+libvdpau, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static, make ,, make  check,make install
+libxext, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static, make ,, make  check,make install
+wayland, ./configure --prefix=/usr --disable-documentation --disable-static, make ,, make  check,make install
+wayland-protocols, ./configure --prefix=/usr , make ,, make  check,make install
+libdrm-2.4.90, ./configure --prefix=/usr --enable-udev, make ,, make  check,make install
+xbitmaps, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static,,,,make install
+xcb-util, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static, make ,,,make install
+desktop-file-utils, ./configure --prefix=/usr , make ,,,make install
+alsa, ./configure --prefix=/usr , make ,, make  check,make install
+alsa-plugins, ./configure --prefix=/usr , make ,,,make install
+alsa-plugins, ./configure --prefix=/usr , make ,,,make install
+sdl2, ./configure --prefix=/usr , make ,,,make install
+bridge-utils, ./configure --prefix=/usr , make ,,,make install
+usbutils, ./configure --prefix=/usr , make ,, make  check,make install
+popt, ./configure --prefix=/usr --disable-static, make ,, make  check,make install
+libtasn1, ./configure --prefix=/usr --disable-static, make ,, make  check,make install
+libpwquality, ./configure --prefix=/usr --disable-static --with-securedir=/lib/security, make ,, make  check,make install
+xkeyboardconfig, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static --with-xkb-rules-symlink=xorg, make ,, make  check,make install
+libxkbcommon, ./configure --prefix=/usr --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-static --docdir=/usr/share/doc/libxkbcommon-0.8.0, make ,, make  check,make install
+aspell, ./configure --prefix=/usr , make ,,,make install
+aspell6-en-dict, ./configure, make ,,,make install
+ctags, ../configure --prefix=/usr , make ,,,make install

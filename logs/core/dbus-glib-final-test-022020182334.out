@@ -1,0 +1,151 @@
+Making check in dbus-gmain
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+PASS: tests/test-30574
+============================================================================
+Testsuite summary for dbus-glib 0.110
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+Making check in dbus
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+Making check in .
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+make  check-TESTS
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+PASS: dbus-glib-test
+============================================================================
+Testsuite summary for dbus-glib 0.110
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+Making check in examples
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make  check-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+Making check in .
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+Making check in statemachine
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make  check-am
+make[5]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+Making check in tools
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make  check-am
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+Making check in test
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+Making check in .
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+make  check-TESTS
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+PASS: test-errors
+PASS: test-specialized-types
+PASS: test-compile-nested.sh
+============================================================================
+Testsuite summary for dbus-glib 0.110
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+Making check in core
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make  check-am
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make  check-TESTS
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[5]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+PASS: run-test.sh
+PASS: run-peer-test.sh
+============================================================================
+Testsuite summary for dbus-glib 0.110
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+Making check in interfaces
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make  check-am
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make  check-TESTS
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[5]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+PASS: run-test.sh
+============================================================================
+Testsuite summary for dbus-glib 0.110
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+Making check in reference
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc/reference'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc/reference'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110'

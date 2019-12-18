@@ -1,0 +1,12 @@
+make[1]: Entering directory '/lfskernel/sources/boot/lz4/lib'
+compiling static library
+compiling dynamic library 1.8.2
+creating versioned links
+make[1]: Leaving directory '/lfskernel/sources/boot/lz4/lib'
+make[1]: Entering directory '/lfskernel/sources/boot/lz4/programs'
+cc -O3   -I../lib -DXXH_NAMESPACE=LZ4_  -c -o bench.o bench.c
+cc -O3   -I../lib -DXXH_NAMESPACE=LZ4_  -c -o datagen.o datagen.c
+cc -O3   -I../lib -DXXH_NAMESPACE=LZ4_  -c -o lz4cli.o lz4cli.c
+cc -O3   -I../lib -DXXH_NAMESPACE=LZ4_  -c -o lz4io.o lz4io.c
+cc -O3   -I../lib -DXXH_NAMESPACE=LZ4_  ../lib/lz4.o ../lib/lz4frame.o ../lib/lz4hc.o ../lib/xxhash.o bench.o datagen.o lz4cli.o lz4io.o -o lz4
+make[1]: Leaving directory '/lfskernel/sources/boot/lz4/programs'

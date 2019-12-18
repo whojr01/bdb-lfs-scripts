@@ -1,0 +1,149 @@
+Making install in m4
+make[1]: Entering directory '/sources/cracklib-2.9.6/build/m4'
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/m4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/m4'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build/m4'
+Making install in lib
+make[1]: Entering directory '/sources/cracklib-2.9.6/build/lib'
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/lib'
+ /tools/bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcrack.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libcrack.so.2.9.0 /usr/lib/libcrack.so.2.9.0
+libtool: install: (cd /usr/lib && { ln -s -f libcrack.so.2.9.0 libcrack.so.2 || { rm -f libcrack.so.2 && ln -s libcrack.so.2.9.0 libcrack.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libcrack.so.2.9.0 libcrack.so || { rm -f libcrack.so && ln -s libcrack.so.2.9.0 libcrack.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcrack.lai /usr/lib/libcrack.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /tools/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 ../../lib/crack.h ../../lib/packer.h '/usr/include'
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/lib'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build/lib'
+Making install in util
+make[1]: Entering directory '/sources/cracklib-2.9.6/build/util'
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/util'
+ /tools/bin/mkdir -p '/usr/sbin'
+ /usr/bin/install -c ../../util/create-cracklib-dict ../../util/cracklib-format '/usr/sbin'
+ /tools/bin/mkdir -p '/usr/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c cracklib-packer cracklib-unpacker cracklib-check '/usr/sbin'
+libtool: install: /usr/bin/install -c .libs/cracklib-packer /usr/sbin/cracklib-packer
+libtool: install: /usr/bin/install -c .libs/cracklib-unpacker /usr/sbin/cracklib-unpacker
+libtool: install: /usr/bin/install -c .libs/cracklib-check /usr/sbin/cracklib-check
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/util'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build/util'
+Making install in po
+make[1]: Entering directory '/sources/cracklib-2.9.6/build/po'
+/tools/bin/mkdir -p /usr/share
+installing ../../po/as.gmo as /usr/share/locale/as/LC_MESSAGES/cracklib.mo
+installing ../../po/bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/cracklib.mo
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/cracklib.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/cracklib.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/cracklib.mo
+installing ../../po/el.gmo as /usr/share/locale/el/LC_MESSAGES/cracklib.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/cracklib.mo
+installing ../../po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/cracklib.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/cracklib.mo
+installing ../../po/gu.gmo as /usr/share/locale/gu/LC_MESSAGES/cracklib.mo
+installing ../../po/hi.gmo as /usr/share/locale/hi/LC_MESSAGES/cracklib.mo
+installing ../../po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/cracklib.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/cracklib.mo
+installing ../../po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/cracklib.mo
+installing ../../po/kn.gmo as /usr/share/locale/kn/LC_MESSAGES/cracklib.mo
+installing ../../po/ko.gmo as /usr/share/locale/ko/LC_MESSAGES/cracklib.mo
+installing ../../po/lt.gmo as /usr/share/locale/lt/LC_MESSAGES/cracklib.mo
+installing ../../po/nb.gmo as /usr/share/locale/nb/LC_MESSAGES/cracklib.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/cracklib.mo
+installing ../../po/ml.gmo as /usr/share/locale/ml/LC_MESSAGES/cracklib.mo
+installing ../../po/mr.gmo as /usr/share/locale/mr/LC_MESSAGES/cracklib.mo
+installing ../../po/or.gmo as /usr/share/locale/or/LC_MESSAGES/cracklib.mo
+installing ../../po/pa.gmo as /usr/share/locale/pa/LC_MESSAGES/cracklib.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/cracklib.mo
+installing ../../po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/cracklib.mo
+installing ../../po/pt.gmo as /usr/share/locale/pt/LC_MESSAGES/cracklib.mo
+installing ../../po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/cracklib.mo
+installing ../../po/sl_SI.gmo as /usr/share/locale/sl_SI/LC_MESSAGES/cracklib.mo
+installing ../../po/sk.gmo as /usr/share/locale/sk/LC_MESSAGES/cracklib.mo
+installing ../../po/ta.gmo as /usr/share/locale/ta/LC_MESSAGES/cracklib.mo
+installing ../../po/te.gmo as /usr/share/locale/te/LC_MESSAGES/cracklib.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/cracklib.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/cracklib.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/cracklib.mo
+installing ../../po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/cracklib.mo
+if test "cracklib" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build/po'
+Making install in doc
+make[1]: Entering directory '/sources/cracklib-2.9.6/build/doc'
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/cracklib'
+ /usr/bin/install -c -m 644 ../../doc/cracklib.magic '/usr/share/cracklib'
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/doc'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build/doc'
+Making install in python
+make[1]: Entering directory '/sources/cracklib-2.9.6/build/python'
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/python'
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/python'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build/python'
+Making install in dicts
+make[1]: Entering directory '/sources/cracklib-2.9.6/build/dicts'
+make[2]: Entering directory '/sources/cracklib-2.9.6/build/dicts'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/cracklib'
+ /usr/bin/install -c -m 644 ../../dicts/cracklib-small '/usr/share/cracklib'
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build/dicts'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build/dicts'
+make[1]: Entering directory '/sources/cracklib-2.9.6/build'
+
+=======================================================
+Be sure and obtain a large wordlist file and run
+make install and make dict to generate the word
+list index file. See the README file for more details.
+=======================================================
+
+make[2]: Entering directory '/sources/cracklib-2.9.6/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/cracklib-2.9.6/build'
+make[1]: Leaving directory '/sources/cracklib-2.9.6/build'
+renamed '/usr/lib/libcrack.so.2' -> '/lib/libcrack.so.2'
+renamed '/usr/lib/libcrack.so.2.9.0' -> '/lib/libcrack.so.2.9.0'
+'/usr/lib/libcrack.so' -> '../../lib/libcrack.so.2.9.0'
+'../cracklib-words-2.9.6.gz' -> '/usr/share/dict/cracklib-words.gz'
+gzip: /usr/share/dict/cracklib-words already exists; do you wish to overwrite (y or n)? /usr/share/dict/cracklib-words.gz:	 71.1% -- replaced with /usr/share/dict/cracklib-words
+'/usr/share/dict/words' -> 'cracklib-words'
+warning: input out of order: 'ghabcdefghabcdefghabcdefghabcd' should not follow 'habcdefghabcdefghabcdefghabcde' (line 55362)
+warning: input out of order: 'fghabcdefghabcdefghabcdefghabc' should not follow 'ghabcdefghabcdefghabcdefghabcd' (line 55363)
+warning: input out of order: 'efghabcdefghabcdefghabcdefghab' should not follow 'fghabcdefghabcdefghabcdefghabc' (line 55364)
+warning: input out of order: 'fghabcdefghabcdefghabcdefghabc' should not follow 'ghabcdefghabcdefghabcdefghabcd' (line 55366)
+warning: input out of order: 'abcdefghi' should not follow 'fghabcdefghabcdefghabcdefghabc' (line 55367)
+1911514 1911513

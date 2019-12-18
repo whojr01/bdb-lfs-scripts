@@ -1,0 +1,126 @@
+Install prefix    /usr
+BIOS directory    /usr/share/qemu
+firmware path     /usr/share/qemu-firmware
+binary directory  /usr/bin
+library directory /usr/lib
+module directory  /usr/lib/qemu
+libexec directory /usr/libexec
+include directory /usr/include
+config directory  /etc
+local state directory   /usr/var
+Manual directory  /usr/share/man
+ELF interp prefix /usr/gnemul/qemu-%M
+Source path       /lfskernel/sources/boot/qemu-2.11.0
+GIT binary        git
+GIT submodules    
+C compiler        cc
+Host C compiler   cc
+C++ compiler      c++
+Objective-C compiler clang
+ARFLAGS           rv
+CFLAGS            -O2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -g 
+QEMU_CFLAGS       -I/usr/include/pixman-1 -I$(SRC_PATH)/dtc/libfdt -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DNCURSES_WIDECHAR -D_GNU_SOURCE -fPIE -DPIE -m64 -mcx16 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv  -Wexpansion-to-defined -Wendif-labels -Wno-shift-negative-value -Wno-missing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-strong  -I/usr/include/libpng16 -I$(SRC_PATH)/capstone/include
+LDFLAGS           -Wl,--warn-common -Wl,-z,relro -Wl,-z,now -pie -m64 -g 
+make              make
+install           install
+python            python -B
+smbd              /usr/sbin/smbd
+module support    no
+host CPU          x86_64
+host big endian   no
+target list       x86_64-softmmu
+gprof enabled     no
+sparse enabled    no
+strip binaries    yes
+profiler          no
+static build      no
+SDL support       yes (2.0.7)
+GTK support       no 
+GTK GL support    no
+VTE support       no 
+TLS priority      NORMAL
+GNUTLS support    no
+GNUTLS rnd        no
+libgcrypt         yes
+libgcrypt kdf     yes
+nettle            no 
+nettle kdf        no
+libtasn1          no
+curses support    yes
+virgl support     no
+curl support      yes
+mingw32 support   no
+Audio drivers     alsa
+Block whitelist (rw) 
+Block whitelist (ro) 
+VirtFS support    yes
+Multipath support no
+VNC support       yes
+VNC SASL support  no
+VNC JPEG support  no
+VNC PNG support   yes
+xen support       no
+brlapi support    no
+bluez  support    no
+Documentation     yes
+PIE               yes
+vde support       no
+netmap support    no
+Linux AIO support yes
+ATTR/XATTR support yes
+Install blobs     yes
+KVM support       yes
+HAX support       no
+TCG support       yes
+TCG debug enabled no
+TCG interpreter   no
+RDMA support      no
+fdt support       yes
+preadv support    yes
+fdatasync         yes
+madvise           yes
+posix_madvise     yes
+libcap-ng support no
+vhost-net support yes
+vhost-scsi support yes
+vhost-vsock support yes
+vhost-user support yes
+Trace backends    log
+spice support     no 
+rbd support       no
+xfsctl support    yes
+smartcard support no
+libusb            yes
+usb net redir     no
+OpenGL support    no
+OpenGL dmabufs    no
+libiscsi support  no
+libnfs support    no
+build guest agent yes
+QGA VSS support   no
+QGA w32 disk info no
+QGA MSI support   no
+seccomp support   no
+coroutine backend ucontext
+coroutine pool    yes
+debug stack usage no
+crypto afalg      no
+GlusterFS support no
+gcov              gcov
+gcov enabled      no
+TPM support       yes
+libssh2 support   no
+TPM passthrough   yes
+TPM emulator      yes
+QOM debugging     yes
+Live block migration yes
+lzo support       yes
+snappy support    no
+bzip2 support     yes
+NUMA host support no
+tcmalloc support  no
+jemalloc support  no
+avx2 optimization yes
+replication support yes
+VxHS block device no
+capstone          internal

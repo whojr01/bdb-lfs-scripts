@@ -1,0 +1,222 @@
+/bin/mkdir -p libarchive/test
+cat ./libarchive/test/test_*.c | grep '^DEFINE_TEST' > libarchive/test/list.h
+/bin/mkdir -p tar/test
+cat ./tar/test/test_*.c | grep '^DEFINE_TEST' > tar/test/list.h
+/bin/mkdir -p cpio/test
+cat ./cpio/test/test_*.c | grep '^DEFINE_TEST' > cpio/test/list.h
+cat ./cat/test/test_*.c | grep '^DEFINE_TEST' > cat/test/list.h
+make  all-am
+make[1]: Entering directory '/lfskernel/sources/boot/libarchive-3.3.2'
+  CC       libarchive/archive_acl.lo
+  CC       libarchive/archive_check_magic.lo
+  CC       libarchive/archive_cmdline.lo
+  CC       libarchive/archive_cryptor.lo
+  CC       libarchive/archive_digest.lo
+  CC       libarchive/archive_entry.lo
+libarchive/archive_entry.c: In function 'archive_entry_dev':
+libarchive/archive_entry.c:322:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+       entry->ae_stat.aest_devminor);
+             ^~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                      
+libarchive/archive_entry.c: In function 'archive_entry_devmajor':
+libarchive/archive_entry.c:339:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   return major(entry->ae_stat.aest_dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                            
+libarchive/archive_entry.c: In function 'archive_entry_devminor':
+libarchive/archive_entry.c:348:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   return minor(entry->ae_stat.aest_dev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                            
+libarchive/archive_entry.c: In function 'archive_entry_rdev':
+libarchive/archive_entry.c:607:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+       entry->ae_stat.aest_rdevminor);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                     
+libarchive/archive_entry.c: In function 'archive_entry_rdevmajor':
+libarchive/archive_entry.c:618:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   return major(entry->ae_stat.aest_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                           
+libarchive/archive_entry.c: In function 'archive_entry_rdevminor':
+libarchive/archive_entry.c:627:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   return minor(entry->ae_stat.aest_rdev);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                           
+  CC       libarchive/archive_entry_copy_stat.lo
+  CC       libarchive/archive_entry_link_resolver.lo
+  CC       libarchive/archive_entry_sparse.lo
+  CC       libarchive/archive_entry_stat.lo
+  CC       libarchive/archive_entry_strmode.lo
+  CC       libarchive/archive_entry_xattr.lo
+  CC       libarchive/archive_getdate.lo
+  CC       libarchive/archive_hmac.lo
+  CC       libarchive/archive_match.lo
+  CC       libarchive/archive_options.lo
+  CC       libarchive/archive_pack_dev.lo
+libarchive/archive_pack_dev.c: In function 'pack_native':
+libarchive/archive_pack_dev.c:111:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+   dev = apd_makedev(numbers[0], numbers[1]);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                              
+libarchive/archive_pack_dev.c:112:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   if ((unsigned long)major(dev) != numbers[0])
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                      
+libarchive/archive_pack_dev.c:114:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   else if ((unsigned long)minor(dev) != numbers[1])
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                 
+  CC       libarchive/archive_pathmatch.lo
+  CC       libarchive/archive_ppmd7.lo
+  CC       libarchive/archive_random.lo
+  CC       libarchive/archive_rb.lo
+  CC       libarchive/archive_read.lo
+  CC       libarchive/archive_read_add_passphrase.lo
+  CC       libarchive/archive_read_append_filter.lo
+  CC       libarchive/archive_read_data_into_fd.lo
+  CC       libarchive/archive_read_disk_entry_from_file.lo
+  CC       libarchive/archive_read_disk_posix.lo
+  CC       libarchive/archive_read_disk_set_standard_lookup.lo
+  CC       libarchive/archive_read_extract.lo
+  CC       libarchive/archive_read_extract2.lo
+  CC       libarchive/archive_read_open_fd.lo
+  CC       libarchive/archive_read_open_file.lo
+  CC       libarchive/archive_read_open_filename.lo
+  CC       libarchive/archive_read_open_memory.lo
+  CC       libarchive/archive_read_set_format.lo
+  CC       libarchive/archive_read_set_options.lo
+  CC       libarchive/archive_read_support_filter_all.lo
+  CC       libarchive/archive_read_support_filter_bzip2.lo
+  CC       libarchive/archive_read_support_filter_compress.lo
+  CC       libarchive/archive_read_support_filter_grzip.lo
+  CC       libarchive/archive_read_support_filter_gzip.lo
+  CC       libarchive/archive_read_support_filter_lrzip.lo
+  CC       libarchive/archive_read_support_filter_lz4.lo
+  CC       libarchive/archive_read_support_filter_lzop.lo
+  CC       libarchive/archive_read_support_filter_none.lo
+  CC       libarchive/archive_read_support_filter_program.lo
+  CC       libarchive/archive_read_support_filter_rpm.lo
+  CC       libarchive/archive_read_support_filter_uu.lo
+  CC       libarchive/archive_read_support_filter_xz.lo
+  CC       libarchive/archive_read_support_format_7zip.lo
+  CC       libarchive/archive_read_support_format_all.lo
+  CC       libarchive/archive_read_support_format_ar.lo
+  CC       libarchive/archive_read_support_format_by_code.lo
+  CC       libarchive/archive_read_support_format_cab.lo
+  CC       libarchive/archive_read_support_format_cpio.lo
+  CC       libarchive/archive_read_support_format_empty.lo
+  CC       libarchive/archive_read_support_format_iso9660.lo
+  CC       libarchive/archive_read_support_format_lha.lo
+  CC       libarchive/archive_read_support_format_mtree.lo
+  CC       libarchive/archive_read_support_format_rar.lo
+  CC       libarchive/archive_read_support_format_raw.lo
+  CC       libarchive/archive_read_support_format_tar.lo
+  CC       libarchive/archive_read_support_format_warc.lo
+  CC       libarchive/archive_read_support_format_xar.lo
+  CC       libarchive/archive_read_support_format_zip.lo
+  CC       libarchive/archive_string.lo
+  CC       libarchive/archive_string_sprintf.lo
+  CC       libarchive/archive_util.lo
+  CC       libarchive/archive_version_details.lo
+  CC       libarchive/archive_virtual.lo
+  CC       libarchive/archive_write.lo
+  CC       libarchive/archive_write_disk_posix.lo
+  CC       libarchive/archive_write_disk_set_standard_lookup.lo
+  CC       libarchive/archive_write_open_fd.lo
+  CC       libarchive/archive_write_open_file.lo
+  CC       libarchive/archive_write_open_filename.lo
+  CC       libarchive/archive_write_open_memory.lo
+  CC       libarchive/archive_write_add_filter.lo
+  CC       libarchive/archive_write_add_filter_b64encode.lo
+  CC       libarchive/archive_write_add_filter_by_name.lo
+  CC       libarchive/archive_write_add_filter_bzip2.lo
+  CC       libarchive/archive_write_add_filter_compress.lo
+  CC       libarchive/archive_write_add_filter_grzip.lo
+  CC       libarchive/archive_write_add_filter_gzip.lo
+  CC       libarchive/archive_write_add_filter_lrzip.lo
+  CC       libarchive/archive_write_add_filter_lz4.lo
+  CC       libarchive/archive_write_add_filter_lzop.lo
+  CC       libarchive/archive_write_add_filter_none.lo
+  CC       libarchive/archive_write_add_filter_program.lo
+  CC       libarchive/archive_write_add_filter_uuencode.lo
+  CC       libarchive/archive_write_add_filter_xz.lo
+  CC       libarchive/archive_write_set_format.lo
+  CC       libarchive/archive_write_set_format_7zip.lo
+  CC       libarchive/archive_write_set_format_ar.lo
+  CC       libarchive/archive_write_set_format_by_name.lo
+  CC       libarchive/archive_write_set_format_cpio.lo
+  CC       libarchive/archive_write_set_format_cpio_newc.lo
+  CC       libarchive/archive_write_set_format_filter_by_ext.lo
+  CC       libarchive/archive_write_set_format_iso9660.lo
+  CC       libarchive/archive_write_set_format_mtree.lo
+  CC       libarchive/archive_write_set_format_pax.lo
+  CC       libarchive/archive_write_set_format_raw.lo
+  CC       libarchive/archive_write_set_format_shar.lo
+  CC       libarchive/archive_write_set_format_ustar.lo
+  CC       libarchive/archive_write_set_format_v7tar.lo
+  CC       libarchive/archive_write_set_format_gnutar.lo
+  CC       libarchive/archive_write_set_format_warc.lo
+  CC       libarchive/archive_write_set_format_xar.lo
+  CC       libarchive/archive_write_set_format_zip.lo
+  CC       libarchive/archive_write_set_options.lo
+  CC       libarchive/archive_write_set_passphrase.lo
+  CC       libarchive/filter_fork_posix.lo
+  CC       libarchive/xxhash.lo
+  CC       libarchive/archive_disk_acl_linux.lo
+  CCLD     libarchive.la
+  CC       libarchive_fe/libarchive_fe_la-err.lo
+  CC       libarchive_fe/libarchive_fe_la-line_reader.lo
+  CC       libarchive_fe/libarchive_fe_la-passphrase.lo
+  CCLD     libarchive_fe.la
+  CC       tar/bsdtar-bsdtar.o
+  CC       tar/bsdtar-cmdline.o
+  CC       tar/bsdtar-creation_set.o
+  CC       tar/bsdtar-read.o
+  CC       tar/bsdtar-subst.o
+  CC       tar/bsdtar-util.o
+  CC       tar/bsdtar-write.o
+  CCLD     bsdtar
+  CC       cpio/bsdcpio-cmdline.o
+  CC       cpio/bsdcpio-cpio.o
+  CCLD     bsdcpio
+  CC       cat/bsdcat-bsdcat.o
+  CC       cat/bsdcat-cmdline.o
+  CCLD     bsdcat
+make[1]: Leaving directory '/lfskernel/sources/boot/libarchive-3.3.2'

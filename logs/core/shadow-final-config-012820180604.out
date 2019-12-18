@@ -1,0 +1,364 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /tools/bin/grep
+checking for egrep... /tools/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for library containing strerror... none required
+checking whether ln -s works... yes
+checking for bison... bison -y
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /tools/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking utmp.h usability... yes
+checking utmp.h presence... yes
+checking for utmp.h... yes
+checking utmpx.h usability... yes
+checking utmpx.h presence... yes
+checking for utmpx.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking sgtty.h usability... yes
+checking sgtty.h presence... yes
+checking for sgtty.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking ulimit.h usability... yes
+checking ulimit.h presence... yes
+checking for ulimit.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking gshadow.h usability... yes
+checking gshadow.h presence... yes
+checking for gshadow.h... yes
+checking lastlog.h usability... yes
+checking lastlog.h presence... yes
+checking for lastlog.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking rpc/key_prot.h usability... no
+checking rpc/key_prot.h presence... no
+checking for rpc/key_prot.h... no
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking acl/libacl.h usability... yes
+checking acl/libacl.h presence... yes
+checking for acl/libacl.h... yes
+checking attr/libattr.h usability... yes
+checking attr/libattr.h presence... yes
+checking for attr/libattr.h... yes
+checking attr/error_context.h usability... yes
+checking attr/error_context.h presence... yes
+checking for attr/error_context.h... yes
+checking shadow.h usability... yes
+checking shadow.h presence... yes
+checking for shadow.h... yes
+checking for l64a... yes
+checking for fchmod... yes
+checking for fchown... yes
+checking for fsync... yes
+checking for futimes... yes
+checking for getgroups... yes
+checking for gethostname... yes
+checking for getspnam... yes
+checking for gettimeofday... yes
+checking for getusershell... yes
+checking for getutent... yes
+checking for initgroups... yes
+checking for lchown... yes
+checking for lckpwdf... yes
+checking for lstat... yes
+checking for lutimes... yes
+checking for memcpy... yes
+checking for memset... yes
+checking for setgroups... yes
+checking for sigaction... yes
+checking for strchr... yes
+checking for updwtmp... yes
+checking for updwtmpx... yes
+checking for innetgr... yes
+checking for getpwnam_r... yes
+checking for getpwuid_r... yes
+checking for getgrnam_r... yes
+checking for getgrgid_r... yes
+checking for getspnam_r... yes
+checking for getaddrinfo... yes
+checking for ruserok... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for an ANSI C-conforming const... yes
+checking for uid_t in sys/types.h... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking whether stat file-mode macros are broken... no
+checking for struct stat.st_rdev... yes
+checking for struct stat.st_atim... yes
+checking for struct stat.st_atimensec... no
+checking for struct stat.st_mtim... yes
+checking for struct stat.st_mtimensec... no
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct utmp.ut_type... yes
+checking for struct utmp.ut_id... yes
+checking for struct utmp.ut_name... yes
+checking for struct utmp.ut_user... yes
+checking for struct utmp.ut_host... yes
+checking for struct utmp.ut_syslen... no
+checking for struct utmp.ut_addr... yes
+checking for struct utmp.ut_addr_v6... yes
+checking for struct utmp.ut_time... yes
+checking for struct utmp.ut_xtime... yes
+checking for struct utmp.ut_tv... yes
+checking for struct utmpx.ut_name... no
+checking for struct utmpx.ut_host... yes
+checking for struct utmpx.ut_syslen... no
+checking for struct utmpx.ut_addr... no
+checking for struct utmpx.ut_addr_v6... yes
+checking for struct utmpx.ut_time... no
+checking for struct utmpx.ut_xtime... no
+checking for ll_host in struct lastlog... yes
+checking type of array argument to getgroups... gid_t
+checking return type of signal handlers... void
+checking for utime.h... (cached) yes
+checking whether utime accepts a null argument... yes
+checking for strftime... yes
+checking for mkdir... yes
+checking for putgrent... yes
+checking for putpwent... yes
+checking for putspent... yes
+checking for rename... yes
+checking for rmdir... yes
+checking for sgetgrent... no
+checking for sgetpwent... no
+checking for sgetspent... yes
+checking for snprintf... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strstr... yes
+checking for setpgrp... yes
+checking for working shadow group support... no
+checking location of shared mail directory... /var/mail
+checking location of user mail file... none
+checking location of utmp... none
+configure: WARNING: utmp file not found
+checking location of faillog/lastlog/wtmp... /var/log
+checking location of the passwd program... /bin
+checking for posix_spawn... yes
+checking for library containing inet_ntoa... none required
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking size of uid_t... 4
+checking size of gid_t... 4
+checking for crypt in -lcrypt... yes
+checking for acl/libacl.h... (cached) yes
+checking for attr/error_context.h... (cached) yes
+checking for perm_copy_file in -lacl... yes
+checking for perm_copy_fd in -lacl... yes
+checking for attr/libattr.h... (cached) yes
+checking for attr/error_context.h... (cached) yes
+checking for attr_copy_file in -lattr... yes
+checking for attr_copy_fd in -lattr... yes
+checking libaudit.h usability... no
+checking libaudit.h presence... no
+checking for libaudit.h... no
+checking cracklib flavour, don't be surprised by the results
+checking for FascistCheck in -lcrack... yes
+checking for FascistHistory in -lcrack... no
+checking for FascistHistoryPw in -lcrack... no
+checking selinux/selinux.h usability... no
+checking selinux/selinux.h presence... no
+checking for selinux/selinux.h... no
+checking semanage/semanage.h usability... no
+checking semanage/semanage.h presence... no
+checking for semanage/semanage.h... no
+checking tcb.h usability... no
+checking tcb.h presence... no
+checking for tcb.h... no
+checking for pam_start in -lpam... no
+checking for openpam_ttyconv in -lpam... no
+checking for misc_conv in -lpam_misc... no
+checking for security/openpam.h... no
+checking for security/pam_misc.h... no
+checking use login and su access checking if PAM not used... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /tools/bin/msgfmt
+checking for gmsgfmt... /tools/bin/msgfmt
+checking for xgettext... /tools/bin/xgettext
+checking for msgmerge... /tools/bin/msgmerge
+checking for ld used by gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating doc/Makefile
+config.status: creating man/Makefile
+config.status: creating man/config.xml
+config.status: creating man/po/Makefile
+config.status: creating man/cs/Makefile
+config.status: creating man/da/Makefile
+config.status: creating man/de/Makefile
+config.status: creating man/es/Makefile
+config.status: creating man/fi/Makefile
+config.status: creating man/fr/Makefile
+config.status: creating man/hu/Makefile
+config.status: creating man/id/Makefile
+config.status: creating man/it/Makefile
+config.status: creating man/ja/Makefile
+config.status: creating man/ko/Makefile
+config.status: creating man/pl/Makefile
+config.status: creating man/pt_BR/Makefile
+config.status: creating man/ru/Makefile
+config.status: creating man/sv/Makefile
+config.status: creating man/tr/Makefile
+config.status: creating man/zh_CN/Makefile
+config.status: creating man/zh_TW/Makefile
+config.status: creating libmisc/Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating contrib/Makefile
+config.status: creating etc/Makefile
+config.status: creating etc/pam.d/Makefile
+config.status: creating shadow.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+shadow will be compiled with the following features:
+
+	auditing support:		no
+	CrackLib support:		yes
+	PAM support:			no
+	SELinux support:		no
+	ACL support:			yes
+	Extended Attributes support:	yes
+	tcb support (incomplete):	no
+	shadow group support:		yes
+	S/Key support:			no
+	SHA passwords encryption:	yes
+	nscd support:			yes
+	subordinate IDs support:	yes
+

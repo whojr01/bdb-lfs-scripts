@@ -1,0 +1,12 @@
+for x in libbridge brctl doc; do make  -C $x install || exit 1 ; done
+make[1]: Entering directory '/lfskernel/sources/boot/bridge-utils-1.6/libbridge'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/lfskernel/sources/boot/bridge-utils-1.6/libbridge'
+make[1]: Entering directory '/lfskernel/sources/boot/bridge-utils-1.6/brctl'
+mkdir -p /usr/sbin
+/usr/bin/install -c -m 755 brctl  /usr/sbin
+make[1]: Leaving directory '/lfskernel/sources/boot/bridge-utils-1.6/brctl'
+make[1]: Entering directory '/lfskernel/sources/boot/bridge-utils-1.6/doc'
+mkdir -p /usr/share/man/man8
+/usr/bin/install -c -m 644 brctl.8 /usr/share/man/man8
+make[1]: Leaving directory '/lfskernel/sources/boot/bridge-utils-1.6/doc'

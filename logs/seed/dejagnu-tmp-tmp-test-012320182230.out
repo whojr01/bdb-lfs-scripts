@@ -1,0 +1,69 @@
+Done. Now run 'make install'.
+make  unit
+make[1]: Entering directory `/lfsbuild/sources/dejagnu-1.6.1/build'
+depbase=`echo testsuite/libdejagnu/unit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DPACKAGE_NAME=\"GNU\ DejaGnu\" -DPACKAGE_TARNAME=\"dejagnu\" -DPACKAGE_VERSION=\"1.6.1\" -DPACKAGE_STRING=\"GNU\ DejaGnu\ 1.6.1\" -DPACKAGE_BUGREPORT=\"bug-dejagnu@gnu.org\" -DPACKAGE_URL=\"http://www.gnu.org/software/dejagnu/\" -DPACKAGE=\"dejagnu\" -DVERSION=\"1.6.1\" -I. -I..    -I.. -g -g -O2 -MT testsuite/libdejagnu/unit.o -MD -MP -MF $depbase.Tpo -c -o testsuite/libdejagnu/unit.o ../testsuite/libdejagnu/unit.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+g++ -I.. -g -g -O2   -o unit testsuite/libdejagnu/unit.o  
+make[1]: Leaving directory `/lfsbuild/sources/dejagnu-1.6.1/build'
+make  check-DEJAGNU
+make[1]: Entering directory `/lfsbuild/sources/dejagnu-1.6.1/build'
+Making a new site.exp file ...
+srcdir='..'; export srcdir; \
+EXPECT=/tools/bin/expect; export EXPECT; \
+if /bin/sh -c "../runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='dejagnu'; for tool in $l; do \
+    if ../runtest  --srcdir ../testsuite RUNTEST=../runtest ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find '../runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: No tool specified
+Test run by lfs on Wed Jan 24 03:29:25 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using ../testsuite/config/default.exp as tool-and-target-specific interface file.
+Running ../testsuite/libdejagnu/tunit.exp ...
+Running ../testsuite/runtest.all/libs.exp ...
+Running ../testsuite/runtest.all/load_lib.exp ...
+Running ../testsuite/runtest.all/options.exp ...
+Running ../testsuite/runtest.all/stats-sub.exp ...
+Running ../testsuite/runtest.all/stats.exp ...
+
+		===  Summary ===
+
+# of expected passes		82
+make[1]: Leaving directory `/lfsbuild/sources/dejagnu-1.6.1/build'
+Opening log files in .
+Test run by lfs on Wed Jan 24 03:29:26 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+setting trap for SIGINT to interrupted by user
+setting trap for SIGQUIT to interrupted by user
+setting trap for SIGTERM to terminated
+dirlist is /dev/boards ./dejagnu/baseboards
+pushing config for build, name is localhost
+dirlist is /dev/boards ./dejagnu/baseboards
+pushing config for host, name is localhost
+Schedule of variations:
+    unix
+
+target is unix
+Running target unix
+dirlist is /dev/boards/localhost ./dejagnu/baseboards/localhost /dev/boards ./dejagnu/baseboards
+Using ../testsuite/runtest.all/../config/default.exp as tool-and-target-specific interface file.
+Didn't find file /lfsbuild/sources/dejagnu-1.6.1/build/../../expect/expect, returning expect
+pushing config for target, name is unix
+
+		===  Summary ===
+
+runtest completed at Wed Jan 24 03:29:26 2018

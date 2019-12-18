@@ -1,0 +1,14 @@
+###############################
+# Make xev-1.2.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xev-1.2.2'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xev-1.2.2/man'
+  GEN      xev.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xev-1.2.2/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xev-1.2.2'
+  CC       xev.o
+  CCLD     xev
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xev-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xev-1.2.2'

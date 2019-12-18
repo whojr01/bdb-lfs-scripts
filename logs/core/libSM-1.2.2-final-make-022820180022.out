@@ -1,0 +1,23 @@
+###############################
+# Make libSM-1.2.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+  CC       sm_auth.lo
+  CC       sm_client.lo
+  CC       sm_error.lo
+  CC       sm_genid.lo
+  CC       sm_manager.lo
+  CC       sm_misc.lo
+  CC       sm_process.lo
+  CCLD     libSM.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'

@@ -1,0 +1,88 @@
+make -C config install
+make[1]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/config'
+../config/./nsinstall -t -m 0755 nspr-config /usr/bin
+../config/./nsinstall -D /usr/share/aclocal
+../config/./nsinstall -t -m 0644 nspr.m4 /usr/share/aclocal
+../config/./nsinstall -D /usr/lib/pkgconfig
+../config/./nsinstall -t -m 0644 nspr.pc /usr/lib/pkgconfig
+make[1]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/config'
+make -C pr install
+make[1]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr'
+make -C include install
+make[2]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include'
+../../config/./nsinstall -t -m 0644 ./prcvar.h ./prmem.h ./prlock.h ./prrng.h ./prtypes.h ./prtime.h ./prlink.h ./prdtoa.h ./prwin16.h ./prtrace.h ./prlog.h ./prprf.h ./prmon.h ./prinrval.h ./prcountr.h ./prrwlock.h ./prcmon.h ./prerr.h ./prinet.h ./prenv.h ./prtpool.h ./prshm.h ./prsystem.h ./prerror.h ./prio.h ./prmwait.h ./prproces.h ./prolock.h ./prinit.h ./pratom.h ./prpdce.h ./prclist.h ./prlong.h ./prshma.h ./prvrsion.h ./nspr.h ./pripcsem.h ./prnetdb.h ./prthread.h ./prbit.h /usr/include/nspr/
+make -C md install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include/md'
+../../../config/./nsinstall -D /usr/include/nspr/md
+../../../config/./nsinstall -t -m 644 ./_openbsd.cfg ./_winnt.cfg ./_osf1.cfg ./_nto.cfg ./_riscos.cfg ./_dgux.cfg ./_aix32.cfg ./_hpux64.cfg ./_os2.cfg ./_linux.cfg ./_qnx.cfg ./_darwin.cfg ./_bsdi.cfg ./_beos.cfg ./_win95.cfg ./_netbsd.cfg ./_solaris.cfg ./_unixware7.cfg ./_freebsd.cfg ./_scoos.cfg ./_irix64.cfg ./_irix32.cfg ./_unixware.cfg ./_aix64.cfg ./_symbian.cfg ./_hpux32.cfg /usr/include/nspr/md
+../../../config/./nsinstall -t -m 644 ./_linux.cfg /usr/include/nspr
+mv -f /usr/include/nspr/_linux.cfg /usr/include/nspr/prcpucfg.h
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include/md'
+make -C private install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include/private'
+../../../config/./nsinstall -t -m 0644 ./pprio.h ./pprthred.h ./prpriv.h /usr/include/nspr/private
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include/private'
+make -C obsolete install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include/obsolete'
+../../../config/./nsinstall -t -m 0644 ./pralarm.h ./probslet.h ./protypes.h ./prsem.h /usr/include/nspr/obsolete
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include/obsolete'
+make[2]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/include'
+make -C src install
+make[2]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src'
+../../config/./nsinstall -t -m 0755 ./libnspr4.so /usr/lib/
+make -C io install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/io'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/io'
+make -C linking install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/linking'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/linking'
+make -C malloc install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/malloc'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/malloc'
+make -C md install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/md'
+make -C unix install
+make[4]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/md/unix'
+make[4]: Nothing to be done for 'install'.
+make[4]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/md/unix'
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/md'
+make -C memory install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/memory'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/memory'
+make -C misc install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/misc'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/misc'
+make -C threads install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/threads'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/threads'
+make -C pthreads install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/pthreads'
+make[3]: Nothing to be done for 'install'.
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src/pthreads'
+make[2]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/pr'
+make -C lib install
+make[1]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib'
+make -C ds install
+make[2]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/ds'
+../../config/./nsinstall -t -m 0644 ./plarenas.h ./plarena.h ./plhash.h /usr/include/nspr/
+../../config/./nsinstall -t -m 0755 ./libplds4.so /usr/lib/
+make[2]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/ds'
+make -C libc install
+make[2]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/libc'
+make -C include install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/libc/include'
+../../../config/./nsinstall -t -m 0644 ./plbase64.h ./plstr.h ./plgetopt.h ./plerror.h /usr/include/nspr/
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/libc/include'
+make -C src install
+make[3]: Entering directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/libc/src'
+../../../config/./nsinstall -t -m 0755 ./libplc4.so /usr/lib/
+make[3]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/libc/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib/libc'
+make[1]: Leaving directory '/lfskernel/sources/boot/nspr-4.18/nspr/lib'

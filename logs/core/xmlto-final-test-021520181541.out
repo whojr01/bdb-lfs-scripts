@@ -1,0 +1,22 @@
+make  check-TESTS
+make[1]: Entering directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+make[2]: Entering directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+PASS: xmlif/test/run-test
+make[3]: Entering directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+make  all-am
+make[4]: Entering directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+make[4]: Leaving directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+make[3]: Leaving directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+============================================================================
+Testsuite summary for xmlto 0.0.28
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[2]: Leaving directory '/lfskernel/sources/boot/xmlto-0.0.28/build'
+make[1]: Leaving directory '/lfskernel/sources/boot/xmlto-0.0.28/build'

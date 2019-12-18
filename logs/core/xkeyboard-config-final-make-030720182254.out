@@ -1,0 +1,227 @@
+Making all in compat
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/compat'
+Making all in geometry
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+Making all in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/digital_vndr'
+Making all in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry/sgi_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/geometry'
+Making all in keycodes
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+Making all in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/digital_vndr'
+Making all in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes/sgi_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/keycodes'
+Making all in po
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/po'
+file=`echo af | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file af.po
+file=`echo az | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file az.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo crh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file crh.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo fur | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fur.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo ka | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ka.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo ky | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ky.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/po'
+Making all in rules
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+Making all in bin
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/bin'
+Making all in compat
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+sh ../bin/mln_s.sh 2 .
+sh ../bin/mln_s.sh 3 .
+sh ../bin/mln_s.sh 4 .
+sh ../bin/mlnvn_s.sh 2 .
+sh ../bin/mlnvn_s.sh 3 .
+sh ../bin/mlnvn_s.sh 4 .
+sh ../bin/ml_s.sh .
+sh ../bin/ml1_s.sh .
+sh ../bin/mlv_s.sh .
+sh ../bin/ml1v1_s.sh .
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules/compat'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+HDR="./HDR" ./merge.sh base base.hdr.part base.lists.part base.lists.base.part compat/base.lists.part HDR base.m_k.part HDR base.l1_k.part HDR base.l_k.part HDR base.o_k.part HDR base.ml_g.part HDR base.m_g.part HDR compat/base.mlv_s.part   base.mlv_s.part HDR compat/base.ml_s.part    base.ml_s.part HDR compat/base.ml1_s.part   base.ml1_s.part HDR compat/base.ml1v1_s.part HDR compat/base.ml2_s.part    base.ml2_s.part HDR compat/base.ml3_s.part    base.ml3_s.part HDR compat/base.ml4_s.part    base.ml4_s.part HDR compat/base.ml2v2_s.part HDR compat/base.ml3v3_s.part HDR compat/base.ml4v4_s.part HDR base.m_s.part HDR base.ml_s1.part HDR compat/base.lv_c.part HDR compat/base.l1v1_c.part HDR compat/base.l2v2_c.part HDR compat/base.l3v3_c.part HDR compat/base.l4v4_c.part HDR base.ml_c.part HDR base.ml1_c.part HDR base.m_t.part HDR base.lo_s.part HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part HDR compat/base.o_s.part     base.o_s.part HDR base.o_c.part HDR base.o_t.part
+HDR="./HDR" ./merge.sh evdev base.hdr.part base.lists.part evdev.lists.part compat/base.lists.part HDR evdev.m_k.part HDR base.l1_k.part HDR base.l_k.part HDR base.o_k.part HDR base.ml_g.part HDR base.m_g.part HDR compat/base.mlv_s.part   base.mlv_s.part HDR compat/base.ml_s.part    base.ml_s.part HDR compat/base.ml1_s.part   base.ml1_s.part HDR compat/base.ml1v1_s.part HDR compat/base.ml2_s.part    base.ml2_s.part HDR compat/base.ml3_s.part    base.ml3_s.part HDR compat/base.ml4_s.part    base.ml4_s.part HDR compat/base.ml2v2_s.part HDR compat/base.ml3v3_s.part HDR compat/base.ml4v4_s.part HDR evdev.m_s.part HDR HDR compat/base.lv_c.part HDR compat/base.l1v1_c.part HDR compat/base.l2v2_c.part HDR compat/base.l3v3_c.part HDR compat/base.l4v4_c.part HDR base.ml_c.part HDR base.ml1_c.part HDR base.m_t.part HDR base.lo_s.part HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part HDR compat/base.o_s.part     base.o_s.part HDR base.o_c.part HDR base.o_t.part
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations base.xml.in base.xml
+Merging translations into base.xml.
+CREATED base.xml
+perl ./xml2lst.pl < base.xml > base.lst
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations evdev.xml.in evdev.xml
+Merging translations into evdev.xml.
+CREATED evdev.xml
+perl ./xml2lst.pl < evdev.xml > evdev.lst
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations base.extras.xml.in base.extras.xml
+Merging translations into base.extras.xml.
+CREATED base.extras.xml
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations evdev.extras.xml.in evdev.extras.xml
+Merging translations into evdev.extras.xml.
+CREATED evdev.extras.xml
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/rules'
+Making all in symbols
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+Making all in digital_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/digital_vndr'
+Making all in fujitsu_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/fujitsu_vndr'
+Making all in hp_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/hp_vndr'
+Making all in jolla_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/jolla_vndr'
+Making all in macintosh_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/macintosh_vndr'
+Making all in nec_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nec_vndr'
+Making all in nokia_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/nokia_vndr'
+Making all in sharp_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sharp_vndr'
+Making all in sgi_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sgi_vndr'
+Making all in sony_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sony_vndr'
+Making all in sun_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/sun_vndr'
+Making all in xfree68_vndr
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols/xfree68_vndr'
+make[2]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/symbols'
+Making all in types
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/types'
+Making all in docs
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/docs'
+Making all in man
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+/usr/bin/xsltproc -nonet ./man.xsl ../rules/evdev.xml > xkeyboard-config.man
+/bin/sed -e 's|__vendorversion__|"xkeyboard-config 2.23.1" "X Version 11"|' 	-e 's|__xorgversion__|"xkeyboard-config 2.23.1" "X Version 11"|' 	-e 's|__xservername__|Xorg|g' 	-e 's|__xconfigfile__|xorg.conf|g' 	-e 's|__projectroot__|/usr|g' 	-e 's|__apploaddir__||g' 	-e 's|__appmansuffix__|1|g' 	-e 's|__drivermansuffix__|4|g' 	-e 's|__adminmansuffix__|8|g' 	-e 's|__libmansuffix__|3|g' 	-e 's|__miscmansuffix__|7|g' 	-e 's|__filemansuffix__|5|g' -e 's|__xkb_base__|/usr/share/X11/xkb|g' < xkeyboard-config.man > xkeyboard-config.7
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1/man'
+make[1]: Entering directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/xkeyboard-config-2.23.1'

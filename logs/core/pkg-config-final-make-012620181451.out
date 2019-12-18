@@ -1,0 +1,147 @@
+make  all-recursive
+make[1]: Entering directory '/sources/pkg-config-0.29.2/build'
+Making all in glib
+make[2]: Entering directory '/sources/pkg-config-0.29.2/build/glib'
+make  all-recursive
+make[3]: Entering directory '/sources/pkg-config-0.29.2/build/glib'
+Making all in .
+make[4]: Entering directory '/sources/pkg-config-0.29.2/build/glib'
+make[4]: Leaving directory '/sources/pkg-config-0.29.2/build/glib'
+Making all in m4macros
+make[4]: Entering directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make  all-am
+make[5]: Entering directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+make[4]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/m4macros'
+Making all in glib
+make[4]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib'
+  GEN      glibconfig-stamp
+config.status: executing glib/glibconfig.h commands
+config.status: glib/glibconfig.h is unchanged
+make  all-recursive
+make[5]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib'
+Making all in libcharset
+make[6]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+make  all-am
+make[7]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+  CC       libcharset_la-localcharset.lo
+  CCLD     libcharset.la
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+  GEN      charset.alias
+make[7]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+make[6]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib/libcharset'
+Making all in .
+make[6]: Entering directory '/sources/pkg-config-0.29.2/build/glib/glib'
+  CC       libglib_2_0_la-gallocator.lo
+  CC       libglib_2_0_la-gcache.lo
+  CC       libglib_2_0_la-gcompletion.lo
+  CC       libglib_2_0_la-grel.lo
+  CC       libglib_2_0_la-gthread-deprecated.lo
+  CC       libglib_2_0_la-garray.lo
+  CC       libglib_2_0_la-gasyncqueue.lo
+  CC       libglib_2_0_la-gatomic.lo
+  CC       libglib_2_0_la-gbacktrace.lo
+  CC       libglib_2_0_la-gbase64.lo
+  CC       libglib_2_0_la-gbitlock.lo
+  CC       libglib_2_0_la-gbookmarkfile.lo
+  CC       libglib_2_0_la-gbytes.lo
+  CC       libglib_2_0_la-gcharset.lo
+  CC       libglib_2_0_la-gchecksum.lo
+  CC       libglib_2_0_la-gconvert.lo
+  CC       libglib_2_0_la-gdataset.lo
+  CC       libglib_2_0_la-gdate.lo
+  CC       libglib_2_0_la-gdatetime.lo
+  CC       libglib_2_0_la-gdir.lo
+  CC       libglib_2_0_la-genviron.lo
+  CC       libglib_2_0_la-gerror.lo
+  CC       libglib_2_0_la-gfileutils.lo
+  CC       libglib_2_0_la-ggettext.lo
+In file included from ../../../glib/glib/ggettext.c:30:0:
+../../../glib/glib/ggettext.c: In function 'ensure_gettext_initialized':
+../../../glib/glib/glibintl.h:37:42: warning: statement with no effect [-Wunused-value]
+ #define bindtextdomain(Domain,Directory) (Domain)
+                                          ^
+../../../glib/glib/ggettext.c:109:7: note: in expansion of macro 'bindtextdomain'
+       bindtextdomain (GETTEXT_PACKAGE, GLIB_LOCALE_DIR);
+       ^~~~~~~~~~~~~~
+  CC       libglib_2_0_la-ghash.lo
+  CC       libglib_2_0_la-ghmac.lo
+  CC       libglib_2_0_la-ghook.lo
+  CC       libglib_2_0_la-ghostutils.lo
+  CC       libglib_2_0_la-giochannel.lo
+  CC       libglib_2_0_la-gkeyfile.lo
+  CC       libglib_2_0_la-glib-init.lo
+  CC       libglib_2_0_la-glib-private.lo
+  CC       libglib_2_0_la-glist.lo
+  CC       libglib_2_0_la-gmain.lo
+  CC       libglib_2_0_la-gmappedfile.lo
+  CC       libglib_2_0_la-gmarkup.lo
+  CC       libglib_2_0_la-gmem.lo
+  CC       libglib_2_0_la-gmessages.lo
+  CC       libglib_2_0_la-gnode.lo
+  CC       libglib_2_0_la-goption.lo
+  CC       libglib_2_0_la-gpattern.lo
+  CC       libglib_2_0_la-gpoll.lo
+  CC       libglib_2_0_la-gprimes.lo
+  CC       libglib_2_0_la-gqsort.lo
+  CC       libglib_2_0_la-gquark.lo
+  CC       libglib_2_0_la-gqueue.lo
+  CC       libglib_2_0_la-grand.lo
+  CC       libglib_2_0_la-gscanner.lo
+  CC       libglib_2_0_la-gsequence.lo
+  CC       libglib_2_0_la-gshell.lo
+  CC       libglib_2_0_la-gslice.lo
+  CC       libglib_2_0_la-gslist.lo
+  CC       libglib_2_0_la-gstdio.lo
+  CC       libglib_2_0_la-gstrfuncs.lo
+  CC       libglib_2_0_la-gstring.lo
+  CC       libglib_2_0_la-gstringchunk.lo
+  CC       libglib_2_0_la-gtestutils.lo
+  CC       libglib_2_0_la-gthread.lo
+  CC       libglib_2_0_la-gthreadpool.lo
+  CC       libglib_2_0_la-gtimer.lo
+  CC       libglib_2_0_la-gtimezone.lo
+  CC       libglib_2_0_la-gtrashstack.lo
+  CC       libglib_2_0_la-gtree.lo
+  CC       libglib_2_0_la-guniprop.lo
+  CC       libglib_2_0_la-gutf8.lo
+  CC       libglib_2_0_la-gunibreak.lo
+  CC       libglib_2_0_la-gunicollate.lo
+  CC       libglib_2_0_la-gunidecomp.lo
+  CC       libglib_2_0_la-gurifuncs.lo
+  CC       libglib_2_0_la-gutils.lo
+  CC       libglib_2_0_la-gvariant.lo
+  CC       libglib_2_0_la-gvariant-core.lo
+  CC       libglib_2_0_la-gvariant-parser.lo
+  CC       libglib_2_0_la-gvariant-serialiser.lo
+  CC       libglib_2_0_la-gvarianttypeinfo.lo
+  CC       libglib_2_0_la-gvarianttype.lo
+  CC       libglib_2_0_la-gversion.lo
+  CC       libglib_2_0_la-gwakeup.lo
+  CC       libglib_2_0_la-gprintf.lo
+  CC       libglib_2_0_la-glib-unix.lo
+  CC       libglib_2_0_la-gthread-posix.lo
+  CC       giounix.lo
+  CC       gspawn.lo
+  CCLD     libglib-2.0.la
+echo   > glib-public-headers.txt.tmp && mv glib-public-headers.txt.tmp glib-public-headers.txt
+make[6]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[5]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[4]: Leaving directory '/sources/pkg-config-0.29.2/build/glib/glib'
+make[3]: Leaving directory '/sources/pkg-config-0.29.2/build/glib'
+make[2]: Leaving directory '/sources/pkg-config-0.29.2/build/glib'
+Making all in .
+make[2]: Entering directory '/sources/pkg-config-0.29.2/build'
+  CC       pkg.o
+  CC       parse.o
+  CC       rpmvercmp.o
+  CC       main.o
+  CCLD     pkg-config
+make[2]: Leaving directory '/sources/pkg-config-0.29.2/build'
+Making all in check
+make[2]: Entering directory '/sources/pkg-config-0.29.2/build/check'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/pkg-config-0.29.2/build/check'
+make[1]: Leaving directory '/sources/pkg-config-0.29.2/build'

@@ -1,0 +1,250 @@
+Making install in src
+make[1]: Entering directory '/sources/dash-0.5.9.1/build/src'
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -E -x c -o builtins.def ../../src/builtins.def.in
+/bin/sh ../../src/mkbuiltins builtins.def
+gcc -I. -I../../src -I.. -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -g -O2 -Wall    -o mknodes ../../src/mknodes.c
+./mknodes ../../src/nodetypes ../../src/nodes.c.pat
+/bin/sh ../../src/mktokens
+gcc -I. -I../../src -I.. -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -g -O2 -Wall    -o mksyntax ../../src/mksyntax.c
+./mksyntax
+make  install-am
+make[2]: Entering directory '/sources/dash-0.5.9.1/build/src'
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT alias.o -MD -MP -MF .deps/alias.Tpo -c -o alias.o ../../src/alias.c
+mv -f .deps/alias.Tpo .deps/alias.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT arith_yacc.o -MD -MP -MF .deps/arith_yacc.Tpo -c -o arith_yacc.o ../../src/arith_yacc.c
+mv -f .deps/arith_yacc.Tpo .deps/arith_yacc.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT arith_yylex.o -MD -MP -MF .deps/arith_yylex.Tpo -c -o arith_yylex.o ../../src/arith_yylex.c
+In file included from ../../src/arith_yylex.c:44:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from ../../src/error.h:38:0,
+                 from ../../src/arith_yylex.c:40:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/arith_yylex.Tpo .deps/arith_yylex.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT cd.o -MD -MP -MF .deps/cd.Tpo -c -o cd.o ../../src/cd.c
+mv -f .deps/cd.Tpo .deps/cd.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT error.o -MD -MP -MF .deps/error.Tpo -c -o error.o ../../src/error.c
+In file included from ../../src/error.c:54:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from ../../src/error.c:39:0:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/error.Tpo .deps/error.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT eval.o -MD -MP -MF .deps/eval.Tpo -c -o eval.o ../../src/eval.c
+../../src/eval.c: In function 'evaltree':
+../../src/eval.c:281:15: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+   if (!status == isor || evalskip)
+               ^~
+../../src/eval.c:281:7: note: add parentheses around left hand side expression to silence this warning
+   if (!status == isor || evalskip)
+       ^~~~~~~
+       (      )
+mv -f .deps/eval.Tpo .deps/eval.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT exec.o -MD -MP -MF .deps/exec.Tpo -c -o exec.o ../../src/exec.c
+In file included from ../../src/exec.c:72:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/shell.h:52,
+                 from ../../src/exec.c:53:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/exec.Tpo .deps/exec.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT expand.o -MD -MP -MF .deps/expand.Tpo -c -o expand.o ../../src/expand.c
+In file included from ../../src/expand.c:75:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/shell.h:52,
+                 from ../../src/expand.c:60:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/expand.Tpo .deps/expand.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT histedit.o -MD -MP -MF .deps/histedit.Tpo -c -o histedit.o ../../src/histedit.c
+mv -f .deps/histedit.Tpo .deps/histedit.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT input.o -MD -MP -MF .deps/input.Tpo -c -o input.o ../../src/input.c
+mv -f .deps/input.Tpo .deps/input.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT jobs.o -MD -MP -MF .deps/jobs.Tpo -c -o jobs.o ../../src/jobs.c
+In file included from ../../src/jobs.c:70:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from ../../src/jobs.c:36:0:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/jobs.Tpo .deps/jobs.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT mail.o -MD -MP -MF .deps/mail.Tpo -c -o mail.o ../../src/mail.c
+mv -f .deps/mail.Tpo .deps/mail.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o ../../src/main.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT memalloc.o -MD -MP -MF .deps/memalloc.Tpo -c -o memalloc.o ../../src/memalloc.c
+In file included from ../../src/memalloc.c:44:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/shell.h:52,
+                 from ../../src/memalloc.c:38:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/memalloc.Tpo .deps/memalloc.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT miscbltin.o -MD -MP -MF .deps/miscbltin.Tpo -c -o miscbltin.o ../../src/miscbltin.c
+mv -f .deps/miscbltin.Tpo .deps/miscbltin.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT mystring.o -MD -MP -MF .deps/mystring.Tpo -c -o mystring.o ../../src/mystring.c
+In file included from ../../src/mystring.c:57:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/shell.h:52,
+                 from ../../src/mystring.c:51:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/mystring.Tpo .deps/mystring.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT options.o -MD -MP -MF .deps/options.Tpo -c -o options.o ../../src/options.c
+mv -f .deps/options.Tpo .deps/options.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT parser.o -MD -MP -MF .deps/parser.Tpo -c -o parser.o ../../src/parser.c
+In file included from ../../src/parser.c:57:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/shell.h:52,
+                 from ../../src/parser.c:41:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/parser.Tpo .deps/parser.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT redir.o -MD -MP -MF .deps/redir.Tpo -c -o redir.o ../../src/redir.c
+mv -f .deps/redir.Tpo .deps/redir.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT show.o -MD -MP -MF .deps/show.Tpo -c -o show.o ../../src/show.c
+mv -f .deps/show.Tpo .deps/show.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT trap.o -MD -MP -MF .deps/trap.Tpo -c -o trap.o ../../src/trap.c
+mv -f .deps/trap.Tpo .deps/trap.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT output.o -MD -MP -MF .deps/output.Tpo -c -o output.o ../../src/output.c
+In file included from ../../src/output.c:65:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/output.c:47:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/output.Tpo .deps/output.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT printf.o -MD -MP -MF .deps/printf.Tpo -c -o printf.o `test -f 'bltin/printf.c' || echo '../../src/'`bltin/printf.c
+In file included from ../../src/bltin/printf.c:59:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/bltin/../shell.h:52,
+                 from ../../src/bltin/bltin.h:43,
+                 from ../../src/bltin/printf.c:58:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/printf.Tpo .deps/printf.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT system.o -MD -MP -MF .deps/system.Tpo -c -o system.o ../../src/system.c
+In file included from ../../src/system.c:62:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from ../../src/system.c:57:0:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/system.Tpo .deps/system.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT test.o -MD -MP -MF .deps/test.Tpo -c -o test.o `test -f 'bltin/test.c' || echo '../../src/'`bltin/test.c
+mv -f .deps/test.Tpo .deps/test.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT times.o -MD -MP -MF .deps/times.Tpo -c -o times.o `test -f 'bltin/times.c' || echo '../../src/'`bltin/times.c
+In file included from ../../src/bltin/times.c:13:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/bltin/../shell.h:52,
+                 from ../../src/bltin/bltin.h:43,
+                 from ../../src/bltin/times.c:11:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/times.Tpo .deps/times.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT var.o -MD -MP -MF .deps/var.Tpo -c -o var.o ../../src/var.c
+In file included from ../../src/var.c:63:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/shell.h:52,
+                 from ../../src/var.c:46:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/var.Tpo .deps/var.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT builtins.o -MD -MP -MF .deps/builtins.Tpo -c -o builtins.o builtins.c
+mv -f .deps/builtins.Tpo .deps/builtins.Po
+gcc -I. -I../../src -I.. -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -g -O2 -Wall    -o mkinit ../../src/mkinit.c
+./mkinit ../../src/alias.c ../../src/arith_yacc.c ../../src/arith_yylex.c ../../src/cd.c ../../src/error.c ../../src/eval.c ../../src/exec.c ../../src/expand.c ../../src/histedit.c ../../src/input.c ../../src/jobs.c ../../src/mail.c ../../src/main.c ../../src/memalloc.c ../../src/miscbltin.c ../../src/mystring.c ../../src/options.c ../../src/parser.c ../../src/redir.c ../../src/show.c ../../src/trap.c ../../src/output.c ../../src/bltin/printf.c ../../src/system.c ../../src/bltin/test.c ../../src/bltin/times.c ../../src/var.c
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT init.o -MD -MP -MF .deps/init.Tpo -c -o init.o init.c
+mv -f .deps/init.Tpo .deps/init.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT nodes.o -MD -MP -MF .deps/nodes.Tpo -c -o nodes.o nodes.c
+In file included from nodes.c:51:0:
+../../src/system.h: In function 'sigclearmask':
+../../src/system.h:40:2: warning: 'sigsetmask' is deprecated [-Wdeprecated-declarations]
+  sigsetmask(0);
+  ^~~~~~~~~~
+In file included from /usr/include/sys/param.h:28:0,
+                 from ../../src/shell.h:52,
+                 from nodes.c:46:
+/usr/include/signal.h:169:12: note: declared here
+ extern int sigsetmask (int __mask) __THROW __attribute_deprecated__;
+            ^~~~~~~~~~
+mv -f .deps/nodes.Tpo .deps/nodes.Po
+gcc -I. -I../../src -I.. -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -g -O2 -Wall    -o mksignames ../../src/mksignames.c
+./mksignames
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT signames.o -MD -MP -MF .deps/signames.Tpo -c -o signames.o signames.c
+mv -f .deps/signames.Tpo .deps/signames.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..  -include ../config.h -DBSD=1 -DSHELL -DIFS_BROKEN  -Wall -g -O2 -MT syntax.o -MD -MP -MF .deps/syntax.Tpo -c -o syntax.o syntax.c
+mv -f .deps/syntax.Tpo .deps/syntax.Po
+gcc -Wall -g -O2   -o dash alias.o arith_yacc.o arith_yylex.o cd.o error.o eval.o exec.o expand.o histedit.o input.o jobs.o mail.o main.o memalloc.o miscbltin.o mystring.o options.o parser.o redir.o show.o trap.o output.o printf.o system.o test.o times.o var.o builtins.o init.o nodes.o signames.o syntax.o 
+make[3]: Entering directory '/sources/dash-0.5.9.1/build/src'
+ /bin/mkdir -p '/bin'
+  /usr/bin/install -c dash '/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../src/dash.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/dash-0.5.9.1/build/src'
+make[2]: Leaving directory '/sources/dash-0.5.9.1/build/src'
+make[1]: Leaving directory '/sources/dash-0.5.9.1/build/src'
+make[1]: Entering directory '/sources/dash-0.5.9.1/build'
+make[2]: Entering directory '/sources/dash-0.5.9.1/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/dash-0.5.9.1/build'
+make[1]: Leaving directory '/sources/dash-0.5.9.1/build'

@@ -1,0 +1,46 @@
+if ( test ! -d /usr/bin ) ; then mkdir -p /usr/bin ; fi
+if ( test ! -d /usr/lib ) ; then mkdir -p /usr/lib ; fi
+if ( test ! -d /usr/share/man ) ; then mkdir -p /usr/share/man ; fi
+if ( test ! -d /usr/share/man/man1 ) ; then mkdir -p /usr/share/man/man1 ; fi
+if ( test ! -d /usr/share/doc/bzip2-1.0.6 ) ; then mkdir -p /usr/share/doc/bzip2-1.0.6; fi
+if ( test ! -d /usr/include ) ; then mkdir -p /usr/include ; fi
+cp -f bzip2 /usr/bin/bzip2
+cp -f bzip2 /usr/bin/bunzip2
+cp -f bzip2 /usr/bin/bzcat
+cp -f bzip2recover /usr/bin/bzip2recover
+chmod a+x /usr/bin/bzip2
+chmod a+x /usr/bin/bunzip2
+chmod a+x /usr/bin/bzcat
+chmod a+x /usr/bin/bzip2recover
+cp -f bzip2.1 /usr/share/man/man1
+chmod a+r /usr/share/man/man1/bzip2.1
+cp -f bzlib.h /usr/include
+chmod a+r /usr/include/bzlib.h
+cp -f libbz2.a /usr/lib
+chmod a+r /usr/lib/libbz2.a
+cp -f bzgrep /usr/bin/bzgrep
+ln -s -f /bzgrep /usr/bin/bzegrep
+ln -s -f /bzgrep /usr/bin/bzfgrep
+chmod a+x /usr/bin/bzgrep
+cp -f bzmore /usr/bin/bzmore
+ln -s -f /bzmore /usr/bin/bzless
+chmod a+x /usr/bin/bzmore
+cp -f bzdiff /usr/bin/bzdiff
+ln -s -f /bzdiff /usr/bin/bzcmp
+chmod a+x /usr/bin/bzdiff
+cp -f bzgrep.1 bzmore.1 bzdiff.1 /usr/share/man/man1
+chmod a+r /usr/share/man/man1/bzgrep.1
+chmod a+r /usr/share/man/man1/bzmore.1
+chmod a+r /usr/share/man/man1/bzdiff.1
+echo ".so man1/bzgrep.1" > /usr/share/man/man1/bzegrep.1
+echo ".so man1/bzgrep.1" > /usr/share/man/man1/bzfgrep.1
+echo ".so man1/bzmore.1" > /usr/share/man/man1/bzless.1
+echo ".so man1/bzdiff.1" > /usr/share/man/man1/bzcmp.1
+cp -f manual.html /usr/share/doc/bzip2-1.0.6
+cp -f manual.pdf /usr/share/doc/bzip2-1.0.6
+cp -f manual.ps /usr/share/doc/bzip2-1.0.6
+cp -f bzip2.txt /usr/share/doc/bzip2-1.0.6
+chmod a+r /usr/share/doc/bzip2-1.0.6/manual.html
+chmod a+r /usr/share/doc/bzip2-1.0.6/manual.pdf
+chmod a+r /usr/share/doc/bzip2-1.0.6/manual.ps
+chmod a+r /usr/share/doc/bzip2-1.0.6/bzip2.txt

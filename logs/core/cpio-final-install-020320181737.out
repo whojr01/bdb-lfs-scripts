@@ -1,0 +1,129 @@
+Making install in doc
+make[1]: Entering directory '/sources/cpio-2.12/build/doc'
+make[2]: Entering directory '/sources/cpio-2.12/build/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../doc/cpio.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/cpio.info'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/cpio.1 ../../doc/mt.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man8'
+make[2]: Leaving directory '/sources/cpio-2.12/build/doc'
+make[1]: Leaving directory '/sources/cpio-2.12/build/doc'
+Making install in gnu
+make[1]: Entering directory '/sources/cpio-2.12/build/gnu'
+make  install-recursive
+make[2]: Entering directory '/sources/cpio-2.12/build/gnu'
+make[3]: Entering directory '/sources/cpio-2.12/build/gnu'
+make[4]: Entering directory '/sources/cpio-2.12/build/gnu'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /sources/cpio-2.12/build-aux/install-sh -d /usr/lib ; \
+fi ; \
+if test -f /usr/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/lib/charset.alias > /usr/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+  rm -f /usr/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /usr/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+    rm -f /usr/lib/charset.tmp ; \
+  fi ; \
+fi
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/cpio-2.12/build/gnu'
+make[3]: Leaving directory '/sources/cpio-2.12/build/gnu'
+make[2]: Leaving directory '/sources/cpio-2.12/build/gnu'
+make[1]: Leaving directory '/sources/cpio-2.12/build/gnu'
+Making install in lib
+make[1]: Entering directory '/sources/cpio-2.12/build/lib'
+make  install-am
+make[2]: Entering directory '/sources/cpio-2.12/build/lib'
+make[3]: Entering directory '/sources/cpio-2.12/build/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/cpio-2.12/build/lib'
+make[2]: Leaving directory '/sources/cpio-2.12/build/lib'
+make[1]: Leaving directory '/sources/cpio-2.12/build/lib'
+Making install in rmt
+make[1]: Entering directory '/sources/cpio-2.12/build/rmt'
+make[2]: Entering directory '/sources/cpio-2.12/build/rmt'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Leaving directory '/sources/cpio-2.12/build/rmt'
+make[1]: Leaving directory '/sources/cpio-2.12/build/rmt'
+Making install in src
+make[1]: Entering directory '/sources/cpio-2.12/build/src'
+make[2]: Entering directory '/sources/cpio-2.12/build/src'
+ /bin/mkdir -p '/bin'
+  /usr/bin/install -c cpio mt '/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/cpio-2.12/build/src'
+make[1]: Leaving directory '/sources/cpio-2.12/build/src'
+Making install in po
+make[1]: Entering directory '/sources/cpio-2.12/build/po'
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/cpio.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/cpio.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/cpio.mo
+installing ../../po/fi.gmo as /usr/share/locale/fi/LC_MESSAGES/cpio.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/cpio.mo
+installing ../../po/ga.gmo as /usr/share/locale/ga/LC_MESSAGES/cpio.mo
+installing ../../po/gl.gmo as /usr/share/locale/gl/LC_MESSAGES/cpio.mo
+installing ../../po/hr.gmo as /usr/share/locale/hr/LC_MESSAGES/cpio.mo
+installing ../../po/hu.gmo as /usr/share/locale/hu/LC_MESSAGES/cpio.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/cpio.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/cpio.mo
+installing ../../po/ja.gmo as /usr/share/locale/ja/LC_MESSAGES/cpio.mo
+installing ../../po/ko.gmo as /usr/share/locale/ko/LC_MESSAGES/cpio.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/cpio.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/cpio.mo
+installing ../../po/pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/cpio.mo
+installing ../../po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/cpio.mo
+installing ../../po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/cpio.mo
+installing ../../po/sr.gmo as /usr/share/locale/sr/LC_MESSAGES/cpio.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/cpio.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/cpio.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/cpio.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/cpio.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/cpio.mo
+installing ../../po/zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/cpio.mo
+if test "cpio" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/cpio-2.12/build/po'
+Making install in tests
+make[1]: Entering directory '/sources/cpio-2.12/build/tests'
+make[2]: Entering directory '/sources/cpio-2.12/build/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/cpio-2.12/build/tests'
+make[1]: Leaving directory '/sources/cpio-2.12/build/tests'
+make[1]: Entering directory '/sources/cpio-2.12/build'
+make[2]: Entering directory '/sources/cpio-2.12/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/cpio-2.12/build'
+make[1]: Leaving directory '/sources/cpio-2.12/build'
+install: creating directory '/usr/share/doc/cpio-2.12'
+install: creating directory '/usr/share/doc/cpio-2.12/html'
+install: target '/usr/share/doc/cpio-2.12.html' is not a directory

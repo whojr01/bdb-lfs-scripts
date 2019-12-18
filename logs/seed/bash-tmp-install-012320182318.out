@@ -1,0 +1,228 @@
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.4.12(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.4.12(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+mkdir -p -- /tools/share/doc/bash
+( cd ./po/ ; make  DESTDIR= installdirs )
+make[1]: Entering directory `/lfsbuild/sources/bash-4.4.12/build/po'
+/bin/sh /lfsbuild/sources/bash-4.4.12/build/.././support/mkinstalldirs /tools/share
+mkdir -p -- /tools/share/locale/en@quot/LC_MESSAGES
+mkdir -p -- /tools/share/locale/en@boldquot/LC_MESSAGES
+mkdir -p -- /tools/share/locale/af/LC_MESSAGES
+mkdir -p -- /tools/share/locale/et/LC_MESSAGES
+mkdir -p -- /tools/share/locale/ga/LC_MESSAGES
+mkdir -p -- /tools/share/locale/ro/LC_MESSAGES
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /lfsbuild/sources/bash-4.4.12/build/.././support/mkinstalldirs /tools/share/gettext/po; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/lfsbuild/sources/bash-4.4.12/build/po'
+/bin/install -c -m 0755 bash /tools/bin/bash
+/bin/install -c -m 0555 bashbug /tools/bin/bashbug
+/bin/install -c -m 644 ../CHANGES ../COMPAT ../NEWS ../POSIX ../RBASH ../README /tools/share/doc/bash
+( cd ./doc ; make  \
+	man1dir=/tools/share/man/man1 man1ext=.1 \
+	man3dir=/tools/share/man/man3 man3ext=.3 \
+	infodir=/tools/share/info htmldir=/tools/share/doc/bash DESTDIR= install )
+make[1]: Entering directory `/lfsbuild/sources/bash-4.4.12/build/doc'
+/bin/sh ../../support/mkinstalldirs /tools/share/man/man1
+/bin/sh ../../support/mkinstalldirs /tools/share/info
+/bin/sh ../../support/mkinstalldirs /tools/share/doc/bash
+if test -n "/tools/share/doc/bash" ; then \
+	/bin/sh ../../support/mkinstalldirs /tools/share/doc/bash ; \
+fi
+/bin/install -c -m 644 ../../doc/bash.1 /tools/share/man/man1/bash.1
+/bin/install -c -m 644 ../../doc/bashbug.1 /tools/share/man/man1/bashbug.1
+/bin/install -c -m 644 ../../doc/FAQ ../../doc/INTRO /tools/share/doc/bash
+if test -f bash.info; then d=.; else d=../../doc; fi; \
+  /bin/install -c -m 644 $d/bash.info /tools/share/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/tools/share/info/dir /tools/share/info/bash.info; \
+else true; fi
+if test -n "/tools/share/doc/bash" ; then \
+	/bin/install -c -m 644 ../../doc/bash.html /tools/share/doc/bash ; \
+	/bin/install -c -m 644 ../../doc/bashref.html /tools/share/doc/bash ; \
+fi
+make[1]: Leaving directory `/lfsbuild/sources/bash-4.4.12/build/doc'
+( cd ./builtins ; make  DESTDIR= install )
+make[1]: Entering directory `/lfsbuild/sources/bash-4.4.12/build/builtins'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/lfsbuild/sources/bash-4.4.12/build/builtins'
+( cd ./po/ ; make  DESTDIR= install )
+make[1]: Entering directory `/lfsbuild/sources/bash-4.4.12/build/po'
+test -z "en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo da.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo gl.gmo hr.gmo hu.gmo id.gmo it.gmo ja.gmo lt.gmo nb.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo" || make en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo da.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo gl.gmo hr.gmo hu.gmo id.gmo it.gmo ja.gmo lt.gmo nb.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo
+touch stamp-po
+/bin/sh /lfsbuild/sources/bash-4.4.12/build/.././support/mkinstalldirs /tools/share
+installing ../../po/en@quot.gmo as /tools/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing ../../po/en@boldquot.gmo as /tools/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+installing ../../po/af.gmo as /tools/share/locale/af/LC_MESSAGES/bash.mo
+installing ../../po/bg.gmo as /tools/share/locale/bg/LC_MESSAGES/bash.mo
+installing ../../po/ca.gmo as /tools/share/locale/ca/LC_MESSAGES/bash.mo
+installing ../../po/cs.gmo as /tools/share/locale/cs/LC_MESSAGES/bash.mo
+installing ../../po/da.gmo as /tools/share/locale/da/LC_MESSAGES/bash.mo
+installing ../../po/de.gmo as /tools/share/locale/de/LC_MESSAGES/bash.mo
+installing ../../po/el.gmo as /tools/share/locale/el/LC_MESSAGES/bash.mo
+installing ../../po/eo.gmo as /tools/share/locale/eo/LC_MESSAGES/bash.mo
+installing ../../po/es.gmo as /tools/share/locale/es/LC_MESSAGES/bash.mo
+installing ../../po/et.gmo as /tools/share/locale/et/LC_MESSAGES/bash.mo
+installing ../../po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/bash.mo
+installing ../../po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/bash.mo
+installing ../../po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/bash.mo
+installing ../../po/gl.gmo as /tools/share/locale/gl/LC_MESSAGES/bash.mo
+installing ../../po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/bash.mo
+installing ../../po/hu.gmo as /tools/share/locale/hu/LC_MESSAGES/bash.mo
+installing ../../po/id.gmo as /tools/share/locale/id/LC_MESSAGES/bash.mo
+installing ../../po/it.gmo as /tools/share/locale/it/LC_MESSAGES/bash.mo
+installing ../../po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/bash.mo
+installing ../../po/lt.gmo as /tools/share/locale/lt/LC_MESSAGES/bash.mo
+installing ../../po/nb.gmo as /tools/share/locale/nb/LC_MESSAGES/bash.mo
+installing ../../po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/bash.mo
+installing ../../po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/bash.mo
+installing ../../po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/bash.mo
+installing ../../po/ro.gmo as /tools/share/locale/ro/LC_MESSAGES/bash.mo
+installing ../../po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/bash.mo
+installing ../../po/sk.gmo as /tools/share/locale/sk/LC_MESSAGES/bash.mo
+installing ../../po/sl.gmo as /tools/share/locale/sl/LC_MESSAGES/bash.mo
+installing ../../po/sr.gmo as /tools/share/locale/sr/LC_MESSAGES/bash.mo
+installing ../../po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/bash.mo
+installing ../../po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/bash.mo
+installing ../../po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/bash.mo
+installing ../../po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/bash.mo
+installing ../../po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/bash.mo
+installing ../../po/zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /lfsbuild/sources/bash-4.4.12/build/.././support/mkinstalldirs /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /bin/install -c -m 644 ../../po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/lfsbuild/sources/bash-4.4.12/build/po'
+( cd /lfsbuild/sources/bash-4.4.12/build/examples/loadables && make  DESTDIR= install )
+make[1]: Entering directory `/lfsbuild/sources/bash-4.4.12/build/examples/loadables'
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o print.o ../../../examples/loadables/print.c
+gcc -shared -Wl,-soname,print  -L./lib/termcap  -o print print.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o truefalse.o ../../../examples/loadables/truefalse.c
+gcc -shared -Wl,-soname,truefalse  -L./lib/termcap  -o truefalse truefalse.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o sleep.o ../../../examples/loadables/sleep.c
+gcc -shared -Wl,-soname,sleep  -L./lib/termcap  -o sleep sleep.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o finfo.o ../../../examples/loadables/finfo.c
+../../../examples/loadables/finfo.c: In function 'printst':
+../../../examples/loadables/finfo.c:277:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+  ma = major (st->st_rdev);
+             ^~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                          
+../../../examples/loadables/finfo.c:278:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+  mi = minor (st->st_rdev);
+             ^~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                          
+../../../examples/loadables/finfo.c:280:13: warning: In the GNU C Library, "makedev" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "makedev", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "makedev", you should undefine it after including <sys/types.h>.
+  d = makedev (ma, mi);
+             ^~~~~~~~~~                                                                                                                                                                                                                                                                                                                                                                    
+gcc -shared -Wl,-soname,finfo  -L./lib/termcap  -o finfo finfo.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o logname.o ../../../examples/loadables/logname.c
+gcc -shared -Wl,-soname,logname  -L./lib/termcap  -o logname logname.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o basename.o ../../../examples/loadables/basename.c
+gcc -shared -Wl,-soname,basename  -L./lib/termcap  -o basename basename.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o dirname.o ../../../examples/loadables/dirname.c
+gcc -shared -Wl,-soname,dirname  -L./lib/termcap  -o dirname dirname.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o tty.o ../../../examples/loadables/tty.c
+gcc -shared -Wl,-soname,tty  -L./lib/termcap  -o tty tty.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o pathchk.o ../../../examples/loadables/pathchk.c
+gcc -shared -Wl,-soname,pathchk  -L./lib/termcap  -o pathchk pathchk.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o tee.o ../../../examples/loadables/tee.c
+gcc -shared -Wl,-soname,tee  -L./lib/termcap  -o tee tee.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o head.o ../../../examples/loadables/head.c
+gcc -shared -Wl,-soname,head  -L./lib/termcap  -o head head.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o mkdir.o ../../../examples/loadables/mkdir.c
+gcc -shared -Wl,-soname,mkdir  -L./lib/termcap  -o mkdir mkdir.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o rmdir.o ../../../examples/loadables/rmdir.c
+gcc -shared -Wl,-soname,rmdir  -L./lib/termcap  -o rmdir rmdir.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o printenv.o ../../../examples/loadables/printenv.c
+gcc -shared -Wl,-soname,printenv  -L./lib/termcap  -o printenv printenv.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o id.o ../../../examples/loadables/id.c
+gcc -shared -Wl,-soname,id  -L./lib/termcap  -o id id.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o whoami.o ../../../examples/loadables/whoami.c
+gcc -shared -Wl,-soname,whoami  -L./lib/termcap  -o whoami whoami.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o uname.o ../../../examples/loadables/uname.c
+gcc -shared -Wl,-soname,uname  -L./lib/termcap  -o uname uname.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o sync.o ../../../examples/loadables/sync.c
+gcc -shared -Wl,-soname,sync  -L./lib/termcap  -o sync sync.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o push.o ../../../examples/loadables/push.c
+gcc -shared -Wl,-soname,push  -L./lib/termcap  -o push push.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o ln.o ../../../examples/loadables/ln.c
+gcc -shared -Wl,-soname,ln  -L./lib/termcap  -o ln ln.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o unlink.o ../../../examples/loadables/unlink.c
+gcc -shared -Wl,-soname,unlink  -L./lib/termcap  -o unlink unlink.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o realpath.o ../../../examples/loadables/realpath.c
+gcc -shared -Wl,-soname,realpath  -L./lib/termcap  -o realpath realpath.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o strftime.o ../../../examples/loadables/strftime.c
+gcc -shared -Wl,-soname,strftime  -L./lib/termcap  -o strftime strftime.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o mypid.o ../../../examples/loadables/mypid.c
+gcc -shared -Wl,-soname,mypid  -L./lib/termcap  -o mypid mypid.o 
+gcc -fPIC -DHAVE_CONFIG_H -DSHELL  -g -O2 -Wno-parentheses -Wno-format-security -I. -I.. -I../../.. -I../../../lib -I../../../builtins -I../../../examples/loadables -I../../../include -I/lfsbuild/sources/bash-4.4.12/build -I/lfsbuild/sources/bash-4.4.12/build/lib -I/lfsbuild/sources/bash-4.4.12/build/builtins  -c -o setpgid.o ../../../examples/loadables/setpgid.c
+gcc -shared -Wl,-soname,setpgid  -L./lib/termcap  -o setpgid setpgid.o 
+mkdir -p -- /tools/lib/bash
+make[2]: Entering directory `/lfsbuild/sources/bash-4.4.12/build'
+mkdir -p -- /tools/include/bash
+mkdir -p -- /tools/include/bash/builtins
+mkdir -p -- /tools/include/bash/include
+/bin/install: cannot stat '/lfsbuild/sources/bash-4.4.12/build/y.tab.h': No such file or directory
+/bin/install -c -m 644 ./support/bash.pc /tools/lib/pkgconfig/bash.pc
+make[2]: Leaving directory `/lfsbuild/sources/bash-4.4.12/build'
+installing example loadable builtins in /tools/lib/bash
+print
+truefalse
+sleep
+finfo
+logname
+basename
+dirname
+tty
+pathchk
+tee
+head
+mkdir
+rmdir
+printenv
+id
+whoami
+uname
+sync
+push
+ln
+unlink
+realpath
+strftime
+mypid
+setpgid
+make[1]: Leaving directory `/lfsbuild/sources/bash-4.4.12/build/examples/loadables'

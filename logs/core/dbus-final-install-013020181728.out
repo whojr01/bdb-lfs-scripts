@@ -1,0 +1,139 @@
+Making install in dbus
+make[1]: Entering directory '/sources/dbus-1.12.2/build/dbus'
+make  install-am
+make[2]: Entering directory '/sources/dbus-1.12.2/build/dbus'
+make[3]: Entering directory '/sources/dbus-1.12.2/build/dbus'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdbus-1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libdbus-1.so.3.19.4 /usr/lib/libdbus-1.so.3.19.4
+libtool: install: (cd /usr/lib && { ln -s -f libdbus-1.so.3.19.4 libdbus-1.so.3 || { rm -f libdbus-1.so.3 && ln -s libdbus-1.so.3.19.4 libdbus-1.so.3; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdbus-1.so.3.19.4 libdbus-1.so || { rm -f libdbus-1.so && ln -s libdbus-1.so.3.19.4 libdbus-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdbus-1.lai /usr/lib/libdbus-1.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 ../../dbus/dbus.h ../../dbus/dbus-address.h ../../dbus/dbus-bus.h ../../dbus/dbus-connection.h ../../dbus/dbus-errors.h ../../dbus/dbus-macros.h ../../dbus/dbus-memory.h ../../dbus/dbus-message.h ../../dbus/dbus-misc.h ../../dbus/dbus-pending-call.h ../../dbus/dbus-protocol.h ../../dbus/dbus-server.h ../../dbus/dbus-shared.h ../../dbus/dbus-signature.h ../../dbus/dbus-syntax.h ../../dbus/dbus-threads.h ../../dbus/dbus-types.h '/usr/include/dbus-1.0/dbus'
+ /bin/mkdir -p '/usr/lib/dbus-1.0/include/dbus'
+ /usr/bin/install -c -m 644 dbus-arch-deps.h '/usr/lib/dbus-1.0/include/dbus'
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/dbus'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/dbus'
+make[1]: Leaving directory '/sources/dbus-1.12.2/build/dbus'
+Making install in bus
+make[1]: Entering directory '/sources/dbus-1.12.2/build/bus'
+make[2]: Entering directory '/sources/dbus-1.12.2/build/bus'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-daemon '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/dbus-daemon /usr/bin/dbus-daemon
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-daemon-launch-helper '/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/dbus-daemon-launch-helper /usr/libexec/dbus-daemon-launch-helper
+make  install-exec-hook
+make[3]: Entering directory '/sources/dbus-1.12.2/build/bus'
+if test `id -u` -eq 0; then \
+	chown root:messagebus /usr/libexec/dbus-daemon-launch-helper; \
+	chmod 4750 /usr/libexec/dbus-daemon-launch-helper; \
+else \
+	echo "Not installing /usr/libexec/dbus-daemon-launch-helper binary setuid!"; \
+	echo "You'll need to manually set permissions to root:messagebus and permissions 4750"; \
+fi
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/bus'
+ /bin/mkdir -p '/usr/share/dbus-1'
+ /usr/bin/install -c -m 644 session.conf system.conf '/usr/share/dbus-1'
+ /bin/mkdir -p '/usr/share/doc/d-bus-1.12.2/examples'
+ /usr/bin/install -c -m 644 example-system-enable-stats.conf example-session-disable-stats.conf '/usr/share/doc/d-bus-1.12.2/examples'
+ /bin/mkdir -p '/etc/dbus-1'
+ /usr/bin/install -c -m 644 legacy-config/session.conf legacy-config/system.conf '/etc/dbus-1'
+ /bin/mkdir -p '/usr/lib/sysusers.d'
+ /usr/bin/install -c -m 644 sysusers.d/dbus.conf '/usr/lib/sysusers.d'
+ /bin/mkdir -p '/usr/lib/tmpfiles.d'
+ /usr/bin/install -c -m 644 tmpfiles.d/dbus.conf '/usr/lib/tmpfiles.d'
+ /bin/mkdir -p '/lib/systemd/system'
+ /usr/bin/install -c -m 644 dbus.service dbus.socket '/lib/systemd/system'
+make  install-data-hook
+make[3]: Entering directory '/sources/dbus-1.12.2/build/bus'
+/bin/sh /sources/dbus-1.12.2/build-aux/install-sh -d /usr/share/dbus-1/session.d
+/bin/sh /sources/dbus-1.12.2/build-aux/install-sh -d /usr/share/dbus-1/services
+/bin/sh /sources/dbus-1.12.2/build-aux/install-sh -d /var/run/dbus
+/bin/sh /sources/dbus-1.12.2/build-aux/install-sh -d /usr/share/dbus-1/system.d
+/bin/sh /sources/dbus-1.12.2/build-aux/install-sh -d /usr/share/dbus-1/system-services
+/bin/sh /sources/dbus-1.12.2/build-aux/install-sh -d /lib/systemd/system/sockets.target.wants
+ln -fs ../dbus.socket /lib/systemd/system/sockets.target.wants/dbus.socket
+/bin/sh /sources/dbus-1.12.2/build-aux/install-sh -d /lib/systemd/system/multi-user.target.wants
+ln -fs ../dbus.service /lib/systemd/system/multi-user.target.wants/dbus.service
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/bus'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/bus'
+make[1]: Leaving directory '/sources/dbus-1.12.2/build/bus'
+Making install in tools
+make[1]: Entering directory '/sources/dbus-1.12.2/build/tools'
+make[2]: Entering directory '/sources/dbus-1.12.2/build/tools'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-launch dbus-monitor dbus-send dbus-test-tool dbus-update-activation-environment dbus-cleanup-sockets dbus-run-session dbus-uuidgen '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/dbus-launch /usr/bin/dbus-launch
+libtool: install: /usr/bin/install -c .libs/dbus-monitor /usr/bin/dbus-monitor
+libtool: install: /usr/bin/install -c .libs/dbus-send /usr/bin/dbus-send
+libtool: install: /usr/bin/install -c .libs/dbus-test-tool /usr/bin/dbus-test-tool
+libtool: install: /usr/bin/install -c .libs/dbus-update-activation-environment /usr/bin/dbus-update-activation-environment
+libtool: install: /usr/bin/install -c dbus-cleanup-sockets /usr/bin/dbus-cleanup-sockets
+libtool: install: /usr/bin/install -c .libs/dbus-run-session /usr/bin/dbus-run-session
+libtool: install: /usr/bin/install -c .libs/dbus-uuidgen /usr/bin/dbus-uuidgen
+/bin/mkdir -p /var/lib/dbus
+ /bin/mkdir -p '/usr/share/doc/d-bus-1.12.2/examples'
+ /usr/bin/install -c ../../tools/GetAllMatchRules.py '/usr/share/doc/d-bus-1.12.2/examples'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/tools'
+make[1]: Leaving directory '/sources/dbus-1.12.2/build/tools'
+Making install in test
+make[1]: Entering directory '/sources/dbus-1.12.2/build/test'
+Making install in .
+make[2]: Entering directory '/sources/dbus-1.12.2/build/test'
+  GEN      copy-config-local
+  GEN      uninstalled-config-local
+make[3]: Entering directory '/sources/dbus-1.12.2/build/test'
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/test'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/test'
+Making install in name-test
+make[2]: Entering directory '/sources/dbus-1.12.2/build/test/name-test'
+make[3]: Entering directory '/sources/dbus-1.12.2/build/test/name-test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/dbus-1.12.2/build/test/name-test'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/test/name-test'
+make[1]: Leaving directory '/sources/dbus-1.12.2/build/test'
+Making install in doc
+make[1]: Entering directory '/sources/dbus-1.12.2/build/doc'
+make[2]: Entering directory '/sources/dbus-1.12.2/build/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/d-bus-1.12.2'
+ /usr/bin/install -c -m 644 ../../doc/system-activation.txt '/usr/share/doc/d-bus-1.12.2'
+ /bin/mkdir -p '/usr/share/xml/dbus-1'
+ /usr/bin/install -c -m 644 ../../doc/busconfig.dtd ../../doc/introspect.dtd '/usr/share/xml/dbus-1'
+ /bin/mkdir -p '/usr/share/doc/d-bus-1.12.2'
+ /usr/bin/install -c -m 644 ../../doc/diagram.png ../../doc/diagram.svg '/usr/share/doc/d-bus-1.12.2'
+ /bin/mkdir -p '/usr/share/doc/d-bus-1.12.2'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build/doc'
+make[1]: Leaving directory '/sources/dbus-1.12.2/build/doc'
+make[1]: Entering directory '/sources/dbus-1.12.2/build'
+make[2]: Entering directory '/sources/dbus-1.12.2/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/cmake/DBus1'
+ /usr/bin/install -c -m 644 cmake/DBus1Config.cmake cmake/DBus1ConfigVersion.cmake '/usr/lib/cmake/DBus1'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dbus-1.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/dbus-1.12.2/build'
+make[1]: Leaving directory '/sources/dbus-1.12.2/build'

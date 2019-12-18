@@ -1,0 +1,2398 @@
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.linuxx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /usr
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+    - symlinks supported       : yes
+    - C++11 mutex              : yes
+    - lockfree boost::atomic_flag : yes
+    - Boost.Config Feature Check: cxx11_auto_declarations : yes
+    - Boost.Config Feature Check: cxx11_constexpr : yes
+    - Boost.Config Feature Check: cxx11_defaulted_functions : yes
+    - Boost.Config Feature Check: cxx11_final : yes
+    - Boost.Config Feature Check: cxx11_hdr_mutex : yes
+    - Boost.Config Feature Check: cxx11_hdr_regex : yes
+    - Boost.Config Feature Check: cxx11_hdr_tuple : yes
+    - Boost.Config Feature Check: cxx11_lambdas : yes
+    - Boost.Config Feature Check: cxx11_noexcept : yes
+    - Boost.Config Feature Check: cxx11_nullptr : yes
+    - Boost.Config Feature Check: cxx11_rvalue_references : yes
+    - Boost.Config Feature Check: cxx11_template_aliases : yes
+    - Boost.Config Feature Check: cxx11_thread_local : yes
+    - Boost.Config Feature Check: cxx11_variadic_templates : yes
+    - has_icu builds           : no
+warning: Graph library does not contain MPI-based parallel components.
+note: to enable them, add "using mpi ;" to your user-config.jam
+    - zlib                     : yes
+    - bzip2                    : yes
+    - lzma                     : yes
+    - iconv (libc)             : yes
+    - icu                      : no
+    - icu (lib64)              : no
+    - native-atomic-int32-supported : yes
+    - native-syslog-supported  : yes
+    - pthread-supports-robust-mutexes : yes
+    - compiler-supports-visibility : yes
+    - compiler-supports-ssse3  : yes
+    - compiler-supports-avx2   : yes
+    - gcc visibility           : yes
+    - long double support      : yes
+warning: skipping optional Message Passing Interface (MPI) library.
+note: to enable MPI support, add "using mpi ;" to user-config.jam.
+note: to suppress this message, pass "--without-mpi" to bjam.
+note: otherwise, you can safely ignore this message.
+    - libbacktrace builds      : no
+    - addr2line builds         : yes
+    - WinDbg builds            : no
+    - WinDbgCached builds      : no
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : building
+    - fiber                    : building
+    - filesystem               : building
+    - graph                    : building
+    - graph_parallel           : building
+    - iostreams                : building
+    - locale                   : building
+    - log                      : building
+    - math                     : building
+    - mpi                      : building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : building
+    - signals                  : building
+    - stacktrace               : building
+    - system                   : building
+    - test                     : building
+    - thread                   : building
+    - timer                    : building
+    - type_erasure             : building
+    - wave                     : building
+
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...found 12950 targets...
+...updating 725 targets...
+gcc.compile.c++ bin.v2/libs/atomic/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lockpool.o
+gcc.link.dll bin.v2/libs/atomic/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_atomic.so.1.66.0
+common.copy stage/lib/libboost_atomic.so.1.66.0
+ln-UNIX stage/lib/libboost_atomic.so
+gcc.compile.c++ bin.v2/libs/system/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/error_code.o
+gcc.link.dll bin.v2/libs/system/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_system.so.1.66.0
+common.copy stage/lib/libboost_system.so.1.66.0
+ln-UNIX stage/lib/libboost_system.so
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/chrono.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/thread_clock.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/process_cpu_clocks.o
+gcc.link.dll bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_chrono.so.1.66.0
+common.copy stage/lib/libboost_chrono.so.1.66.0
+ln-UNIX stage/lib/libboost_chrono.so
+gcc.compile.c bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/alloc_lib.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/dlmalloc.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/global_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/monotonic_buffer_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/pool_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/synchronized_pool_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/unsynchronized_pool_resource.o
+gcc.link.dll bin.v2/libs/container/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_container.so.1.66.0
+common.copy stage/lib/libboost_container.so.1.66.0
+ln-UNIX stage/lib/libboost_container.so
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/asm/make_x86_64_sysv_elf_gas.o
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/asm/jump_x86_64_sysv_elf_gas.o
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/asm/ontop_x86_64_sysv_elf_gas.o
+gcc.compile.c++ bin.v2/libs/context/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/stack_traits.o
+gcc.link.dll bin.v2/libs/context/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_context.so.1.66.0
+common.copy stage/lib/libboost_context.so.1.66.0
+ln-UNIX stage/lib/libboost_context.so
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/pthread/thread.o
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/pthread/once.o
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/future.o
+gcc.link.dll bin.v2/libs/thread/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_thread.so.1.66.0
+common.copy stage/lib/libboost_thread.so.1.66.0
+ln-UNIX stage/lib/libboost_thread.so
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/detail/coroutine_context.o
+In file included from ./boost/coroutine/detail/coroutine_context.hpp:16:0,
+                 from libs/coroutine/src/detail/coroutine_context.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^~~~~~~
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/exceptions.o
+In file included from ./boost/coroutine/exceptions.hpp:19:0,
+                 from libs/coroutine/src/exceptions.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^~~~~~~
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/stack_traits.o
+In file included from ./boost/coroutine/stack_traits.hpp:14:0,
+                 from libs/coroutine/src/posix/stack_traits.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^~~~~~~
+gcc.link.dll bin.v2/libs/coroutine/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_coroutine.so.1.66.0
+common.copy stage/lib/libboost_coroutine.so.1.66.0
+ln-UNIX stage/lib/libboost_coroutine.so
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/gregorian/greg_month.o
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/gregorian/greg_weekday.o
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/gregorian/date_generators.o
+gcc.link.dll bin.v2/libs/date_time/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_date_time.so.1.66.0
+common.copy stage/lib/libboost_date_time.so.1.66.0
+ln-UNIX stage/lib/libboost_date_time.so
+...on 100th target...
+gcc.compile.c++ bin.v2/libs/exception/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/clone_current_exception_non_intrusive.o
+gcc.archive bin.v2/libs/exception/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/libboost_exception.a
+common.copy stage/lib/libboost_exception.a
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/codecvt_error_category.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/operations.o
+libs/filesystem/src/operations.cpp: In function 'int {anonymous}::readdir_r_simulator(DIR*, dirent*, dirent**)':
+libs/filesystem/src/operations.cpp:2181:18: warning: 'int readdir_r(DIR*, dirent*, dirent**)' is deprecated [-Wdeprecated-declarations]
+       { return ::readdir_r(dirp, entry, result); }
+                  ^~~~~~~~~
+In file included from /usr/include/features.h:423:0,
+                 from /usr/include/c++/7.2.0/x86_64-pc-linux-gnu/bits/os_defines.h:39,
+                 from /usr/include/c++/7.2.0/x86_64-pc-linux-gnu/bits/c++config.h:533,
+                 from /usr/include/c++/7.2.0/cstddef:49,
+                 from ./boost/config/compiler/gcc.hpp:165,
+                 from ./boost/config.hpp:39,
+                 from ./boost/filesystem/operations.hpp:18,
+                 from libs/filesystem/src/operations.cpp:44:
+/usr/include/dirent.h:189:12: note: declared here
+ extern int __REDIRECT (readdir_r,
+            ^
+libs/filesystem/src/operations.cpp:2181:47: warning: 'int readdir_r(DIR*, dirent*, dirent**)' is deprecated [-Wdeprecated-declarations]
+       { return ::readdir_r(dirp, entry, result); }
+                                               ^
+In file included from /usr/include/features.h:423:0,
+                 from /usr/include/c++/7.2.0/x86_64-pc-linux-gnu/bits/os_defines.h:39,
+                 from /usr/include/c++/7.2.0/x86_64-pc-linux-gnu/bits/c++config.h:533,
+                 from /usr/include/c++/7.2.0/cstddef:49,
+                 from ./boost/config/compiler/gcc.hpp:165,
+                 from ./boost/config.hpp:39,
+                 from ./boost/filesystem/operations.hpp:18,
+                 from libs/filesystem/src/operations.cpp:44:
+/usr/include/dirent.h:189:12: note: declared here
+ extern int __REDIRECT (readdir_r,
+            ^
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/path.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/path_traits.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/portability.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/unique_path.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/windows_file_codecvt.o
+gcc.link.dll bin.v2/libs/filesystem/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_filesystem.so.1.66.0
+common.copy stage/lib/libboost_filesystem.so.1.66.0
+ln-UNIX stage/lib/libboost_filesystem.so
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/numa/linux/pin_thread.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/numa/linux/topology.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/algo/algorithm.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/algo/round_robin.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/algo/shared_work.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/algo/work_stealing.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/algo/numa/work_stealing.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/barrier.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/condition_variable.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/context.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fiber.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/future.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/mutex.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/properties.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/recursive_mutex.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/recursive_timed_mutex.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/timed_mutex.o
+gcc.compile.c++ bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/scheduler.o
+gcc.link.dll bin.v2/libs/fiber/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_fiber.so.1.66.0
+common.copy stage/lib/libboost_fiber.so.1.66.0
+ln-UNIX stage/lib/libboost_fiber.so
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/c_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cpp_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cregex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fileiter.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/icu.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instances.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix_api.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/regex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/regex_debug.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/regex_raw_buffer.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/regex_traits_defaults.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/static_mutex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/w32_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/wc_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/wide_posix_api.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/winstances.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/usinstances.o
+gcc.link.dll bin.v2/libs/regex/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_regex.so.1.66.0
+common.copy stage/lib/libboost_regex.so.1.66.0
+ln-UNIX stage/lib/libboost_regex.so
+gcc.compile.c++ bin.v2/libs/graph/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/read_graphviz_new.o
+gcc.compile.c++ bin.v2/libs/graph/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/graphml.o
+gcc.link.dll bin.v2/libs/graph/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_graph.so.1.66.0
+common.copy stage/lib/libboost_graph.so.1.66.0
+ln-UNIX stage/lib/libboost_graph.so
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/file_descriptor.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/mapped_file.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/bzip2.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/gzip.o
+...on 200th target...
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lzma.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/zlib.o
+gcc.link.dll bin.v2/libs/iostreams/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_iostreams.so.1.66.0
+common.copy stage/lib/libboost_iostreams.so.1.66.0
+ln-UNIX stage/lib/libboost_iostreams.so
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/encoding/codepage.o
+libs/locale/src/encoding/codepage.cpp: In function 'std::__cxx11::string boost::locale::conv::impl::convert_between(const char*, const char*, const char*, const char*, boost::locale::conv::method_type)':
+libs/locale/src/encoding/codepage.cpp:42:26: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                     std::auto_ptr<converter_between> cvt;
+                          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/encoding/iconv_codepage.ipp:11,
+                 from libs/locale/src/encoding/codepage.cpp:16:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/encoding/codepage.cpp: In function 'std::__cxx11::basic_string<_CharT> boost::locale::conv::impl::convert_to(const char*, const char*, const char*, boost::locale::conv::method_type)':
+libs/locale/src/encoding/codepage.cpp:68:26: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                     std::auto_ptr<converter_to_utf<CharType> > cvt;
+                          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/encoding/iconv_codepage.ipp:11,
+                 from libs/locale/src/encoding/codepage.cpp:16:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/encoding/codepage.cpp: In function 'std::__cxx11::string boost::locale::conv::impl::convert_from(const CharType*, const CharType*, const char*, boost::locale::conv::method_type)':
+libs/locale/src/encoding/codepage.cpp:94:26: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                     std::auto_ptr<converter_from_utf<CharType> > cvt;
+                          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/encoding/iconv_codepage.ipp:11,
+                 from libs/locale/src/encoding/codepage.cpp:16:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/date_time.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/format.o
+In file included from libs/locale/src/shared/format.cpp:9:0:
+./boost/locale/format.hpp:124:22: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 std::auto_ptr<data> d;
+                      ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/message.hpp:16,
+                 from ./boost/locale/format.hpp:16,
+                 from libs/locale/src/shared/format.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/shared/format.cpp:10:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/message.hpp:16,
+                 from ./boost/locale/format.hpp:16,
+                 from libs/locale/src/shared/format.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/formatting.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/generator.o
+In file included from libs/locale/src/shared/generator.cpp:9:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/shared/generator.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/shared/generator.cpp:11:0:
+./boost/locale/localization_backend.hpp:107:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<localization_backend> get() const;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/shared/generator.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/shared/generator.cpp:11:0:
+./boost/locale/localization_backend.hpp:114:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             void add_backend(std::string const &name,std::auto_ptr<localization_backend> backend);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/shared/generator.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/shared/generator.cpp:11:0:
+./boost/locale/localization_backend.hpp:146:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<impl> pimpl_;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/shared/generator.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/ids.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/localization_backend.o
+In file included from ./boost/locale/localization_backend.hpp:11:0,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/shared/localization_backend.cpp:9:0:
+./boost/locale/localization_backend.hpp:107:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<localization_backend> get() const;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/shared/localization_backend.cpp:9:0:
+./boost/locale/localization_backend.hpp:114:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             void add_backend(std::string const &name,std::auto_ptr<localization_backend> backend);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/shared/localization_backend.cpp:9:0:
+./boost/locale/localization_backend.hpp:146:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<impl> pimpl_;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/localization_backend.cpp:49:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<localization_backend> get() const
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/localization_backend.cpp:57:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             void add_backend(std::string const &name,std::auto_ptr<localization_backend> backend_ptr)
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/localization_backend.cpp: In member function 'std::auto_ptr<boost::locale::localization_backend> boost::locale::localization_backend_manager::impl::get() const':
+libs/locale/src/shared/localization_backend.cpp:54:22: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 std::auto_ptr<localization_backend> res(new actual_backend(backends,default_backends_));
+                      ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/localization_backend.cpp: At global scope:
+libs/locale/src/shared/localization_backend.cpp:181:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<localization_backend> localization_backend_manager::get() const
+              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/localization_backend.cpp:186:85: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         void localization_backend_manager::add_backend(std::string const &name,std::auto_ptr<localization_backend> backend)
+                                                                                     ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/localization_backend.cpp: In constructor 'boost::locale::{anonymous}::init::init()':
+libs/locale/src/shared/localization_backend.cpp:220:26: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                     std::auto_ptr<localization_backend> backend;
+                          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/shared/localization_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/message.o
+In file included from libs/locale/src/shared/message.cpp:35:0:
+libs/locale/src/shared/mo_lambda.hpp:27:30: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 typedef std::auto_ptr<plural> plural_ptr;
+                              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/message.hpp:16,
+                 from libs/locale/src/shared/message.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/message.cpp: In member function 'bool boost::locale::gnu_gettext::mo_message<CharType>::load_file(const string&, const string&, const string&, int, const callback_type&)':
+libs/locale/src/shared/message.cpp:630:26: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                     std::auto_ptr<mo_file> mo;
+                          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/message.hpp:16,
+                 from libs/locale/src/shared/message.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/message.cpp:654:30: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                         std::auto_ptr<lambda::plural> ptr=lambda::compile(plural.c_str());
+                              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/message.hpp:16,
+                 from libs/locale/src/shared/message.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/shared/mo_lambda.o
+In file included from libs/locale/src/shared/mo_lambda.cpp:8:0:
+libs/locale/src/shared/mo_lambda.hpp:27:30: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 typedef std::auto_ptr<plural> plural_ptr;
+                              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from libs/locale/src/shared/mo_lambda.hpp:11,
+                 from libs/locale/src/shared/mo_lambda.cpp:8:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/shared/mo_lambda.cpp:220:16: warning: 'boost::locale::gnu_gettext::lambda::plural_ptr boost::locale::gnu_gettext::lambda::{anonymous}::un_factory(int, boost::locale::gnu_gettext::lambda::plural_ptr)' defined but not used [-Wunused-function]
+     plural_ptr un_factory(int value,plural_ptr op)
+                ^~~~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/util/codecvt_converter.o
+In file included from libs/locale/src/util/codecvt_converter.cpp:9:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/codecvt_converter.cpp:15:0:
+./boost/locale/util.hpp:179:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_utf8_converter();
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/codecvt_converter.cpp:15:0:
+./boost/locale/util.hpp:187:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding);
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/codecvt_converter.cpp:15:0:
+./boost/locale/util.hpp:202:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp:272:10: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding)
+          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::create_simple_converter(const string&)':
+libs/locale/src/util/codecvt_converter.cpp:274:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> res;
+              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:280:10: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<base_converter> create_utf8_converter()
+          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::create_utf8_converter()':
+libs/locale/src/util/codecvt_converter.cpp:282:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> res(new utf8_converter());
+              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:290:29: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         code_converter(std::auto_ptr<base_converter> cvt,size_t refs = 0) :
+                             ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp:298:22: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         typedef std::auto_ptr<base_converter> state_type;
+                      ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp:305:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> initial_state(generic_codecvt_base::initial_convertion_state /* unused */) const
+              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp:313:41: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         utf::code_point to_unicode(std::auto_ptr<base_converter> &ptr,char const *&begin,char const *end) const
+                                         ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp:321:43: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         utf::code_point from_unicode(std::auto_ptr<base_converter> &ptr,utf::code_point u,char *begin,char const *end) const
+                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp:330:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> cvt_;
+              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp: In member function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::code_converter<CharType>::initial_state(boost::locale::generic_codecvt_base::initial_convertion_state) const':
+libs/locale/src/util/codecvt_converter.cpp:307:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<base_converter> r;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:336:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type)
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from libs/locale/src/util/codecvt_converter.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/util/default_locale.o
+In file included from ./boost/locale/util.hpp:14:0,
+                 from libs/locale/src/util/default_locale.cpp:10:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/util.hpp:10,
+                 from libs/locale/src/util/default_locale.cpp:10:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/default_locale.cpp:10:0:
+./boost/locale/util.hpp:179:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_utf8_converter();
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/util.hpp:10,
+                 from libs/locale/src/util/default_locale.cpp:10:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/default_locale.cpp:10:0:
+./boost/locale/util.hpp:187:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding);
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/util.hpp:10,
+                 from libs/locale/src/util/default_locale.cpp:10:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/default_locale.cpp:10:0:
+./boost/locale/util.hpp:202:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/util.hpp:10,
+                 from libs/locale/src/util/default_locale.cpp:10:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/util/info.o
+In file included from libs/locale/src/util/info.cpp:12:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/util/info.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/info.cpp:14:0:
+./boost/locale/util.hpp:179:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_utf8_converter();
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/util/info.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/info.cpp:14:0:
+./boost/locale/util.hpp:187:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding);
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/util/info.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/util/info.cpp:14:0:
+./boost/locale/util.hpp:202:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/util/info.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/util/locale_data.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/codecvt.o
+In file included from ./boost/locale/util.hpp:14:0,
+                 from libs/locale/src/posix/codecvt.cpp:12:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/codecvt.cpp:12:0:
+./boost/locale/util.hpp:179:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_utf8_converter();
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/codecvt.cpp:12:0:
+./boost/locale/util.hpp:187:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding);
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/codecvt.cpp:12:0:
+./boost/locale/util.hpp:202:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/codecvt.cpp:19:0:
+libs/locale/src/posix/codecvt.hpp:20:10: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<util::base_converter> create_iconv_converter(std::string const &encoding);
+          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/posix/codecvt.cpp:214:10: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<util::base_converter> create_iconv_converter(std::string const &encoding)
+          ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/posix/codecvt.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::impl_posix::create_iconv_converter(const string&)':
+libs/locale/src/posix/codecvt.cpp:216:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<util::base_converter> cvt;
+              ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/posix/codecvt.cpp: In function 'std::locale boost::locale::impl_posix::create_codecvt(const std::locale&, const string&, boost::locale::character_facet_type)':
+libs/locale/src/posix/codecvt.cpp:243:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<util::base_converter> cvt;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/info.hpp:15,
+                 from ./boost/locale/encoding.hpp:16,
+                 from libs/locale/src/posix/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/collate.o
+In file included from libs/locale/src/posix/collate.cpp:20:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/posix/collate.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/converter.o
+In file included from libs/locale/src/posix/converter.cpp:15:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/posix/converter.cpp:13:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/numeric.o
+In file included from libs/locale/src/posix/numeric.cpp:16:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/posix/numeric.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/posix_backend.o
+In file included from ./boost/locale/localization_backend.hpp:11:0,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/posix_backend.cpp:12:0:
+./boost/locale/localization_backend.hpp:107:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<localization_backend> get() const;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/posix_backend.cpp:12:0:
+./boost/locale/localization_backend.hpp:114:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             void add_backend(std::string const &name,std::auto_ptr<localization_backend> backend);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/posix_backend.cpp:12:0:
+./boost/locale/localization_backend.hpp:146:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<impl> pimpl_;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/posix_backend.cpp:20:0:
+./boost/locale/util.hpp:179:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_utf8_converter();
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/posix_backend.cpp:20:0:
+./boost/locale/util.hpp:187:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding);
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/posix/posix_backend.cpp:20:0:
+./boost/locale/util.hpp:202:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/posix/posix_backend.cpp:12:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/std/codecvt.o
+In file included from ./boost/locale/util.hpp:14:0,
+                 from libs/locale/src/std/codecvt.cpp:11:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/std/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/codecvt.cpp:11:0:
+./boost/locale/util.hpp:179:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_utf8_converter();
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/std/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/codecvt.cpp:11:0:
+./boost/locale/util.hpp:187:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding);
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/std/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/codecvt.cpp:11:0:
+./boost/locale/util.hpp:202:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/std/codecvt.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/std/collate.o
+In file included from libs/locale/src/std/all_generator.hpp:11:0,
+                 from libs/locale/src/std/collate.cpp:13:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/std/collate.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/std/converter.o
+In file included from libs/locale/src/std/converter.cpp:17:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/std/converter.cpp:15:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/std/numeric.o
+In file included from libs/locale/src/std/numeric.cpp:13:0:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/std/numeric.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/std/std_backend.o
+In file included from ./boost/locale/localization_backend.hpp:11:0,
+                 from libs/locale/src/std/std_backend.cpp:9:
+./boost/locale/generator.hpp:223:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<data> d;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/std/std_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/std_backend.cpp:9:0:
+./boost/locale/localization_backend.hpp:107:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<localization_backend> get() const;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/std/std_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/std_backend.cpp:9:0:
+./boost/locale/localization_backend.hpp:114:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             void add_backend(std::string const &name,std::auto_ptr<localization_backend> backend);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/std/std_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/std_backend.cpp:9:0:
+./boost/locale/localization_backend.hpp:146:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<impl> pimpl_;
+                  ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/std/std_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/std_backend.cpp:14:0:
+./boost/locale/util.hpp:179:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_utf8_converter();
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/std/std_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/std_backend.cpp:14:0:
+./boost/locale/util.hpp:187:28: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     BOOST_LOCALE_DECL std::auto_ptr<base_converter> create_simple_converter(std::string const &encoding);
+                            ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/std/std_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/locale/src/std/std_backend.cpp:14:0:
+./boost/locale/util.hpp:202:59: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type);
+                                                           ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from ./boost/locale/generator.hpp:17,
+                 from ./boost/locale/localization_backend.hpp:11,
+                 from libs/locale/src/std/std_backend.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/util/gregorian.o
+libs/locale/src/util/gregorian.cpp: In member function 'int boost::locale::util::gregorian_calendar::get_diff(boost::locale::period::marks::period_mark, int, const boost::locale::util::gregorian_calendar*) const':
+libs/locale/src/util/gregorian.cpp:674:22: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 std::auto_ptr<gregorian_calendar> self(clone());
+                      ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/util/gregorian.cpp:13:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+libs/locale/src/util/gregorian.cpp: In member function 'virtual int boost::locale::util::gregorian_calendar::difference(const boost::locale::abstract_calendar*, boost::locale::period::marks::period_mark) const':
+libs/locale/src/util/gregorian.cpp:695:22: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 std::auto_ptr<gregorian_calendar> keeper;
+                      ^~~~~~~~
+In file included from /usr/include/c++/7.2.0/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7.2.0/locale:43,
+                 from libs/locale/src/util/gregorian.cpp:13:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.link.dll bin.v2/libs/locale/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_locale.so.1.66.0
+common.copy stage/lib/libboost_locale.so.1.66.0
+ln-UNIX stage/lib/libboost_locale.so
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/attribute_name.o
+In file included from ./boost/intrusive/detail/rbtree_node.hpp:29:0,
+                 from ./boost/intrusive/set_hook.hpp:20,
+                 from ./boost/intrusive/rbtree.hpp:21,
+                 from ./boost/intrusive/set.hpp:20,
+                 from libs/log/src/attribute_name.cpp:25:
+./boost/intrusive/pointer_plus_bits.hpp: In static member function 'static boost::log::v2_mt_posix::attribute_name::id_type boost::log::v2_mt_posix::attribute_name::get_id_from_string(const char*)':
+./boost/intrusive/pointer_plus_bits.hpp:76:48: warning: '<anonymous>' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       n = pointer(uintptr_t(p) | (uintptr_t(n) & Mask));
+                                  ~~~~~~~~~~~~~~^~~~~~~
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/attribute_set.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/attribute_value_set.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/code_conversion.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/core.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/record_ostream.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/severity_level.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/global_logger_storage.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/named_scope.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/process_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/process_id.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/thread_id.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/timer.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/exceptions.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/default_attribute_names.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/default_sink.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/text_ostream_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/text_file_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/text_multifile_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/thread_specific.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/once_block.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/timestamp.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/threadsafe_queue.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/event.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/trivial.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/spirit_encoding.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/date_time_format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/named_scope_format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/unhandled_exception_count.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/permissions.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/dump.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/dump_avx2.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/dump_ssse3.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/ipc_reliable_message_queue.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/posix/object_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/syslog_backend.o
+gcc.link.dll bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_log.so.1.66.0
+common.copy stage/lib/libboost_log.so.1.66.0
+ln-UNIX stage/lib/libboost_log.so
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/parser_utils.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/init_from_stream.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/init_from_settings.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/settings_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/filter_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/formatter_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/default_filter_factory.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/matches_relation_factory.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/setup/default_formatter_factory.o
+gcc.link.dll bin.v2/libs/log/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_log_setup.so.1.66.0
+common.copy stage/lib/libboost_log_setup.so.1.66.0
+ln-UNIX stage/lib/libboost_log_setup.so
+...on 300th target...
+gcc.compile.c++.pch bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/../src/tr1/pch.hpp.gch
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/assoc_laguerre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/assoc_legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/beta.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_2.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_3.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_i.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_j.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_k.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_neumann.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_2.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_3.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/expint.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/hermite.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/laguerre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/riemann_zeta.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_bessel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_neumann.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_math_tr1.so.1.66.0
+common.copy stage/lib/libboost_math_tr1.so.1.66.0
+ln-UNIX stage/lib/libboost_math_tr1.so
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/assoc_laguerref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/assoc_legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/betaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_2f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_3f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_if.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_jf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_kf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_neumannf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_2f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_3f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/expintf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/hermitef.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/laguerref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/riemann_zetaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_besself.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_neumannf.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_math_tr1f.so.1.66.0
+common.copy stage/lib/libboost_math_tr1f.so.1.66.0
+ln-UNIX stage/lib/libboost_math_tr1f.so
+gcc.compile.c++ bin.v2/libs/math/config/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/has_long_double_support.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/assoc_laguerrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/assoc_legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/betal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_2l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/comp_ellint_3l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_il.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_jl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_bessel_kl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cyl_neumannl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_2l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/ellint_3l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/expintl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/hermitel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/laguerrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/riemann_zetal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_bessell.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/sph_neumannl.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_math_tr1l.so.1.66.0
+common.copy stage/lib/libboost_math_tr1l.so.1.66.0
+ln-UNIX stage/lib/libboost_math_tr1l.so
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/acosh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/asinh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/atanh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cbrt.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/copysign.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/erfc.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/erf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/expm1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fmax.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fmin.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fpclassify.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/hypot.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lgamma.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/llround.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/log1p.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lround.o
+...on 400th target...
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/nextafter.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/nexttoward.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/round.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/tgamma.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/trunc.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_math_c99.so.1.66.0
+common.copy stage/lib/libboost_math_c99.so.1.66.0
+ln-UNIX stage/lib/libboost_math_c99.so
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/acoshf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/asinhf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/atanhf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cbrtf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/copysignf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/erfcf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/erff.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/expm1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fmaxf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fminf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fpclassifyf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/hypotf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lgammaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/llroundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/log1pf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lroundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/nextafterf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/nexttowardf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/roundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/tgammaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/truncf.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_math_c99f.so.1.66.0
+common.copy stage/lib/libboost_math_c99f.so.1.66.0
+ln-UNIX stage/lib/libboost_math_c99f.so
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/acoshl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/asinhl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/atanhl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cbrtl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/copysignl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/erfcl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/erfl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/expm1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fmaxl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fminl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/fpclassifyl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/hypotl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lgammal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/llroundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/log1pl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/lroundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/nextafterl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/nexttowardl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/roundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/tgammal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/truncl.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_math_c99l.so.1.66.0
+common.copy stage/lib/libboost_math_c99l.so.1.66.0
+ln-UNIX stage/lib/libboost_math_c99l.so
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cmdline.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/config_file.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/options_description.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/parsers.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/variables_map.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/value_semantic.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/positional_options.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/convert.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/winmain.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/split.o
+gcc.link.dll bin.v2/libs/program_options/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_program_options.so.1.66.0
+common.copy stage/lib/libboost_program_options.so.1.66.0
+ln-UNIX stage/lib/libboost_program_options.so
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/list.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/list.hpp:10,
+                 from libs/python/src/list.cpp:5:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/list.hpp:10,
+                 from libs/python/src/list.cpp:5:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/long.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/long.hpp:10,
+                 from libs/python/src/long.cpp:5:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/long.hpp:10,
+                 from libs/python/src/long.cpp:5:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/dict.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/dict.hpp:10,
+                 from libs/python/src/dict.cpp:4:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/dict.hpp:10,
+                 from libs/python/src/dict.cpp:4:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/python/src/dict.cpp:5:0:
+./boost/python/extract.hpp: In member function 'bool boost::python::detail::dict_base::has_key(boost::python::api::object_operators<boost::python::api::object>::object_cref) const':
+./boost/python/extract.hpp:185:11: warning: '*((void*)&<anonymous> +24)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+           );
+           ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/tuple.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/tuple.hpp:10,
+                 from libs/python/src/tuple.cpp:5:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/tuple.hpp:10,
+                 from libs/python/src/tuple.cpp:5:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/str.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/str.hpp:10,
+                 from libs/python/src/str.cpp:4:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/str.hpp:10,
+                 from libs/python/src/str.cpp:4:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from libs/python/src/str.cpp:5:0:
+./boost/python/extract.hpp: In member function 'long int boost::python::detail::str_base::count(boost::python::api::object_operators<boost::python::api::object>::object_cref) const':
+./boost/python/extract.hpp:185:11: warning: '*((void*)&<anonymous> +24)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+           );
+           ^
+./boost/python/extract.hpp: In member function 'long int boost::python::detail::str_base::count(boost::python::api::object_operators<boost::python::api::object>::object_cref, boost::python::api::object_operators<boost::python::api::object>::object_cref) const':
+./boost/python/extract.hpp:185:11: warning: '*((void*)&<anonymous> +24)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+           );
+           ^
+./boost/python/extract.hpp: In member function 'long int boost::python::detail::str_base::count(boost::python::api::object_operators<boost::python::api::object>::object_cref, boost::python::api::object_operators<boost::python::api::object>::object_cref, boost::python::api::object_operators<boost::python::api::object>::object_cref) const':
+./boost/python/extract.hpp:185:11: warning: '*((void*)&<anonymous> +24)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+           );
+           ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/slice.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/slice.hpp:11,
+                 from libs/python/src/slice.cpp:1:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/slice.hpp:11,
+                 from libs/python/src/slice.cpp:1:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/converter/from_python.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/converter/registry.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/converter/type_id.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/enum.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object/enum_base.hpp:8,
+                 from libs/python/src/object/enum.cpp:6:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object/enum_base.hpp:8,
+                 from libs/python/src/object/enum.cpp:6:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /usr/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object_core.hpp:10,
+                 from ./boost/python/object/enum_base.hpp:8,
+                 from libs/python/src/object/enum.cpp:6:
+libs/python/src/object/enum.cpp: In function 'boost::python::api::object boost::python::objects::{anonymous}::new_enum_type(const char*, const char*)':
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/enum.cpp:156:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&enum_type_object) = incref(&PyType_Type);
+           ^~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/class.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object/class.hpp:9,
+                 from libs/python/src/object/class.cpp:9:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object/class.hpp:9,
+                 from libs/python/src/object/class.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /usr/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from libs/python/src/object/class.cpp:6:
+libs/python/src/object/class.cpp: In function 'PyObject* boost::python::objects::static_data()':
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:211:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&static_data_object) = &PyType_Type;
+           ^
+libs/python/src/object/class.cpp: In function 'boost::python::type_handle boost::python::objects::class_metatype()':
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:319:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&class_metatype_object) = &PyType_Type;
+           ^
+libs/python/src/object/class.cpp: In function 'boost::python::type_handle boost::python::objects::class_type()':
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:473:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&class_type_object) = incref(class_metatype().get());
+           ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/function.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object/function.hpp:12,
+                 from ./boost/python/docstring_options.hpp:8,
+                 from libs/python/src/object/function.cpp:6:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/function/function_base.hpp:16,
+                 from ./boost/function/detail/prologue.hpp:17,
+                 from ./boost/function/function_template.hpp:13,
+                 from ./boost/function/detail/maybe_include.hpp:15,
+                 from ./boost/function/function0.hpp:11,
+                 from ./boost/python/errors.hpp:13,
+                 from ./boost/python/handle.hpp:11,
+                 from ./boost/python/args_fwd.hpp:10,
+                 from ./boost/python/object/function.hpp:9,
+                 from ./boost/python/docstring_options.hpp:8,
+                 from libs/python/src/object/function.cpp:6:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /usr/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object/function.hpp:8,
+                 from ./boost/python/docstring_options.hpp:8,
+                 from libs/python/src/object/function.cpp:6:
+libs/python/src/object/function.cpp: In constructor 'boost::python::objects::function::function(const boost::python::objects::py_function&, const boost::python::detail::keyword*, unsigned int)':
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/function.cpp:108:9: note: in expansion of macro 'Py_TYPE'
+     if (Py_TYPE(&function_type) == 0)
+         ^
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/function.cpp:110:9: note: in expansion of macro 'Py_TYPE'
+         Py_TYPE(&function_type) = &PyType_Type;
+         ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/inheritance.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/life_support.o
+In file included from /usr/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object/life_support.hpp:7,
+                 from libs/python/src/object/life_support.cpp:5:
+libs/python/src/object/life_support.cpp: In function 'PyObject* boost::python::objects::make_nurse_and_patient(PyObject*, PyObject*)':
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/life_support.cpp:94:9: note: in expansion of macro 'Py_TYPE'
+     if (Py_TYPE(&life_support_type) == 0)
+         ^~~~~~~
+/usr/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/life_support.cpp:96:9: note: in expansion of macro 'Py_TYPE'
+         Py_TYPE(&life_support_type) = &PyType_Type;
+         ^~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/pickle_support.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/value_is_xxx.hpp:13,
+                 from ./boost/python/detail/value_is_shared_ptr.hpp:10,
+                 from ./boost/python/to_python_value.hpp:23,
+                 from ./boost/python/default_call_policies.hpp:10,
+                 from ./boost/python/make_function.hpp:10,
+                 from libs/python/src/object/pickle_support.cpp:6:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/function/function_base.hpp:16,
+                 from ./boost/function/detail/prologue.hpp:17,
+                 from ./boost/function/function_template.hpp:13,
+                 from ./boost/function/detail/maybe_include.hpp:15,
+                 from ./boost/function/function0.hpp:11,
+                 from ./boost/python/errors.hpp:13,
+                 from ./boost/python/handle.hpp:11,
+                 from ./boost/python/to_python_value.hpp:14,
+                 from ./boost/python/default_call_policies.hpp:10,
+                 from ./boost/python/make_function.hpp:10,
+                 from libs/python/src/object/pickle_support.cpp:6:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/errors.o
+...on 500th target...
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/module.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/scope.hpp:9,
+                 from libs/python/src/module.cpp:9:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/scope.hpp:9,
+                 from libs/python/src/module.cpp:9:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/converter/builtin_converters.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/converter/arg_to_python_base.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/iterator.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object/function_object.hpp:9,
+                 from libs/python/src/object/iterator.cpp:7:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/function/function_base.hpp:16,
+                 from ./boost/function/detail/prologue.hpp:17,
+                 from ./boost/function/function_template.hpp:13,
+                 from ./boost/function/detail/maybe_include.hpp:29,
+                 from ./boost/function/function2.hpp:11,
+                 from ./boost/python/object/function_object.hpp:8,
+                 from libs/python/src/object/iterator.cpp:7:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/stl_iterator.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from libs/python/src/object/stl_iterator.cpp:10:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from libs/python/src/object/stl_iterator.cpp:10:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object_protocol.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object_protocol.hpp:11,
+                 from libs/python/src/object_protocol.cpp:6:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object_protocol.hpp:11,
+                 from libs/python/src/object_protocol.cpp:6:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object_operators.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object_operators.hpp:10,
+                 from libs/python/src/object_operators.cpp:6:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object_operators.hpp:10,
+                 from libs/python/src/object_operators.cpp:6:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/wrapper.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/extract.hpp:16,
+                 from ./boost/python/override.hpp:13,
+                 from ./boost/python/wrapper.hpp:8,
+                 from libs/python/src/wrapper.cpp:5:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/python/converter/registered.hpp:16,
+                 from ./boost/python/converter/return_from_python.hpp:10,
+                 from ./boost/python/override.hpp:11,
+                 from ./boost/python/wrapper.hpp:8,
+                 from libs/python/src/wrapper.cpp:5:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/import.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/import.hpp:8,
+                 from libs/python/src/import.cpp:6:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/import.hpp:8,
+                 from libs/python/src/import.cpp:6:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/exec.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/exec.hpp:8,
+                 from libs/python/src/exec.cpp:6:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/config/no_tr1/memory.hpp:21,
+                 from ./boost/get_pointer.hpp:14,
+                 from ./boost/python/object/pointer_holder.hpp:11,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object.hpp:9,
+                 from ./boost/python/exec.hpp:8,
+                 from libs/python/src/exec.cpp:6:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/object/function_doc_signature.o
+In file included from ./boost/python/detail/is_xxx.hpp:8:0,
+                 from ./boost/python/detail/is_auto_ptr.hpp:9,
+                 from ./boost/python/detail/copy_ctor_mutates_rhs.hpp:8,
+                 from ./boost/python/detail/value_arg.hpp:7,
+                 from ./boost/python/object/forward.hpp:10,
+                 from ./boost/python/object/pointer_holder.hpp:16,
+                 from ./boost/python/to_python_indirect.hpp:10,
+                 from ./boost/python/converter/arg_to_python.hpp:10,
+                 from ./boost/python/call.hpp:15,
+                 from ./boost/python/object_core.hpp:14,
+                 from ./boost/python/object/function.hpp:12,
+                 from ./boost/python/object/function_doc_signature.hpp:8,
+                 from libs/python/src/object/function_doc_signature.cpp:10:
+./boost/python/detail/is_auto_ptr.hpp:17:40: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+                                        ^
+./boost/detail/is_xxx.hpp:20:4: note: in definition of macro 'BOOST_DETAIL_IS_XXX_DEF'
+    qualified_name< BOOST_PP_ENUM_PARAMS_Z(1, nargs, T) >        \
+    ^~~~~~~~~~~~~~
+./boost/python/detail/is_auto_ptr.hpp:17:1: note: in expansion of macro 'BOOST_PYTHON_IS_XXX_DEF'
+ BOOST_PYTHON_IS_XXX_DEF(auto_ptr, std::auto_ptr, 1)
+ ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7.2.0/memory:80:0,
+                 from ./boost/function/function_base.hpp:16,
+                 from ./boost/function/detail/prologue.hpp:17,
+                 from ./boost/function/function_template.hpp:13,
+                 from ./boost/function/detail/maybe_include.hpp:15,
+                 from ./boost/function/function0.hpp:11,
+                 from ./boost/python/errors.hpp:13,
+                 from ./boost/python/handle.hpp:11,
+                 from ./boost/python/args_fwd.hpp:10,
+                 from ./boost/python/object/function.hpp:9,
+                 from ./boost/python/object/function_doc_signature.hpp:8,
+                 from libs/python/src/object/function_doc_signature.cpp:10:
+/usr/include/c++/7.2.0/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+gcc.link.dll bin.v2/libs/python/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_python.so.1.66.0
+common.copy stage/lib/libboost_python.so.1.66.0
+ln-UNIX stage/lib/libboost_python.so
+gcc.compile.c++ bin.v2/libs/random/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/random_device.o
+gcc.link.dll bin.v2/libs/random/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_random.so.1.66.0
+common.copy stage/lib/libboost_random.so.1.66.0
+ln-UNIX stage/lib/libboost_random.so
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_archive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_iserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_oserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_pointer_iserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_pointer_oserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_serializer_map.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_text_iprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_text_oprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_xml_archive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/binary_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/binary_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/extended_type_info.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/extended_type_info_typeid.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/extended_type_info_no_rtti.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/polymorphic_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/polymorphic_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/stl_port.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/text_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/text_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/void_cast.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/archive_exception.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_grammar.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_archive_exception.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/codecvt_null.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.link.dll bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_serialization.so.1.66.0
+common.copy stage/lib/libboost_serialization.so.1.66.0
+ln-UNIX stage/lib/libboost_serialization.so
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_text_wiprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic_text_woprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/text_wiarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/text_woarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_wgrammar.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_wiarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_woarchive.o
+In file included from ./boost/archive/impl/xml_woarchive_impl.ipp:41:0,
+                 from libs/serialization/src/xml_woarchive.cpp:28:
+./boost/archive/iterators/wchar_from_mb.hpp: In instantiation of 'void boost::archive::iterators::wchar_from_mb<Base>::drain() [with Base = boost::archive::iterators::xml_escape<const char*>]':
+./boost/archive/iterators/wchar_from_mb.hpp:133:14:   required from 'boost::archive::iterators::wchar_from_mb<Base>::wchar_from_mb(T) [with T = const char*; Base = boost::archive::iterators::xml_escape<const char*>]'
+./boost/archive/impl/xml_woarchive_impl.ipp:58:9:   required from 'void boost::archive::save_iterator(std::wostream&, InputIterator, InputIterator) [with InputIterator = const char*; std::wostream = std::basic_ostream<wchar_t>]'
+./boost/archive/impl/xml_woarchive_impl.ipp:99:17:   required from 'void boost::archive::xml_woarchive_impl<Archive>::save(const char*) [with Archive = boost::archive::xml_woarchive]'
+libs/serialization/src/xml_woarchive.cpp:35:16:   required from here
+./boost/archive/iterators/wchar_from_mb.hpp:168:31: warning: unused variable 'r' [-Wunused-variable]
+     std::codecvt_base::result r = m_codecvt_facet.in(
+                               ^
+gcc.link.dll bin.v2/libs/serialization/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_wserialization.so.1.66.0
+common.copy stage/lib/libboost_wserialization.so.1.66.0
+ln-UNIX stage/lib/libboost_wserialization.so
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/trackable.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/connection.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/named_slot_map.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/signal_base.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/slot.o
+gcc.link.dll bin.v2/libs/signals/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_signals.so.1.66.0
+common.copy stage/lib/libboost_signals.so.1.66.0
+ln-UNIX stage/lib/libboost_signals.so
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/noop.o
+gcc.link.dll bin.v2/libs/stacktrace/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_stacktrace_noop.so.1.66.0
+common.copy stage/lib/libboost_stacktrace_noop.so.1.66.0
+ln-UNIX stage/lib/libboost_stacktrace_noop.so
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/addr2line.o
+gcc.link.dll bin.v2/libs/stacktrace/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_stacktrace_addr2line.so.1.66.0
+common.copy stage/lib/libboost_stacktrace_addr2line.so.1.66.0
+ln-UNIX stage/lib/libboost_stacktrace_addr2line.so
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/basic.o
+gcc.link.dll bin.v2/libs/stacktrace/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_stacktrace_basic.so.1.66.0
+common.copy stage/lib/libboost_stacktrace_basic.so.1.66.0
+...on 600th target...
+ln-UNIX stage/lib/libboost_stacktrace_basic.so
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/auto_timers_construction.o
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cpu_timer.o
+gcc.link.dll bin.v2/libs/timer/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_timer.so.1.66.0
+common.copy stage/lib/libboost_timer.so.1.66.0
+ln-UNIX stage/lib/libboost_timer.so
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/execution_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/debug.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cpp_main.o
+gcc.link.dll bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_prg_exec_monitor.so.1.66.0
+common.copy stage/lib/libboost_prg_exec_monitor.so.1.66.0
+ln-UNIX stage/lib/libboost_prg_exec_monitor.so
+gcc.compile.c++ bin.v2/libs/system/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/error_code.o
+gcc.archive bin.v2/libs/system/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/libboost_system.a
+common.copy stage/lib/libboost_system.a
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/chrono.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/thread_clock.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/process_cpu_clocks.o
+gcc.archive bin.v2/libs/chrono/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/libboost_chrono.a
+common.copy stage/lib/libboost_chrono.a
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/auto_timers_construction.o
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/cpu_timer.o
+gcc.archive bin.v2/libs/timer/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/libboost_timer.a
+common.copy stage/lib/libboost_timer.a
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/compiler_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/debug.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/decorator.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/execution_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/framework.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/plain_report_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/progress_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/results_collector.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/results_reporter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/test_framework_init_observer.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/test_main.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/test_tools.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/test_tree.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/unit_test_log.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/unit_test_main.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/unit_test_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/unit_test_parameters.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/junit_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/xml_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/xml_report_formatter.o
+gcc.archive bin.v2/libs/test/build/gcc-gnu-7.2.0/release/link-static/threadapi-pthread/threading-multi/libboost_test_exec_monitor.a
+common.copy stage/lib/libboost_test_exec_monitor.a
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/compiler_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/decorator.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/framework.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/plain_report_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/progress_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/results_collector.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/results_reporter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/test_framework_init_observer.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/test_tools.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/test_tree.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/unit_test_log.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/unit_test_main.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/unit_test_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/unit_test_parameters.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/junit_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/xml_report_formatter.o
+gcc.link.dll bin.v2/libs/test/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_unit_test_framework.so.1.66.0
+common.copy stage/lib/libboost_unit_test_framework.so.1.66.0
+ln-UNIX stage/lib/libboost_unit_test_framework.so
+...on 700th target...
+gcc.compile.c++ bin.v2/libs/type_erasure/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/dynamic_binding.o
+gcc.link.dll bin.v2/libs/type_erasure/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_type_erasure.so.1.66.0
+common.copy stage/lib/libboost_type_erasure.so.1.66.0
+ln-UNIX stage/lib/libboost_type_erasure.so
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instantiate_cpp_exprgrammar.o
+In file included from ./boost/wave/grammars/cpp_expression_grammar.hpp:34:0,
+                 from libs/wave/src/instantiate_cpp_exprgrammar.cpp:24:
+./boost/wave/grammars/cpp_expression_value.hpp: In member function 'typename boost::spirit::classic::match_result<ScannerT, ContextResultT>::type boost::spirit::classic::impl::concrete_parser<ParserT, ScannerT, AttrT>::do_parse_virtual(const ScannerT&) const [with ParserT = boost::spirit::classic::sequence<boost::spirit::classic::action<boost::spirit::classic::rule<boost::spirit::classic::scanner<std::_List_const_iterator<boost::wave::cpplexer::lex_token<> >, boost::spirit::classic::scanner_policies<boost::spirit::classic::skip_parser_iteration_policy<boost::spirit::classic::alternative<boost::spirit::classic::alternative<boost::spirit::classic::chlit<boost::wave::token_id>, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::iteration_policy>, boost::spirit::classic::match_policy, boost::spirit::classic::action_policy> >, boost::spirit::classic::closure_context<boost::wave::grammars::closures::cpp_expr_closure>, boost::spirit::classic::nil_t>, phoenix::actor<phoenix::composite<phoenix::assign_op, phoenix::actor<phoenix::closure_member<0, phoenix::closure<boost::wave::grammars::closures::closure_value, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t> > >, phoenix::actor<phoenix::argument<0> >, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t> > >, boost::spirit::classic::kleene_star<boost::spirit::classic::alternative<boost::spirit::classic::sequence<boost::spirit::classic::chlit<boost::wave::token_id>, boost::spirit::classic::action<boost::spirit::classic::rule<boost::spirit::classic::scanner<std::_List_const_iterator<boost::wave::cpplexer::lex_token<> >, boost::spirit::classic::scanner_policies<boost::spirit::classic::skip_parser_iteration_policy<boost::spirit::classic::alternative<boost::spirit::classic::alternative<boost::spirit::classic::chlit<boost::wave::token_id>, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::iteration_policy>, boost::spirit::classic::match_policy, boost::spirit::classic::action_policy> >, boost::spirit::classic::closure_context<boost::wave::grammars::closures::cpp_expr_closure>, boost::spirit::classic::nil_t>, phoenix::actor<phoenix::composite<phoenix::plus_assign_op, phoenix::actor<phoenix::closure_member<0, phoenix::closure<boost::wave::grammars::closures::closure_value, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t> > >, phoenix::actor<phoenix::argument<0> >, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t> > > >, boost::spirit::classic::sequence<boost::spirit::classic::chlit<boost::wave::token_id>, boost::spirit::classic::action<boost::spirit::classic::rule<boost::spirit::classic::scanner<std::_List_const_iterator<boost::wave::cpplexer::lex_token<> >, boost::spirit::classic::scanner_policies<boost::spirit::classic::skip_parser_iteration_policy<boost::spirit::classic::alternative<boost::spirit::classic::alternative<boost::spirit::classic::chlit<boost::wave::token_id>, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::iteration_policy>, boost::spirit::classic::match_policy, boost::spirit::classic::action_policy> >, boost::spirit::classic::closure_context<boost::wave::grammars::closures::cpp_expr_closure>, boost::spirit::classic::nil_t>, phoenix::actor<phoenix::composite<phoenix::minus_assign_op, phoenix::actor<phoenix::closure_member<0, phoenix::closure<boost::wave::grammars::closures::closure_value, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t> > >, phoenix::actor<phoenix::argument<0> >, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t, phoenix::nil_t> > > > > > >; ScannerT = boost::spirit::classic::scanner<std::_List_const_iterator<boost::wave::cpplexer::lex_token<> >, boost::spirit::classic::scanner_policies<boost::spirit::classic::skip_parser_iteration_policy<boost::spirit::classic::alternative<boost::spirit::classic::alternative<boost::spirit::classic::chlit<boost::wave::token_id>, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::chlit<boost::wave::token_id> >, boost::spirit::classic::iteration_policy>, boost::spirit::classic::match_policy, boost::spirit::classic::action_policy> >; AttrT = boost::wave::grammars::closures::closure_value]':
+./boost/wave/grammars/cpp_expression_value.hpp:189:43: warning: assuming signed overflow does not occur when assuming that (X + c) < X is always false [-Wstrict-overflow]
+                     if ((rhs.value.i > 0L && value.i > result) ||
+                         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+./boost/wave/grammars/cpp_expression_value.hpp:256:43: warning: assuming signed overflow does not occur when assuming that (X - c) > X is always false [-Wstrict-overflow]
+                     if ((rhs.value.i > 0L && result > value.i) ||
+                         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instantiate_cpp_grammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instantiate_cpp_literalgrs.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instantiate_defined_grammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instantiate_predef_macros.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instantiate_re2c_lexer.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/instantiate_re2c_lexer_str.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/token_ids.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/wave_config_constant.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cpplexer/re2clex/aq.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/cpplexer/re2clex/cpp_re.o
+gcc.link.dll bin.v2/libs/wave/build/gcc-gnu-7.2.0/release/threadapi-pthread/threading-multi/libboost_wave.so.1.66.0
+common.copy stage/lib/libboost_wave.so.1.66.0
+ln-UNIX stage/lib/libboost_wave.so
+...updated 725 targets...

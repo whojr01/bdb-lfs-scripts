@@ -1,0 +1,332 @@
+/tools/bin/gmake include libmisc libacl getfacl setfacl chacl m4 man doc po test examples package debian
+gmake[1]: Entering directory '/sources/acl-2.2.52'
+/tools/bin/gmake -C include
+gmake[2]: Entering directory '/sources/acl-2.2.52/include'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/include'
+/tools/bin/gmake -C libmisc
+gmake[2]: Entering directory '/sources/acl-2.2.52/libmisc'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/libmisc'
+/tools/bin/gmake -C libacl
+gmake[2]: Entering directory '/sources/acl-2.2.52/libacl'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/libacl'
+/tools/bin/gmake -C getfacl
+gmake[2]: Entering directory '/sources/acl-2.2.52/getfacl'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/getfacl'
+/tools/bin/gmake -C setfacl
+gmake[2]: Entering directory '/sources/acl-2.2.52/setfacl'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/setfacl'
+/tools/bin/gmake -C chacl
+gmake[2]: Entering directory '/sources/acl-2.2.52/chacl'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/chacl'
+/tools/bin/gmake -C m4
+gmake[2]: Entering directory '/sources/acl-2.2.52/m4'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/m4'
+/tools/bin/gmake -C man
+gmake[2]: Entering directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C man1
+gmake[3]: Entering directory '/sources/acl-2.2.52/man/man1'
+gmake[3]: Nothing to be done for 'default'.
+gmake[3]: Leaving directory '/sources/acl-2.2.52/man/man1'
+/tools/bin/gmake -C man3
+gmake[3]: Entering directory '/sources/acl-2.2.52/man/man3'
+gmake[3]: Nothing to be done for 'default'.
+gmake[3]: Leaving directory '/sources/acl-2.2.52/man/man3'
+/tools/bin/gmake -C man5
+gmake[3]: Entering directory '/sources/acl-2.2.52/man/man5'
+gmake[3]: Nothing to be done for 'default'.
+gmake[3]: Leaving directory '/sources/acl-2.2.52/man/man5'
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C doc
+gmake[2]: Entering directory '/sources/acl-2.2.52/doc'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/doc'
+/tools/bin/gmake -C po
+gmake[2]: Entering directory '/sources/acl-2.2.52/po'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/po'
+/tools/bin/gmake -C test
+gmake[2]: Entering directory '/sources/acl-2.2.52/test'
+rm -f  dep dep.bak *.[1-9].gz *.tmpo *.mo       
+gmake[2]: Leaving directory '/sources/acl-2.2.52/test'
+/tools/bin/gmake -C examples
+gmake[2]: Entering directory '/sources/acl-2.2.52/examples'
+rm -f get-acl set-acl copy-acl dep dep.bak *.[1-9].gz *.tmpo *.mo       
+gmake[2]: Leaving directory '/sources/acl-2.2.52/examples'
+/tools/bin/gmake -C package
+gmake[2]: Entering directory '/sources/acl-2.2.52/package'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/package'
+/tools/bin/gmake -C debian
+gmake[2]: Entering directory '/sources/acl-2.2.52/debian'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/debian'
+gmake[1]: Leaving directory '/sources/acl-2.2.52'
+/tools/bin/gmake -C include install
+gmake[1]: Entering directory '/sources/acl-2.2.52/include'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/include'
+/tools/bin/gmake -C libmisc install
+gmake[1]: Entering directory '/sources/acl-2.2.52/libmisc'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/libmisc'
+/tools/bin/gmake -C libacl install
+gmake[1]: Entering directory '/sources/acl-2.2.52/libacl'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/libacl'
+/tools/bin/gmake -C getfacl install
+gmake[1]: Entering directory '/sources/acl-2.2.52/getfacl'
+../include/install-sh -o root -g root -m 755 -d /usr/bin
+/bin/sh ../libtool --mode=install ../include/install-sh -o root -g root -m 755 getfacl /usr/bin
+libtool: install: warning: `../libacl/libacl.la' has not been installed in `/usr/lib'
+libtool: install: ../include/install-sh -o root -g root -m 755 .libs/getfacl /usr/bin/getfacl
+gmake[1]: Leaving directory '/sources/acl-2.2.52/getfacl'
+/tools/bin/gmake -C setfacl install
+gmake[1]: Entering directory '/sources/acl-2.2.52/setfacl'
+../include/install-sh -o root -g root -m 755 -d /usr/bin
+/bin/sh ../libtool --mode=install ../include/install-sh -o root -g root -m 755 setfacl /usr/bin
+libtool: install: warning: `../libacl/libacl.la' has not been installed in `/usr/lib'
+libtool: install: ../include/install-sh -o root -g root -m 755 .libs/setfacl /usr/bin/setfacl
+gmake[1]: Leaving directory '/sources/acl-2.2.52/setfacl'
+/tools/bin/gmake -C chacl install
+gmake[1]: Entering directory '/sources/acl-2.2.52/chacl'
+../include/install-sh -o root -g root -m 755 -d /usr/bin
+/bin/sh ../libtool --mode=install ../include/install-sh -o root -g root -m 755 chacl /usr/bin
+libtool: install: warning: `../libacl/libacl.la' has not been installed in `/usr/lib'
+libtool: install: ../include/install-sh -o root -g root -m 755 .libs/chacl /usr/bin/chacl
+gmake[1]: Leaving directory '/sources/acl-2.2.52/chacl'
+/tools/bin/gmake -C m4 install
+gmake[1]: Entering directory '/sources/acl-2.2.52/m4'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/m4'
+/tools/bin/gmake -C man install
+gmake[1]: Entering directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C man1 install
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man1'
+../../include/install-sh -o root -g root -m 755 -d /usr/share/man/man1
+../../include/install-sh -o root -g root -m 644 chacl.1 /usr/share/man/man1/chacl.1
+../../include/install-sh -o root -g root -m 644 getfacl.1 /usr/share/man/man1/getfacl.1
+../../include/install-sh -o root -g root -m 644 setfacl.1 /usr/share/man/man1/setfacl.1
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man1'
+/tools/bin/gmake -C man3 install
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man3'
+gmake[2]: Nothing to be done for 'install'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man3'
+/tools/bin/gmake -C man5 install
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man5'
+../../include/install-sh -o root -g root -m 755 -d /usr/share/man/man5
+../../include/install-sh -o root -g root -m 644 acl.5 /usr/share/man/man5/acl.5
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man5'
+gmake[1]: Leaving directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C doc install
+gmake[1]: Entering directory '/sources/acl-2.2.52/doc'
+../include/install-sh -o root -g root -m 755 -d /usr/share/doc/acl-2.2.52
+../include/install-sh -o root -g root -m 644 PORTING CHANGES.gz /usr/share/doc/acl-2.2.52
+../include/install-sh -o root -g root -m 644 COPYING COPYING.LGPL /usr/share/doc/acl-2.2.52
+gmake[1]: Leaving directory '/sources/acl-2.2.52/doc'
+/tools/bin/gmake -C po install
+gmake[1]: Entering directory '/sources/acl-2.2.52/po'
+gmake[1]: Leaving directory '/sources/acl-2.2.52/po'
+/tools/bin/gmake -C test install
+gmake[1]: Entering directory '/sources/acl-2.2.52/test'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/test'
+/tools/bin/gmake -C examples install
+gmake[1]: Entering directory '/sources/acl-2.2.52/examples'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/examples'
+/tools/bin/gmake -C package install
+gmake[1]: Entering directory '/sources/acl-2.2.52/package'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/package'
+/tools/bin/gmake -C debian install
+gmake[1]: Entering directory '/sources/acl-2.2.52/debian'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/debian'
+./include/install-sh -o root -g root -m 755 -d /usr/share/doc/acl-2.2.52
+./include/install-sh -o root -g root -m 644 README /usr/share/doc/acl-2.2.52
+/tools/bin/gmake -C include install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/include'
+../include/install-sh -o root -g root -m 755 -d /usr/include
+../include/install-sh -o root -g root -m 755 -d /usr/include/sys
+../include/install-sh -o root -g root -m 644 acl.h /usr/include/sys/acl.h
+../include/install-sh -o root -g root -m 755 -d /usr/include/acl
+../include/install-sh -o root -g root -m 644 libacl.h /usr/include/acl/libacl.h
+gmake[1]: Leaving directory '/sources/acl-2.2.52/include'
+/tools/bin/gmake -C libmisc install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/libmisc'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/libmisc'
+/tools/bin/gmake -C libacl install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/libacl'
+cd ../libacl/.libs; ../../include/install-sh -o root -g root -m 755 -d /usr/lib; ../../include/install-sh -o root -g root -m 644 -T old_lib libacl.lai /usr/lib; ../../include/install-sh -o root -g root -m 644 libacl.lai /usr/lib/libacl.la ; ../../include/install-sh -o root -g root -m 755 -d /usr/lib; ../../include/install-sh -o root -g root -T so_base libacl.lai /usr/lib; if test "x/usr/lib" != "x/usr/lib" ; then ../../include/install-sh -o root -g root -S /usr/lib/libacl.a /usr/lib/libacl.a; ../../include/install-sh -o root -g root -S /usr/lib/libacl.la /usr/lib/libacl.la; ../../include/install-sh -o root -g root -S /usr/lib/libacl.so /usr/lib/libacl.so; fi
+cp: missing destination file operand after '//usr/lib/'
+Try 'cp --help' for more information.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/libacl'
+/tools/bin/gmake -C getfacl install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/getfacl'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/getfacl'
+/tools/bin/gmake -C setfacl install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/setfacl'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/setfacl'
+/tools/bin/gmake -C chacl install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/chacl'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/chacl'
+/tools/bin/gmake -C m4 install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/m4'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/m4'
+/tools/bin/gmake -C man install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C man1 install-dev
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man1'
+gmake[2]: Nothing to be done for 'install-dev'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man1'
+/tools/bin/gmake -C man3 install-dev
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man3'
+../../include/install-sh -o root -g root -m 755 -d /usr/share/man/man3
+../../include/install-sh -o root -g root -m 644 acl_add_perm.3 /usr/share/man/man3/acl_add_perm.3
+../../include/install-sh -o root -g root -m 644 acl_calc_mask.3 /usr/share/man/man3/acl_calc_mask.3
+../../include/install-sh -o root -g root -m 644 acl_check.3 /usr/share/man/man3/acl_check.3
+../../include/install-sh -o root -g root -m 644 acl_clear_perms.3 /usr/share/man/man3/acl_clear_perms.3
+../../include/install-sh -o root -g root -m 644 acl_cmp.3 /usr/share/man/man3/acl_cmp.3
+../../include/install-sh -o root -g root -m 644 acl_copy_entry.3 /usr/share/man/man3/acl_copy_entry.3
+../../include/install-sh -o root -g root -m 644 acl_copy_ext.3 /usr/share/man/man3/acl_copy_ext.3
+../../include/install-sh -o root -g root -m 644 acl_copy_int.3 /usr/share/man/man3/acl_copy_int.3
+../../include/install-sh -o root -g root -m 644 acl_create_entry.3 /usr/share/man/man3/acl_create_entry.3
+../../include/install-sh -o root -g root -m 644 acl_delete_def_file.3 /usr/share/man/man3/acl_delete_def_file.3
+../../include/install-sh -o root -g root -m 644 acl_delete_entry.3 /usr/share/man/man3/acl_delete_entry.3
+../../include/install-sh -o root -g root -m 644 acl_delete_perm.3 /usr/share/man/man3/acl_delete_perm.3
+../../include/install-sh -o root -g root -m 644 acl_dup.3 /usr/share/man/man3/acl_dup.3
+../../include/install-sh -o root -g root -m 644 acl_entries.3 /usr/share/man/man3/acl_entries.3
+../../include/install-sh -o root -g root -m 644 acl_equiv_mode.3 /usr/share/man/man3/acl_equiv_mode.3
+../../include/install-sh -o root -g root -m 644 acl_error.3 /usr/share/man/man3/acl_error.3
+../../include/install-sh -o root -g root -m 644 acl_extended_fd.3 /usr/share/man/man3/acl_extended_fd.3
+../../include/install-sh -o root -g root -m 644 acl_extended_file.3 /usr/share/man/man3/acl_extended_file.3
+../../include/install-sh -o root -g root -S acl_extended_file.3 /usr/share/man/man3/acl_extended_file_nofollow.3
+../../include/install-sh -o root -g root -m 644 acl_free.3 /usr/share/man/man3/acl_free.3
+../../include/install-sh -o root -g root -m 644 acl_from_mode.3 /usr/share/man/man3/acl_from_mode.3
+../../include/install-sh -o root -g root -m 644 acl_from_text.3 /usr/share/man/man3/acl_from_text.3
+../../include/install-sh -o root -g root -m 644 acl_get_entry.3 /usr/share/man/man3/acl_get_entry.3
+../../include/install-sh -o root -g root -m 644 acl_get_fd.3 /usr/share/man/man3/acl_get_fd.3
+../../include/install-sh -o root -g root -m 644 acl_get_file.3 /usr/share/man/man3/acl_get_file.3
+../../include/install-sh -o root -g root -m 644 acl_get_perm.3 /usr/share/man/man3/acl_get_perm.3
+../../include/install-sh -o root -g root -m 644 acl_get_permset.3 /usr/share/man/man3/acl_get_permset.3
+../../include/install-sh -o root -g root -m 644 acl_get_qualifier.3 /usr/share/man/man3/acl_get_qualifier.3
+../../include/install-sh -o root -g root -m 644 acl_get_tag_type.3 /usr/share/man/man3/acl_get_tag_type.3
+../../include/install-sh -o root -g root -m 644 acl_init.3 /usr/share/man/man3/acl_init.3
+../../include/install-sh -o root -g root -m 644 acl_set_fd.3 /usr/share/man/man3/acl_set_fd.3
+../../include/install-sh -o root -g root -m 644 acl_set_file.3 /usr/share/man/man3/acl_set_file.3
+../../include/install-sh -o root -g root -m 644 acl_set_permset.3 /usr/share/man/man3/acl_set_permset.3
+../../include/install-sh -o root -g root -m 644 acl_set_qualifier.3 /usr/share/man/man3/acl_set_qualifier.3
+../../include/install-sh -o root -g root -m 644 acl_set_tag_type.3 /usr/share/man/man3/acl_set_tag_type.3
+../../include/install-sh -o root -g root -m 644 acl_size.3 /usr/share/man/man3/acl_size.3
+../../include/install-sh -o root -g root -m 644 acl_to_any_text.3 /usr/share/man/man3/acl_to_any_text.3
+../../include/install-sh -o root -g root -m 644 acl_to_text.3 /usr/share/man/man3/acl_to_text.3
+../../include/install-sh -o root -g root -m 644 acl_valid.3 /usr/share/man/man3/acl_valid.3
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man3'
+/tools/bin/gmake -C man5 install-dev
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man5'
+gmake[2]: Nothing to be done for 'install-dev'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man5'
+gmake[1]: Leaving directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C doc install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/doc'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/doc'
+/tools/bin/gmake -C po install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/po'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/po'
+/tools/bin/gmake -C test install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/test'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/test'
+/tools/bin/gmake -C examples install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/examples'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/examples'
+/tools/bin/gmake -C package install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/package'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/package'
+/tools/bin/gmake -C debian install-dev
+gmake[1]: Entering directory '/sources/acl-2.2.52/debian'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/debian'
+/tools/bin/gmake -C include install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/include'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/include'
+/tools/bin/gmake -C libmisc install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/libmisc'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/libmisc'
+/tools/bin/gmake -C libacl install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/libacl'
+cd ../libacl/.libs; ../../include/install-sh -o root -g root -m 755 -d /usr/lib; ../../include/install-sh -o root -g root -m 644 -T so_dot_version libacl.lai /usr/lib; ../../include/install-sh -o root -g root -T so_dot_current libacl.lai /usr/lib
+gmake[1]: Leaving directory '/sources/acl-2.2.52/libacl'
+/tools/bin/gmake -C getfacl install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/getfacl'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/getfacl'
+/tools/bin/gmake -C setfacl install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/setfacl'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/setfacl'
+/tools/bin/gmake -C chacl install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/chacl'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/chacl'
+/tools/bin/gmake -C m4 install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/m4'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/m4'
+/tools/bin/gmake -C man install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C man1 install-lib
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man1'
+gmake[2]: Nothing to be done for 'install-lib'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man1'
+/tools/bin/gmake -C man3 install-lib
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man3'
+gmake[2]: Nothing to be done for 'install-lib'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man3'
+/tools/bin/gmake -C man5 install-lib
+gmake[2]: Entering directory '/sources/acl-2.2.52/man/man5'
+gmake[2]: Nothing to be done for 'install-lib'.
+gmake[2]: Leaving directory '/sources/acl-2.2.52/man/man5'
+gmake[1]: Leaving directory '/sources/acl-2.2.52/man'
+/tools/bin/gmake -C doc install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/doc'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/doc'
+/tools/bin/gmake -C po install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/po'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/po'
+/tools/bin/gmake -C test install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/test'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/test'
+/tools/bin/gmake -C examples install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/examples'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/examples'
+/tools/bin/gmake -C package install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/package'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/package'
+/tools/bin/gmake -C debian install-lib
+gmake[1]: Entering directory '/sources/acl-2.2.52/debian'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/acl-2.2.52/debian'

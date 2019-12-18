@@ -1,0 +1,226 @@
+rm -rf /usr/include/freetype2
+rm -f /usr/include/ft2build.h
+/bin/mkdir -p /usr/lib                               \
+                         /usr/lib/pkgconfig                     \
+                         /usr/include/freetype2/freetype/config \
+                         /usr/bin                               \
+                         /usr/share/aclocal                      \
+                         /usr/share/man/man1
+./builds/unix/libtool --mode=install /usr/bin/install -c                             \
+                                  /sources/boot/freetype-2.9/objs/libfreetype.la /usr/lib
+libtool: install: /usr/bin/install -c /sources/boot/freetype-2.9/objs/.libs/libfreetype.so.6.16.0 /usr/lib/libfreetype.so.6.16.0
+libtool: install: (cd /usr/lib && { ln -s -f libfreetype.so.6.16.0 libfreetype.so.6 || { rm -f libfreetype.so.6 && ln -s libfreetype.so.6.16.0 libfreetype.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfreetype.so.6.16.0 libfreetype.so || { rm -f libfreetype.so && ln -s libfreetype.so.6.16.0 libfreetype.so; }; })
+libtool: install: /usr/bin/install -c /sources/boot/freetype-2.9/objs/.libs/libfreetype.lai /usr/lib/libfreetype.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+for P in /sources/boot/freetype-2.9/include/freetype/tttables.h /sources/boot/freetype-2.9/include/freetype/ftoutln.h /sources/boot/freetype-2.9/include/freetype/ftstroke.h /sources/boot/freetype-2.9/include/freetype/t1tables.h /sources/boot/freetype-2.9/include/freetype/fterrors.h /sources/boot/freetype-2.9/include/freetype/ftlzw.h /sources/boot/freetype-2.9/include/freetype/ftparams.h /sources/boot/freetype-2.9/include/freetype/ftcid.h /sources/boot/freetype-2.9/include/freetype/ftbitmap.h /sources/boot/freetype-2.9/include/freetype/ftmodapi.h /sources/boot/freetype-2.9/include/freetype/ftsystem.h /sources/boot/freetype-2.9/include/freetype/ftfntfmt.h /sources/boot/freetype-2.9/include/freetype/ftsynth.h /sources/boot/freetype-2.9/include/freetype/ftlcdfil.h /sources/boot/freetype-2.9/include/freetype/ftpfr.h /sources/boot/freetype-2.9/include/freetype/ftsizes.h /sources/boot/freetype-2.9/include/freetype/ftrender.h /sources/boot/freetype-2.9/include/freetype/ftmm.h /sources/boot/freetype-2.9/include/freetype/ftglyph.h /sources/boot/freetype-2.9/include/freetype/ftlist.h /sources/boot/freetype-2.9/include/freetype/ftchapters.h /sources/boot/freetype-2.9/include/freetype/ftbdf.h /sources/boot/freetype-2.9/include/freetype/fterrdef.h /sources/boot/freetype-2.9/include/freetype/ftcache.h /sources/boot/freetype-2.9/include/freetype/ftgxval.h /sources/boot/freetype-2.9/include/freetype/ftgzip.h /sources/boot/freetype-2.9/include/freetype/ftwinfnt.h /sources/boot/freetype-2.9/include/freetype/ftdriver.h /sources/boot/freetype-2.9/include/freetype/ftmac.h /sources/boot/freetype-2.9/include/freetype/fttypes.h /sources/boot/freetype-2.9/include/freetype/freetype.h /sources/boot/freetype-2.9/include/freetype/ftotval.h /sources/boot/freetype-2.9/include/freetype/ftbbox.h /sources/boot/freetype-2.9/include/freetype/ftadvanc.h /sources/boot/freetype-2.9/include/freetype/ftbzip2.h /sources/boot/freetype-2.9/include/freetype/ftmoderr.h /sources/boot/freetype-2.9/include/freetype/ftgasp.h /sources/boot/freetype-2.9/include/freetype/ftsnames.h /sources/boot/freetype-2.9/include/freetype/tttags.h /sources/boot/freetype-2.9/include/freetype/ftincrem.h /sources/boot/freetype-2.9/include/freetype/fttrigon.h /sources/boot/freetype-2.9/include/freetype/ftimage.h /sources/boot/freetype-2.9/include/freetype/ttnameid.h ; do                           \
+          /usr/bin/install -c -m 644                                    \
+            $P /usr/include/freetype2/freetype ; \
+        done
+for P in /sources/boot/freetype-2.9/include/freetype/config/ftstdlib.h /sources/boot/freetype-2.9/include/freetype/config/ftconfig.h /sources/boot/freetype-2.9/include/freetype/config/ftmodule.h /sources/boot/freetype-2.9/include/freetype/config/ftoption.h /sources/boot/freetype-2.9/include/freetype/config/ftheader.h  /sources/boot/freetype-2.9/objs/ftmodule.h ./builds/unix/ftoption.h ; do                                  \
+          /usr/bin/install -c -m 644                                           \
+            $P /usr/include/freetype2/freetype/config ; \
+        done
+/usr/bin/install -c -m 644 /sources/boot/freetype-2.9/include/ft2build.h  \
+          /usr/include/freetype2/ft2build.h
+/usr/bin/install -c -m 644 ./builds/unix/ftconfig.h                        \
+          /usr/include/freetype2/freetype/config/ftconfig.h
+/usr/bin/install -c -m 644 /sources/boot/freetype-2.9/objs/ftmodule.h                          \
+          /usr/include/freetype2/freetype/config/ftmodule.h
+/usr/bin/install -c -m 644 ./builds/unix/ftoption.h                        \
+          /usr/include/freetype2/freetype/config/ftoption.h
+/usr/bin/install -c -m 755 ./builds/unix/freetype-config \
+          /usr/bin/freetype-config
+/usr/bin/install -c -m 644 ./builds/unix/freetype2.m4 \
+          /usr/share/aclocal/freetype2.m4
+/usr/bin/install -c -m 644 ./builds/unix/freetype2.pc \
+          /usr/lib/pkgconfig/freetype2.pc
+/usr/bin/install -c -m 644 /sources/boot/freetype-2.9/docs/freetype-config.1 \
+          /usr/share/man/man1/freetype-config.1
+'docs/CHANGES' -> '/usr/share/doc/freetype-2.9/CHANGES'
+'docs/CMAKE' -> '/usr/share/doc/freetype-2.9/CMAKE'
+'docs/CUSTOMIZE' -> '/usr/share/doc/freetype-2.9/CUSTOMIZE'
+'docs/DEBUG' -> '/usr/share/doc/freetype-2.9/DEBUG'
+'docs/FTL.TXT' -> '/usr/share/doc/freetype-2.9/FTL.TXT'
+'docs/GPLv2.TXT' -> '/usr/share/doc/freetype-2.9/GPLv2.TXT'
+'docs/INSTALL' -> '/usr/share/doc/freetype-2.9/INSTALL'
+'docs/INSTALL.ANY' -> '/usr/share/doc/freetype-2.9/INSTALL.ANY'
+'docs/INSTALL.CROSS' -> '/usr/share/doc/freetype-2.9/INSTALL.CROSS'
+'docs/INSTALL.GNU' -> '/usr/share/doc/freetype-2.9/INSTALL.GNU'
+'docs/INSTALL.MAC' -> '/usr/share/doc/freetype-2.9/INSTALL.MAC'
+'docs/INSTALL.UNIX' -> '/usr/share/doc/freetype-2.9/INSTALL.UNIX'
+'docs/INSTALL.VMS' -> '/usr/share/doc/freetype-2.9/INSTALL.VMS'
+'docs/LICENSE.TXT' -> '/usr/share/doc/freetype-2.9/LICENSE.TXT'
+'docs/MAKEPP' -> '/usr/share/doc/freetype-2.9/MAKEPP'
+'docs/PROBLEMS' -> '/usr/share/doc/freetype-2.9/PROBLEMS'
+'docs/TODO' -> '/usr/share/doc/freetype-2.9/TODO'
+'docs/VERSIONS.TXT' -> '/usr/share/doc/freetype-2.9/VERSIONS.TXT'
+'docs/css/freetype2_60.css' -> '/usr/share/doc/freetype-2.9/css/freetype2_60.css'
+'docs/css/freetype2_-90.css' -> '/usr/share/doc/freetype-2.9/css/freetype2_-90.css'
+'docs/css/freetype2_30.css' -> '/usr/share/doc/freetype-2.9/css/freetype2_30.css'
+'docs/css/freetype2.css' -> '/usr/share/doc/freetype-2.9/css/freetype2.css'
+'docs/css/freetype2_90.css' -> '/usr/share/doc/freetype-2.9/css/freetype2_90.css'
+'docs/css/freetype2_-60.css' -> '/usr/share/doc/freetype-2.9/css/freetype2_-60.css'
+'docs/css/freetype2_-30.css' -> '/usr/share/doc/freetype-2.9/css/freetype2_-30.css'
+'docs/css/freetype.css' -> '/usr/share/doc/freetype-2.9/css/freetype.css'
+'docs/design/basic-design.png' -> '/usr/share/doc/freetype-2.9/design/basic-design.png'
+'docs/design/detailed-design.png' -> '/usr/share/doc/freetype-2.9/design/detailed-design.png'
+'docs/design/library-model.png' -> '/usr/share/doc/freetype-2.9/design/library-model.png'
+'docs/design/simple-model.png' -> '/usr/share/doc/freetype-2.9/design/simple-model.png'
+'docs/design/design-1.html' -> '/usr/share/doc/freetype-2.9/design/design-1.html'
+'docs/design/design-2.html' -> '/usr/share/doc/freetype-2.9/design/design-2.html'
+'docs/design/design-3.html' -> '/usr/share/doc/freetype-2.9/design/design-3.html'
+'docs/design/design-4.html' -> '/usr/share/doc/freetype-2.9/design/design-4.html'
+'docs/design/design-5.html' -> '/usr/share/doc/freetype-2.9/design/design-5.html'
+'docs/design/index.html' -> '/usr/share/doc/freetype-2.9/design/index.html'
+'docs/design/design-6.html' -> '/usr/share/doc/freetype-2.9/design/design-6.html'
+'docs/documentation.html' -> '/usr/share/doc/freetype-2.9/documentation.html'
+'docs/formats.txt' -> '/usr/share/doc/freetype-2.9/formats.txt'
+'docs/freetype-config.1' -> '/usr/share/doc/freetype-2.9/freetype-config.1'
+'docs/ft2faq.html' -> '/usr/share/doc/freetype-2.9/ft2faq.html'
+'docs/glyphs/bbox1.png' -> '/usr/share/doc/freetype-2.9/glyphs/bbox1.png'
+'docs/glyphs/bbox2.png' -> '/usr/share/doc/freetype-2.9/glyphs/bbox2.png'
+'docs/glyphs/body_comparison.png' -> '/usr/share/doc/freetype-2.9/glyphs/body_comparison.png'
+'docs/glyphs/bravo_kerned.png' -> '/usr/share/doc/freetype-2.9/glyphs/bravo_kerned.png'
+'docs/glyphs/bravo_unkerned.png' -> '/usr/share/doc/freetype-2.9/glyphs/bravo_unkerned.png'
+'docs/glyphs/clipping.png' -> '/usr/share/doc/freetype-2.9/glyphs/clipping.png'
+'docs/glyphs/down_flow.png' -> '/usr/share/doc/freetype-2.9/glyphs/down_flow.png'
+'docs/glyphs/grid_1.png' -> '/usr/share/doc/freetype-2.9/glyphs/grid_1.png'
+'docs/glyphs/layout.png' -> '/usr/share/doc/freetype-2.9/glyphs/layout.png'
+'docs/glyphs/layout2.png' -> '/usr/share/doc/freetype-2.9/glyphs/layout2.png'
+'docs/glyphs/metrics.png' -> '/usr/share/doc/freetype-2.9/glyphs/metrics.png'
+'docs/glyphs/metrics2.png' -> '/usr/share/doc/freetype-2.9/glyphs/metrics2.png'
+'docs/glyphs/points_conic.png' -> '/usr/share/doc/freetype-2.9/glyphs/points_conic.png'
+'docs/glyphs/points_conic2.png' -> '/usr/share/doc/freetype-2.9/glyphs/points_conic2.png'
+'docs/glyphs/points_cubic.png' -> '/usr/share/doc/freetype-2.9/glyphs/points_cubic.png'
+'docs/glyphs/points_segment.png' -> '/usr/share/doc/freetype-2.9/glyphs/points_segment.png'
+'docs/glyphs/twlewis1.png' -> '/usr/share/doc/freetype-2.9/glyphs/twlewis1.png'
+'docs/glyphs/twlewis2.png' -> '/usr/share/doc/freetype-2.9/glyphs/twlewis2.png'
+'docs/glyphs/up_flow.png' -> '/usr/share/doc/freetype-2.9/glyphs/up_flow.png'
+'docs/glyphs/glyphs-1.html' -> '/usr/share/doc/freetype-2.9/glyphs/glyphs-1.html'
+'docs/glyphs/glyphs-2.html' -> '/usr/share/doc/freetype-2.9/glyphs/glyphs-2.html'
+'docs/glyphs/glyphs-3.html' -> '/usr/share/doc/freetype-2.9/glyphs/glyphs-3.html'
+'docs/glyphs/glyphs-4.html' -> '/usr/share/doc/freetype-2.9/glyphs/glyphs-4.html'
+'docs/glyphs/glyphs-5.html' -> '/usr/share/doc/freetype-2.9/glyphs/glyphs-5.html'
+'docs/glyphs/glyphs-6.html' -> '/usr/share/doc/freetype-2.9/glyphs/glyphs-6.html'
+'docs/glyphs/glyphs-7.html' -> '/usr/share/doc/freetype-2.9/glyphs/glyphs-7.html'
+'docs/glyphs/index.html' -> '/usr/share/doc/freetype-2.9/glyphs/index.html'
+'docs/image/fond3_-90.png' -> '/usr/share/doc/freetype-2.9/image/fond3_-90.png'
+'docs/image/freetype.jpg' -> '/usr/share/doc/freetype-2.9/image/freetype.jpg'
+'docs/image/fond3_30.png' -> '/usr/share/doc/freetype-2.9/image/fond3_30.png'
+'docs/image/fond3_-60.png' -> '/usr/share/doc/freetype-2.9/image/fond3_-60.png'
+'docs/image/favicon_-30.ico' -> '/usr/share/doc/freetype-2.9/image/favicon_-30.ico'
+'docs/image/favicon_90.ico' -> '/usr/share/doc/freetype-2.9/image/favicon_90.ico'
+'docs/image/favicon.ico' -> '/usr/share/doc/freetype-2.9/image/favicon.ico'
+'docs/image/top.gif' -> '/usr/share/doc/freetype-2.9/image/top.gif'
+'docs/image/fond3_60.png' -> '/usr/share/doc/freetype-2.9/image/fond3_60.png'
+'docs/image/favicon_-90.ico' -> '/usr/share/doc/freetype-2.9/image/favicon_-90.ico'
+'docs/image/fond3.jpg' -> '/usr/share/doc/freetype-2.9/image/fond3.jpg'
+'docs/image/favicon_30.ico' -> '/usr/share/doc/freetype-2.9/image/favicon_30.ico'
+'docs/image/fond2-small.png' -> '/usr/share/doc/freetype-2.9/image/fond2-small.png'
+'docs/image/fond2.png' -> '/usr/share/doc/freetype-2.9/image/fond2.png'
+'docs/image/fond3_-30.png' -> '/usr/share/doc/freetype-2.9/image/fond3_-30.png'
+'docs/image/favicon_-60.ico' -> '/usr/share/doc/freetype-2.9/image/favicon_-60.ico'
+'docs/image/fond3_90.png' -> '/usr/share/doc/freetype-2.9/image/fond3_90.png'
+'docs/image/favicon_60.ico' -> '/usr/share/doc/freetype-2.9/image/favicon_60.ico'
+'docs/image/fond3.png' -> '/usr/share/doc/freetype-2.9/image/fond3.png'
+'docs/image/BlendingExamples-thumbnail.png' -> '/usr/share/doc/freetype-2.9/image/BlendingExamples-thumbnail.png'
+'docs/image/BlendingExamples.png' -> '/usr/share/doc/freetype-2.9/image/BlendingExamples.png'
+'docs/image/freetype-262-autohinter-stem-darkening-demo1-thumbnail.png' -> '/usr/share/doc/freetype-2.9/image/freetype-262-autohinter-stem-darkening-demo1-thumbnail.png'
+'docs/image/freetype-262-autohinter-stem-darkening-demo1.png' -> '/usr/share/doc/freetype-2.9/image/freetype-262-autohinter-stem-darkening-demo1.png'
+'docs/image/freetype-262-autohinter-stem-darkening-demo2-thumbnail.png' -> '/usr/share/doc/freetype-2.9/image/freetype-262-autohinter-stem-darkening-demo2-thumbnail.png'
+'docs/image/freetype-262-autohinter-stem-darkening-demo2.png' -> '/usr/share/doc/freetype-2.9/image/freetype-262-autohinter-stem-darkening-demo2.png'
+'docs/image/freetype-262-new-old-filter-thumbnail.png' -> '/usr/share/doc/freetype-2.9/image/freetype-262-new-old-filter-thumbnail.png'
+'docs/image/freetype-262-new-old-filter.png' -> '/usr/share/doc/freetype-2.9/image/freetype-262-new-old-filter.png'
+'docs/image/freetype-27-consolas-v35-v40.png' -> '/usr/share/doc/freetype-2.9/image/freetype-27-consolas-v35-v40.png'
+'docs/image/freetype-27-hinting-comparison.png' -> '/usr/share/doc/freetype-2.9/image/freetype-27-hinting-comparison.png'
+'docs/image/freetype-27-v35-v40-different-hinting.png' -> '/usr/share/doc/freetype-2.9/image/freetype-27-v35-v40-different-hinting.png'
+'docs/index.html' -> '/usr/share/doc/freetype-2.9/index.html'
+'docs/js/freetype2.js' -> '/usr/share/doc/freetype-2.9/js/freetype2.js'
+'docs/js/jquery-1.11.0.min.js' -> '/usr/share/doc/freetype-2.9/js/jquery-1.11.0.min.js'
+'docs/js/jquery.ba-resize.min.js' -> '/usr/share/doc/freetype-2.9/js/jquery.ba-resize.min.js'
+'docs/raster.txt' -> '/usr/share/doc/freetype-2.9/raster.txt'
+'docs/reference/README' -> '/usr/share/doc/freetype-2.9/reference/README'
+'docs/reference/ft2-toc.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-toc.html'
+'docs/reference/ft2-index.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-index.html'
+'docs/reference/ft2-winfnt_fonts.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-winfnt_fonts.html'
+'docs/reference/ft2-glyph_stroker.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-glyph_stroker.html'
+'docs/reference/ft2-ot_validation.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-ot_validation.html'
+'docs/reference/ft2-base_interface.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-base_interface.html'
+'docs/reference/ft2-system_interface.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-system_interface.html'
+'docs/reference/ft2-tt_driver.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-tt_driver.html'
+'docs/reference/ft2-gasp_table.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-gasp_table.html'
+'docs/reference/ft2-cache_subsystem.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-cache_subsystem.html'
+'docs/reference/ft2-sfnt_names.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-sfnt_names.html'
+'docs/reference/ft2-incremental.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-incremental.html'
+'docs/reference/ft2-user_allocation.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-user_allocation.html'
+'docs/reference/ft2-basic_types.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-basic_types.html'
+'docs/reference/ft2-bdf_fonts.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-bdf_fonts.html'
+'docs/reference/ft2-multiple_masters.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-multiple_masters.html'
+'docs/reference/ft2-glyph_management.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-glyph_management.html'
+'docs/reference/ft2-truetype_engine.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-truetype_engine.html'
+'docs/reference/ft2-version.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-version.html'
+'docs/reference/ft2-gx_validation.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-gx_validation.html'
+'docs/reference/ft2-glyph_variants.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-glyph_variants.html'
+'docs/reference/ft2-font_formats.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-font_formats.html'
+'docs/reference/ft2-type1_tables.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-type1_tables.html'
+'docs/reference/ft2-quick_advance.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-quick_advance.html'
+'docs/reference/ft2-cff_driver.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-cff_driver.html'
+'docs/reference/ft2-bitmap_handling.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-bitmap_handling.html'
+'docs/reference/ft2-outline_processing.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-outline_processing.html'
+'docs/reference/ft2-bzip2.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-bzip2.html'
+'docs/reference/ft2-cid_fonts.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-cid_fonts.html'
+'docs/reference/ft2-parameter_tags.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-parameter_tags.html'
+'docs/reference/ft2-gzip.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-gzip.html'
+'docs/reference/ft2-header_file_macros.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-header_file_macros.html'
+'docs/reference/ft2-module_management.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-module_management.html'
+'docs/reference/ft2-error_code_values.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-error_code_values.html'
+'docs/reference/ft2-t1_cid_driver.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-t1_cid_driver.html'
+'docs/reference/ft2-properties.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-properties.html'
+'docs/reference/ft2-raster.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-raster.html'
+'docs/reference/ft2-pcf_driver.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-pcf_driver.html'
+'docs/reference/ft2-truetype_tables.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-truetype_tables.html'
+'docs/reference/ft2-computations.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-computations.html'
+'docs/reference/ft2-error_enumerations.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-error_enumerations.html'
+'docs/reference/ft2-sizes_management.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-sizes_management.html'
+'docs/reference/ft2-mac_specific.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-mac_specific.html'
+'docs/reference/ft2-pfr_fonts.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-pfr_fonts.html'
+'docs/reference/ft2-lcd_filtering.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-lcd_filtering.html'
+'docs/reference/ft2-auto_hinter.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-auto_hinter.html'
+'docs/reference/ft2-header_inclusion.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-header_inclusion.html'
+'docs/reference/ft2-lzw.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-lzw.html'
+'docs/reference/ft2-list_processing.html' -> '/usr/share/doc/freetype-2.9/reference/ft2-list_processing.html'
+'docs/release' -> '/usr/share/doc/freetype-2.9/release'
+'docs/subpixel-hinting.html' -> '/usr/share/doc/freetype-2.9/subpixel-hinting.html'
+'docs/text-rendering-general.html' -> '/usr/share/doc/freetype-2.9/text-rendering-general.html'
+'docs/tutorial/example4.pro' -> '/usr/share/doc/freetype-2.9/tutorial/example4.pro'
+'docs/tutorial/example1.c' -> '/usr/share/doc/freetype-2.9/tutorial/example1.c'
+'docs/tutorial/example4.cpp' -> '/usr/share/doc/freetype-2.9/tutorial/example4.cpp'
+'docs/tutorial/example2.cpp' -> '/usr/share/doc/freetype-2.9/tutorial/example2.cpp'
+'docs/tutorial/metrics.png' -> '/usr/share/doc/freetype-2.9/tutorial/metrics.png'
+'docs/tutorial/metrics2.png' -> '/usr/share/doc/freetype-2.9/tutorial/metrics2.png'
+'docs/tutorial/example3.cpp' -> '/usr/share/doc/freetype-2.9/tutorial/example3.cpp'
+'docs/tutorial/example5.svg' -> '/usr/share/doc/freetype-2.9/tutorial/example5.svg'
+'docs/tutorial/example5.cpp' -> '/usr/share/doc/freetype-2.9/tutorial/example5.cpp'
+'docs/tutorial/index.html' -> '/usr/share/doc/freetype-2.9/tutorial/index.html'
+'docs/tutorial/step1.html' -> '/usr/share/doc/freetype-2.9/tutorial/step1.html'
+'docs/tutorial/step2.html' -> '/usr/share/doc/freetype-2.9/tutorial/step2.html'
+'docs/tutorial/step3.html' -> '/usr/share/doc/freetype-2.9/tutorial/step3.html'

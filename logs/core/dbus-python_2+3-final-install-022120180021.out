@@ -1,0 +1,104 @@
+Making install in dbus-gmain
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2/dbus-gmain'
+Making install in .
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   _dbus_bindings.la _dbus_glib_bindings.la '/usr/lib/python2.7/site-packages'
+libtool: install: /usr/bin/install -c .libs/_dbus_bindings.so /usr/lib/python2.7/site-packages/_dbus_bindings.so
+libtool: install: /usr/bin/install -c .libs/_dbus_bindings.lai /usr/lib/python2.7/site-packages/_dbus_bindings.la
+libtool: install: /usr/bin/install -c .libs/_dbus_glib_bindings.so /usr/lib/python2.7/site-packages/_dbus_glib_bindings.so
+libtool: install: /usr/bin/install -c .libs/_dbus_glib_bindings.lai /usr/lib/python2.7/site-packages/_dbus_glib_bindings.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 ../include/dbus/dbus-python.h '/usr/include/dbus-1.0/dbus'
+ /bin/mkdir -p '/usr/share/doc/dbus-python-1.2.4'
+ /usr/bin/install -c -m 644 ../doc/tutorial.txt ../doc/API_CHANGES.txt ../doc/HACKING.txt ../doc/PY3PORT.txt ../README ../NEWS '/usr/share/doc/dbus-python-1.2.4'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+/bin/mkdir -p '/usr/lib/python2.7/site-packages/dbus/mainloop'
+ /usr/bin/install -c -m 644  ../dbus/mainloop/__init__.py ../dbus/mainloop/glib.py '/usr/lib/python2.7/site-packages/dbus/mainloop'
+/bin/mkdir -p '/usr/lib/python2.7/site-packages/dbus'
+ /usr/bin/install -c -m 644  ../dbus/bus.py ../dbus/connection.py ../dbus/_compat.py ../dbus/_dbus.py ../dbus/decorators.py ../dbus/exceptions.py ../dbus/_expat_introspect_parser.py ../dbus/gi_service.py ../dbus/glib.py ../dbus/__init__.py ../dbus/lowlevel.py ../dbus/proxies.py ../dbus/server.py ../dbus/service.py ../dbus/types.py ../dbus/gobject_service.py '/usr/lib/python2.7/site-packages/dbus'
+Byte-compiling python modules...
+dbus/mainloop/__init__.pydbus/mainloop/glib.pydbus/bus.pydbus/connection.pydbus/_compat.pydbus/_dbus.pydbus/decorators.pydbus/exceptions.pydbus/_expat_introspect_parser.pydbus/gi_service.pydbus/glib.pydbus/__init__.pydbus/lowlevel.pydbus/proxies.pydbus/server.pydbus/service.pydbus/types.pydbus/gobject_service.py
+Byte-compiling python modules (optimized versions) ...
+dbus/mainloop/__init__.pydbus/mainloop/glib.pydbus/bus.pydbus/connection.pydbus/_compat.pydbus/_dbus.pydbus/decorators.pydbus/exceptions.pydbus/_expat_introspect_parser.pydbus/gi_service.pydbus/glib.pydbus/__init__.pydbus/lowlevel.pydbus/proxies.pydbus/server.pydbus/service.pydbus/types.pydbus/gobject_service.py
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dbus-python.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python2'
+Making install in dbus-gmain
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3/dbus-gmain'
+Making install in .
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   _dbus_bindings.la _dbus_glib_bindings.la '/usr/lib/python2.7/site-packages'
+libtool: install: /usr/bin/install -c .libs/_dbus_bindings.so /usr/lib/python2.7/site-packages/_dbus_bindings.so
+libtool: install: /usr/bin/install -c .libs/_dbus_bindings.lai /usr/lib/python2.7/site-packages/_dbus_bindings.la
+libtool: install: /usr/bin/install -c .libs/_dbus_glib_bindings.so /usr/lib/python2.7/site-packages/_dbus_glib_bindings.so
+libtool: install: /usr/bin/install -c .libs/_dbus_glib_bindings.lai /usr/lib/python2.7/site-packages/_dbus_glib_bindings.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/python2.7/site-packages
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 ../include/dbus/dbus-python.h '/usr/include/dbus-1.0/dbus'
+ /bin/mkdir -p '/usr/share/doc/dbus-python-1.2.4'
+ /usr/bin/install -c -m 644 ../doc/tutorial.txt ../doc/API_CHANGES.txt ../doc/HACKING.txt ../doc/PY3PORT.txt ../README ../NEWS '/usr/share/doc/dbus-python-1.2.4'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+/bin/mkdir -p '/usr/lib/python2.7/site-packages/dbus/mainloop'
+ /usr/bin/install -c -m 644  ../dbus/mainloop/__init__.py ../dbus/mainloop/glib.py '/usr/lib/python2.7/site-packages/dbus/mainloop'
+/bin/mkdir -p '/usr/lib/python2.7/site-packages/dbus'
+ /usr/bin/install -c -m 644  ../dbus/bus.py ../dbus/connection.py ../dbus/_compat.py ../dbus/_dbus.py ../dbus/decorators.py ../dbus/exceptions.py ../dbus/_expat_introspect_parser.py ../dbus/gi_service.py ../dbus/glib.py ../dbus/__init__.py ../dbus/lowlevel.py ../dbus/proxies.py ../dbus/server.py ../dbus/service.py ../dbus/types.py ../dbus/gobject_service.py '/usr/lib/python2.7/site-packages/dbus'
+Byte-compiling python modules...
+dbus/mainloop/__init__.pydbus/mainloop/glib.pydbus/bus.pydbus/connection.pydbus/_compat.pydbus/_dbus.pydbus/decorators.pydbus/exceptions.pydbus/_expat_introspect_parser.pydbus/gi_service.pydbus/glib.pydbus/__init__.pydbus/lowlevel.pydbus/proxies.pydbus/server.pydbus/service.pydbus/types.pydbus/gobject_service.py
+Byte-compiling python modules (optimized versions) ...
+dbus/mainloop/__init__.pydbus/mainloop/glib.pydbus/bus.pydbus/connection.pydbus/_compat.pydbus/_dbus.pydbus/decorators.pydbus/exceptions.pydbus/_expat_introspect_parser.pydbus/gi_service.pydbus/glib.pydbus/__init__.pydbus/lowlevel.pydbus/proxies.pydbus/server.pydbus/service.pydbus/types.pydbus/gobject_service.py
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dbus-python.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-python-1.2.6/python3'

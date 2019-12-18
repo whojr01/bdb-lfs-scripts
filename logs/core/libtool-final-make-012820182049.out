@@ -1,0 +1,17 @@
+  GEN      libtoolize
+make  all-recursive
+make[1]: Entering directory '/sources/libtool-2.4.6/build'
+Making all in .
+make[2]: Entering directory '/sources/libtool-2.4.6/build'
+  CC       libltdl/loaders/libltdl_libltdl_la-preopen.lo
+  CC       libltdl/libltdl_libltdl_la-lt__alloc.lo
+  CC       libltdl/libltdl_libltdl_la-lt_dlloader.lo
+  CC       libltdl/libltdl_libltdl_la-lt_error.lo
+  CC       libltdl/libltdl_libltdl_la-ltdl.lo
+  CC       libltdl/libltdl_libltdl_la-slist.lo
+  CC       libltdl/loaders/dlopen.lo
+  CCLD     libltdl/dlopen.la
+  CC       libltdl/lt__strl.lo
+  CCLD     libltdl/libltdl.la
+make[2]: Leaving directory '/sources/libtool-2.4.6/build'
+make[1]: Leaving directory '/sources/libtool-2.4.6/build'

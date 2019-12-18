@@ -1,0 +1,84 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By:            Fernando de Oliveira <famobr at yahoo dot com
+|                         dot br>, based on previous patches submitted 
+|                         by Armin K. <krejzi at email dot com>
+|Date:                    2015-10-17
+|Initial Package Version: 11.0.3
+|Upstream Status:         Not applicable.
+|Origin:                  Self.
+|Description:             This patch adds two OpenGL demos, glxinfo and
+|                         glxgears and respective man pages.
+|
+|
+|diff -Naur a/xdemos/glinfo_common.c b/xdemos/glinfo_common.c
+|--- a/xdemos/glinfo_common.c	1969-12-31 21:00:00.000000000 -0300
+|+++ b/xdemos/glinfo_common.c	2015-10-17 11:47:19.100139771 -0300
+--------------------------
+patching file xdemos/glinfo_common.c
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur a/xdemos/glinfo_common.h b/xdemos/glinfo_common.h
+|--- a/xdemos/glinfo_common.h	1969-12-31 21:00:00.000000000 -0300
+|+++ b/xdemos/glinfo_common.h	2015-10-17 11:47:19.100139771 -0300
+--------------------------
+patching file xdemos/glinfo_common.h
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur a/xdemos/glxgears.1 b/xdemos/glxgears.1
+|--- a/xdemos/glxgears.1	1969-12-31 21:00:00.000000000 -0300
+|+++ b/xdemos/glxgears.1	2015-10-17 12:14:26.566042037 -0300
+--------------------------
+patching file xdemos/glxgears.1
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|+
+|diff -Naur a/xdemos/glxgears.c b/xdemos/glxgears.c
+|--- a/xdemos/glxgears.c	1969-12-31 21:00:00.000000000 -0300
+|+++ b/xdemos/glxgears.c	2015-10-17 11:47:19.101139750 -0300
+--------------------------
+patching file xdemos/glxgears.c
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur a/xdemos/glxinfo.1 b/xdemos/glxinfo.1
+|--- a/xdemos/glxinfo.1	1969-12-31 21:00:00.000000000 -0300
+|+++ b/xdemos/glxinfo.1	2015-10-17 12:09:57.708723149 -0300
+--------------------------
+patching file xdemos/glxinfo.1
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|+
+|diff -Naur a/xdemos/glxinfo.c b/xdemos/glxinfo.c
+|--- a/xdemos/glxinfo.c	1969-12-31 21:00:00.000000000 -0300
+|+++ b/xdemos/glxinfo.c	2015-10-17 11:47:19.104139689 -0300
+--------------------------
+patching file xdemos/glxinfo.c
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur a/xdemos/Makefile b/xdemos/Makefile
+|--- a/xdemos/Makefile	1969-12-31 21:00:00.000000000 -0300
+|+++ b/xdemos/Makefile	2015-10-17 11:47:19.104139689 -0300
+--------------------------
+patching file xdemos/Makefile
+Using Plan A...
+Hunk #1 succeeded at 1.
+done

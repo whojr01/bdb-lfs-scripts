@@ -1,0 +1,6 @@
+renamed 'tests/fuzz-tests/003-multi-check-unmounted/test.sh' -> 'tests/fuzz-tests/003-multi-check-unmounted/test.sh.broken'
+renamed 'tests/fuzz-tests/004-simple-dump-tree/test.sh' -> 'tests/fuzz-tests/004-simple-dump-tree/test.sh.broken'
+renamed 'tests/fuzz-tests/007-simple-super-recover/test.sh' -> 'tests/fuzz-tests/007-simple-super-recover/test.sh.broken'
+renamed 'tests/fuzz-tests/009-simple-zero-log/test.sh' -> 'tests/fuzz-tests/009-simple-zero-log/test.sh.broken'
+renamed 'tests/misc-tests/019-receive-clones-on-munted-subvol/test.sh' -> 'tests/misc-tests/019-receive-clones-on-munted-subvol/test.sh.broken'
+/lfskernel/sources/boot/btrfs-progs-v4.12/tests /lfskernel/sources/boot/btrfs-progs-v4.12

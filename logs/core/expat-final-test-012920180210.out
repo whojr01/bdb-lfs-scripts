@@ -1,0 +1,57 @@
+Making check in lib
+make[1]: Entering directory '/sources/expat-2.2.5/build/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.2.5/build/lib'
+Making check in examples
+make[1]: Entering directory '/sources/expat-2.2.5/build/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.2.5/build/examples'
+Making check in tests
+make[1]: Entering directory '/sources/expat-2.2.5/build/tests'
+Making check in .
+make[2]: Entering directory '/sources/expat-2.2.5/build/tests'
+make  runtests runtestspp
+make[3]: Entering directory '/sources/expat-2.2.5/build/tests'
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT runtests.o -MD -MP -MF .deps/runtests.Tpo -c -o runtests.o ../../tests/runtests.c
+mv -f .deps/runtests.Tpo .deps/runtests.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing  -fno-strict-aliasing -o runtests runtests.o libruntests.a ../lib/libexpat.la 
+libtool: link: gcc -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -fno-strict-aliasing -o .libs/runtests runtests.o  libruntests.a ../lib/.libs/libexpat.so
+g++ -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -fno-strict-aliasing -MT runtestspp.o -MD -MP -MF .deps/runtestspp.Tpo -c -o runtestspp.o ../../tests/runtestspp.cpp
+mv -f .deps/runtestspp.Tpo .deps/runtestspp.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2 -fno-strict-aliasing  -fno-strict-aliasing -o runtestspp runtestspp.o libruntests.a ../lib/libexpat.la 
+libtool: link: g++ -g -O2 -fno-strict-aliasing -fno-strict-aliasing -o .libs/runtestspp runtestspp.o  libruntests.a ../lib/.libs/libexpat.so
+make[3]: Leaving directory '/sources/expat-2.2.5/build/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/expat-2.2.5/build/tests'
+make[4]: Entering directory '/sources/expat-2.2.5/build/tests'
+PASS: runtests
+PASS: runtestspp
+============================================================================
+Testsuite summary for expat 2.2.5
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/expat-2.2.5/build/tests'
+make[3]: Leaving directory '/sources/expat-2.2.5/build/tests'
+make[2]: Leaving directory '/sources/expat-2.2.5/build/tests'
+Making check in benchmark
+make[2]: Entering directory '/sources/expat-2.2.5/build/tests/benchmark'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/expat-2.2.5/build/tests/benchmark'
+make[1]: Leaving directory '/sources/expat-2.2.5/build/tests'
+Making check in xmlwf
+make[1]: Entering directory '/sources/expat-2.2.5/build/xmlwf'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.2.5/build/xmlwf'
+Making check in doc
+make[1]: Entering directory '/sources/expat-2.2.5/build/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/expat-2.2.5/build/doc'
+make[1]: Entering directory '/sources/expat-2.2.5/build'
+make[1]: Leaving directory '/sources/expat-2.2.5/build'

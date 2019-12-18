@@ -1,0 +1,33 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21'
+Making all in libusb
+make[2]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21/libusb'
+  CC       libusb_1_0_la-core.lo
+core.c: In function 'usbi_log_str':
+core.c:2337:2: warning: enumeration value 'LIBUSB_LOG_LEVEL_NONE' not handled in switch [-Wswitch]
+  switch (level) {
+  ^~~~~~
+  CC       libusb_1_0_la-descriptor.lo
+  CC       libusb_1_0_la-hotplug.lo
+  CC       libusb_1_0_la-io.lo
+  CC       libusb_1_0_la-strerror.lo
+  CC       libusb_1_0_la-sync.lo
+  CC       os/libusb_1_0_la-poll_posix.lo
+  CC       os/libusb_1_0_la-threads_posix.lo
+  CC       os/libusb_1_0_la-linux_usbfs.lo
+  CC       os/libusb_1_0_la-linux_udev.lo
+  CCLD     libusb-1.0.la
+make[2]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21/libusb'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21/doc'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21/tests'
+  CC       stress.o
+  CC       testlib.o
+  CCLD     stress
+make[2]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21'
+make[2]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21'
+make[1]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21'

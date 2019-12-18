@@ -1,0 +1,158 @@
+Making install in va
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va'
+Making install in drm
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va/drm'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va/drm'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va_drm.h '/usr/include/va'
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va/drm'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va/drm'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/va'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libva.la libva-tpi.la libva-drm.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libva.so.1.3904.0 /usr/lib/libva.so.1.3904.0
+libtool: install: (cd /usr/lib && { ln -s -f libva.so.1.3904.0 libva.so.1 || { rm -f libva.so.1 && ln -s libva.so.1.3904.0 libva.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva.so.1.3904.0 libva.so || { rm -f libva.so && ln -s libva.so.1.3904.0 libva.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva.lai /usr/lib/libva.la
+libtool: install: warning: relinking `libva-tpi.la'
+libtool: install: (cd /lfskernel/sources/boot/libva-1.7.3/va; /bin/sh /lfskernel/sources/boot/libva-1.7.3/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3905:0:3904 -no-undefined -o libva-tpi.la -rpath /usr/lib va_tpi.lo libva.la -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-tpi.so.1.3904.0T /usr/lib/libva-tpi.so.1.3904.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-tpi.so.1.3904.0 libva-tpi.so.1 || { rm -f libva-tpi.so.1 && ln -s libva-tpi.so.1.3904.0 libva-tpi.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-tpi.so.1.3904.0 libva-tpi.so || { rm -f libva-tpi.so && ln -s libva-tpi.so.1.3904.0 libva-tpi.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-tpi.lai /usr/lib/libva-tpi.la
+libtool: install: warning: relinking `libva-drm.la'
+libtool: install: (cd /lfskernel/sources/boot/libva-1.7.3/va; /bin/sh /lfskernel/sources/boot/libva-1.7.3/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3905:0:3904 -o libva-drm.la -rpath /usr/lib libva.la drm/libva_drm.la -ldrm -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-drm.so.1.3904.0T /usr/lib/libva-drm.so.1.3904.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-drm.so.1.3904.0 libva-drm.so.1 || { rm -f libva-drm.so.1 && ln -s libva-drm.so.1.3904.0 libva-drm.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-drm.so.1.3904.0 libva-drm.so || { rm -f libva-drm.so && ln -s libva-drm.so.1.3904.0 libva-drm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-drm.lai /usr/lib/libva-drm.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va.h va_backend.h va_backend_tpi.h va_backend_vpp.h va_compat.h va_dec_hevc.h va_dec_jpeg.h va_dec_vp8.h va_dec_vp9.h va_drmcommon.h va_enc_hevc.h va_enc_h264.h va_enc_jpeg.h va_enc_vp8.h va_enc_mpeg2.h va_enc_vp9.h va_tpi.h va_version.h va_vpp.h '/usr/include/va'
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/va'
+Making install in dummy_drv_video
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/dummy_drv_video'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/dummy_drv_video'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   dummy_drv_video.la '/usr/lib/dri'
+libtool: install: /usr/bin/install -c .libs/dummy_drv_video.so /usr/lib/dri/dummy_drv_video.so
+libtool: install: /usr/bin/install -c .libs/dummy_drv_video.lai /usr/lib/dri/dummy_drv_video.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/dummy_drv_video'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/dummy_drv_video'
+Making install in pkgconfig
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/pkgconfig'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/pkgconfig'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libva.pc libva-tpi.pc libva-drm.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/pkgconfig'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/pkgconfig'
+Making install in test
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test'
+Making install in common
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/common'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/common'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/common'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/common'
+Making install in decode
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/decode'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/decode'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c mpeg2vldemo loadjpeg '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/mpeg2vldemo /usr/bin/mpeg2vldemo
+libtool: install: /usr/bin/install -c .libs/loadjpeg /usr/bin/loadjpeg
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/decode'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/decode'
+Making install in encode
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/encode'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/encode'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c avcenc mpeg2vaenc h264encode jpegenc '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/avcenc /usr/bin/avcenc
+libtool: install: /usr/bin/install -c .libs/mpeg2vaenc /usr/bin/mpeg2vaenc
+libtool: install: /usr/bin/install -c .libs/h264encode /usr/bin/h264encode
+libtool: install: /usr/bin/install -c .libs/jpegenc /usr/bin/jpegenc
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/encode'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/encode'
+Making install in vainfo
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/vainfo'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test/vainfo'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c vainfo '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/vainfo /usr/bin/vainfo
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/vainfo'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test/vainfo'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test'
+make[3]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/test'
+Making install in debian.upstream
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/debian.upstream'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/debian.upstream'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/debian.upstream'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/debian.upstream'
+Making install in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/libva-1.7.3'
+make[2]: Entering directory '/lfskernel/sources/boot/libva-1.7.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/libva-1.7.3'

@@ -1,0 +1,54 @@
+/bin/sh ./sinstall.sh  "/usr/bin/install -c" xterm   /usr/bin/`echo xterm|        sed 's,x,x,'`
+checking for presumed installation-mode
+/usr/bin/install -c -m 755   xterm /usr/bin/xterm
+/usr/bin/install -c -m  755 resize /usr/bin/`echo resize|       sed 's,x,x,'`
+... installing /usr/bin/uxterm
+... installing /usr/bin/koi8rxterm
+/usr/bin/install -c -m 644 ./xterm.man /usr/share/man/man1/xterm.1
+/usr/bin/install -c -m 644 ./resize.man /usr/share/man/man1/resize.1
+/usr/bin/install -c -m 644 ./uxterm.man /usr/share/man/man1/uxterm.1
+/usr/bin/install -c -m 644 ./koi8rxterm.man /usr/share/man/man1/koi8rxterm.1
+** XTerm
+installing /etc/X11/app-defaults/XTerm
+installing /etc/X11/app-defaults/XTerm-color
+** UXTerm
+installing /etc/X11/app-defaults/UXTerm
+installing /etc/X11/app-defaults/UXTerm-color
+** KOI8RXTerm
+installing /etc/X11/app-defaults/KOI8RXTerm
+installing /etc/X11/app-defaults/KOI8RXTerm-color
+mkdir -p /usr/share/pixmaps
+ACTUAL_XTERM=`echo xterm|        sed 's,x,x,'` \
+/bin/sh -c '\
+	h=/usr/share/pixmaps; \
+	for n in ./icons/*xterm*_32x32.xpm ./icons/*xterm*_48x48.xpm; \
+	do \
+		l=`basename $n`; \
+		r=`echo "$l" | sed -e "s,xterm,$ACTUAL_XTERM,"`; \
+		echo "installing pixmap $h/$r"; \
+		/usr/bin/install -c -m 644 ./icons/$l $h/$r; \
+		s=`echo "$r" | sed -e '"'s,^.*\.,.,'"'`; \
+		t=NONE$s; \
+		b=`basename $n $s | sed -e "s,_[1-9][0-9]*x.*,,"`; \
+		if test "NONE" != NONE ; then \
+			if test "x$r" != "$t" ; then \
+				if test "x$b" = "xxterm-color" ; then \
+					echo "linking $r -> $t"; \
+					( cd $h; rm -f $t; ln -s $r $t; ) \
+				fi \
+			fi \
+		fi \
+	done'
+installing pixmap /usr/share/pixmaps/filled-xterm_32x32.xpm
+installing pixmap /usr/share/pixmaps/mini.xterm_32x32.xpm
+installing pixmap /usr/share/pixmaps/xterm-color_32x32.xpm
+installing pixmap /usr/share/pixmaps/xterm_32x32.xpm
+installing pixmap /usr/share/pixmaps/filled-xterm_48x48.xpm
+installing pixmap /usr/share/pixmaps/mini.xterm_48x48.xpm
+installing pixmap /usr/share/pixmaps/xterm-color_48x48.xpm
+installing pixmap /usr/share/pixmaps/xterm_48x48.xpm
+... installed icons
+Completed installation of executables and documentation.
+Use "make install-ti" to install terminfo description.
+** tic -x ./terminfo
+Completed installation of terminfo description.

@@ -1,0 +1,77 @@
+make  all-recursive
+make[1]: Entering directory '/sources/expat-2.2.5/build'
+Making all in lib
+make[2]: Entering directory '/sources/expat-2.2.5/build/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..   -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT loadlibrary.lo -MD -MP -MF .deps/loadlibrary.Tpo -c -o loadlibrary.lo ../../lib/loadlibrary.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -DHAVE_EXPAT_CONFIG_H -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT loadlibrary.lo -MD -MP -MF .deps/loadlibrary.Tpo -c ../../lib/loadlibrary.c  -fPIC -DPIC -o .libs/loadlibrary.o
+mv -f .deps/loadlibrary.Tpo .deps/loadlibrary.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..   -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlparse.lo -MD -MP -MF .deps/xmlparse.Tpo -c -o xmlparse.lo ../../lib/xmlparse.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -DHAVE_EXPAT_CONFIG_H -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlparse.lo -MD -MP -MF .deps/xmlparse.Tpo -c ../../lib/xmlparse.c  -fPIC -DPIC -o .libs/xmlparse.o
+mv -f .deps/xmlparse.Tpo .deps/xmlparse.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..   -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmltok.lo -MD -MP -MF .deps/xmltok.Tpo -c -o xmltok.lo ../../lib/xmltok.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -DHAVE_EXPAT_CONFIG_H -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmltok.lo -MD -MP -MF .deps/xmltok.Tpo -c ../../lib/xmltok.c  -fPIC -DPIC -o .libs/xmltok.o
+mv -f .deps/xmltok.Tpo .deps/xmltok.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../lib -I..   -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlrole.lo -MD -MP -MF .deps/xmlrole.Tpo -c -o xmlrole.lo ../../lib/xmlrole.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../lib -I.. -DHAVE_EXPAT_CONFIG_H -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlrole.lo -MD -MP -MF .deps/xmlrole.Tpo -c ../../lib/xmlrole.c  -fPIC -DPIC -o .libs/xmlrole.o
+mv -f .deps/xmlrole.Tpo .deps/xmlrole.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -no-undefined -version-info 7:7:6 -rpath /usr/lib -fno-strict-aliasing -o libexpat.la -rpath /usr/lib loadlibrary.lo xmlparse.lo xmltok.lo xmlrole.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/loadlibrary.o .libs/xmlparse.o .libs/xmltok.o .libs/xmlrole.o    -g -O2   -Wl,-soname -Wl,libexpat.so.1 -o .libs/libexpat.so.1.6.7
+libtool: link: (cd ".libs" && rm -f "libexpat.so.1" && ln -s "libexpat.so.1.6.7" "libexpat.so.1")
+libtool: link: (cd ".libs" && rm -f "libexpat.so" && ln -s "libexpat.so.1.6.7" "libexpat.so")
+libtool: link: ( cd ".libs" && rm -f "libexpat.la" && ln -s "../libexpat.la" "libexpat.la" )
+make[2]: Leaving directory '/sources/expat-2.2.5/build/lib'
+Making all in examples
+make[2]: Entering directory '/sources/expat-2.2.5/build/examples'
+gcc -DHAVE_CONFIG_H -I. -I../../examples -I..  -I../../examples/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT elements.o -MD -MP -MF .deps/elements.Tpo -c -o elements.o ../../examples/elements.c
+mv -f .deps/elements.Tpo .deps/elements.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing  -fno-strict-aliasing -o elements elements.o ../lib/libexpat.la 
+libtool: link: gcc -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -fno-strict-aliasing -o .libs/elements elements.o  ../lib/.libs/libexpat.so
+gcc -DHAVE_CONFIG_H -I. -I../../examples -I..  -I../../examples/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT outline.o -MD -MP -MF .deps/outline.Tpo -c -o outline.o ../../examples/outline.c
+mv -f .deps/outline.Tpo .deps/outline.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing  -fno-strict-aliasing -o outline outline.o ../lib/libexpat.la 
+libtool: link: gcc -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -fno-strict-aliasing -o .libs/outline outline.o  ../lib/.libs/libexpat.so
+make[2]: Leaving directory '/sources/expat-2.2.5/build/examples'
+Making all in tests
+make[2]: Entering directory '/sources/expat-2.2.5/build/tests'
+Making all in .
+make[3]: Entering directory '/sources/expat-2.2.5/build/tests'
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT chardata.o -MD -MP -MF .deps/chardata.Tpo -c -o chardata.o ../../tests/chardata.c
+mv -f .deps/chardata.Tpo .deps/chardata.Po
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT structdata.o -MD -MP -MF .deps/structdata.Tpo -c -o structdata.o ../../tests/structdata.c
+mv -f .deps/structdata.Tpo .deps/structdata.Po
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT memcheck.o -MD -MP -MF .deps/memcheck.Tpo -c -o memcheck.o ../../tests/memcheck.c
+mv -f .deps/memcheck.Tpo .deps/memcheck.Po
+gcc -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT minicheck.o -MD -MP -MF .deps/minicheck.Tpo -c -o minicheck.o ../../tests/minicheck.c
+mv -f .deps/minicheck.Tpo .deps/minicheck.Po
+rm -f libruntests.a
+ar cru libruntests.a chardata.o structdata.o memcheck.o minicheck.o 
+ranlib libruntests.a
+make[3]: Leaving directory '/sources/expat-2.2.5/build/tests'
+Making all in benchmark
+make[3]: Entering directory '/sources/expat-2.2.5/build/tests/benchmark'
+gcc -DHAVE_CONFIG_H -I. -I../../../tests/benchmark -I../..  -I../../../tests/benchmark/../../lib -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT benchmark.o -MD -MP -MF .deps/benchmark.Tpo -c -o benchmark.o ../../../tests/benchmark/benchmark.c
+mv -f .deps/benchmark.Tpo .deps/benchmark.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing  -fno-strict-aliasing -o benchmark benchmark.o ../../lib/libexpat.la 
+libtool: link: gcc -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -fno-strict-aliasing -o .libs/benchmark benchmark.o  ../../lib/.libs/libexpat.so
+make[3]: Leaving directory '/sources/expat-2.2.5/build/tests/benchmark'
+make[2]: Leaving directory '/sources/expat-2.2.5/build/tests'
+Making all in xmlwf
+make[2]: Entering directory '/sources/expat-2.2.5/build/xmlwf'
+gcc -DHAVE_CONFIG_H -I. -I../../xmlwf -I..  -I../../xmlwf/../lib  -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlwf-xmlwf.o -MD -MP -MF .deps/xmlwf-xmlwf.Tpo -c -o xmlwf-xmlwf.o `test -f 'xmlwf.c' || echo '../../xmlwf/'`xmlwf.c
+mv -f .deps/xmlwf-xmlwf.Tpo .deps/xmlwf-xmlwf.Po
+gcc -DHAVE_CONFIG_H -I. -I../../xmlwf -I..  -I../../xmlwf/../lib  -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlwf-xmlfile.o -MD -MP -MF .deps/xmlwf-xmlfile.Tpo -c -o xmlwf-xmlfile.o `test -f 'xmlfile.c' || echo '../../xmlwf/'`xmlfile.c
+mv -f .deps/xmlwf-xmlfile.Tpo .deps/xmlwf-xmlfile.Po
+gcc -DHAVE_CONFIG_H -I. -I../../xmlwf -I..  -I../../xmlwf/../lib  -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlwf-codepage.o -MD -MP -MF .deps/xmlwf-codepage.Tpo -c -o xmlwf-codepage.o `test -f 'codepage.c' || echo '../../xmlwf/'`codepage.c
+mv -f .deps/xmlwf-codepage.Tpo .deps/xmlwf-codepage.Po
+gcc -DHAVE_CONFIG_H -I. -I../../xmlwf -I..  -I../../xmlwf/../lib  -DHAVE_EXPAT_CONFIG_H  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -MT xmlwf-unixfilemap.o -MD -MP -MF .deps/xmlwf-unixfilemap.Tpo -c -o xmlwf-unixfilemap.o `test -f 'unixfilemap.c' || echo '../../xmlwf/'`unixfilemap.c
+mv -f .deps/xmlwf-unixfilemap.Tpo .deps/xmlwf-unixfilemap.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing  -fno-strict-aliasing -o xmlwf xmlwf-xmlwf.o xmlwf-xmlfile.o xmlwf-codepage.o xmlwf-unixfilemap.o ../lib/libexpat.la 
+libtool: link: gcc -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions -fno-strict-aliasing -fno-strict-aliasing -o .libs/xmlwf xmlwf-xmlwf.o xmlwf-xmlfile.o xmlwf-codepage.o xmlwf-unixfilemap.o  ../lib/.libs/libexpat.so
+make[2]: Leaving directory '/sources/expat-2.2.5/build/xmlwf'
+Making all in doc
+make[2]: Entering directory '/sources/expat-2.2.5/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/expat-2.2.5/build/doc'
+make[2]: Entering directory '/sources/expat-2.2.5/build'
+make[2]: Leaving directory '/sources/expat-2.2.5/build'
+make[1]: Leaving directory '/sources/expat-2.2.5/build'

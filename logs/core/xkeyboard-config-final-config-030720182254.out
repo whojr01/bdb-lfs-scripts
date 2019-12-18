@@ -1,0 +1,94 @@
+configure: WARNING: unrecognized options: --disable-static
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for xsltproc... /usr/bin/xsltproc
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DEPS... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.30... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.26.1
+checking for XML::Parser... ok
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for msgmerge... (cached) /usr/bin/msgmerge
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: creating Makefile
+config.status: creating compat/Makefile
+config.status: creating geometry/Makefile
+config.status: creating geometry/digital_vndr/Makefile
+config.status: creating geometry/sgi_vndr/Makefile
+config.status: creating keycodes/Makefile
+config.status: creating keycodes/digital_vndr/Makefile
+config.status: creating keycodes/sgi_vndr/Makefile
+config.status: creating rules/Makefile
+config.status: creating rules/bin/Makefile
+config.status: creating rules/compat/Makefile
+config.status: creating symbols/Makefile
+config.status: creating symbols/digital_vndr/Makefile
+config.status: creating symbols/fujitsu_vndr/Makefile
+config.status: creating symbols/hp_vndr/Makefile
+config.status: creating symbols/jolla_vndr/Makefile
+config.status: creating symbols/macintosh_vndr/Makefile
+config.status: creating symbols/nec_vndr/Makefile
+config.status: creating symbols/nokia_vndr/Makefile
+config.status: creating symbols/sgi_vndr/Makefile
+config.status: creating symbols/sharp_vndr/Makefile
+config.status: creating symbols/sony_vndr/Makefile
+config.status: creating symbols/sun_vndr/Makefile
+config.status: creating symbols/xfree68_vndr/Makefile
+config.status: creating types/Makefile
+config.status: creating xkeyboard-config.pc
+config.status: creating docs/Makefile
+config.status: creating man/Makefile
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing depfiles commands
+config.status: executing po/stamp-it commands
+configure: WARNING: unrecognized options: --disable-static
+***********************************************************
+  xkeyboard-config is configured with the following parameters:
+    XKB base directory: ${datarootdir}/X11/xkb
+    Symbolic link(s) to legacy rules: xorg
+    Compatibility rules are included
+***********************************************************

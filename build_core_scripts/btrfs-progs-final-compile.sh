@@ -1,0 +1,88 @@
+#!/bin/bash
+
+# If not FINAL (ch6) builds then remove [FINAL=] below. Never set a value to [FINAL]
+FINAL=
+
+LFSDRIVE=${FINAL-/lfsbuild}
+# load the lfs environment variables script.
+. $LFSDRIVE/data-files/lfs_config.sh || { echo "Failed to find variables. Aborting" && exit 1; }
+
+
+# The time data collected by this script is high-level in nature
+# and does not record detailed information on the various steps
+# of each build. 
+#
+# This limits the usefulness of the system down to just a general
+# indicator of how much time a complete build will take on your
+# system.
+#
+# Further the script utilizes the builtin time function in order
+# to record how long it takes to execute the build so there is a
+# fair margin of error in the actual reporting of the time. This
+# timing function is just mearly to give an approximation of how
+# long something takes and for that it's good enough and belongs
+# in the Good Enough Inc company. ;-)
+#
+# Variables:
+# BUILD - Contains the name of the build.
+# STAGE - Contains which stage (Chapter 5/6)
+# PASS  - Should be set to 1 or 2. (e.g bunutils, gcc.. etc)
+# SCRIPT - Records the name of the build script.
+# TIMETMPFILE - Used in the generation of time data. No need to change.
+#
+# Script:
+# Description: This script runs configure, builds, and installs btrfs-progs
+# Distribution: btrfs-progs-v4.12
+# 
+
+BUILD=btrfs-progs
+STAGE=2
+PASS=1
+SCRIPT=$0
+TIMETMPFILE=/tmp/$$-tmp-build.dat
+
+{
+	time { \
+		./configure --prefix=/usr	\
+			--bindir=/bin		\
+			--libdir=/lib		\
+			--disable-documentation > config.out 2>&1 \
+		&& make > make.out 2>&1 \
+		&& mv -v tests/fuzz-tests/003-multi-check-unmounted/test.sh{,.broken} > test.out 2>&1 \
+		&& mv -v tests/fuzz-tests/004-simple-dump-tree/test.sh{,.broken} >> test.out 2>&1 \
+		&& mv -v tests/fuzz-tests/007-simple-super-recover/test.sh{,.broken} >> test.out 2>&1 \
+		&& mv -v tests/fuzz-tests/009-simple-zero-log/test.sh{,.broken} >> test.out 2>&1 \
+		&& mv -v tests/misc-tests/019-receive-clones-on-munted-subvol/test.sh{,.broken} >> test.out 2>&1 \
+		&& pushd tests >> test.out 2>&1	
+		echo "Running fsck-tests.sh" >> test.out 
+		./fsck-tests.sh >> test.out 2>&1 
+		echo "Running mkfs-tests.sh" >> test.out 
+		./mkfs-tests.sh >> test.out 2>&1 
+		echo "Running convert-tests.sh" >> test.out 
+		./convert-tests.sh >> test.out 2>&1 
+		echo "Running misc-tests.sh" >> test.out 
+		./misc-tests.sh >> test.out 2>&1 
+		echo "Running cli-tests.sh" >> test.out 
+		./cli-tests.sh >> test.out 2>&1 
+		echo "Running fuzz-tests.sh" >> test.out 
+		./fuzz-tests.sh >> test.out 2>&1 
+		popd >> test.out 2>&1 
+		make install > install.out 2>&1 \
+		&& ln -sfv ../../lib/$(readlink /lib/libbtrfs.so) /usr/lib/libbtrfs.so >> install.out 2>&1 \
+		&& rm -v /lib/libbtrfs.{a,so} >> install.out 2>&1 \
+		&& mv -v /bin/{mkfs,fsck}.btrfs /sbin >> install.out 2>&1 ;
+	}
+} 2> $TIMETMPFILE
+
+#
+# Default the time related data in case we don't care to fill it in.
+#
+
+PASS=${PASS:=1}
+STAGE=${STAGE:=1}
+BUILD=${BUILD:="unknown"}
+
+echo "$BUILD,$STAGE,$PASS,$(basename $SCRIPT),$(cat $TIMETMPFILE | xargs -r | sed -e 's/[ ]*real[ ]*//' -e 's/[ ]*user[ ]*/,/' -e 's/[ ]*sys[ ]*/,/')" >> $TIMEDATALOG
+
+rm -f $TIMETMPFILE
+

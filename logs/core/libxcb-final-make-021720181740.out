@@ -1,0 +1,117 @@
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/src'
+  GEN      xproto.c
+  GEN      bigreq.c
+  GEN      xc_misc.c
+  GEN      composite.c
+  GEN      damage.c
+  GEN      dpms.c
+  GEN      dri2.c
+  GEN      dri3.c
+  GEN      present.c
+  GEN      glx.c
+  GEN      randr.c
+  GEN      record.c
+  GEN      render.c
+  GEN      res.c
+  GEN      screensaver.c
+  GEN      shape.c
+  GEN      shm.c
+  GEN      sync.c
+  GEN      xevie.c
+  GEN      xf86dri.c
+  GEN      xfixes.c
+  GEN      xinerama.c
+  GEN      xinput.c
+  GEN      xkb.c
+  GEN      xprint.c
+  GEN      xselinux.c
+  GEN      xtest.c
+  GEN      xv.c
+  GEN      xvmc.c
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/src'
+  CC       xcb_conn.lo
+  CC       xcb_out.lo
+  CC       xcb_in.lo
+  CC       xcb_ext.lo
+  CC       xcb_xid.lo
+  CC       xcb_list.lo
+  CC       xcb_util.lo
+  CC       xcb_auth.lo
+xcb_auth.c:73:37: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define AUTH_PROTO_MIT_MAGIC_COOKIE "MIT-MAGIC-COOKIE-1"
+                                     ^
+xcb_auth.c:79:5: note: in expansion of macro ‘AUTH_PROTO_MIT_MAGIC_COOKIE’
+     AUTH_PROTO_MIT_MAGIC_COOKIE,
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CC       xproto.lo
+  CC       bigreq.lo
+  CC       xc_misc.lo
+  CCLD     libxcb.la
+  CC       composite.lo
+  CCLD     libxcb-composite.la
+  CC       damage.lo
+  CCLD     libxcb-damage.la
+  CC       dpms.lo
+  CCLD     libxcb-dpms.la
+  CC       dri2.lo
+  CCLD     libxcb-dri2.la
+  CC       dri3.lo
+  CCLD     libxcb-dri3.la
+  CC       present.lo
+  CCLD     libxcb-present.la
+  CC       glx.lo
+  CCLD     libxcb-glx.la
+  CC       randr.lo
+  CCLD     libxcb-randr.la
+  CC       record.lo
+  CCLD     libxcb-record.la
+  CC       render.lo
+  CCLD     libxcb-render.la
+  CC       res.lo
+  CCLD     libxcb-res.la
+  CC       screensaver.lo
+  CCLD     libxcb-screensaver.la
+  CC       shape.lo
+  CCLD     libxcb-shape.la
+  CC       shm.lo
+  CCLD     libxcb-shm.la
+  CC       sync.lo
+  CCLD     libxcb-sync.la
+  CC       xf86dri.lo
+  CCLD     libxcb-xf86dri.la
+  CC       xfixes.lo
+  CCLD     libxcb-xfixes.la
+  CC       xinerama.lo
+  CCLD     libxcb-xinerama.la
+  CC       xinput.lo
+  CCLD     libxcb-xinput.la
+  CC       xkb.lo
+  CCLD     libxcb-xkb.la
+  CC       xtest.lo
+  CCLD     libxcb-xtest.la
+  CC       xv.lo
+  CCLD     libxcb-xv.la
+  CC       xvmc.lo
+  CCLD     libxcb-xvmc.la
+make[2]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/src'
+Making all in tests
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make[2]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/tests'
+Making all in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/doc'
+Making all in man
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12/man'
+  GEN      xcb-examples.3
+  GEN      xcb-requests.3
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12/man'
+make[1]: Entering directory '/lfskernel/sources/boot/libxcb-1.12'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libxcb-1.12'

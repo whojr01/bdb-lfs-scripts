@@ -1,0 +1,28 @@
+###############################
+# Make luit-1.1.1.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/luit-1.1.1'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/luit-1.1.1/man'
+  GEN    luit.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/luit-1.1.1/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/luit-1.1.1'
+  CC     charset.o
+  CC     iso2022.o
+  CC     locale.o
+  CC     luit.o
+  CC     other.o
+  CC     parser.o
+  CC     sys.o
+sys.c: In function 'allocatePty':
+sys.c:339:11: error: implicit declaration of function 'posix_openpt' [-Werror=implicit-function-declaration]
+     pty = posix_openpt(O_RDWR);
+           ^~~~~~~~~~~~
+sys.c:339:11: warning: nested extern declaration of 'posix_openpt' [-Wnested-externs]
+cc1: some warnings being treated as errors
+make[2]: *** [Makefile:412: sys.o] Error 1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/luit-1.1.1'
+make[1]: *** [Makefile:434: all-recursive] Error 1
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/luit-1.1.1'
+make: *** [Makefile:301: all] Error 2

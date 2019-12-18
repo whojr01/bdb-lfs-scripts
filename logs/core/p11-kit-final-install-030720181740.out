@@ -1,0 +1,149 @@
+Making install in .
+make[1]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+make[2]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libp11-kit.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libp11-kit.so.0.3.0 /usr/lib/libp11-kit.so.0.3.0
+libtool: install: (cd /usr/lib && { ln -s -f libp11-kit.so.0.3.0 libp11-kit.so.0 || { rm -f libp11-kit.so.0 && ln -s libp11-kit.so.0.3.0 libp11-kit.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libp11-kit.so.0.3.0 libp11-kit.so || { rm -f libp11-kit.so && ln -s libp11-kit.so.0.3.0 libp11-kit.so; }; })
+libtool: install: /usr/bin/install -c .libs/libp11-kit.lai /usr/lib/libp11-kit.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c p11-kit/p11-kit trust/trust '/usr/bin'
+libtool: install: /usr/bin/install -c p11-kit/.libs/p11-kit /usr/bin/p11-kit
+libtool: install: /usr/bin/install -c trust/.libs/trust /usr/bin/trust
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+for i in so dylib; do \
+	test -f /usr/lib/libp11-kit.$i && \
+		ln -s -f `readlink /usr/lib/libp11-kit.$i` /usr/lib/p11-kit-proxy.$i || true; \
+done
+/bin/mkdir -p /usr/share/p11-kit/modules
+make[3]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+ /bin/mkdir -p '/usr/share/p11-kit/modules'
+ /usr/bin/install -c -m 644 trust/p11-kit-trust.module '/usr/share/p11-kit/modules'
+ /bin/mkdir -p '/etc/pkcs11'
+ /usr/bin/install -c -m 644 p11-kit/pkcs11.conf.example '/etc/pkcs11'
+ /bin/mkdir -p '/usr/libexec/p11-kit'
+ /usr/bin/install -c trust/trust-extract-compat '/usr/libexec/p11-kit'
+ /bin/mkdir -p '/usr/include/p11-kit-1/p11-kit'
+ /usr/bin/install -c -m 644 common/pkcs11.h common/pkcs11x.h p11-kit/deprecated.h p11-kit/iter.h p11-kit/p11-kit.h p11-kit/pin.h p11-kit/remote.h p11-kit/uri.h '/usr/include/p11-kit-1/p11-kit'
+ /bin/mkdir -p '/usr/lib/pkcs11'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   p11-kit-client.la p11-kit-trust.la '/usr/lib/pkcs11'
+libtool: install: /usr/bin/install -c .libs/p11-kit-client.so /usr/lib/pkcs11/p11-kit-client.so
+libtool: install: /usr/bin/install -c .libs/p11-kit-client.lai /usr/lib/pkcs11/p11-kit-client.la
+libtool: install: /usr/bin/install -c .libs/p11-kit-trust.so /usr/lib/pkcs11/p11-kit-trust.so
+libtool: install: /usr/bin/install -c .libs/p11-kit-trust.lai /usr/lib/pkcs11/p11-kit-trust.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/sbin" ldconfig -n /usr/lib/pkcs11
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/pkcs11
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 p11-kit/p11-kit-1.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/libexec/p11-kit'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c p11-kit-remote p11-kit-server '/usr/libexec/p11-kit'
+libtool: install: /usr/bin/install -c .libs/p11-kit-remote /usr/libexec/p11-kit/p11-kit-remote
+libtool: install: /usr/bin/install -c .libs/p11-kit-server /usr/libexec/p11-kit/p11-kit-server
+make[2]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+make[1]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+Making install in doc
+make[1]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+Making install in manual
+make[2]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc/manual'
+make[3]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc/manual'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/config-example.html
+ /usr/bin/install -c -m 644 ./html/config-files.html
+ /usr/bin/install -c -m 644 ./html/config.html
+ /usr/bin/install -c -m 644 ./html/devel-building-style.html
+ /usr/bin/install -c -m 644 ./html/devel-building.html
+ /usr/bin/install -c -m 644 ./html/devel-commands.html
+ /usr/bin/install -c -m 644 ./html/devel-debugging.html
+ /usr/bin/install -c -m 644 ./html/devel-paths.html
+ /usr/bin/install -c -m 644 ./html/devel-testing.html
+ /usr/bin/install -c -m 644 ./html/devel.html
+ /usr/bin/install -c -m 644 ./html/gtk-doc.css
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/p11-kit-Deprecated.html
+ /usr/bin/install -c -m 644 ./html/p11-kit-Future.html
+ /usr/bin/install -c -m 644 ./html/p11-kit-Modules.html
+ /usr/bin/install -c -m 644 ./html/p11-kit-PIN-Callbacks.html
+ /usr/bin/install -c -m 644 ./html/p11-kit-URIs.html
+ /usr/bin/install -c -m 644 ./html/p11-kit-Utilities.html
+ /usr/bin/install -c -m 644 ./html/p11-kit.devhelp2
+ /usr/bin/install -c -m 644 ./html/p11-kit.html
+ /usr/bin/install -c -m 644 ./html/pkcs11-conf.html
+ /usr/bin/install -c -m 644 ./html/reference.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/sharing-managed.html
+ /usr/bin/install -c -m 644 ./html/sharing.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/tools.html
+ /usr/bin/install -c -m 644 ./html/trust-disable.html
+ /usr/bin/install -c -m 644 ./html/trust-glib-networking.html
+ /usr/bin/install -c -m 644 ./html/trust-module.html
+ /usr/bin/install -c -m 644 ./html/trust-nss.html
+ /usr/bin/install -c -m 644 ./html/trust.html
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc/manual'
+make[2]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc/manual'
+make[2]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+make[3]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+Making install in po
+make[1]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/po'
+if test "p11-kit" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/po'

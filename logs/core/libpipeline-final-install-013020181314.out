@@ -1,0 +1,74 @@
+Making install in gnulib/lib
+make[1]: Entering directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make  install-recursive
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[3]: Entering directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[4]: Entering directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[3]: Leaving directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+make[1]: Leaving directory '/sources/libpipeline-1.5.0/build/gnulib/lib'
+Making install in lib
+make[1]: Entering directory '/sources/libpipeline-1.5.0/build/lib'
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/lib'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpipeline.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libpipeline.so.1.5.0 /usr/lib/libpipeline.so.1.5.0
+libtool: install: (cd /usr/lib && { ln -s -f libpipeline.so.1.5.0 libpipeline.so.1 || { rm -f libpipeline.so.1 && ln -s libpipeline.so.1.5.0 libpipeline.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpipeline.so.1.5.0 libpipeline.so || { rm -f libpipeline.so && ln -s libpipeline.so.1.5.0 libpipeline.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpipeline.lai /usr/lib/libpipeline.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 ../../lib/pipeline.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libpipeline.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/lib'
+make[1]: Leaving directory '/sources/libpipeline-1.5.0/build/lib'
+Making install in man
+make[1]: Entering directory '/sources/libpipeline-1.5.0/build/man'
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 ../../man/libpipeline.3 '/usr/share/man/man3'
+make  install-data-hook
+make[3]: Entering directory '/sources/libpipeline-1.5.0/build/man'
+set -e; cd "/usr/share/man/man3"; for function in pipecmd_new pipecmd_new_argv pipecmd_new_args pipecmd_new_argstr pipecmd_new_function pipecmd_new_sequencev pipecmd_new_sequence pipecmd_new_passthrough pipecmd_dup pipecmd_arg pipecmd_argf pipecmd_argv pipecmd_args pipecmd_argstr pipecmd_get_nargs pipecmd_nice pipecmd_discard_err pipecmd_chdir pipecmd_fchdir pipecmd_setenv pipecmd_unsetenv pipecmd_clearenv pipecmd_pre_exec pipecmd_sequence_command pipecmd_dump pipecmd_tostring pipecmd_exec pipecmd_free pipeline_new pipeline_new_commandv pipeline_new_commands pipeline_new_command_argv pipeline_new_command_args pipeline_join pipeline_connect pipeline_command pipeline_command_argv pipeline_command_args pipeline_command_argstr pipeline_commandv pipeline_commands pipeline_want_in pipeline_want_out pipeline_want_infile pipeline_want_outfile pipeline_ignore_signals pipeline_get_ncommands pipeline_get_command pipeline_set_command pipeline_get_pid pipeline_get_infile pipeline_get_outfile pipeline_dump pipeline_tostring pipeline_free pipeline_install_post_fork pipeline_start pipeline_wait_all pipeline_wait pipeline_run pipeline_pump pipeline_read pipeline_peek pipeline_peek_size pipeline_peek_skip pipeline_readline pipeline_peekline; do \
+	rm -f $function.3; \
+	ln -s libpipeline.3 $function.3; \
+done
+make[3]: Leaving directory '/sources/libpipeline-1.5.0/build/man'
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/man'
+make[1]: Leaving directory '/sources/libpipeline-1.5.0/build/man'
+Making install in tests
+make[1]: Entering directory '/sources/libpipeline-1.5.0/build/tests'
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build/tests'
+make[1]: Leaving directory '/sources/libpipeline-1.5.0/build/tests'
+make[1]: Entering directory '/sources/libpipeline-1.5.0/build'
+make[2]: Entering directory '/sources/libpipeline-1.5.0/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/libpipeline-1.5.0/build'
+make[1]: Leaving directory '/sources/libpipeline-1.5.0/build'

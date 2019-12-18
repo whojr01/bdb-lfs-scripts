@@ -1,0 +1,14 @@
+Making check in libusb
+make[1]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21/libusb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21/libusb'
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21/doc'
+Making check in tests
+make[1]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21/tests'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21/tests'
+make[1]: Entering directory '/lfskernel/sources/boot/libusb-1.0.21'
+make[1]: Leaving directory '/lfskernel/sources/boot/libusb-1.0.21'

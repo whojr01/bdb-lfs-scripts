@@ -1,0 +1,3 @@
+'src/msgfmt' -> '/tools/bin/msgfmt'
+'src/msgmerge' -> '/tools/bin/msgmerge'
+'src/xgettext' -> '/tools/bin/xgettext'

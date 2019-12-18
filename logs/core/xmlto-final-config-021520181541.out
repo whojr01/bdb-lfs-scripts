@@ -1,0 +1,52 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for mktemp... mktemp
+checking for find... find 
+checking for bash... /bin/sh
+checking for getopt... getopt
+checking for long options support in getopt... yes
+checking for paperconf... paperconf
+checking for locale... /usr/bin/locale
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for dblatex... dblatex
+checking for fop... fop
+checking for xmltex... xmltex
+checking for pdfxmltex... pdfxmltex
+checking for default backend... DEFAULT
+checking for lynx... lynx
+checking for elinks... /usr/bin/links
+checking for w3m... w3m
+checking for tail... /usr/bin/tail
+checking for grep... /usr/bin/grep
+checking for sed... /bin/sed
+checking for cp... /bin/cp
+checking for zip... zip
+checking for default web browser... w3m
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating xmlto
+config.status: creating xmlto.spec
+config.status: creating config.h
+config.status: executing depfiles commands

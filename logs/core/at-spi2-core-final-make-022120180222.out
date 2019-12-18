@@ -1,0 +1,46 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2'
+Making all in po
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/po'
+Making all in dbind
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+Making all in xml
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/xml'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/xml'
+Making all in atspi
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/atspi'
+make  all-am
+make[3]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/atspi'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/atspi'
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/atspi'
+Making all in bus
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/bus'
+  GEN      at-spi-dbus-bus.service
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/bus'
+Making all in registryd
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/registryd'
+  GEN      org.a11y.atspi.Registry.service
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/registryd'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/doc'
+Making all in libatspi
+make[3]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/doc/libatspi'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/doc/libatspi'
+make[3]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/doc'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/test'
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2'

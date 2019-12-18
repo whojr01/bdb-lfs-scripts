@@ -1,0 +1,75 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/popt-1.16'
+Making all in po
+make[2]: Entering directory '/lfskernel/sources/boot/popt-1.16/po'
+make[2]: Leaving directory '/lfskernel/sources/boot/popt-1.16/po'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/popt-1.16'
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT popt.lo -MD -MP -MF .deps/popt.Tpo -c -o popt.lo popt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT popt.lo -MD -MP -MF .deps/popt.Tpo -c popt.c  -fPIC -DPIC -o .libs/popt.o
+popt.c: In function 'execCommand':
+popt.c:483:9: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+     int rc;
+         ^~
+mv -f .deps/popt.Tpo .deps/popt.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT poptparse.lo -MD -MP -MF .deps/poptparse.Tpo -c -o poptparse.lo poptparse.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT poptparse.lo -MD -MP -MF .deps/poptparse.Tpo -c poptparse.c  -fPIC -DPIC -o .libs/poptparse.o
+mv -f .deps/poptparse.Tpo .deps/poptparse.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT poptconfig.lo -MD -MP -MF .deps/poptconfig.Tpo -c -o poptconfig.lo poptconfig.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT poptconfig.lo -MD -MP -MF .deps/poptconfig.Tpo -c poptconfig.c  -fPIC -DPIC -o .libs/poptconfig.o
+poptconfig.c: In function 'poptReadConfigFile':
+poptconfig.c:399:9: warning: variable 'xx' set but not used [-Wunused-but-set-variable]
+     int xx;
+         ^~
+mv -f .deps/poptconfig.Tpo .deps/poptconfig.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT popthelp.lo -MD -MP -MF .deps/popthelp.Tpo -c -o popthelp.lo popthelp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT popthelp.lo -MD -MP -MF .deps/popthelp.Tpo -c popthelp.c  -fPIC -DPIC -o .libs/popthelp.o
+popthelp.c: In function 'singleOptionHelp':
+popthelp.c:325:9: warning: variable 'xx' set but not used [-Wunused-but-set-variable]
+     int xx;
+         ^~
+popthelp.c: In function 'singleTableHelp':
+popthelp.c:606:9: warning: variable 'xx' set but not used [-Wunused-but-set-variable]
+     int xx;
+         ^~
+popthelp.c: In function 'showHelpIntro':
+popthelp.c:647:9: warning: variable 'xx' set but not used [-Wunused-but-set-variable]
+     int xx;
+         ^~
+popthelp.c: In function 'poptPrintHelp':
+popthelp.c:666:9: warning: variable 'xx' set but not used [-Wunused-but-set-variable]
+     int xx;
+         ^~
+mv -f .deps/popthelp.Tpo .deps/popthelp.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT poptint.lo -MD -MP -MF .deps/poptint.Tpo -c -o poptint.lo poptint.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT poptint.lo -MD -MP -MF .deps/poptint.Tpo -c poptint.c  -fPIC -DPIC -o .libs/poptint.o
+poptint.c:12:28: warning: 'utf8_skip_data' defined but not used [-Wunused-const-variable=]
+ static const unsigned char utf8_skip_data[256] = {
+                            ^~~~~~~~~~~~~~
+mv -f .deps/poptint.Tpo .deps/poptint.Plo
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -no-undefined -Wl,--version-script=./libpopt.vers  -o libpopt.la -rpath /usr/lib popt.lo poptparse.lo poptconfig.lo popthelp.lo poptint.lo  
+libtool: link: gcc -shared  .libs/popt.o .libs/poptparse.o .libs/poptconfig.o .libs/popthelp.o .libs/poptint.o    -Wl,--version-script=./libpopt.vers   -Wl,-soname -Wl,libpopt.so.0 -o .libs/libpopt.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libpopt.so.0" && ln -s "libpopt.so.0.0.0" "libpopt.so.0")
+libtool: link: (cd ".libs" && rm -f "libpopt.so" && ln -s "libpopt.so.0.0.0" "libpopt.so")
+libtool: link: ( cd ".libs" && rm -f "libpopt.la" && ln -s "../libpopt.la" "libpopt.la" )
+gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT test1.o -MD -MP -MF .deps/test1.Tpo -c -o test1.o test1.c
+test1.c:164:35: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+    { "bits", '\0', POPT_ARG_BITSET|POPT_ARGFLAG_DOC_HIDDEN, &aBits, 0,
+                                   ^
+mv -f .deps/test1.Tpo .deps/test1.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT   -o test1 test1.o libpopt.la 
+libtool: link: gcc -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -o .libs/test1 test1.o  ./.libs/libpopt.so
+gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT test2.o -MD -MP -MF .deps/test2.Tpo -c -o test2.o test2.c
+mv -f .deps/test2.Tpo .deps/test2.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT   -o test2 test2.o libpopt.la 
+libtool: link: gcc -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -o .libs/test2 test2.o  ./.libs/libpopt.so
+gcc -DHAVE_CONFIG_H -I.  -I. -I.   -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -MT tdict.o -MD -MP -MF .deps/tdict.Tpo -c -o tdict.o tdict.c
+mv -f .deps/tdict.Tpo .deps/tdict.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT   -o tdict tdict.o libpopt.la 
+libtool: link: gcc -g -O2 -Wall -W -D_GNU_SOURCE -D_REENTRANT -o .libs/tdict tdict.o  ./.libs/libpopt.so
+make[2]: Leaving directory '/lfskernel/sources/boot/popt-1.16'
+Making all in auto
+make[2]: Entering directory '/lfskernel/sources/boot/popt-1.16/auto'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/popt-1.16/auto'
+make[1]: Leaving directory '/lfskernel/sources/boot/popt-1.16'

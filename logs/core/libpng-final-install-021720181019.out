@@ -1,0 +1,92 @@
+make  install-am
+make[1]: Entering directory '/lfskernel/sources/boot/libpng-1.6.34'
+make[2]: Entering directory '/lfskernel/sources/boot/libpng-1.6.34'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libpng16.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libpng16.so.16.34.0 /usr/lib/libpng16.so.16.34.0
+libtool: install: (cd /usr/lib && { ln -s -f libpng16.so.16.34.0 libpng16.so.16 || { rm -f libpng16.so.16 && ln -s libpng16.so.16.34.0 libpng16.so.16; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpng16.so.16.34.0 libpng16.so || { rm -f libpng16.so && ln -s libpng16.so.16.34.0 libpng16.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpng16.lai /usr/lib/libpng16.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c pngfix png-fix-itxt '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/pngfix /usr/bin/pngfix
+libtool: install: /usr/bin/install -c png-fix-itxt /usr/bin/png-fix-itxt
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c libpng16-config '/usr/bin'
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/libpng-1.6.34'
++ cd /usr/lib
++ for ext in a dll.a so so.16.34 la sl dylib
++ rm -f libpng.a
++ test -f libpng16.a
++ for ext in a dll.a so so.16.34 la sl dylib
++ rm -f libpng.dll.a
++ test -f libpng16.dll.a
++ for ext in a dll.a so so.16.34 la sl dylib
++ rm -f libpng.so
++ test -f libpng16.so
++ ln -s libpng16.so libpng.so
++ for ext in a dll.a so so.16.34 la sl dylib
++ rm -f libpng.so.16.34
++ test -f libpng16.so.16.34
++ for ext in a dll.a so so.16.34 la sl dylib
++ rm -f libpng.la
++ test -f libpng16.la
++ ln -s libpng16.la libpng.la
++ for ext in a dll.a so so.16.34 la sl dylib
++ rm -f libpng.sl
++ test -f libpng16.sl
++ for ext in a dll.a so so.16.34 la sl dylib
++ rm -f libpng.dylib
++ test -f libpng16.dylib
++ cd /usr/bin
++ rm -f libpng-config
++ ln -s libpng16-config libpng-config
+make[3]: Leaving directory '/lfskernel/sources/boot/libpng-1.6.34'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 libpng.3 libpngpf.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 png.5 '/usr/share/man/man5'
+ /bin/mkdir -p '/usr/include/libpng16'
+ /usr/bin/install -c -m 644 pnglibconf.h '/usr/include/libpng16'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libpng16.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/libpng16'
+ /usr/bin/install -c -m 644 png.h pngconf.h '/usr/include/libpng16'
+make  install-data-hook
+make[3]: Entering directory '/lfskernel/sources/boot/libpng-1.6.34'
++ cd /usr/include
++ for f in pnglibconf.h png.h pngconf.h
++ rm -f pnglibconf.h
++ ln -s libpng16/pnglibconf.h pnglibconf.h
++ for f in pnglibconf.h png.h pngconf.h
++ rm -f png.h
++ ln -s libpng16/png.h png.h
++ for f in pnglibconf.h png.h pngconf.h
++ rm -f pngconf.h
++ ln -s libpng16/pngconf.h pngconf.h
++ cd /usr/lib/pkgconfig
++ rm -f libpng.pc
++ ln -s libpng16.pc libpng.pc
+make[3]: Leaving directory '/lfskernel/sources/boot/libpng-1.6.34'
+make[2]: Leaving directory '/lfskernel/sources/boot/libpng-1.6.34'
+make[1]: Leaving directory '/lfskernel/sources/boot/libpng-1.6.34'

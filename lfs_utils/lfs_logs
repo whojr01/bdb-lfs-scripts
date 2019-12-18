@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This script creates the logs for login, agetty, and init programs.
+
+touch /var/log/{btmp,lastlog,faillog,wtmp}
+chgrp -v utmp /var/log/lastlog
+chmod -v 644 /var/log/lastlog
+chmod -v 600 /var/log/btmp
+

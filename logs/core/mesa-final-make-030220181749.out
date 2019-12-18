@@ -1,0 +1,327 @@
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+updating git_sha1.h
+make  all-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+Making all in .
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+Making all in gtest
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gtest'
+Making all in util
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make  all-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making all in .
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making all in xmlpool
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make  all-am
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/xmlpool'
+Making all in tests/hash_table
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/hash_table'
+Making all in tests/string_buffer
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util/tests/string_buffer'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/util'
+Making all in mapi/glapi/gen
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make  all-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi/glapi/gen'
+Making all in mapi
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make  all-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mapi'
+Making all in compiler
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make  all-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+  CC       spirv/spirv_info.lo
+  CCLD     nir/libnir.la
+  CXXLD    glsl/libglsl.la
+  CXXLD    glsl/libstandalone.la
+copying selected object files to avoid basename conflicts...
+  CXXLD    glsl_compiler
+  CXXLD    spirv2nir
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/compiler'
+Making all in amd
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make  all-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/amd'
+Making all in intel
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make  all-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/intel'
+Making all in mesa
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make  all-recursive
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making all in .
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+  CXXLD    libmesa.la
+  CXXLD    libmesagallium.la
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making all in main/tests
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/main/tests'
+Making all in state_tracker/tests
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/state_tracker/tests'
+Making all in drivers/dri
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making all in common
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/common'
+Making all in i915
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i915'
+Making all in i965
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make  all-am
+make[7]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/i965'
+Making all in nouveau
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/nouveau'
+Making all in r200
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/r200'
+Making all in radeon
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/radeon'
+Making all in swrast
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri/swrast'
+make[6]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+  CXXLD    mesa_dri_drivers.la
+  GEN      all-local
+  GEN      all-local
+make[6]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/dri'
+Making all in drivers/osmesa
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+  CXXLD    libOSMesa.la
+  GEN      .install-mesa-links
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa/drivers/osmesa'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/mesa'
+Making all in loader
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/loader'
+Making all in glx
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making all in .
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making all in tests
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx/tests'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/glx'
+Making all in gbm
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gbm'
+Making all in egl
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make  all-am
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/egl'
+Making all in gallium
+make[3]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+Making all in auxiliary
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary'
+Making all in auxiliary/pipe-loader
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/auxiliary/pipe-loader'
+Making all in drivers/ddebug
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/ddebug'
+Making all in drivers/noop
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/noop'
+Making all in drivers/trace
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/trace'
+Making all in drivers/rbug
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/rbug'
+Making all in drivers/i915
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/i915'
+Making all in winsys/i915/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/i915/drm'
+Making all in drivers/nouveau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/nouveau'
+Making all in winsys/nouveau/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/nouveau/drm'
+Making all in drivers/svga
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/svga'
+Making all in winsys/svga/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/svga/drm'
+Making all in drivers/radeon
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeon'
+Making all in drivers/r600
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make  all-am
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/r600'
+Making all in drivers/radeonsi
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make  all-am
+make[5]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/radeonsi'
+Making all in winsys/amdgpu/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/amdgpu/drm'
+Making all in winsys/radeon/drm
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/radeon/drm'
+Making all in drivers/softpipe
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/softpipe'
+Making all in drivers/llvmpipe
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/drivers/llvmpipe'
+Making all in winsys/sw/null
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/null'
+Making all in winsys/sw/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/dri'
+Making all in winsys/sw/kms-dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/kms-dri'
+Making all in winsys/sw/wrapper
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/winsys/sw/wrapper'
+Making all in state_trackers/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/dri'
+Making all in targets/dri
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+  CXXLD    gallium_dri.la
+  GEN      all-local
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/dri'
+Making all in state_trackers/va
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/va'
+Making all in targets/va
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+  CXXLD    gallium_drv_video.la
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/va'
+Making all in state_trackers/vdpau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/vdpau'
+Making all in targets/vdpau
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+  CXXLD    libvdpau_gallium.la
+  GEN      all-local
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/vdpau'
+Making all in state_trackers/xa
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xa'
+Making all in targets/xa
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+  CXXLD    libxatracker.la
+  GEN      .install-mesa-links
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xa'
+Making all in state_trackers/xvmc
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/state_trackers/xvmc'
+Making all in targets/xvmc
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium/targets/xvmc'
+make[4]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[3]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src/gallium'
+make[2]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/src'
+make[1]: Entering directory '/lfskernel/sources/boot/mesa-17.3.6'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6'
+Building Demo programs
+make: Entering directory '/lfskernel/sources/boot/mesa-17.3.6/xdemos'
+CC glxgears
+CC glxinfo
+make: Leaving directory '/lfskernel/sources/boot/mesa-17.3.6/xdemos'

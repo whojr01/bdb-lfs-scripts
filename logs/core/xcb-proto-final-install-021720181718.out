@@ -1,0 +1,27 @@
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+make[2]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xcb'
+ /usr/bin/install -c -m 644 xcb.xsd xproto.xml bigreq.xml composite.xml damage.xml dpms.xml dri2.xml dri3.xml ge.xml glx.xml present.xml randr.xml record.xml render.xml res.xml screensaver.xml shape.xml shm.xml sync.xml xc_misc.xml xevie.xml xf86dri.xml xf86vidmode.xml xfixes.xml xinerama.xml xinput.xml xkb.xml xprint.xml xselinux.xml xtest.xml xv.xml xvmc.xml '/usr/share/xcb'
+make[2]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/src'
+Making install in xcbgen
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[2]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages/xcbgen'
+ /usr/bin/install -c -m 644 __init__.py error.py expr.py align.py matcher.py state.py xtypes.py '/usr/lib/python2.7/site-packages/xcbgen'
+Byte-compiling python modules...
+__init__.pyerror.pyexpr.pyalign.pymatcher.pystate.pyxtypes.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pyerror.pyexpr.pyalign.pymatcher.pystate.pyxtypes.py
+make[2]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12/xcbgen'
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12'
+make[2]: Entering directory '/lfskernel/sources/boot/xcb-proto-1.12'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xcb-proto.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12'
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-proto-1.12'

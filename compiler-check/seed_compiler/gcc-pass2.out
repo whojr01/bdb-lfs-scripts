@@ -1,0 +1,29 @@
+Using Compiler: cc
+*********************
+ELF report
+*********************
+Interpreter:
+      [Requesting program interpreter: /tools/lib64/ld-linux-x86-64.so.2]
+
+Start (ctors):
+attempt to open /lfsbuild/tools/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crt1.o succeeded
+attempt to open /lfsbuild/tools/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o succeeded
+attempt to open /lfsbuild/tools/bin/../lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o succeeded
+
+Headers:
+
+
+Search Dirs:
+SEARCH_DIR("=/tools/x86_64-pc-linux-gnu/lib64")
+SEARCH_DIR("/tools/lib")
+SEARCH_DIR("=/tools/x86_64-pc-linux-gnu/lib");
+
+Libc:
+attempt to open /tools/lib/libc.so.6 succeeded
+/tools/lib/libc.so.6
+ld-linux-x86-64.so.2 needed by /tools/lib/libc.so.6
+
+Found:
+found ld-linux-x86-64.so.2 at /tools/lib/ld-linux-x86-64.so.2
+
+done.

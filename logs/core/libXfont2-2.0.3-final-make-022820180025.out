@@ -1,0 +1,61 @@
+###############################
+# Make libXfont2-2.0.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+  CC       src/stubs/atom.lo
+  CC       src/stubs/libxfontstubs.lo
+  CC       src/util/fontaccel.lo
+  CC       src/util/fontnames.lo
+  CC       src/util/fontutil.lo
+  CC       src/util/fontxlfd.lo
+  CC       src/util/format.lo
+  CC       src/util/miscutil.lo
+  CC       src/util/patcache.lo
+  CC       src/util/private.lo
+  CC       src/util/utilbitmap.lo
+  CC       src/fontfile/bitsource.lo
+  CC       src/fontfile/bufio.lo
+  CC       src/fontfile/decompress.lo
+  CC       src/fontfile/defaults.lo
+  CC       src/fontfile/dirfile.lo
+  CC       src/fontfile/fileio.lo
+  CC       src/fontfile/filewr.lo
+  CC       src/fontfile/fontdir.lo
+  CC       src/fontfile/fontencc.lo
+  CC       src/fontfile/fontfile.lo
+  CC       src/fontfile/fontscale.lo
+  CC       src/fontfile/gunzip.lo
+  CC       src/fontfile/register.lo
+  CC       src/fontfile/renderers.lo
+  CC       src/fontfile/catalogue.lo
+  CC       src/FreeType/ftenc.lo
+  CC       src/FreeType/ftfuncs.lo
+  CC       src/FreeType/fttools.lo
+  CC       src/FreeType/xttcap.lo
+  CC       src/bitmap/bitmap.lo
+  CC       src/bitmap/bitmapfunc.lo
+  CC       src/bitmap/bitmaputil.lo
+  CC       src/bitmap/bitscale.lo
+  CC       src/bitmap/fontink.lo
+  CC       src/bitmap/bdfread.lo
+  CC       src/bitmap/bdfutils.lo
+  CC       src/bitmap/pcfread.lo
+  CC       src/bitmap/pcfwrite.lo
+  CC       src/builtins/dir.lo
+  CC       src/builtins/file.lo
+  CC       src/builtins/fonts.lo
+  CC       src/builtins/fpe.lo
+  CC       src/builtins/render.lo
+  CC       src/fc/fsconvert.lo
+  CC       src/fc/fserve.lo
+  CC       src/fc/fsio.lo
+  CC       src/fc/fstrans.lo
+  CCLD     libXfont2.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'

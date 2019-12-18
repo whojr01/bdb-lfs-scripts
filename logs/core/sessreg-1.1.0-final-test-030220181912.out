@@ -1,0 +1,10 @@
+###############################
+###############################
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/sessreg-1.1.0/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/sessreg-1.1.0/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/sessreg-1.1.0'
+  CC       sessreg.o
+  CCLD     sessreg
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/sessreg-1.1.0'

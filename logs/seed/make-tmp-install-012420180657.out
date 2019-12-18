@@ -1,0 +1,72 @@
+Making install in glob
+make[1]: Entering directory `/lfsbuild/sources/make-4.2.1/build/glob'
+make[2]: Entering directory `/lfsbuild/sources/make-4.2.1/build/glob'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/make-4.2.1/build/glob'
+make[1]: Leaving directory `/lfsbuild/sources/make-4.2.1/build/glob'
+Making install in config
+make[1]: Entering directory `/lfsbuild/sources/make-4.2.1/build/config'
+make[2]: Entering directory `/lfsbuild/sources/make-4.2.1/build/config'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/lfsbuild/sources/make-4.2.1/build/config'
+make[1]: Leaving directory `/lfsbuild/sources/make-4.2.1/build/config'
+Making install in po
+make[1]: Entering directory `/lfsbuild/sources/make-4.2.1/build/po'
+installing ../../po/be.gmo as /tools/share/locale/be/LC_MESSAGES/make.mo
+installing ../../po/cs.gmo as /tools/share/locale/cs/LC_MESSAGES/make.mo
+installing ../../po/da.gmo as /tools/share/locale/da/LC_MESSAGES/make.mo
+installing ../../po/de.gmo as /tools/share/locale/de/LC_MESSAGES/make.mo
+installing ../../po/es.gmo as /tools/share/locale/es/LC_MESSAGES/make.mo
+installing ../../po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/make.mo
+installing ../../po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/make.mo
+installing ../../po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/make.mo
+installing ../../po/gl.gmo as /tools/share/locale/gl/LC_MESSAGES/make.mo
+installing ../../po/he.gmo as /tools/share/locale/he/LC_MESSAGES/make.mo
+installing ../../po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/make.mo
+installing ../../po/id.gmo as /tools/share/locale/id/LC_MESSAGES/make.mo
+installing ../../po/it.gmo as /tools/share/locale/it/LC_MESSAGES/make.mo
+installing ../../po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/make.mo
+installing ../../po/ko.gmo as /tools/share/locale/ko/LC_MESSAGES/make.mo
+installing ../../po/lt.gmo as /tools/share/locale/lt/LC_MESSAGES/make.mo
+installing ../../po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/make.mo
+installing ../../po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/make.mo
+installing ../../po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/make.mo
+installing ../../po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/make.mo
+installing ../../po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/make.mo
+installing ../../po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/make.mo
+installing ../../po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/make.mo
+installing ../../po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/make.mo
+installing ../../po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/make.mo
+if test "make" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ../../po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/lfsbuild/sources/make-4.2.1/build/po'
+Making install in doc
+make[1]: Entering directory `/lfsbuild/sources/make-4.2.1/build/doc'
+make[2]: Entering directory `/lfsbuild/sources/make-4.2.1/build/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/info'
+ /tools/bin/install -c -m 644 ../../doc/make.info ../../doc/make.info-1 ../../doc/make.info-2 '/tools/share/info'
+make[2]: Leaving directory `/lfsbuild/sources/make-4.2.1/build/doc'
+make[1]: Leaving directory `/lfsbuild/sources/make-4.2.1/build/doc'
+make[1]: Entering directory `/lfsbuild/sources/make-4.2.1/build'
+make[2]: Entering directory `/lfsbuild/sources/make-4.2.1/build'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c make '/tools/bin'
+ /tools/bin/mkdir -p '/tools/include'
+ /tools/bin/install -c -m 644 ../gnumake.h '/tools/include'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 ../make.1 '/tools/share/man/man1'
+make[2]: Leaving directory `/lfsbuild/sources/make-4.2.1/build'
+make[1]: Leaving directory `/lfsbuild/sources/make-4.2.1/build'

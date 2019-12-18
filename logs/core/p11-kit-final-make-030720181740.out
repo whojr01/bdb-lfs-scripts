@@ -1,0 +1,166 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+  CC       p11-kit/libp11_kit_la-proxy.lo
+  CC       p11-kit/libp11_kit_la-proxy-init.lo
+  CC       p11-kit/libp11_kit_internal_la-util.lo
+  CC       p11-kit/libp11_kit_internal_la-conf.lo
+  CC       p11-kit/libp11_kit_internal_la-iter.lo
+  CC       p11-kit/libp11_kit_internal_la-log.lo
+  CC       p11-kit/libp11_kit_internal_la-filter.lo
+  CC       p11-kit/libp11_kit_internal_la-modules.lo
+  CC       p11-kit/libp11_kit_internal_la-pin.lo
+  CC       p11-kit/libp11_kit_internal_la-messages.lo
+  CC       p11-kit/libp11_kit_internal_la-rpc-transport.lo
+  CC       p11-kit/libp11_kit_internal_la-rpc-message.lo
+  CC       p11-kit/libp11_kit_internal_la-rpc-client.lo
+  CC       p11-kit/libp11_kit_internal_la-rpc-server.lo
+  CC       p11-kit/libp11_kit_internal_la-uri.lo
+  CC       p11-kit/libp11_kit_internal_la-virtual.lo
+  CCLD     libp11-kit-internal.la
+  CC       common/argv.lo
+  CC       common/attrs.lo
+  CC       common/array.lo
+  CC       common/buffer.lo
+  CC       common/compat.lo
+  CC       common/constants.lo
+  CC       common/debug.lo
+  CC       common/dict.lo
+  CC       common/hash.lo
+  CC       common/lexer.lo
+  CC       common/message.lo
+  CC       common/path.lo
+  CC       common/url.lo
+  CCLD     libp11-common.la
+  CC       common/library.lo
+  CCLD     libp11-library.la
+  CCLD     libp11-kit.la
+  CC       p11-kit/p11_kit_client_la-client.lo
+  CC       p11-kit/p11_kit_client_la-client-init.lo
+  CCLD     p11-kit-client.la
+  CC       trust/p11_kit_trust_la-builder.lo
+  CC       trust/p11_kit_trust_la-digest.lo
+  CC       trust/p11_kit_trust_la-index.lo
+  CC       trust/p11_kit_trust_la-parser.lo
+  CC       trust/p11_kit_trust_la-persist.lo
+  CC       trust/p11_kit_trust_la-module.lo
+  CC       trust/p11_kit_trust_la-save.lo
+  CC       trust/p11_kit_trust_la-session.lo
+  CC       trust/p11_kit_trust_la-token.lo
+  CC       trust/libtrust_data_la-asn1.lo
+  CC       trust/libtrust_data_la-base64.lo
+  CC       trust/libtrust_data_la-pem.lo
+  CC       trust/libtrust_data_la-oid.lo
+  CC       trust/libtrust_data_la-utf8.lo
+  CC       trust/libtrust_data_la-x509.lo
+  CCLD     libtrust-data.la
+  CCLD     p11-kit-trust.la
+  CC       common/mock.lo
+  CC       common/test.lo
+  CCLD     libp11-test.la
+  CC       common/tool.lo
+  CC       common/unix-peer.lo
+  CCLD     libp11-tool.la
+  CC       p11-kit/libp11_kit_testable_la-util.lo
+  CC       p11-kit/libp11_kit_testable_la-conf.lo
+  CC       p11-kit/libp11_kit_testable_la-iter.lo
+  CC       p11-kit/libp11_kit_testable_la-log.lo
+  CC       p11-kit/libp11_kit_testable_la-filter.lo
+  CC       p11-kit/libp11_kit_testable_la-modules.lo
+  CC       p11-kit/libp11_kit_testable_la-pin.lo
+  CC       p11-kit/libp11_kit_testable_la-messages.lo
+  CC       p11-kit/libp11_kit_testable_la-rpc-transport.lo
+  CC       p11-kit/libp11_kit_testable_la-rpc-message.lo
+  CC       p11-kit/libp11_kit_testable_la-rpc-client.lo
+  CC       p11-kit/libp11_kit_testable_la-rpc-server.lo
+  CC       p11-kit/libp11_kit_testable_la-uri.lo
+  CC       p11-kit/libp11_kit_testable_la-virtual.lo
+  CC       p11-kit/libp11_kit_testable_la-proxy.lo
+  CC       p11-kit/libp11_kit_testable_la-proxy-init.lo
+  CCLD     libp11-kit-testable.la
+  CC       p11-kit/mock-module-ep.lo
+  CCLD     mock-one.la
+  CC       p11-kit/mock-module-ep2.lo
+  CCLD     mock-two.la
+  CCLD     mock-three.la
+  CCLD     mock-four.la
+  CC       p11-kit/mock-module-ep3.lo
+  CCLD     mock-five.la
+  CC       trust/libtrust_testable_la-builder.lo
+  CC       trust/libtrust_testable_la-digest.lo
+  CC       trust/libtrust_testable_la-index.lo
+  CC       trust/libtrust_testable_la-parser.lo
+  CC       trust/libtrust_testable_la-persist.lo
+  CC       trust/libtrust_testable_la-module.lo
+  CC       trust/libtrust_testable_la-save.lo
+  CC       trust/libtrust_testable_la-session.lo
+  CC       trust/libtrust_testable_la-token.lo
+  CCLD     libtrust-testable.la
+  CC       trust/test-trust.lo
+  CC       trust/digest.lo
+  CCLD     libtrust-test.la
+  CC       p11-kit/lists.o
+  CC       p11-kit/p11-kit.o
+  CCLD     p11-kit/p11-kit
+  CC       trust/trust_trust-anchor.o
+  CC       trust/trust_trust-parser.o
+  CC       trust/trust_trust-persist.o
+  CC       trust/trust_trust-digest.o
+  CC       trust/trust_trust-dump.o
+  CC       trust/trust_trust-enumerate.o
+  CC       trust/trust_trust-extract.o
+  CC       trust/trust_trust-extract-jks.o
+  CC       trust/trust_trust-extract-openssl.o
+  CC       trust/trust_trust-extract-pem.o
+  CC       trust/trust_trust-extract-cer.o
+  CC       trust/trust_trust-list.o
+  CC       trust/trust_trust-save.o
+  CC       trust/trust_trust-trust.o
+  CCLD     trust/trust
+  CC       common/frob-getauxval.o
+  CCLD     frob-getauxval
+  CC       common/frob-getenv.o
+  CCLD     frob-getenv
+  CC       p11-kit/print-messages.o
+  CCLD     print-messages
+  CC       p11-kit/frob-setuid.o
+  CCLD     frob-setuid
+  CC       trust/frob_pow-frob-pow.o
+  CCLD     frob-pow
+  CC       trust/frob_token-frob-token.o
+  CCLD     frob-token
+  CC       trust/frob-nss-trust.o
+  CCLD     frob-nss-trust
+  CC       trust/frob_cert-frob-cert.o
+  CCLD     frob-cert
+  CC       trust/frob_bc-frob-bc.o
+  CCLD     frob-bc
+  CC       trust/frob_ku-frob-ku.o
+  CCLD     frob-ku
+  CC       trust/frob_eku-frob-eku.o
+  CCLD     frob-eku
+  CC       trust/frob_ext-frob-ext.o
+  CCLD     frob-ext
+  CC       trust/frob_oid-frob-oid.o
+  CCLD     frob-oid
+  CC       p11-kit/remote.o
+  CCLD     p11-kit-remote
+  CC       p11-kit/server.o
+  CCLD     p11-kit-server
+make[2]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+Making all in manual
+make[3]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc/manual'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc/manual'
+make[3]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/doc'
+Making all in po
+make[2]: Entering directory '/lfskernel/sources/boot/p11-kit-0.23.9/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9/po'
+make[1]: Leaving directory '/lfskernel/sources/boot/p11-kit-0.23.9'

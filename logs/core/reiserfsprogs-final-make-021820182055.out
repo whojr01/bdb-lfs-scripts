@@ -1,0 +1,94 @@
+Making all in include
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/include'
+Making all in lib
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/lib'
+  CC       io.lo
+  CC       misc.lo
+  CC       parse_time.lo
+  CC       progbar.lo
+  CCLD     libmisc.la
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/lib'
+Making all in reiserfscore
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+  CC       do_balan.lo
+  CC       fix_node.lo
+  CC       hashes.lo
+  CC       ibalance.lo
+  CC       lbalance.lo
+  CC       prints.lo
+  CC       stree.lo
+  CC       node_formats.lo
+  CC       reiserfslib.lo
+  CC       bitmap.lo
+  CC       journal.lo
+  CC       xattr.lo
+  CC       reiserfs_err.lo
+  CCLD     libreiserfscore.la
+make[2]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/reiserfscore'
+Making all in fsck
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+  CC       main.o
+  CC       pass0.o
+  CC       pass1.o
+  CC       pass2.o
+  CC       semantic_check.o
+In file included from ../include/reiserfs_lib.h:15:0,
+                 from fsck.h:14,
+                 from semantic_check.c:5:
+semantic_check.c: In function 'check_semantic_pass.isra.0':
+../include/reiserfs_fs.h:62:51: warning: 'relocated_ih.ih_key.k2_dir_id' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define get_leXX(xx,p,field) (le##xx##_to_cpu ((p)->field))
+                                                   ^~
+../include/reiserfs_fs.h:62:51: warning: 'relocated_ih.ih_key.k2_objectid' may be used uninitialized in this function [-Wmaybe-uninitialized]
+../include/reiserfs_fs.h:62:51: warning: 'relocated_ih.ih_key.k2_dir_id' may be used uninitialized in this function [-Wmaybe-uninitialized]
+../include/reiserfs_fs.h:62:51: warning: 'relocated_ih.ih_key.k2_objectid' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  CC       semantic_rebuild.o
+  CC       pass4.o
+  CC       lost+found.o
+  CC       ubitmap.o
+  CC       uobjectid.o
+  CC       ustree.o
+  CC       ufile.o
+  CC       check_tree.o
+  CC       info.o
+  CC       super.o
+  CCLD     reiserfsck
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/fsck'
+Making all in debugreiserfs
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+  CC       debugreiserfs.o
+  CC       pack.o
+  CC       unpack.o
+  CC       stat.o
+  CC       corruption.o
+  CC       scan.o
+  CC       recover.o
+  CCLD     debugreiserfs
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/debugreiserfs'
+Making all in resize_reiserfs
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/resize_reiserfs'
+  CC       fe.o
+  CC       resize_reiserfs.o
+  CC       do_shrink.o
+  CCLD     resize_reiserfs
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/resize_reiserfs'
+Making all in mkreiserfs
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+  CC       mkreiserfs.o
+  CCLD     mkreiserfs
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/mkreiserfs'
+Making all in tune
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+  CC       tune.o
+  CCLD     reiserfstune
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27/tune'
+make[1]: Entering directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/reiserfsprogs-3.6.27'

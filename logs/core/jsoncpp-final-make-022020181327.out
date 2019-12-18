@@ -1,0 +1,15 @@
+Warning: You are using 'ANSI_X3.4-1968' which is not a Unicode-compatible locale.
+You might see errors if you use UTF-8 strings as filenames, as strings, or as file contents.
+Please switch to a UTF-8 locale for your platform.
+The Meson build system
+Version: 0.44.0
+Source dir: /lfskernel/sources/boot/jsoncpp-1.8.4
+Build dir: /lfskernel/sources/boot/jsoncpp-1.8.4/build-shared
+Build type: native build
+Project name: jsoncpp
+Native C++ compiler: c++ (gcc 7.2.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Configuring version.h using configuration
+Build targets in project: 3
+Found ninja-1.8.2 at /usr/bin/ninja

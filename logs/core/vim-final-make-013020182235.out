@@ -1,0 +1,722 @@
+Starting make in the src directory.
+If there are problems, cd to the src directory and run make there
+cd src && make first
+make[1]: Entering directory '/sources/vim80/src'
+/bin/sh install-sh -c -d objects
+touch objects/.dirstamp
+CC="gcc -Iproto -DHAVE_CONFIG_H       " srcdir=. sh ./osdef.sh
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/arabic.o arabic.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from arabic.c:16:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/buffer.o buffer.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from buffer.c:28:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+buffer.c: In function 'build_stl_str_hl':
+buffer.c:4281:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      base = 'X';
+      ~~~~~^~~~~
+buffer.c:4282:2: note: here
+  case STL_OFFSET:
+  ^~~~
+buffer.c:4292:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      base = 'X';
+      ~~~~~^~~~~
+buffer.c:4293:2: note: here
+  case STL_BYTEVAL:
+  ^~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/blowfish.o blowfish.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from blowfish.c:22:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/crypt.o crypt.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from crypt.c:13:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/crypt_zip.o crypt_zip.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from crypt_zip.c:13:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/dict.o dict.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from dict.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/diff.o diff.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from diff.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/digraph.o digraph.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from digraph.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/edit.o edit.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from edit.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+edit.c: In function 'quote_meta':
+edit.c:5764:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         || ctrl_x_mode == CTRL_X_THESAURUS)
+         ^
+edit.c:5766:6: note: here
+      case '~':
+      ^~~~
+edit.c:5767:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (!p_magic) /* quote these only if magic is set */
+      ^
+edit.c:5769:6: note: here
+      case '\\':
+      ^~~~
+edit.c:5771:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         || ctrl_x_mode == CTRL_X_THESAURUS)
+         ^
+edit.c:5773:6: note: here
+      case '^':  /* currently it's not needed. */
+      ^~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/eval.o eval.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from eval.c:15:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/evalfunc.o evalfunc.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from evalfunc.c:15:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/ex_cmds.o ex_cmds.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from ex_cmds.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/ex_cmds2.o ex_cmds2.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from ex_cmds2.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/ex_docmd.o ex_docmd.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from ex_docmd.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/ex_eval.o ex_eval.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from ex_eval.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/ex_getln.o ex_getln.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from ex_getln.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+ex_getln.c: In function 'getcmdline':
+ex_getln.c:1518:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (xpc.xp_numfiles > 0)
+      ^
+ex_getln.c:1528:2: note: here
+  case K_UP:
+  ^~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/farsi.o farsi.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from farsi.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/fileio.o fileio.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from fileio.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/fold.o fold.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from fold.c:15:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/getchar.o getchar.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from getchar.c:19:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/hardcopy.o hardcopy.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from hardcopy.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/hashtab.o hashtab.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from hashtab.c:30:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/if_cscope.o if_cscope.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from if_cscope.c:12:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/if_xcmdsrv.o if_xcmdsrv.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from if_xcmdsrv.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/list.o list.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from list.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/mark.o mark.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from mark.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/memline.o memline.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from memline.c:45:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/menu.o menu.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from menu.c:15:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/misc1.o misc1.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from misc1.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/misc2.o misc2.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from misc2.c:13:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/move.o move.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from move.c:20:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/mbyte.o mbyte.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from mbyte.c:80:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/normal.o normal.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from normal.c:15:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+normal.c: In function 'do_pending_operator':
+normal.c:1933:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      if (vim_strchr(p_cpo, CPO_FILTER) != NULL)
+         ^
+normal.c:1938:2: note: here
+  case OP_INDENT:
+  ^~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/ops.o ops.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from ops.c:15:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I.       -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/option.o option.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from option.c:35:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/os_unix.o os_unix.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from os_unix.c:32:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+creating auto/pathdef.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/pathdef.o auto/pathdef.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from ./os_unix.h:21,
+                 from ./vim.h:260,
+                 from auto/pathdef.c:4:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/popupmnu.o popupmnu.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from popupmnu.c:13:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/quickfix.o quickfix.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from quickfix.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/regexp.o regexp.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from regexp.c:47:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+In file included from regexp.c:8044:0:
+regexp_nfa.c: In function 'nfa_recognize_char_class':
+regexp_nfa.c:632:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       if (*(p + 2) == '7')
+          ^
+regexp_nfa.c:637:3: note: here
+   case 'a':
+   ^~~~
+regexp_nfa.c:644:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+       if (*(p + 2) == 'f')
+          ^
+regexp_nfa.c:649:3: note: here
+   case 'A':
+   ^~~~
+regexp_nfa.c: In function 'addstate':
+regexp_nfa.c:4680:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+      if (nfa_has_zend && (REG_MULTI
+         ^
+regexp_nfa.c:4688:2: note: here
+  case NFA_MCLOSE1:
+  ^~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/screen.o screen.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from screen.c:90:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/search.o search.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from search.c:13:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/sha256.o sha256.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from sha256.c:23:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/spell.o spell.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from spell.c:75:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/spellfile.o spellfile.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from spellfile.c:240:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/syntax.o syntax.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from syntax.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/tag.o tag.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from tag.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/term.o term.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from term.c:26:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/ui.o ui.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from ui.c:19:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/undo.o undo.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from undo.c:87:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/userfunc.o userfunc.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from userfunc.c:14:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/window.o window.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from window.c:10:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+window.c: In function 'do_window':
+window.c:567:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if (Prenum)
+       ^
+window.c:573:7: note: here
+       case ']':
+       ^~~~
+window.c:443:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (Prenum)
+      ^
+window.c:449:5: note: here
+     case ']':
+     ^~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/netbeans.o netbeans.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from netbeans.c:26:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/channel.o channel.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from channel.c:13:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/charset.o charset.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from charset.c:10:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/json.o json.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from json.c:17:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/main.o main.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from main.c:11:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/memfile.o memfile.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from memfile.c:35:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     -o objects/message.o message.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from message.c:17:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1   -DEXITFREE     version.c -o objects/version.o
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from os_unix.h:21,
+                 from vim.h:260,
+                 from version.c:10:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+link.sh: $LINK_AS_NEEDED set to 'yes': invoking linker directly.
+  gcc   -L/usr/local/lib -Wl,--as-needed 	-o vim objects/arabic.o objects/buffer.o objects/blowfish.o objects/crypt.o objects/crypt_zip.o objects/dict.o objects/diff.o objects/digraph.o objects/edit.o objects/eval.o objects/evalfunc.o objects/ex_cmds.o objects/ex_cmds2.o objects/ex_docmd.o objects/ex_eval.o objects/ex_getln.o objects/farsi.o objects/fileio.o objects/fold.o objects/getchar.o objects/hardcopy.o objects/hashtab.o  objects/if_cscope.o objects/if_xcmdsrv.o objects/list.o objects/mark.o objects/memline.o objects/menu.o objects/misc1.o objects/misc2.o objects/move.o objects/mbyte.o objects/normal.o objects/ops.o objects/option.o objects/os_unix.o objects/pathdef.o objects/popupmnu.o objects/quickfix.o objects/regexp.o objects/screen.o objects/search.o objects/sha256.o objects/spell.o objects/spellfile.o objects/syntax.o objects/tag.o objects/term.o objects/ui.o objects/undo.o objects/userfunc.o objects/version.o objects/window.o           objects/netbeans.o objects/channel.o  objects/charset.o objects/json.o objects/main.o objects/memfile.o objects/message.o        -lm -lncurses -lelf -lnsl  -lacl -lattr -ldl           
+link.sh: Linked fine
+cd xxd; CC="gcc" CFLAGS=" -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1" LDFLAGS="-L/usr/local/lib -Wl,--as-needed" \
+	make -f Makefile
+make[2]: Entering directory '/sources/vim80/src/xxd'
+gcc  -g -Wall -Wextra -Wshadow -Wmissing-prototypes -Wunreachable-code -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -L/usr/local/lib -Wl,--as-needed -DUNIX -o xxd xxd.c
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from xxd.c:77:
+/usr/include/features.h:376:4: warning: #warning _FORTIFY_SOURCE requires compiling with optimization (-O) [-Wcpp]
+ #  warning _FORTIFY_SOURCE requires compiling with optimization (-O)
+    ^~~~~~~
+make[2]: Leaving directory '/sources/vim80/src/xxd'
+make[2]: Entering directory '/sources/vim80/src/po'
+OLD_PO_FILE_INPUT=yes msgfmt -v -o af.mo af.po
+1423 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ca.mo ca.po
+1697 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o cs.mo cs.po
+1284 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o de.mo de.po
+1701 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o en_GB.mo en_GB.po
+78 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o eo.mo eo.po
+1916 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o es.mo es.po
+1733 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o fi.mo fi.po
+1902 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o fr.mo fr.po
+1916 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ga.mo ga.po
+1914 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o it.mo it.po
+1897 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ja.mo ja.po
+1918 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ko.mo ko.po
+1728 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ko.UTF-8.mo ko.UTF-8.po
+1728 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o nb.mo nb.po
+1668 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o nl.mo nl.po
+1213 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o no.mo no.po
+1668 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o pl.mo pl.po
+1869 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o pt_BR.mo pt_BR.po
+1735 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ru.mo ru.po
+1882 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o sk.mo sk.po
+1628 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o sv.mo sv.po
+1697 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o uk.mo uk.po
+1918 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o vi.mo vi.po
+1422 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o zh_CN.UTF-8.mo zh_CN.UTF-8.po
+1634 translated messages, 3 fuzzy translations.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o zh_CN.mo zh_CN.po
+1633 translated messages, 3 fuzzy translations.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o zh_TW.UTF-8.mo zh_TW.UTF-8.po
+1422 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o zh_TW.mo zh_TW.po
+1422 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o cs.cp1250.mo cs.cp1250.po
+1284 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ja.sjis.mo ja.sjis.po
+1918 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ja.euc-jp.mo ja.euc-jp.po
+1918 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o pl.cp1250.mo pl.cp1250.po
+1869 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o pl.UTF-8.mo pl.UTF-8.po
+1869 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o ru.cp1251.mo ru.cp1251.po
+1882 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o sk.cp1250.mo sk.cp1250.po
+1628 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o uk.cp1251.mo uk.cp1251.po
+1918 translated messages.
+OLD_PO_FILE_INPUT=yes msgfmt -v -o zh_CN.cp936.mo zh_CN.cp936.po
+1634 translated messages, 3 fuzzy translations.
+make[2]: Leaving directory '/sources/vim80/src/po'
+make[2]: Entering directory '/sources/vim80/src/po'
+make[2]: Nothing to be done for 'converted'.
+make[2]: Leaving directory '/sources/vim80/src/po'
+make[1]: Leaving directory '/sources/vim80/src'

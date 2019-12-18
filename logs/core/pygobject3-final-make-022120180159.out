@@ -1,0 +1,428 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python2/../$f ./$f; \
+done
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+Making all in examples
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/examples'
+Making all in gi
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+Making all in repository
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/repository'
+Making all in overrides
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/overrides'
+Making all in _gobject
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/_gobject/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi/_gobject'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+  CC       _gi_la-gobjectmodule.lo
+../../gi/gobjectmodule.c: In function 'pygobject_constructv':
+../../gi/gobjectmodule.c:989:5: warning: 'g_object_newv' is deprecated: Use 'g_object_new_with_properties' instead [-Wdeprecated-declarations]
+     obj = g_object_newv(pyg_type_from_object((PyObject *) self),
+     ^~~
+In file included from /usr/include/glib-2.0/gobject/gbinding.h:29:0,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from ../../gi/gobjectmodule.c:26:
+/usr/include/glib-2.0/gobject/gobject.h:429:13: note: declared here
+ gpointer    g_object_newv        (GType           object_type,
+             ^~~~~~~~~~~~~
+../../gi/gobjectmodule.c: In function 'pyg_object_new':
+../../gi/gobjectmodule.c:1373:5: warning: 'g_object_newv' is deprecated: Use 'g_object_new_with_properties' instead [-Wdeprecated-declarations]
+     obj = g_object_newv(type, n_params, params);
+     ^~~
+In file included from /usr/include/glib-2.0/gobject/gbinding.h:29:0,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from ../../gi/gobjectmodule.c:26:
+/usr/include/glib-2.0/gobject/gobject.h:429:13: note: declared here
+ gpointer    g_object_newv        (GType           object_type,
+             ^~~~~~~~~~~~~
+  CC       _gi_la-pygboxed.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from ../../gi/pyglib.h:23,
+                 from ../../gi/pygboxed.c:27:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/limits.h:26,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:194,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/syslimits.h:7,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:34,
+                 from /usr/lib/glib-2.0/include/glibconfig.h:11,
+                 from /usr/include/glib-2.0/glib/gtypes.h:32,
+                 from /usr/include/glib-2.0/glib/galloca.h:32,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:28,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from ../../gi/pygboxed.c:25:
+/usr/include/features.h:260:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ 
+  CC       _gi_la-pygenum.lo
+  CC       _gi_la-pygflags.lo
+  CC       _gi_la-pyginterface.lo
+  CC       _gi_la-pygobject-object.lo
+../../gi/pygobject-object.c: In function 'pygobject_lookup_class':
+../../gi/pygobject-object.c:931:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (py_type == NULL)
+     ^~
+../../gi/pygobject-object.c:934:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  if (py_type == NULL) {
+  ^~
+  CC       _gi_la-pygparamspec.lo
+  CC       _gi_la-pygpointer.lo
+  CC       _gi_la-pygtype.lo
+  CC       _gi_la-glibmodule.lo
+  CC       _gi_la-pygoptioncontext.lo
+  CC       _gi_la-pygoptiongroup.lo
+  CC       _gi_la-pygspawn.lo
+  CC       _gi_la-pyglib.lo
+  CC       _gi_la-gimodule.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from ../../gi/pyglib.h:23,
+                 from ../../gi/gimodule.c:26:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/limits.h:26,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:194,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/syslimits.h:7,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:34,
+                 from /usr/lib/glib-2.0/include/glibconfig.h:11,
+                 from /usr/include/glib-2.0/glib/gtypes.h:32,
+                 from /usr/include/glib-2.0/glib/galloca.h:32,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:28,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from ../../gi/gimodule.c:24:
+/usr/include/features.h:260:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ 
+  CC       _gi_la-pygi-repository.lo
+  CC       _gi_la-pygi-info.lo
+  CC       _gi_la-pygi-foreign.lo
+  CC       _gi_la-pygi-struct.lo
+  CC       _gi_la-pygi-source.lo
+  CC       _gi_la-pygi-argument.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from ../../gi/pygobject.h:5,
+                 from ../../gi/pygobject-internal.h:5,
+                 from ../../gi/pygi-argument.c:25:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/string.h:26,
+                 from ../../gi/pygi-argument.c:22:
+/usr/include/features.h:260:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ 
+  CC       _gi_la-pygi-resulttuple.lo
+  CC       _gi_la-pygi-type.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from ../../gi/pygtype.h:25,
+                 from ../../gi/pygi-type.c:22:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/limits.h:26,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:194,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/syslimits.h:7,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:34,
+                 from /usr/lib/glib-2.0/include/glibconfig.h:11,
+                 from /usr/include/glib-2.0/glib/gtypes.h:32,
+                 from /usr/include/glib-2.0/glib/galloca.h:32,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:28,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from ../../gi/pygtype.h:24,
+                 from ../../gi/pygi-type.c:22:
+/usr/include/features.h:260:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ 
+  CC       _gi_la-pygi-boxed.lo
+  CC       _gi_la-pygi-closure.lo
+  CC       _gi_la-pygi-ccallback.lo
+  CC       _gi_la-pygi-util.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from ../../gi/pygobject.h:5,
+                 from ../../gi/pygobject-internal.h:5,
+                 from ../../gi/pygi-util.h:5,
+                 from ../../gi/pygi-util.c:21:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/limits.h:26,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:194,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/syslimits.h:7,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:34,
+                 from /usr/lib/glib-2.0/include/glibconfig.h:11,
+                 from /usr/include/glib-2.0/glib/gtypes.h:32,
+                 from /usr/include/glib-2.0/glib/galloca.h:32,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from ../../gi/pygi-util.h:4,
+                 from ../../gi/pygi-util.c:21:
+/usr/include/features.h:260:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ 
+  CC       _gi_la-pygi-property.lo
+  CC       _gi_la-pygi-signal-closure.lo
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from ../../gi/pygobject.h:5,
+                 from ../../gi/pygobject-internal.h:5,
+                 from ../../gi/pygi-signal-closure.h:28,
+                 from ../../gi/pygi-signal-closure.c:19:
+/usr/include/python2.7/pyconfig.h:1193:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ 
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/limits.h:26,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:194,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/syslimits.h:7,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed/limits.h:34,
+                 from /usr/lib/glib-2.0/include/glibconfig.h:11,
+                 from /usr/include/glib-2.0/glib/gtypes.h:32,
+                 from /usr/include/glib-2.0/glib/galloca.h:32,
+                 from /usr/include/glib-2.0/glib.h:30,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:28,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/gobject-introspection-1.0/girepository.h:26,
+                 from ../../gi/pygi-signal-closure.h:27,
+                 from ../../gi/pygi-signal-closure.c:19:
+/usr/include/features.h:260:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ 
+  CC       _gi_la-pygi-invoke.lo
+  CC       _gi_la-pygi-cache.lo
+  CC       _gi_la-pygi-marshal-cleanup.lo
+  CC       _gi_la-pygi-basictype.lo
+  CC       _gi_la-pygi-list.lo
+  CC       _gi_la-pygi-array.lo
+  CC       _gi_la-pygi-error.lo
+  CC       _gi_la-pygi-object.lo
+  CC       _gi_la-pygi-value.lo
+  CC       _gi_la-pygi-enum-marshal.lo
+  CC       _gi_la-pygi-struct-marshal.lo
+  CC       _gi_la-pygi-hashtable.lo
+  CCLD     _gi.la
+  CC       _gi_cairo_la-pygi-foreign-cairo.lo
+  CCLD     _gi_cairo.la
+ln -s -f .libs/_gi.so _gi.so
+ln -s -f .libs/_gi_cairo.so _gi_cairo.so
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/gi'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+  CC       libgimarshallingtests_la-gimarshallingtestsextra.lo
+  CC       libgimarshallingtests_la-gimarshallingtests.lo
+  GEN      libgimarshallingtests.la
+test -L libgimarshallingtests.so || ln -s .libs/libgimarshallingtests.so libgimarshallingtests.so
+  CC       libregress_la-regress.lo
+/usr/share/gobject-introspection-1.0/tests/regress.c:3480:3: warning: no previous prototype for '_regress_test_fundamental_hidden_sub_object_get_type' [-Wmissing-prototypes]
+   _regress_test_fundamental_hidden_sub_object_get_type
+   ^
+/usr/share/gobject-introspection-1.0/tests/regress.c:3480:3: note: in definition of macro 'regress_test_fundamental_hidden_sub_object_get_type'
+   _regress_test_fundamental_hidden_sub_object_get_type
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1994:3: note: in expansion of macro '_G_DEFINE_TYPE_EXTENDED_BEGIN_PRE'
+   _G_DEFINE_TYPE_EXTENDED_BEGIN_PRE(TypeName, type_name, TYPE_PARENT) \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1737:60: note: in expansion of macro '_G_DEFINE_TYPE_EXTENDED_BEGIN'
+ #define G_DEFINE_TYPE_EXTENDED(TN, t_n, T_P, _f_, _C_)     _G_DEFINE_TYPE_EXTENDED_BEGIN (TN, t_n, T_P, _f_) {_C_;} _G_DEFINE_TYPE_EXTENDED_END()
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1595:43: note: in expansion of macro 'G_DEFINE_TYPE_EXTENDED'
+ #define G_DEFINE_TYPE(TN, t_n, T_P)       G_DEFINE_TYPE_EXTENDED (TN, t_n, T_P, 0, {})
+                                           ^~~~~~~~~~~~~~~~~~~~~~
+/usr/share/gobject-introspection-1.0/tests/regress.c:3488:1: note: in expansion of macro 'G_DEFINE_TYPE'
+ G_DEFINE_TYPE (RegressTestFundamentalHiddenSubObject,
+ ^~~~~~~~~~~~~
+  GEN      libregress.la
+test -L libregress.so || ln -s .libs/libregress.so libregress.so
+  CC       testhelper_la-testhelpermodule.lo
+  CC       testhelper_la-test-floating.lo
+  CC       testhelper_la-test-thread.lo
+  CC       testhelper_la-test-unknown.lo
+  GEN      testhelper.la
+test -L testhelper.so || ln -s .libs/testhelper.so testhelper.so
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/tests'
+Making all in pygtkcompat
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+for f in __init__.py generictreemodel.py pygtkcompat.py; do \
+    [ -e ./$f ] || ln -s ../../pygtkcompat/$f ./$f; \
+done
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2/pygtkcompat'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python2'
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+for f in gi/__init__.py gi/types.py gi/module.py gi/importer.py gi/pygtkcompat.py gi/docstring.py gi/_constants.py gi/_propertyhelper.py gi/_signalhelper.py gi/_option.py gi/_error.py; do \
+	[ -e ./$f ] || \
+		ln -s /sources/boot/pygobject-3.24.1/python3/../$f ./$f; \
+done
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'
+Making all in examples
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/examples'
+Making all in gi
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+Making all in repository
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/repository/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/repository'
+Making all in overrides
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+for f in GLib.py Gtk.py Gdk.py GObject.py Gio.py GIMarshallingTests.py Pango.py keysyms.py __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/overrides/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/overrides'
+Making all in _gobject
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+for f in __init__.py; do \
+    [ -e ./$f ] || ln -s ../../../gi/_gobject/$f ./$f; \
+done
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi/_gobject'
+make[3]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+  CC       _gi_la-gobjectmodule.lo
+../../gi/gobjectmodule.c: In function 'pygobject_constructv':
+../../gi/gobjectmodule.c:989:5: warning: 'g_object_newv' is deprecated: Use 'g_object_new_with_properties' instead [-Wdeprecated-declarations]
+     obj = g_object_newv(pyg_type_from_object((PyObject *) self),
+     ^~~
+In file included from /usr/include/glib-2.0/gobject/gbinding.h:29:0,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from ../../gi/gobjectmodule.c:26:
+/usr/include/glib-2.0/gobject/gobject.h:429:13: note: declared here
+ gpointer    g_object_newv        (GType           object_type,
+             ^~~~~~~~~~~~~
+../../gi/gobjectmodule.c: In function 'pyg_object_new':
+../../gi/gobjectmodule.c:1373:5: warning: 'g_object_newv' is deprecated: Use 'g_object_new_with_properties' instead [-Wdeprecated-declarations]
+     obj = g_object_newv(type, n_params, params);
+     ^~~
+In file included from /usr/include/glib-2.0/gobject/gbinding.h:29:0,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /usr/include/glib-2.0/gobject/gvaluecollector.h:32,
+                 from ../../gi/gobjectmodule.c:26:
+/usr/include/glib-2.0/gobject/gobject.h:429:13: note: declared here
+ gpointer    g_object_newv        (GType           object_type,
+             ^~~~~~~~~~~~~
+  CC       _gi_la-pygboxed.lo
+  CC       _gi_la-pygenum.lo
+  CC       _gi_la-pygflags.lo
+  CC       _gi_la-pyginterface.lo
+  CC       _gi_la-pygobject-object.lo
+../../gi/pygobject-object.c: In function 'pygobject_lookup_class':
+../../gi/pygobject-object.c:931:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (py_type == NULL)
+     ^~
+../../gi/pygobject-object.c:934:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  if (py_type == NULL) {
+  ^~
+  CC       _gi_la-pygparamspec.lo
+  CC       _gi_la-pygpointer.lo
+  CC       _gi_la-pygtype.lo
+  CC       _gi_la-glibmodule.lo
+  CC       _gi_la-pygoptioncontext.lo
+  CC       _gi_la-pygoptiongroup.lo
+  CC       _gi_la-pygspawn.lo
+  CC       _gi_la-pyglib.lo
+  CC       _gi_la-gimodule.lo
+  CC       _gi_la-pygi-repository.lo
+  CC       _gi_la-pygi-info.lo
+  CC       _gi_la-pygi-foreign.lo
+  CC       _gi_la-pygi-struct.lo
+  CC       _gi_la-pygi-source.lo
+  CC       _gi_la-pygi-argument.lo
+  CC       _gi_la-pygi-resulttuple.lo
+  CC       _gi_la-pygi-type.lo
+  CC       _gi_la-pygi-boxed.lo
+  CC       _gi_la-pygi-closure.lo
+  CC       _gi_la-pygi-ccallback.lo
+  CC       _gi_la-pygi-util.lo
+  CC       _gi_la-pygi-property.lo
+  CC       _gi_la-pygi-signal-closure.lo
+  CC       _gi_la-pygi-invoke.lo
+  CC       _gi_la-pygi-cache.lo
+  CC       _gi_la-pygi-marshal-cleanup.lo
+  CC       _gi_la-pygi-basictype.lo
+  CC       _gi_la-pygi-list.lo
+  CC       _gi_la-pygi-array.lo
+  CC       _gi_la-pygi-error.lo
+  CC       _gi_la-pygi-object.lo
+  CC       _gi_la-pygi-value.lo
+  CC       _gi_la-pygi-enum-marshal.lo
+  CC       _gi_la-pygi-struct-marshal.lo
+  CC       _gi_la-pygi-hashtable.lo
+  CCLD     _gi.la
+  CC       _gi_cairo_la-pygi-foreign-cairo.lo
+  CCLD     _gi_cairo.la
+ln -s -f .libs/_gi.cpython-36m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so
+ln -s -f .libs/_gi_cairo.cpython-36m-x86_64-linux-gnu.so _gi_cairo.cpython-36m-x86_64-linux-gnu.so
+make[3]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/gi'
+Making all in tests
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+  CC       libgimarshallingtests_la-gimarshallingtestsextra.lo
+  CC       libgimarshallingtests_la-gimarshallingtests.lo
+  GEN      libgimarshallingtests.la
+test -L libgimarshallingtests.so || ln -s .libs/libgimarshallingtests.so libgimarshallingtests.so
+  CC       libregress_la-regress.lo
+/usr/share/gobject-introspection-1.0/tests/regress.c:3480:3: warning: no previous prototype for '_regress_test_fundamental_hidden_sub_object_get_type' [-Wmissing-prototypes]
+   _regress_test_fundamental_hidden_sub_object_get_type
+   ^
+/usr/share/gobject-introspection-1.0/tests/regress.c:3480:3: note: in definition of macro 'regress_test_fundamental_hidden_sub_object_get_type'
+   _regress_test_fundamental_hidden_sub_object_get_type
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1994:3: note: in expansion of macro '_G_DEFINE_TYPE_EXTENDED_BEGIN_PRE'
+   _G_DEFINE_TYPE_EXTENDED_BEGIN_PRE(TypeName, type_name, TYPE_PARENT) \
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1737:60: note: in expansion of macro '_G_DEFINE_TYPE_EXTENDED_BEGIN'
+ #define G_DEFINE_TYPE_EXTENDED(TN, t_n, T_P, _f_, _C_)     _G_DEFINE_TYPE_EXTENDED_BEGIN (TN, t_n, T_P, _f_) {_C_;} _G_DEFINE_TYPE_EXTENDED_END()
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/gobject/gtype.h:1595:43: note: in expansion of macro 'G_DEFINE_TYPE_EXTENDED'
+ #define G_DEFINE_TYPE(TN, t_n, T_P)       G_DEFINE_TYPE_EXTENDED (TN, t_n, T_P, 0, {})
+                                           ^~~~~~~~~~~~~~~~~~~~~~
+/usr/share/gobject-introspection-1.0/tests/regress.c:3488:1: note: in expansion of macro 'G_DEFINE_TYPE'
+ G_DEFINE_TYPE (RegressTestFundamentalHiddenSubObject,
+ ^~~~~~~~~~~~~
+  GEN      libregress.la
+test -L libregress.so || ln -s .libs/libregress.so libregress.so
+  CC       testhelper_la-testhelpermodule.lo
+  CC       testhelper_la-test-floating.lo
+  CC       testhelper_la-test-thread.lo
+  CC       testhelper_la-test-unknown.lo
+  GEN      testhelper.la
+test -L testhelper.so || ln -s .libs/testhelper.so testhelper.so
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/tests'
+Making all in pygtkcompat
+make[2]: Entering directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'
+for f in __init__.py generictreemodel.py pygtkcompat.py; do \
+    [ -e ./$f ] || ln -s ../../pygtkcompat/$f ./$f; \
+done
+make[2]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3/pygtkcompat'
+make[1]: Leaving directory '/lfskernel/sources/boot/pygobject-3.24.1/python3'

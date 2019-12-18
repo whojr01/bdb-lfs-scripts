@@ -1,0 +1,314 @@
+checking whether make supports nested variables... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for build time linking with Python (Darwin and Win32)... no
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+/usr/bin/python
+checking whether /usr/bin/python version >= 2.7... yes
+checking for /usr/bin/python version... 2.7
+checking for /usr/bin/python platform... linux2
+checking for /usr/bin/python script directory... ${prefix}/lib/python2.7/site-packages
+checking for /usr/bin/python extension module directory... ${exec_prefix}/lib/python2.7/site-packages
+checking for python version... (cached) 2.7
+checking for python platform... (cached) linux2
+checking for python script directory... (cached) ${prefix}/lib/python2.7/site-packages
+checking for python extension module directory... (cached) ${exec_prefix}/lib/python2.7/site-packages
+checking for headers required to compile python extensions... found
+checking for PySignal_SetWakeupFd in Python.h... yes
+checking for python module thread... yes
+checking whether to enable threading in pygobject... yes
+../configure: line 13806: ./libtool: No such file or directory
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for GLIB - version >= 2.38.0... yes (version 2.54.3)
+checking for FFI... yes
+checking for GIO... yes
+checking for GI... yes
+checking for CAIRO... yes
+checking for PYCAIRO... yes
+checking whether gcc understands -Wall... yes
+checking whether gcc understands -Wstrict-prototypes... yes
+checking whether gcc understands -Wnested-externs... yes
+checking whether gcc understands -Werror=missing-prototypes... yes
+checking whether gcc understands -Werror=implicit-function-declaration... yes
+checking whether gcc understands -Werror=pointer-arith... yes
+checking whether gcc understands -Werror=init-self... yes
+checking whether gcc understands -Werror=format-security... no
+checking whether gcc understands -Werror=format=2... yes
+checking whether gcc understands -Werror=missing-include-dirs... yes
+checking whether gcc understands -Werror=return-type... yes
+checking whether gcc understands -Wno-error=missing-prototypes... yes
+checking what warning flags to pass to the C compiler...  -Wall -Wstrict-prototypes -Wnested-externs -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=format=2 -Werror=missing-include-dirs -Werror=return-type -Wno-error=missing-prototypes
+checking what language compliance flags to pass to the C compiler... 
+checking for Gnome code coverage support... yes
+checking whether to build with code coverage support... no
+checking whether gcc understands -Wall... yes
+checking whether gcc understands -Werror=unused-variable... yes
+checking whether gcc understands -fno-strict-aliasing... yes
+checking whether gcc understands -Werror=declaration-after-statement... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pygobject-3.0.pc
+config.status: creating pygobject-3.0-uninstalled.pc
+config.status: creating gi/Makefile
+config.status: creating gi/repository/Makefile
+config.status: creating gi/overrides/Makefile
+config.status: creating gi/_gobject/Makefile
+config.status: creating examples/Makefile
+config.status: creating tests/Makefile
+config.status: creating pygtkcompat/Makefile
+config.status: creating PKG-INFO
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+	pygobject 3.24.1
+
+	Using python interpreter:	/usr/bin/python
+	cairo support:			yes
+	thread support:			yes
+	code coverage support:          no
+
+checking whether make supports nested variables... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for build time linking with Python (Darwin and Win32)... no
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+/usr/bin/python3
+checking whether /usr/bin/python3 version >= 2.7... yes
+checking for /usr/bin/python3 version... 3.6
+checking for /usr/bin/python3 platform... linux
+checking for /usr/bin/python3 script directory... ${prefix}/lib/python3.6/site-packages
+checking for /usr/bin/python3 extension module directory... ${exec_prefix}/lib/python3.6/site-packages
+checking for /usr/bin/python3 >= 3.1... yes
+checking for python version... (cached) 3.6
+checking for python platform... (cached) linux
+checking for python script directory... (cached) ${prefix}/lib/python3.6/site-packages
+checking for python extension module directory... (cached) ${exec_prefix}/lib/python3.6/site-packages
+checking for headers required to compile python extensions... found
+checking for PySignal_SetWakeupFd in Python.h... yes
+checking for python module thread... no
+checking for python module _thread... yes
+checking whether to enable threading in pygobject... yes
+../configure: line 13806: ./libtool: No such file or directory
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for GLIB - version >= 2.38.0... yes (version 2.54.3)
+checking for FFI... yes
+checking for GIO... yes
+checking for GI... yes
+checking for CAIRO... yes
+checking for PYCAIRO... yes
+checking whether gcc understands -Wall... yes
+checking whether gcc understands -Wstrict-prototypes... yes
+checking whether gcc understands -Wnested-externs... yes
+checking whether gcc understands -Werror=missing-prototypes... yes
+checking whether gcc understands -Werror=implicit-function-declaration... yes
+checking whether gcc understands -Werror=pointer-arith... yes
+checking whether gcc understands -Werror=init-self... yes
+checking whether gcc understands -Werror=format-security... no
+checking whether gcc understands -Werror=format=2... yes
+checking whether gcc understands -Werror=missing-include-dirs... yes
+checking whether gcc understands -Werror=return-type... yes
+checking whether gcc understands -Wno-error=missing-prototypes... yes
+checking what warning flags to pass to the C compiler...  -Wall -Wstrict-prototypes -Wnested-externs -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=format=2 -Werror=missing-include-dirs -Werror=return-type -Wno-error=missing-prototypes
+checking what language compliance flags to pass to the C compiler... 
+checking for Gnome code coverage support... yes
+checking whether to build with code coverage support... no
+checking whether gcc understands -Wall... yes
+checking whether gcc understands -Werror=unused-variable... yes
+checking whether gcc understands -fno-strict-aliasing... yes
+checking whether gcc understands -Werror=declaration-after-statement... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pygobject-3.0.pc
+config.status: creating pygobject-3.0-uninstalled.pc
+config.status: creating gi/Makefile
+config.status: creating gi/repository/Makefile
+config.status: creating gi/overrides/Makefile
+config.status: creating gi/_gobject/Makefile
+config.status: creating examples/Makefile
+config.status: creating tests/Makefile
+config.status: creating pygtkcompat/Makefile
+config.status: creating PKG-INFO
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+	pygobject 3.24.1
+
+	Using python interpreter:	/usr/bin/python3
+	cairo support:			yes
+	thread support:			yes
+	code coverage support:          no
+

@@ -1,0 +1,9 @@
+/tools/
+/tools/share
+/tools/lib64
+/tools/sbin
+/tools/libexec
+/tools/lib
+/tools/bin
+/tools/var
+/tools/etc

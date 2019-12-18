@@ -1,0 +1,62 @@
+make 'AR_FLAGS=' 'CC_FOR_BUILD=' 'CFLAGS=-O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions' 'CXXFLAGS=-g -O2' 'CFLAGS_FOR_BUILD=' 'CFLAGS_FOR_TARGET=' 'INSTALL=/usr/bin/install -c' 'INSTALL_DATA=/usr/bin/install -c -m 644' 'INSTALL_PROGRAM=/usr/bin/install -c' 'INSTALL_SCRIPT=/usr/bin/install -c' 'JC1FLAGS=' 'LDFLAGS=' 'LIBCFLAGS=' 'LIBCFLAGS_FOR_TARGET=' 'MAKE=make' 'MAKEINFO=/bin/sh /sources/libffi-3.2.1/missing makeinfo ' 'PICFLAG=' 'PICFLAG_FOR_TARGET=' 'RUNTESTFLAGS=' 'SHELL=/bin/sh' 'exec_prefix=/usr' 'infodir=/usr/share/info' 'libdir=/usr/lib' 'mandir=/usr/share/man' 'prefix=/usr' 'AR=ar' 'AS=as' 'CC=gcc' 'CXX=g++' 'LD=/usr/bin/ld -m elf_x86_64' 'NM=/usr/bin/nm -B' 'RANLIB=ranlib' 'DESTDIR=' all-recursive
+make[1]: Entering directory '/sources/libffi-3.2.1/build'
+Making all in include
+make[2]: Entering directory '/sources/libffi-3.2.1/build/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/libffi-3.2.1/build/include'
+Making all in testsuite
+make[2]: Entering directory '/sources/libffi-3.2.1/build/testsuite'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/libffi-3.2.1/build/testsuite'
+Making all in man
+make[2]: Entering directory '/sources/libffi-3.2.1/build/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/libffi-3.2.1/build/man'
+make[2]: Entering directory '/sources/libffi-3.2.1/build'
+depbase=`echo src/prep_cif.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -MT src/prep_cif.lo -MD -MP -MF $depbase.Tpo -c -o src/prep_cif.lo ../src/prep_cif.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2 -Wall -fexceptions -MT src/prep_cif.lo -MD -MP -MF src/.deps/prep_cif.Tpo -c ../src/prep_cif.c  -fPIC -DPIC -o src/.libs/prep_cif.o
+depbase=`echo src/types.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -MT src/types.lo -MD -MP -MF $depbase.Tpo -c -o src/types.lo ../src/types.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2 -Wall -fexceptions -MT src/types.lo -MD -MP -MF src/.deps/types.Tpo -c ../src/types.c  -fPIC -DPIC -o src/.libs/types.o
+depbase=`echo src/raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -MT src/raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/raw_api.lo ../src/raw_api.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2 -Wall -fexceptions -MT src/raw_api.lo -MD -MP -MF src/.deps/raw_api.Tpo -c ../src/raw_api.c  -fPIC -DPIC -o src/.libs/raw_api.o
+depbase=`echo src/java_raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -MT src/java_raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/java_raw_api.lo ../src/java_raw_api.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2 -Wall -fexceptions -MT src/java_raw_api.lo -MD -MP -MF src/.deps/java_raw_api.Tpo -c ../src/java_raw_api.c  -fPIC -DPIC -o src/.libs/java_raw_api.o
+depbase=`echo src/closures.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -MT src/closures.lo -MD -MP -MF $depbase.Tpo -c -o src/closures.lo ../src/closures.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2 -Wall -fexceptions -MT src/closures.lo -MD -MP -MF src/.deps/closures.Tpo -c ../src/closures.c  -fPIC -DPIC -o src/.libs/closures.o
+depbase=`echo src/x86/ffi64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -MT src/x86/ffi64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/ffi64.lo ../src/x86/ffi64.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2 -Wall -fexceptions -MT src/x86/ffi64.lo -MD -MP -MF src/x86/.deps/ffi64.Tpo -c ../src/x86/ffi64.c  -fPIC -DPIC -o src/x86/.libs/ffi64.o
+depbase=`echo src/x86/unix64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src  -I. -I../include -Iinclude -I../src  -MT src/x86/unix64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/unix64.lo ../src/x86/unix64.S &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I. -I../include -Iinclude -I../src -MT src/x86/unix64.lo -MD -MP -MF src/x86/.deps/unix64.Tpo -c ../src/x86/unix64.S  -fPIC -DPIC -o src/x86/.libs/unix64.o
+depbase=`echo src/x86/ffi.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src   -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -MT src/x86/ffi.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/ffi.lo ../src/x86/ffi.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2 -Wall -fexceptions -MT src/x86/ffi.lo -MD -MP -MF src/x86/.deps/ffi.Tpo -c ../src/x86/ffi.c  -fPIC -DPIC -o src/x86/.libs/ffi.o
+depbase=`echo src/x86/sysv.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool    --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src  -I. -I../include -Iinclude -I../src  -MT src/x86/sysv.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/sysv.lo ../src/x86/sysv.S &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I. -I../include -Iinclude -I../src -MT src/x86/sysv.lo -MD -MP -MF src/x86/.deps/sysv.Tpo -c ../src/x86/sysv.S  -fPIC -DPIC -o src/x86/.libs/sysv.o
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions   -o libffi_convenience.la  src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo                                src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffi.lo src/x86/sysv.lo          
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffi.o src/x86/.libs/sysv.o 
+libtool: link: ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -no-undefined -version-info `grep -v '^#' ../libtool-version`    -o libffi.la -rpath /usr/lib/../lib src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo                                src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffi.lo src/x86/sysv.lo          
+libtool: link: gcc -shared  -fPIC -DPIC  src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffi.o src/x86/.libs/sysv.o    -O3 -march=core2   -Wl,-soname -Wl,libffi.so.6 -o .libs/libffi.so.6.0.4
+libtool: link: (cd ".libs" && rm -f "libffi.so.6" && ln -s "libffi.so.6.0.4" "libffi.so.6")
+libtool: link: (cd ".libs" && rm -f "libffi.so" && ln -s "libffi.so.6.0.4" "libffi.so")
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
+make[2]: Leaving directory '/sources/libffi-3.2.1/build'
+make[1]: Leaving directory '/sources/libffi-3.2.1/build'

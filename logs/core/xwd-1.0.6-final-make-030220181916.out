@@ -1,0 +1,18 @@
+###############################
+# Make xwd-1.0.6.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xwd-1.0.6'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xwd-1.0.6/man'
+  GEN      xwd.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xwd-1.0.6/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xwd-1.0.6'
+  CC       clientwin.o
+  CC       dsimple.o
+  CC       list.o
+  CC       multiVis.o
+  CC       xwd.o
+  CCLD     xwd
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xwd-1.0.6'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xwd-1.0.6'

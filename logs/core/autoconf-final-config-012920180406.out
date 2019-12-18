@@ -1,0 +1,44 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+configure: autobuild project... GNU Autoconf
+configure: autobuild revision... 2.69
+configure: autobuild hostname... localhost.localdomain
+configure: autobuild timestamp... 20180129T035501Z
+checking whether /bin/sh -n is known to work... yes
+checking for characters that cannot appear in file names... none
+checking whether directories can have trailing spaces... yes
+checking for expr... /tools/bin/expr
+checking for GNU M4 that supports accurate traces... /usr/bin/m4
+checking whether /usr/bin/m4 accepts --gnu... yes
+checking how m4 supports trace files... --debugfile
+checking for perl... /usr/bin/perl
+checking whether /usr/bin/perl Fcntl::flock is implemented... yes
+checking for emacs... no
+checking for xemacs... no
+checking for emacs... no
+checking where .elc files should go... ${datadir}/emacs/site-lisp
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /bin/sed
+checking whether make is case sensitive... yes
+configure: creating ./config.status
+config.status: creating tests/Makefile
+config.status: creating tests/atlocal
+config.status: creating man/Makefile
+config.status: creating lib/emacs/Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/Autom4te/Makefile
+config.status: creating lib/autoscan/Makefile
+config.status: creating lib/m4sugar/Makefile
+config.status: creating lib/autoconf/Makefile
+config.status: creating lib/autotest/Makefile
+config.status: creating bin/Makefile
+config.status: linking ../GNUmakefile to GNUmakefile
+config.status: executing tests/atconfig commands

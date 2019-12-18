@@ -1,0 +1,40 @@
+###############################
+# Make libXxf86vm-1.1.4.tar.bz2 #
+###############################
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4/src'
+make  all-am
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4/src'
+  CC       XF86VMode.lo
+  CCLD     libXxf86vm.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4/src'
+Making all in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4/man'
+  GEN      XF86VM.3
+  GEN      XF86VidModeQueryExtension.3
+  GEN      XF86VidModeQueryVersion.3
+  GEN      XF86VidModeGetModeLine.3
+  GEN      XF86VidModeGetAllModeLines.3
+  GEN      XF86VidModeAddModeLine.3
+  GEN      XF86VidModeDeleteModeLine.3
+  GEN      XF86VidModeModModeLine.3
+  GEN      XF86VidModeSwitchMode.3
+  GEN      XF86VidModeSwitchToMode.3
+  GEN      XF86VidModeLockModeSwitch.3
+  GEN      XF86VidModeGetMonitor.3
+  GEN      XF86VidModeGetViewPort.3
+  GEN      XF86VidModeSetViewPort.3
+  GEN      XF86VidModeValidateModeLine.3
+  GEN      XF86VidModeSetClientVersion.3
+  GEN      XF86VidModeGetDotClocks.3
+  GEN      XF86VidModeGetGamma.3
+  GEN      XF86VidModeSetGamma.3
+  GEN      XF86VidModeSetGammaRamp.3
+  GEN      XF86VidModeGetGammaRamp.3
+  GEN      XF86VidModeGetGammaRampSize.3
+  GEN      XF86VidModeGetPermissions.3
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXxf86vm-1.1.4'

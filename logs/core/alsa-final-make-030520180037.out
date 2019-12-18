@@ -1,0 +1,323 @@
+Making all in doc
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+Making all in pictures
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc/pictures'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc/pictures'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+Making all in include
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+make  all-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+Making all in sound
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include/sound'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include/sound'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+Making all in src
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+Making all in control
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/control'
+  CC       cards.lo
+  CC       tlv.lo
+  CC       namehint.lo
+  CC       hcontrol.lo
+  CC       control.lo
+  CC       control_hw.lo
+  CC       setup.lo
+  CC       ctlparse.lo
+  CC       control_symbols.lo
+  CC       control_shm.lo
+  CC       control_ext.lo
+  CCLD     libcontrol.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/control'
+Making all in mixer
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/mixer'
+  CC       bag.lo
+  CC       mixer.lo
+  CC       simple.lo
+  CC       simple_none.lo
+  CC       simple_abst.lo
+  CCLD     libmixer.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/mixer'
+Making all in pcm
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+  CC       mask.lo
+  CC       interval.lo
+  CC       pcm.lo
+  CC       pcm_params.lo
+  CC       pcm_simple.lo
+  CC       pcm_hw.lo
+  CC       pcm_misc.lo
+  CC       pcm_mmap.lo
+  CC       pcm_symbols.lo
+  CC       pcm_generic.lo
+  CC       pcm_plugin.lo
+  CC       pcm_copy.lo
+  CC       pcm_linear.lo
+  CC       pcm_route.lo
+  CC       pcm_mulaw.lo
+  CC       pcm_alaw.lo
+  CC       pcm_adpcm.lo
+  CC       pcm_rate.lo
+  CC       pcm_rate_linear.lo
+  CC       pcm_plug.lo
+  CC       pcm_multi.lo
+  CC       pcm_shm.lo
+  CC       pcm_file.lo
+  CC       pcm_null.lo
+  CC       pcm_empty.lo
+  CC       pcm_share.lo
+  CC       pcm_meter.lo
+  CC       pcm_hooks.lo
+  CC       pcm_lfloat.lo
+  CC       pcm_ladspa.lo
+  CC       pcm_dmix.lo
+  CC       pcm_dshare.lo
+  CC       pcm_dsnoop.lo
+  CC       pcm_direct.lo
+  CC       pcm_asym.lo
+  CC       pcm_iec958.lo
+  CC       pcm_softvol.lo
+  CC       pcm_extplug.lo
+  CC       pcm_ioplug.lo
+  CC       pcm_mmap_emul.lo
+  CCLD     libpcm.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+Making all in timer
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/timer'
+  CC       timer.lo
+  CC       timer_hw.lo
+  CC       timer_query.lo
+  CC       timer_query_hw.lo
+  CC       timer_symbols.lo
+  CCLD     libtimer.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/timer'
+Making all in rawmidi
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/rawmidi'
+  CC       rawmidi.lo
+  CC       rawmidi_hw.lo
+  CC       rawmidi_symbols.lo
+  CC       rawmidi_virt.lo
+  CCLD     librawmidi.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/rawmidi'
+Making all in hwdep
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/hwdep'
+  CC       hwdep.lo
+  CC       hwdep_hw.lo
+  CC       hwdep_symbols.lo
+  CCLD     libhwdep.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/hwdep'
+Making all in seq
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/seq'
+  CC       seq_hw.lo
+  CC       seq.lo
+  CC       seq_event.lo
+  CC       seqmid.lo
+  CC       seq_midi_event.lo
+  CC       seq_symbols.lo
+  CC       seq_old.lo
+  CCLD     libseq.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/seq'
+Making all in ucm
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/ucm'
+  CC       utils.lo
+  CC       parser.lo
+  CC       main.lo
+  CCLD     libucm.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/ucm'
+Making all in topology
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/topology'
+  CC       parser.lo
+  CC       builder.lo
+  CC       ctl.lo
+  CC       dapm.lo
+  CC       pcm.lo
+  CC       data.lo
+  CC       text.lo
+  CC       channel.lo
+  CC       ops.lo
+  CC       elem.lo
+  CCLD     libtopology.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/topology'
+Making all in alisp
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/alisp'
+  CC       alisp.lo
+  CCLD     libalisp.la
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/alisp'
+Making all in conf
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+Making all in cards
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/cards'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/cards'
+Making all in pcm
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/pcm'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/pcm'
+Making all in alsa.conf.d
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/alsa.conf.d'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/alsa.conf.d'
+Making all in ucm
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+Making all in DAISY-I2S
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DAISY-I2S'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DAISY-I2S'
+Making all in PandaBoard
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoard'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoard'
+Making all in PandaBoardES
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoardES'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoardES'
+Making all in SDP4430
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/SDP4430'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/SDP4430'
+Making all in tegraalc5632
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/tegraalc5632'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/tegraalc5632'
+Making all in PAZ00
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PAZ00'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PAZ00'
+Making all in GoogleNyan
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/GoogleNyan'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/GoogleNyan'
+Making all in broadwell-rt286
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broadwell-rt286'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broadwell-rt286'
+Making all in skylake-rt286
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/skylake-rt286'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/skylake-rt286'
+Making all in VEYRON-I2S
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/VEYRON-I2S'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/VEYRON-I2S'
+Making all in chtrt5645
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/chtrt5645'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/chtrt5645'
+Making all in DB410c
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DB410c'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DB410c'
+Making all in broxton-rt298
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broxton-rt298'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broxton-rt298'
+Making all in bytcr-rt5651
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/bytcr-rt5651'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/bytcr-rt5651'
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+Making all in topology
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+Making all in broadwell
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/broadwell'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/broadwell'
+Making all in sklrt286
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/sklrt286'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/sklrt286'
+Making all in bxtrt298
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/bxtrt298'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/bxtrt298'
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+  CC       conf.lo
+  CC       confmisc.lo
+  CC       input.lo
+  CC       output.lo
+  CC       async.lo
+  CC       error.lo
+  CC       dlmisc.lo
+  CC       socket.lo
+  CC       shmarea.lo
+  CC       userfile.lo
+  CC       names.lo
+  CCLD     libasound.la
+pcm/.libs/libpcm.a(pcm_generic.o): In function `snd1_pcm_generic_hwsync':
+/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm/pcm_generic.c:142: warning: 
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+Making all in modules
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+Making all in mixer
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+Making all in simple
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer/simple'
+  CC       sbase.lo
+  CCLD     smixer-sbase.la
+  CC       ac97.lo
+  CC       sbasedl.lo
+  CCLD     smixer-ac97.la
+  CC       hda.lo
+  CCLD     smixer-hda.la
+  CC       smixer_python_la-python.lo
+  CCLD     smixer-python.la
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer/simple'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+Making all in aserver
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/aserver'
+  CC       aserver.o
+  CCLD     aserver
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/aserver'
+Making all in alsalisp
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/alsalisp'
+  CC       alsalisp.o
+  CCLD     alsalisp
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/alsalisp'
+Making all in test
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+Making all in lsb
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+Making all in utils
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/utils'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/utils'
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5'

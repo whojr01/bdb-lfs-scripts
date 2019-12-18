@@ -1,0 +1,46 @@
+  YACC     src/xkbcomp/parser.c
+updating src/xkbcomp/parser.h
+  GEN      xdg-shell-unstable-v6-protocol.c
+  GEN      xdg-shell-unstable-v6-client-protocol.h
+make  all-am
+make[1]: Entering directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+  CC       src/compose/parser.lo
+  CC       src/compose/paths.lo
+  CC       src/compose/state.lo
+  CC       src/compose/table.lo
+  CC       src/xkbcomp/action.lo
+  CC       src/xkbcomp/ast-build.lo
+  CC       src/xkbcomp/compat.lo
+  CC       src/xkbcomp/expr.lo
+  CC       src/xkbcomp/include.lo
+  CC       src/xkbcomp/keycodes.lo
+  CC       src/xkbcomp/keymap.lo
+  CC       src/xkbcomp/keymap-dump.lo
+  CC       src/xkbcomp/keywords.lo
+  CC       src/xkbcomp/parser.lo
+  CC       src/xkbcomp/rules.lo
+  CC       src/xkbcomp/scanner.lo
+  CC       src/xkbcomp/symbols.lo
+  CC       src/xkbcomp/types.lo
+  CC       src/xkbcomp/vmod.lo
+  CC       src/xkbcomp/xkbcomp.lo
+  CC       src/atom.lo
+  CC       src/context.lo
+  CC       src/context-priv.lo
+  CC       src/keysym.lo
+  CC       src/keysym-utf.lo
+  CC       src/keymap.lo
+  CC       src/keymap-priv.lo
+  CC       src/state.lo
+  CC       src/text.lo
+  CC       src/utf8.lo
+  CC       src/utils.lo
+  CCLD     libxkbcommon.la
+  CC       src/x11/libxkbcommon_x11_la-keymap.lo
+  CC       src/x11/libxkbcommon_x11_la-state.lo
+  CC       src/x11/libxkbcommon_x11_la-util.lo
+  CC       src/libxkbcommon_x11_la-context-priv.lo
+  CC       src/libxkbcommon_x11_la-keymap-priv.lo
+  CC       src/libxkbcommon_x11_la-atom.lo
+  CCLD     libxkbcommon-x11.la
+make[1]: Leaving directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'

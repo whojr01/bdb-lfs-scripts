@@ -1,0 +1,45 @@
+Making check in include
+make[1]: Entering directory '/sources/libffi-3.2.1/build/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/libffi-3.2.1/build/include'
+Making check in testsuite
+make[1]: Entering directory '/sources/libffi-3.2.1/build/testsuite'
+make  check-DEJAGNU
+make[2]: Entering directory '/sources/libffi-3.2.1/build/testsuite'
+Making a new site.exp file ...
+srcdir='../../testsuite'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='libffi'; for tool in $l; do \
+    if runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find the global config file.
+Test run by root on Mon Jan 29 14:23:59 2018
+Native configuration is x86_64-unknown-linux-gnu
+
+		=== libffi tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/default.exp as tool-and-target-specific interface file.
+Running ../../testsuite/libffi.call/call.exp ...
+
+		=== libffi Summary ===
+
+# of expected passes		1870
+make[2]: Leaving directory '/sources/libffi-3.2.1/build/testsuite'
+make[1]: Leaving directory '/sources/libffi-3.2.1/build/testsuite'
+Making check in man
+make[1]: Entering directory '/sources/libffi-3.2.1/build/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/libffi-3.2.1/build/man'
+make[1]: Entering directory '/sources/libffi-3.2.1/build'
+make[1]: Leaving directory '/sources/libffi-3.2.1/build'

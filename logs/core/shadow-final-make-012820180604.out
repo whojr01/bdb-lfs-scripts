@@ -1,0 +1,314 @@
+make  all-recursive
+make[1]: Entering directory '/sources/shadow-4.5/build'
+Making all in po
+make[2]: Entering directory '/sources/shadow-4.5/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/po'
+Making all in man
+make[2]: Entering directory '/sources/shadow-4.5/build/man'
+Making all in po
+make[3]: Entering directory '/sources/shadow-4.5/build/man/po'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/po'
+Making all in cs
+make[3]: Entering directory '/sources/shadow-4.5/build/man/cs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/cs'
+Making all in da
+make[3]: Entering directory '/sources/shadow-4.5/build/man/da'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/da'
+Making all in de
+make[3]: Entering directory '/sources/shadow-4.5/build/man/de'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/de'
+Making all in es
+make[3]: Entering directory '/sources/shadow-4.5/build/man/es'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/es'
+Making all in fi
+make[3]: Entering directory '/sources/shadow-4.5/build/man/fi'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/fi'
+Making all in fr
+make[3]: Entering directory '/sources/shadow-4.5/build/man/fr'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/fr'
+Making all in hu
+make[3]: Entering directory '/sources/shadow-4.5/build/man/hu'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/hu'
+Making all in id
+make[3]: Entering directory '/sources/shadow-4.5/build/man/id'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/id'
+Making all in it
+make[3]: Entering directory '/sources/shadow-4.5/build/man/it'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/it'
+Making all in ja
+make[3]: Entering directory '/sources/shadow-4.5/build/man/ja'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/ja'
+Making all in ko
+make[3]: Entering directory '/sources/shadow-4.5/build/man/ko'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/ko'
+Making all in pl
+make[3]: Entering directory '/sources/shadow-4.5/build/man/pl'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/pl'
+Making all in pt_BR
+make[3]: Entering directory '/sources/shadow-4.5/build/man/pt_BR'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/pt_BR'
+Making all in ru
+make[3]: Entering directory '/sources/shadow-4.5/build/man/ru'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/ru'
+Making all in sv
+make[3]: Entering directory '/sources/shadow-4.5/build/man/sv'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/sv'
+Making all in tr
+make[3]: Entering directory '/sources/shadow-4.5/build/man/tr'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/tr'
+Making all in zh_CN
+make[3]: Entering directory '/sources/shadow-4.5/build/man/zh_CN'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/zh_CN'
+Making all in zh_TW
+make[3]: Entering directory '/sources/shadow-4.5/build/man/zh_TW'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man/zh_TW'
+make[3]: Entering directory '/sources/shadow-4.5/build/man'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/man'
+make[2]: Leaving directory '/sources/shadow-4.5/build/man'
+Making all in libmisc
+make[2]: Entering directory '/sources/shadow-4.5/build/libmisc'
+  CC       addgrps.o
+  CC       age.o
+  CC       audit_help.o
+  CC       basename.o
+  CC       chkname.o
+  CC       chowndir.o
+  CC       chowntty.o
+  CC       cleanup.o
+  CC       cleanup_group.o
+  CC       cleanup_user.o
+  CC       console.o
+  CC       copydir.o
+  CC       entry.o
+  CC       env.o
+  CC       failure.o
+  CC       find_new_gid.o
+  CC       find_new_uid.o
+  CC       find_new_sub_gids.o
+  CC       find_new_sub_uids.o
+  CC       getdate.o
+  CC       getgr_nam_gid.o
+  CC       getrange.o
+  CC       gettime.o
+  CC       hushed.o
+  CC       idmapping.o
+  CC       isexpired.o
+  CC       limits.o
+  CC       list.o
+  CC       log.o
+  CC       loginprompt.o
+  CC       mail.o
+  CC       motd.o
+  CC       myname.o
+  CC       obscure.o
+../../libmisc/obscure.c: In function 'password_check':
+../../libmisc/obscure.c:204:12: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   dictpath = getdef_str ("CRACKLIB_DICTPATH");
+            ^
+  CC       pam_pass.o
+  CC       pam_pass_non_interractive.o
+  CC       pwd2spwd.o
+  CC       pwdcheck.o
+  CC       pwd_init.o
+  CC       remove_tree.o
+  CC       rlogin.o
+  CC       root_flag.o
+  CC       salt.o
+  CC       setugid.o
+  CC       setupenv.o
+  CC       shell.o
+  CC       strtoday.o
+  CC       sub.o
+  CC       sulog.o
+  CC       ttytype.o
+  CC       tz.o
+  CC       ulimit.o
+  CC       user_busy.o
+  CC       utmp.o
+  CC       valid.o
+  CC       xgetpwnam.o
+  CC       xgetpwuid.o
+  CC       xgetgrnam.o
+  CC       xgetgrgid.o
+  CC       xgetspnam.o
+  CC       xmalloc.o
+  CC       yesno.o
+  AR       libmisc.a
+make[2]: Leaving directory '/sources/shadow-4.5/build/libmisc'
+Making all in lib
+make[2]: Entering directory '/sources/shadow-4.5/build/lib'
+  CC       commonio.lo
+  CC       encrypt.lo
+  CC       fields.lo
+  CC       fputsx.lo
+  CC       getdef.lo
+  CC       get_gid.lo
+  CC       getlong.lo
+  CC       get_pid.lo
+  CC       get_uid.lo
+  CC       getulong.lo
+  CC       groupio.lo
+  CC       groupmem.lo
+  CC       gshadow.lo
+  CC       lockpw.lo
+  CC       nscd.lo
+  CC       port.lo
+  CC       pwauth.lo
+  CC       pwio.lo
+  CC       pwmem.lo
+  CC       subordinateio.lo
+  CC       selinux.lo
+  CC       semanage.lo
+  CC       sgetgrent.lo
+  CC       sgetpwent.lo
+  CC       sgetspent.lo
+  CC       sgroupio.lo
+  CC       shadow.lo
+  CC       shadowio.lo
+  CC       shadowmem.lo
+  CC       spawn.lo
+  CC       utent.lo
+  CCLD     libshadow.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+make[2]: Leaving directory '/sources/shadow-4.5/build/lib'
+Making all in src
+make[2]: Entering directory '/sources/shadow-4.5/build/src'
+  CC       login.o
+../../src/login.c: In function 'check_nologin':
+../../src/login.c:242:8: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  fname = getdef_str ("NOLOGINS_FILE");
+        ^
+../../src/login.c: In function 'init_env':
+../../src/login.c:392:6: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   cp = getdef_str ("ENV_TZ");
+      ^
+../../src/login.c:408:6: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   cp = getdef_str ("ENV_HZ");
+      ^
+  CC       login_nopam.o
+  CCLD     login
+  CC       su.o
+../../src/su.c: In function 'main':
+../../src/su.c:1208:12: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   argv[-1] = cp;
+            ^
+  CC       suauth.o
+  CCLD     su
+  CC       id.o
+  CCLD     id
+  CC       sulogin.o
+  CCLD     sulogin
+  CC       nologin.o
+  CCLD     nologin
+  CC       faillog.o
+  CCLD     faillog
+  CC       lastlog.o
+  CCLD     lastlog
+  CC       chage.o
+  CCLD     chage
+  CC       chfn.o
+  CCLD     chfn
+  CC       chsh.o
+  CCLD     chsh
+  CC       expiry.o
+  CCLD     expiry
+  CC       gpasswd.o
+  CCLD     gpasswd
+  CC       newgrp.o
+../../src/newgrp.c: In function 'main':
+../../src/newgrp.c:784:5: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  cp = Basename ((char *) prog);
+     ^
+  CCLD     newgrp
+  CC       passwd.o
+  CCLD     passwd
+  CC       newgidmap.o
+  CCLD     newgidmap
+  CC       newuidmap.o
+  CCLD     newuidmap
+  CC       chgpasswd.o
+  CCLD     chgpasswd
+  CC       chpasswd.o
+  CCLD     chpasswd
+  CC       groupadd.o
+  CCLD     groupadd
+  CC       groupdel.o
+  CCLD     groupdel
+  CC       groupmems.o
+  CCLD     groupmems
+  CC       groupmod.o
+  CCLD     groupmod
+  CC       grpck.o
+  CCLD     grpck
+  CC       grpconv.o
+  CCLD     grpconv
+  CC       grpunconv.o
+  CCLD     grpunconv
+  CC       logoutd.o
+  CCLD     logoutd
+  CC       newusers.o
+  CCLD     newusers
+  CC       pwck.o
+  CCLD     pwck
+  CC       pwconv.o
+  CCLD     pwconv
+  CC       pwunconv.o
+  CCLD     pwunconv
+  CC       useradd.o
+../../src/useradd.c: In function 'main':
+../../src/useradd.c:2291:19: warning: passing argument 1 of 'tallylog_reset' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   tallylog_reset (user_name);
+                   ^~~~~~~~~
+../../src/useradd.c:1795:13: note: expected 'char *' but argument is of type 'const char *'
+ static void tallylog_reset (char *user_name)
+             ^~~~~~~~~~~~~~
+  CCLD     useradd
+  CC       userdel.o
+  CCLD     userdel
+  CC       usermod.o
+  CCLD     usermod
+  CC       vipw.o
+  CCLD     vipw
+make[2]: Leaving directory '/sources/shadow-4.5/build/src'
+Making all in contrib
+make[2]: Entering directory '/sources/shadow-4.5/build/contrib'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/contrib'
+Making all in doc
+make[2]: Entering directory '/sources/shadow-4.5/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/doc'
+Making all in etc
+make[2]: Entering directory '/sources/shadow-4.5/build/etc'
+Making all in pam.d
+make[3]: Entering directory '/sources/shadow-4.5/build/etc/pam.d'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/etc/pam.d'
+make[3]: Entering directory '/sources/shadow-4.5/build/etc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/shadow-4.5/build/etc'
+make[2]: Leaving directory '/sources/shadow-4.5/build/etc'
+make[2]: Entering directory '/sources/shadow-4.5/build'
+make[2]: Leaving directory '/sources/shadow-4.5/build'
+make[1]: Leaving directory '/sources/shadow-4.5/build'

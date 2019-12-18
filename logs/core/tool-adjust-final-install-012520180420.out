@@ -1,0 +1,68 @@
+Updating /tools linker
+renamed '/tools/bin/ld' -> '/tools/bin/ld-old'
+renamed '/tools/x86_64-pc-linux-gnu/bin/ld' -> '/tools/x86_64-pc-linux-gnu/bin/ld-old'
+renamed '/tools/bin/ld-new' -> '/tools/bin/ld'
+'/tools/x86_64-pc-linux-gnu/bin/ld' -> '/tools/bin/ld'
+Admend the GCC specs file to point to new linker
+Using Compiler: cc
+*********************
+ELF report
+*********************
+Interpreter:
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+
+Start (ctors):
+attempt to open /usr/lib/../lib/crt1.o succeeded
+attempt to open /usr/lib/../lib/crti.o succeeded
+attempt to open /usr/lib/../lib/crtn.o succeeded
+
+Headers:
+#include <...> search starts here:
+ /usr/include
+
+Search Dirs:
+SEARCH_DIR("=/tools/x86_64-lfs-linux-gnu/lib64")
+SEARCH_DIR("/usr/lib")
+SEARCH_DIR("lib")
+SEARCH_DIR("=/tools/x86_64-lfs-linux-gnu/lib");
+
+Libc:
+attempt to open /lib/libc.so.6 succeeded
+/lib/libc.so.6
+ld-linux-x86-64.so.2 needed by /lib/libc.so.6
+
+Found:
+found ld-linux-x86-64.so.2 at /lib/ld-linux-x86-64.so.2
+
+done.
+Using Compiler: gcc
+*********************
+ELF report
+*********************
+Interpreter:
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+
+Start (ctors):
+attempt to open /usr/lib/../lib/crt1.o succeeded
+attempt to open /usr/lib/../lib/crti.o succeeded
+attempt to open /usr/lib/../lib/crtn.o succeeded
+
+Headers:
+#include <...> search starts here:
+ /usr/include
+
+Search Dirs:
+SEARCH_DIR("=/tools/x86_64-lfs-linux-gnu/lib64")
+SEARCH_DIR("/usr/lib")
+SEARCH_DIR("lib")
+SEARCH_DIR("=/tools/x86_64-lfs-linux-gnu/lib");
+
+Libc:
+attempt to open /lib/libc.so.6 succeeded
+/lib/libc.so.6
+ld-linux-x86-64.so.2 needed by /lib/libc.so.6
+
+Found:
+found ld-linux-x86-64.so.2 at /lib/ld-linux-x86-64.so.2
+
+done.

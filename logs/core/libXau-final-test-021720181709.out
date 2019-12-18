@@ -1,0 +1,52 @@
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8/man'
+make[1]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+make  Autest
+make[2]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+  CC       Autest.o
+Autest.c: In function ‘main’:
+Autest.c:38:21: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     char    *name = "XAU-TEST-1";
+                     ^~~~~~~~~~~~
+Autest.c:39:21: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     char    *data = "Do not begin the test until instructed to do so.";
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Autest.c:57:23: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     test_data.address = "";
+                       ^
+Autest.c:59:22: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     test_data.number = "";
+                      ^
+  CCLD     Autest
+make[2]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+make[3]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+PASS: Autest
+make[4]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+make  all-recursive
+make[5]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+Making all in man
+make[6]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8/man'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8/man'
+make[6]: Entering directory '/lfskernel/sources/boot/libXau-1.0.8'
+make[6]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'
+make[5]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'
+make[4]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'
+============================================================================
+Testsuite summary for libXau 1.0.8
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'
+make[2]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'
+make[1]: Leaving directory '/lfskernel/sources/boot/libXau-1.0.8'

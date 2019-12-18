@@ -1,0 +1,303 @@
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+Making check in pictures
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc/pictures'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc/pictures'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/doc'
+Making check in include
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+Making check in sound
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include/sound'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include/sound'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/include'
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+Making check in control
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/control'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/control'
+Making check in mixer
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/mixer'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/mixer'
+Making check in pcm
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/pcm'
+Making check in timer
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/timer'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/timer'
+Making check in rawmidi
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/rawmidi'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/rawmidi'
+Making check in hwdep
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/hwdep'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/hwdep'
+Making check in seq
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/seq'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/seq'
+Making check in ucm
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/ucm'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/ucm'
+Making check in topology
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/topology'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/topology'
+Making check in alisp
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/alisp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/alisp'
+Making check in conf
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+Making check in cards
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/cards'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/cards'
+Making check in pcm
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/pcm'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/pcm'
+Making check in alsa.conf.d
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/alsa.conf.d'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/alsa.conf.d'
+Making check in ucm
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+Making check in DAISY-I2S
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DAISY-I2S'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DAISY-I2S'
+Making check in PandaBoard
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoard'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoard'
+Making check in PandaBoardES
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoardES'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PandaBoardES'
+Making check in SDP4430
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/SDP4430'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/SDP4430'
+Making check in tegraalc5632
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/tegraalc5632'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/tegraalc5632'
+Making check in PAZ00
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PAZ00'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/PAZ00'
+Making check in GoogleNyan
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/GoogleNyan'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/GoogleNyan'
+Making check in broadwell-rt286
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broadwell-rt286'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broadwell-rt286'
+Making check in skylake-rt286
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/skylake-rt286'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/skylake-rt286'
+Making check in VEYRON-I2S
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/VEYRON-I2S'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/VEYRON-I2S'
+Making check in chtrt5645
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/chtrt5645'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/chtrt5645'
+Making check in DB410c
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DB410c'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/DB410c'
+Making check in broxton-rt298
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broxton-rt298'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/broxton-rt298'
+Making check in bytcr-rt5651
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/bytcr-rt5651'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm/bytcr-rt5651'
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/ucm'
+Making check in topology
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+Making check in broadwell
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/broadwell'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/broadwell'
+Making check in sklrt286
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/sklrt286'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/sklrt286'
+Making check in bxtrt298
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/bxtrt298'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology/bxtrt298'
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf/topology'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src/conf'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/src'
+Making check in modules
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+Making check in mixer
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+Making check in simple
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer/simple'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer/simple'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules/mixer'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/modules'
+Making check in aserver
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/aserver'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/aserver'
+Making check in alsalisp
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/alsalisp'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/alsalisp'
+Making check in test
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+Making check in .
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+make  control pcm pcm_min latency seq playmidi1 timer rawmidi midiloop oldapi queue_timer namehint client_event_filter chmap audio_time user-ctl-element-set pcm-multi-thread
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+  CC       control.o
+  CCLD     control
+  CC       pcm.o
+  CCLD     pcm
+  CC       pcm_min.o
+  CCLD     pcm_min
+  CC       latency.o
+latency.c: In function 'main':
+latency.c:676:23: warning: self-comparison always evaluates to true [-Wtautological-compare]
+   if (p_tstamp.tv_sec == p_tstamp.tv_sec &&
+                       ^~
+  CCLD     latency
+  CC       seq.o
+In file included from seq.c:10:0:
+seq-sender.c: In function 'event_sender':
+seq-sender.c:150:55: warning: variable 'pcm_flag' set but not used [-Wunused-but-set-variable]
+  int client, port, queue, max, err, v1, v2, time = 0, pcm_flag = 0;
+                                                       ^~~~~~~~
+  CCLD     seq
+  CC       playmidi1.o
+  CCLD     playmidi1
+  CC       timer.o
+  CCLD     timer
+  CC       rawmidi.o
+  CCLD     rawmidi
+  CC       midiloop.o
+  CCLD     midiloop
+  CC       oldapi.o
+oldapi.c: In function 'main':
+oldapi.c:40:6: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  fcn = &snd_pcm_hw_params_get_access;
+      ^
+oldapi.c:38:9: warning: variable 'fcn' set but not used [-Wunused-but-set-variable]
+  myfcn *fcn;
+         ^~~
+  CCLD     oldapi
+  CC       queue_timer.o
+  CCLD     queue_timer
+  CC       namehint.o
+namehint.c: In function 'main':
+namehint.c:12:40: warning: passing argument 3 of 'snd_device_name_hint' from incompatible pointer type [-Wincompatible-pointer-types]
+  err = snd_device_name_hint(-1, iface, &hints);
+                                        ^
+In file included from ../include/asoundlib.h:58:0,
+                 from namehint.c:1:
+../include/alsa/control.h:228:5: note: expected 'void ***' but argument is of type 'char ***'
+ int snd_device_name_hint(int card, const char *iface, void ***hints);
+     ^~~~~~~~~~~~~~~~~~~~
+namehint.c:20:28: warning: passing argument 1 of 'snd_device_name_free_hint' from incompatible pointer type [-Wincompatible-pointer-types]
+  snd_device_name_free_hint(hints);
+                            ^~~~~
+In file included from ../include/asoundlib.h:58:0,
+                 from namehint.c:1:
+../include/alsa/control.h:229:5: note: expected 'void **' but argument is of type 'char **'
+ int snd_device_name_free_hint(void **hints);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+  CCLD     namehint
+  CC       client_event_filter.o
+  CCLD     client_event_filter
+  CC       chmap.o
+  CCLD     chmap
+  CC       audio_time.o
+audio_time.c: In function 'main':
+audio_time.c:120:20: warning: unused variable 'curr_count_p' [-Wunused-variable]
+  snd_pcm_uframes_t curr_count_p;
+                    ^~~~~~~~~~~~
+audio_time.c:118:20: warning: unused variable 'curr_count_c' [-Wunused-variable]
+  snd_pcm_uframes_t curr_count_c;
+                    ^~~~~~~~~~~~
+  CCLD     audio_time
+  CC       user_ctl_element_set-user-ctl-element-set.o
+user-ctl-element-set.c: In function 'check_elem_set_props':
+user-ctl-element-set.c:516:15: warning: unused variable 'j' [-Wunused-variable]
+  unsigned int j;
+               ^
+  CCLD     user-ctl-element-set
+  CC       pcm-multi-thread.o
+  CCLD     pcm-multi-thread
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+Making check in lsb
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+make  config midi_event
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+  CC       config.o
+  CCLD     config
+  CC       midi_event.o
+  CCLD     midi_event
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+make  check-TESTS
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+ALSA lib conf.c:3942:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib conf.c:3942:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+PASS: config
+PASS: midi_event
+==================
+All 2 tests passed
+==================
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test/lsb'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/test'
+Making check in utils
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5/utils'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5/utils'
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-lib-1.1.5'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-lib-1.1.5'

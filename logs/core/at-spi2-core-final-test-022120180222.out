@@ -1,0 +1,89 @@
+Making check in po
+make[1]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/po'
+Making check in dbind
+make[1]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+make  dbtest
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+  CC       dbtest.o
+dbtest.c: In function 'marshal':
+dbtest.c:35:31: warning: passing argument 2 of 'dbind_any_marshal' from incompatible pointer type [-Wincompatible-pointer-types]
+     dbind_any_marshal (&iter, &type, &ptr);
+                               ^
+In file included from ../dbind/dbind.h:25:0,
+                 from dbtest.c:23:
+../dbind/dbind-any.h:28:8: note: expected 'const char **' but argument is of type 'char **'
+ void   dbind_any_marshal       (DBusMessageIter *iter,
+        ^~~~~~~~~~~~~~~~~
+dbtest.c: In function 'demarshal':
+dbtest.c:45:37: warning: passing argument 2 of 'dbind_any_demarshal' from incompatible pointer type [-Wincompatible-pointer-types]
+         dbind_any_demarshal (&iter, &type, &ptr);
+                                     ^
+In file included from ../dbind/dbind.h:25:0,
+                 from dbtest.c:23:
+../dbind/dbind-any.h:36:8: note: expected 'const char **' but argument is of type 'char **'
+ void   dbind_any_demarshal     (DBusMessageIter *iter,
+        ^~~~~~~~~~~~~~~~~~~
+dbtest.c: In function 'test_twovals':
+dbtest.c:330:31: warning: passing argument 2 of 'dbind_any_marshal' from incompatible pointer type [-Wincompatible-pointer-types]
+     dbind_any_marshal (&iter, &type, &ptr);
+                               ^
+In file included from ../dbind/dbind.h:25:0,
+                 from dbtest.c:23:
+../dbind/dbind-any.h:28:8: note: expected 'const char **' but argument is of type 'char **'
+ void   dbind_any_marshal       (DBusMessageIter *iter,
+        ^~~~~~~~~~~~~~~~~
+dbtest.c:331:31: warning: passing argument 2 of 'dbind_any_marshal' from incompatible pointer type [-Wincompatible-pointer-types]
+     dbind_any_marshal (&iter, &type, &ptr);
+                               ^
+In file included from ../dbind/dbind.h:25:0,
+                 from dbtest.c:23:
+../dbind/dbind-any.h:28:8: note: expected 'const char **' but argument is of type 'char **'
+ void   dbind_any_marshal       (DBusMessageIter *iter,
+        ^~~~~~~~~~~~~~~~~
+dbtest.c:335:33: warning: passing argument 2 of 'dbind_any_demarshal' from incompatible pointer type [-Wincompatible-pointer-types]
+     dbind_any_demarshal (&iter, &type, &ptr);
+                                 ^
+In file included from ../dbind/dbind.h:25:0,
+                 from dbtest.c:23:
+../dbind/dbind-any.h:36:8: note: expected 'const char **' but argument is of type 'char **'
+ void   dbind_any_demarshal     (DBusMessageIter *iter,
+        ^~~~~~~~~~~~~~~~~~~
+dbtest.c:336:33: warning: passing argument 2 of 'dbind_any_demarshal' from incompatible pointer type [-Wincompatible-pointer-types]
+     dbind_any_demarshal (&iter, &type, &ptr);
+                                 ^
+In file included from ../dbind/dbind.h:25:0,
+                 from dbtest.c:23:
+../dbind/dbind-any.h:36:8: note: expected 'const char **' but argument is of type 'char **'
+ void   dbind_any_demarshal     (DBusMessageIter *iter,
+        ^~~~~~~~~~~~~~~~~~~
+  CC       ../atspi/atspi-gmain.o
+  CCLD     dbtest
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+make[3]: Entering directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+../config/test-driver: line 112:  8885 Aborted                 (core dumped) "$@" > $log_file 2>&1
+FAIL: dbtest
+============================================================================
+Testsuite summary for at-spi2-core 2.26.2
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See dbind/test-suite.log
+Please report to accessibility-atspi@lists.linux-foundation.org
+============================================================================
+make[3]: *** [Makefile:771: test-suite.log] Error 1
+make[3]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+make[2]: *** [Makefile:879: check-TESTS] Error 2
+make[2]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+make[1]: *** [Makefile:950: check-am] Error 2
+make[1]: Leaving directory '/lfskernel/sources/boot/at-spi2-core-2.26.2/dbind'
+make: *** [Makefile:545: check-recursive] Error 1

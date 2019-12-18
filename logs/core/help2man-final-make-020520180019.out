@@ -1,0 +1,2 @@
+perl ../help2man.PL 
+Extracting help2man (with variable substitutions)

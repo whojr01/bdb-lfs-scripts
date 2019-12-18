@@ -1,0 +1,52 @@
+Making install in .
+ /tools/bin/mkdir -p '/usr/lib'
+ ./doltlibtool   --mode=install /usr/bin/install -c   libkmod/libkmod.la '/usr/lib'
+libtool: install: /usr/bin/install -c libkmod/.libs/libkmod.so.2.3.3 /usr/lib/libkmod.so.2.3.3
+libtool: install: (cd /usr/lib && { ln -s -f libkmod.so.2.3.3 libkmod.so.2 || { rm -f libkmod.so.2 && ln -s libkmod.so.2.3.3 libkmod.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libkmod.so.2.3.3 libkmod.so || { rm -f libkmod.so && ln -s libkmod.so.2.3.3 libkmod.so; }; })
+libtool: install: /usr/bin/install -c libkmod/.libs/libkmod.lai /usr/lib/libkmod.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /tools/bin/mkdir -p '/bin'
+  ./doltlibtool   --mode=install /usr/bin/install -c tools/kmod '/bin'
+libtool: install: /usr/bin/install -c tools/kmod /bin/kmod
+make --no-print-directory install-exec-hook
+if test "/usr/lib" != "/lib"; then \
+	/tools/bin/mkdir -p /lib && \
+	so_img_name=$(readlink /usr/lib/libkmod.so) && \
+	so_img_rel_target_prefix=$(echo /usr/lib | sed 's,\(^/\|\)[^/][^/]*,..,g') && \
+	ln -sf $so_img_rel_target_prefix/lib/$so_img_name /usr/lib/libkmod.so && \
+	mv /usr/lib/libkmod.so.* /lib; \
+fi
+ /tools/bin/mkdir -p '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 ../shell-completion/bash/kmod '/usr/share/bash-completion/completions'
+ /tools/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 ../libkmod/libkmod.h '/usr/include'
+ /tools/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libkmod/libkmod.pc '/usr/lib/pkgconfig'
+Making install in libkmod/docs
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+Making install in man
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 ../../man/depmod.d.5 ../../man/modprobe.d.5 ../../man/modules.dep.5 ../../man/modules.dep.bin.5 '/usr/share/man/man5'
+ /tools/bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 ../../man/kmod.8 ../../man/depmod.8 ../../man/insmod.8 ../../man/lsmod.8 ../../man/rmmod.8 ../../man/modprobe.8 ../../man/modinfo.8 '/usr/share/man/man8'

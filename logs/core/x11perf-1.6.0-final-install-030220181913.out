@@ -1,0 +1,21 @@
+###############################
+# Install x11perf-1.6.0.tar.bz2 #
+###############################
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 x11perfcomp.1 x11perf.1 Xmark.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c x11perf '/usr/bin'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c x11perfcomp '/usr/bin'
+ /bin/mkdir -p '/usr/lib/X11/x11perfcomp'
+ /usr/bin/install -c fillblnk perfboth perfratio Xmark '/usr/lib/X11/x11perfcomp'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/x11perf-1.6.0'

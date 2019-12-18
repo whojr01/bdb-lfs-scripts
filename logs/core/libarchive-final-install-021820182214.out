@@ -1,0 +1,45 @@
+make  install-am
+make[1]: Entering directory '/lfskernel/sources/boot/libarchive-3.3.2'
+make[2]: Entering directory '/lfskernel/sources/boot/libarchive-3.3.2'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libarchive.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libarchive.so.13.3.2 /usr/lib/libarchive.so.13.3.2
+libtool: install: (cd /usr/lib && { ln -s -f libarchive.so.13.3.2 libarchive.so.13 || { rm -f libarchive.so.13 && ln -s libarchive.so.13.3.2 libarchive.so.13; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libarchive.so.13.3.2 libarchive.so || { rm -f libarchive.so && ln -s libarchive.so.13.3.2 libarchive.so; }; })
+libtool: install: /usr/bin/install -c .libs/libarchive.lai /usr/lib/libarchive.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c bsdtar bsdcpio bsdcat '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/bsdtar /usr/bin/bsdtar
+libtool: install: /usr/bin/install -c .libs/bsdcpio /usr/bin/bsdcpio
+libtool: install: /usr/bin/install -c .libs/bsdcat /usr/bin/bsdcat
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 libarchive/archive.h libarchive/archive_entry.h '/usr/include'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 tar/bsdtar.1 cpio/bsdcpio.1 cat/bsdcat.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 libarchive/archive_entry.3 libarchive/archive_entry_acl.3 libarchive/archive_entry_linkify.3 libarchive/archive_entry_paths.3 libarchive/archive_entry_perms.3 libarchive/archive_entry_stat.3 libarchive/archive_entry_time.3 libarchive/archive_read.3 libarchive/archive_read_add_passphrase.3 libarchive/archive_read_data.3 libarchive/archive_read_disk.3 libarchive/archive_read_extract.3 libarchive/archive_read_filter.3 libarchive/archive_read_format.3 libarchive/archive_read_free.3 libarchive/archive_read_header.3 libarchive/archive_read_new.3 libarchive/archive_read_open.3 libarchive/archive_read_set_options.3 libarchive/archive_util.3 libarchive/archive_write.3 libarchive/archive_write_blocksize.3 libarchive/archive_write_data.3 libarchive/archive_write_disk.3 libarchive/archive_write_filter.3 libarchive/archive_write_finish_entry.3 libarchive/archive_write_format.3 libarchive/archive_write_free.3 libarchive/archive_write_header.3 libarchive/archive_write_new.3 libarchive/archive_write_open.3 libarchive/archive_write_set_options.3 libarchive/archive_write_set_passphrase.3 libarchive/libarchive.3 libarchive/libarchive_changes.3 libarchive/libarchive_internals.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 libarchive/cpio.5 libarchive/libarchive-formats.5 libarchive/mtree.5 libarchive/tar.5 '/usr/share/man/man5'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 build/pkgconfig/libarchive.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/libarchive-3.3.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/libarchive-3.3.2'

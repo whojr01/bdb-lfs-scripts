@@ -1,0 +1,161 @@
+make  install-recursive
+make[1]: Entering directory `/lfsbuild/sources/coreutils-8.29/build'
+Making install in po
+make[2]: Entering directory `/lfsbuild/sources/coreutils-8.29/build/po'
+installing ../../po/af.gmo as /tools/share/locale/af/LC_MESSAGES/coreutils.mo
+installing ../../po/af.gmo link as /tools/share/locale/af/LC_TIME/coreutils.mo
+installing ../../po/be.gmo as /tools/share/locale/be/LC_MESSAGES/coreutils.mo
+installing ../../po/be.gmo link as /tools/share/locale/be/LC_TIME/coreutils.mo
+installing ../../po/bg.gmo as /tools/share/locale/bg/LC_MESSAGES/coreutils.mo
+installing ../../po/bg.gmo link as /tools/share/locale/bg/LC_TIME/coreutils.mo
+installing ../../po/ca.gmo as /tools/share/locale/ca/LC_MESSAGES/coreutils.mo
+installing ../../po/ca.gmo link as /tools/share/locale/ca/LC_TIME/coreutils.mo
+installing ../../po/cs.gmo as /tools/share/locale/cs/LC_MESSAGES/coreutils.mo
+installing ../../po/cs.gmo link as /tools/share/locale/cs/LC_TIME/coreutils.mo
+installing ../../po/da.gmo as /tools/share/locale/da/LC_MESSAGES/coreutils.mo
+installing ../../po/da.gmo link as /tools/share/locale/da/LC_TIME/coreutils.mo
+installing ../../po/de.gmo as /tools/share/locale/de/LC_MESSAGES/coreutils.mo
+installing ../../po/de.gmo link as /tools/share/locale/de/LC_TIME/coreutils.mo
+installing ../../po/el.gmo as /tools/share/locale/el/LC_MESSAGES/coreutils.mo
+installing ../../po/el.gmo link as /tools/share/locale/el/LC_TIME/coreutils.mo
+installing ../../po/eo.gmo as /tools/share/locale/eo/LC_MESSAGES/coreutils.mo
+installing ../../po/eo.gmo link as /tools/share/locale/eo/LC_TIME/coreutils.mo
+installing ../../po/es.gmo as /tools/share/locale/es/LC_MESSAGES/coreutils.mo
+installing ../../po/es.gmo link as /tools/share/locale/es/LC_TIME/coreutils.mo
+installing ../../po/et.gmo as /tools/share/locale/et/LC_MESSAGES/coreutils.mo
+installing ../../po/et.gmo link as /tools/share/locale/et/LC_TIME/coreutils.mo
+installing ../../po/eu.gmo as /tools/share/locale/eu/LC_MESSAGES/coreutils.mo
+installing ../../po/eu.gmo link as /tools/share/locale/eu/LC_TIME/coreutils.mo
+installing ../../po/fi.gmo as /tools/share/locale/fi/LC_MESSAGES/coreutils.mo
+installing ../../po/fi.gmo link as /tools/share/locale/fi/LC_TIME/coreutils.mo
+installing ../../po/fr.gmo as /tools/share/locale/fr/LC_MESSAGES/coreutils.mo
+installing ../../po/fr.gmo link as /tools/share/locale/fr/LC_TIME/coreutils.mo
+installing ../../po/ga.gmo as /tools/share/locale/ga/LC_MESSAGES/coreutils.mo
+installing ../../po/ga.gmo link as /tools/share/locale/ga/LC_TIME/coreutils.mo
+installing ../../po/gl.gmo as /tools/share/locale/gl/LC_MESSAGES/coreutils.mo
+installing ../../po/gl.gmo link as /tools/share/locale/gl/LC_TIME/coreutils.mo
+installing ../../po/hr.gmo as /tools/share/locale/hr/LC_MESSAGES/coreutils.mo
+installing ../../po/hr.gmo link as /tools/share/locale/hr/LC_TIME/coreutils.mo
+installing ../../po/hu.gmo as /tools/share/locale/hu/LC_MESSAGES/coreutils.mo
+installing ../../po/hu.gmo link as /tools/share/locale/hu/LC_TIME/coreutils.mo
+installing ../../po/ia.gmo as /tools/share/locale/ia/LC_MESSAGES/coreutils.mo
+installing ../../po/ia.gmo link as /tools/share/locale/ia/LC_TIME/coreutils.mo
+installing ../../po/id.gmo as /tools/share/locale/id/LC_MESSAGES/coreutils.mo
+installing ../../po/id.gmo link as /tools/share/locale/id/LC_TIME/coreutils.mo
+installing ../../po/it.gmo as /tools/share/locale/it/LC_MESSAGES/coreutils.mo
+installing ../../po/it.gmo link as /tools/share/locale/it/LC_TIME/coreutils.mo
+installing ../../po/ja.gmo as /tools/share/locale/ja/LC_MESSAGES/coreutils.mo
+installing ../../po/ja.gmo link as /tools/share/locale/ja/LC_TIME/coreutils.mo
+installing ../../po/kk.gmo as /tools/share/locale/kk/LC_MESSAGES/coreutils.mo
+installing ../../po/kk.gmo link as /tools/share/locale/kk/LC_TIME/coreutils.mo
+installing ../../po/ko.gmo as /tools/share/locale/ko/LC_MESSAGES/coreutils.mo
+installing ../../po/ko.gmo link as /tools/share/locale/ko/LC_TIME/coreutils.mo
+installing ../../po/lg.gmo as /tools/share/locale/lg/LC_MESSAGES/coreutils.mo
+installing ../../po/lg.gmo link as /tools/share/locale/lg/LC_TIME/coreutils.mo
+installing ../../po/lt.gmo as /tools/share/locale/lt/LC_MESSAGES/coreutils.mo
+installing ../../po/lt.gmo link as /tools/share/locale/lt/LC_TIME/coreutils.mo
+installing ../../po/ms.gmo as /tools/share/locale/ms/LC_MESSAGES/coreutils.mo
+installing ../../po/ms.gmo link as /tools/share/locale/ms/LC_TIME/coreutils.mo
+installing ../../po/nb.gmo as /tools/share/locale/nb/LC_MESSAGES/coreutils.mo
+installing ../../po/nb.gmo link as /tools/share/locale/nb/LC_TIME/coreutils.mo
+installing ../../po/nl.gmo as /tools/share/locale/nl/LC_MESSAGES/coreutils.mo
+installing ../../po/nl.gmo link as /tools/share/locale/nl/LC_TIME/coreutils.mo
+installing ../../po/pl.gmo as /tools/share/locale/pl/LC_MESSAGES/coreutils.mo
+installing ../../po/pl.gmo link as /tools/share/locale/pl/LC_TIME/coreutils.mo
+installing ../../po/pt.gmo as /tools/share/locale/pt/LC_MESSAGES/coreutils.mo
+installing ../../po/pt.gmo link as /tools/share/locale/pt/LC_TIME/coreutils.mo
+installing ../../po/pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/coreutils.mo
+installing ../../po/pt_BR.gmo link as /tools/share/locale/pt_BR/LC_TIME/coreutils.mo
+installing ../../po/ro.gmo as /tools/share/locale/ro/LC_MESSAGES/coreutils.mo
+installing ../../po/ro.gmo link as /tools/share/locale/ro/LC_TIME/coreutils.mo
+installing ../../po/ru.gmo as /tools/share/locale/ru/LC_MESSAGES/coreutils.mo
+installing ../../po/ru.gmo link as /tools/share/locale/ru/LC_TIME/coreutils.mo
+installing ../../po/sk.gmo as /tools/share/locale/sk/LC_MESSAGES/coreutils.mo
+installing ../../po/sk.gmo link as /tools/share/locale/sk/LC_TIME/coreutils.mo
+installing ../../po/sl.gmo as /tools/share/locale/sl/LC_MESSAGES/coreutils.mo
+installing ../../po/sl.gmo link as /tools/share/locale/sl/LC_TIME/coreutils.mo
+installing ../../po/sr.gmo as /tools/share/locale/sr/LC_MESSAGES/coreutils.mo
+installing ../../po/sr.gmo link as /tools/share/locale/sr/LC_TIME/coreutils.mo
+installing ../../po/sv.gmo as /tools/share/locale/sv/LC_MESSAGES/coreutils.mo
+installing ../../po/sv.gmo link as /tools/share/locale/sv/LC_TIME/coreutils.mo
+installing ../../po/tr.gmo as /tools/share/locale/tr/LC_MESSAGES/coreutils.mo
+installing ../../po/tr.gmo link as /tools/share/locale/tr/LC_TIME/coreutils.mo
+installing ../../po/uk.gmo as /tools/share/locale/uk/LC_MESSAGES/coreutils.mo
+installing ../../po/uk.gmo link as /tools/share/locale/uk/LC_TIME/coreutils.mo
+installing ../../po/vi.gmo as /tools/share/locale/vi/LC_MESSAGES/coreutils.mo
+installing ../../po/vi.gmo link as /tools/share/locale/vi/LC_TIME/coreutils.mo
+installing ../../po/zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/coreutils.mo
+installing ../../po/zh_CN.gmo link as /tools/share/locale/zh_CN/LC_TIME/coreutils.mo
+installing ../../po/zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/coreutils.mo
+installing ../../po/zh_TW.gmo link as /tools/share/locale/zh_TW/LC_TIME/coreutils.mo
+if test "coreutils" = "gettext-tools"; then \
+  /bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /bin/install -c -m 644 ../../po/$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build/po'
+Making install in .
+make[2]: Entering directory `/lfsbuild/sources/coreutils-8.29/build'
+make[3]: Entering directory `/lfsbuild/sources/coreutils-8.29/build'
+ /bin/mkdir -p '/tools/bin'
+  src/ginstall -c src/ginstall '/tools/bin/./install'
+  src/ginstall -c src/chroot src/hostid src/timeout src/nice src/who src/users src/pinky src/uptime src/stty src/df src/stdbuf src/[ src/b2sum src/base64 src/base32 src/basename src/cat src/chcon src/chgrp src/chmod src/chown src/cksum src/comm src/cp src/csplit src/cut src/date src/dd src/dir src/dircolors src/dirname src/du src/echo src/env src/expand src/expr src/factor src/false src/fmt src/fold src/groups src/head src/id src/join src/kill src/link src/ln src/logname src/ls src/md5sum src/mkdir src/mkfifo src/mknod src/mktemp src/mv src/nl src/nproc src/nohup src/numfmt src/od src/paste src/pathchk src/pr src/printenv src/printf src/ptx src/pwd src/readlink src/realpath src/rm src/rmdir src/runcon src/seq src/sha1sum src/sha224sum src/sha256sum src/sha384sum src/sha512sum src/shred src/shuf src/sleep src/sort src/split src/stat src/sum src/sync src/tac src/tail src/tee src/test src/touch src/tr src/true src/truncate src/tsort src/tty src/uname src/unexpand src/uniq src/unlink src/vdir src/wc src/whoami src/yes src/hostname '/tools/bin'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /lfsbuild/sources/coreutils-8.29/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f lib/ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  src/ginstall -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f lib/ref-add.sed lib/charset.alias > /tools/lib/charset.tmp ; \
+    src/ginstall -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+ /bin/mkdir -p '/tools/libexec/coreutils'
+  src/ginstall -c src/libstdbuf.so '/tools/libexec/coreutils'
+make  install-exec-hook
+make[4]: Entering directory `/lfsbuild/sources/coreutils-8.29/build'
+make[4]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build'
+ /bin/mkdir -p '/tools/share/info'
+ src/ginstall -c -m 644 ../doc/coreutils.info '/tools/share/info'
+ /bin/mkdir -p '/tools/share/man/man1'
+ src/ginstall -c -m 644 man/chroot.1 man/hostid.1 man/timeout.1 man/nice.1 man/who.1 man/users.1 man/pinky.1 man/uptime.1 man/stty.1 man/df.1 man/stdbuf.1 man/b2sum.1 man/base64.1 man/base32.1 man/basename.1 man/cat.1 man/chcon.1 man/chgrp.1 man/chmod.1 man/chown.1 man/cksum.1 man/comm.1 man/cp.1 man/csplit.1 man/cut.1 man/date.1 man/dd.1 man/dir.1 man/dircolors.1 man/dirname.1 man/du.1 man/echo.1 man/env.1 man/expand.1 man/expr.1 man/factor.1 man/false.1 man/fmt.1 man/fold.1 man/install.1 '/tools/share/man/man1'
+ src/ginstall -c -m 644 man/groups.1 man/head.1 man/id.1 man/join.1 man/kill.1 man/link.1 man/ln.1 man/logname.1 man/ls.1 man/md5sum.1 man/mkdir.1 man/mkfifo.1 man/mknod.1 man/mktemp.1 man/mv.1 man/nl.1 man/nproc.1 man/nohup.1 man/numfmt.1 man/od.1 man/paste.1 man/pathchk.1 man/pr.1 man/printenv.1 man/printf.1 man/ptx.1 man/pwd.1 man/readlink.1 man/realpath.1 man/rm.1 man/rmdir.1 man/runcon.1 man/seq.1 man/sha1sum.1 man/sha224sum.1 man/sha256sum.1 man/sha384sum.1 man/sha512sum.1 man/shred.1 man/shuf.1 '/tools/share/man/man1'
+ src/ginstall -c -m 644 man/sleep.1 man/sort.1 man/split.1 man/stat.1 man/sum.1 man/sync.1 man/tac.1 man/tail.1 man/tee.1 man/test.1 man/touch.1 man/tr.1 man/true.1 man/truncate.1 man/tsort.1 man/tty.1 man/uname.1 man/unexpand.1 man/uniq.1 man/unlink.1 man/vdir.1 man/wc.1 man/whoami.1 man/yes.1 man/hostname.1 '/tools/share/man/man1'
+make[3]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build'
+make[2]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build'
+Making install in gnulib-tests
+make[2]: Entering directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+make  install-recursive
+make[3]: Entering directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+Making install in .
+make[4]: Entering directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+make[5]: Entering directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+make[5]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+make[4]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+make[3]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+make[2]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build/gnulib-tests'
+make[1]: Leaving directory `/lfsbuild/sources/coreutils-8.29/build
+

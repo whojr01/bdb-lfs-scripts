@@ -1,0 +1,32 @@
+###############################
+# Make libXtst-1.2.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3/src'
+  CC       XRecord.lo
+  CC       XTest.lo
+  CCLD     libXtst.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3/man'
+  GEN      XTestQueryExtension.3
+  GEN      XTestCompareCursorWithWindow.3
+  GEN      XTestCompareCurrentCursorWithWindow.3
+  GEN      XTestFakeKeyEvent.3
+  GEN      XTestFakeButtonEvent.3
+  GEN      XTestFakeMotionEvent.3
+  GEN      XTestFakeRelativeMotionEvent.3
+  GEN      XTestGrabControl.3
+  GEN      XTestSetGContextOfGC.3
+  GEN      XTestSetVisualIDOfVisual.3
+  GEN      XTestDiscard.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3/man'
+Making all in specs
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3/specs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXtst-1.2.3'

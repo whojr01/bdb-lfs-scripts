@@ -1,0 +1,106 @@
+make  all-recursive
+make[1]: Entering directory '/sources/patch-2.7.5/build'
+Making all in lib
+make[2]: Entering directory '/sources/patch-2.7.5/build/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-am
+make[3]: Entering directory '/sources/patch-2.7.5/build/lib'
+  CC       argmatch.o
+  CC       backupfile.o
+  CC       bitrotate.o
+  CC       c-ctype.o
+  CC       c-strcasecmp.o
+  CC       c-strncasecmp.o
+  CC       cloexec.o
+  CC       opendir-safer.o
+  CC       dirname.o
+  CC       basename.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exitfail.o
+  CC       chmodat.o
+  CC       chownat.o
+  CC       fd-hook.o
+  CC       filenamecat-lgpl.o
+  CC       full-write.o
+  CC       gettime.o
+  CC       hash.o
+  CC       gl_linked_list.o
+  CC       gl_list.o
+  CC       localcharset.o
+  CC       malloca.o
+  CC       openat-die.o
+  CC       parse-datetime.o
+  CC       progname.o
+  CC       quotearg.o
+  CC       safe-write.o
+  CC       save-cwd.o
+  CC       stat-time.o
+  CC       statat.o
+  CC       tempname.o
+  CC       timespec.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       utimens.o
+  CC       verror.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       gl_xlist.o
+  CC       xsize.o
+  CC       xstrndup.o
+  CC       xvasprintf.o
+  CC       xasprintf.o
+  CC       asnprintf.o
+  CC       chdir-long.o
+  CC       fcntl.o
+  CC       openat-proc.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       utimensat.o
+  CC       vasnprintf.o
+  CC       xmemdup0.o
+  AR       libpatch.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[3]: Leaving directory '/sources/patch-2.7.5/build/lib'
+make[2]: Leaving directory '/sources/patch-2.7.5/build/lib'
+Making all in src
+make[2]: Entering directory '/sources/patch-2.7.5/build/src'
+  CC       inp.o
+  CC       patch.o
+  CC       pch.o
+  CC       safe.o
+  CC       util.o
+  CC       version.o
+  CC       merge.o
+  CCLD     patch
+make[2]: Leaving directory '/sources/patch-2.7.5/build/src'
+Making all in tests
+make[2]: Entering directory '/sources/patch-2.7.5/build/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/patch-2.7.5/build/tests'
+make[2]: Entering directory '/sources/patch-2.7.5/build'
+make[2]: Leaving directory '/sources/patch-2.7.5/build'
+make[1]: Leaving directory '/sources/patch-2.7.5/build'

@@ -1,0 +1,29 @@
+install: creating directory '/usr/share/fonts'
+install: creating directory '/usr/share/fonts/dejavu'
+'ttf/DejaVuMathTeXGyre.ttf' -> '/usr/share/fonts/dejavu/DejaVuMathTeXGyre.ttf'
+'ttf/DejaVuSans-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf'
+'ttf/DejaVuSans-BoldOblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-BoldOblique.ttf'
+'ttf/DejaVuSans-ExtraLight.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-ExtraLight.ttf'
+'ttf/DejaVuSans-Oblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-Oblique.ttf'
+'ttf/DejaVuSans.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans.ttf'
+'ttf/DejaVuSansCondensed-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed-Bold.ttf'
+'ttf/DejaVuSansCondensed-BoldOblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed-BoldOblique.ttf'
+'ttf/DejaVuSansCondensed-Oblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed-Oblique.ttf'
+'ttf/DejaVuSansCondensed.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed.ttf'
+'ttf/DejaVuSansMono-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf'
+'ttf/DejaVuSansMono-BoldOblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono-BoldOblique.ttf'
+'ttf/DejaVuSansMono-Oblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono-Oblique.ttf'
+'ttf/DejaVuSansMono.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono.ttf'
+'ttf/DejaVuSerif-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif-Bold.ttf'
+'ttf/DejaVuSerif-BoldItalic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif-BoldItalic.ttf'
+'ttf/DejaVuSerif-Italic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif-Italic.ttf'
+'ttf/DejaVuSerif.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif.ttf'
+'ttf/DejaVuSerifCondensed-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed-Bold.ttf'
+'ttf/DejaVuSerifCondensed-BoldItalic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed-BoldItalic.ttf'
+'ttf/DejaVuSerifCondensed-Italic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed-Italic.ttf'
+'ttf/DejaVuSerifCondensed.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed.ttf'
+/usr/share/fonts/dejavu: skipping, existing cache is valid: 22 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded

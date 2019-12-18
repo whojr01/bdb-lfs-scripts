@@ -1,0 +1,40 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7'
+Making all in contrib
+make[2]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+Making all in request-key.d
+make[3]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+/bin/sed 's,[@]sbindir@,/usr/sbin,' ./cifs.idmap.conf.in > cifs.idmap.conf-t && mv cifs.idmap.conf-t cifs.idmap.conf
+/bin/sed 's,[@]sbindir@,/usr/sbin,' ./cifs.spnego.conf.in > cifs.spnego.conf-t && mv cifs.spnego.conf-t cifs.spnego.conf
+make[3]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib/request-key.d'
+make[3]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[2]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7/contrib'
+make[2]: Entering directory '/lfskernel/sources/boot/cifs-utils-6.7'
+gcc -DHAVE_CONFIG_H -I.    -Wall -Wextra -D_FORTIFY_SOURCE=2 -fpie -pie -Wl,-z,relro,-z,now -g -O2 -MT mount.cifs.o -MD -MP -MF .deps/mount.cifs.Tpo -c -o mount.cifs.o mount.cifs.c
+mount.cifs.c: In function 'parse_options':
+mount.cifs.c:1005:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    data = "file_mode"; /* BB fix this */
+    ~~~~~^~~~~~~~~~~~~
+mount.cifs.c:1006:3: note: here
+   case OPT_FILE_MODE:
+   ^~~~
+mount.cifs.c:1025:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    data = "dir_mode";
+    ~~~~~^~~~~~~~~~~~
+mount.cifs.c:1026:3: note: here
+   case OPT_DIR_MODE:
+   ^~~~
+mv -f .deps/mount.cifs.Tpo .deps/mount.cifs.Po
+gcc -DHAVE_CONFIG_H -I.    -Wall -Wextra -D_FORTIFY_SOURCE=2 -fpie -pie -Wl,-z,relro,-z,now -g -O2 -MT mtab.o -MD -MP -MF .deps/mtab.Tpo -c -o mtab.o mtab.c
+mv -f .deps/mtab.Tpo .deps/mtab.Po
+gcc -DHAVE_CONFIG_H -I.    -Wall -Wextra -D_FORTIFY_SOURCE=2 -fpie -pie -Wl,-z,relro,-z,now -g -O2 -MT resolve_host.o -MD -MP -MF .deps/resolve_host.Tpo -c -o resolve_host.o resolve_host.c
+mv -f .deps/resolve_host.Tpo .deps/resolve_host.Po
+gcc -DHAVE_CONFIG_H -I.    -Wall -Wextra -D_FORTIFY_SOURCE=2 -fpie -pie -Wl,-z,relro,-z,now -g -O2 -MT util.o -MD -MP -MF .deps/util.Tpo -c -o util.o util.c
+mv -f .deps/util.Tpo .deps/util.Po
+gcc -Wall -Wextra -D_FORTIFY_SOURCE=2 -fpie -pie -Wl,-z,relro,-z,now -g -O2   -o mount.cifs mount.cifs.o mtab.o resolve_host.o util.o -lcap   
+mount.cifs.o: In function `del_mtab':
+/lfskernel/sources/boot/cifs-utils-6.7/mount.cifs.c:1559: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[2]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/cifs-utils-6.7'

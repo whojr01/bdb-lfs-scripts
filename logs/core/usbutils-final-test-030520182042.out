@@ -1,0 +1,29 @@
+Making check in usbhid-dump
+make[1]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+Making check in include
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+Making check in uhd
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include/uhd'
+make[3]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/include'
+Making check in lib
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/lib'
+Making check in src
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/src'
+Making check in doc
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[2]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[1]: Leaving directory '/lfskernel/sources/boot/usbutils-009/usbhid-dump'
+make[1]: Entering directory '/lfskernel/sources/boot/usbutils-009'
+make[1]: Leaving directory '/lfskernel/sources/boot/usbutils-009'

@@ -1,0 +1,196 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted By: Matt Burgess
+|Date: 2008-12-06
+|Initial Package Version: 1.15
+|Upstream Status: Not submitted, possibly incomplete
+|Description: Makes Backspace and Delete keys consistent in all i386 keymaps.
+|Makes the Backspace key send character code 127, and Delete send a well known
+|escape sequence. Obsoletes the /etc/kbd/bs-sends-del file for i386.
+|
+|Original patch for 1.12 by Alexander Patrakov.
+|Updated for 1.13 (drop ru.map, the change is upstream, and add ru_win.map,
+|ru-cp1251.map) by Ken Moffat <ken at linuxfromscratch dot org>.
+|Re-diffed against 1.15 by Matt Burgess <matthew at linuxfromscratch.org>.
+|
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/dvorak/dvorak-l.map kbd-1.15/data/keymaps/i386/dvorak/dvorak-l.map
+|--- kbd-1.15.orig/data/keymaps/i386/dvorak/dvorak-l.map	2008-06-20 12:36:01.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/dvorak/dvorak-l.map	2008-12-03 22:27:55.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/dvorak/dvorak-l.map
+Using Plan A...
+Hunk #1 succeeded at 43.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/dvorak/dvorak-r.map kbd-1.15/data/keymaps/i386/dvorak/dvorak-r.map
+|--- kbd-1.15.orig/data/keymaps/i386/dvorak/dvorak-r.map	2008-06-20 12:36:01.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/dvorak/dvorak-r.map	2008-12-03 22:28:13.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/dvorak/dvorak-r.map
+Using Plan A...
+Hunk #1 succeeded at 43.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/fgGIod/tr_f-latin5.map kbd-1.15/data/keymaps/i386/fgGIod/tr_f-latin5.map
+|--- kbd-1.15.orig/data/keymaps/i386/fgGIod/tr_f-latin5.map	2008-10-23 20:03:58.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/fgGIod/tr_f-latin5.map	2008-12-03 22:40:32.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/fgGIod/tr_f-latin5.map
+Using Plan A...
+Hunk #1 succeeded at 51.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/lt.l4.map kbd-1.15/data/keymaps/i386/qwerty/lt.l4.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/lt.l4.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/lt.l4.map	2008-12-03 22:42:14.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/lt.l4.map
+Using Plan A...
+Hunk #1 succeeded at 205.
+Hunk #2 succeeded at 506.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/lt.map kbd-1.15/data/keymaps/i386/qwerty/lt.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/lt.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/lt.map	2008-12-03 22:42:58.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/lt.map
+Using Plan A...
+Hunk #1 succeeded at 204.
+Hunk #2 succeeded at 505.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/no-latin1.map kbd-1.15/data/keymaps/i386/qwerty/no-latin1.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/no-latin1.map	2008-06-20 12:36:00.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/no-latin1.map	2008-12-03 22:44:25.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/no-latin1.map
+Using Plan A...
+Hunk #1 succeeded at 3.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ru1.map kbd-1.15/data/keymaps/i386/qwerty/ru1.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ru1.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ru1.map	2008-12-03 22:45:32.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ru1.map
+Using Plan A...
+Hunk #1 succeeded at 143.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ru2.map kbd-1.15/data/keymaps/i386/qwerty/ru2.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ru2.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ru2.map	2008-12-03 22:46:15.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ru2.map
+Using Plan A...
+Hunk #1 succeeded at 46.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ru-cp1251.map kbd-1.15/data/keymaps/i386/qwerty/ru-cp1251.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ru-cp1251.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ru-cp1251.map	2008-12-03 22:47:12.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ru-cp1251.map
+Using Plan A...
+Hunk #1 succeeded at 39.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ru-ms.map kbd-1.15/data/keymaps/i386/qwerty/ru-ms.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ru-ms.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ru-ms.map	2008-12-03 22:48:10.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ru-ms.map
+Using Plan A...
+Hunk #1 succeeded at 89.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ru_win.map kbd-1.15/data/keymaps/i386/qwerty/ru_win.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ru_win.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ru_win.map	2008-12-03 22:49:17.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ru_win.map
+Using Plan A...
+Hunk #1 succeeded at 42.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/se-ir209.map kbd-1.15/data/keymaps/i386/qwerty/se-ir209.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/se-ir209.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/se-ir209.map	2008-12-03 22:50:18.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/se-ir209.map
+Using Plan A...
+Hunk #1 succeeded at 345.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/se-lat6.map kbd-1.15/data/keymaps/i386/qwerty/se-lat6.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/se-lat6.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/se-lat6.map	2008-12-03 22:50:44.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/se-lat6.map
+Using Plan A...
+Hunk #1 succeeded at 374.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/tr_q-latin5.map kbd-1.15/data/keymaps/i386/qwerty/tr_q-latin5.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/tr_q-latin5.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/tr_q-latin5.map	2008-12-03 22:52:09.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/tr_q-latin5.map
+Using Plan A...
+Hunk #1 succeeded at 49.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ua.map kbd-1.15/data/keymaps/i386/qwerty/ua.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ua.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ua.map	2008-12-03 22:52:52.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ua.map
+Using Plan A...
+Hunk #1 succeeded at 249.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ua-utf.map kbd-1.15/data/keymaps/i386/qwerty/ua-utf.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ua-utf.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ua-utf.map	2008-12-03 22:53:36.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ua-utf.map
+Using Plan A...
+Hunk #1 succeeded at 250.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ua-utf-ws.map kbd-1.15/data/keymaps/i386/qwerty/ua-utf-ws.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ua-utf-ws.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ua-utf-ws.map	2008-12-03 22:54:06.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ua-utf-ws.map
+Using Plan A...
+Hunk #1 succeeded at 260.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naur kbd-1.15.orig/data/keymaps/i386/qwerty/ua-ws.map kbd-1.15/data/keymaps/i386/qwerty/ua-ws.map
+|--- kbd-1.15.orig/data/keymaps/i386/qwerty/ua-ws.map	2008-10-23 20:03:59.000000000 +0100
+|+++ kbd-1.15/data/keymaps/i386/qwerty/ua-ws.map	2008-12-03 22:54:23.000000000 +0000
+--------------------------
+patching file data/keymaps/i386/qwerty/ua-ws.map
+Using Plan A...
+Hunk #1 succeeded at 260.
+done

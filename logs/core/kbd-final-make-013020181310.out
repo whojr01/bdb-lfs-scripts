@@ -1,0 +1,723 @@
+make  all-recursive
+make[1]: Entering directory '/sources/kbd-2.0.4/build'
+Making all in src
+make[2]: Entering directory '/sources/kbd-2.0.4/build/src'
+Making all in vlock
+make[3]: Entering directory '/sources/kbd-2.0.4/build/src/vlock'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/src/vlock'
+Making all in libkeymap
+make[3]: Entering directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make  all-am
+make[4]: Entering directory '/sources/kbd-2.0.4/build/src/libkeymap'
+  CC     array.lo
+  CC     findfile.lo
+  CC     common.lo
+../../../src/libkeymap/common.c: In function 'lk_init':
+../../../src/libkeymap/common.c:166:21: warning: argument 2 of 'lk_set_log_fn' might be a candidate for a format attribute [-Wsuggest-attribute=format]
+  lk_set_log_fn(ctx, log_file, stderr);
+                     ^~~~~~~~
+  CC     kernel.lo
+  CC     dump.lo
+  CC     kmap.lo
+  CC     diacr.lo
+  CC     func.lo
+  CC     summary.lo
+  CC     loadkeys.lo
+  CC     parser.lo
+  CC     analyze.lo
+  CC     modifiers.lo
+  CC     ksyms.lo
+  CCLD   libkeymap.la
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make[3]: Entering directory '/sources/kbd-2.0.4/build/src'
+  CC     getfd.o
+  CC     xmalloc.o
+  CC     kbd_error.o
+  AR     libcommon.a
+  CC     psffontop.o
+  CC     utf8.o
+  CC     kdmapop.o
+  CC     loadunimap.o
+  CC     kdfontop.o
+  AR     libfont.a
+  CC     mapscrn-mapscrn.o
+  CCLD   mapscrn
+  CC     loadunimap-loadunimap.o
+  CCLD   loadunimap
+  CC     dumpkeys.o
+  CCLD   dumpkeys
+  CC     loadkeys.o
+../../src/loadkeys.c: In function 'main':
+../../src/loadkeys.c:71:22: warning: duplicate 'const' declaration specifier [-Wduplicate-decl-specifier]
+  const struct option const long_opts[] = {
+                      ^~~~~
+  CCLD   loadkeys
+  CC     showkey.o
+  CCLD   showkey
+  CC     setfont.o
+  CC     mapscrn.o
+  CCLD   setfont
+  CC     showconsolefont.o
+  CCLD   showconsolefont
+  CC     setleds.o
+  CCLD   setleds
+  CC     setmetamode.o
+  CCLD   setmetamode
+  CC     kbd_mode.o
+  CCLD   kbd_mode
+  CC     psfxtable.o
+  CCLD   psfxtable
+  CC     fgconsole.o
+  CCLD   fgconsole
+  CC     kbdrate.o
+  CCLD   kbdrate
+  CC     chvt.o
+  CCLD   chvt
+  CC     deallocvt.o
+  CCLD   deallocvt
+  CC     openvt.o
+../../src/openvt.c: In function 'main':
+../../src/openvt.c:213:5: warning: ignoring return value of 'setuid', declared with attribute warn_unused_result [-Wunused-result]
+     (void)setuid(getuid());
+     ^~~~~~~~~~~~~~~~~~~~~~
+../../src/openvt.c:355:4: warning: ignoring return value of 'setuid', declared with attribute warn_unused_result [-Wunused-result]
+    setuid(uid);
+    ^~~~~~~~~~~
+  CCLD   openvt
+  CC     kbdinfo.o
+  CCLD   kbdinfo
+  CC     setvtrgb.o
+  CCLD   setvtrgb
+  CC     getkeycodes.o
+  CCLD   getkeycodes
+  CC     setkeycodes.o
+  CCLD   setkeycodes
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/src'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/src'
+Making all in data
+make[2]: Entering directory '/sources/kbd-2.0.4/build/data'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/data'
+Making all in po
+make[2]: Entering directory '/sources/kbd-2.0.4/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/po'
+Making all in docs
+make[2]: Entering directory '/sources/kbd-2.0.4/build/docs'
+Making all in man
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs/man'
+Making all in man1
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man1'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man1'
+Making all in man5
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man5'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man5'
+Making all in man8
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man8'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man8'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs/man'
+Making all in reference
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs/reference'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/reference'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/reference'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs/reference'
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/docs'
+Making all in tests
+make[2]: Entering directory '/sources/kbd-2.0.4/build/tests'
+  CC     libkeymap-dumpkeys.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+  CCLD   libkeymap-dumpkeys
+  CC     libkeymap-mktable.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+../../tests/libkeymap-mktable.c: In function 'main':
+../../tests/libkeymap-mktable.c:6:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv)
+              ^~~~
+  CCLD   libkeymap-mktable
+  CC     libkeymap-bkeymap.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+../../tests/libkeymap-bkeymap.c: In function 'main':
+../../tests/libkeymap-bkeymap.c:6:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv)
+              ^~~~
+  CCLD   libkeymap-bkeymap
+  CC     libkeymap-showmaps.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+../../tests/libkeymap-showmaps.c: In function 'main':
+../../tests/libkeymap-showmaps.c:22:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < ctx->keymap->total; i++) {
+                ^
+../../tests/libkeymap-showmaps.c:8:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv)
+              ^~~~
+  CCLD   libkeymap-showmaps
+  CC     libkeymap-init.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-init.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-init.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-init.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-init.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-init.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+  CCLD   libkeymap-init
+  CC     libkeymap-kmap.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+  CCLD   libkeymap-kmap
+  CC     libkeymap-keys.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-keys.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-keys.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-keys.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-keys.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-keys.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+  CCLD   libkeymap-keys
+  CC     libkeymap-parse.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-parse.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-parse.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-parse.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-parse.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-parse.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+  CCLD   libkeymap-parse
+  CC     libkeymap-charset.o
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-charset.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-charset.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-charset.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ # define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-charset.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ # define WEXITED 4 /* Report dead child.  */
+ 
+In file included from /tools/include/linux/keyboard.h:5:0,
+                 from ../../tests/../src/libkeymap/keymap/context.h:10,
+                 from ../../tests/../src/libkeymap/keymap.h:4,
+                 from ../../tests/libkeymap-charset.c:4:
+/tools/include/linux/wait.h:9:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ 
+In file included from /tools/include/stdlib.h:39:0,
+                 from ../../tests/libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:32:0: note: this is the location of the previous definition
+ # define WCONTINUED 8 /* Report continued child.  */
+ 
+../../tests/libkeymap-charset.c: In function 'test0':
+../../tests/libkeymap-charset.c:21:4: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  s = lk_get_charset(ctx);
+    ^
+../../tests/libkeymap-charset.c: In function 'test1':
+../../tests/libkeymap-charset.c:44:4: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  s = lk_get_charset(ctx);
+    ^
+  CCLD   libkeymap-charset
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/tests'
+make[2]: Entering directory '/sources/kbd-2.0.4/build'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build'
+make[1]: Leaving directory '/sources/kbd-2.0.4/build'

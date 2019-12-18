@@ -1,0 +1,81 @@
+###############################
+# Make smproxy-1.0.6.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/smproxy-1.0.6'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/smproxy-1.0.6/man'
+  GEN      smproxy.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/smproxy-1.0.6/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/smproxy-1.0.6'
+  CC       save.o
+  CC       smproxy.o
+smproxy.c: In function 'FinishSaveYourself':
+smproxy.c:251:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop1.name = SmProgram;
+             ^
+smproxy.c:252:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop1.type = SmARRAY8;
+             ^
+smproxy.c:259:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop2.name = SmUserID;
+             ^
+smproxy.c:260:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop2.type = SmARRAY8;
+             ^
+smproxy.c:273:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop3.name = "_XC_RestartService";
+             ^
+smproxy.c:274:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop3.type = SmLISTofARRAY8;
+             ^
+smproxy.c:289:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop1.name = SmRestartCommand;
+                ^
+smproxy.c:290:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop1.type = SmLISTofARRAY8;
+                ^
+smproxy.c:308:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop2.name = SmCloneCommand;
+                ^
+smproxy.c:309:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop2.type = SmLISTofARRAY8;
+                ^
+smproxy.c: In function 'ProxySaveYourselfPhase2CB':
+smproxy.c:895:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop1.name = SmProgram;
+             ^
+smproxy.c:896:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop1.type = SmARRAY8;
+             ^
+smproxy.c:903:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop2.name = SmUserID;
+             ^
+smproxy.c:904:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop2.type = SmARRAY8;
+             ^
+smproxy.c:910:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop3.name = SmRestartStyleHint;
+             ^
+smproxy.c:911:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  prop3.type = SmCARD8;
+             ^
+smproxy.c:932:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop1.name = SmRestartCommand;
+                ^
+smproxy.c:933:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop1.type = SmLISTofARRAY8;
+                ^
+smproxy.c:979:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop2.name = SmDiscardCommand;
+                ^
+smproxy.c:980:16: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     prop2.type = SmARRAY8;
+                ^
+smproxy.c: In function 'FinishSaveYourself':
+smproxy.c:269:31: warning: '%s' directive argument is null [-Wformat-truncation=]
+                   "rstart-rsh/%s", fullyQuantifiedName);
+                               ^~
+  CCLD     smproxy
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/smproxy-1.0.6'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/smproxy-1.0.6'

@@ -1,0 +1,16 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/xcb-util-0.4.0'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/xcb-util-0.4.0/src'
+  CC       atoms.lo
+atoms.c: In function 'makename':
+atoms.c:53:2: warning: function 'makename' might be a candidate for 'gnu_printf' format attribute [-Wsuggest-attribute=format]
+  n = vasprintf(&ret, fmt, ap);
+  ^
+  CC       event.lo
+  CC       xcb_aux.lo
+  CCLD     libxcb-util.la
+make[2]: Leaving directory '/lfskernel/sources/boot/xcb-util-0.4.0/src'
+make[2]: Entering directory '/lfskernel/sources/boot/xcb-util-0.4.0'
+make[2]: Leaving directory '/lfskernel/sources/boot/xcb-util-0.4.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/xcb-util-0.4.0'

@@ -1,0 +1,160 @@
+Installing libxfs-install
+../install-sh -o root -g root -m 755 -d /usr/include/xfs
+Installing libxlog-install
+Installing libxcmd-install
+Installing libhandle-install
+cd ../libhandle/.libs; ../../install-sh -o root -g root -m 755 -d /lib; ../../install-sh -o root -g root -m 755 -T so_dot_version libhandle.lai /lib; ../../install-sh -o root -g root -T so_dot_current libhandle.lai /lib
+Installing copy-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_copy /usr/sbin
+Installing db-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_db /usr/sbin
+../install-sh -o root -g root -m 755 xfs_admin.sh /usr/sbin/xfs_admin
+../install-sh -o root -g root -m 755 xfs_ncheck.sh /usr/sbin/xfs_ncheck
+../install-sh -o root -g root -m 755 xfs_metadump.sh /usr/sbin/xfs_metadump
+Installing estimate-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_estimate /usr/sbin
+Installing fsck-install
+../install-sh -o root -g root -m 755 -d /sbin
+../install-sh -o root -g root -m 755 xfs_fsck.sh /sbin/fsck.xfs
+Installing growfs-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_growfs /usr/sbin
+../install-sh -o root -g root -m 755 xfs_info.sh /usr/sbin/xfs_info
+Installing io-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_io /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_bmap.sh /usr/sbin/xfs_bmap
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_freeze.sh /usr/sbin/xfs_freeze
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_mkfile.sh /usr/sbin/xfs_mkfile
+Installing logprint-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_logprint /usr/sbin
+Installing mkfs-install
+../install-sh -o root -g root -m 755 -d /sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 mkfs.xfs /sbin
+Installing quota-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_quota /usr/sbin
+Installing mdrestore-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_mdrestore /usr/sbin
+Installing repair-install
+../install-sh -o root -g root -m 755 -d /sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_repair /sbin
+Installing rtcp-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_rtcp /usr/sbin
+Installing m4-install
+make[1]: Nothing to be done for 'install'.
+Installing man-install
+make[2]: Nothing to be done for 'install'.
+../../install-sh -o root -g root -m 755 -d /usr/share/man/man5
+../../install-sh -o root -g root -m 644 projects.5 /usr/share/man/man5/projects.5
+../../install-sh -o root -g root -m 644 projid.5 /usr/share/man/man5/projid.5
+../../install-sh -o root -g root -m 644 xfs.5 /usr/share/man/man5/xfs.5
+../../install-sh -o root -g root -m 755 -d /usr/share/man/man8
+../../install-sh -o root -g root -m 644 fsck.xfs.8 /usr/share/man/man8/fsck.xfs.8
+../../install-sh -o root -g root -m 644 mkfs.xfs.8 /usr/share/man/man8/mkfs.xfs.8
+../../install-sh -o root -g root -m 644 xfs_admin.8 /usr/share/man/man8/xfs_admin.8
+../../install-sh -o root -g root -m 644 xfs_bmap.8 /usr/share/man/man8/xfs_bmap.8
+../../install-sh -o root -g root -m 644 xfs_copy.8 /usr/share/man/man8/xfs_copy.8
+../../install-sh -o root -g root -m 644 xfs_db.8 /usr/share/man/man8/xfs_db.8
+../../install-sh -o root -g root -m 644 xfs_estimate.8 /usr/share/man/man8/xfs_estimate.8
+../../install-sh -o root -g root -m 644 xfs_freeze.8 /usr/share/man/man8/xfs_freeze.8
+../../install-sh -o root -g root -m 644 xfs_fsr.8 /usr/share/man/man8/xfs_fsr.8
+../../install-sh -o root -g root -m 644 xfs_growfs.8 /usr/share/man/man8/xfs_growfs.8
+../../install-sh -o root -g root -S xfs_growfs.8 /usr/share/man/man8/xfs_info.8
+../../install-sh -o root -g root -m 644 xfs_io.8 /usr/share/man/man8/xfs_io.8
+../../install-sh -o root -g root -m 644 xfs_logprint.8 /usr/share/man/man8/xfs_logprint.8
+../../install-sh -o root -g root -m 644 xfs_mdrestore.8 /usr/share/man/man8/xfs_mdrestore.8
+../../install-sh -o root -g root -m 644 xfs_metadump.8 /usr/share/man/man8/xfs_metadump.8
+../../install-sh -o root -g root -m 644 xfs_mkfile.8 /usr/share/man/man8/xfs_mkfile.8
+../../install-sh -o root -g root -m 644 xfs_ncheck.8 /usr/share/man/man8/xfs_ncheck.8
+../../install-sh -o root -g root -m 644 xfs_quota.8 /usr/share/man/man8/xfs_quota.8
+../../install-sh -o root -g root -m 644 xfs_repair.8 /usr/share/man/man8/xfs_repair.8
+../../install-sh -o root -g root -m 644 xfs_rtcp.8 /usr/share/man/man8/xfs_rtcp.8
+../../install-sh -o root -g root -m 644 xfs_spaceman.8 /usr/share/man/man8/xfs_spaceman.8
+Installing doc-install
+../install-sh -o root -g root -m 755 -d /usr/share/doc/xfsprogs-4.12.0
+../install-sh -o root -g root -m 644 CHANGES.gz CREDITS /usr/share/doc/xfsprogs-4.12.0
+../install-sh -o root -g root -m 644 COPYING /usr/share/doc/xfsprogs-4.12.0
+Installing debian-install
+make[1]: Nothing to be done for 'install'.
+Installing spaceman-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_spaceman /usr/sbin
+Installing fsr-install
+../install-sh -o root -g root -m 755 -d /usr/sbin
+/bin/sh ../libtool --quiet --mode=install ../install-sh -o root -g root -m 755 xfs_fsr /usr/sbin
+libtool: install: warning: `../libhandle/libhandle.la' has not been installed in `/lib'
+Installing po-install
+Installing include-install
+../install-sh -o root -g root -m 755 -d /usr/include/xfs
+./install-sh -o root -g root -m 755 -d /usr/share/doc/xfsprogs-4.12.0
+./install-sh -o root -g root -m 644 README /usr/share/doc/xfsprogs-4.12.0
+Installing libxfs-install-dev
+../install-sh -o root -g root -m 755 -d /usr/include/xfs
+../install-sh -o root -g root -m 644 xfs_fs.h xfs_types.h xfs_da_format.h xfs_format.h xfs_log_format.h /usr/include/xfs
+Installing libxlog-install-dev
+Installing libxcmd-install-dev
+Installing libhandle-install-dev
+cd ../libhandle/.libs; ../../install-sh -o root -g root -m 755 -d /usr/lib; ../../install-sh -o root -g root -m 644 -T old_lib libhandle.lai /usr/lib; ../../install-sh -o root -g root -m 644 libhandle.lai /usr/lib/libhandle.la ; ../../install-sh -o root -g root -m 755 -d /lib; ../../install-sh -o root -g root -T so_base libhandle.lai /lib; if [ "x/usr/lib" != "x/lib" ]; then ../../install-sh -o root -g root -S /usr/lib/libhandle.a /lib/libhandle.a; ../../install-sh -o root -g root -S /usr/lib/libhandle.la /lib/libhandle.la; ../../install-sh -o root -g root -S /lib/libhandle.so /usr/lib/libhandle.so; fi
+Installing copy-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing db-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing estimate-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing fsck-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing growfs-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing io-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing logprint-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing mkfs-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing quota-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing mdrestore-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing repair-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing rtcp-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing m4-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing man-install-dev
+../../install-sh -o root -g root -m 755 -d /usr/share/man/man3
+../../install-sh -o root -g root -m 644 handle.3 /usr/share/man/man3/path_to_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/path_to_fshandle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/fd_to_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/handle_to_fshandle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/open_by_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/readlink_by_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/attr_multi_by_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/attr_list_by_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/fssetdm_by_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/free_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/getparents_by_handle.3
+../../install-sh -o root -g root -S path_to_handle.3 /usr/share/man/man3/getparentpaths_by_handle.3
+../../install-sh -o root -g root -m 644 xfsctl.3 /usr/share/man/man3/xfsctl.3
+make[2]: Nothing to be done for 'install-dev'.
+make[2]: Nothing to be done for 'install-dev'.
+Installing doc-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing debian-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing spaceman-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing fsr-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing po-install-dev
+make[1]: Nothing to be done for 'install-dev'.
+Installing include-install-dev
+../install-sh -o root -g root -m 755 -d /usr/include/xfs
+../install-sh -o root -g root -m 644 handle.h jdm.h linux.h xfs.h xqm.h xfs_arch.h /usr/include/xfs

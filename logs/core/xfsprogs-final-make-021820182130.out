@@ -1,0 +1,484 @@
+./configure $LOCAL_CONFIGURE_OPTIONS
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for gmake... no
+checking for make... /usr/bin/make
+checking for tar... /bin/tar
+checking for gzip... /usr/bin/gzip
+checking whether gcc -MM is supported... yes
+checking for sort... /usr/bin/sort
+checking whether ln -s works... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for msgmerge... /usr/bin/msgmerge
+checking for xgettext... /usr/bin/xgettext
+checking for rpm... no
+checking uuid.h usability... no
+checking uuid.h presence... no
+checking for uuid.h... no
+checking sys/uuid.h usability... no
+checking sys/uuid.h presence... no
+checking for sys/uuid.h... no
+checking uuid/uuid.h usability... yes
+checking uuid/uuid.h presence... yes
+checking for uuid/uuid.h... yes
+checking for uuid_compare... no
+checking for uuid_compare in -luuid... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_mutex_init in -lpthread... yes
+checking for fadvise ... yes
+checking for madvise ... yes
+checking for mincore ... yes
+checking for sendfile ... yes
+checking for getmntent ... yes
+checking for getmntinfo ... no
+checking for fallocate... yes
+checking for fiemap... yes
+checking for preadv... yes
+checking for copy_file_range... yes
+checking for sync_file_range... yes
+checking for syncfs... yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking whether fls is declared... no
+checking for readdir... yes
+checking whether fsetxattr is declared... yes
+checking whether mremap is declared... yes
+checking for struct fsxattr... yes
+checking for struct fsxattr.fsx_cowextsize... yes
+checking for GETFSMAP... yes
+checking for library containing blkid_probe_all... -lblkid
+checking for blkid_probe_get_topology... yes
+checking size of long... 8
+checking size of char *... 8
+checking for umode_t... no
+configure: creating ./config.status
+config.status: creating include/builddefs
+config.status: creating include/platform_defs.h
+config.status: executing libtool commands
+   [HEADERS] include
+   [HEADERS] libxfs
+Building include
+    [LN]     disk
+Building libxfs
+    [CC]     gen_crc32table
+    [GENERATE] crc32table.h
+    [TEST]    CRC32
+CRC_LE_BITS = 64
+crc32: tests passed, 225944 bytes in 65 usec
+crc32c: tests passed, 225944 bytes in 92 usec
+    [CC]     cache.lo
+    [CC]     crc32.lo
+    [CC]     defer_item.lo
+    [CC]     init.lo
+    [CC]     kmem.lo
+    [CC]     list_sort.lo
+    [CC]     logitem.lo
+    [CC]     radix-tree.lo
+    [CC]     rdwr.lo
+    [CC]     trans.lo
+    [CC]     util.lo
+    [CC]     xfs_ag_resv.lo
+    [CC]     xfs_alloc.lo
+    [CC]     xfs_alloc_btree.lo
+    [CC]     xfs_attr.lo
+    [CC]     xfs_attr_leaf.lo
+    [CC]     xfs_attr_remote.lo
+    [CC]     xfs_bit.lo
+    [CC]     xfs_bmap.lo
+    [CC]     xfs_bmap_btree.lo
+    [CC]     xfs_btree.lo
+    [CC]     xfs_da_btree.lo
+    [CC]     xfs_da_format.lo
+    [CC]     xfs_defer.lo
+    [CC]     xfs_dir2.lo
+    [CC]     xfs_dir2_block.lo
+    [CC]     xfs_dir2_data.lo
+    [CC]     xfs_dir2_leaf.lo
+    [CC]     xfs_dir2_node.lo
+    [CC]     xfs_dir2_sf.lo
+    [CC]     xfs_dquot_buf.lo
+    [CC]     xfs_ialloc.lo
+    [CC]     xfs_inode_buf.lo
+    [CC]     xfs_inode_fork.lo
+    [CC]     xfs_ialloc_btree.lo
+    [CC]     xfs_log_rlimit.lo
+    [CC]     xfs_refcount.lo
+    [CC]     xfs_refcount_btree.lo
+    [CC]     xfs_rmap.lo
+    [CC]     xfs_rmap_btree.lo
+    [CC]     xfs_rtbitmap.lo
+    [CC]     xfs_sb.lo
+    [CC]     xfs_symlink_remote.lo
+    [CC]     xfs_trans_resv.lo
+    [CC]     linux.lo
+    [LD]     libxfs.la
+Building libxlog
+    [CC]     xfs_log_recover.lo
+    [CC]     util.lo
+    [LD]     libxlog.la
+Building libxcmd
+    [CC]     command.lo
+    [CC]     input.lo
+    [CC]     paths.lo
+    [CC]     projects.lo
+    [CC]     help.lo
+    [CC]     quit.lo
+    [CC]     topology.lo
+    [LD]     libxcmd.la
+Building libhandle
+    [CC]     handle.lo
+    [CC]     jdm.lo
+    [LD]     libhandle.la
+Building copy
+    [CC]     xfs_copy.o
+    [LD]     xfs_copy
+Building db
+    [CC]     addr.o
+    [CC]     agf.o
+    [CC]     agfl.o
+    [CC]     agi.o
+    [CC]     attr.o
+    [CC]     attrshort.o
+    [CC]     bit.o
+    [CC]     block.o
+    [CC]     bmap.o
+    [CC]     btblock.o
+    [CC]     bmroot.o
+    [CC]     check.o
+    [CC]     command.o
+    [CC]     convert.o
+    [CC]     crc.o
+    [CC]     debug.o
+    [CC]     dir2.o
+    [CC]     dir2sf.o
+    [CC]     dquot.o
+    [CC]     echo.o
+    [CC]     faddr.o
+    [CC]     field.o
+    [CC]     flist.o
+    [CC]     fprint.o
+    [CC]     frag.o
+    [CC]     freesp.o
+    [CC]     hash.o
+    [CC]     help.o
+    [CC]     init.o
+    [CC]     inode.o
+    [CC]     input.o
+    [CC]     io.o
+    [CC]     logformat.o
+    [CC]     malloc.o
+    [CC]     metadump.o
+    [CC]     output.o
+    [CC]     print.o
+    [CC]     quit.o
+    [CC]     sb.o
+    [CC]     sig.o
+    [CC]     strvec.o
+    [CC]     text.o
+    [CC]     type.o
+    [CC]     write.o
+    [CC]     attrset.o
+    [CC]     symlink.o
+    [CC]     fsmap.o
+    [CC]     btdump.o
+    [LD]     xfs_db
+Building estimate
+    [CC]     xfs_estimate.o
+    [LD]     xfs_estimate
+Building fsck
+Building growfs
+    [CC]     xfs_growfs.o
+    [LD]     xfs_growfs
+Building io
+    [CC]     init.o
+    [CC]     attr.o
+    [CC]     bmap.o
+    [CC]     cowextsize.o
+    [CC]     encrypt.o
+    [CC]     file.o
+    [CC]     freeze.o
+    [CC]     fsync.o
+    [CC]     getrusage.o
+    [CC]     imap.o
+    [CC]     link.o
+    [CC]     mmap.o
+    [CC]     open.o
+    [CC]     parent.o
+    [CC]     pread.o
+    [CC]     prealloc.o
+    [CC]     pwrite.o
+    [CC]     reflink.o
+    [CC]     seek.o
+    [CC]     shutdown.o
+    [CC]     stat.o
+    [CC]     sync.o
+    [CC]     truncate.o
+    [CC]     utimes.o
+    [CC]     fadvise.o
+    [CC]     madvise.o
+    [CC]     mincore.o
+    [CC]     sendfile.o
+    [CC]     fiemap.o
+    [CC]     inject.o
+    [CC]     resblks.o
+    [CC]     copy_file_range.o
+    [CC]     sync_file_range.o
+    [CC]     readdir.o
+    [CC]     fsmap.o
+fsmap.c: In function 'fsmap_f':
+fsmap.c:226:40: warning: '%lld' directive output may be truncated writing between 1 and 17 bytes into a region of size between 12 and 28 [-Wformat-truncation=]
+   snprintf(bbuf, sizeof(bbuf), "[%lld..%lld]:",
+                                        ^~~~
+fsmap.c:226:32: note: directive argument in the range [0, 36028797018963967]
+   snprintf(bbuf, sizeof(bbuf), "[%lld..%lld]:",
+                                ^~~~~~~~~~~~~~~
+fsmap.c:226:3: note: 'snprintf' output between 8 and 40 bytes into a destination of size 32
+   snprintf(bbuf, sizeof(bbuf), "[%lld..%lld]:",
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    (long long)BTOBBT(p->fmr_physical),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    (long long)BTOBBT(p->fmr_physical + p->fmr_length - 1));
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fsmap.c:243:40: warning: '%lld' directive output may be truncated writing between 1 and 17 bytes into a region of size between 13 and 29 [-Wformat-truncation=]
+    snprintf(rbuf, sizeof(rbuf), "%lld..%lld",
+                                        ^~~~
+fsmap.c:243:33: note: directive argument in the range [0, 36028797018963967]
+    snprintf(rbuf, sizeof(rbuf), "%lld..%lld",
+                                 ^~~~~~~~~~~~
+fsmap.c:243:4: note: 'snprintf' output between 5 and 37 bytes into a destination of size 32
+    snprintf(rbuf, sizeof(rbuf), "%lld..%lld",
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     (long long)BTOBBT(p->fmr_offset),
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     (long long)BTOBBT(p->fmr_offset + p->fmr_length - 1));
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fsmap.c:252:13: warning: '%lld' directive output may be truncated writing between 1 and 17 bytes into a region of size between 12 and 28 [-Wformat-truncation=]
+     "(%lld..%lld)",
+             ^~~~
+fsmap.c:252:5: note: directive argument in the range [0, 36028797018963967]
+     "(%lld..%lld)",
+     ^~~~~~~~~~~~~~
+fsmap.c:251:4: note: 'snprintf' output between 7 and 39 bytes into a destination of size 32
+    snprintf(abuf, sizeof(abuf),
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     "(%lld..%lld)",
+     ~~~~~~~~~~~~~~~
+     (long long)BTOBBT(agoff),
+     ~~~~~~~~~~~~~~~~~~~~~~~~~
+     (long long)BTOBBT(agoff + p->fmr_length - 1));
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fsmap.c:303:40: warning: '%lld' directive output may be truncated writing between 1 and 17 bytes into a region of size between 12 and 28 [-Wformat-truncation=]
+   snprintf(bbuf, sizeof(bbuf), "[%lld..%lld]:",
+                                        ^~~~
+fsmap.c:303:32: note: directive argument in the range [0, 36028797018963967]
+   snprintf(bbuf, sizeof(bbuf), "[%lld..%lld]:",
+                                ^~~~~~~~~~~~~~~
+fsmap.c:303:3: note: 'snprintf' output between 8 and 40 bytes into a destination of size 32
+   snprintf(bbuf, sizeof(bbuf), "[%lld..%lld]:",
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    (long long)BTOBBT(p->fmr_physical),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    (long long)BTOBBT(p->fmr_physical + p->fmr_length - 1));
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fsmap.c:313:40: warning: '%lld' directive output may be truncated writing between 1 and 17 bytes into a region of size between 13 and 29 [-Wformat-truncation=]
+    snprintf(rbuf, sizeof(rbuf), "%lld..%lld",
+                                        ^~~~
+fsmap.c:313:33: note: directive argument in the range [0, 36028797018963967]
+    snprintf(rbuf, sizeof(rbuf), "%lld..%lld",
+                                 ^~~~~~~~~~~~
+fsmap.c:313:4: note: 'snprintf' output between 5 and 37 bytes into a destination of size 32
+    snprintf(rbuf, sizeof(rbuf), "%lld..%lld",
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     (long long)BTOBBT(p->fmr_offset),
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     (long long)BTOBBT(p->fmr_offset + p->fmr_length - 1));
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fsmap.c:321:13: warning: '%lld' directive output may be truncated writing between 1 and 17 bytes into a region of size between 12 and 28 [-Wformat-truncation=]
+     "(%lld..%lld)",
+             ^~~~
+fsmap.c:321:5: note: directive argument in the range [0, 36028797018963967]
+     "(%lld..%lld)",
+     ^~~~~~~~~~~~~~
+fsmap.c:320:4: note: 'snprintf' output between 7 and 39 bytes into a destination of size 32
+    snprintf(abuf, sizeof(abuf),
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     "(%lld..%lld)",
+     ~~~~~~~~~~~~~~~
+     (long long)BTOBBT(agoff),
+     ~~~~~~~~~~~~~~~~~~~~~~~~~
+     (long long)BTOBBT(agoff + p->fmr_length - 1));
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    [LD]     xfs_io
+Building logprint
+    [CC]     logprint.o
+    [CC]     log_copy.o
+    [CC]     log_dump.o
+    [CC]     log_misc.o
+    [CC]     log_print_all.o
+    [CC]     log_print_trans.o
+    [CC]     log_redo.o
+    [LD]     xfs_logprint
+Building mkfs
+    [CC]     maxtrres.o
+    [CC]     proto.o
+    [CC]     xfs_mkfs.o
+    [LD]     mkfs.xfs
+Building quota
+    [CC]     init.o
+    [CC]     util.o
+    [CC]     edit.o
+    [CC]     free.o
+    [CC]     path.o
+    [CC]     project.o
+    [CC]     quot.o
+    [CC]     quota.o
+    [CC]     report.o
+    [CC]     state.o
+    [CC]     linux.o
+    [LD]     xfs_quota
+Building mdrestore
+    [CC]     xfs_mdrestore.o
+    [LD]     xfs_mdrestore
+Building repair
+    [CC]     agheader.o
+    [CC]     attr_repair.o
+    [CC]     avl.o
+    [CC]     avl64.o
+    [CC]     bmap.o
+    [CC]     btree.o
+    [CC]     da_util.o
+    [CC]     dino_chunks.o
+    [CC]     dinode.o
+    [CC]     dir2.o
+    [CC]     globals.o
+    [CC]     incore.o
+    [CC]     incore_bmc.o
+    [CC]     init.o
+    [CC]     incore_ext.o
+    [CC]     incore_ino.o
+    [CC]     phase1.o
+    [CC]     phase2.o
+    [CC]     phase3.o
+    [CC]     phase4.o
+    [CC]     phase5.o
+    [CC]     phase6.o
+    [CC]     phase7.o
+    [CC]     progress.o
+    [CC]     prefetch.o
+    [CC]     rmap.o
+    [CC]     rt.o
+    [CC]     sb.o
+    [CC]     scan.o
+    [CC]     slab.o
+    [CC]     threads.o
+    [CC]     versions.o
+    [CC]     xfs_repair.o
+    [LD]     xfs_repair
+Building rtcp
+    [CC]     xfs_rtcp.o
+    [LD]     xfs_rtcp
+Building m4
+Building man
+Building man3
+Building man5
+Building man8
+Building doc
+    [ZIP]    CHANGES.gz
+Building debian
+Building spaceman
+    [CC]     init.o
+    [CC]     file.o
+    [CC]     prealloc.o
+    [CC]     trim.o
+    [CC]     freesp.o
+    [LD]     xfs_spaceman
+Building fsr
+    [CC]     xfs_fsr.o
+    [LD]     xfs_fsr
+Building po
+    [MSGFMT] pl.mo
+2487 translated messages.
+    [MSGFMT] de.mo
+2346 translated messages.
+make[2]: Nothing to be done for 'include'.

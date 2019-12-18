@@ -1,0 +1,227 @@
+make  all-recursive
+make[1]: Entering directory '/lfsbuild/sources/tar-1.30/build'
+Making all in doc
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/doc'
+Making all in gnu
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/gnu'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      getopt.h
+  GEN      getopt-cdefs.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      limits.h
+  GEN      locale.h
+  GEN      selinux/selinux.h
+  GEN      selinux/context.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      unitypes.h
+  GEN      uniwidth.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[3]: Entering directory '/lfsbuild/sources/tar-1.30/build/gnu'
+make[4]: Entering directory '/lfsbuild/sources/tar-1.30/build/gnu'
+  CC       acl-errno-valid.o
+  CC       acl-internal.o
+  CC       get-permissions.o
+  CC       set-permissions.o
+  CC       allocator.o
+  CC       areadlink.o
+  CC       areadlink-with-size.o
+  CC       areadlinkat.o
+  CC       areadlinkat-with-size.o
+  CC       argmatch.o
+  CC       argp-ba.o
+  CC       argp-eexst.o
+  CC       argp-fmtstream.o
+  CC       argp-fs-xinl.o
+  CC       argp-help.o
+  CC       argp-parse.o
+  CC       argp-pin.o
+  CC       argp-pv.o
+  CC       argp-pvh.o
+  CC       argp-xinl.o
+  CC       argp-version-etc.o
+  CC       backupfile.o
+  CC       backup-find.o
+  CC       bitrotate.o
+  CC       c-ctype.o
+  CC       c-strcasecmp.o
+  CC       c-strncasecmp.o
+  CC       careadlinkat.o
+  CC       cloexec.o
+  CC       close-stream.o
+  CC       closeout.o
+  CC       opendir-safer.o
+  CC       dirname.o
+  CC       basename.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exclude.o
+  CC       exitfail.o
+  CC       chmodat.o
+  CC       chownat.o
+  CC       fd-hook.o
+  CC       fd-safer-flag.o
+  CC       dup-safer-flag.o
+  CC       fdutimensat.o
+  CC       file-has-acl.o
+  CC       filenamecat-lgpl.o
+  CC       fprintftime.o
+  CC       full-write.o
+  CC       getprogname.o
+  CC       gettime.o
+  CC       hard-locale.o
+  CC       hash.o
+  CC       human.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       localcharset.o
+  CC       malloca.o
+  CC       mbchar.o
+  CC       mbscasecmp.o
+  CC       mbuiter.o
+  CC       modechange.o
+  CC       nstrftime.o
+  CC       openat-die.o
+  CC       parse-datetime.o
+  CC       priv-set.o
+  CC       progname.o
+  CC       quotearg.o
+  CC       renameat2.o
+  CC       safe-read.o
+  CC       safe-write.o
+  CC       save-cwd.o
+  CC       savedir.o
+  CC       se-context.o
+  CC       se-selinux.o
+  CC       stat-time.o
+  CC       statat.o
+  CC       strnlen1.o
+  CC       tempname.o
+  CC       timespec.o
+  CC       timespec-sub.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       uniwidth/width.o
+  CC       unlinkdir.o
+  CC       utimens.o
+  CC       version-etc.o
+  CC       version-etc-fsf.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       xgetcwd.o
+  CC       xsize.o
+  CC       xstrndup.o
+  CC       xstrtol.o
+  CC       xstrtoul.o
+  CC       xstrtol-error.o
+  CC       xstrtoumax.o
+  CC       xvasprintf.o
+  CC       xasprintf.o
+  CC       asnprintf.o
+  CC       chdir-long.o
+  CC       fcntl.o
+  CC       getopt.o
+  CC       getopt1.o
+  CC       localtime-buffer.o
+  CC       mbrtowc.o
+  CC       mktime.o
+  CC       obstack.o
+  CC       openat-proc.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       selinux-at.o
+  CC       time_rz.o
+  CC       vasnprintf.o
+  AR       libgnu.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[4]: Leaving directory '/lfsbuild/sources/tar-1.30/build/gnu'
+make[3]: Leaving directory '/lfsbuild/sources/tar-1.30/build/gnu'
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/gnu'
+Making all in lib
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/lib'
+  GEN      rmt-command.h
+make  all-am
+make[3]: Entering directory '/lfsbuild/sources/tar-1.30/build/lib'
+  CC       paxerror.o
+  CC       paxexit-status.o
+  CC       paxnames.o
+  CC       rtapelib.o
+  CC       stdopen.o
+  CC       wordsplit.o
+  CC       xattr-at.o
+  AR       libtar.a
+make[3]: Leaving directory '/lfsbuild/sources/tar-1.30/build/lib'
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/lib'
+Making all in rmt
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/rmt'
+  CC       rmt.o
+  CCLD     rmt
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/rmt'
+Making all in src
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/src'
+  CC       buffer.o
+  CC       checkpoint.o
+  CC       compare.o
+  CC       create.o
+  CC       delete.o
+  CC       exit.o
+  CC       exclist.o
+  CC       extract.o
+  CC       xheader.o
+  CC       incremen.o
+  CC       list.o
+  CC       map.o
+  CC       misc.o
+  CC       names.o
+  CC       sparse.o
+  CC       suffix.o
+  CC       system.o
+  CC       tar.o
+  CC       transform.o
+  CC       unlink.o
+  CC       update.o
+  CC       utf8.o
+  CC       warning.o
+  CC       xattrs.o
+  CCLD     tar
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/src'
+Making all in scripts
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/scripts'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/scripts'
+Making all in po
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/po'
+Making all in tests
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build/tests'
+make[2]: Entering directory '/lfsbuild/sources/tar-1.30/build'
+make[2]: Leaving directory '/lfsbuild/sources/tar-1.30/build'
+make[1]: Leaving directory '/lfsbuild/sources/tar-1.30/build'

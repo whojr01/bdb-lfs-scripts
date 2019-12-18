@@ -1,0 +1,86 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libtirpc-1.0.2'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/libtirpc-1.0.2/src'
+  CC       libtirpc_la-auth_none.lo
+  CC       libtirpc_la-auth_unix.lo
+  CC       libtirpc_la-authunix_prot.lo
+  CC       libtirpc_la-bindresvport.lo
+  CC       libtirpc_la-clnt_bcast.lo
+  CC       libtirpc_la-clnt_dg.lo
+  CC       libtirpc_la-clnt_generic.lo
+  CC       libtirpc_la-clnt_perror.lo
+  CC       libtirpc_la-clnt_raw.lo
+  CC       libtirpc_la-clnt_simple.lo
+  CC       libtirpc_la-clnt_vc.lo
+  CC       libtirpc_la-rpc_dtablesize.lo
+  CC       libtirpc_la-getnetconfig.lo
+  CC       libtirpc_la-getnetpath.lo
+  CC       libtirpc_la-getrpcent.lo
+  CC       libtirpc_la-getrpcport.lo
+  CC       libtirpc_la-mt_misc.lo
+  CC       libtirpc_la-pmap_clnt.lo
+  CC       libtirpc_la-pmap_getmaps.lo
+  CC       libtirpc_la-pmap_getport.lo
+  CC       libtirpc_la-pmap_prot.lo
+  CC       libtirpc_la-pmap_prot2.lo
+  CC       libtirpc_la-pmap_rmt.lo
+  CC       libtirpc_la-rpc_prot.lo
+  CC       libtirpc_la-rpc_commondata.lo
+  CC       libtirpc_la-rpc_callmsg.lo
+  CC       libtirpc_la-rpc_generic.lo
+  CC       libtirpc_la-rpc_soc.lo
+  CC       libtirpc_la-rpcb_clnt.lo
+  CC       libtirpc_la-rpcb_prot.lo
+  CC       libtirpc_la-rpcb_st_xdr.lo
+  CC       libtirpc_la-svc.lo
+  CC       libtirpc_la-svc_auth.lo
+  CC       libtirpc_la-svc_dg.lo
+  CC       libtirpc_la-svc_auth_unix.lo
+  CC       libtirpc_la-svc_auth_none.lo
+  CC       libtirpc_la-svc_auth_des.lo
+  CC       libtirpc_la-svc_generic.lo
+  CC       libtirpc_la-svc_raw.lo
+  CC       libtirpc_la-svc_run.lo
+  CC       libtirpc_la-svc_simple.lo
+  CC       libtirpc_la-svc_vc.lo
+  CC       libtirpc_la-getpeereid.lo
+  CC       libtirpc_la-auth_time.lo
+  CC       libtirpc_la-auth_des.lo
+  CC       libtirpc_la-authdes_prot.lo
+  CC       libtirpc_la-debug.lo
+  CC       libtirpc_la-des_crypt.lo
+  CC       libtirpc_la-des_impl.lo
+des_impl.c: In function '_des_crypt':
+des_impl.c:591:3: warning: implicit declaration of function '__bzero'; did you mean 'bzero'? [-Wimplicit-function-declaration]
+   __bzero (schedule, sizeof (schedule));
+   ^~~~~~~
+   bzero
+  CC       libtirpc_la-xdr.lo
+  CC       libtirpc_la-xdr_rec.lo
+  CC       libtirpc_la-xdr_array.lo
+  CC       libtirpc_la-xdr_float.lo
+  CC       libtirpc_la-xdr_mem.lo
+  CC       libtirpc_la-xdr_reference.lo
+  CC       libtirpc_la-xdr_stdio.lo
+  CC       libtirpc_la-xdr_sizeof.lo
+  CC       libtirpc_la-key_call.lo
+  CC       libtirpc_la-key_prot_xdr.lo
+  CC       libtirpc_la-getpublickey.lo
+  CC       libtirpc_la-netname.lo
+  CC       libtirpc_la-netnamer.lo
+  CC       libtirpc_la-rpcdname.lo
+  CC       libtirpc_la-rtime.lo
+  CCLD     libtirpc.la
+make[2]: Leaving directory '/lfskernel/sources/boot/libtirpc-1.0.2/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/libtirpc-1.0.2/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libtirpc-1.0.2/man'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libtirpc-1.0.2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libtirpc-1.0.2/doc'
+make[2]: Entering directory '/lfskernel/sources/boot/libtirpc-1.0.2'
+make[2]: Leaving directory '/lfskernel/sources/boot/libtirpc-1.0.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/libtirpc-1.0.2'

@@ -1,0 +1,275 @@
+The Meson build system
+Version: 0.44.0
+Source dir: /lfskernel/sources/boot/glib-2.54.3
+Build dir: /lfskernel/sources/boot/glib-2.54.3/build-glib
+Build type: native build
+Project name: glib
+Native C compiler: cc (gcc 7.2.0)
+Native C++ compiler: c++ (gcc 7.2.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Compiler for C supports argument -fvisibility=hidden: YES
+Has header "stdlib.h": YES
+Has header "string.h": YES
+Has header "strings.h": YES
+Has header "memory.h": YES
+Has header "alloca.h": YES
+Has header "locale.h": YES
+Has header "xlocale.h": NO
+Has header "float.h": YES
+Has header "limits.h": YES
+Has header "pwd.h": YES
+Has header "grp.h": YES
+Has header "poll.h": YES
+Has header "termios.h": YES
+Has header "sys/param.h": YES
+Has header "sys/resource.h": YES
+Has header "mach/mach_time.h": NO
+Has header "sys/select.h": YES
+Has header "stdint.h": YES
+Has header "inttypes.h": YES
+Has header "sched.h": YES
+Has header "malloc.h": YES
+Has header "sys/vfs.h": YES
+Has header "sys/vmount.h": NO
+Has header "sys/statfs.h": YES
+Has header "sys/statvfs.h": YES
+Has header "sys/filio.h": NO
+Has header "mntent.h": YES
+Has header "sys/mnttab.h": NO
+Has header "sys/vfstab.h": NO
+Has header "sys/mntctl.h": NO
+Has header "fstab.h": YES
+Has header "linux/magic.h": YES
+Has header "termios.h": YES
+Has header "dirent.h": YES
+Has header "sys/time.h": YES
+Has header "sys/times.h": YES
+Has header "sys/wait.h": YES
+Has header "unistd.h": YES
+Has header "values.h": YES
+Has header "sys/types.h": YES
+Has header "sys/uio.h": YES
+Has header "sys/mkdev.h": NO
+Has header "sys/mount.h": YES
+Has header "sys/sysctl.h": YES
+Has header "crt_externs.h": NO
+Has header "sys/inotify.h": YES
+Has header "sys/event.h": NO
+Has header "sys/stat.h": YES
+Has header "linux/netlink.h": YES
+Header <locale.h> has symbol "LC_MESSAGES": YES
+Checking whether type "struct stat" has member "st_mtimensec": NO
+Checking whether type "struct stat" has member "st_mtim.tv_nsec": YES
+Checking whether type "struct stat" has member "st_atimensec": NO
+Checking whether type "struct stat" has member "st_atim.tv_nsec": YES
+Checking whether type "struct stat" has member "st_ctimensec": NO
+Checking whether type "struct stat" has member "st_ctim.tv_nsec": YES
+Checking whether type "struct stat" has member "st_birthtime": NO
+Checking whether type "struct stat" has member "st_birthtimensec": NO
+Checking whether type "struct stat" has member "st_birthtim": NO
+Checking whether type "struct stat" has member "st_birthtim.tv_nsec": NO
+Checking whether type "struct stat" has member "st_blksize": YES
+Checking whether type "struct stat" has member "st_blocks": YES
+Checking whether type "struct statfs" has member "f_fstypename": NO
+Checking whether type "struct statfs" has member "f_bavail": YES
+Checking whether type "struct dirent" has member "d_type": YES
+Checking for function "alloca": YES
+Checking for function "mmap": YES
+Checking for function "posix_memalign": YES
+Checking for function "memalign": YES
+Checking for function "valloc": YES
+Checking for function "fsync": YES
+Checking for function "pipe2": YES
+Checking for function "issetugid": NO
+Checking for function "timegm": YES
+Checking for function "gmtime_r": YES
+Checking for function "strerror_r": YES
+Checking for function "lstat": YES
+Checking for function "strsignal": YES
+Checking for function "vsnprintf": YES
+Checking for function "stpcpy": YES
+Checking for function "poll": YES
+Checking for function "vasprintf": YES
+Checking for function "setenv": YES
+Checking for function "unsetenv": YES
+Checking for function "getc_unlocked": YES
+Checking for function "readlink": YES
+Checking for function "symlink": YES
+Checking for function "fdwalk": NO
+Checking for function "lchmod": NO
+Checking for function "lchown": YES
+Checking for function "fchmod": YES
+Checking for function "fchown": YES
+Checking for function "utimes": YES
+Checking for function "getresuid": YES
+Checking for function "getmntent_r": YES
+Checking for function "setmntent": YES
+Checking for function "endmntent": YES
+Checking for function "hasmntopt": YES
+Checking for function "getfsstat": NO
+Checking for function "getvfsstat": NO
+Checking for function "fallocate": YES
+Checking for function "localtime_r": YES
+Checking for function "gmtime_r": YES
+Checking for function "getpwuid_r": YES
+Checking for function "getgrgid_r": YES
+Checking for function "prlimit": YES
+Checking for function "strnlen": YES
+Checking for function "wcslen": YES
+Checking for function "wcsnlen": YES
+Checking for function "mbrtowc": YES
+Checking for function "wcrtomb": YES
+Checking for function "newlocale": YES
+Checking for function "uselocale": YES
+Checking for function "strtod_l": YES
+Checking for function "strtoll_l": YES
+Checking for function "strtoull_l": YES
+Checking for function "inotify_init1": YES
+Checking for function "kqueue": NO
+Checking for function "kevent": NO
+Checking for function "endservent": YES
+Checking for function "sendmmsg": YES
+Checking for function "recvmmsg": YES
+Checking for function "statvfs": YES
+Checking for function "statfs": YES
+Checking for function "if_indextoname": YES
+Checking for function "if_nametoindex": YES
+Checking for function "splice": YES
+Checking if "strerror_r() returns char *" compiles: YES
+Checking for function "snprintf": YES
+Checking for function "strcasecmp": YES
+Checking for function "strncasecmp": YES
+Header <sys/sysmacros.h> has symbol "major": YES
+Header <dlfcn.h> has symbol "RTLD_LAZY": YES
+Header <dlfcn.h> has symbol "RTLD_NOW": YES
+Header <dlfcn.h> has symbol "RTLD_GLOBAL": YES
+Message: Checking whether to use statfs or statvfs .. statfs
+Checking if "Mac OS X Carbon support" compiles: NO
+Checking if "Mac OS X Cocoa support" compiles: NO
+Checking if "futex(2) system call" links: YES
+Checking if "eventfd(2) system call" links: YES
+Checking if "clock_gettime" links: YES
+Checking if "number of arguments to statfs() (n=2)" compiles: YES
+Checking if "open() option O_DIRECTORY" compiles: YES
+Checking if "C99 vsnprintf" runs: YES
+Checking if "C99 snprintf" runs: YES
+Checking if "nl_langinfo and CODESET" links: YES
+Checking if "nl_langinfo (PM_STR)" links: YES
+Checking if "nl_langinfo (_NL_CTYPE_OUTDIGITn_MB)" links: YES
+Checking if "signed" compiles: YES
+Header <stddef.h> has symbol "ptrdiff_t": YES
+Checking if "sig_atomic_t" links: YES
+Checking if "long long" compiles: YES
+Checking if "long double" compiles: YES
+Header <stddef.h> has symbol "wchar_t": YES
+Header <wchar.h> has symbol "wint_t": YES
+Checking if "uintmax_t in inttypes.h" compiles: YES
+Checking if "uintmax_t in stdint.h" compiles: YES
+Checking for size of "char": 1
+Checking for size of "short": 2
+Checking for size of "int": 4
+Checking for size of "void*": 8
+Checking for size of "long": 8
+Checking for size of "long long": 8
+Checking for size of "size_t": 8
+Checking for size of "ssize_t": 8
+Checking for alignment of "char": 1
+Checking for alignment of "short": 2
+Checking for alignment of "int": 4
+Checking for alignment of "void*": 8
+Checking for alignment of "long": 8
+Checking for alignment of "long long": 8
+Checking for alignment of "size_t": 8
+Checking if "__va_copy check" compiles: YES
+Checking if "va_copy check" compiles: YES
+Checking if "va_lists can be copied as values" compiles: NO
+Checking if "ISO C99 varargs macros in C" compiles: YES
+Checking if "ISO C99 varargs macros in C++" compiles: YES
+Checking if "GNUC varargs macros" compiles: YES
+Has header "alloca.h": YES
+Has header "sys/poll.h": YES
+Has header "sys/types.h": YES
+Has header "winsock2.h": NO
+Checking if "POLLIN value" runs: YES
+Checking if "POLLOUT value" runs: YES
+Checking if "POLLPRI value" runs: YES
+Checking if "POLLERR value" runs: YES
+Checking if "POLLHUP value" runs: YES
+Checking if "POLLNVAL value" runs: YES
+Checking if "AF_UNIX value" runs: YES
+Checking if "AF_INET value" runs: YES
+Checking if "AF_INET6 value" runs: YES
+Checking if "MSG_OOB value" runs: YES
+Checking if "MSG_PEEK value" runs: YES
+Checking if "MSG_DONTROUTE value" runs: YES
+Dependency threads found: YES
+Header <pthread.h> has symbol "pthread_attr_setstacksize": YES
+Header <pthread.h> has symbol "pthread_condattr_setclock": YES
+Header <pthread.h> has symbol "pthread_cond_timedwait_relative_np": NO
+Checking if "pthread_setname_np(const char*)" links: NO
+Checking if "pthread_setname_np(pthread_t, const char*)" links: YES
+Checking if "stack grows check" runs: NO (1)
+Checking for function "iconv_open": YES
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Native dependency libpcre found: YES 8.41
+Library m found: YES
+Native dependency libffi found: YES 3.2.1
+Native dependency zlib found: YES 1.2.11
+Library intl found: NO
+Header <libintl.h> has symbol "dcgettext": YES
+Program xgettext found: YES (/usr/bin/xgettext)
+Native dependency mount found: YES 2.31.1
+Program bash found: YES (/bin/bash)
+Program m4 found: YES (/usr/bin/m4)
+Program sh found: YES (/bin/sh)
+Configuring glibconfig.h using configuration
+WARNING: The variable(s) 'glib_static_compilation' in the input file glib/glibconfig.h.in are not present in the given configuration data
+Configuring libglib-2.0.so.0.5400.3-gdb.py using configuration
+Program xmllint found: YES (/usr/bin/xmllint)
+Configuring glib-genmarshal using configuration
+Configuring glib-mkenums using configuration
+Configuring libgobject-2.0.so.0.5400.3-gdb.py using configuration
+Checking if "dlopen() and dlsym() in system libraries" links: NO
+Checking for function "NSLinkModule": NO
+Checking if "dlopen() and dlsym() in libdl" links: YES
+Library dl found: YES
+Checking if "dlsym() preceding underscores" runs: NO (1)
+Checking for function "dlerror": YES
+Configuring gmoduleconf.h using configuration
+Checking if "res_query()" links: NO
+Checking if "res_query() in -lresolv" links: YES
+Library resolv found: YES
+Checking if "socket()" links: YES
+Checking if "res_init()" links: YES
+Checking if "struct ip_mreqn" compiles: YES
+Configuring gnetworking.h using configuration
+Configuring gdbus-codegen using configuration
+Configuring config.py using configuration
+Configuring __init__.py using configuration
+Configuring codegen.py using configuration
+Configuring codegen_main.py using configuration
+Configuring codegen_docbook.py using configuration
+Configuring dbustypes.py using configuration
+Configuring parser.py using configuration
+Configuring utils.py using configuration
+Native dependency libelf found: YES 0.170
+Program gengiotypefuncs.py found: YES (/usr/bin/env python3 /lfskernel/sources/boot/glib-2.54.3/gio/tests/gengiotypefuncs.py)
+Native dependency dbus-1 found: YES 1.12.2
+Program dbus-daemon found: YES (/usr/bin/dbus-daemon)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring test-generated.txt using configuration
+Configuring gobject-2.0.pc using configuration
+Configuring glib-2.0.pc using configuration
+WARNING: The variable(s) 'CARBON_LIBS', 'COCOA_LIBS', 'GLIB_EXTRA_CFLAGS', 'G_LIBS_EXTRA', 'ICONV_LIBS', 'INTLLIBS' in the input file glib-2.0.pc.in are not present in the given configuration data
+Configuring gthread-2.0.pc using configuration
+Configuring gmodule-2.0.pc using configuration
+Configuring gmodule-export-2.0.pc using configuration
+Configuring gmodule-no-export-2.0.pc using configuration
+Configuring gio-2.0.pc using configuration
+WARNING: The variable(s) 'CARBON_LIBS', 'COCOA_LIBS', 'SELINUX_LIBS' in the input file gio-2.0.pc.in are not present in the given configuration data
+Configuring gio-unix-2.0.pc using configuration
+Configuring glib-gettextize using configuration
+Configuring config.h using configuration
+Build targets in project: 275
+Found ninja-1.8.2 at /usr/bin/ninja

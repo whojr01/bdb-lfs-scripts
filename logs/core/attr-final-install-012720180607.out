@@ -1,0 +1,284 @@
+/tools/bin/gmake include libmisc libattr attr getfattr setfattr examples test m4 man doc po debian package
+gmake[1]: Entering directory '/sources/attr-2.4.47'
+/tools/bin/gmake -C include
+gmake[2]: Entering directory '/sources/attr-2.4.47/include'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/include'
+/tools/bin/gmake -C libmisc
+gmake[2]: Entering directory '/sources/attr-2.4.47/libmisc'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/libmisc'
+/tools/bin/gmake -C libattr
+gmake[2]: Entering directory '/sources/attr-2.4.47/libattr'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/libattr'
+/tools/bin/gmake -C attr
+gmake[2]: Entering directory '/sources/attr-2.4.47/attr'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/attr'
+/tools/bin/gmake -C getfattr
+gmake[2]: Entering directory '/sources/attr-2.4.47/getfattr'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/getfattr'
+/tools/bin/gmake -C setfattr
+gmake[2]: Entering directory '/sources/attr-2.4.47/setfattr'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/setfattr'
+/tools/bin/gmake -C examples
+gmake[2]: Entering directory '/sources/attr-2.4.47/examples'
+rm -f copyattr dep dep.bak *.[1-9].gz *.tmpo *.mo       
+gmake[2]: Leaving directory '/sources/attr-2.4.47/examples'
+/tools/bin/gmake -C test
+gmake[2]: Entering directory '/sources/attr-2.4.47/test'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/test'
+/tools/bin/gmake -C m4
+gmake[2]: Entering directory '/sources/attr-2.4.47/m4'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/m4'
+/tools/bin/gmake -C man
+gmake[2]: Entering directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C man1
+gmake[3]: Entering directory '/sources/attr-2.4.47/man/man1'
+gmake[3]: Nothing to be done for 'default'.
+gmake[3]: Leaving directory '/sources/attr-2.4.47/man/man1'
+/tools/bin/gmake -C man3
+gmake[3]: Entering directory '/sources/attr-2.4.47/man/man3'
+gmake[3]: Nothing to be done for 'default'.
+gmake[3]: Leaving directory '/sources/attr-2.4.47/man/man3'
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C doc
+gmake[2]: Entering directory '/sources/attr-2.4.47/doc'
+gmake[2]: 'default' is up to date.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/doc'
+/tools/bin/gmake -C po
+gmake[2]: Entering directory '/sources/attr-2.4.47/po'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/po'
+/tools/bin/gmake -C debian
+gmake[2]: Entering directory '/sources/attr-2.4.47/debian'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/debian'
+/tools/bin/gmake -C package
+gmake[2]: Entering directory '/sources/attr-2.4.47/package'
+gmake[2]: Nothing to be done for 'default'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/package'
+gmake[1]: Leaving directory '/sources/attr-2.4.47'
+/tools/bin/gmake -C include install
+gmake[1]: Entering directory '/sources/attr-2.4.47/include'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/include'
+/tools/bin/gmake -C libmisc install
+gmake[1]: Entering directory '/sources/attr-2.4.47/libmisc'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/libmisc'
+/tools/bin/gmake -C libattr install
+gmake[1]: Entering directory '/sources/attr-2.4.47/libattr'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/libattr'
+/tools/bin/gmake -C attr install
+gmake[1]: Entering directory '/sources/attr-2.4.47/attr'
+../include/install-sh -o root -g root -m 755 -d /usr/bin
+/bin/sh ../libtool --mode=install ../include/install-sh -o root -g root -m 755 attr /usr/bin
+libtool: warning: '../libattr/libattr.la' has not been installed in '/usr/lib'
+libtool: install: ../include/install-sh -o root -g root -m 755 .libs/attr /usr/bin/attr
+gmake[1]: Leaving directory '/sources/attr-2.4.47/attr'
+/tools/bin/gmake -C getfattr install
+gmake[1]: Entering directory '/sources/attr-2.4.47/getfattr'
+../include/install-sh -o root -g root -m 755 -d /usr/bin
+/bin/sh ../libtool --mode=install ../include/install-sh -o root -g root -m 755 getfattr /usr/bin
+libtool: warning: '../libattr/libattr.la' has not been installed in '/usr/lib'
+libtool: install: ../include/install-sh -o root -g root -m 755 .libs/getfattr /usr/bin/getfattr
+gmake[1]: Leaving directory '/sources/attr-2.4.47/getfattr'
+/tools/bin/gmake -C setfattr install
+gmake[1]: Entering directory '/sources/attr-2.4.47/setfattr'
+../include/install-sh -o root -g root -m 755 -d /usr/bin
+/bin/sh ../libtool --mode=install ../include/install-sh -o root -g root -m 755 setfattr /usr/bin
+libtool: warning: '../libattr/libattr.la' has not been installed in '/usr/lib'
+libtool: install: ../include/install-sh -o root -g root -m 755 .libs/setfattr /usr/bin/setfattr
+gmake[1]: Leaving directory '/sources/attr-2.4.47/setfattr'
+/tools/bin/gmake -C examples install
+gmake[1]: Entering directory '/sources/attr-2.4.47/examples'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/examples'
+/tools/bin/gmake -C test install
+gmake[1]: Entering directory '/sources/attr-2.4.47/test'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/test'
+/tools/bin/gmake -C m4 install
+gmake[1]: Entering directory '/sources/attr-2.4.47/m4'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/m4'
+/tools/bin/gmake -C man install
+gmake[1]: Entering directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C man1 install
+gmake[2]: Entering directory '/sources/attr-2.4.47/man/man1'
+../../include/install-sh -o root -g root -m 755 -d /usr/share/man/man1
+../../include/install-sh -o root -g root -m 644 attr.1 /usr/share/man/man1/attr.1
+../../include/install-sh -o root -g root -m 644 getfattr.1 /usr/share/man/man1/getfattr.1
+../../include/install-sh -o root -g root -m 644 setfattr.1 /usr/share/man/man1/setfattr.1
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man/man1'
+/tools/bin/gmake -C man3 install
+gmake[2]: Entering directory '/sources/attr-2.4.47/man/man3'
+gmake[2]: Nothing to be done for 'install'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man/man3'
+gmake[1]: Leaving directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C doc install
+gmake[1]: Entering directory '/sources/attr-2.4.47/doc'
+../include/install-sh -o root -g root -m 755 -d /usr/share/doc/attr-2.4.47
+../include/install-sh -o root -g root -m 644 PORTING CHANGES.gz /usr/share/doc/attr-2.4.47
+../include/install-sh -o root -g root -m 644 COPYING /usr/share/doc/attr-2.4.47
+../include/install-sh -o root -g root -m 644 COPYING.LGPL /usr/share/doc/attr-2.4.47
+gmake[1]: Leaving directory '/sources/attr-2.4.47/doc'
+/tools/bin/gmake -C po install
+gmake[1]: Entering directory '/sources/attr-2.4.47/po'
+gmake[1]: Leaving directory '/sources/attr-2.4.47/po'
+/tools/bin/gmake -C debian install
+gmake[1]: Entering directory '/sources/attr-2.4.47/debian'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/debian'
+/tools/bin/gmake -C package install
+gmake[1]: Entering directory '/sources/attr-2.4.47/package'
+gmake[1]: Nothing to be done for 'install'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/package'
+./include/install-sh -o root -g root -m 755 -d /usr/share/doc/attr-2.4.47
+./include/install-sh -o root -g root -m 644 README /usr/share/doc/attr-2.4.47
+/tools/bin/gmake -C include install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/include'
+../include/install-sh -o root -g root -m 755 -d /usr/include/attr
+../include/install-sh -o root -g root -m 644 attributes.h xattr.h error_context.h libattr.h /usr/include/attr
+gmake[1]: Leaving directory '/sources/attr-2.4.47/include'
+/tools/bin/gmake -C libmisc install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/libmisc'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/libmisc'
+/tools/bin/gmake -C libattr install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/libattr'
+cd ../libattr/.libs; ../../include/install-sh -o root -g root -m 755 -d /usr/lib; ../../include/install-sh -o root -g root -m 644 -T old_lib libattr.lai /usr/lib; ../../include/install-sh -o root -g root -m 644 libattr.lai /usr/lib/libattr.la ; ../../include/install-sh -o root -g root -m 755 -d /usr/lib; ../../include/install-sh -o root -g root -T so_base libattr.lai /usr/lib; if test "x/usr/lib" != "x/usr/lib" ; then ../../include/install-sh -o root -g root -S /usr/lib/libattr.a /usr/lib/libattr.a; ../../include/install-sh -o root -g root -S /usr/lib/libattr.la /usr/lib/libattr.la; ../../include/install-sh -o root -g root -S /usr/lib/libattr.so /usr/lib/libattr.so; fi
+cp: missing destination file operand after '//usr/lib/'
+Try 'cp --help' for more information.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/libattr'
+/tools/bin/gmake -C attr install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/attr'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/attr'
+/tools/bin/gmake -C getfattr install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/getfattr'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/getfattr'
+/tools/bin/gmake -C setfattr install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/setfattr'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/setfattr'
+/tools/bin/gmake -C examples install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/examples'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/examples'
+/tools/bin/gmake -C test install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/test'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/test'
+/tools/bin/gmake -C m4 install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/m4'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/m4'
+/tools/bin/gmake -C man install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C man1 install-dev
+gmake[2]: Entering directory '/sources/attr-2.4.47/man/man1'
+gmake[2]: Nothing to be done for 'install-dev'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man/man1'
+/tools/bin/gmake -C man3 install-dev
+gmake[2]: Entering directory '/sources/attr-2.4.47/man/man3'
+../../include/install-sh -o root -g root -m 755 -d /usr/share/man/man3
+../../include/install-sh -o root -g root -m 644 attr_get.3 /usr/share/man/man3/attr_get.3
+../../include/install-sh -o root -g root -S attr_get.3 /usr/share/man/man3/attr_getf.3
+../../include/install-sh -o root -g root -m 644 attr_list.3 /usr/share/man/man3/attr_list.3
+../../include/install-sh -o root -g root -S attr_list.3 /usr/share/man/man3/attr_listf.3
+../../include/install-sh -o root -g root -m 644 attr_multi.3 /usr/share/man/man3/attr_multi.3
+../../include/install-sh -o root -g root -S attr_multi.3 /usr/share/man/man3/attr_multif.3
+../../include/install-sh -o root -g root -m 644 attr_remove.3 /usr/share/man/man3/attr_remove.3
+../../include/install-sh -o root -g root -S attr_remove.3 /usr/share/man/man3/attr_removef.3
+../../include/install-sh -o root -g root -m 644 attr_set.3 /usr/share/man/man3/attr_set.3
+../../include/install-sh -o root -g root -S attr_set.3 /usr/share/man/man3/attr_setf.3
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man/man3'
+gmake[1]: Leaving directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C doc install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/doc'
+gmake[1]: 'install-dev' is up to date.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/doc'
+/tools/bin/gmake -C po install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/po'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/po'
+/tools/bin/gmake -C debian install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/debian'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/debian'
+/tools/bin/gmake -C package install-dev
+gmake[1]: Entering directory '/sources/attr-2.4.47/package'
+gmake[1]: Nothing to be done for 'install-dev'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/package'
+/tools/bin/gmake -C include install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/include'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/include'
+/tools/bin/gmake -C libmisc install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/libmisc'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/libmisc'
+/tools/bin/gmake -C libattr install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/libattr'
+cd ../libattr/.libs; ../../include/install-sh -o root -g root -m 755 -d /usr/lib; ../../include/install-sh -o root -g root -m 644 -T so_dot_version libattr.lai /usr/lib; ../../include/install-sh -o root -g root -T so_dot_current libattr.lai /usr/lib
+gmake[1]: Leaving directory '/sources/attr-2.4.47/libattr'
+/tools/bin/gmake -C attr install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/attr'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/attr'
+/tools/bin/gmake -C getfattr install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/getfattr'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/getfattr'
+/tools/bin/gmake -C setfattr install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/setfattr'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/setfattr'
+/tools/bin/gmake -C examples install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/examples'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/examples'
+/tools/bin/gmake -C test install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/test'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/test'
+/tools/bin/gmake -C m4 install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/m4'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/m4'
+/tools/bin/gmake -C man install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C man1 install-lib
+gmake[2]: Entering directory '/sources/attr-2.4.47/man/man1'
+gmake[2]: Nothing to be done for 'install-lib'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man/man1'
+/tools/bin/gmake -C man3 install-lib
+gmake[2]: Entering directory '/sources/attr-2.4.47/man/man3'
+gmake[2]: Nothing to be done for 'install-lib'.
+gmake[2]: Leaving directory '/sources/attr-2.4.47/man/man3'
+gmake[1]: Leaving directory '/sources/attr-2.4.47/man'
+/tools/bin/gmake -C doc install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/doc'
+gmake[1]: 'install-lib' is up to date.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/doc'
+/tools/bin/gmake -C po install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/po'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/po'
+/tools/bin/gmake -C debian install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/debian'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/debian'
+/tools/bin/gmake -C package install-lib
+gmake[1]: Entering directory '/sources/attr-2.4.47/package'
+gmake[1]: Nothing to be done for 'install-lib'.
+gmake[1]: Leaving directory '/sources/attr-2.4.47/package'

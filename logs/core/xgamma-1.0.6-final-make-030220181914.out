@@ -1,0 +1,14 @@
+###############################
+# Make xgamma-1.0.6.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xgamma-1.0.6'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xgamma-1.0.6/man'
+  GEN      xgamma.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xgamma-1.0.6/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xgamma-1.0.6'
+  CC       xgamma.o
+  CCLD     xgamma
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xgamma-1.0.6'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xgamma-1.0.6'

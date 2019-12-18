@@ -1,0 +1,80 @@
+###############################
+# Install libXaw-1.0.13.tar.bz2 #
+###############################
+Making install in include
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/include'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/X11/Xaw'
+ /usr/bin/install -c -m 644 X11/Xaw/AllWidgets.h X11/Xaw/AsciiSink.h X11/Xaw/AsciiSinkP.h X11/Xaw/AsciiSrc.h X11/Xaw/AsciiSrcP.h X11/Xaw/AsciiText.h X11/Xaw/AsciiTextP.h X11/Xaw/Box.h X11/Xaw/BoxP.h X11/Xaw/Cardinals.h X11/Xaw/Command.h X11/Xaw/CommandP.h X11/Xaw/Dialog.h X11/Xaw/DialogP.h X11/Xaw/Form.h X11/Xaw/FormP.h X11/Xaw/Grip.h X11/Xaw/GripP.h X11/Xaw/Label.h X11/Xaw/LabelP.h X11/Xaw/List.h X11/Xaw/ListP.h X11/Xaw/MenuButton.h X11/Xaw/MenuButtoP.h X11/Xaw/MultiSrc.h X11/Xaw/MultiSrcP.h X11/Xaw/MultiSink.h X11/Xaw/MultiSinkP.h X11/Xaw/Paned.h X11/Xaw/PanedP.h X11/Xaw/Panner.h X11/Xaw/PannerP.h X11/Xaw/Porthole.h X11/Xaw/PortholeP.h X11/Xaw/Repeater.h X11/Xaw/RepeaterP.h X11/Xaw/Reports.h X11/Xaw/Scrollbar.h X11/Xaw/ScrollbarP.h X11/Xaw/Simple.h '/usr/include/X11/Xaw'
+ /usr/bin/install -c -m 644 X11/Xaw/SimpleP.h X11/Xaw/SimpleMenu.h X11/Xaw/SimpleMenP.h X11/Xaw/Sme.h X11/Xaw/SmeP.h X11/Xaw/SmeBSB.h X11/Xaw/SmeBSBP.h X11/Xaw/SmeLine.h X11/Xaw/SmeLineP.h X11/Xaw/StripChart.h X11/Xaw/StripCharP.h X11/Xaw/Template.c X11/Xaw/Template.h X11/Xaw/TemplateP.h X11/Xaw/Text.h X11/Xaw/TextP.h X11/Xaw/TextSink.h X11/Xaw/TextSinkP.h X11/Xaw/TextSrc.h X11/Xaw/TextSrcP.h X11/Xaw/Tip.h X11/Xaw/TipP.h X11/Xaw/Toggle.h X11/Xaw/ToggleP.h X11/Xaw/Tree.h X11/Xaw/TreeP.h X11/Xaw/VendorEP.h X11/Xaw/Viewport.h X11/Xaw/ViewportP.h X11/Xaw/XawImP.h X11/Xaw/XawInit.h '/usr/include/X11/Xaw'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/include'
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libXaw6.la libXaw7.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libXaw6.so.6.0.1 /usr/lib/libXaw6.so.6.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libXaw6.so.6.0.1 libXaw6.so.6 || { rm -f libXaw6.so.6 && ln -s libXaw6.so.6.0.1 libXaw6.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libXaw6.so.6.0.1 libXaw6.so || { rm -f libXaw6.so && ln -s libXaw6.so.6.0.1 libXaw6.so; }; })
+libtool: install: /usr/bin/install -c .libs/libXaw6.lai /usr/lib/libXaw6.la
+libtool: install: /usr/bin/install -c .libs/libXaw7.so.7.0.0 /usr/lib/libXaw7.so.7.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libXaw7.so.7.0.0 libXaw7.so.7 || { rm -f libXaw7.so.7 && ln -s libXaw7.so.7.0.0 libXaw7.so.7; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libXaw7.so.7.0.0 libXaw7.so || { rm -f libXaw7.so && ln -s libXaw7.so.7.0.0 libXaw7.so; }; })
+libtool: install: /usr/bin/install -c .libs/libXaw7.lai /usr/lib/libXaw7.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/src'
+  GEN      install-exec-hook
+  GEN      install-exec-hook
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/src'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/src'
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 Xaw.3 '/usr/share/man/man3'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/man'
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libXaw'
+ /usr/bin/install -c -m 644 libXaw.xml AsciiSink.xml AsciiSource.xml AsciiText.xml Box.xml CH1.xml CH2.xml CH3.xml CH4.xml CH5.xml CH6.xml CH7.xml Command.xml Dialog.xml Form.xml Grip.xml Label.xml List.xml MenuButton.xml Paned.xml Panner.xml Porthole.xml Repeater.xml Scrollbar.xml SimpleMenu.xml Simple.xml SmeBSB.xml SmeLine.xml Sme.xml StripChart.xml Template_private_header_file.xml Template_public_header_file.xml Template_widget_source_file.xml Template.xml TextActions_default_translation_bindings.xml TextActions_text_widget_actions.xml TextActions.xml TextCustom.xml TextFuncs.xml TextSink.xml '/usr/share/doc/libXaw'
+ /usr/bin/install -c -m 644 TextSource.xml Text.xml Toggle.xml TPage_Credits.xml Tree.xml Viewport.xml '/usr/share/doc/libXaw'
+ /bin/mkdir -p '/usr/share/doc/libXaw'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13'
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13'
+cd /usr/lib && rm -f libXaw.so && ln -s libXaw7.so libXaw.so
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xaw6.pc xaw7.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXaw-1.0.13'

@@ -1,0 +1,50 @@
+###############################
+# Install libdmx-1.1.3.tar.bz2 #
+###############################
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/src'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdmx.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libdmx.so.1.0.0 /usr/lib/libdmx.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libdmx.so.1.0.0 libdmx.so.1 || { rm -f libdmx.so.1 && ln -s libdmx.so.1.0.0 libdmx.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdmx.so.1.0.0 libdmx.so || { rm -f libdmx.so && ln -s libdmx.so.1.0.0 libdmx.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdmx.lai /usr/lib/libdmx.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/X11/extensions'
+ /usr/bin/install -c -m 644 ../include/X11/extensions/dmxext.h '/usr/include/X11/extensions'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/src'
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 DMX.3 DMXAddInput.3 DMXAddScreen.3 DMXChangeDesktopAttributes.3 DMXChangeScreensAttributes.3 DMXForceWindowCreation.3 DMXGetDesktopAttributes.3 DMXGetInputAttributes.3 DMXGetInputCount.3 DMXGetScreenAttributes.3 DMXGetScreenCount.3 DMXGetWindowAttributes.3 DMXQueryExtension.3 DMXQueryVersion.3 DMXRemoveInput.3 DMXRemoveScreen.3 DMXSync.3 '/usr/share/man/man3'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3/man'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dmx.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libdmx-1.1.3'

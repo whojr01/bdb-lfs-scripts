@@ -1,0 +1,274 @@
+make  check-recursive
+make[1]: Entering directory '/sources/procps-ng-3.3.12/build'
+Making check in include
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/include'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/include'
+Making check in man-po
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/man-po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/man-po'
+Making check in po
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/po'
+Making check in testsuite
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/testsuite'
+make  check-DEJAGNU
+make[3]: Entering directory '/sources/procps-ng-3.3.12/build/testsuite'
+Making a new site.exp file ...
+srcdir='../../testsuite'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='pmap slabtop sysctl  free lib pgrep pkill ps pwdx uptime vmstat w'; for tool in $l; do \
+    if runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:57 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== pmap tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/pmap.test/pmap.exp ...
+FAIL: pmap X with unreachable process
+FAIL: pmap XX with unreachable process
+
+		=== pmap Summary ===
+
+# of expected passes		9
+# of unexpected failures	2
+/sources/procps-ng-3.3.12/build/pmap version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:57 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== slabtop tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/slabtop.test/slabtop.exp ...
+
+		=== slabtop Summary ===
+
+# of expected passes		8
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:57 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== sysctl tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/sysctl.test/sysctl_read.exp ...
+
+		=== sysctl Summary ===
+
+# of expected passes		5
+/sources/procps-ng-3.3.12/build/sysctl version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:58 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== free tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/free.test/free.exp ...
+
+		=== free Summary ===
+
+# of expected passes		12
+/sources/procps-ng-3.3.12/build/free version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:59 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== lib tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/lib.test/fileutils.exp ...
+Running ../../testsuite/lib.test/strutils.exp ...
+
+		=== lib Summary ===
+
+# of expected passes		8
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:59 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== pgrep tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+
+		=== pgrep Summary ===
+
+/sources/procps-ng-3.3.12/build/pgrep version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:59 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== pkill tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/pkill.test/pkill.exp ...
+
+		=== pkill Summary ===
+
+# of expected passes		3
+/sources/procps-ng-3.3.12/build/pkill version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:59 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== ps tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/ps.test/ps_output.exp ...
+Running ../../testsuite/ps.test/ps_personality.exp ...
+Running ../../testsuite/ps.test/ps_sched_batch.exp ...
+
+		=== ps Summary ===
+
+# of expected passes		9
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:59 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== pwdx tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/pwdx.test/pwdx.exp ...
+
+		=== pwdx Summary ===
+
+# of expected passes		3
+/sources/procps-ng-3.3.12/build/pwdx version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:59 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== uptime tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/uptime.test/uptime.exp ...
+
+		=== uptime Summary ===
+
+# of expected passes		2
+/sources/procps-ng-3.3.12/build/uptime version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:27:59 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== vmstat tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/vmstat.test/vmstat.exp ...
+
+		=== vmstat Summary ===
+
+# of expected passes		6
+/sources/procps-ng-3.3.12/build/vmstat version 3.3.12
+
+WARNING: Couldn't find tool init file
+Test run by root on Mon Jan 29 21:28:00 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== w tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /tools/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /tools/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ../../testsuite/config/unix.exp as tool-and-target-specific interface file.
+Running ../../testsuite/w.test/w.exp ...
+
+		=== w Summary ===
+
+# of expected passes		7
+/sources/procps-ng-3.3.12/build/w version 3.3.12
+
+make[3]: *** [Makefile:520: check-DEJAGNU] Error 1
+make[3]: Leaving directory '/sources/procps-ng-3.3.12/build/testsuite'
+make[2]: *** [Makefile:592: check-am] Error 2
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/testsuite'
+make[1]: *** [Makefile:1672: check-recursive] Error 1
+make[1]: Leaving directory '/sources/procps-ng-3.3.12/build'
+make: *** [Makefile:2128: check] Error 2

@@ -1,0 +1,34 @@
+for x in libbridge brctl doc; do make  -C $x || exit 1 ; done
+make[1]: Entering directory '/lfskernel/sources/boot/bridge-utils-1.6/libbridge'
+gcc -Wall -g -I/usr/src/linux/include  -c libbridge_devif.c
+gcc -Wall -g -I/usr/src/linux/include  -c libbridge_if.c
+gcc -Wall -g -I/usr/src/linux/include  -c libbridge_init.c
+In file included from libbridge_init.c:29:0:
+libbridge_init.c: In function 'isbridge':
+libbridge_private.h:32:25: warning: '%s' directive output may be truncated writing up to 255 bytes into a region of size 241 [-Wformat-truncation=]
+ #define SYSFS_CLASS_NET "/sys/class/net/"
+                         ^
+libbridge_init.c:60:4: note: in expansion of macro 'SYSFS_CLASS_NET'
+    SYSFS_CLASS_NET "%s/bridge", entry->d_name);
+    ^~~~~~~~~~~~~~~
+libbridge_init.c:204:50: note: format string is defined here
+  snprintf(path, SYSFS_PATH_MAX, SYSFS_CLASS_NET "%s/brif", brname);
+                                                  ^~
+libbridge_init.c:59:2: note: 'snprintf' output between 23 and 278 bytes into a destination of size 256
+  snprintf(path, SYSFS_PATH_MAX,
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    SYSFS_CLASS_NET "%s/bridge", entry->d_name);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -Wall -g -I/usr/src/linux/include  -c libbridge_misc.c
+ar rcs libbridge.a libbridge_devif.o libbridge_if.o libbridge_init.o libbridge_misc.o
+ranlib libbridge.a
+make[1]: Leaving directory '/lfskernel/sources/boot/bridge-utils-1.6/libbridge'
+make[1]: Entering directory '/lfskernel/sources/boot/bridge-utils-1.6/brctl'
+gcc -Wall -g -O2 -I../libbridge -I/usr/src/linux/include  -c brctl.c 
+gcc -Wall -g -O2 -I../libbridge -I/usr/src/linux/include  -c brctl_cmd.c 
+gcc -Wall -g -O2 -I../libbridge -I/usr/src/linux/include  -c brctl_disp.c 
+gcc  brctl.o brctl_cmd.o brctl_disp.o -L ../libbridge -lbridge  -o brctl
+make[1]: Leaving directory '/lfskernel/sources/boot/bridge-utils-1.6/brctl'
+make[1]: Entering directory '/lfskernel/sources/boot/bridge-utils-1.6/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/lfskernel/sources/boot/bridge-utils-1.6/doc'

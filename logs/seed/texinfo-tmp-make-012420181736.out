@@ -1,0 +1,940 @@
+make  all-recursive
+make[1]: Entering directory '/lfsbuild/sources/texinfo-6.5/build'
+Making all in gnulib/lib
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/gnulib/lib'
+rm -f alloca.h-t alloca.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ../../../gnulib/lib/alloca.in.h; \
+} > alloca.h-t && \
+mv -f alloca.h-t alloca.h
+rm -f configmake.h-t && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  echo '#define PREFIX "/tools"'; \
+  echo '#define EXEC_PREFIX "/tools"'; \
+  echo '#define BINDIR "/tools/bin"'; \
+  echo '#define SBINDIR "/tools/sbin"'; \
+  echo '#define LIBEXECDIR "/tools/libexec"'; \
+  echo '#define DATAROOTDIR "/tools/share"'; \
+  echo '#define DATADIR "/tools/share"'; \
+  echo '#define SYSCONFDIR "/tools/etc"'; \
+  echo '#define SHAREDSTATEDIR "/tools/com"'; \
+  echo '#define LOCALSTATEDIR "/tools/var"'; \
+  echo '#define RUNSTATEDIR "/tools/var/run"'; \
+  echo '#define INCLUDEDIR "/tools/include"'; \
+  echo '#define OLDINCLUDEDIR "/usr/include"'; \
+  echo '#define DOCDIR "/tools/share/doc/texinfo"'; \
+  echo '#define INFODIR "/tools/share/info"'; \
+  echo '#define HTMLDIR "/tools/share/doc/texinfo"'; \
+  echo '#define DVIDIR "/tools/share/doc/texinfo"'; \
+  echo '#define PDFDIR "/tools/share/doc/texinfo"'; \
+  echo '#define PSDIR "/tools/share/doc/texinfo"'; \
+  echo '#define LIBDIR "/tools/lib"'; \
+  echo '#define LISPDIR "/tools/share/emacs/site-lisp"'; \
+  echo '#define LOCALEDIR "/tools/share/locale"'; \
+  echo '#define MANDIR "/tools/share/man"'; \
+  echo '#define MANEXT ""'; \
+  echo '#define PKGDATADIR "/tools/share/texinfo"'; \
+  echo '#define PKGINCLUDEDIR "/tools/include/texinfo"'; \
+  echo '#define PKGLIBDIR "/tools/lib/texinfo"'; \
+  echo '#define PKGLIBEXECDIR "/tools/libexec/texinfo"'; \
+} | sed '/""/d' > configmake.h-t && \
+mv -f configmake.h-t configmake.h
+rm -f limits.h-t limits.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_LIMITS_H''@|<limits.h>|g' \
+      < ../../../gnulib/lib/limits.in.h; \
+} > limits.h-t && \
+mv limits.h-t limits.h
+rm -f stdio.h-t stdio.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STDIO_H''@|<stdio.h>|g' \
+      -e 's/@''GNULIB_DPRINTF''@/0/g' \
+      -e 's/@''GNULIB_FCLOSE''@/0/g' \
+      -e 's/@''GNULIB_FDOPEN''@/0/g' \
+      -e 's/@''GNULIB_FFLUSH''@/0/g' \
+      -e 's/@''GNULIB_FGETC''@/1/g' \
+      -e 's/@''GNULIB_FGETS''@/1/g' \
+      -e 's/@''GNULIB_FOPEN''@/0/g' \
+      -e 's/@''GNULIB_FPRINTF''@/1/g' \
+      -e 's/@''GNULIB_FPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_FPURGE''@/0/g' \
+      -e 's/@''GNULIB_FPUTC''@/1/g' \
+      -e 's/@''GNULIB_FPUTS''@/1/g' \
+      -e 's/@''GNULIB_FREAD''@/1/g' \
+      -e 's/@''GNULIB_FREOPEN''@/0/g' \
+      -e 's/@''GNULIB_FSCANF''@/1/g' \
+      -e 's/@''GNULIB_FSEEK''@/0/g' \
+      -e 's/@''GNULIB_FSEEKO''@/0/g' \
+      -e 's/@''GNULIB_FTELL''@/0/g' \
+      -e 's/@''GNULIB_FTELLO''@/0/g' \
+      -e 's/@''GNULIB_FWRITE''@/1/g' \
+      -e 's/@''GNULIB_GETC''@/1/g' \
+      -e 's/@''GNULIB_GETCHAR''@/1/g' \
+      -e 's/@''GNULIB_GETDELIM''@/0/g' \
+      -e 's/@''GNULIB_GETLINE''@/0/g' \
+      -e 's/@''GNULIB_OBSTACK_PRINTF''@/0/g' \
+      -e 's/@''GNULIB_OBSTACK_PRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_PCLOSE''@/0/g' \
+      -e 's/@''GNULIB_PERROR''@/0/g' \
+      -e 's/@''GNULIB_POPEN''@/0/g' \
+      -e 's/@''GNULIB_PRINTF''@/1/g' \
+      -e 's/@''GNULIB_PRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_PUTC''@/1/g' \
+      -e 's/@''GNULIB_PUTCHAR''@/1/g' \
+      -e 's/@''GNULIB_PUTS''@/1/g' \
+      -e 's/@''GNULIB_REMOVE''@/0/g' \
+      -e 's/@''GNULIB_RENAME''@/0/g' \
+      -e 's/@''GNULIB_RENAMEAT''@/0/g' \
+      -e 's/@''GNULIB_SCANF''@/1/g' \
+      -e 's/@''GNULIB_SNPRINTF''@/0/g' \
+      -e 's/@''GNULIB_SPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_STDIO_H_NONBLOCKING''@/0/g' \
+      -e 's/@''GNULIB_STDIO_H_SIGPIPE''@/0/g' \
+      -e 's/@''GNULIB_TMPFILE''@/0/g' \
+      -e 's/@''GNULIB_VASPRINTF''@/1/g' \
+      -e 's/@''GNULIB_VDPRINTF''@/0/g' \
+      -e 's/@''GNULIB_VFPRINTF''@/1/g' \
+      -e 's/@''GNULIB_VFPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_VFSCANF''@/0/g' \
+      -e 's/@''GNULIB_VSCANF''@/0/g' \
+      -e 's/@''GNULIB_VPRINTF''@/1/g' \
+      -e 's/@''GNULIB_VPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_VSNPRINTF''@/0/g' \
+      -e 's/@''GNULIB_VSPRINTF_POSIX''@/0/g' \
+      < ../../../gnulib/lib/stdio.in.h | \
+  sed -e 's|@''HAVE_DECL_FPURGE''@|1|g' \
+      -e 's|@''HAVE_DECL_FSEEKO''@|1|g' \
+      -e 's|@''HAVE_DECL_FTELLO''@|1|g' \
+      -e 's|@''HAVE_DECL_GETDELIM''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLINE''@|1|g' \
+      -e 's|@''HAVE_DECL_OBSTACK_PRINTF''@|1|g' \
+      -e 's|@''HAVE_DECL_SNPRINTF''@|1|g' \
+      -e 's|@''HAVE_DECL_VSNPRINTF''@|1|g' \
+      -e 's|@''HAVE_DPRINTF''@|1|g' \
+      -e 's|@''HAVE_FSEEKO''@|1|g' \
+      -e 's|@''HAVE_FTELLO''@|1|g' \
+      -e 's|@''HAVE_PCLOSE''@|1|g' \
+      -e 's|@''HAVE_POPEN''@|1|g' \
+      -e 's|@''HAVE_RENAMEAT''@|1|g' \
+      -e 's|@''HAVE_VASPRINTF''@|1|g' \
+      -e 's|@''HAVE_VDPRINTF''@|1|g' \
+      -e 's|@''REPLACE_DPRINTF''@|0|g' \
+      -e 's|@''REPLACE_FCLOSE''@|0|g' \
+      -e 's|@''REPLACE_FDOPEN''@|0|g' \
+      -e 's|@''REPLACE_FFLUSH''@|0|g' \
+      -e 's|@''REPLACE_FOPEN''@|0|g' \
+      -e 's|@''REPLACE_FPRINTF''@|0|g' \
+      -e 's|@''REPLACE_FPURGE''@|0|g' \
+      -e 's|@''REPLACE_FREOPEN''@|0|g' \
+      -e 's|@''REPLACE_FSEEK''@|0|g' \
+      -e 's|@''REPLACE_FSEEKO''@|0|g' \
+      -e 's|@''REPLACE_FTELL''@|0|g' \
+      -e 's|@''REPLACE_FTELLO''@|0|g' \
+      -e 's|@''REPLACE_GETDELIM''@|0|g' \
+      -e 's|@''REPLACE_GETLINE''@|0|g' \
+      -e 's|@''REPLACE_OBSTACK_PRINTF''@|0|g' \
+      -e 's|@''REPLACE_PERROR''@|0|g' \
+      -e 's|@''REPLACE_POPEN''@|0|g' \
+      -e 's|@''REPLACE_PRINTF''@|0|g' \
+      -e 's|@''REPLACE_REMOVE''@|0|g' \
+      -e 's|@''REPLACE_RENAME''@|0|g' \
+      -e 's|@''REPLACE_RENAMEAT''@|0|g' \
+      -e 's|@''REPLACE_SNPRINTF''@|0|g' \
+      -e 's|@''REPLACE_SPRINTF''@|0|g' \
+      -e 's|@''REPLACE_STDIO_READ_FUNCS''@|0|g' \
+      -e 's|@''REPLACE_STDIO_WRITE_FUNCS''@|0|g' \
+      -e 's|@''REPLACE_TMPFILE''@|0|g' \
+      -e 's|@''REPLACE_VASPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VDPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VFPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VSNPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VSPRINTF''@|0|g' \
+      -e 's|@''ASM_SYMBOL_PREFIX''@||g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ../../../gnulib/lib/c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ../../../gnulib/lib/arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ../../../gnulib/lib/warn-on-use.h'; \
+} > stdio.h-t && \
+mv stdio.h-t stdio.h
+rm -f stdlib.h-t stdlib.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STDLIB_H''@|<stdlib.h>|g' \
+      -e 's/@''GNULIB__EXIT''@/0/g' \
+      -e 's/@''GNULIB_ATOLL''@/0/g' \
+      -e 's/@''GNULIB_CALLOC_POSIX''@/0/g' \
+      -e 's/@''GNULIB_CANONICALIZE_FILE_NAME''@/0/g' \
+      -e 's/@''GNULIB_GETLOADAVG''@/0/g' \
+      -e 's/@''GNULIB_GETSUBOPT''@/0/g' \
+      -e 's/@''GNULIB_GRANTPT''@/0/g' \
+      -e 's/@''GNULIB_MALLOC_POSIX''@/1/g' \
+      -e 's/@''GNULIB_MBTOWC''@/0/g' \
+      -e 's/@''GNULIB_MKDTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKOSTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKOSTEMPS''@/0/g' \
+      -e 's/@''GNULIB_MKSTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKSTEMPS''@/0/g' \
+      -e 's/@''GNULIB_POSIX_OPENPT''@/0/g' \
+      -e 's/@''GNULIB_PTSNAME''@/0/g' \
+      -e 's/@''GNULIB_PTSNAME_R''@/0/g' \
+      -e 's/@''GNULIB_PUTENV''@/0/g' \
+      -e 's/@''GNULIB_QSORT_R''@/0/g' \
+      -e 's/@''GNULIB_RANDOM''@/0/g' \
+      -e 's/@''GNULIB_RANDOM_R''@/0/g' \
+      -e 's/@''GNULIB_REALLOC_POSIX''@/0/g' \
+      -e 's/@''GNULIB_REALPATH''@/0/g' \
+      -e 's/@''GNULIB_RPMATCH''@/0/g' \
+      -e 's/@''GNULIB_SECURE_GETENV''@/0/g' \
+      -e 's/@''GNULIB_SETENV''@/0/g' \
+      -e 's/@''GNULIB_STRTOD''@/0/g' \
+      -e 's/@''GNULIB_STRTOLL''@/0/g' \
+      -e 's/@''GNULIB_STRTOULL''@/0/g' \
+      -e 's/@''GNULIB_SYSTEM_POSIX''@/0/g' \
+      -e 's/@''GNULIB_UNLOCKPT''@/0/g' \
+      -e 's/@''GNULIB_UNSETENV''@/0/g' \
+      -e 's/@''GNULIB_WCTOMB''@/0/g' \
+      < ../../../gnulib/lib/stdlib.in.h | \
+  sed -e 's|@''HAVE__EXIT''@|1|g' \
+      -e 's|@''HAVE_ATOLL''@|1|g' \
+      -e 's|@''HAVE_CANONICALIZE_FILE_NAME''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOADAVG''@|1|g' \
+      -e 's|@''HAVE_GETSUBOPT''@|1|g' \
+      -e 's|@''HAVE_GRANTPT''@|1|g' \
+      -e 's|@''HAVE_MKDTEMP''@|1|g' \
+      -e 's|@''HAVE_MKOSTEMP''@|1|g' \
+      -e 's|@''HAVE_MKOSTEMPS''@|1|g' \
+      -e 's|@''HAVE_MKSTEMP''@|1|g' \
+      -e 's|@''HAVE_MKSTEMPS''@|1|g' \
+      -e 's|@''HAVE_POSIX_OPENPT''@|1|g' \
+      -e 's|@''HAVE_PTSNAME''@|1|g' \
+      -e 's|@''HAVE_PTSNAME_R''@|1|g' \
+      -e 's|@''HAVE_QSORT_R''@|1|g' \
+      -e 's|@''HAVE_RANDOM''@|1|g' \
+      -e 's|@''HAVE_RANDOM_H''@|1|g' \
+      -e 's|@''HAVE_RANDOM_R''@|1|g' \
+      -e 's|@''HAVE_REALPATH''@|1|g' \
+      -e 's|@''HAVE_RPMATCH''@|1|g' \
+      -e 's|@''HAVE_SECURE_GETENV''@|1|g' \
+      -e 's|@''HAVE_DECL_SETENV''@|1|g' \
+      -e 's|@''HAVE_STRTOD''@|1|g' \
+      -e 's|@''HAVE_STRTOLL''@|1|g' \
+      -e 's|@''HAVE_STRTOULL''@|1|g' \
+      -e 's|@''HAVE_STRUCT_RANDOM_DATA''@|1|g' \
+      -e 's|@''HAVE_SYS_LOADAVG_H''@|0|g' \
+      -e 's|@''HAVE_UNLOCKPT''@|1|g' \
+      -e 's|@''HAVE_DECL_UNSETENV''@|1|g' \
+      -e 's|@''REPLACE_CALLOC''@|0|g' \
+      -e 's|@''REPLACE_CANONICALIZE_FILE_NAME''@|0|g' \
+      -e 's|@''REPLACE_MALLOC''@|0|g' \
+      -e 's|@''REPLACE_MBTOWC''@|0|g' \
+      -e 's|@''REPLACE_MKSTEMP''@|0|g' \
+      -e 's|@''REPLACE_PTSNAME''@|0|g' \
+      -e 's|@''REPLACE_PTSNAME_R''@|0|g' \
+      -e 's|@''REPLACE_PUTENV''@|0|g' \
+      -e 's|@''REPLACE_QSORT_R''@|0|g' \
+      -e 's|@''REPLACE_RANDOM_R''@|0|g' \
+      -e 's|@''REPLACE_REALLOC''@|0|g' \
+      -e 's|@''REPLACE_REALPATH''@|0|g' \
+      -e 's|@''REPLACE_SETENV''@|0|g' \
+      -e 's|@''REPLACE_STRTOD''@|0|g' \
+      -e 's|@''REPLACE_UNSETENV''@|0|g' \
+      -e 's|@''REPLACE_WCTOMB''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ../../../gnulib/lib/c++defs.h' \
+      -e '/definition of _Noreturn/r ../../../gnulib/lib/_Noreturn.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ../../../gnulib/lib/arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ../../../gnulib/lib/warn-on-use.h'; \
+} > stdlib.h-t && \
+mv stdlib.h-t stdlib.h
+rm -f string.h-t string.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STRING_H''@|<string.h>|g' \
+      -e 's/@''GNULIB_FFSL''@/0/g' \
+      -e 's/@''GNULIB_FFSLL''@/0/g' \
+      -e 's/@''GNULIB_MBSLEN''@/1/g' \
+      -e 's/@''GNULIB_MBSNLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSCHR''@/1/g' \
+      -e 's/@''GNULIB_MBSRCHR''@/0/g' \
+      -e 's/@''GNULIB_MBSSTR''@/1/g' \
+      -e 's/@''GNULIB_MBSCASECMP''@/1/g' \
+      -e 's/@''GNULIB_MBSNCASECMP''@/1/g' \
+      -e 's/@''GNULIB_MBSPCASECMP''@/0/g' \
+      -e 's/@''GNULIB_MBSCASESTR''@/0/g' \
+      -e 's/@''GNULIB_MBSCSPN''@/0/g' \
+      -e 's/@''GNULIB_MBSPBRK''@/0/g' \
+      -e 's/@''GNULIB_MBSSPN''@/0/g' \
+      -e 's/@''GNULIB_MBSSEP''@/0/g' \
+      -e 's/@''GNULIB_MBSTOK_R''@/0/g' \
+      -e 's/@''GNULIB_MEMCHR''@/1/g' \
+      -e 's/@''GNULIB_MEMMEM''@/0/g' \
+      -e 's/@''GNULIB_MEMPCPY''@/0/g' \
+      -e 's/@''GNULIB_MEMRCHR''@/1/g' \
+      -e 's/@''GNULIB_RAWMEMCHR''@/0/g' \
+      -e 's/@''GNULIB_STPCPY''@/0/g' \
+      -e 's/@''GNULIB_STPNCPY''@/0/g' \
+      -e 's/@''GNULIB_STRCHRNUL''@/0/g' \
+      -e 's/@''GNULIB_STRDUP''@/1/g' \
+      -e 's/@''GNULIB_STRNCAT''@/0/g' \
+      -e 's/@''GNULIB_STRNDUP''@/0/g' \
+      -e 's/@''GNULIB_STRNLEN''@/1/g' \
+      -e 's/@''GNULIB_STRPBRK''@/0/g' \
+      -e 's/@''GNULIB_STRSEP''@/0/g' \
+      -e 's/@''GNULIB_STRSTR''@/0/g' \
+      -e 's/@''GNULIB_STRCASESTR''@/1/g' \
+      -e 's/@''GNULIB_STRTOK_R''@/0/g' \
+      -e 's/@''GNULIB_STRERROR''@/1/g' \
+      -e 's/@''GNULIB_STRERROR_R''@/0/g' \
+      -e 's/@''GNULIB_STRSIGNAL''@/0/g' \
+      -e 's/@''GNULIB_STRVERSCMP''@/0/g' \
+      < ../../../gnulib/lib/string.in.h | \
+  sed -e 's|@''HAVE_FFSL''@|1|g' \
+      -e 's|@''HAVE_FFSLL''@|1|g' \
+      -e 's|@''HAVE_MBSLEN''@|0|g' \
+      -e 's|@''HAVE_MEMCHR''@|1|g' \
+      -e 's|@''HAVE_DECL_MEMMEM''@|1|g' \
+      -e 's|@''HAVE_MEMPCPY''@|1|g' \
+      -e 's|@''HAVE_DECL_MEMRCHR''@|1|g' \
+      -e 's|@''HAVE_RAWMEMCHR''@|1|g' \
+      -e 's|@''HAVE_STPCPY''@|1|g' \
+      -e 's|@''HAVE_STPNCPY''@|1|g' \
+      -e 's|@''HAVE_STRCHRNUL''@|1|g' \
+      -e 's|@''HAVE_DECL_STRDUP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNDUP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNLEN''@|1|g' \
+      -e 's|@''HAVE_STRPBRK''@|1|g' \
+      -e 's|@''HAVE_STRSEP''@|1|g' \
+      -e 's|@''HAVE_STRCASESTR''@|1|g' \
+      -e 's|@''HAVE_DECL_STRTOK_R''@|1|g' \
+      -e 's|@''HAVE_DECL_STRERROR_R''@|1|g' \
+      -e 's|@''HAVE_DECL_STRSIGNAL''@|1|g' \
+      -e 's|@''HAVE_STRVERSCMP''@|1|g' \
+      -e 's|@''REPLACE_STPNCPY''@|0|g' \
+      -e 's|@''REPLACE_MEMCHR''@|0|g' \
+      -e 's|@''REPLACE_MEMMEM''@|0|g' \
+      -e 's|@''REPLACE_STRCASESTR''@|0|g' \
+      -e 's|@''REPLACE_STRCHRNUL''@|0|g' \
+      -e 's|@''REPLACE_STRDUP''@|0|g' \
+      -e 's|@''REPLACE_STRSTR''@|0|g' \
+      -e 's|@''REPLACE_STRERROR''@|0|g' \
+      -e 's|@''REPLACE_STRERROR_R''@|0|g' \
+      -e 's|@''REPLACE_STRNCAT''@|0|g' \
+      -e 's|@''REPLACE_STRNDUP''@|0|g' \
+      -e 's|@''REPLACE_STRNLEN''@|0|g' \
+      -e 's|@''REPLACE_STRSIGNAL''@|0|g' \
+      -e 's|@''REPLACE_STRTOK_R''@|0|g' \
+      -e 's|@''UNDEFINE_STRTOK_R''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ../../../gnulib/lib/c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ../../../gnulib/lib/arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ../../../gnulib/lib/warn-on-use.h'; \
+      < ../../../gnulib/lib/string.in.h; \
+} > string.h-t && \
+mv string.h-t string.h
+rm -f strings.h-t strings.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''HAVE_STRINGS_H''@|1|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STRINGS_H''@|<strings.h>|g' \
+      -e 's|@''GNULIB_FFS''@|0|g' \
+      -e 's|@''HAVE_FFS''@|1|g' \
+      -e 's|@''HAVE_STRCASECMP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNCASECMP''@|1|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ../../../gnulib/lib/c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ../../../gnulib/lib/arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ../../../gnulib/lib/warn-on-use.h' \
+      < ../../../gnulib/lib/strings.in.h; \
+} > strings.h-t && \
+mv strings.h-t strings.h
+/tools/bin/mkdir -p sys
+rm -f sys/types.h-t sys/types.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_SYS_TYPES_H''@|<sys/types.h>|g' \
+      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+      -e 's|@''WINDOWS_STAT_INODES''@|0|g' \
+      < ../../../gnulib/lib/sys_types.in.h; \
+} > sys/types.h-t && \
+mv sys/types.h-t sys/types.h
+rm -f unistd.h-t unistd.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''HAVE_UNISTD_H''@|1|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_UNISTD_H''@|<unistd.h>|g' \
+      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+      -e 's/@''GNULIB_CHDIR''@/0/g' \
+      -e 's/@''GNULIB_CHOWN''@/0/g' \
+      -e 's/@''GNULIB_CLOSE''@/0/g' \
+      -e 's/@''GNULIB_DUP''@/0/g' \
+      -e 's/@''GNULIB_DUP2''@/0/g' \
+      -e 's/@''GNULIB_DUP3''@/0/g' \
+      -e 's/@''GNULIB_ENVIRON''@/0/g' \
+      -e 's/@''GNULIB_EUIDACCESS''@/0/g' \
+      -e 's/@''GNULIB_FACCESSAT''@/0/g' \
+      -e 's/@''GNULIB_FCHDIR''@/0/g' \
+      -e 's/@''GNULIB_FCHOWNAT''@/0/g' \
+      -e 's/@''GNULIB_FDATASYNC''@/0/g' \
+      -e 's/@''GNULIB_FSYNC''@/0/g' \
+      -e 's/@''GNULIB_FTRUNCATE''@/0/g' \
+      -e 's/@''GNULIB_GETCWD''@/0/g' \
+      -e 's/@''GNULIB_GETDOMAINNAME''@/0/g' \
+      -e 's/@''GNULIB_GETDTABLESIZE''@/0/g' \
+      -e 's/@''GNULIB_GETGROUPS''@/0/g' \
+      -e 's/@''GNULIB_GETHOSTNAME''@/0/g' \
+      -e 's/@''GNULIB_GETLOGIN''@/0/g' \
+      -e 's/@''GNULIB_GETLOGIN_R''@/0/g' \
+      -e 's/@''GNULIB_GETPAGESIZE''@/0/g' \
+      -e 's/@''GNULIB_GETUSERSHELL''@/0/g' \
+      -e 's/@''GNULIB_GROUP_MEMBER''@/0/g' \
+      -e 's/@''GNULIB_ISATTY''@/0/g' \
+      -e 's/@''GNULIB_LCHOWN''@/0/g' \
+      -e 's/@''GNULIB_LINK''@/0/g' \
+      -e 's/@''GNULIB_LINKAT''@/0/g' \
+      -e 's/@''GNULIB_LSEEK''@/0/g' \
+      -e 's/@''GNULIB_PIPE''@/0/g' \
+      -e 's/@''GNULIB_PIPE2''@/0/g' \
+      -e 's/@''GNULIB_PREAD''@/0/g' \
+      -e 's/@''GNULIB_PWRITE''@/0/g' \
+      -e 's/@''GNULIB_READ''@/0/g' \
+      -e 's/@''GNULIB_READLINK''@/0/g' \
+      -e 's/@''GNULIB_READLINKAT''@/0/g' \
+      -e 's/@''GNULIB_RMDIR''@/0/g' \
+      -e 's/@''GNULIB_SETHOSTNAME''@/0/g' \
+      -e 's/@''GNULIB_SLEEP''@/0/g' \
+      -e 's/@''GNULIB_SYMLINK''@/0/g' \
+      -e 's/@''GNULIB_SYMLINKAT''@/0/g' \
+      -e 's/@''GNULIB_TRUNCATE''@/0/g' \
+      -e 's/@''GNULIB_TTYNAME_R''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_GETOPT''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_NONBLOCKING''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_SIGPIPE''@/0/g' \
+      -e 's/@''GNULIB_UNLINK''@/0/g' \
+      -e 's/@''GNULIB_UNLINKAT''@/0/g' \
+      -e 's/@''GNULIB_USLEEP''@/0/g' \
+      -e 's/@''GNULIB_WRITE''@/0/g' \
+      < ../../../gnulib/lib/unistd.in.h | \
+  sed -e 's|@''HAVE_CHOWN''@|1|g' \
+      -e 's|@''HAVE_DUP2''@|1|g' \
+      -e 's|@''HAVE_DUP3''@|1|g' \
+      -e 's|@''HAVE_EUIDACCESS''@|1|g' \
+      -e 's|@''HAVE_FACCESSAT''@|1|g' \
+      -e 's|@''HAVE_FCHDIR''@|1|g' \
+      -e 's|@''HAVE_FCHOWNAT''@|1|g' \
+      -e 's|@''HAVE_FDATASYNC''@|1|g' \
+      -e 's|@''HAVE_FSYNC''@|1|g' \
+      -e 's|@''HAVE_FTRUNCATE''@|1|g' \
+      -e 's|@''HAVE_GETDTABLESIZE''@|1|g' \
+      -e 's|@''HAVE_GETGROUPS''@|1|g' \
+      -e 's|@''HAVE_GETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_GETPAGESIZE''@|1|g' \
+      -e 's|@''HAVE_GROUP_MEMBER''@|1|g' \
+      -e 's|@''HAVE_LCHOWN''@|1|g' \
+      -e 's|@''HAVE_LINK''@|1|g' \
+      -e 's|@''HAVE_LINKAT''@|1|g' \
+      -e 's|@''HAVE_PIPE''@|1|g' \
+      -e 's|@''HAVE_PIPE2''@|1|g' \
+      -e 's|@''HAVE_PREAD''@|1|g' \
+      -e 's|@''HAVE_PWRITE''@|1|g' \
+      -e 's|@''HAVE_READLINK''@|1|g' \
+      -e 's|@''HAVE_READLINKAT''@|1|g' \
+      -e 's|@''HAVE_SETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_SLEEP''@|1|g' \
+      -e 's|@''HAVE_SYMLINK''@|1|g' \
+      -e 's|@''HAVE_SYMLINKAT''@|1|g' \
+      -e 's|@''HAVE_TRUNCATE''@|1|g' \
+      -e 's|@''HAVE_UNLINKAT''@|1|g' \
+      -e 's|@''HAVE_USLEEP''@|1|g' \
+      -e 's|@''HAVE_DECL_ENVIRON''@|1|g' \
+      -e 's|@''HAVE_DECL_FCHDIR''@|1|g' \
+      -e 's|@''HAVE_DECL_FDATASYNC''@|1|g' \
+      -e 's|@''HAVE_DECL_GETDOMAINNAME''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOGIN''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOGIN_R''@|1|g' \
+      -e 's|@''HAVE_DECL_GETPAGESIZE''@|1|g' \
+      -e 's|@''HAVE_DECL_GETUSERSHELL''@|1|g' \
+      -e 's|@''HAVE_DECL_SETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_DECL_TTYNAME_R''@|1|g' \
+      -e 's|@''HAVE_OS_H''@|0|g' \
+      -e 's|@''HAVE_SYS_PARAM_H''@|0|g' \
+  | \
+  sed -e 's|@''REPLACE_CHOWN''@|0|g' \
+      -e 's|@''REPLACE_CLOSE''@|0|g' \
+      -e 's|@''REPLACE_DUP''@|0|g' \
+      -e 's|@''REPLACE_DUP2''@|0|g' \
+      -e 's|@''REPLACE_FCHOWNAT''@|0|g' \
+      -e 's|@''REPLACE_FTRUNCATE''@|0|g' \
+      -e 's|@''REPLACE_GETCWD''@|0|g' \
+      -e 's|@''REPLACE_GETDOMAINNAME''@|0|g' \
+      -e 's|@''REPLACE_GETDTABLESIZE''@|0|g' \
+      -e 's|@''REPLACE_GETLOGIN_R''@|0|g' \
+      -e 's|@''REPLACE_GETGROUPS''@|0|g' \
+      -e 's|@''REPLACE_GETPAGESIZE''@|0|g' \
+      -e 's|@''REPLACE_ISATTY''@|0|g' \
+      -e 's|@''REPLACE_LCHOWN''@|0|g' \
+      -e 's|@''REPLACE_LINK''@|0|g' \
+      -e 's|@''REPLACE_LINKAT''@|0|g' \
+      -e 's|@''REPLACE_LSEEK''@|0|g' \
+      -e 's|@''REPLACE_PREAD''@|0|g' \
+      -e 's|@''REPLACE_PWRITE''@|0|g' \
+      -e 's|@''REPLACE_READ''@|0|g' \
+      -e 's|@''REPLACE_READLINK''@|0|g' \
+      -e 's|@''REPLACE_READLINKAT''@|0|g' \
+      -e 's|@''REPLACE_RMDIR''@|0|g' \
+      -e 's|@''REPLACE_SLEEP''@|0|g' \
+      -e 's|@''REPLACE_SYMLINK''@|0|g' \
+      -e 's|@''REPLACE_SYMLINKAT''@|0|g' \
+      -e 's|@''REPLACE_TRUNCATE''@|0|g' \
+      -e 's|@''REPLACE_TTYNAME_R''@|0|g' \
+      -e 's|@''REPLACE_UNLINK''@|0|g' \
+      -e 's|@''REPLACE_UNLINKAT''@|0|g' \
+      -e 's|@''REPLACE_USLEEP''@|0|g' \
+      -e 's|@''REPLACE_WRITE''@|0|g' \
+      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H''@|0|g' \
+      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ../../../gnulib/lib/c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ../../../gnulib/lib/arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ../../../gnulib/lib/warn-on-use.h'; \
+} > unistd.h-t && \
+mv unistd.h-t unistd.h
+rm -f unitypes.h-t unitypes.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ../../../gnulib/lib/unitypes.in.h; \
+} > unitypes.h-t && \
+mv -f unitypes.h-t unitypes.h
+rm -f uniwidth.h-t uniwidth.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ../../../gnulib/lib/uniwidth.in.h; \
+} > uniwidth.h-t && \
+mv -f uniwidth.h-t uniwidth.h
+rm -f wchar.h-t wchar.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''HAVE_FEATURES_H''@|1|g' \
+      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+      -e 's/@''HAVE_CRTDEFS_H''@/0/g' \
+      -e 's/@''GNULIB_OVERRIDES_WINT_T''@/0/g' \
+      -e 's/@''GNULIB_BTOWC''@/0/g' \
+      -e 's/@''GNULIB_WCTOB''@/0/g' \
+      -e 's/@''GNULIB_MBSINIT''@/1/g' \
+      -e 's/@''GNULIB_MBRTOWC''@/1/g' \
+      -e 's/@''GNULIB_MBRLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_MBSNRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_WCRTOMB''@/0/g' \
+      -e 's/@''GNULIB_WCSRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCSNRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCWIDTH''@/1/g' \
+      -e 's/@''GNULIB_WMEMCHR''@/0/g' \
+      -e 's/@''GNULIB_WMEMCMP''@/0/g' \
+      -e 's/@''GNULIB_WMEMCPY''@/0/g' \
+      -e 's/@''GNULIB_WMEMMOVE''@/0/g' \
+      -e 's/@''GNULIB_WMEMSET''@/0/g' \
+      -e 's/@''GNULIB_WCSLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSNLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSNCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCOLL''@/0/g' \
+      -e 's/@''GNULIB_WCSXFRM''@/0/g' \
+      -e 's/@''GNULIB_WCSDUP''@/0/g' \
+      -e 's/@''GNULIB_WCSCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSRCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSCSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSPBRK''@/0/g' \
+      -e 's/@''GNULIB_WCSSTR''@/0/g' \
+      -e 's/@''GNULIB_WCSTOK''@/0/g' \
+      -e 's/@''GNULIB_WCSWIDTH''@/0/g' \
+      -e 's/@''GNULIB_WCSFTIME''@/0/g' \
+      < ../../../gnulib/lib/wchar.in.h | \
+  sed -e 's|@''HAVE_WINT_T''@|1|g' \
+      -e 's|@''HAVE_BTOWC''@|1|g' \
+      -e 's|@''HAVE_MBSINIT''@|1|g' \
+      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+      -e 's|@''HAVE_MBRLEN''@|1|g' \
+      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WMEMCHR''@|1|g' \
+      -e 's|@''HAVE_WMEMCMP''@|1|g' \
+      -e 's|@''HAVE_WMEMCPY''@|1|g' \
+      -e 's|@''HAVE_WMEMMOVE''@|1|g' \
+      -e 's|@''HAVE_WMEMSET''@|1|g' \
+      -e 's|@''HAVE_WCSLEN''@|1|g' \
+      -e 's|@''HAVE_WCSNLEN''@|1|g' \
+      -e 's|@''HAVE_WCSCPY''@|1|g' \
+      -e 's|@''HAVE_WCPCPY''@|1|g' \
+      -e 's|@''HAVE_WCSNCPY''@|1|g' \
+      -e 's|@''HAVE_WCPNCPY''@|1|g' \
+      -e 's|@''HAVE_WCSCAT''@|1|g' \
+      -e 's|@''HAVE_WCSNCAT''@|1|g' \
+      -e 's|@''HAVE_WCSCMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCMP''@|1|g' \
+      -e 's|@''HAVE_WCSCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSCOLL''@|1|g' \
+      -e 's|@''HAVE_WCSXFRM''@|1|g' \
+      -e 's|@''HAVE_WCSDUP''@|1|g' \
+      -e 's|@''HAVE_WCSCHR''@|1|g' \
+      -e 's|@''HAVE_WCSRCHR''@|1|g' \
+      -e 's|@''HAVE_WCSCSPN''@|1|g' \
+      -e 's|@''HAVE_WCSSPN''@|1|g' \
+      -e 's|@''HAVE_WCSPBRK''@|1|g' \
+      -e 's|@''HAVE_WCSSTR''@|1|g' \
+      -e 's|@''HAVE_WCSTOK''@|1|g' \
+      -e 's|@''HAVE_WCSWIDTH''@|1|g' \
+      -e 's|@''HAVE_WCSFTIME''@|1|g' \
+      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+  | \
+  sed -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+      -e 's|@''REPLACE_BTOWC''@|0|g' \
+      -e 's|@''REPLACE_WCTOB''@|0|g' \
+      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+      -e 's|@''REPLACE_MBRTOWC''@|1|g' \
+      -e 's|@''REPLACE_MBRLEN''@|0|g' \
+      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_WCRTOMB''@|0|g' \
+      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+      -e 's|@''REPLACE_WCSWIDTH''@|0|g' \
+      -e 's|@''REPLACE_WCSFTIME''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ../../../gnulib/lib/c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ../../../gnulib/lib/arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ../../../gnulib/lib/warn-on-use.h'; \
+} > wchar.h-t && \
+mv wchar.h-t wchar.h
+rm -f wctype.h-t wctype.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's/@''HAVE_WCTYPE_H''@/1/g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_WCTYPE_H''@|<wctype.h>|g' \
+      -e 's/@''HAVE_CRTDEFS_H''@/0/g' \
+      -e 's/@''GNULIB_OVERRIDES_WINT_T''@/0/g' \
+      -e 's/@''GNULIB_ISWBLANK''@/1/g' \
+      -e 's/@''GNULIB_WCTYPE''@/0/g' \
+      -e 's/@''GNULIB_ISWCTYPE''@/0/g' \
+      -e 's/@''GNULIB_WCTRANS''@/0/g' \
+      -e 's/@''GNULIB_TOWCTRANS''@/0/g' \
+      -e 's/@''HAVE_ISWBLANK''@/1/g' \
+      -e 's/@''HAVE_ISWCNTRL''@/1/g' \
+      -e 's/@''HAVE_WCTYPE_T''@/1/g' \
+      -e 's/@''HAVE_WCTRANS_T''@/1/g' \
+      -e 's/@''HAVE_WINT_T''@/1/g' \
+      -e 's/@''REPLACE_ISWBLANK''@/0/g' \
+      -e 's/@''REPLACE_ISWCNTRL''@/0/g' \
+      -e 's/@''REPLACE_TOWLOWER''@/0/g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ../../../gnulib/lib/c++defs.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ../../../gnulib/lib/warn-on-use.h' \
+      < ../../../gnulib/lib/wctype.in.h; \
+} > wctype.h-t && \
+mv wctype.h-t wctype.h
+make  all-recursive
+make[3]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/gnulib/lib'
+make[4]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/gnulib/lib'
+depbase=`echo dirname-lgpl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT dirname-lgpl.o -MD -MP -MF $depbase.Tpo -c -o dirname-lgpl.o ../../../gnulib/lib/dirname-lgpl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo basename-lgpl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT basename-lgpl.o -MD -MP -MF $depbase.Tpo -c -o basename-lgpl.o ../../../gnulib/lib/basename-lgpl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo stripslash.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT stripslash.o -MD -MP -MF $depbase.Tpo -c -o stripslash.o ../../../gnulib/lib/stripslash.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo exitfail.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT exitfail.o -MD -MP -MF $depbase.Tpo -c -o exitfail.o ../../../gnulib/lib/exitfail.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo getprogname.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT getprogname.o -MD -MP -MF $depbase.Tpo -c -o getprogname.o ../../../gnulib/lib/getprogname.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo hard-locale.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT hard-locale.o -MD -MP -MF $depbase.Tpo -c -o hard-locale.o ../../../gnulib/lib/hard-locale.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo localcharset.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT localcharset.o -MD -MP -MF $depbase.Tpo -c -o localcharset.o ../../../gnulib/lib/localcharset.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo malloca.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT malloca.o -MD -MP -MF $depbase.Tpo -c -o malloca.o ../../../gnulib/lib/malloca.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbchar.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbchar.o -MD -MP -MF $depbase.Tpo -c -o mbchar.o ../../../gnulib/lib/mbchar.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbiter.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbiter.o -MD -MP -MF $depbase.Tpo -c -o mbiter.o ../../../gnulib/lib/mbiter.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbscasecmp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbscasecmp.o -MD -MP -MF $depbase.Tpo -c -o mbscasecmp.o ../../../gnulib/lib/mbscasecmp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbschr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbschr.o -MD -MP -MF $depbase.Tpo -c -o mbschr.o ../../../gnulib/lib/mbschr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbslen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbslen.o -MD -MP -MF $depbase.Tpo -c -o mbslen.o ../../../gnulib/lib/mbslen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbsncasecmp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbsncasecmp.o -MD -MP -MF $depbase.Tpo -c -o mbsncasecmp.o ../../../gnulib/lib/mbsncasecmp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbsstr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbsstr.o -MD -MP -MF $depbase.Tpo -c -o mbsstr.o ../../../gnulib/lib/mbsstr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbswidth.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbswidth.o -MD -MP -MF $depbase.Tpo -c -o mbswidth.o ../../../gnulib/lib/mbswidth.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbuiter.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbuiter.o -MD -MP -MF $depbase.Tpo -c -o mbuiter.o ../../../gnulib/lib/mbuiter.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo strnlen1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT strnlen1.o -MD -MP -MF $depbase.Tpo -c -o strnlen1.o ../../../gnulib/lib/strnlen1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo unistd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT unistd.o -MD -MP -MF $depbase.Tpo -c -o unistd.o ../../../gnulib/lib/unistd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo uniwidth/width.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT uniwidth/width.o -MD -MP -MF $depbase.Tpo -c -o uniwidth/width.o ../../../gnulib/lib/uniwidth/width.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo wctype-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT wctype-h.o -MD -MP -MF $depbase.Tpo -c -o wctype-h.o ../../../gnulib/lib/wctype-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo xmalloc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT xmalloc.o -MD -MP -MF $depbase.Tpo -c -o xmalloc.o ../../../gnulib/lib/xmalloc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo xalloc-die.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT xalloc-die.o -MD -MP -MF $depbase.Tpo -c -o xalloc-die.o ../../../gnulib/lib/xalloc-die.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo mbrtowc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I../../../gnulib/lib -I../..     -g -O2 -MT mbrtowc.o -MD -MP -MF $depbase.Tpo -c -o mbrtowc.o ../../../gnulib/lib/mbrtowc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+rm -f libgnu.a
+ar cr libgnu.a dirname-lgpl.o basename-lgpl.o stripslash.o exitfail.o getprogname.o hard-locale.o localcharset.o  malloca.o mbchar.o mbiter.o mbscasecmp.o mbschr.o mbslen.o mbsncasecmp.o mbsstr.o mbswidth.o mbuiter.o  strnlen1.o  unistd.o uniwidth/width.o wctype-h.o xmalloc.o xalloc-die.o  mbrtowc.o
+ranlib libgnu.a
+rm -f t-charset.alias charset.alias && \
+/bin/sh ../../../gnulib/lib/config.charset 'x86_64-unknown-linux-gnu' > t-charset.alias && \
+mv t-charset.alias charset.alias
+rm -f t-ref-add.sed ref-add.sed && \
+sed -e '/^#/d' -e 's/@''PACKAGE''@/texinfo/g' ../../../gnulib/lib/ref-add.sin > t-ref-add.sed && \
+mv t-ref-add.sed ref-add.sed
+rm -f t-ref-del.sed ref-del.sed && \
+sed -e '/^#/d' -e 's/@''PACKAGE''@/texinfo/g' ../../../gnulib/lib/ref-del.sin > t-ref-del.sed && \
+mv t-ref-del.sed ref-del.sed
+make[4]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/gnulib/lib'
+make[3]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/gnulib/lib'
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/gnulib/lib'
+Making all in install-info
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/install-info'
+Making all in .
+make[3]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/install-info'
+gcc -DHAVE_CONFIG_H -I. -I../../install-info -I..  -I../.. -I../../gnulib/lib -I../gnulib/lib -DLOCALEDIR=\"/tools/share/locale\"   -g -O2 -MT install-info.o -MD -MP -MF .deps/install-info.Tpo -c -o install-info.o ../../install-info/install-info.c
+mv -f .deps/install-info.Tpo .deps/install-info.Po
+gcc  -g -O2   -o ginstall-info install-info.o ../gnulib/lib/libgnu.a  
+make[3]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/install-info'
+Making all in tests
+make[3]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/install-info/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/install-info/tests'
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/install-info'
+Making all in po
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/po'
+Making all in po_document
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/po_document'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/po_document'
+Making all in tp
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/tp'
+Making all in .
+make[3]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/tp'
+sed -e 's,[@]PACKAGE_VERSION[@],6.5,g' -e 's,[@]PACKAGE_NAME[@],GNU Texinfo,g' -e 's,[@]PACKAGE_URL[@],http://www.gnu.org/software/texinfo/,g' -e 's,[@]sysconfdir[@],/tools/etc,g' -e 's,[@]prefix[@],/tools,g' -e 's,[@]datarootdir[@],/tools/share,g' -e 's,[@]datadir[@],/tools/share,g' -e 's,[@]pkglibdir[@],/tools/lib/texinfo,g' -e 's,[@]PACKAGE[@],texinfo,g' -e 's,[@]USE_EXTERNAL_LIBINTL[@],no,g' -e 's,[@]USE_EXTERNAL_EASTASIANWIDTH[@],no,g' -e 's,[@]USE_EXTERNAL_UNIDECODE[@],no,g' -e 's,[@]TEXINFO_DTD_VERSION[@],6.4,g' -e 's,[@]enable_xs[@],no,g' -e '1 s,/usr/bin/env perl,/tools/bin/perl,g' ../../tp/texi2any.pl >texi2any
+chmod a+x texi2any
+/tools/bin/mkdir -p maintain
+sed -e 's|[@]abs_top_srcdir[@]|/lfsbuild/sources/texinfo-6.5/build/..|' \
+    -e 's|[@]TEXINFO_DTD_VERSION[@]|6.4|' \
+  ../../tp/maintain/catalog.xml.in >maintain/catalog.xml
+/tools/bin/mkdir -p `dirname LocaleData/ca/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/ca.gmo LocaleData/ca/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/ca.us-ascii/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/ca.us-ascii.gmo LocaleData/ca.us-ascii/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/cs/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/cs.gmo LocaleData/cs/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/da/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/da.gmo LocaleData/da/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/de/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/de.gmo LocaleData/de/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/de.us-ascii/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/de.us-ascii.gmo LocaleData/de.us-ascii/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/el/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/el.gmo LocaleData/el/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/eo/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/eo.gmo LocaleData/eo/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/es/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/es.gmo LocaleData/es/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/fr/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/fr.gmo LocaleData/fr/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/hr/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/hr.gmo LocaleData/hr/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/hu/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/hu.gmo LocaleData/hu/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/it/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/it.gmo LocaleData/it/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/nl/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/nl.gmo LocaleData/nl/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/no.us-ascii/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/no.us-ascii.gmo LocaleData/no.us-ascii/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/pl/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/pl.gmo LocaleData/pl/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/pt/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/pt.gmo LocaleData/pt/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/pt.us-ascii/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/pt.us-ascii.gmo LocaleData/pt.us-ascii/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/pt_BR/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/pt_BR.gmo LocaleData/pt_BR/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/pt_BR.us-ascii/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/pt_BR.us-ascii.gmo LocaleData/pt_BR.us-ascii/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p `dirname LocaleData/uk/LC_MESSAGES/texinfo_document.mo`
+/tools/bin/install -c -m 644 ../../tp/../po_document/uk.gmo LocaleData/uk/LC_MESSAGES/texinfo_document.mo
+/tools/bin/mkdir -p t/include_dir
+/tools/bin/install -c -m 644 ../../tp/t/include_reference/f--ile.png t/include_dir/f--ile.png
+/tools/bin/install -c -m 644 ../../tp/t/include_reference/f--ile.txt t/include_dir/f--ile.txt
+/tools/bin/install -c -m 644 ../../tp/t/include_reference/figure.txt t/include_dir/figure.txt
+/tools/bin/install -c -m 644 ../../tp/t/include_reference/inc_file.texi t/include_dir/inc_file.texi
+/tools/bin/install -c -m 644 ../../tp/t/include_reference/incl-incl.txi t/include_dir/incl-incl.txi
+/tools/bin/install -c -m 644 ../../tp/t/include_reference/macro_included.texi t/include_dir/macro_included.texi
+/tools/bin/install -c -m 644 ../../tp/t/include_reference/section_file.texi t/include_dir/section_file.texi
+make[3]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/tp'
+Making all in tests
+make[3]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/tp/tests'
+Making all in .
+make[4]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/tp/tests'
+/tools/bin/install -c -m 644 ../../../tp/tests/htmlxref/htmlxref.cnf-ref htmlxref/htmlxref.cnf
+/tools/bin/install -c -m 644 ../../../tp/tests/htmlxref-only_mono/htmlxref.cnf-ref htmlxref-only_mono/htmlxref.cnf
+/tools/bin/install -c -m 644 ../../../tp/tests/htmlxref-only_split/htmlxref.cnf-ref htmlxref-only_split/htmlxref.cnf
+/tools/bin/install -c -m 644 ../../../tp/tests/sectioning/renamednodes.cnf-ref equivalent_nodes-noderename.cnf
+/tools/bin/install -c -m 644 ../../../tp/tests/sectioning/renamednodes.cnf-ref sectioning/equivalent_nodes-noderename.cnf
+/tools/bin/install -c -m 644 ../../../tp/tests/formatting/unknown_nodes_renamed-noderename.cnf-ref unknown_nodes_renamed-noderename.cnf
+/tools/bin/install -c -m 644 ../../../tp/tests/formatting/unknown_nodes_renamed-noderename.cnf-ref formatting/unknown_nodes_renamed-noderename.cnf
+make[4]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/tp/tests'
+Making all in many_input_files
+make[4]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/tp/tests/many_input_files'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/tp/tests/many_input_files'
+make[3]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/tp/tests'
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/tp'
+Making all in Pod-Simple-Texinfo
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/Pod-Simple-Texinfo'
+sed -e 's,[@]datadir[@],/tools/share,g' \
+-e 's,[@]PACKAGE[@],texinfo,g' \
+-e 's,[@]USE_EXTERNAL_LIBINTL[@],no,g' \
+-e 's,[@]USE_EXTERNAL_EASTASIANWIDTH[@],no,g' \
+-e 's,[@]USE_EXTERNAL_UNIDECODE[@],no,g' \
+-e '1 s,/usr/bin/env perl,/tools/bin/perl,g' \
+   ../../Pod-Simple-Texinfo/pod2texi.pl >pod2texi
+chmod a+x pod2texi
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/Pod-Simple-Texinfo'
+Making all in texindex
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/texindex'
+sed -e 's,[@]pkgdatadir[@],/tools/share/texinfo,g' -e 's,[@]AWK[@],gawk,g' -e 's,[@]PACKAGE[@],texinfo,g' -e 's,[@][@]*VERSION[@][@]*,6.5,g' <../../texindex/texindex.in >texindex
+chmod +x texindex
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/texindex'
+Making all in util
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/util'
+sed -e 's,[@]datadir[@],/tools/share,g' \
+-e 's,[@]PACKAGE[@],texinfo,g' \
+-e 's,[@]USE_EXTERNAL_LIBINTL[@],no,g' \
+-e 's,[@]USE_EXTERNAL_EASTASIANWIDTH[@],no,g' \
+-e 's,[@]USE_EXTERNAL_UNIDECODE[@],no,g' \
+-e '1 s,/usr/bin/env perl,/tools/bin/perl,g' \
+   ../../util/txixml2texi.pl >txixml2texi
+chmod a+x txixml2texi
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/util'
+Making all in doc
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/doc'
+Making all in tp_api
+make[3]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/doc/tp_api'
+make  all-am
+make[4]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/doc/tp_api'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/doc/tp_api'
+make[3]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/doc/tp_api'
+make[3]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/doc'
+restore=: && backupdir=".am$$" && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (TEXINFO_DEV_SOURCE=1 ; export TEXINFO_DEV_SOURCE ; top_srcdir="../.." ; export top_srcdir ; top_builddir=".." ; export top_builddir ; /tools/bin/perl ../tp/texi2any --version) >/dev/null 2>&1; then \
+  for f in texinfo.info texinfo.info-[0-9] texinfo.info-[0-9][0-9] texinfo.i[0-9] texinfo.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+if TEXINFO_DEV_SOURCE=1 ; export TEXINFO_DEV_SOURCE ; top_srcdir="../.." ; export top_srcdir ; top_builddir=".." ; export top_builddir ; /tools/bin/perl ../tp/texi2any   -I ../../doc \
+ -o texinfo.info `test -f 'texinfo.texi' || echo '../../doc/'`texinfo.texi; \
+then \
+  rc=0; \
+else \
+  rc=$?; \
+  $restore $backupdir/* `echo "./texinfo.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+Locales dir for document strings not found (../../tp/maintain/../LocaleData LocaleData ../../../tp/LocaleData ../../tp/LocaleData)
+restore=: && backupdir=".am$$" && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (TEXINFO_DEV_SOURCE=1 ; export TEXINFO_DEV_SOURCE ; top_srcdir="../.." ; export top_srcdir ; top_builddir=".." ; export top_builddir ; /tools/bin/perl ../tp/texi2any --version) >/dev/null 2>&1; then \
+  for f in info-stnd.info info-stnd.info-[0-9] info-stnd.info-[0-9][0-9] info-stnd.i[0-9] info-stnd.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+if TEXINFO_DEV_SOURCE=1 ; export TEXINFO_DEV_SOURCE ; top_srcdir="../.." ; export top_srcdir ; top_builddir=".." ; export top_builddir ; /tools/bin/perl ../tp/texi2any   -I ../../doc \
+ -o info-stnd.info `test -f 'info-stnd.texi' || echo '../../doc/'`info-stnd.texi; \
+then \
+  rc=0; \
+else \
+  rc=$?; \
+  $restore $backupdir/* `echo "./info-stnd.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+Locales dir for document strings not found (../../tp/maintain/../LocaleData LocaleData ../../../tp/LocaleData ../../tp/LocaleData)
+make[3]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/doc'
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/doc'
+Making all in man
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build/man'
+make[2]: Entering directory '/lfsbuild/sources/texinfo-6.5/build'
+make[2]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build'
+make[1]: Leaving directory '/lfsbuild/sources/texinfo-6.5/build'

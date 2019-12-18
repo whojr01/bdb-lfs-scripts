@@ -1,0 +1,34 @@
+###############################
+# Make libXvMC-1.0.10.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/src'
+  CC       XvMC.lo
+  CCLD     libXvMC.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/src'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include'
+Making all in X11
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include/X11'
+Making all in extensions
+make[4]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include/X11/extensions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include/X11/extensions'
+make[4]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include/X11'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include/X11'
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include/X11'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/include'
+Making all in wrapper
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/wrapper'
+  CC       XvMCWrapper.lo
+  CCLD     libXvMCW.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10/wrapper'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXvMC-1.0.10'

@@ -1,0 +1,118 @@
+Making check in po
+make[1]: Entering directory '/sources/shadow-4.5/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/shadow-4.5/build/po'
+Making check in man
+make[1]: Entering directory '/sources/shadow-4.5/build/man'
+Making check in po
+make[2]: Entering directory '/sources/shadow-4.5/build/man/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/po'
+Making check in cs
+make[2]: Entering directory '/sources/shadow-4.5/build/man/cs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/cs'
+Making check in da
+make[2]: Entering directory '/sources/shadow-4.5/build/man/da'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/da'
+Making check in de
+make[2]: Entering directory '/sources/shadow-4.5/build/man/de'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/de'
+Making check in es
+make[2]: Entering directory '/sources/shadow-4.5/build/man/es'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/es'
+Making check in fi
+make[2]: Entering directory '/sources/shadow-4.5/build/man/fi'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/fi'
+Making check in fr
+make[2]: Entering directory '/sources/shadow-4.5/build/man/fr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/fr'
+Making check in hu
+make[2]: Entering directory '/sources/shadow-4.5/build/man/hu'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/hu'
+Making check in id
+make[2]: Entering directory '/sources/shadow-4.5/build/man/id'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/id'
+Making check in it
+make[2]: Entering directory '/sources/shadow-4.5/build/man/it'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/it'
+Making check in ja
+make[2]: Entering directory '/sources/shadow-4.5/build/man/ja'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/ja'
+Making check in ko
+make[2]: Entering directory '/sources/shadow-4.5/build/man/ko'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/ko'
+Making check in pl
+make[2]: Entering directory '/sources/shadow-4.5/build/man/pl'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/pl'
+Making check in pt_BR
+make[2]: Entering directory '/sources/shadow-4.5/build/man/pt_BR'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/pt_BR'
+Making check in ru
+make[2]: Entering directory '/sources/shadow-4.5/build/man/ru'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/ru'
+Making check in sv
+make[2]: Entering directory '/sources/shadow-4.5/build/man/sv'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/sv'
+Making check in tr
+make[2]: Entering directory '/sources/shadow-4.5/build/man/tr'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/tr'
+Making check in zh_CN
+make[2]: Entering directory '/sources/shadow-4.5/build/man/zh_CN'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/zh_CN'
+Making check in zh_TW
+make[2]: Entering directory '/sources/shadow-4.5/build/man/zh_TW'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man/zh_TW'
+make[2]: Entering directory '/sources/shadow-4.5/build/man'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/man'
+make[1]: Leaving directory '/sources/shadow-4.5/build/man'
+Making check in libmisc
+make[1]: Entering directory '/sources/shadow-4.5/build/libmisc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/shadow-4.5/build/libmisc'
+Making check in lib
+make[1]: Entering directory '/sources/shadow-4.5/build/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/shadow-4.5/build/lib'
+Making check in src
+make[1]: Entering directory '/sources/shadow-4.5/build/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/shadow-4.5/build/src'
+Making check in contrib
+make[1]: Entering directory '/sources/shadow-4.5/build/contrib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/shadow-4.5/build/contrib'
+Making check in doc
+make[1]: Entering directory '/sources/shadow-4.5/build/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/shadow-4.5/build/doc'
+Making check in etc
+make[1]: Entering directory '/sources/shadow-4.5/build/etc'
+Making check in pam.d
+make[2]: Entering directory '/sources/shadow-4.5/build/etc/pam.d'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/etc/pam.d'
+make[2]: Entering directory '/sources/shadow-4.5/build/etc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/shadow-4.5/build/etc'
+make[1]: Leaving directory '/sources/shadow-4.5/build/etc'
+make[1]: Entering directory '/sources/shadow-4.5/build'
+make[1]: Leaving directory '/sources/shadow-4.5/build'

@@ -1,0 +1,37 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/desktop-file-utils-0.23'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/desktop-file-utils-0.23/src'
+  CC       keyfileutils.o
+  CC       mimeutils.o
+  CC       validate.o
+  CC       validator.o
+  CCLD     desktop-file-validate
+  CC       install.o
+  CCLD     desktop-file-install
+  CC       update-desktop-database.o
+  CCLD     update-desktop-database
+make[2]: Leaving directory '/lfskernel/sources/boot/desktop-file-utils-0.23/src'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/desktop-file-utils-0.23/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/desktop-file-utils-0.23/man'
+Making all in misc
+make[2]: Entering directory '/lfskernel/sources/boot/desktop-file-utils-0.23/misc'
+if test "no" != "no"; then \
+  am__dir=. am__subdir_includes=''; \
+  case desktop-entry-mode.elc in */*) \
+    am__dir=`echo 'desktop-entry-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval "(defun byte-compile-dest-file (f) \"desktop-entry-mode.elc\")" \
+    --eval "(unless (byte-compile-file \"desktop-entry-mode.el\") (kill-emacs 1))"; \
+else :; fi
+make[2]: Leaving directory '/lfskernel/sources/boot/desktop-file-utils-0.23/misc'
+make[2]: Entering directory '/lfskernel/sources/boot/desktop-file-utils-0.23'
+make[2]: Leaving directory '/lfskernel/sources/boot/desktop-file-utils-0.23'
+make[1]: Leaving directory '/lfskernel/sources/boot/desktop-file-utils-0.23'

@@ -1,0 +1,63 @@
+Fixing CONF_DIR in asciidoc.py
+Fixing CONF_DIR in a2x.py
+/usr/bin/install -c -d //usr/bin
+/usr/bin/install -c asciidoc.py a2x.py //usr/bin/
+/usr/bin/install -c -d //etc/asciidoc/filters/code
+/usr/bin/install -c filters/code/code-filter.py //etc/asciidoc/filters/code/
+/usr/bin/install -c -d //etc/asciidoc/filters/music
+/usr/bin/install -c filters/music/music2png.py //etc/asciidoc/filters/music/
+/usr/bin/install -c -d //etc/asciidoc/filters/graphviz
+/usr/bin/install -c filters/graphviz/graphviz2png.py //etc/asciidoc/filters/graphviz/
+/usr/bin/install -c -d //etc/asciidoc/filters/latex
+/usr/bin/install -c filters/latex/latex2png.py //etc/asciidoc/filters/latex/
+/usr/bin/install -c -d //usr/share/man/man1
+/usr/bin/install -c -m 644 doc/asciidoc.1 doc/a2x.1 //usr/share/man/man1/
+/usr/bin/install -c -d //etc/asciidoc
+/usr/bin/install -c -m 644 asciidoc.conf lang-es.conf slidy.conf lang-ro.conf lang-en.conf html5.conf help.conf lang-it.conf html4.conf lang-cs.conf lang-nl.conf docbook45.conf xhtml11-quirks.conf lang-de.conf lang-uk.conf text.conf lang-el.conf lang-hu.conf lang-ru.conf latex.conf lang-pt-BR.conf xhtml11.conf lang-fr.conf //etc/asciidoc/
+/usr/bin/install -c -d //etc/asciidoc/docbook-xsl
+/usr/bin/install -c -m 644 docbook-xsl/xhtml.xsl docbook-xsl/common.xsl docbook-xsl/epub.xsl docbook-xsl/chunked.xsl docbook-xsl/fo.xsl docbook-xsl/manpage.xsl docbook-xsl/text.xsl docbook-xsl/htmlhelp.xsl //etc/asciidoc/docbook-xsl/
+/usr/bin/install -c -d //etc/asciidoc/dblatex
+/usr/bin/install -c -m 644 dblatex/asciidoc-dblatex.xsl dblatex/asciidoc-dblatex.sty //etc/asciidoc/dblatex/
+/usr/bin/install -c -d //etc/asciidoc/stylesheets
+/usr/bin/install -c -m 644 stylesheets/docbook-xsl.css stylesheets/xhtml11-quirks.css stylesheets/asciidoc.css stylesheets/pygments.css stylesheets/slidy.css stylesheets/toc2.css //etc/asciidoc/stylesheets/
+/usr/bin/install -c -d //etc/asciidoc/javascripts
+/usr/bin/install -c -m 644 javascripts/asciidoc.js javascripts/slidy.js javascripts/toc.js javascripts/LaTeXMathML.js javascripts/ASCIIMathML.js //etc/asciidoc/javascripts/
+/usr/bin/install -c -d //etc/asciidoc/images/icons/callouts
+/usr/bin/install -c -m 644 images/icons/callouts/2.png images/icons/callouts/11.png images/icons/callouts/7.png images/icons/callouts/6.png images/icons/callouts/12.png images/icons/callouts/8.png images/icons/callouts/10.png images/icons/callouts/1.png images/icons/callouts/5.png images/icons/callouts/15.png images/icons/callouts/4.png images/icons/callouts/14.png images/icons/callouts/13.png images/icons/callouts/9.png images/icons/callouts/3.png //etc/asciidoc/images/icons/callouts/
+/usr/bin/install -c -d //etc/asciidoc/images/icons
+/usr/bin/install -c -m 644 images/icons/tip.png images/icons/example.png images/icons/prev.png images/icons/caution.png images/icons/home.png images/icons/important.png images/icons/next.png images/icons/up.png images/icons/warning.png images/icons/note.png images/icons/README //etc/asciidoc/images/icons/
+/usr/bin/install -c -d //etc/asciidoc/filters/code
+/usr/bin/install -c -m 644 filters/code/code-filter.conf //etc/asciidoc/filters/code/
+/usr/bin/install -c -d //etc/asciidoc/filters/music
+/usr/bin/install -c -m 644 filters/music/music-filter.conf //etc/asciidoc/filters/music/
+/usr/bin/install -c -d //etc/asciidoc/filters/source
+/usr/bin/install -c -m 644 filters/source/source-highlight-filter.conf //etc/asciidoc/filters/source/
+/usr/bin/install -c -d //etc/asciidoc/filters/graphviz
+/usr/bin/install -c -m 644 filters/graphviz/graphviz-filter.conf //etc/asciidoc/filters/graphviz/
+/usr/bin/install -c -d //etc/asciidoc/filters/latex
+/usr/bin/install -c -m 644 filters/latex/latex-filter.conf //etc/asciidoc/filters/latex/
+/usr/bin/install -c -d //etc/asciidoc/themes/flask
+/usr/bin/install -c -m 644 themes/flask/flask.css //etc/asciidoc/themes/flask/
+/usr/bin/install -c -d //etc/asciidoc/themes/volnitsky
+/usr/bin/install -c -m 644 themes/volnitsky/volnitsky.css //etc/asciidoc/themes/volnitsky/
+(cd //usr/bin; ln -sf asciidoc.py asciidoc)
+(cd //usr/bin; ln -sf a2x.py a2x)
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9
+/usr/bin/install -c -m 644 README.txt README BUGS.txt BUGS INSTALL.txt INSTALL CHANGELOG CHANGELOG.txt //usr/share/doc/asciidoc-8.6.9
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9/docbook-xsl
+/usr/bin/install -c -m 644 docbook-xsl/asciidoc-docbook-xsl.txt //usr/share/doc/asciidoc-8.6.9/docbook-xsl
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9/dblatex
+/usr/bin/install -c -m 644 dblatex/dblatex-readme.txt //usr/share/doc/asciidoc-8.6.9/dblatex
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9/stylesheets
+/usr/bin/install -c -m 644 stylesheets/docbook-xsl.css stylesheets/xhtml11-quirks.css stylesheets/asciidoc.css stylesheets/pygments.css stylesheets/slidy.css stylesheets/toc2.css //usr/share/doc/asciidoc-8.6.9/stylesheets
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9/javascripts
+/usr/bin/install -c -m 644 javascripts/asciidoc.js javascripts/slidy.js javascripts/toc.js javascripts/LaTeXMathML.js javascripts/ASCIIMathML.js //usr/share/doc/asciidoc-8.6.9/javascripts
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9/images
+( cd images && \
+	cp -R * //usr/share/doc/asciidoc-8.6.9/images )
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9/doc
+( cd doc && \
+	cp -R * //usr/share/doc/asciidoc-8.6.9/doc )
+/usr/bin/install -c -d //usr/share/doc/asciidoc-8.6.9/examples/website
+( cd examples/website && \
+	cp -R * //usr/share/doc/asciidoc-8.6.9/examples/website )

@@ -1,0 +1,82 @@
+###############################
+# Make xpr-1.0.4.tar.bz2 #
+###############################
+make  all-am
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xpr-1.0.4'
+  CC     x2jet.o
+x2jet.c: In function 'scale_and_orient_image':
+x2jet.c:498:29: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+   set_header_trailer_limits((char *)header, (char *)trailer, usable.width);
+                             ^
+x2jet.c:498:45: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+   set_header_trailer_limits((char *)header, (char *)trailer, usable.width);
+                                             ^
+x2jet.c: In function 'swap_black_and_white':
+x2jet.c:591:11: warning: declaration of 'color' shadows a global declaration [-Wshadow]
+   XColor *color;
+           ^~~~~
+x2jet.c:559:3: note: shadowed declaration is here
+ } color;
+   ^~~~~
+x2jet.c: In function 'validate_visual':
+x2jet.c:1059:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (depth > 8)  invalid_depth_for_visual(depth, "GrayScale");    break;
+     ^~
+x2jet.c:1059:70: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if (depth > 8)  invalid_depth_for_visual(depth, "GrayScale");    break;
+                                                                      ^~~~~
+x2jet.c:1061:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (depth > 8)  invalid_depth_for_visual(depth, "StaticGray");   break;
+     ^~
+x2jet.c:1061:70: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if (depth > 8)  invalid_depth_for_visual(depth, "StaticGray");   break;
+                                                                      ^~~~~
+x2jet.c:1063:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (depth > 8)  invalid_depth_for_visual(depth, "PseudoColor");  break;
+     ^~
+x2jet.c:1063:70: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if (depth > 8)  invalid_depth_for_visual(depth, "PseudoColor");  break;
+                                                                      ^~~~~
+x2jet.c:1065:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if (depth > 8)  invalid_depth_for_visual(depth, "StaticColor");  break;
+     ^~
+x2jet.c:1065:70: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if (depth > 8)  invalid_depth_for_visual(depth, "StaticColor");  break;
+                                                                      ^~~~~
+  CC     x2pmp.o
+x2pmp.c: In function 'x2pmp':
+x2pmp.c:232:25: warning: suggest parentheses around '+' inside '>>' [-Wparentheses]
+  p_move_abs( out, x_pos + (width - strlen(foot)*FONT_WIDTH) >> 1,
+                   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x2pmp.c:237:25: warning: suggest parentheses around '+' inside '>>' [-Wparentheses]
+  p_move_abs( out, x_pos + (width - strlen(foot)*FONT_WIDTH) >> 1,
+                   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x2pmp.c: In function 'magnification_table':
+x2pmp.c:273:21: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+      b &= ~(1 << bit-1);
+                  ~~~^~
+  CC     xpr.o
+xpr.c: In function 'build_sixmap':
+xpr.c:1084:29: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     unsigned char *buffer = (unsigned char *)data;
+                             ^
+xpr.c: In function 'ps_finish':
+xpr.c:1549:13: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+  char **p = (char **)ps_epilog;
+             ^
+xpr.c: In function 'ps_output_bits':
+xpr.c:1711:29: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+     unsigned char *buffer = (unsigned char *)data;
+                             ^
+xpr.c: In function 'main':
+xpr.c:1979:12: warning: 'iword' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (iword & 1) {
+      ~~~~~~^~~
+xpr.c:1968:18: note: 'iword' was declared here
+     register int iword; /* current input word (*iwordp) */
+                  ^~~~~
+  CCLD   xpr
+  GEN    xdpr
+  GEN    xdpr.1
+  GEN    xpr.1
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xpr-1.0.4'

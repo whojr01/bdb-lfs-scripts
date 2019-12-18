@@ -1,0 +1,99 @@
+###############################
+# Make libXext-1.3.3.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3/man'
+  GEN      XShapeQueryExtension.3
+  GEN      XShapeQueryVersion.3
+  GEN      XShapeCombineRegion.3
+  GEN      XShapeCombineRectangles.3
+  GEN      XShapeCombineMask.3
+  GEN      XShapeCombineShape.3
+  GEN      XShapeOffsetShape.3
+  GEN      XShapeQueryExtents.3
+  GEN      XShapeSelectInput.3
+  GEN      XShapeInputSelected.3
+  GEN      XShapeGetRectangles.3
+  GEN      XShmQueryExtension.3
+  GEN      XShmQueryVersion.3
+  GEN      XShmPixmapFormat.3
+  GEN      XShmAttach.3
+  GEN      XShmDetach.3
+  GEN      XShmCreateImage.3
+  GEN      XShmPutImage.3
+  GEN      XShmGetImage.3
+  GEN      XShmCreatePixmap.3
+  GEN      XShmGetEventBase.3
+  GEN      XmbufQueryExtension.3
+  GEN      XmbufGetVersion.3
+  GEN      XmbufCreateBuffers.3
+  GEN      XmbufDestroyBuffers.3
+  GEN      XmbufDisplayBuffers.3
+  GEN      XmbufGetWindowAttributes.3
+  GEN      XmbufChangeWindowAttributes.3
+  GEN      XmbufGetBufferAttributes.3
+  GEN      XmbufChangeBufferAttributes.3
+  GEN      XmbufGetScreenInfo.3
+  GEN      XmbufCreateStereoWindow.3
+  GEN      XeviQueryVersion.3
+  GEN      XeviGetVisualInfo.3
+  GEN      XeviQueryExtension.3
+  GEN      DBE.3
+  GEN      DPMSCapable.3
+  GEN      DPMSDisable.3
+  GEN      DPMSEnable.3
+  GEN      DPMSForceLevel.3
+  GEN      DPMSGetTimeouts.3
+  GEN      DPMSGetVersion.3
+  GEN      DPMSInfo.3
+  GEN      DPMSQueryExtension.3
+  GEN      DPMSSetTimeouts.3
+  GEN      XShape.3
+  GEN      XShm.3
+  GEN      XcupGetReservedColormapEntries.3
+  GEN      XcupQueryVersion.3
+  GEN      XcupStoreColors.3
+  GEN      XdbeAllocateBackBufferName.3
+  GEN      XdbeBeginIdiom.3
+  GEN      XdbeDeallocateBackBufferName.3
+  GEN      XdbeEndIdiom.3
+  GEN      XdbeFreeVisualInfo.3
+  GEN      XdbeGetBackBufferAttributes.3
+  GEN      XdbeGetVisualInfo.3
+  GEN      XdbeQueryExtension.3
+  GEN      XdbeSwapBuffers.3
+  GEN      Xevi.3
+  GEN      Xmbuf.3
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3/man'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3/src'
+  CC       DPMS.lo
+  CC       MITMisc.lo
+  CC       XAppgroup.lo
+  CC       XEVI.lo
+  CC       XLbx.lo
+  CC       XMultibuf.lo
+  CC       XSecurity.lo
+  CC       XShape.lo
+  CC       XShm.lo
+  CC       XSync.lo
+  CC       XTestExt1.lo
+  CC       Xcup.lo
+  CC       Xdbe.lo
+  CC       Xge.lo
+Xge.c:302:11: warning: no previous prototype for 'xgeExtRegister' [-Wmissing-prototypes]
+ _X_HIDDEN xgeExtRegister(Display* dpy, int offset, XExtensionHooks* callbacks)
+           ^~~~~~~~~~~~~~
+  CC       extutil.lo
+  CC       globals.lo
+  CCLD     libXext.la
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3/src'
+Making all in specs
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3/specs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXext-1.3.3'

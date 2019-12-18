@@ -1,0 +1,91 @@
+###############################
+# Install libXt-1.1.5.tar.bz2 #
+###############################
+Making install in util
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/util'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/util'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/util'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/util'
+Making install in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+make  install-am
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libXt.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libXt.so.6.0.0 /usr/lib/libXt.so.6.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libXt.so.6.0.0 libXt.so.6 || { rm -f libXt.so.6 && ln -s libXt.so.6.0.0 libXt.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libXt.so.6.0.0 libXt.so || { rm -f libXt.so && ln -s libXt.so.6.0.0 libXt.so; }; })
+libtool: install: /usr/bin/install -c .libs/libXt.lai /usr/lib/libXt.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/src'
+Making install in include
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/include'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/X11'
+ /usr/bin/install -c -m 644 X11/StringDefs.h X11/Shell.h '/usr/include/X11'
+ /bin/mkdir -p '/usr/include/X11'
+ /usr/bin/install -c -m 644 X11/Composite.h X11/CompositeP.h X11/ConstrainP.h X11/Constraint.h X11/Core.h X11/CoreP.h X11/Intrinsic.h X11/IntrinsicP.h X11/Object.h X11/ObjectP.h X11/RectObj.h X11/RectObjP.h X11/ResConfigP.h X11/ShellP.h X11/Vendor.h X11/VendorP.h X11/CallbackI.h X11/ConvertI.h X11/CreateI.h X11/EventI.h X11/HookObjI.h X11/InitialI.h X11/IntrinsicI.h X11/PassivGraI.h X11/ResourceI.h X11/SelectionI.h X11/ShellI.h X11/ThreadsI.h X11/TranslateI.h X11/VarargsI.h X11/Xtos.h '/usr/include/X11'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/include'
+Making install in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 XtAddCallbacks.3 XtRemoveCallback.3 XtRemoveCallbacks.3 XtRemoveAllCallbacks.3 XtAddRawEventHandler.3 XtRemoveEventHandler.3 XtRemoveRawEventHandler.3 XtInsertEventHandler.3 XtInsertRawEventHandler.3 XtRemoveGrab.3 XtAddConverter.3 XtRemoveInput.3 XtRemoveTimeOut.3 XtRemoveWorkProc.3 XtVaAppCreateShell.3 XtAppSetErrorHandler.3 XtAppSetWarningHandler.3 XtAppWarning.3 XtAppSetErrorMsgHandler.3 XtAppSetWarningMsgHandler.3 XtAppWarningMsg.3 XtAppGetErrorDatabaseText.3 XtAppSetSelectionTimeout.3 XtAppPending.3 XtAppPeekEvent.3 XtAppProcessEvent.3 XtDispatchEvent.3 XtAppMainLoop.3 XtPending.3 XtPeekEvent.3 XtProcessEvent.3 XtMainLoop.3 XtCallCallbackList.3 XtHasCallbacks.3 XtSuperclass.3 XtIsSubclass.3 XtCheckSubclass.3 XtIsObject.3 XtIsRectObj.3 XtIsWidget.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 XtIsComposite.3 XtIsConstraint.3 XtIsShell.3 XtIsOverrideShell.3 XtIsWMShell.3 XtIsVendorShell.3 XtIsTransientShell.3 XtIsTopLevelShell.3 XtIsApplicationShell.3 XtIsSessionShell.3 XtMoveWidget.3 XtResizeWidget.3 XtDirectConvert.3 XtCallConverter.3 XtDestroyApplicationContext.3 XtWidgetToApplicationContext.3 XtToolkitInitialize.3 XtVaCreatePopupShell.3 XtVaCreateWidget.3 XtCreateManagedWidget.3 XtVaCreateManagedWidget.3 XtDestroyWidget.3 XtDisplayOfObject.3 XtScreen.3 XtScreenOfObject.3 XtWindow.3 XtWindowOfObject.3 XtOpenDisplay.3 XtCloseDisplay.3 XtDatabase.3 XtScreenDatabase.3 XtReleaseGC.3 XtGetConstraintResourceList.3 XtGetSelectionValues.3 XtVaGetSubresources.3 XtVaGetApplicationResources.3 XtMakeResizeRequest.3 XtCalloc.3 XtRealloc.3 XtFree.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 XtNew.3 XtNewString.3 XtAsprintf.3 XtManageChild.3 XtUnmanageChildren.3 XtUnmanageChild.3 XtIsManaged.3 XtChangeManagedSet.3 XtSetMappedWhenManaged.3 XtUnmapWidget.3 XtWindowToWidget.3 XtOffsetOf.3 XtNumber.3 XtOwnSelectionIncremental.3 XtDisownSelection.3 XtInstallAccelerators.3 XtInstallAllAccelerators.3 XtAugmentTranslations.3 XtOverrideTranslations.3 XtUninstallTranslations.3 XtCallbackPopdown.3 MenuPopdown.3 XtPopupSpringLoaded.3 XtCallbackNone.3 XtCallbackNonexclusive.3 XtCallbackExclusive.3 MenuPopup.3 XtIsRealized.3 XtUnrealizeWidget.3 XtMergeArgLists.3 XtTranslateKeycode.3 XtRegisterCaseConverter.3 XtConvertCase.3 XtIsSensitive.3 XtVaSetValues.3 XtSetSubvalues.3 XtGetValues.3 XtVaGetValues.3 XtGetSubvalues.3 XtVaGetSubvalues.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 XtVaSetSubvalues.3 XtKeysymToKeycodeList.3 XtSetTypeConverter.3 XtRemoveActionHook.3 XtGetMultiClickTime.3 XtRemoveEventTypeHandler.3 XtRegisterExtensionSelector.3 XtSetEventDispatcher.3 XtDispatchEventToWidget.3 XtLastTimestampProcessed.3 XtNoticeSignal.3 XtRemoveSignal.3 XtAddTimeOut.3 XtAddWorkProc.3 XtRemoveBlockHook.3 XtVaAppInitialize.3 XtSessionReturnToken.3 XtSetErrorMsgHandler.3 XtSetWarningMsgHandler.3 XtWarningMsg.3 XtSetErrorHandler.3 XtSetWarningHandler.3 XtWarning.3 XtGetErrorDatabaseText.3 XtGetSelectionValuesIncremental.3 XtSetSelectionTimeout.3 XtSendSelectionRequest.3 XtCancelSelectionRequest.3 XtReleasePropertyAtom.3 XtUngrabKey.3 XtGrabKeyboard.3 XtUngrabKeyboard.3 XtGrabButton.3 XtUngrabButton.3 XtGrabPointer.3 XtUngrabPointer.3 XtUnregisterDrawable.3 XtAppGetExitFlag.3 XtAppUnlock.3 XtProcessUnlock.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 XtVaOpenApplication.3 XtAddActions.3 XtAddCallback.3 XtAddEventHandler.3 XtAddExposureToRegion.3 XtAddGrab.3 XtAddInput.3 XtAllocateGC.3 XtAppAddActionHook.3 XtAppAddActions.3 XtAppAddBlockHook.3 XtAppAddConverter.3 XtAppAddInput.3 XtAppAddSignal.3 XtAppAddTimeOut.3 XtAppAddWorkProc.3 XtAppCreateShell.3 XtAppError.3 XtAppErrorMsg.3 XtAppGetErrorDatabase.3 XtAppGetSelectionTimeout.3 XtAppInitialize.3 XtAppLock.3 XtAppNextEvent.3 XtAppReleaseCacheRefs.3 XtAppSetExitFlag.3 XtAppSetFallbackResources.3 XtAppSetTypeConverter.3 XtBuildEventMask.3 XtCallAcceptFocus.3 XtCallActionProc.3 XtCallCallbacks.3 XtClass.3 XtConfigureWidget.3 XtConvert.3 XtConvertAndStore.3 XtCreateApplicationContext.3 XtCreateApplicationShell.3 XtCreatePopupShell.3 XtCreateSelectionRequest.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 XtCreateWidget.3 XtCreateWindow.3 XtDisplay.3 XtDisplayInitialize.3 XtDisplayStringConversionWarning.3 XtDisplayToApplicationContext.3 XtError.3 XtErrorMsg.3 XtFindFile.3 XtGetActionKeysym.3 XtGetActionList.3 XtGetApplicationNameAndClass.3 XtGetApplicationResources.3 XtGetClassExtension.3 XtGetDisplays.3 XtGetErrorDatabase.3 XtGetGC.3 XtGetKeyboardFocusWidget.3 XtGetKeysymTable.3 XtGetResourceList.3 XtGetSelectionParameters.3 XtGetSelectionRequest.3 XtGetSelectionTimeout.3 XtGetSelectionValue.3 XtGetSelectionValueIncremental.3 XtGetSubresources.3 XtGrabKey.3 XtHooksOfDisplay.3 XtInitialize.3 XtInitializeWidgetClass.3 XtInsertEventTypeHandler.3 XtLastEventProcessed.3 XtMakeGeometryRequest.3 XtMalloc.3 XtManageChildren.3 XtMapWidget.3 XtName.3 XtNameToWidget.3 XtNextEvent.3 XtOffset.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 XtOpenApplication.3 XtOwnSelection.3 XtParent.3 XtParseAcceleratorTable.3 XtParseTranslationTable.3 XtPopdown.3 XtPopup.3 XtProcessLock.3 XtQueryGeometry.3 XtRealizeWidget.3 XtRegisterDrawable.3 XtRegisterGrabAction.3 XtReservePropertyAtom.3 XtResolvePathname.3 XtSessionGetToken.3 XtSetArg.3 XtSetKeyTranslator.3 XtSetKeyboardFocus.3 XtSetLanguageProc.3 XtSetMultiClickTime.3 XtSetSelectionParameters.3 XtSetSensitive.3 XtSetValues.3 XtSetWMColormapWindows.3 XtStringConversionWarning.3 XtToolkitThreadInitialize.3 XtTranslateCoords.3 XtVaCreateArgsList.3 '/usr/share/man/man3'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/man'
+Making install in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/specs'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/specs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libXt'
+ /usr/bin/install -c -m 644 intrinsics.xml acknowledgement.xml preface.xml CH01.xml CH02.xml CH03.xml CH04.xml CH05.xml CH06.xml CH07.xml CH08.xml CH09.xml CH10.xml CH11.xml CH12.xml CH13.xml appA.xml appB.xml appC.xml appD.xml appE.xml appF.xml '/usr/share/doc/libXt'
+ /bin/mkdir -p '/usr/share/doc/libXt'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/specs'
+Making install in test
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/test'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/test'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/test'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5/test'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xt.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXt-1.1.5'

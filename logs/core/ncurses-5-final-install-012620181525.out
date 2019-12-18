@@ -1,0 +1,8 @@
+'lib/libform.so.5' -> '/usr/lib/libform.so.5'
+'lib/libform.so.5.9' -> '/usr/lib/libform.so.5.9'
+'lib/libmenu.so.5' -> '/usr/lib/libmenu.so.5'
+'lib/libmenu.so.5.9' -> '/usr/lib/libmenu.so.5.9'
+'lib/libncurses.so.5' -> '/usr/lib/libncurses.so.5'
+'lib/libncurses.so.5.9' -> '/usr/lib/libncurses.so.5.9'
+'lib/libpanel.so.5' -> '/usr/lib/libpanel.so.5'
+'lib/libpanel.so.5.9' -> '/usr/lib/libpanel.so.5.9'

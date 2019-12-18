@@ -1,0 +1,549 @@
+Making check in lib
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+Making check in crypto_backend
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/crypto_backend'
+Making check in luks1
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/luks1'
+Making check in loopaes
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/loopaes'
+Making check in verity
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/verity'
+Making check in tcrypt
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib/tcrypt'
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/lib'
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/src'
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/man'
+Making check in python
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+==================
+All 0 tests passed
+==================
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/python'
+Making check in tests
+make[1]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make  api-test differ
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+  CC       api_test-api-test.o
+  CC       api_test-utils_loop.o
+  CCLD     api-test
+  CC       differ-differ.o
+  CCLD     differ
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+modprobe: FATAL: Module dm-crypt not found in directory /lib/modules/3.10.0-693.11.1.el7.x86_64
+modprobe: FATAL: Module dm-verity not found in directory /lib/modules/3.10.0-693.11.1.el7.x86_64
+NonFIPSAlg: Crypto is properly initialised in format
+ [(success),NonFIPSAlg:1914] crypt_init(&cd, DEVICE_2)
+ [(success),NonFIPSAlg:1916] crypt_format(cd, CRYPT_LUKS1, cipher, cipher_mode, NULL, key, key_size, &params)
+ [(fail)   ,NonFIPSAlg:1918] crypt_format(cd, CRYPT_LUKS1, cipher, cipher_mode, NULL, key, key_size, &params) [Already formatted.]
+   => errno -22, errmsg: 
+ [(success),NonFIPSAlg:1922] crypt_init(&cd, DEVICE_2)
+ [(success),NonFIPSAlg:1932] crypt_init(&cd, DEVICE_2)
+ [(fail)   ,NonFIPSAlg:1934] crypt_format(cd, CRYPT_LUKS1, cipher, cipher_mode, NULL, key, key_size, &params) [MD5 unsupported, too short]
+   => errno -22, errmsg: Requested LUKS hash md5 is not supported.
+AddDevicePlain: plain device API creation exercise
+ [(fail)   ,AddDevicePlain:553] crypt_init(&cd, "") [empty device string]
+   => errno -15, errmsg: Device  doesn't exist or access denied.
+ [(fail)   ,AddDevicePlain:554] crypt_init(&cd, DEVICE_WRONG) [nonexistent device name ]
+   => errno -15, errmsg: Device /dev/Ooo_ doesn't exist or access denied.
+ [(fail)   ,AddDevicePlain:555] crypt_init(&cd, DEVICE_CHAR) [character device as backing device]
+   => errno -15, errmsg: 
+ [(success),AddDevicePlain:556] crypt_init(&cd, tmp_file_1)
+ [(success),AddDevicePlain:560] crypt_init(&cd,DEVICE_1)
+ [(fail)   ,AddDevicePlain:563] crypt_format(cd,CRYPT_PLAIN,NULL,cipher_mode,NULL,NULL,key_size,&params) [cipher param is null]
+   => errno -22, errmsg: Invalid plain crypt parameters.
+ [(fail)   ,AddDevicePlain:564] crypt_format(cd,CRYPT_PLAIN,cipher,NULL,NULL,NULL,key_size,&params) [cipher_mode param is null]
+   => errno -22, errmsg: Invalid plain crypt parameters.
+ [(success),AddDevicePlain:565] crypt_format(cd,CRYPT_PLAIN,cipher,cipher_mode,NULL,NULL,key_size,&params)
+ [(success),AddDevicePlain:566] strcmp(cipher_mode,crypt_get_cipher_mode(cd))
+ [(success),AddDevicePlain:567] strcmp(cipher,crypt_get_cipher(cd))
+ [(equal)  ,AddDevicePlain:568] (int)key_size == crypt_get_volume_key_size(cd)
+ [(equal)  ,AddDevicePlain:569] params.skip == crypt_get_iv_offset(cd)
+ [(equal)  ,AddDevicePlain:570] params.offset == crypt_get_data_offset(cd)
+ [(fail)   ,AddDevicePlain:575] crypt_set_uuid(cd,DEVICE_1_UUID) [can't set uuid to plain device]
+   => errno -22, errmsg: This operation is not supported for this device type.
+ [(success),AddDevicePlain:580] crypt_init(&cd, DEVICE_1)
+ [(success),AddDevicePlain:581] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, NULL)
+ [(fail)   ,AddDevicePlain:582] crypt_activate_by_volume_key(cd, NULL, key, key_size, 0) [cannot verify key with plain]
+   => errno -22, errmsg: 
+ [(success),AddDevicePlain:583] crypt_activate_by_volume_key(cd, CDEVICE_1, key, key_size, 0)
+ [(equal)  ,AddDevicePlain:584] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(success),AddDevicePlain:585] crypt_deactivate(cd, CDEVICE_1)
+ [(success),AddDevicePlain:593] crypt_init(&cd, DEVICE_1)
+ [(success),AddDevicePlain:594] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(equal)  ,AddDevicePlain:595] crypt_get_data_offset(cd) == params.offset
+ [(fail)   ,AddDevicePlain:597] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0) [invalid device size (0 blocks)]
+   => errno -22, errmsg: Requested offset is beyond real size of device /dev/loop4.
+ [(equal)  ,AddDevicePlain:598] crypt_status(cd, CDEVICE_1) == CRYPT_INACTIVE
+ [(success),AddDevicePlain:603] crypt_init(&cd, DEVICE_1)
+ [(success),AddDevicePlain:604] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(success),AddDevicePlain:605] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0)
+ [(equal)  ,AddDevicePlain:606] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(equal)  ,AddDevicePlain:609] r_size>>SECTOR_SHIFT == 1
+ [(success),AddDevicePlain:610] crypt_deactivate(cd, CDEVICE_1)
+ [(success),AddDevicePlain:617] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(fail)   ,AddDevicePlain:618] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0) [Device too small]
+   => errno -22, errmsg: Device /dev/loop4 is too small.
+ [(equal)  ,AddDevicePlain:619] crypt_status(cd, CDEVICE_1) == CRYPT_INACTIVE
+ [(success),AddDevicePlain:626] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(fail)   ,AddDevicePlain:627] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0) [Device too small]
+   => errno -22, errmsg: Requested offset is beyond real size of device /dev/loop4.
+ [(equal)  ,AddDevicePlain:628] crypt_status(cd, CDEVICE_1) == CRYPT_INACTIVE
+ [(success),AddDevicePlain:635] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(fail)   ,AddDevicePlain:636] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0) [Device too small]
+   => errno -22, errmsg: Requested offset is beyond real size of device /dev/loop4.
+ [(equal)  ,AddDevicePlain:637] crypt_status(cd, CDEVICE_1) == CRYPT_INACTIVE
+ [(success),AddDevicePlain:644] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(fail)   ,AddDevicePlain:645] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0) [Offset and size are beyond device real size]
+   => errno -22, errmsg: Device /dev/loop4 is too small.
+ [(equal)  ,AddDevicePlain:646] crypt_status(cd, CDEVICE_1) == CRYPT_INACTIVE
+ [(success),AddDevicePlain:653] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(success),AddDevicePlain:654] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0)
+ [(equal)  ,AddDevicePlain:655] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(equal)  ,AddDevicePlain:657] (r_size >> SECTOR_SHIFT) == params.size
+ [(success),AddDevicePlain:658] crypt_deactivate(cd,CDEVICE_1)
+ [(success),AddDevicePlain:667] crypt_init(&cd, DEVICE_1)
+ [(success),AddDevicePlain:668] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(fail)   ,AddDevicePlain:670] crypt_activate_by_passphrase(cd, NULL, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0) [cannot verify passphrase with plain]
+   => errno -22, errmsg: 
+ [(success),AddDevicePlain:671] crypt_activate_by_passphrase(cd, CDEVICE_1, CRYPT_ANY_SLOT, passphrase, strlen(passphrase), 0)
+ [(equal)  ,AddDevicePlain:674] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(equal)  ,AddDevicePlain:677] crypt_status(cd, CDEVICE_1) == CRYPT_BUSY
+ [(fail)   ,AddDevicePlain:678] crypt_deactivate(cd, CDEVICE_1) [Device is busy]
+   => errno -16, errmsg: Device ctest1 is still in use.
+ [(success),AddDevicePlain:680] crypt_deactivate(cd, CDEVICE_1)
+ [(equal)  ,AddDevicePlain:681] crypt_status(cd, CDEVICE_1) == CRYPT_INACTIVE
+ [(success),AddDevicePlain:685] crypt_init(&cd,DEVICE_1)
+ [(success),AddDevicePlain:686] crypt_format(cd, CRYPT_PLAIN, cipher, cipher_mode, NULL, NULL, key_size, &params)
+ [(success),AddDevicePlain:687] crypt_activate_by_volume_key(cd, CDEVICE_1, key, key_size, 0)
+ [(fail)   ,AddDevicePlain:690] crypt_init_by_name_and_header(&cd, CDEVICE_1, H_DEVICE) [can't init plain device by header device]
+   => errno -15, errmsg: Device head_ok doesn't exist or access denied.
+ [(success),AddDevicePlain:691] crypt_init_by_name(&cd, CDEVICE_1)
+ [(success),AddDevicePlain:692] strcmp(cipher_mode,crypt_get_cipher_mode(cd))
+ [(success),AddDevicePlain:693] strcmp(cipher,crypt_get_cipher(cd))
+ [(equal)  ,AddDevicePlain:694] (int)key_size == crypt_get_volume_key_size(cd)
+ [(equal)  ,AddDevicePlain:695] params.skip == crypt_get_iv_offset(cd)
+ [(equal)  ,AddDevicePlain:696] params.offset == crypt_get_data_offset(cd)
+ [(success),AddDevicePlain:697] crypt_deactivate(cd, CDEVICE_1)
+ [(success),AddDevicePlain:700] crypt_init(&cd,DEVICE_1)
+ [(success),AddDevicePlain:701] crypt_format(cd,CRYPT_PLAIN,cipher,cipher_mode,NULL,NULL,key_size,&params)
+ [(fail)   ,AddDevicePlain:706] crypt_set_data_device(cd,H_DEVICE) [can't set data device for plain device]
+   => errno -22, errmsg: This operation is not supported for this device type.
+ [(success),AddDevicePlain:709] strcmp(crypt_get_type(cd),CRYPT_PLAIN)
+ [(success),AddDevicePlain:711] crypt_activate_by_volume_key(cd, CDEVICE_1, key, key_size, 0)
+ [(equal)  ,AddDevicePlain:712] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(success),AddDevicePlain:715] crypt_resize(cd,CDEVICE_1,size>>SECTOR_SHIFT)
+ [(equal)  ,AddDevicePlain:717] r_size == size
+ [(fail)   ,AddDevicePlain:720] crypt_resize(cd, CDEVICE_1, (uint64_t)-1) [Backing device is too small]
+   => errno -22, errmsg: Device /dev/loop4 is too small.
+ [(fail)   ,AddDevicePlain:721] crypt_resize(cd, CDEVICE_1, (size>>SECTOR_SHIFT)+1) [crypt device overlaps backing device]
+   => errno -22, errmsg: Device /dev/loop4 is too small.
+ [(success),AddDevicePlain:724] crypt_resize(cd,CDEVICE_1, 123)
+ [(equal)  ,AddDevicePlain:726] r_size>>SECTOR_SHIFT == 123
+ [(success),AddDevicePlain:727] crypt_resize(cd,CDEVICE_1,0)
+ [(equal)  ,AddDevicePlain:729] r_size == size
+ [(success),AddDevicePlain:730] crypt_deactivate(cd,CDEVICE_1)
+ [(equal)  ,AddDevicePlain:731] crypt_status(cd,CDEVICE_1) == CRYPT_INACTIVE
+ [(success),AddDevicePlain:735] crypt_init(&cd,DEVICE_1)
+ [(success),AddDevicePlain:738] crypt_format(cd,CRYPT_PLAIN,cipher,cipher_mode,NULL,NULL,key_size,&params)
+ [(success),AddDevicePlain:739] crypt_activate_by_volume_key(cd,CDEVICE_1,key,key_size,0)
+ [(equal)  ,AddDevicePlain:741] r_size>>SECTOR_SHIFT == params.size
+ [(success),AddDevicePlain:743] crypt_resize(cd,CDEVICE_1,params.size + 10)
+ [(equal)  ,AddDevicePlain:745] r_size>>SECTOR_SHIFT == params.size + 10
+ [(fail)   ,AddDevicePlain:748] crypt_resize(cd,CDEVICE_1,params.size + 11) [new device size overlaps backing device]
+   => errno -22, errmsg: Device /dev/loop4 is too small.
+ [(equal)  ,AddDevicePlain:750] r_size>>SECTOR_SHIFT == params.size + 10
+ [(equal)  ,AddDevicePlain:751] crypt_status(cd,CDEVICE_1) == CRYPT_ACTIVE
+ [(success),AddDevicePlain:754] fd < 0
+ [(success),AddDevicePlain:757] crypt_resize(cd,CDEVICE_1, 1)
+ [(equal)  ,AddDevicePlain:759] r_size>>SECTOR_SHIFT == 1
+ [(success),AddDevicePlain:761] crypt_resize(cd,CDEVICE_1,0)
+ [(equal)  ,AddDevicePlain:763] r_size>>SECTOR_SHIFT == (size >> SECTOR_SHIFT)- 42
+ [(success),AddDevicePlain:764] crypt_deactivate(cd,CDEVICE_1)
+ [(success),AddDevicePlain:769] crypt_init(&cd,DEVICE_1)
+ [(success),AddDevicePlain:770] crypt_format(cd,CRYPT_PLAIN,cipher,cipher_mode,NULL,NULL,key_size,&params)
+ [(success),AddDevicePlain:771] crypt_activate_by_volume_key(cd,CDEVICE_1,key,key_size,0)
+ [(fail)   ,AddDevicePlain:774] crypt_suspend(cd,CDEVICE_1) [cannot suspend plain device]
+   => errno -22, errmsg: This operation is supported only for LUKS device.
+ [(equal)  ,AddDevicePlain:775] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(fail)   ,AddDevicePlain:776] crypt_resume_by_passphrase(cd,CDEVICE_1,CRYPT_ANY_SLOT,passphrase, strlen(passphrase)) [cannot resume plain device]
+   => errno -22, errmsg: This operation is supported only for LUKS device.
+ [(equal)  ,AddDevicePlain:777] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(fail)   ,AddDevicePlain:784] crypt_volume_key_get(cd, CRYPT_ANY_SLOT, key2, &key_size, passphrase, strlen(passphrase)) [small buffer]
+   => errno -12, errmsg: Volume key buffer too small.
+ [(success),AddDevicePlain:786] crypt_volume_key_get(cd, CRYPT_ANY_SLOT, key2, &key_size, passphrase, strlen(passphrase))
+ [(success),AddDevicePlain:788] memcmp(key, key2, key_size)
+ [(success),AddDevicePlain:790] strcmp(cipher, crypt_get_cipher(cd))
+ [(success),AddDevicePlain:791] strcmp(cipher_mode, crypt_get_cipher_mode(cd))
+ [(equal)  ,AddDevicePlain:792] (int)key_size == crypt_get_volume_key_size(cd)
+ [(equal)  ,AddDevicePlain:793] 0 == crypt_get_data_offset(cd)
+ [(success),AddDevicePlain:794] crypt_deactivate(cd, CDEVICE_1)
+ [(success),AddDevicePlain:797] _prepare_keyfile(KEYFILE1, KEY1, strlen(KEY1))
+ [(success),AddDevicePlain:798] _prepare_keyfile(KEYFILE2, KEY2, strlen(KEY2))
+ [(fail)   ,AddDevicePlain:799] crypt_activate_by_keyfile(cd, NULL, CRYPT_ANY_SLOT, KEYFILE1, 0, 0) [cannot verify key with plain]
+   => errno -22, errmsg: 
+ [(equal)  ,AddDevicePlain:800] 0 == crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, 0, 0)
+ [(equal)  ,AddDevicePlain:801] crypt_status(cd, CDEVICE_1) == CRYPT_ACTIVE
+ [(success),AddDevicePlain:802] crypt_deactivate(cd, CDEVICE_1)
+ [(fail)   ,AddDevicePlain:803] crypt_activate_by_keyfile_offset(cd, NULL, CRYPT_ANY_SLOT, KEYFILE1, 0, strlen(KEY1) + 1, 0) [cannot seek]
+   => errno -22, errmsg: 
+ [(equal)  ,AddDevicePlain:804] 0 == crypt_activate_by_keyfile_offset(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, 0, 0, 0)
+ [(success),AddDevicePlain:805] crypt_deactivate(cd, CDEVICE_1)
+ [(success),AddDevicePlain:809] crypt_init(&cd,DEVICE_1)
+ [(success),AddDevicePlain:810] crypt_format(cd,CRYPT_PLAIN,cipher,cipher_mode,NULL,NULL,key_size,&params)
+ [(fail)   ,AddDevicePlain:813] crypt_keyslot_add_by_passphrase(cd,CRYPT_ANY_SLOT,passphrase,strlen(passphrase),passphrase,strlen(passphrase)) [can't add keyslot to plain device]
+   => errno -22, errmsg: This operation is supported only for LUKS device.
+ [(fail)   ,AddDevicePlain:814] crypt_keyslot_add_by_volume_key(cd,CRYPT_ANY_SLOT ,key,key_size,passphrase,strlen(passphrase)) [can't add keyslot to plain device]
+   => errno -22, errmsg: This operation is supported only for LUKS device.
+ [(fail)   ,AddDevicePlain:815] crypt_keyslot_add_by_keyfile(cd,CRYPT_ANY_SLOT,KEYFILE1,strlen(KEY1),KEYFILE2,strlen(KEY2)) [can't add keyslot to plain device]
+   => errno -22, errmsg: This operation is supported only for LUKS device.
+ [(fail)   ,AddDevicePlain:816] crypt_keyslot_destroy(cd,1) [can't manipulate keyslots on plain device]
+   => errno -22, errmsg: This operation is supported only for LUKS device.
+ [(equal)  ,AddDevicePlain:817] crypt_keyslot_status(cd, 0) == CRYPT_SLOT_INVALID
+HashDevicePlain: plain device API hash test
+ [(success),HashDevicePlain:1595] crypt_init(&cd, DEVICE_1)
+ [(success),HashDevicePlain:1596] crypt_format(cd, CRYPT_PLAIN, "aes", "cbc-essiv:sha256", NULL, NULL, 16, &params)
+ [(success),HashDevicePlain:1599] _prepare_keyfile(KEYFILE1, "tooshort", 8)
+ [(fail)   ,HashDevicePlain:1600] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, 16, 0) [not enough data in keyfile]
+   => errno -22, errmsg: Cannot read requested amount of data.
+ [(success),HashDevicePlain:1608] _prepare_keyfile(KEYFILE1, key, key_size)
+ [(success),HashDevicePlain:1609] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, key_size, 0)
+ [(success),HashDevicePlain:1610] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(success),HashDevicePlain:1611] strcmp(key, mk_hex)
+ [(success),HashDevicePlain:1612] crypt_deactivate(cd, CDEVICE_1)
+ [(success),HashDevicePlain:1616] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, key_size - 3, 0)
+ [(success),HashDevicePlain:1617] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(success),HashDevicePlain:1618] strcmp(key, mk_hex)
+ [(success),HashDevicePlain:1619] crypt_deactivate(cd, CDEVICE_1)
+ [(success),HashDevicePlain:1628] _prepare_keyfile(KEYFILE1, key, strlen(mk_hex) / 2)
+ [(success),HashDevicePlain:1629] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, key_size, 0)
+ [(success),HashDevicePlain:1630] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(fail)   ,HashDevicePlain:1631] strcmp(key, mk_hex) [only key length used]
+   => errno -1, errmsg: 
+ [(success),HashDevicePlain:1632] strncmp(key, mk_hex, key_size)
+ [(success),HashDevicePlain:1633] crypt_deactivate(cd, CDEVICE_1)
+ [(success),HashDevicePlain:1637] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, 0, 0)
+ [(success),HashDevicePlain:1638] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(fail)   ,HashDevicePlain:1639] strcmp(key, mk_hex) [only key length used]
+   => errno -1, errmsg: 
+ [(success),HashDevicePlain:1640] strncmp(key, mk_hex, key_size)
+ [(success),HashDevicePlain:1641] crypt_deactivate(cd, CDEVICE_1)
+ [(success),HashDevicePlain:1648] crypt_init(&cd, DEVICE_1)
+ [(success),HashDevicePlain:1649] crypt_format(cd, CRYPT_PLAIN, "aes", "cbc-essiv:sha256", NULL, NULL, 16, &params)
+ [(success),HashDevicePlain:1655] _prepare_keyfile(KEYFILE1, keystr, strlen(keystr))
+ [(success),HashDevicePlain:1656] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, key_size, 0)
+ [(success),HashDevicePlain:1657] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(success),HashDevicePlain:1658] strcmp(key, mk_hex)
+ [(success),HashDevicePlain:1659] crypt_deactivate(cd, CDEVICE_1)
+ [(success),HashDevicePlain:1662] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, 0, 0)
+ [(success),HashDevicePlain:1663] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(success),HashDevicePlain:1664] strcmp(key, mk_hex)
+ [(success),HashDevicePlain:1665] crypt_deactivate(cd, CDEVICE_1)
+ [(success),HashDevicePlain:1671] _prepare_keyfile(KEYFILE1, keystr, strlen(keystr))
+ [(success),HashDevicePlain:1672] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, key_size, 0)
+ [(success),HashDevicePlain:1673] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(success),HashDevicePlain:1674] strcmp(key, mk_hex)
+ [(success),HashDevicePlain:1675] crypt_deactivate(cd, CDEVICE_1)
+ [(success),HashDevicePlain:1678] crypt_activate_by_keyfile(cd, CDEVICE_1, CRYPT_ANY_SLOT, KEYFILE1, 0, 0)
+ [(success),HashDevicePlain:1679] _get_key_dm(CDEVICE_1, key, sizeof(key))
+ [(success),HashDevicePlain:1680] strcmp(key, "0e49cb34a1dee1df33f6505e4de44a66")
+ [(success),HashDevicePlain:1681] crypt_deactivate(cd, CDEVICE_1)
+AddDeviceLuks: Format and use LUKS device
+ [(success),AddDeviceLuks:1012] get_luks_offsets(1, key_size, 0, 0, &r_header_size, &r_payload_offset)
+sectors_per_stripes 250
+ [(success),AddDeviceLuks:1013] create_dmdevice_over_loop(H_DEVICE, r_header_size)
+ [(success),AddDeviceLuks:1014] create_dmdevice_over_loop(H_DEVICE_WRONG, r_header_size - 1)
+ [(success),AddDeviceLuks:1017] crypt_init(&cd, DMDIR H_DEVICE_WRONG)
+FAIL line 1017 [AddDeviceLuks]: code -15, Device /dev/mapper/head_wr doesn't exist or access denied.
+FAIL: api-test
+CASE: [1] open - compat image - acceptance check
+CASE: [2] open - compat image - denial check
+CASE: [3] format
+CASE: [4] format using hash sha512
+CASE: [5] open
+CASE: [6] add key
+CASE: [7] unsuccessful delete
+CASE: [8] successful delete
+CASE: [9] add key test for key files
+CASE: [10] delete key test with key1 as remaining key
+device-mapper: remove ioctl on dummy  failed: No such device or address
+Command failed
+CASE: [11] delete last key
+CASE: [12] parameter variation test
+device-mapper: remove ioctl on dummy  failed: No such device or address
+Command failed
+CASE: [13] open/close - stacked devices
+CASE: [14] format/open - passphrase on stdin & new line
+CASE: [15] UUID - use and report provided UUID
+CASE: [16] luksFormat
+CASE: [17] AddKey volume key, passphrase and keyfile
+CASE: [18] RemoveKey passphrase and keyfile
+CASE: [19] create & status & resize
+CASE: [20] Disallow open/create if already mapped.
+CASE: [21] luksDump
+CASE: [22] remove disappeared device
+CASE: [23] ChangeKey passphrase and keyfile
+CASE: [24] Keyfile limit
+CASE: [25] Create shared segments
+CASE: [26] Suspend/Resume
+CASE: [27] luksOpen with specified key slot number
+CASE: [28] Detached LUKS header
+CASE: [29] Repair metadata
+CASE: [30] LUKS erase
+PASS: compat-test
+which: no uuencode in (/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin)
+WARNING: test require uuencode binary, test skipped.
+PASS: loopaes-test
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/3.10.0-693.11.1.el7.x86_64
+PASS: align-test
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/3.10.0-693.11.1.el7.x86_64
+PASS: discards-test
+aes                      PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-plain                PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+null                     PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+cipher_null              PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+cipher_null-ecb          PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-ecb                  PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-ecb              PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-ecb              PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-cbc-null             PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-cbc-benbi            PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-cbc-plain            PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-cbc-plain64          PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-cbc-essiv:sha256     PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-lrw-null             PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-lrw-benbi            PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-lrw-plain            PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-lrw-plain64          PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-lrw-essiv:sha256     PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-xts-null             PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-xts-benbi            PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-xts-plain            PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-xts-plain64          PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+aes-xts-essiv:sha256     PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-cbc-null         PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-cbc-benbi        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-cbc-plain        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-cbc-plain64      PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-cbc-essiv:sha256 PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-lrw-null         PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-lrw-benbi        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-lrw-plain        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-lrw-plain64      PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-lrw-essiv:sha256 PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-xts-null         PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-xts-benbi        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-xts-plain        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-xts-plain64      PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+twofish-xts-essiv:sha256 PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-cbc-null         PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-cbc-benbi        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-cbc-plain        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-cbc-plain64      PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-cbc-essiv:sha256 PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-lrw-null         PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-lrw-benbi        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-lrw-plain        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-lrw-plain64      PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-lrw-essiv:sha256 PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-xts-null         PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-xts-benbi        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-xts-plain        PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-xts-plain64      PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+serpent-xts-essiv:sha256 PLAIN:[table OK][status OK] LUKS:[table OK][status OK] CHECKSUM:[OK]
+PASS: mode-test
+HASH: ripemd160 KSIZE: 0 / pwd [OK]
+HASH: ripemd160 KSIZE: 256 / pwd [OK]
+HASH: ripemd160 KSIZE: 128 / pwd [OK]
+HASH: sha1 KSIZE: 256 / pwd [OK]
+HASH: sha1 KSIZE: 128 / pwd [OK]
+HASH: sha256 KSIZE: 256 / pwd [OK]
+HASH: sha256 KSIZE: 128 / pwd [OK]
+HASH: sha256 KSIZE: 0 / std- [OK]
+HASH: sha256 KSIZE: 256 / std- [OK]
+HASH: sha256 KSIZE: 128 / std- [OK]
+HASH: sha256 KSIZE: 256 / stdin [OK]
+HASH: sha256 KSIZE: 0 / stdin [OK]
+HASH: ripemd160 KSIZE: 256 / file [OK]
+HASH: sha256 KSIZE: 256 / file [OK]
+HASH: unknown* KSIZE: 256 / file [OK]
+HASH: sha256:20 KSIZE: 256 / pwd [OK]
+HASH: sha256:32 KSIZE: 256 / pwd [OK]
+HASH: sha256: KSIZE: 256 / failpwd [OK]
+HASH: sha256:xx KSIZE: 256 / failpwd [OK]
+HASH: ripemd160 KSIZE: 256 / file [OK]
+HASH: sha256 KSIZE: 256 / file [OK]
+HASH: sha256 KSIZE: 128 / file [OK]
+HASH: sha256 KSIZE: 512 / file [OK]
+HASH: plain KSIZE: 128 / cat [OK]
+HASH: plain KSIZE: 128 / cat [OK]
+HASH: plain KSIZE: 128 / cat [OK]
+HASH: plain KSIZE: 128 / cat- [OK]
+HASH: plain KSIZE: 128 / cat- [OK]
+HASH: sha256 KSIZE: 128 / cat- [OK]
+HASH: sha256 KSIZE: 128 / cat- [OK]
+HASH: sha256 KSIZE: 128 / cat- [OK]
+HASH: sha256 KSIZE: 128 / cat- [OK]
+HASH: sha256 KSIZE: 128 / cat- [OK]
+HASH: sha256 KSIZE: 128 / cat- [OK]
+HASH: plain KSIZE: 256 / pwd [OK]
+HASH: plain:2 KSIZE: 256 / pwd [OK]
+HASH: plain:9 KSIZE: 256 / failpwd [OK]
+HASH: sha256 KSIZE: 128 / cat [OK]
+HASH: sha256:14 KSIZE: 128 / cat [OK]
+HASH: sha256 KSIZE: 128 / pwd [OK]
+HASH: sha256 KSIZE: 128 / pwd [OK]
+HASH: sha256 KSIZE: 128 / pwd [OK]
+PASS: password-hash-test
+REQUIRED KDF TEST
+REQUIRED CIPHERS TEST
+#  Algorithm | Key |  Encryption |  Decryption
+        aes-cbc   256b   426.7 MiB/s  1485.6 MiB/s
+        aes-lrw   384b   867.9 MiB/s   865.6 MiB/s
+        aes-xts   512b  1270.4 MiB/s  1324.9 MiB/s
+    twofish-cbc   256b   179.3 MiB/s   341.3 MiB/s
+    twofish-lrw   384b   288.9 MiB/s   296.1 MiB/s
+    twofish-xts   512b   319.0 MiB/s   323.7 MiB/s
+    serpent-cbc   256b    84.8 MiB/s   284.3 MiB/s
+    serpent-lrw   384b   267.7 MiB/s   253.3 MiB/s
+    serpent-xts   512b   279.4 MiB/s   273.3 MiB/s
+   blowfish-cbc   256b    75.7 MiB/s   325.6 MiB/s
+   des3_ede-cbc   192b    25.0 MiB/s    27.9 MiB/s
+      cast5-cbc   128b    96.1 MiB/s   305.0 MiB/s
+HEADER CHECK
+ tcrypt-images/tc_1-rmd160-cbc-aes [OK]
+ tcrypt-images/tc_1-rmd160-cbc-blowfish [OK]
+ tcrypt-images/tc_1-sha1-cbc-3des [OK]
+ tcrypt-images/tc_1-sha1-cbc-aes [OK]
+ tcrypt-images/tc_1-sha1-cbc-blowfish [OK]
+ tcrypt-images/tc_1-sha1-cbc-cast [OK]
+ tcrypt-images/tc_2-rmd160-cbc-aes [OK]
+ tcrypt-images/tc_2-rmd160-cbc-aes-blowfish [OK]
+ tcrypt-images/tc_2-rmd160-cbc-aes-blowfish-serpent [OK]
+ tcrypt-images/tc_2-rmd160-cbc-aes-hidden [OK]
+ tcrypt-images/tc_2-rmd160-cbc-aes-twofish [OK]
+ tcrypt-images/tc_2-rmd160-cbc-aes-twofish-serpent [OK]
+ tcrypt-images/tc_2-rmd160-cbc-serpent-aes [OK]
+ tcrypt-images/tc_2-rmd160-cbc-serpent-twofish-aes [OK]
+ tcrypt-images/tc_2-rmd160-cbc-serpent-twofish-aes-hidden [OK]
+ tcrypt-images/tc_2-rmd160-cbc-twofish [OK]
+ tcrypt-images/tc_2-rmd160-cbc-twofish-serpent [OK]
+ tcrypt-images/tc_2-rmd160-lrw-aes [OK]
+ tcrypt-images/tc_2-rmd160-lrw-aes-hidden [OK]
+ tcrypt-images/tc_2-rmd160-lrw-aes-twofish [OK]
+ tcrypt-images/tc_2-rmd160-lrw-aes-twofish-serpent [OK]
+ tcrypt-images/tc_2-rmd160-lrw-serpent [OK]
+ tcrypt-images/tc_2-rmd160-lrw-serpent-aes [OK]
+ tcrypt-images/tc_2-rmd160-lrw-serpent-twofish-aes [OK]
+ tcrypt-images/tc_2-rmd160-lrw-serpent-twofish-aes-hidden [OK]
+ tcrypt-images/tc_2-rmd160-lrw-twofish [OK]
+ tcrypt-images/tc_2-rmd160-lrw-twofish-serpent [OK]
+ tcrypt-images/tc_2-whirlpool-cbc-aes [OK]
+ tcrypt-images/tc_3-rmd160-xts-aes [OK]
+ tcrypt-images/tc_3-rmd160-xts-aes-twofish [OK]
+ tcrypt-images/tc_3-rmd160-xts-aes-twofish-serpent [OK]
+ tcrypt-images/tc_3-rmd160-xts-serpent [OK]
+ tcrypt-images/tc_3-rmd160-xts-serpent-aes [OK]
+ tcrypt-images/tc_3-rmd160-xts-serpent-twofish-aes [OK]
+ tcrypt-images/tc_3-rmd160-xts-twofish [OK]
+ tcrypt-images/tc_3-rmd160-xts-twofish-serpent [OK]
+ tcrypt-images/tc_3-sha512-xts-aes [OK]
+ tcrypt-images/tc_3-sha512-xts-aes-hidden [OK]
+ tcrypt-images/tc_3-sha512-xts-serpent-twofish-aes-hidden [OK]
+ tcrypt-images/tc_4-rmd160-xts-aes [OK]
+ tcrypt-images/tc_4-sha512-xts-aes [OK]
+ tcrypt-images/tc_4-sha512-xts-aes-hidden [OK]
+ tcrypt-images/tc_4-sha512-xts-aes-twofish [OK]
+ tcrypt-images/tc_4-sha512-xts-aes-twofish-serpent [OK]
+ tcrypt-images/tc_4-sha512-xts-serpent [OK]
+ tcrypt-images/tc_4-sha512-xts-serpent-aes [OK]
+ tcrypt-images/tc_4-sha512-xts-serpent-twofish-aes [OK]
+ tcrypt-images/tc_4-sha512-xts-serpent-twofish-aes-hidden [OK]
+ tcrypt-images/tc_4-sha512-xts-twofish [OK]
+ tcrypt-images/tc_4-sha512-xts-twofish-serpent [OK]
+ tcrypt-images/tc_5-rmd160-xts-aes [OK]
+ tcrypt-images/tc_5-sha512-xts-aes [OK]
+ tcrypt-images/tc_5-sha512-xts-aes-hidden [OK]
+ tcrypt-images/tc_5-sha512-xts-aes-twofish [OK]
+ tcrypt-images/tc_5-sha512-xts-aes-twofish-serpent [OK]
+ tcrypt-images/tc_5-sha512-xts-serpent [OK]
+ tcrypt-images/tc_5-sha512-xts-serpent-aes [OK]
+ tcrypt-images/tc_5-sha512-xts-serpent-twofish-aes [OK]
+ tcrypt-images/tc_5-sha512-xts-serpent-twofish-aes-hidden [OK]
+ tcrypt-images/tc_5-sha512-xts-twofish [OK]
+ tcrypt-images/tc_5-sha512-xts-twofish-serpent [OK]
+ tcrypt-images/tc_5-whirlpool-xts-aes [OK]
+ tcrypt-images/vc_1-rmd160-xts-aes [OK]
+ tcrypt-images/vc_1-sha256-xts-aes [OK]
+ tcrypt-images/vc_1-sha512-xts-aes [OK]
+ tcrypt-images/vc_1-sha512-xts-aes-hidden [OK]
+ tcrypt-images/vc_1-sha512-xts-aes-twofish-serpent [OK]
+ tcrypt-images/vc_1-sha512-xts-serpent-twofish-aes [OK]
+ tcrypt-images/vc_1-whirlpool-xts-aes [OK]
+HEADER CHECK (HIDDEN)
+ tcrypt-images/tc_2-rmd160-cbc-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_2-rmd160-cbc-serpent-twofish-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_2-rmd160-lrw-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_2-rmd160-lrw-serpent-twofish-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_3-sha512-xts-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_3-sha512-xts-serpent-twofish-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_4-sha512-xts-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_4-sha512-xts-serpent-twofish-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_5-sha512-xts-aes-hidden (hidden) [OK]
+ tcrypt-images/tc_5-sha512-xts-serpent-twofish-aes-hidden (hidden) [OK]
+ tcrypt-images/vc_1-sha512-xts-aes-hidden (hidden) [OK]
+HEADER KEYFILES CHECK
+ tcrypt-images/tck_5-sha512-xts-aes [OK]
+ tcrypt-images/vck_1-sha512-xts-aes [OK]
+ACTIVATION FS UUID CHECK
+ tcrypt-images/tc_1-rmd160-cbc-aesUUID check failed.
+ [FAILED]
+FAIL: tcrypt-compat-test
+REQUIRED KDF TEST
+REQUIRED CIPHERS TEST
+#  Algorithm | Key |  Encryption |  Decryption
+        aes-xts   256b  1537.7 MiB/s  1601.8 MiB/s
+    twofish-xts   256b   329.2 MiB/s   333.5 MiB/s
+    serpent-xts   256b   289.0 MiB/s   287.7 MiB/s
+        aes-cbc   256b   407.4 MiB/s  1477.4 MiB/s
+        aes-lrw   256b   936.9 MiB/s   976.1 MiB/s
+ACTIVATION FS UUID CHECK
+ luks1-images/luks1_aes-cbc-essiv-sha256-sha1.imgUUID check failed.
+ [FAILED]
+FAIL: luks1-compat-test
+[1] Using tmpfs for image
+[2] Kernel dmcrypt performace options
+PASS: device-test
+Cannot find dm-verity target, test skipped.
+PASS: verity-compat-test
+====================
+3 of 11 tests failed
+====================
+make[2]: *** [Makefile:592: check-TESTS] Error 1
+make[2]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make[1]: *** [Makefile:716: check-am] Error 2
+make[1]: Leaving directory '/lfskernel/sources/boot/cryptsetup-1.7.5/tests'
+make: *** [Makefile:462: check-recursive] Error 1

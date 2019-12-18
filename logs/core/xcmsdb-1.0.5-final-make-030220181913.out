@@ -1,0 +1,15 @@
+###############################
+# Make xcmsdb-1.0.5.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xcmsdb-1.0.5'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xcmsdb-1.0.5/man'
+  GEN      xcmsdb.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xcmsdb-1.0.5/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xcmsdb-1.0.5'
+  CC       loadData.o
+  CC       xcmsdb.o
+  CCLD     xcmsdb
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xcmsdb-1.0.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xcmsdb-1.0.5'

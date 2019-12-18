@@ -1,0 +1,11 @@
+make[1]: Entering directory '/lfskernel/sources/boot/lz4/lib'
+creating pkgconfig
+Installing libraries
+Installing headers in /usr/include
+lz4 libraries installed
+make[1]: Leaving directory '/lfskernel/sources/boot/lz4/lib'
+make[1]: Entering directory '/lfskernel/sources/boot/lz4/programs'
+Installing binaries
+Installing man pages
+lz4 installation completed
+make[1]: Leaving directory '/lfskernel/sources/boot/lz4/programs'

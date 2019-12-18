@@ -1,0 +1,41 @@
+###############################
+###############################
+Making check in .
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10'
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/man'
+Making check in tests
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make  test_xauth
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+  CC       test_xauth.o
+  CCLD     test_xauth
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+FAIL: test_xauth
+============================================================================
+Testsuite summary for xauth 1.0.10
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+Please report to https://bugs.freedesktop.org/enter_bug.cgi?product=xorg
+============================================================================
+make[3]: *** [Makefile:627: test-suite.log] Error 1
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make[2]: *** [Makefile:735: check-TESTS] Error 2
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make[1]: *** [Makefile:806: check-am] Error 2
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xauth-1.0.10/tests'
+make: *** [Makefile:519: check-recursive] Error 1

@@ -1,0 +1,448 @@
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|Submitted by:            DJ Lucas (dj_AT_linuxfromscratch_DOT_org)
+|Date:                    2017-03-12
+|Initial Package Version: 8.27
+|Upstream Status:         Rejected
+|Origin:                  Based on Fedora's i18n patches at
+|                         http://pkgs.fedoraproject.org/cgit/rpms/coreutils.git/tree/
+|Description:             Fixes i18n issues with various Coreutils programs
+|
+|diff -Naurp coreutils-8.27-orig/bootstrap.conf coreutils-8.27/bootstrap.conf
+|--- coreutils-8.27-orig/bootstrap.conf	2017-03-07 23:34:06.000000000 -0600
+|+++ coreutils-8.27/bootstrap.conf	2017-03-11 23:47:38.068058445 -0600
+--------------------------
+patching file bootstrap.conf
+Using Plan A...
+Hunk #1 succeeded at 154 (offset 2 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/configure.ac coreutils-8.27/configure.ac
+|--- coreutils-8.27-orig/configure.ac	2017-02-26 08:52:29.000000000 -0600
+|+++ coreutils-8.27/configure.ac	2017-03-11 23:47:38.068058445 -0600
+--------------------------
+patching file configure.ac
+Using Plan A...
+Hunk #1 succeeded at 436 (offset 7 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/lib/linebuffer.h coreutils-8.27/lib/linebuffer.h
+|--- coreutils-8.27-orig/lib/linebuffer.h	2017-01-01 16:35:38.000000000 -0600
+|+++ coreutils-8.27/lib/linebuffer.h	2017-03-11 23:47:13.089286391 -0600
+--------------------------
+patching file lib/linebuffer.h
+Using Plan A...
+Hunk #1 succeeded at 21.
+Hunk #2 succeeded at 33.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/lib/mbfile.c coreutils-8.27/lib/mbfile.c
+|--- coreutils-8.27-orig/lib/mbfile.c	1969-12-31 18:00:00.000000000 -0600
+|+++ coreutils-8.27/lib/mbfile.c	2017-03-11 23:47:38.069058397 -0600
+--------------------------
+patching file lib/mbfile.c
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/lib/mbfile.h coreutils-8.27/lib/mbfile.h
+|--- coreutils-8.27-orig/lib/mbfile.h	1969-12-31 18:00:00.000000000 -0600
+|+++ coreutils-8.27/lib/mbfile.h	2017-03-11 23:47:38.069058397 -0600
+--------------------------
+patching file lib/mbfile.h
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/m4/mbfile.m4 coreutils-8.27/m4/mbfile.m4
+|--- coreutils-8.27-orig/m4/mbfile.m4	1969-12-31 18:00:00.000000000 -0600
+|+++ coreutils-8.27/m4/mbfile.m4	2017-03-11 23:47:38.070058349 -0600
+--------------------------
+patching file m4/mbfile.m4
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/cut.c coreutils-8.27/src/cut.c
+|--- coreutils-8.27-orig/src/cut.c	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/cut.c	2017-03-11 23:47:59.526048471 -0600
+--------------------------
+patching file src/cut.c
+Using Plan A...
+Hunk #1 succeeded at 28.
+Hunk #2 succeeded at 43.
+Hunk #3 succeeded at 71.
+Hunk #4 succeeded at 124.
+Hunk #5 succeeded at 143.
+Hunk #6 succeeded at 173.
+Hunk #7 succeeded at 243.
+Hunk #8 succeeded at 359.
+Hunk #9 succeeded at 580.
+Hunk #10 succeeded at 836.
+Hunk #11 succeeded at 859.
+Hunk #12 succeeded at 866.
+Hunk #13 succeeded at 885.
+Hunk #14 succeeded at 929.
+Hunk #15 succeeded at 969.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/expand.c coreutils-8.27/src/expand.c
+|--- coreutils-8.27-orig/src/expand.c	2017-02-26 15:42:25.000000000 -0600
+|+++ coreutils-8.27/src/expand.c	2017-03-11 23:49:06.758133530 -0600
+--------------------------
+patching file src/expand.c
+Using Plan A...
+Hunk #1 succeeded at 37.
+Hunk #2 succeeded at 101 (offset -2 lines).
+Hunk #3 succeeded at 145 (offset -2 lines).
+Hunk #4 succeeded at 205 (offset -2 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/expand-common.c coreutils-8.27/src/expand-common.c
+|--- coreutils-8.27-orig/src/expand-common.c	2017-03-01 11:22:55.000000000 -0600
+|+++ coreutils-8.27/src/expand-common.c	2017-03-11 23:49:06.757133570 -0600
+--------------------------
+patching file src/expand-common.c
+Using Plan A...
+Hunk #1 succeeded at 19 with fuzz 1 (offset 1 line).
+Hunk #2 succeeded at 127 (offset 21 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/expand-common.h coreutils-8.27/src/expand-common.h
+|--- coreutils-8.27-orig/src/expand-common.h	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/expand-common.h	2017-03-11 23:49:06.758133530 -0600
+--------------------------
+patching file src/expand-common.h
+Using Plan A...
+Hunk #1 succeeded at 34.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/fold.c coreutils-8.27/src/fold.c
+|--- coreutils-8.27-orig/src/fold.c	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/fold.c	2017-03-11 23:49:30.982169404 -0600
+--------------------------
+patching file src/fold.c
+Using Plan A...
+Hunk #1 succeeded at 22.
+Hunk #2 succeeded at 57.
+Hunk #3 succeeded at 119.
+Hunk #4 succeeded at 137.
+Hunk #5 succeeded at 160.
+Hunk #6 succeeded at 197.
+Hunk #7 succeeded at 252.
+Hunk #8 succeeded at 498.
+Hunk #9 succeeded at 508.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/join.c coreutils-8.27/src/join.c
+|--- coreutils-8.27-orig/src/join.c	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/join.c	2017-03-11 23:47:13.091286290 -0600
+--------------------------
+patching file src/join.c
+Using Plan A...
+Hunk #1 succeeded at 22.
+Hunk #2 succeeded at 150.
+Hunk #3 succeeded at 292.
+Hunk #4 succeeded at 323.
+Hunk #5 succeeded at 485.
+Hunk #6 succeeded at 703.
+Hunk #7 succeeded at 803 (offset -4 lines).
+Hunk #8 succeeded at 835 (offset -4 lines).
+Hunk #9 succeeded at 868 (offset -4 lines).
+Hunk #10 succeeded at 1345 (offset -5 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/pr.c coreutils-8.27/src/pr.c
+|--- coreutils-8.27-orig/src/pr.c	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/pr.c	2017-03-11 23:47:13.094286139 -0600
+--------------------------
+patching file src/pr.c
+Using Plan A...
+Hunk #1 succeeded at 311.
+Hunk #2 succeeded at 342.
+Hunk #3 succeeded at 446.
+Hunk #4 succeeded at 471.
+Hunk #5 succeeded at 485.
+Hunk #6 succeeded at 496.
+Hunk #7 succeeded at 600.
+Hunk #8 succeeded at 610.
+Hunk #9 succeeded at 683.
+Hunk #10 succeeded at 742.
+Hunk #11 succeeded at 904.
+Hunk #12 succeeded at 935.
+Hunk #13 succeeded at 1026.
+Hunk #14 succeeded at 1044.
+Hunk #15 succeeded at 1067.
+Hunk #16 succeeded at 1093.
+Hunk #17 succeeded at 1249 (offset -1 lines).
+Hunk #18 succeeded at 1309 (offset -1 lines).
+Hunk #19 succeeded at 1351 (offset -1 lines).
+Hunk #20 succeeded at 1381 (offset -1 lines).
+Hunk #21 succeeded at 1394 (offset -1 lines).
+Hunk #22 succeeded at 1417 (offset -1 lines).
+Hunk #23 succeeded at 1523 (offset -3 lines).
+Hunk #24 succeeded at 1557 (offset -3 lines).
+Hunk #25 succeeded at 1848 (offset -3 lines).
+Hunk #26 succeeded at 2125 (offset -3 lines).
+Hunk #27 succeeded at 2148 (offset -3 lines).
+Hunk #28 succeeded at 2324 (offset -5 lines).
+Hunk #29 succeeded at 2344 (offset -5 lines).
+Hunk #30 succeeded at 2356 (offset -5 lines).
+Hunk #31 succeeded at 2370 (offset -5 lines).
+Hunk #32 succeeded at 2406 (offset -5 lines).
+Hunk #33 succeeded at 2430 (offset -5 lines).
+Hunk #34 succeeded at 2675 (offset -7 lines).
+Hunk #35 succeeded at 2746 with fuzz 1 (offset -8 lines).
+Hunk #36 succeeded at 2758 (offset -8 lines).
+Hunk #37 succeeded at 2778 (offset -7 lines).
+Hunk #38 succeeded at 2793 (offset -7 lines).
+Hunk #39 succeeded at 2813 (offset -7 lines).
+Hunk #40 succeeded at 2823 (offset -7 lines).
+Hunk #41 succeeded at 2907 (offset -7 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/sort.c coreutils-8.27/src/sort.c
+|--- coreutils-8.27-orig/src/sort.c	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/sort.c	2017-03-11 23:49:22.416505389 -0600
+--------------------------
+patching file src/sort.c
+Using Plan A...
+Hunk #1 succeeded at 29.
+Hunk #2 succeeded at 177 (offset 4 lines).
+Hunk #3 succeeded at 383 (offset 4 lines).
+Hunk #4 succeeded at 845 (offset 3 lines).
+Hunk #5 succeeded at 1335 (offset 9 lines).
+Hunk #6 succeeded at 1350 (offset 9 lines).
+Hunk #7 succeeded at 1362 (offset 9 lines).
+Hunk #8 succeeded at 1444 (offset 9 lines).
+Hunk #9 succeeded at 1753 (offset 7 lines).
+Hunk #10 succeeded at 1762 (offset 7 lines).
+Hunk #11 succeeded at 1791 (offset 7 lines).
+Hunk #12 succeeded at 1869 (offset 7 lines).
+Hunk #13 succeeded at 1918 (offset 7 lines).
+Hunk #14 succeeded at 1952 (offset 7 lines).
+Hunk #15 succeeded at 2162 (offset 7 lines).
+Hunk #16 succeeded at 2311 (offset 7 lines).
+Hunk #17 succeeded at 2325 (offset 7 lines).
+Hunk #18 succeeded at 2335 (offset 7 lines).
+Hunk #19 succeeded at 2404 (offset 7 lines).
+Hunk #20 succeeded at 2680 (offset 7 lines).
+Hunk #21 succeeded at 2821 (offset 7 lines).
+Hunk #22 succeeded at 2879 (offset 7 lines).
+Hunk #23 succeeded at 3044 (offset 7 lines).
+Hunk #24 succeeded at 3160 (offset 7 lines).
+Hunk #25 succeeded at 3392 with fuzz 2 (offset 7 lines).
+Hunk #26 succeeded at 4787 (offset 5 lines).
+Hunk #27 succeeded at 4867 (offset 5 lines).
+Hunk #28 succeeded at 4888 (offset 5 lines).
+Hunk #29 succeeded at 5185 (offset 5 lines).
+Hunk #30 succeeded at 5223 (offset 5 lines).
+Hunk #31 succeeded at 5455 (offset -5 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/unexpand.c coreutils-8.27/src/unexpand.c
+|--- coreutils-8.27-orig/src/unexpand.c	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/unexpand.c	2017-03-11 23:49:06.758133530 -0600
+--------------------------
+patching file src/unexpand.c
+Using Plan A...
+Hunk #1 succeeded at 38.
+Hunk #2 succeeded at 110.
+Hunk #3 succeeded at 184.
+Hunk #4 succeeded at 238.
+Hunk #5 succeeded at 255.
+Hunk #6 succeeded at 270.
+Hunk #7 succeeded at 278.
+Hunk #8 succeeded at 288.
+Hunk #9 succeeded at 302.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/src/uniq.c coreutils-8.27/src/uniq.c
+|--- coreutils-8.27-orig/src/uniq.c	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/src/uniq.c	2017-03-11 23:47:13.098285938 -0600
+--------------------------
+patching file src/uniq.c
+Using Plan A...
+Hunk #1 succeeded at 21.
+Hunk #2 succeeded at 43.
+Hunk #3 succeeded at 167.
+Hunk #4 succeeded at 287.
+Hunk #5 succeeded at 307.
+Hunk #6 succeeded at 392.
+Hunk #7 succeeded at 401.
+Hunk #8 succeeded at 562.
+Hunk #9 succeeded at 611.
+Hunk #10 succeeded at 627.
+Hunk #11 succeeded at 655.
+Hunk #12 succeeded at 695.
+Hunk #13 succeeded at 744.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/expand/mb.sh coreutils-8.27/tests/expand/mb.sh
+|--- coreutils-8.27-orig/tests/expand/mb.sh	1969-12-31 18:00:00.000000000 -0600
+|+++ coreutils-8.27/tests/expand/mb.sh	2017-03-11 23:49:06.759133489 -0600
+--------------------------
+patching file tests/expand/mb.sh
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/i18n/sort.sh coreutils-8.27/tests/i18n/sort.sh
+|--- coreutils-8.27-orig/tests/i18n/sort.sh	1969-12-31 18:00:00.000000000 -0600
+|+++ coreutils-8.27/tests/i18n/sort.sh	2017-03-11 23:47:13.100285838 -0600
+--------------------------
+patching file tests/i18n/sort.sh
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/local.mk coreutils-8.27/tests/local.mk
+|--- coreutils-8.27-orig/tests/local.mk	2017-02-28 22:25:37.000000000 -0600
+|+++ coreutils-8.27/tests/local.mk	2017-03-11 23:47:38.072058253 -0600
+--------------------------
+patching file tests/local.mk
+Using Plan A...
+Hunk #1 succeeded at 358 (offset 6 lines).
+Hunk #2 succeeded at 555 (offset 9 lines).
+Hunk #3 succeeded at 698 (offset 11 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/cut.pl coreutils-8.27/tests/misc/cut.pl
+|--- coreutils-8.27-orig/tests/misc/cut.pl	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/tests/misc/cut.pl	2017-03-11 23:47:13.100285838 -0600
+--------------------------
+patching file tests/misc/cut.pl
+Using Plan A...
+Hunk #1 succeeded at 23.
+Hunk #2 succeeded at 242.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/expand.pl coreutils-8.27/tests/misc/expand.pl
+|--- coreutils-8.27-orig/tests/misc/expand.pl	2017-03-01 11:16:46.000000000 -0600
+|+++ coreutils-8.27/tests/misc/expand.pl	2017-03-11 23:47:13.101285788 -0600
+--------------------------
+patching file tests/misc/expand.pl
+Using Plan A...
+Hunk #1 succeeded at 27.
+Hunk #2 succeeded at 177 with fuzz 1 (offset 16 lines).
+Hunk #3 succeeded at 195 (offset 16 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/fold.pl coreutils-8.27/tests/misc/fold.pl
+|--- coreutils-8.27-orig/tests/misc/fold.pl	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/tests/misc/fold.pl	2017-03-11 23:47:13.101285788 -0600
+--------------------------
+patching file tests/misc/fold.pl
+Using Plan A...
+Hunk #1 succeeded at 20.
+Hunk #2 succeeded at 40.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/join.pl coreutils-8.27/tests/misc/join.pl
+|--- coreutils-8.27-orig/tests/misc/join.pl	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/tests/misc/join.pl	2017-03-11 23:47:13.102285737 -0600
+--------------------------
+patching file tests/misc/join.pl
+Using Plan A...
+Hunk #1 succeeded at 25.
+Hunk #2 succeeded at 338.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/sort-mb-tests.sh coreutils-8.27/tests/misc/sort-mb-tests.sh
+|--- coreutils-8.27-orig/tests/misc/sort-mb-tests.sh	1969-12-31 18:00:00.000000000 -0600
+|+++ coreutils-8.27/tests/misc/sort-mb-tests.sh	2017-03-11 23:47:13.102285737 -0600
+--------------------------
+patching file tests/misc/sort-mb-tests.sh
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/sort-merge.pl coreutils-8.27/tests/misc/sort-merge.pl
+|--- coreutils-8.27-orig/tests/misc/sort-merge.pl	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/tests/misc/sort-merge.pl	2017-03-11 23:47:13.102285737 -0600
+--------------------------
+patching file tests/misc/sort-merge.pl
+Using Plan A...
+Hunk #1 succeeded at 26.
+Hunk #2 succeeded at 86.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/sort.pl coreutils-8.27/tests/misc/sort.pl
+|--- coreutils-8.27-orig/tests/misc/sort.pl	2017-01-21 08:53:43.000000000 -0600
+|+++ coreutils-8.27/tests/misc/sort.pl	2017-03-11 23:47:13.103285687 -0600
+--------------------------
+patching file tests/misc/sort.pl
+Using Plan A...
+Hunk #1 succeeded at 24.
+Hunk #2 succeeded at 428.
+Hunk #3 succeeded at 469.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/unexpand.pl coreutils-8.27/tests/misc/unexpand.pl
+|--- coreutils-8.27-orig/tests/misc/unexpand.pl	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/tests/misc/unexpand.pl	2017-03-11 23:47:13.103285687 -0600
+--------------------------
+patching file tests/misc/unexpand.pl
+Using Plan A...
+Hunk #1 succeeded at 27.
+Hunk #2 succeeded at 136.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/misc/uniq.pl coreutils-8.27/tests/misc/uniq.pl
+|--- coreutils-8.27-orig/tests/misc/uniq.pl	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/tests/misc/uniq.pl	2017-03-11 23:47:13.103285687 -0600
+--------------------------
+patching file tests/misc/uniq.pl
+Using Plan A...
+Hunk #1 succeeded at 23.
+Hunk #2 succeeded at 270.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/pr/pr-tests.pl coreutils-8.27/tests/pr/pr-tests.pl
+|--- coreutils-8.27-orig/tests/pr/pr-tests.pl	2017-01-01 16:34:24.000000000 -0600
+|+++ coreutils-8.27/tests/pr/pr-tests.pl	2017-03-11 23:47:13.103285687 -0600
+--------------------------
+patching file tests/pr/pr-tests.pl
+Using Plan A...
+Hunk #1 succeeded at 24.
+Hunk #2 succeeded at 483.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -Naurp coreutils-8.27-orig/tests/unexpand/mb.sh coreutils-8.27/tests/unexpand/mb.sh
+|--- coreutils-8.27-orig/tests/unexpand/mb.sh	1969-12-31 18:00:00.000000000 -0600
+|+++ coreutils-8.27/tests/unexpand/mb.sh	2017-03-11 23:49:06.759133489 -0600
+--------------------------
+patching file tests/unexpand/mb.sh
+Using Plan A...
+Hunk #1 succeeded at 1.
+done

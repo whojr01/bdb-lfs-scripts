@@ -1,0 +1,4 @@
+  CLEAN   arch/x86/tools
+  CLEAN   scripts/basic
+  CLEAN   scripts
+  CLEAN   include/generated arch/x86/include/generated

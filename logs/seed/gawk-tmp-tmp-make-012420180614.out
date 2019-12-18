@@ -1,0 +1,219 @@
+make 'CFLAGS=-g -O2 -DNDEBUG' 'LDFLAGS=-Wl,-export-dynamic' all-recursive
+make[1]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build'
+Making all in support
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/support'
+gcc -DGAWK -DHAVE_CONFIG_H -I"../../support/.." -I. -I../../support -I..     -g -O2 -DNDEBUG -MT dfa.o -MD -MP -MF .deps/dfa.Tpo -c -o dfa.o ../../support/dfa.c
+mv -f .deps/dfa.Tpo .deps/dfa.Po
+gcc -DGAWK -DHAVE_CONFIG_H -I"../../support/.." -I. -I../../support -I..     -g -O2 -DNDEBUG -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o ../../support/getopt.c
+mv -f .deps/getopt.Tpo .deps/getopt.Po
+gcc -DGAWK -DHAVE_CONFIG_H -I"../../support/.." -I. -I../../support -I..     -g -O2 -DNDEBUG -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o ../../support/getopt1.c
+mv -f .deps/getopt1.Tpo .deps/getopt1.Po
+gcc -DGAWK -DHAVE_CONFIG_H -I"../../support/.." -I. -I../../support -I..     -g -O2 -DNDEBUG -MT localeinfo.o -MD -MP -MF .deps/localeinfo.Tpo -c -o localeinfo.o ../../support/localeinfo.c
+mv -f .deps/localeinfo.Tpo .deps/localeinfo.Po
+gcc -DGAWK -DHAVE_CONFIG_H -I"../../support/.." -I. -I../../support -I..     -g -O2 -DNDEBUG -MT random.o -MD -MP -MF .deps/random.Tpo -c -o random.o ../../support/random.c
+mv -f .deps/random.Tpo .deps/random.Po
+gcc -DGAWK -DHAVE_CONFIG_H -I"../../support/.." -I. -I../../support -I..     -g -O2 -DNDEBUG -MT regex.o -MD -MP -MF .deps/regex.Tpo -c -o regex.o ../../support/regex.c
+mv -f .deps/regex.Tpo .deps/regex.Po
+rm -f libsupport.a
+ar cru libsupport.a dfa.o getopt.o getopt1.o localeinfo.o random.o regex.o 
+ranlib libsupport.a
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/support'
+Making all in .
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build'
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT array.o -MD -MP -MF .deps/array.Tpo -c -o array.o ../array.c
+mv -f .deps/array.Tpo .deps/array.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT awkgram.o -MD -MP -MF .deps/awkgram.Tpo -c -o awkgram.o ../awkgram.c
+mv -f .deps/awkgram.Tpo .deps/awkgram.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT builtin.o -MD -MP -MF .deps/builtin.Tpo -c -o builtin.o ../builtin.c
+mv -f .deps/builtin.Tpo .deps/builtin.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT cint_array.o -MD -MP -MF .deps/cint_array.Tpo -c -o cint_array.o ../cint_array.c
+mv -f .deps/cint_array.Tpo .deps/cint_array.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT command.o -MD -MP -MF .deps/command.Tpo -c -o command.o ../command.c
+mv -f .deps/command.Tpo .deps/command.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT debug.o -MD -MP -MF .deps/debug.Tpo -c -o debug.o ../debug.c
+mv -f .deps/debug.Tpo .deps/debug.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT eval.o -MD -MP -MF .deps/eval.Tpo -c -o eval.o ../eval.c
+mv -f .deps/eval.Tpo .deps/eval.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT ext.o -MD -MP -MF .deps/ext.Tpo -c -o ext.o ../ext.c
+mv -f .deps/ext.Tpo .deps/ext.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT field.o -MD -MP -MF .deps/field.Tpo -c -o field.o ../field.c
+mv -f .deps/field.Tpo .deps/field.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT floatcomp.o -MD -MP -MF .deps/floatcomp.Tpo -c -o floatcomp.o ../floatcomp.c
+mv -f .deps/floatcomp.Tpo .deps/floatcomp.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT gawkapi.o -MD -MP -MF .deps/gawkapi.Tpo -c -o gawkapi.o ../gawkapi.c
+mv -f .deps/gawkapi.Tpo .deps/gawkapi.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT gawkmisc.o -MD -MP -MF .deps/gawkmisc.Tpo -c -o gawkmisc.o ../gawkmisc.c
+mv -f .deps/gawkmisc.Tpo .deps/gawkmisc.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT int_array.o -MD -MP -MF .deps/int_array.Tpo -c -o int_array.o ../int_array.c
+mv -f .deps/int_array.Tpo .deps/int_array.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT io.o -MD -MP -MF .deps/io.Tpo -c -o io.o ../io.c
+mv -f .deps/io.Tpo .deps/io.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o ../main.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT mpfr.o -MD -MP -MF .deps/mpfr.Tpo -c -o mpfr.o ../mpfr.c
+mv -f .deps/mpfr.Tpo .deps/mpfr.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT msg.o -MD -MP -MF .deps/msg.Tpo -c -o msg.o ../msg.c
+mv -f .deps/msg.Tpo .deps/msg.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT node.o -MD -MP -MF .deps/node.Tpo -c -o node.o ../node.c
+mv -f .deps/node.Tpo .deps/node.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT profile.o -MD -MP -MF .deps/profile.Tpo -c -o profile.o ../profile.c
+mv -f .deps/profile.Tpo .deps/profile.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT re.o -MD -MP -MF .deps/re.Tpo -c -o re.o ../re.c
+mv -f .deps/re.Tpo .deps/re.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT replace.o -MD -MP -MF .deps/replace.Tpo -c -o replace.o ../replace.c
+mv -f .deps/replace.Tpo .deps/replace.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT str_array.o -MD -MP -MF .deps/str_array.Tpo -c -o str_array.o ../str_array.c
+mv -f .deps/str_array.Tpo .deps/str_array.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT symbol.o -MD -MP -MF .deps/symbol.Tpo -c -o symbol.o ../symbol.c
+mv -f .deps/symbol.Tpo .deps/symbol.Po
+gcc -DDEFPATH='".:/tools/share/awk"' -DDEFLIBPATH="\"/tools/lib/gawk\"" -DSHLIBEXT="\"so"\" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR='"/tools/share/locale"' -I"../support" -I. -I..     -g -O2 -DNDEBUG -MT version.o -MD -MP -MF .deps/version.Tpo -c -o version.o ../version.c
+mv -f .deps/version.Tpo .deps/version.Po
+gcc  -g -O2 -DNDEBUG  -Wl,-export-dynamic -o gawk array.o awkgram.o builtin.o cint_array.o command.o debug.o eval.o ext.o field.o floatcomp.o gawkapi.o gawkmisc.o int_array.o io.o main.o mpfr.o msg.o node.o profile.o re.o replace.o str_array.o symbol.o version.o support/libsupport.a      -ldl -lm 
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build'
+Making all in extension
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/extension'
+make  all-recursive
+make[3]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/extension'
+make[4]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/extension'
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT readdir_test.lo -MD -MP -MF .deps/readdir_test.Tpo -c -o readdir_test.lo ../../extension/readdir_test.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT readdir_test.lo -MD -MP -MF .deps/readdir_test.Tpo -c ../../extension/readdir_test.c  -fPIC -DPIC -o .libs/readdir_test.o
+mv -f .deps/readdir_test.Tpo .deps/readdir_test.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -rpath /foo -Wl,-export-dynamic -o readdir_test.la  readdir_test.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/readdir_test.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,readdir_test.so -o .libs/readdir_test.so
+libtool: link: ( cd ".libs" && rm -f "readdir_test.la" && ln -s "../readdir_test.la" "readdir_test.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT testext.lo -MD -MP -MF .deps/testext.Tpo -c -o testext.lo ../../extension/testext.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT testext.lo -MD -MP -MF .deps/testext.Tpo -c ../../extension/testext.c  -fPIC -DPIC -o .libs/testext.o
+mv -f .deps/testext.Tpo .deps/testext.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -rpath /foo -Wl,-export-dynamic -o testext.la  testext.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/testext.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,testext.so -o .libs/testext.so
+libtool: link: ( cd ".libs" && rm -f "testext.la" && ln -s "../testext.la" "testext.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT filefuncs.lo -MD -MP -MF .deps/filefuncs.Tpo -c -o filefuncs.lo ../../extension/filefuncs.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT filefuncs.lo -MD -MP -MF .deps/filefuncs.Tpo -c ../../extension/filefuncs.c  -fPIC -DPIC -o .libs/filefuncs.o
+../../extension/filefuncs.c: In function 'fill_stat_array':
+../../extension/filefuncs.c:417:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+   array_set_numeric(array, "major", major(sbuf->st_rdev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                          
+../../extension/filefuncs.c:418:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+   array_set_numeric(array, "minor", minor(sbuf->st_rdev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                          
+mv -f .deps/filefuncs.Tpo .deps/filefuncs.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT stack.lo -MD -MP -MF .deps/stack.Tpo -c -o stack.lo ../../extension/stack.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT stack.lo -MD -MP -MF .deps/stack.Tpo -c ../../extension/stack.c  -fPIC -DPIC -o .libs/stack.o
+mv -f .deps/stack.Tpo .deps/stack.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT gawkfts.lo -MD -MP -MF .deps/gawkfts.Tpo -c -o gawkfts.lo ../../extension/gawkfts.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT gawkfts.lo -MD -MP -MF .deps/gawkfts.Tpo -c ../../extension/gawkfts.c  -fPIC -DPIC -o .libs/gawkfts.o
+mv -f .deps/gawkfts.Tpo .deps/gawkfts.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o filefuncs.la -rpath /tools/lib/gawk filefuncs.lo stack.lo gawkfts.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/filefuncs.o .libs/stack.o .libs/gawkfts.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,filefuncs.so -o .libs/filefuncs.so
+libtool: link: ( cd ".libs" && rm -f "filefuncs.la" && ln -s "../filefuncs.la" "filefuncs.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT fnmatch.lo -MD -MP -MF .deps/fnmatch.Tpo -c -o fnmatch.lo ../../extension/fnmatch.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT fnmatch.lo -MD -MP -MF .deps/fnmatch.Tpo -c ../../extension/fnmatch.c  -fPIC -DPIC -o .libs/fnmatch.o
+mv -f .deps/fnmatch.Tpo .deps/fnmatch.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o fnmatch.la -rpath /tools/lib/gawk fnmatch.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/fnmatch.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,fnmatch.so -o .libs/fnmatch.so
+libtool: link: ( cd ".libs" && rm -f "fnmatch.la" && ln -s "../fnmatch.la" "fnmatch.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT fork.lo -MD -MP -MF .deps/fork.Tpo -c -o fork.lo ../../extension/fork.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT fork.lo -MD -MP -MF .deps/fork.Tpo -c ../../extension/fork.c  -fPIC -DPIC -o .libs/fork.o
+mv -f .deps/fork.Tpo .deps/fork.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o fork.la -rpath /tools/lib/gawk fork.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/fork.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,fork.so -o .libs/fork.so
+libtool: link: ( cd ".libs" && rm -f "fork.la" && ln -s "../fork.la" "fork.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT inplace.lo -MD -MP -MF .deps/inplace.Tpo -c -o inplace.lo ../../extension/inplace.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT inplace.lo -MD -MP -MF .deps/inplace.Tpo -c ../../extension/inplace.c  -fPIC -DPIC -o .libs/inplace.o
+mv -f .deps/inplace.Tpo .deps/inplace.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o inplace.la -rpath /tools/lib/gawk inplace.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/inplace.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,inplace.so -o .libs/inplace.so
+libtool: link: ( cd ".libs" && rm -f "inplace.la" && ln -s "../inplace.la" "inplace.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT intdiv.lo -MD -MP -MF .deps/intdiv.Tpo -c -o intdiv.lo ../../extension/intdiv.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT intdiv.lo -MD -MP -MF .deps/intdiv.Tpo -c ../../extension/intdiv.c  -fPIC -DPIC -o .libs/intdiv.o
+mv -f .deps/intdiv.Tpo .deps/intdiv.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o intdiv.la -rpath /tools/lib/gawk intdiv.lo   -lm 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/intdiv.o   -lm  -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,intdiv.so -o .libs/intdiv.so
+libtool: link: ( cd ".libs" && rm -f "intdiv.la" && ln -s "../intdiv.la" "intdiv.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT ordchr.lo -MD -MP -MF .deps/ordchr.Tpo -c -o ordchr.lo ../../extension/ordchr.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT ordchr.lo -MD -MP -MF .deps/ordchr.Tpo -c ../../extension/ordchr.c  -fPIC -DPIC -o .libs/ordchr.o
+mv -f .deps/ordchr.Tpo .deps/ordchr.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o ordchr.la -rpath /tools/lib/gawk ordchr.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/ordchr.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,ordchr.so -o .libs/ordchr.so
+libtool: link: ( cd ".libs" && rm -f "ordchr.la" && ln -s "../ordchr.la" "ordchr.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT readdir.lo -MD -MP -MF .deps/readdir.Tpo -c -o readdir.lo ../../extension/readdir.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT readdir.lo -MD -MP -MF .deps/readdir.Tpo -c ../../extension/readdir.c  -fPIC -DPIC -o .libs/readdir.o
+mv -f .deps/readdir.Tpo .deps/readdir.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o readdir.la -rpath /tools/lib/gawk readdir.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/readdir.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,readdir.so -o .libs/readdir.so
+libtool: link: ( cd ".libs" && rm -f "readdir.la" && ln -s "../readdir.la" "readdir.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT readfile.lo -MD -MP -MF .deps/readfile.Tpo -c -o readfile.lo ../../extension/readfile.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT readfile.lo -MD -MP -MF .deps/readfile.Tpo -c ../../extension/readfile.c  -fPIC -DPIC -o .libs/readfile.o
+mv -f .deps/readfile.Tpo .deps/readfile.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o readfile.la -rpath /tools/lib/gawk readfile.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/readfile.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,readfile.so -o .libs/readfile.so
+libtool: link: ( cd ".libs" && rm -f "readfile.la" && ln -s "../readfile.la" "readfile.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT revoutput.lo -MD -MP -MF .deps/revoutput.Tpo -c -o revoutput.lo ../../extension/revoutput.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT revoutput.lo -MD -MP -MF .deps/revoutput.Tpo -c ../../extension/revoutput.c  -fPIC -DPIC -o .libs/revoutput.o
+mv -f .deps/revoutput.Tpo .deps/revoutput.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o revoutput.la -rpath /tools/lib/gawk revoutput.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/revoutput.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,revoutput.so -o .libs/revoutput.so
+libtool: link: ( cd ".libs" && rm -f "revoutput.la" && ln -s "../revoutput.la" "revoutput.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT revtwoway.lo -MD -MP -MF .deps/revtwoway.Tpo -c -o revtwoway.lo ../../extension/revtwoway.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT revtwoway.lo -MD -MP -MF .deps/revtwoway.Tpo -c ../../extension/revtwoway.c  -fPIC -DPIC -o .libs/revtwoway.o
+mv -f .deps/revtwoway.Tpo .deps/revtwoway.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o revtwoway.la -rpath /tools/lib/gawk revtwoway.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/revtwoway.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,revtwoway.so -o .libs/revtwoway.so
+libtool: link: ( cd ".libs" && rm -f "revtwoway.la" && ln -s "../revtwoway.la" "revtwoway.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT rwarray.lo -MD -MP -MF .deps/rwarray.Tpo -c -o rwarray.lo ../../extension/rwarray.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT rwarray.lo -MD -MP -MF .deps/rwarray.Tpo -c ../../extension/rwarray.c  -fPIC -DPIC -o .libs/rwarray.o
+mv -f .deps/rwarray.Tpo .deps/rwarray.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o rwarray.la -rpath /tools/lib/gawk rwarray.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/rwarray.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,rwarray.so -o .libs/rwarray.so
+libtool: link: ( cd ".libs" && rm -f "rwarray.la" && ln -s "../rwarray.la" "rwarray.la" )
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../extension  -I../../extension/..   -g -O2 -DNDEBUG -MT time.lo -MD -MP -MF .deps/time.Tpo -c -o time.lo ../../extension/time.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../extension -I../../extension/.. -g -O2 -DNDEBUG -MT time.lo -MD -MP -MF .deps/time.Tpo -c ../../extension/time.c  -fPIC -DPIC -o .libs/time.o
+mv -f .deps/time.Tpo .deps/time.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2 -DNDEBUG -module -avoid-version -no-undefined -Wl,-export-dynamic -o time.la -rpath /tools/lib/gawk time.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/time.o    -g -O2 -Wl,-export-dynamic   -Wl,-soname -Wl,time.so -o .libs/time.so
+libtool: link: ( cd ".libs" && rm -f "time.la" && ln -s "../time.la" "time.la" )
+make[4]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/extension'
+make[3]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/extension'
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/extension'
+Making all in extras
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/extras'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/extras'
+Making all in doc
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/doc'
+Making all in awklib
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/awklib'
+rm -f pwcat.c
+ln -s ../../awklib/eg/lib/pwcat.c .
+gcc -DHAVE_CONFIG_H -I. -I../../awklib -I..  -I.. -I../..   -g -O2 -DNDEBUG -MT pwcat.o -MD -MP -MF .deps/pwcat.Tpo -c -o pwcat.o pwcat.c
+mv -f .deps/pwcat.Tpo .deps/pwcat.Po
+gcc  -g -O2 -DNDEBUG  -Wl,-export-dynamic -o pwcat pwcat.o  -ldl -lm 
+rm -f grcat.c
+ln -s ../../awklib/eg/lib/grcat.c .
+gcc -DHAVE_CONFIG_H -I. -I../../awklib -I..  -I.. -I../..   -g -O2 -DNDEBUG -MT grcat.o -MD -MP -MF .deps/grcat.Tpo -c -o grcat.o grcat.c
+mv -f .deps/grcat.Tpo .deps/grcat.Po
+gcc  -g -O2 -DNDEBUG  -Wl,-export-dynamic -o grcat grcat.o  -ldl -lm 
+sed 's;/usr/local/libexec/awk;/tools/libexec/awk;' < ../../awklib/eg/lib/passwdawk.in > passwd.awk
+sed 's;/usr/local/libexec/awk;/tools/libexec/awk;' < ../../awklib/eg/lib/groupawk.in > group.awk
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/awklib'
+Making all in po
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/po'
+Making all in test
+make[2]: Entering directory `/lfsbuild/sources/gawk-4.2.0/build/test'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build/test'
+make[1]: Leaving directory `/lfsbuild/sources/gawk-4.2.0/build'

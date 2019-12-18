@@ -1,0 +1,43 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libvdpau-1.1.1'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libvdpau-1.1.1/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libvdpau-1.1.1/doc'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/libvdpau-1.1.1/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -DVDPAU_MODULEDIR="\"/usr/lib/vdpau\"" -DVDPAU_SYSCONFDIR="\"/etc\""    -g -O2 -MT vdpau_wrapper.lo -MD -MP -MF .deps/vdpau_wrapper.Tpo -c -o vdpau_wrapper.lo vdpau_wrapper.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -DVDPAU_MODULEDIR=\"/usr/lib/vdpau\" -DVDPAU_SYSCONFDIR=\"/etc\" -g -O2 -MT vdpau_wrapper.lo -MD -MP -MF .deps/vdpau_wrapper.Tpo -c vdpau_wrapper.c  -fPIC -DPIC -o .libs/vdpau_wrapper.o
+mv -f .deps/vdpau_wrapper.Tpo .deps/vdpau_wrapper.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -DVDPAU_MODULEDIR="\"/usr/lib/vdpau\"" -DVDPAU_SYSCONFDIR="\"/etc\""    -g -O2 -MT mesa_dri2.lo -MD -MP -MF .deps/mesa_dri2.Tpo -c -o mesa_dri2.lo mesa_dri2.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -DVDPAU_MODULEDIR=\"/usr/lib/vdpau\" -DVDPAU_SYSCONFDIR=\"/etc\" -g -O2 -MT mesa_dri2.lo -MD -MP -MF .deps/mesa_dri2.Tpo -c mesa_dri2.c  -fPIC -DPIC -o .libs/mesa_dri2.o
+mesa_dri2.c: In function '_vdp_DRI2Connect':
+mesa_dri2.c:135:21: warning: implicit declaration of function 'secure_getenv' [-Wimplicit-function-declaration]
+       char *prime = secure_getenv("DRI_PRIME");
+                     ^~~~~~~~~~~~~
+mesa_dri2.c:135:21: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+mv -f .deps/mesa_dri2.Tpo .deps/mesa_dri2.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../include -DVDPAU_MODULEDIR="\"/usr/lib/vdpau\"" -DVDPAU_SYSCONFDIR="\"/etc\""    -g -O2 -version-info 1:0:0 -no-undefined  -o libvdpau.la -rpath /usr/lib vdpau_wrapper.lo mesa_dri2.lo -ldl -lpthread -lXext -lpthread 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/vdpau_wrapper.o .libs/mesa_dri2.o   /usr/lib/libXext.so -L/usr/lib /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so -ldl -lpthread  -g -O2   -Wl,-soname -Wl,libvdpau.so.1 -o .libs/libvdpau.so.1.0.0
+libtool: link: (cd ".libs" && rm -f "libvdpau.so.1" && ln -s "libvdpau.so.1.0.0" "libvdpau.so.1")
+libtool: link: (cd ".libs" && rm -f "libvdpau.so" && ln -s "libvdpau.so.1.0.0" "libvdpau.so")
+libtool: link: ( cd ".libs" && rm -f "libvdpau.la" && ln -s "../libvdpau.la" "libvdpau.la" )
+make[2]: Leaving directory '/lfskernel/sources/boot/libvdpau-1.1.1/src'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/libvdpau-1.1.1/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libvdpau-1.1.1/test'
+Making all in trace
+make[2]: Entering directory '/lfskernel/sources/boot/libvdpau-1.1.1/trace'
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -I../include  -g -O2 -MT vdpau_trace.lo -MD -MP -MF .deps/vdpau_trace.Tpo -c -o vdpau_trace.lo vdpau_trace.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT vdpau_trace.lo -MD -MP -MF .deps/vdpau_trace.Tpo -c vdpau_trace.cpp  -fPIC -DPIC -o .libs/vdpau_trace.o
+mv -f .deps/vdpau_trace.Tpo .deps/vdpau_trace.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../include  -g -O2 -version-info 1:0:0 -module -no-undefined  -o libvdpau_trace.la -rpath /usr/lib/vdpau vdpau_trace.lo -ldl -lpthread 
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtbeginS.o  .libs/vdpau_trace.o   -Wl,-rpath -Wl,/usr/lib/../lib -Wl,-rpath -Wl,/usr/lib/../lib -ldl -lpthread -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../.. /usr/lib/../lib/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../lib/crtn.o  -g -O2   -Wl,-soname -Wl,libvdpau_trace.so.1 -o .libs/libvdpau_trace.so.1.0.0
+libtool: link: (cd ".libs" && rm -f "libvdpau_trace.so.1" && ln -s "libvdpau_trace.so.1.0.0" "libvdpau_trace.so.1")
+libtool: link: (cd ".libs" && rm -f "libvdpau_trace.so" && ln -s "libvdpau_trace.so.1.0.0" "libvdpau_trace.so")
+libtool: link: ( cd ".libs" && rm -f "libvdpau_trace.la" && ln -s "../libvdpau_trace.la" "libvdpau_trace.la" )
+make[2]: Leaving directory '/lfskernel/sources/boot/libvdpau-1.1.1/trace'
+make[2]: Entering directory '/lfskernel/sources/boot/libvdpau-1.1.1'
+make[2]: Leaving directory '/lfskernel/sources/boot/libvdpau-1.1.1'
+make[1]: Leaving directory '/lfskernel/sources/boot/libvdpau-1.1.1'

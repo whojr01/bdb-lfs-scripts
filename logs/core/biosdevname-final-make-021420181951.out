@@ -1,0 +1,39 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/biosdevname-0.7.2/build'
+make[2]: Entering directory '/lfskernel/sources/boot/biosdevname-0.7.2/build'
+depbase=`echo src/bios_dev_name.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/bios_dev_name.o -MD -MP -MF $depbase.Tpo -c -o src/bios_dev_name.o ../src/bios_dev_name.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/bios_device.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/bios_device.o -MD -MP -MF $depbase.Tpo -c -o src/bios_device.o ../src/bios_device.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/pirq.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/pirq.o -MD -MP -MF $depbase.Tpo -c -o src/pirq.o ../src/pirq.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/pci.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/pci.o -MD -MP -MF $depbase.Tpo -c -o src/pci.o ../src/pci.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/eths.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/eths.o -MD -MP -MF $depbase.Tpo -c -o src/eths.o ../src/eths.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/read_proc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/read_proc.o -MD -MP -MF $depbase.Tpo -c -o src/read_proc.o ../src/read_proc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/naming_policy.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/naming_policy.o -MD -MP -MF $depbase.Tpo -c -o src/naming_policy.o ../src/naming_policy.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/sysfs.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/sysfs.o -MD -MP -MF $depbase.Tpo -c -o src/sysfs.o ../src/sysfs.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/dmidecode/dmidecode.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/dmidecode/dmidecode.o -MD -MP -MF $depbase.Tpo -c -o src/dmidecode/dmidecode.o ../src/dmidecode/dmidecode.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/dmidecode/dmioem.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/dmidecode/dmioem.o -MD -MP -MF $depbase.Tpo -c -o src/dmidecode/dmioem.o ../src/dmidecode/dmioem.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo src/dmidecode/util.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I.. -I..   -Wall -fno-strict-aliasing -g -O2 -MT src/dmidecode/util.o -MD -MP -MF $depbase.Tpo -c -o src/dmidecode/util.o ../src/dmidecode/util.c &&\
+mv -f $depbase.Tpo $depbase.Po
+gcc -Wall -fno-strict-aliasing -g -O2   -o src/biosdevname src/bios_dev_name.o src/bios_device.o src/pirq.o src/pci.o src/eths.o src/read_proc.o src/naming_policy.o src/sysfs.o src/dmidecode/dmidecode.o src/dmidecode/dmioem.o src/dmidecode/util.o -lz -lpci -lc 
+make[2]: Leaving directory '/lfskernel/sources/boot/biosdevname-0.7.2/build'
+make[1]: Leaving directory '/lfskernel/sources/boot/biosdevname-0.7.2/build'

@@ -1,0 +1,68 @@
+ownership of './docbookx.dtd' retained as root:root
+ownership of './dbpoolx.mod' retained as root:root
+ownership of './dbhierx.mod' retained as root:root
+ownership of './calstblx.dtd' retained as root:root
+ownership of './catalog.xml' retained as root:root
+ownership of './dbnotnx.mod' retained as root:root
+ownership of './ent/isogrk3.ent' retained as root:root
+ownership of './ent/isoamsb.ent' retained as root:root
+ownership of './ent/isopub.ent' retained as root:root
+ownership of './ent/isogrk4.ent' retained as root:root
+ownership of './ent/isonum.ent' retained as root:root
+ownership of './ent/isoamsn.ent' retained as root:root
+ownership of './ent/isoamso.ent' retained as root:root
+ownership of './ent/isolat2.ent' retained as root:root
+ownership of './ent/isolat1.ent' retained as root:root
+ownership of './ent/isocyr2.ent' retained as root:root
+ownership of './ent/isocyr1.ent' retained as root:root
+ownership of './ent/isoamsr.ent' retained as root:root
+ownership of './ent/isogrk2.ent' retained as root:root
+ownership of './ent/isoamsc.ent' retained as root:root
+ownership of './ent/isotech.ent' retained as root:root
+ownership of './ent/isodia.ent' retained as root:root
+ownership of './ent/isobox.ent' retained as root:root
+ownership of './ent/README' retained as root:root
+ownership of './ent/isogrk1.ent' retained as root:root
+ownership of './ent/isoamsa.ent' retained as root:root
+ownership of './ent' retained as root:root
+ownership of './soextblx.dtd' retained as root:root
+ownership of './htmltblx.mod' retained as root:root
+ownership of './ChangeLog' retained as root:root
+ownership of './dbcentx.mod' retained as root:root
+ownership of './docbook.cat' retained as root:root
+ownership of './dbgenent.mod' retained as root:root
+ownership of './README' retained as root:root
+ownership of './install.out' retained as root:root
+ownership of '.' retained as root:root
+'docbook.cat' -> '/usr/share/xml/docbook/xml-dtd-4.5/docbook.cat'
+'calstblx.dtd' -> '/usr/share/xml/docbook/xml-dtd-4.5/calstblx.dtd'
+'docbookx.dtd' -> '/usr/share/xml/docbook/xml-dtd-4.5/docbookx.dtd'
+'soextblx.dtd' -> '/usr/share/xml/docbook/xml-dtd-4.5/soextblx.dtd'
+'ent/README' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/README'
+'ent/isoamsa.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isoamsa.ent'
+'ent/isoamsb.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isoamsb.ent'
+'ent/isoamsc.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isoamsc.ent'
+'ent/isoamsn.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isoamsn.ent'
+'ent/isoamso.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isoamso.ent'
+'ent/isoamsr.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isoamsr.ent'
+'ent/isobox.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isobox.ent'
+'ent/isocyr1.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isocyr1.ent'
+'ent/isocyr2.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isocyr2.ent'
+'ent/isodia.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isodia.ent'
+'ent/isogrk1.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isogrk1.ent'
+'ent/isogrk2.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isogrk2.ent'
+'ent/isogrk3.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isogrk3.ent'
+'ent/isogrk4.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isogrk4.ent'
+'ent/isolat1.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isolat1.ent'
+'ent/isolat2.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isolat2.ent'
+'ent/isonum.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isonum.ent'
+'ent/isopub.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isopub.ent'
+'ent/isotech.ent' -> '/usr/share/xml/docbook/xml-dtd-4.5/ent/isotech.ent'
+'dbcentx.mod' -> '/usr/share/xml/docbook/xml-dtd-4.5/dbcentx.mod'
+'dbgenent.mod' -> '/usr/share/xml/docbook/xml-dtd-4.5/dbgenent.mod'
+'dbhierx.mod' -> '/usr/share/xml/docbook/xml-dtd-4.5/dbhierx.mod'
+'dbnotnx.mod' -> '/usr/share/xml/docbook/xml-dtd-4.5/dbnotnx.mod'
+'dbpoolx.mod' -> '/usr/share/xml/docbook/xml-dtd-4.5/dbpoolx.mod'
+'htmltblx.mod' -> '/usr/share/xml/docbook/xml-dtd-4.5/htmltblx.mod'
+Creating docbook catalog file
+Creating catalog catalog file

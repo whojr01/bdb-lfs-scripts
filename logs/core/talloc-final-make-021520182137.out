@@ -1,0 +1,31 @@
+WAF_MAKE=1 PATH=buildtools/bin:../../buildtools/bin:$PATH waf build
+Waf: Entering directory `/lfskernel/sources/boot/talloc-2.1.10/bin'
+Checking project rules ...
+Project rules pass
+[ 1/25] Generating talloc.vscript
+[ 2/25] Generating pytalloc-util.vscript
+[ 3/25] Compiling lib/replace/replace.c
+[ 4/25] Compiling lib/replace/cwrap.c
+[ 5/25] Compiling lib/replace/closefrom.c
+[ 6/25] Generating PKGCONFIG_talloc.pc
+[ 7/25] Generating PKGCONFIG_pytalloc-util.pc
+[ 8/25] Compiling lib/replace/replace.c
+[ 9/25] Compiling lib/replace/test/testsuite.c
+[10/25] Compiling lib/replace/test/strptime.c
+[11/25] Compiling lib/replace/test/os2_delete.c
+[12/25] Compiling lib/replace/test/getifaddrs.c
+[13/25] Compiling testsuite_main.c
+[14/25] Compiling testsuite.c
+[15/25] Compiling talloc.c
+[16/25] Compiling test_magic_differs_helper.c
+[17/25] Compiling pytalloc_util.c
+[18/25] Compiling pytalloc.c
+[19/25] Compiling test_pytalloc.c
+[20/25] Linking default/libtalloc.so
+[21/25] Linking default/talloc_test_magic_differs_helper
+[22/25] Linking default/libpytalloc-util.so
+[23/25] Linking default/pytalloc.so
+[24/25] Linking default/test-pytalloc.so
+[25/25] Linking default/talloc_testsuite
+Waf: Leaving directory `/lfskernel/sources/boot/talloc-2.1.10/bin'
+'build' finished successfully (1.490s)

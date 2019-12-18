@@ -1,0 +1,94 @@
+make  check-am
+make[1]: Entering directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+make  libtest.la libbench.la test/keysym test/keymap test/filecomp test/context test/rules-file test/stringcomp test/buffercomp test/log test/atom test/utf8 test/state test/keyseq test/rulescomp test/compose test/x11 test/rmlvo-to-kccgst test/print-compiled-keymap test/interactive-evdev test/x11comp test/interactive-x11 test/interactive-wayland bench/key-proc bench/rules bench/rulescomp bench/compose
+make[2]: Entering directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+  CC       test/common.lo
+  CCLD     libtest.la
+copying selected object files to avoid basename conflicts...
+  CC       bench/bench.lo
+  CCLD     libbench.la
+  CC       test/keysym.o
+  CCLD     test/keysym
+  CC       test/keymap.o
+  CCLD     test/keymap
+  CC       test/filecomp.o
+  CCLD     test/filecomp
+  CC       test/context.o
+  CCLD     test/context
+  CC       test/test_rules_file-rules-file.o
+  CCLD     test/rules-file
+  CC       test/stringcomp.o
+  CCLD     test/stringcomp
+  CC       test/buffercomp.o
+  CCLD     test/buffercomp
+  CC       test/log.o
+  CCLD     test/log
+  CC       test/atom.o
+  CCLD     test/atom
+  CC       test/utf8.o
+  CCLD     test/utf8
+  CC       test/state.o
+  CCLD     test/state
+  CC       test/keyseq.o
+  CCLD     test/keyseq
+  CC       test/rulescomp.o
+  CCLD     test/rulescomp
+  CC       test/compose.o
+  CCLD     test/compose
+  CC       test/test_x11-x11.o
+  CCLD     test/x11
+  CC       test/rmlvo-to-kccgst.o
+  CCLD     test/rmlvo-to-kccgst
+  CC       test/print-compiled-keymap.o
+  CCLD     test/print-compiled-keymap
+  CC       test/interactive-evdev.o
+  CCLD     test/interactive-evdev
+  CC       test/test_x11comp-x11comp.o
+  CCLD     test/x11comp
+  CC       test/test_interactive_x11-interactive-x11.o
+  CCLD     test/interactive-x11
+  CC       test/test_interactive_wayland-interactive-wayland.o
+  CC       test_interactive_wayland-xdg-shell-unstable-v6-protocol.o
+  CCLD     test/interactive-wayland
+  CC       bench/key-proc.o
+  CCLD     bench/key-proc
+  CC       bench/rules.o
+  CCLD     bench/rules
+  CC       bench/rulescomp.o
+  CCLD     bench/rulescomp
+  CC       bench/compose.o
+  CCLD     bench/compose
+make[2]: Leaving directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+make[3]: Entering directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+PASS: test/keysym
+PASS: test/keymap
+PASS: test/filecomp
+PASS: test/context
+PASS: test/rules-file
+PASS: test/stringcomp
+PASS: test/buffercomp
+PASS: test/log
+PASS: test/atom
+PASS: test/utf8
+PASS: test/state
+PASS: test/keyseq
+PASS: test/rulescomp
+PASS: test/compose
+SKIP: test/x11
+PASS: test/symbols-leak-test.bash
+============================================================================
+Testsuite summary for libxkbcommon 0.8.0
+============================================================================
+# TOTAL: 16
+# PASS:  15
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxkbcommon-0.8.0'

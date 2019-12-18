@@ -1,0 +1,17 @@
+/usr/bin/install -c -m755 -d /bin
+/usr/bin/install -c btrfs mkfs.btrfs btrfs-debug-tree btrfs-map-logical btrfs-image btrfs-zero-log btrfs-find-root btrfstune btrfs-select-super btrfs-convert /bin
+/usr/bin/install -c fsck.btrfs /bin
+# btrfsck is a link to btrfs in the src tree, make it so for installed file as well
+ln -s -f btrfs /bin/btrfsck
+/usr/bin/install -c -m755 -d /lib
+/usr/bin/install -c libbtrfs.so.0.1 libbtrfs.a /lib
+cp -a libbtrfs.so.0 libbtrfs.so /lib
+/usr/bin/install -c -m755 -d /usr/include/btrfs
+/usr/bin/install -c -m644 send-stream.h send-utils.h send.h kernel-lib/rbtree.h btrfs-list.h kernel-lib/crc32c.h kernel-lib/list.h kerncompat.h kernel-lib/radix-tree.h kernel-lib/sizes.h kernel-lib/raid56.h extent-cache.h extent_io.h ioctl.h ctree.h btrfsck.h version.h /usr/include/btrfs
+/usr/bin/install -c -m755 -d /lib/udev/rules.d
+/usr/bin/install -c -m644 64-btrfs-dm.rules /lib/udev/rules.d
+'/usr/lib/libbtrfs.so' -> '../../lib/libbtrfs.so.0.1'
+removed '/lib/libbtrfs.a'
+removed '/lib/libbtrfs.so'
+renamed '/bin/mkfs.btrfs' -> '/sbin/mkfs.btrfs'
+renamed '/bin/fsck.btrfs' -> '/sbin/fsck.btrfs'

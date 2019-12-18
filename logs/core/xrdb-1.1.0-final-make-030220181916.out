@@ -1,0 +1,18 @@
+###############################
+# Make xrdb-1.1.0.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xrdb-1.1.0'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xrdb-1.1.0/man'
+  GEN      xrdb.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xrdb-1.1.0/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xrdb-1.1.0'
+  CC       xrdb.o
+xrdb.c: In function 'main':
+xrdb.c:982:38: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       cmd_defines[num_cmd_defines++] = "-undef";
+                                      ^
+  CCLD     xrdb
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xrdb-1.1.0'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xrdb-1.1.0'

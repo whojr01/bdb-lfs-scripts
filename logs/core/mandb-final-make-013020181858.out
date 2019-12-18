@@ -1,0 +1,265 @@
+make  all-recursive
+make[1]: Entering directory '/sources/man-db-2.7.6.1/build'
+Making all in docs
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/docs'
+Making all in gnulib/lib
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/gnulib/lib'
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      getopt.h
+  GEN      glob.h
+  GEN      langinfo.h
+  GEN      locale.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/file.h
+  GEN      sys/ioctl.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/uio.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/gnulib/lib'
+make[4]: Entering directory '/sources/man-db-2.7.6.1/build/gnulib/lib'
+  CC       areadlink-with-size.lo
+  CC       argp-ba.lo
+  CC       argp-eexst.lo
+  CC       argp-fmtstream.lo
+  CC       argp-fs-xinl.lo
+  CC       argp-help.lo
+  CC       argp-parse.lo
+  CC       argp-pin.lo
+  CC       argp-pv.lo
+  CC       argp-pvh.lo
+  CC       argp-xinl.lo
+  CC       bitrotate.lo
+  CC       canonicalize.lo
+  CC       cloexec.lo
+  CC       dirname.lo
+  CC       basename.lo
+  CC       dirname-lgpl.lo
+  CC       basename-lgpl.lo
+  CC       stripslash.lo
+  CC       exitfail.lo
+  CC       fd-hook.lo
+  CC       file-set.lo
+  CC       filenamecat-lgpl.lo
+  CC       gettime.lo
+  CC       hash.lo
+  CC       hash-pjw.lo
+  CC       hash-triple.lo
+  CC       idpriv-drop.lo
+  CC       idpriv-droptemp.lo
+  CC       localcharset.lo
+  CC       glthread/lock.lo
+  CC       malloca.lo
+  CC       nonblocking.lo
+  CC       openat-die.lo
+  CC       same.lo
+  CC       save-cwd.lo
+  CC       sig-handler.lo
+  CC       sockets.lo
+  CC       stat-time.lo
+  CC       strnlen1.lo
+  CC       sys_socket.lo
+  CC       tempname.lo
+  CC       glthread/threadlib.lo
+  CC       timespec.lo
+  CC       unistd.lo
+  CC       dup-safer.lo
+  CC       fd-safer.lo
+  CC       pipe-safer.lo
+  CC       utimens.lo
+  CC       wctype-h.lo
+  CC       xmalloc.lo
+  CC       xalloc-die.lo
+  CC       xgetcwd.lo
+  CC       xsize.lo
+  CC       xstrndup.lo
+  CC       xvasprintf.lo
+  CC       xasprintf.lo
+  CC       asnprintf.lo
+  CC       chdir-long.lo
+  CC       fcntl.lo
+  CC       futimens.lo
+  CC       getopt.lo
+  CC       getopt1.lo
+  CC       glob.lo
+  CC       ioctl.lo
+  CC       nanosleep.lo
+  CC       openat-proc.lo
+  CC       printf-args.lo
+  CC       printf-parse.lo
+  CC       vasnprintf.lo
+  CCLD     libgnu.la
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[4]: Leaving directory '/sources/man-db-2.7.6.1/build/gnulib/lib'
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/gnulib/lib'
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/gnulib/lib'
+Making all in gnulib/po
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/gnulib/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/gnulib/po'
+Making all in init
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/init'
+Making all in systemd
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/init/systemd'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/init/systemd'
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/init'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/init'
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/init'
+Making all in lib
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/lib'
+  CC       libman_la-appendstr.lo
+  CC       libman_la-cleanup.lo
+  CC       libman_la-debug.lo
+  CC       libman_la-decompress.lo
+  CC       libman_la-encodings.lo
+  CC       libman_la-hashtable.lo
+  CC       libman_la-linelength.lo
+  CC       libman_la-lower.lo
+  CC       libman_la-orderfiles.lo
+  CC       libman_la-pathsearch.lo
+  CC       libman_la-security.lo
+  CC       libman_la-tempfile.lo
+  CC       libman_la-util.lo
+  CC       libman_la-wordfnmatch.lo
+  CC       libman_la-xchown.lo
+  CC       libman_la-xregcomp.lo
+  CCLD     libman.la
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/lib'
+Making all in libdb
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/libdb'
+  CC       libmandb_la-db_btree.lo
+  CC       libmandb_la-db_delete.lo
+  CC       libmandb_la-db_gdbm.lo
+  CC       libmandb_la-db_lookup.lo
+  CC       libmandb_la-db_ndbm.lo
+  CC       libmandb_la-db_store.lo
+  CC       libmandb_la-db_ver.lo
+  CCLD     libmandb.la
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/libdb'
+Making all in src
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/src'
+Making all in .
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/src'
+  CC       catman.o
+  CC       globbing.o
+  CC       manp.o
+  CCLD     catman
+  CC       compression.o
+  CC       descriptions.o
+  CC       filenames.o
+  CC       lexgrog.o
+  CC       lexgrog_test.o
+  CC       manconv.o
+  CC       manconv_client.o
+  CC       ult_src.o
+  CCLD     lexgrog
+  CC       man.o
+  CC       zsoelim.o
+  CCLD     man
+  CC       check_mandirs.o
+  CC       descriptions_store.o
+  CC       mandb.o
+  CC       straycats.o
+  CCLD     mandb
+  CC       manpath.o
+  CCLD     manpath
+  CC       whatis.o
+  CCLD     whatis
+  CC       globbing_test.o
+  CCLD     globbing
+  CC       manconv_main.o
+  CCLD     manconv
+  CC       zsoelim_main.o
+  CCLD     zsoelim
+  CC       accessdb.o
+  CCLD     accessdb
+rm -f apropos
+ln -s whatis apropos
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/src'
+Making all in tests
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/src/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/src/tests'
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/src'
+Making all in man
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/man'
+Making all in es
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/man/es'
+  GEN      replace.sed
+  GEN      man1/apropos.1
+  GEN      man1/man.1
+  GEN      man1/manpath.1
+  GEN      man1/whatis.1
+  GEN      man1/zsoelim.1
+  GEN      man5/manpath.5
+  GEN      man8/catman.8
+  GEN      man8/mandb.8
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/man/es'
+Making all in it
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/man/it'
+  GEN      replace.sed
+  GEN      man1/apropos.1
+  GEN      man1/man.1
+  GEN      man1/manpath.1
+  GEN      man1/whatis.1
+  GEN      man1/zsoelim.1
+  GEN      man5/manpath.5
+  GEN      man8/accessdb.8
+  GEN      man8/catman.8
+  GEN      man8/mandb.8
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/man/it'
+make[3]: Entering directory '/sources/man-db-2.7.6.1/build/man'
+  GEN      replace.sed
+  GEN      man1/apropos.1
+  GEN      man1/lexgrog.1
+  GEN      man1/man.1
+  GEN      man1/manconv.1
+  GEN      man1/manpath.1
+  GEN      man1/whatis.1
+  GEN      man1/zsoelim.1
+  GEN      man5/manpath.5
+  GEN      man8/accessdb.8
+  GEN      man8/catman.8
+  GEN      man8/mandb.8
+make[3]: Leaving directory '/sources/man-db-2.7.6.1/build/man'
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/man'
+Making all in manual
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/manual'
+echo '.ds V 2.7.6.1' > version
+soelim -I../../manual man_db.me | tbl > man_db.pp
+LC_ALL=C nroff -me man_db.pp > man_db.cat
+groff -me -Tps man_db.pp > man_db.ps
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/manual'
+Making all in po
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/po'
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/po'
+Making all in tools
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build/tools'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build/tools'
+make[2]: Entering directory '/sources/man-db-2.7.6.1/build'
+make[2]: Leaving directory '/sources/man-db-2.7.6.1/build'
+make[1]: Leaving directory '/sources/man-db-2.7.6.1/build'

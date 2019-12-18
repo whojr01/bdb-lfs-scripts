@@ -1,0 +1,154 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+Making all in include
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+Making all in libxml
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include/libxml'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include/libxml'
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/include'
+Making all in .
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+  CC       SAX.lo
+  CC       entities.lo
+  CC       encoding.lo
+  CC       error.lo
+  CC       parserInternals.lo
+  CC       parser.lo
+  CC       tree.lo
+  CC       hash.lo
+  CC       list.lo
+  CC       xmlIO.lo
+  CC       xmlmemory.lo
+  CC       uri.lo
+  CC       valid.lo
+  CC       xlink.lo
+  CC       HTMLparser.lo
+  CC       HTMLtree.lo
+  CC       debugXML.lo
+  CC       xpath.lo
+In file included from ../include/libxml/parser.h:18:0,
+                 from ../include/libxml/globals.h:18,
+                 from ../include/libxml/threads.h:35,
+                 from ../include/libxml/xmlmemory.h:218,
+                 from ../include/libxml/tree.h:1307,
+                 from ../include/libxml/c14n.h:27,
+                 from ../elfgcchack.h:17,
+                 from ../libxml.h:106,
+                 from ../xpath.c:23:
+../xpath.c: In function 'xmlXPathRegisterFuncNS__internal_alias':
+../xpath.c:4897:73: warning: ISO C forbids passing argument 4 of 'xmlHashAddEntry2__internal_alias' between function pointer and 'void *' [-Wpedantic]
+     return(xmlHashAddEntry2(ctxt->funcHash, name, ns_uri, XML_CAST_FPTR(f)));
+                                                                         ^
+../include/libxml/hash.h:56:29: note: in definition of macro 'XML_CAST_FPTR'
+ #define XML_CAST_FPTR(fptr) fptr
+                             ^~~~
+In file included from ../libxml.h:106:0,
+                 from ../xpath.c:23:
+../elfgcchack.h:4269:36: note: expected 'void *' but argument is of type 'xmlXPathFunction {aka void (*)(struct _xmlXPathParserContext *, int)}'
+ extern __typeof (xmlHashAddEntry2) xmlHashAddEntry2__internal_alias __attribute((visibility("hidden")));
+                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../xpath.c: In function 'xmlXPathFunctionLookupNS__internal_alias':
+../xpath.c:4978:24: warning: ISO C forbids assignment between function pointer and 'void *' [-Wpedantic]
+     XML_CAST_FPTR(ret) = xmlHashLookup2(ctxt->funcHash, name, ns_uri);
+                        ^
+In file included from ../xpath.c:483:0:
+At top level:
+../trionan.c:218:1: warning: 'trio_is_negative' defined but not used [-Wunused-function]
+ trio_is_negative
+ ^~~~~~~~~~~~~~~~
+../trionan.c:194:1: warning: 'trio_is_special_quantity' defined but not used [-Wunused-function]
+ trio_is_special_quantity
+ ^~~~~~~~~~~~~~~~~~~~~~~~
+  CC       xpointer.lo
+  CC       xinclude.lo
+  CC       nanohttp.lo
+  CC       nanoftp.lo
+  CC       catalog.lo
+  CC       globals.lo
+  CC       threads.lo
+  CC       c14n.lo
+  CC       xmlstring.lo
+  CC       buf.lo
+  CC       xmlregexp.lo
+  CC       xmlschemas.lo
+  CC       xmlschemastypes.lo
+  CC       xmlunicode.lo
+  CC       xmlreader.lo
+  CC       relaxng.lo
+  CC       dict.lo
+  CC       SAX2.lo
+  CC       xmlwriter.lo
+  CC       legacy.lo
+  CC       chvalid.lo
+  CC       pattern.lo
+  CC       xmlsave.lo
+  CC       xmlmodule.lo
+  CC       schematron.lo
+  CC       xzlib.lo
+  CCLD     libxml2.la
+  CC       testdso.lo
+  CCLD     testdso.la
+  CC       xmllint.o
+  CCLD     xmllint
+  CC       xmlcatalog.o
+  CCLD     xmlcatalog
+sed -e 's?\@XML_LIBDIR\@?-L/usr/lib?g' \
+    -e 's?\@XML_INCLUDEDIR\@?-I/usr/include/libxml2?g' \
+    -e 's?\@VERSION\@?2.9.7?g' \
+    -e 's?\@XML_LIBS\@?-lxml2 -lz -llzma    -lm ?g' \
+       < ../xml2Conf.sh.in > xml2Conf.tmp \
+&& mv xml2Conf.tmp xml2Conf.sh
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build'
+Making all in doc
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+Making all in .
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+Making all in devhelp
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/devhelp'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/devhelp'
+Making all in examples
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/examples'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc/examples'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/doc'
+Making all in example
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/example'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/example'
+Making all in xstc
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/xstc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/xstc'
+Making all in python
+make[2]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make  all-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+Making all in .
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+  CC       libxml.lo
+../../python/libxml.c: In function 'libxml_xmlErrorFuncHandler':
+../../python/libxml.c:1649:43: warning: pointer targets in passing argument 1 of 'libxml_charPtrConstWrap' differ in signedness [-Wpointer-sign]
+         message = libxml_charPtrConstWrap(ptr);
+                                           ^~~
+In file included from ../../python/libxml.c:28:0:
+../../python/libxml_wrap.h:240:12: note: expected 'const char *' but argument is of type 'unsigned char *'
+ PyObject * libxml_charPtrConstWrap(const char *str);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+  CC       libxml2-py.lo
+  CC       types.lo
+  CCLD     libxml2mod.la
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+Making all in tests
+make[4]: Entering directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python/tests'
+make[3]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make[2]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build/python'
+make[1]: Leaving directory '/lfskernel/sources/boot/libxml2-2.9.7/build'

@@ -1,0 +1,272 @@
+make[1]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build'
+/bin/sh ../mkinstalldirs /tools /tools
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+make  install-recursive
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+Making install in doc
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/bfd/doc'
+ /bin/mkdir -p '/tools/share/info'
+ /bin/install -c -m 644 ../../../bfd/doc/bfd.info '/tools/share/info'
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/bfd/doc'
+Making install in po
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/bfd/po'
+make[4]: Nothing to be done for `install'.
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/bfd/po'
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+make[5]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tools/include'
+ /bin/install -c -m 644 bfd.h ../../bfd/../include/ansidecl.h ../../bfd/../include/symcat.h ../../bfd/../include/bfdlink.h ../../bfd/../include/plugin-api.h '/tools/include'
+ /bin/mkdir -p '/tools/lib'
+ /bin/sh ./libtool   --mode=install /bin/install -c   libbfd.la '/tools/lib'
+libtool: install: /bin/install -c .libs/libbfd.lai /tools/lib/libbfd.la
+libtool: install: /bin/install -c .libs/libbfd.a /tools/lib/libbfd.a
+libtool: install: chmod 644 /tools/lib/libbfd.a
+libtool: install: x86_64-lfs-linux-gnu-ranlib /tools/lib/libbfd.a
+libtool: finish: PATH="/tools/bin:/bin:/usr/bin:/sbin" ldconfig -n /tools/lib
+ldconfig: /tools/lib/libstdc++.so.6.0.24-gdb.py is not an ELF file - it has the wrong magic bytes at the start.
+
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tools/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/bfd'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes'
+Making install in .
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes'
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tools/include'
+ /bin/install -c -m 644 ../../opcodes/../include/dis-asm.h '/tools/include'
+ /bin/mkdir -p '/tools/lib'
+ /bin/sh ./libtool   --mode=install /bin/install -c   libopcodes.la '/tools/lib'
+libtool: install: /bin/install -c .libs/libopcodes.lai /tools/lib/libopcodes.la
+libtool: install: /bin/install -c .libs/libopcodes.a /tools/lib/libopcodes.a
+libtool: install: chmod 644 /tools/lib/libopcodes.a
+libtool: install: x86_64-lfs-linux-gnu-ranlib /tools/lib/libopcodes.a
+libtool: finish: PATH="/tools/bin:/bin:/usr/bin:/sbin" ldconfig -n /tools/lib
+ldconfig: /tools/lib/libstdc++.so.6.0.24-gdb.py is not an ELF file - it has the wrong magic bytes at the start.
+
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tools/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes'
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes'
+Making install in po
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes/po'
+make[3]: Nothing to be done for `install'.
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes/po'
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/opcodes'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+make  install-recursive
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+Making install in doc
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/binutils/doc'
+make[5]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/binutils/doc'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tools/share/info'
+ /bin/install -c -m 644 ../../../binutils/doc/binutils.info '/tools/share/info'
+ /bin/mkdir -p '/tools/share/man/man1'
+ /bin/install -c -m 644 ../../../binutils/doc/addr2line.1 ../../../binutils/doc/ar.1 ../../../binutils/doc/dlltool.1 ../../../binutils/doc/nlmconv.1 ../../../binutils/doc/nm.1 ../../../binutils/doc/objcopy.1 ../../../binutils/doc/objdump.1 ../../../binutils/doc/ranlib.1 ../../../binutils/doc/readelf.1 ../../../binutils/doc/size.1 ../../../binutils/doc/strings.1 ../../../binutils/doc/strip.1 ../../../binutils/doc/elfedit.1 ../../../binutils/doc/windres.1 ../../../binutils/doc/windmc.1 c++filt.1 '/tools/share/man/man1'
+make[5]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/binutils/doc'
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/binutils/doc'
+Making install in po
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/binutils/po'
+make[4]: Nothing to be done for `install'.
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/binutils/po'
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+make[5]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+ /bin/mkdir -p '/tools/bin'
+  /bin/sh ./libtool   --mode=install /bin/install -c size objdump ar strings ranlib objcopy addr2line readelf elfedit '/tools/bin'
+libtool: install: /bin/install -c size /tools/bin/size
+libtool: install: /bin/install -c objdump /tools/bin/objdump
+libtool: install: /bin/install -c ar /tools/bin/ar
+libtool: install: /bin/install -c strings /tools/bin/strings
+libtool: install: /bin/install -c ranlib /tools/bin/ranlib
+libtool: install: /bin/install -c objcopy /tools/bin/objcopy
+libtool: install: /bin/install -c addr2line /tools/bin/addr2line
+libtool: install: /bin/install -c readelf /tools/bin/readelf
+libtool: install: /bin/install -c elfedit /tools/bin/elfedit
+  /bin/sh ./libtool  --mode=install /bin/install -c nm-new /tools/bin/nm
+libtool: install: /bin/install -c nm-new /tools/bin/nm
+  /bin/sh ./libtool  --mode=install /bin/install -c strip-new /tools/bin/strip
+libtool: install: /bin/install -c strip-new /tools/bin/strip
+  /bin/sh ./libtool  --mode=install /bin/install -c cxxfilt /tools/bin/c++filt
+libtool: install: /bin/install -c cxxfilt /tools/bin/c++filt
+/bin/sh ../../binutils/../mkinstalldirs /tools/x86_64-pc-linux-gnu/bin
+mkdir -p -- /tools/x86_64-pc-linux-gnu/bin
+for i in nm-new strip-new ar ranlib dlltool objdump objcopy readelf; do \
+  if [ -f $i ]; then \
+    j=`echo $i | sed -e 's/-new//'`; \
+    k=`echo $j | sed 's,y,y,'`; \
+    if [ "/tools/bin/$k" != "/tools/x86_64-pc-linux-gnu/bin/$j" ]; then \
+      rm -f /tools/x86_64-pc-linux-gnu/bin/$j; \
+      ln /tools/bin/$k /tools/x86_64-pc-linux-gnu/bin/$j >/dev/null 2>/dev/null \
+	||  /bin/sh ./libtool --mode=install /bin/install -c $i /tools/x86_64-pc-linux-gnu/bin/$j; \
+    fi; \
+  else true; \
+  fi; \
+done
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/binutils'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/etc'
+make[2]: Nothing to be done for `install'.
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/etc'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gas'
+Making install in doc
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gas/doc'
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gas/doc'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/tools/share/info'
+ /bin/install -c -m 644 ../../../gas/doc/as.info '/tools/share/info'
+ /bin/mkdir -p '/tools/share/man/man1'
+ /bin/install -c -m 644 ../../../gas/doc/as.1 '/tools/share/man/man1'
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gas/doc'
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gas/doc'
+Making install in po
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gas/po'
+make[3]: Nothing to be done for `install'.
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gas/po'
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gas'
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gas'
+/bin/sh ../../gas/../mkinstalldirs /tools/bin
+  /bin/sh ./libtool  --mode=install /bin/install -c as-new /tools/bin/as
+libtool: install: /bin/install -c as-new /tools/bin/as
+/bin/sh ../../gas/../mkinstalldirs /tools/x86_64-pc-linux-gnu/bin
+n=`echo as | sed 's,y,y,'`; \
+if [ "/tools/bin/$n" != "/tools/x86_64-pc-linux-gnu/bin/as" ]; then \
+  rm -f /tools/x86_64-pc-linux-gnu/bin/as; \
+  ln /tools/bin/$n /tools/x86_64-pc-linux-gnu/bin/as >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /bin/install -c as-new /tools/x86_64-pc-linux-gnu/bin/as; \
+else \
+  true ; \
+fi
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gas'
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gas'
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gas'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+make  install-recursive
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+Making install in po
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gprof/po'
+make[4]: Nothing to be done for `install'.
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gprof/po'
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+make[5]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+ /bin/mkdir -p '/tools/bin'
+  /bin/sh ./libtool   --mode=install /bin/install -c gprof '/tools/bin'
+libtool: install: /bin/install -c gprof /tools/bin/gprof
+ /bin/mkdir -p '/tools/share/info'
+ /bin/install -c -m 644 ../../gprof/gprof.info '/tools/share/info'
+ /bin/mkdir -p '/tools/share/man/man1'
+ /bin/install -c -m 644 ../../gprof/gprof.1 '/tools/share/man/man1'
+make[5]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/gprof'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/intl'
+make[2]: Nothing to be done for `install'.
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/intl'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+make  install-recursive
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+Making install in po
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/ld/po'
+make[4]: Nothing to be done for `install'.
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/ld/po'
+make[4]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+make[5]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+ /bin/mkdir -p '/tools/bin'
+  /bin/sh ./libtool   --mode=install /bin/install -c ld-new '/tools/bin/./ld.bfd'
+libtool: install: /bin/install -c ld-new /tools/bin/./ld.bfd
+/bin/sh ../../ld/../mkinstalldirs /tools/x86_64-pc-linux-gnu/bin
+n=`echo ld.bfd | sed 's/^ld-new$/ld.bfd/;s,y,y,'`; \
+if test "/tools/bin" != "/tools/x86_64-pc-linux-gnu/bin"; then \
+  rm -f /tools/x86_64-pc-linux-gnu/bin/ld.bfd; \
+  ln /tools/bin/$n /tools/x86_64-pc-linux-gnu/bin/ld.bfd >/dev/null 2>/dev/null \
+  ||  /bin/sh ./libtool --mode=install /bin/install -c ld-new /tools/x86_64-pc-linux-gnu/bin/ld.bfd; \
+fi; \
+if test "xyes" = "xyes"; then \
+  ld=`echo ld | sed 's/^ld-new$/ld.bfd/;s,y,y,'`; \
+  rm -f /tools/bin/$ld; \
+  ln /tools/bin/$n /tools/bin/$ld >/dev/null 2>/dev/null \
+  ||  /bin/sh ./libtool --mode=install /bin/install -c ld-new /tools/bin/$ld; \
+  if test "/tools/bin" != "/tools/x86_64-pc-linux-gnu/bin"; then \
+    rm -f /tools/x86_64-pc-linux-gnu/bin/ld; \
+    ln /tools/bin/$n /tools/x86_64-pc-linux-gnu/bin/ld >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /bin/install -c ld-new /tools/x86_64-pc-linux-gnu/bin/ld; \
+  fi; \
+fi
+/bin/sh ../../ld/../mkinstalldirs /tools/x86_64-pc-linux-gnu/lib/ldscripts
+mkdir -p -- /tools/x86_64-pc-linux-gnu/lib/ldscripts
+for f in ldscripts/* ; do \
+  /bin/install -c -m 644 $f /tools/x86_64-pc-linux-gnu/lib/$f ; \
+done
+ /bin/mkdir -p '/tools/share/info'
+ /bin/install -c -m 644 ../../ld/ld.info '/tools/share/info'
+ /bin/mkdir -p '/tools/share/man/man1'
+ /bin/install -c -m 644 ../../ld/ld.1 '/tools/share/man/man1'
+make[5]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+make[4]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/ld'
+make[2]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/libiberty'
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/libiberty/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/libiberty/testsuite'
+if test -n ""; then \
+	/bin/sh ../../libiberty/../mkinstalldirs /tools/lib/`x86_64-lfs-linux-gnu-gcc -g -O2 -print-multi-os-directory`; \
+	/bin/install -c -m 644 ./libiberty.a /tools/lib/`x86_64-lfs-linux-gnu-gcc -g -O2 -print-multi-os-directory`/./libiberty.an; \
+	( cd /tools/lib/`x86_64-lfs-linux-gnu-gcc -g -O2 -print-multi-os-directory` ; chmod 644 ./libiberty.an ;x86_64-lfs-linux-gnu-ranlib ./libiberty.an ); \
+	mv -f /tools/lib/`x86_64-lfs-linux-gnu-gcc -g -O2 -print-multi-os-directory`/./libiberty.an /tools/lib/`x86_64-lfs-linux-gnu-gcc -g -O2 -print-multi-os-directory`/./libiberty.a; \
+	case "" in \
+	  /*)    thd=;; \
+	  *)     thd=/tools/include/;; \
+	esac; \
+	/bin/sh ../../libiberty/../mkinstalldirs ${thd}; \
+	for h in ../../libiberty/../include/ansidecl.h ../../libiberty/../include/demangle.h ../../libiberty/../include/dyn-string.h ../../libiberty/../include/fibheap.h ../../libiberty/../include/floatformat.h ../../libiberty/../include/hashtab.h ../../libiberty/../include/libiberty.h ../../libiberty/../include/objalloc.h ../../libiberty/../include/partition.h ../../libiberty/../include/safe-ctype.h ../../libiberty/../include/sort.h ../../libiberty/../include/splay-tree.h ../../libiberty/../include/timeval-utils.h; do \
+	  /bin/install -c -m 644 $h ${thd}; \
+	done; \
+fi
+make[3]: Entering directory `/lfsbuild/sources/binutils-2.29.1/build/libiberty/testsuite'
+make[3]: Nothing to be done for `install'.
+make[3]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/libiberty/testsuite'
+make[2]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build/libiberty'
+make[1]: Nothing to be done for `install-target'.
+make[1]: Leaving directory `/lfsbuild/sources/binutils-2.29.1/build'

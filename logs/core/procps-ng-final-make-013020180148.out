@@ -1,0 +1,82 @@
+make  all-recursive
+make[1]: Entering directory '/sources/procps-ng-3.3.12/build'
+Making all in include
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/include'
+Making all in man-po
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/man-po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/man-po'
+Making all in po
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/po'
+Making all in testsuite
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build/testsuite'
+  CC       ps.test/test-schedbatch.o
+  CCLD     test-schedbatch
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build/testsuite'
+make[2]: Entering directory '/sources/procps-ng-3.3.12/build'
+  CC       proc/alloc.lo
+  CC       proc/devname.lo
+  CC       proc/escape.lo
+  CC       proc/pwcache.lo
+  CC       proc/readproc.lo
+  CC       proc/sig.lo
+  CC       proc/slab.lo
+  CC       proc/sysinfo.lo
+  CC       proc/version.lo
+  CC       proc/wchan.lo
+  CC       proc/whattime.lo
+  CCLD     proc/libprocps.la
+  CC       ps/display.o
+  CC       ps/global.o
+  CC       ps/help.o
+  CC       ps/output.o
+  CC       ps/parser.o
+  CC       ps/select.o
+  CC       ps/sortformat.o
+  CC       ps/stacktrace.o
+  CC       lib/fileutils.o
+  CCLD     ps/pscommand
+  CC       free.o
+  CC       lib/strutils.o
+  CCLD     free
+  CC       pgrep.o
+  CC       lib/nsutils.o
+  CCLD     pgrep
+  CCLD     pkill
+  CC       pmap.o
+  CCLD     pmap
+  CC       pwdx.o
+  CCLD     pwdx
+  CC       tload.o
+  CCLD     tload
+  CC       uptime.o
+  CCLD     uptime
+  CC       vmstat.o
+  CCLD     vmstat
+  CC       w.o
+  CCLD     w
+  CC       pidof.o
+  CCLD     pidof
+  CC       slabtop.o
+  CCLD     slabtop
+  CC       watch.o
+  CCLD     watch
+  CC       top/top.o
+  CC       top/top_nls.o
+  CCLD     top/top
+  CC       lib/test_strutils.o
+  CCLD     lib/test_strutils
+  CC       lib/test_fileutils.o
+  CCLD     lib/test_fileutils
+  CC       lib/test_nsutils.o
+  CCLD     lib/test_nsutils
+  CC       lib/test_process.o
+  CCLD     lib/test_process
+  CC       sysctl.o
+  CCLD     sysctl
+make[2]: Leaving directory '/sources/procps-ng-3.3.12/build'
+make[1]: Leaving directory '/sources/procps-ng-3.3.12/build'

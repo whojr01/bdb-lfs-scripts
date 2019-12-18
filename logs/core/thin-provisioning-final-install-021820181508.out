@@ -1,0 +1,61 @@
+    [txt2man] man8/cache_check.txt
+    [txt2man] man8/cache_dump.txt
+    [txt2man] man8/cache_metadata_size.txt
+    [txt2man] man8/cache_repair.txt
+    [txt2man] man8/cache_restore.txt
+    [txt2man] man8/cache_writeback.txt
+    [txt2man] man8/thin_check.txt
+    [txt2man] man8/thin_delta.txt
+    [txt2man] man8/thin_dump.txt
+    [txt2man] man8/thin_ls.txt
+    [txt2man] man8/thin_repair.txt
+    [txt2man] man8/thin_restore.txt
+    [txt2man] man8/thin_rmap.txt
+    [txt2man] man8/thin_metadata_size.txt
+    [txt2man] man8/thin_trim.txt
+    [txt2man] man8/era_check.txt
+    [txt2man] man8/era_dump.txt
+    [txt2man] man8/era_invalidate.txt
+    [txt2man] man8/era_restore.txt
+/usr/bin/install -c -m 755 -d /usr/sbin
+/usr/bin/install -c -m 755 bin/pdata_tools /usr/sbin
+strip /usr/sbin/pdata_tools
+ln -s -f pdata_tools /usr/sbin/cache_check
+ln -s -f pdata_tools /usr/sbin/cache_dump
+ln -s -f pdata_tools /usr/sbin/cache_metadata_size
+ln -s -f pdata_tools /usr/sbin/cache_repair
+ln -s -f pdata_tools /usr/sbin/cache_restore
+ln -s -f pdata_tools /usr/sbin/cache_writeback
+ln -s -f pdata_tools /usr/sbin/thin_check
+ln -s -f pdata_tools /usr/sbin/thin_delta
+ln -s -f pdata_tools /usr/sbin/thin_dump
+ln -s -f pdata_tools /usr/sbin/thin_ls
+ln -s -f pdata_tools /usr/sbin/thin_repair
+ln -s -f pdata_tools /usr/sbin/thin_restore
+ln -s -f pdata_tools /usr/sbin/thin_rmap
+ln -s -f pdata_tools /usr/sbin/thin_metadata_size
+ln -s -f pdata_tools /usr/sbin/thin_trim
+ln -s -f pdata_tools /usr/sbin/era_check
+ln -s -f pdata_tools /usr/sbin/era_dump
+ln -s -f pdata_tools /usr/sbin/era_invalidate
+ln -s -f pdata_tools /usr/sbin/era_restore
+/usr/bin/install -c -m 755 -d /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/cache_check.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/cache_dump.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/cache_metadata_size.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/cache_repair.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/cache_restore.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/cache_writeback.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_check.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_delta.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_dump.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_ls.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_repair.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_restore.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_rmap.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_metadata_size.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/era_check.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/era_dump.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/era_restore.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/era_invalidate.8 /usr/share/man/man8
+/usr/bin/install -c -p -m 644 man8/thin_trim.8 /usr/share/man/man8

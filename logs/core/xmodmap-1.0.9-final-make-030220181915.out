@@ -1,0 +1,100 @@
+###############################
+# Make xmodmap-1.0.9.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xmodmap-1.0.9'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xmodmap-1.0.9/man'
+  GEN      xmodmap.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xmodmap-1.0.9/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xmodmap-1.0.9'
+  CC       exec.o
+exec.c: In function 'mapping_busy_key':
+exec.c:86:6: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+      KeySym ks = XKeycodeToKeysym (dpy, (KeyCode) i, 0);
+      ^~~~~~
+In file included from exec.c:66:0:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^~~~~~~~~~~~~~~~
+exec.c: In function 'PrintModifierMapping':
+exec.c:219:9: warning: declaration of 'min_keycode' shadows a global declaration [-Wshadow]
+     int min_keycode, max_keycode, keysyms_per_keycode = 0;
+         ^~~~~~~~~~~
+In file included from exec.c:68:0:
+xmodmap.h:35:12: note: shadowed declaration is here
+ extern int min_keycode, max_keycode;
+            ^~~~~~~~~~~
+exec.c:219:22: warning: declaration of 'max_keycode' shadows a global declaration [-Wshadow]
+     int min_keycode, max_keycode, keysyms_per_keycode = 0;
+                      ^~~~~~~~~~~
+In file included from exec.c:68:0:
+xmodmap.h:35:25: note: shadowed declaration is here
+ extern int min_keycode, max_keycode;
+                         ^~~~~~~~~~~
+exec.c:238:7: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+       ks = XKeycodeToKeysym(dpy, map->modifiermap[k], index);
+       ^~
+In file included from exec.c:66:0:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^~~~~~~~~~~~~~~~
+exec.c: In function 'PrintKeyTable':
+exec.c:258:9: warning: declaration of 'min_keycode' shadows a global declaration [-Wshadow]
+     int min_keycode, max_keycode, keysyms_per_keycode;
+         ^~~~~~~~~~~
+In file included from exec.c:68:0:
+xmodmap.h:35:12: note: shadowed declaration is here
+ extern int min_keycode, max_keycode;
+            ^~~~~~~~~~~
+exec.c:258:22: warning: declaration of 'max_keycode' shadows a global declaration [-Wshadow]
+     int min_keycode, max_keycode, keysyms_per_keycode;
+                      ^~~~~~~~~~~
+In file included from exec.c:68:0:
+xmodmap.h:35:25: note: shadowed declaration is here
+ extern int min_keycode, max_keycode;
+                         ^~~~~~~~~~~
+  CC       handle.o
+handle.c: In function 'KeysymToKeycodes':
+handle.c:60:27: warning: declaration of 'dpy' shadows a global declaration [-Wshadow]
+ KeysymToKeycodes(Display *dpy, KeySym keysym, int *pnum_kcs)
+                           ^~~
+In file included from handle.c:34:0:
+xmodmap.h:34:17: note: shadowed declaration is here
+ extern Display *dpy;
+                 ^~~
+handle.c:68:6: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+      if (XKeycodeToKeysym(dpy, (KeyCode) i, j) == keysym) {
+      ^~
+In file included from handle.c:31:0:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^~~~~~~~~~~~~~~~
+handle.c: In function 'parse_number':
+handle.c:295:5: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+     return (sscanf (str, fmt, val) == 1);
+     ^~~~~~
+handle.c: In function 'do_keycode':
+handle.c:346:2: warning: format not a string literal, argument types not checked [-Wformat-nonliteral]
+  if (sscanf (line, fmt, &dummy) != 1 || dummy == 0) {
+  ^~
+handle.c: In function 'exec_keycode':
+handle.c:1225:3: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+   if (XKeycodeToKeysym(dpy, (KeyCode) i, j) != opk->keysyms[j])
+   ^~
+In file included from handle.c:31:0:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^~~~~~~~~~~~~~~~
+handle.c:1233:3: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+   if (XKeycodeToKeysym(dpy, (KeyCode) i, j) != None)
+   ^~
+In file included from handle.c:31:0:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^~~~~~~~~~~~~~~~
+  CC       pf.o
+  CC       xmodmap.o
+  CCLD     xmodmap
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xmodmap-1.0.9'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xmodmap-1.0.9'

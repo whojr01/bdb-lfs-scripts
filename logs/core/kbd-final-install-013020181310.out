@@ -1,0 +1,203 @@
+Making install in src
+make[1]: Entering directory '/sources/kbd-2.0.4/build/src'
+Making install in vlock
+make[2]: Entering directory '/sources/kbd-2.0.4/build/src/vlock'
+make[3]: Entering directory '/sources/kbd-2.0.4/build/src/vlock'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/src/vlock'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/src/vlock'
+Making install in libkeymap
+make[2]: Entering directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make  install-am
+make[3]: Entering directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/src/libkeymap'
+make[2]: Entering directory '/sources/kbd-2.0.4/build/src'
+make[3]: Entering directory '/sources/kbd-2.0.4/build/src'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c mapscrn loadunimap dumpkeys loadkeys showkey setfont showconsolefont setleds setmetamode kbd_mode psfxtable fgconsole kbdrate chvt deallocvt openvt kbdinfo setvtrgb getkeycodes setkeycodes '/usr/bin'
+libtool: install: /usr/bin/install -c mapscrn /usr/bin/mapscrn
+libtool: install: /usr/bin/install -c loadunimap /usr/bin/loadunimap
+libtool: install: /usr/bin/install -c dumpkeys /usr/bin/dumpkeys
+libtool: install: /usr/bin/install -c loadkeys /usr/bin/loadkeys
+libtool: install: /usr/bin/install -c showkey /usr/bin/showkey
+libtool: install: /usr/bin/install -c setfont /usr/bin/setfont
+libtool: install: /usr/bin/install -c showconsolefont /usr/bin/showconsolefont
+libtool: install: /usr/bin/install -c setleds /usr/bin/setleds
+libtool: install: /usr/bin/install -c setmetamode /usr/bin/setmetamode
+libtool: install: /usr/bin/install -c kbd_mode /usr/bin/kbd_mode
+libtool: install: /usr/bin/install -c psfxtable /usr/bin/psfxtable
+libtool: install: /usr/bin/install -c fgconsole /usr/bin/fgconsole
+libtool: install: /usr/bin/install -c kbdrate /usr/bin/kbdrate
+libtool: install: /usr/bin/install -c chvt /usr/bin/chvt
+libtool: install: /usr/bin/install -c deallocvt /usr/bin/deallocvt
+libtool: install: /usr/bin/install -c openvt /usr/bin/openvt
+libtool: install: /usr/bin/install -c kbdinfo /usr/bin/kbdinfo
+libtool: install: /usr/bin/install -c setvtrgb /usr/bin/setvtrgb
+libtool: install: /usr/bin/install -c getkeycodes /usr/bin/getkeycodes
+libtool: install: /usr/bin/install -c setkeycodes /usr/bin/setkeycodes
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c ../../src/unicode_start ../../src/unicode_stop '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/kbd-2.0.4/build/src'
+for i in psfaddtable psfgettable psfstriptable; do \
+	rm -f /usr/bin/$i; \
+	ln -s psfxtable /usr/bin/$i || exit $?; \
+done
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/src'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/src'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/src'
+make[1]: Leaving directory '/sources/kbd-2.0.4/build/src'
+Making install in data
+make[1]: Entering directory '/sources/kbd-2.0.4/build/data'
+make[2]: Entering directory '/sources/kbd-2.0.4/build/data'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory '/sources/kbd-2.0.4/build/data'
+cp -r ../../data/keymaps keymaps_Z
+chmod -R u+w keymaps_Z
+cd keymaps_Z && gzip -f -n -9 */*.map */*/*.map
+cp -r ../../data/consolefonts consolefonts_Z
+cp -r ../../data/partialfonts partialfonts_Z
+chmod -R u+w consolefonts_Z partialfonts_Z
+cd consolefonts_Z && gzip -f -n -9 * && gunzip ERRORS* README*
+cd partialfonts_Z && gzip -f -n -9 *
+install -d -m 755 /usr/share
+install -d -m 755 /usr/share/consolefonts
+install -m 644 consolefonts_Z/* /usr/share/consolefonts
+install -d -m 755 /usr/share/consolefonts/partialfonts
+install -m 644 partialfonts_Z/* /usr/share/consolefonts/partialfonts
+install -d -m 755 /usr/share/consoletrans
+install -m 644 ../../data/consoletrans/* /usr/share/consoletrans
+install -d -m 755 /usr/share/unimaps
+install -m 644 ../../data/unimaps/* /usr/share/unimaps
+install -d -m 755 /usr/share/keymaps
+install -d -m 755 /usr/share/keymaps/i386
+install -d -m 755 /usr/share/keymaps/mac
+for i in include sun amiga atari i386/azerty i386/bepo i386/dvorak i386/fgGIod i386/qwerty i386/qwertz i386/include i386/olpc i386/colemak i386/carpalx mac/include mac/all; do \
+	install -d -m 755 /usr/share/keymaps/$i ;\
+	install -m 644 keymaps_Z/$i/* /usr/share/keymaps/$i ;\
+done
+rm -f /usr/share/keymaps/ppc; ln -s mac /usr/share/keymaps/ppc
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/data'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/data'
+make[1]: Leaving directory '/sources/kbd-2.0.4/build/data'
+Making install in po
+make[1]: Entering directory '/sources/kbd-2.0.4/build/po'
+/bin/sh ../../config/mkinstalldirs /usr/share
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/kbd.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/kbd.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/kbd.mo
+installing ../../po/el.gmo as /usr/share/locale/el/LC_MESSAGES/kbd.mo
+installing ../../po/eo.gmo as /usr/share/locale/eo/LC_MESSAGES/kbd.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/kbd.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/kbd.mo
+mkdir -p -- /usr/share/locale/gr/LC_MESSAGES
+installing ../../po/gr.gmo as /usr/share/locale/gr/LC_MESSAGES/kbd.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/kbd.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/kbd.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/kbd.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/kbd.mo
+installing ../../po/ro.gmo as /usr/share/locale/ro/LC_MESSAGES/kbd.mo
+installing ../../po/ru.gmo as /usr/share/locale/ru/LC_MESSAGES/kbd.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/kbd.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/kbd.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/kbd.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/kbd.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/kbd.mo
+if test "kbd" = "gettext-tools"; then \
+  /bin/sh ../../config/mkinstalldirs /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/kbd-2.0.4/build/po'
+Making install in docs
+make[1]: Entering directory '/sources/kbd-2.0.4/build/docs'
+Making install in man
+make[2]: Entering directory '/sources/kbd-2.0.4/build/docs/man'
+Making install in man1
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man1'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man1'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../../../docs/man/man1/chvt.1 ../../../../docs/man/man1/deallocvt.1 ../../../../docs/man/man1/fgconsole.1 ../../../../docs/man/man1/kbd_mode.1 ../../../../docs/man/man1/openvt.1 ../../../../docs/man/man1/psfaddtable.1 ../../../../docs/man/man1/psfgettable.1 ../../../../docs/man/man1/psfstriptable.1 ../../../../docs/man/man1/psfxtable.1 ../../../../docs/man/man1/setleds.1 ../../../../docs/man/man1/setmetamode.1 ../../../../docs/man/man1/showkey.1 ../../../../docs/man/man1/unicode_start.1 ../../../../docs/man/man1/unicode_stop.1 dumpkeys.1 loadkeys.1 '/usr/share/man/man1'
+make  install-data-hook
+make[5]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man1'
+cd /usr/share/man/man1 && \
+for f in dumpkeys.1 loadkeys.1; do \
+	/bin/sed -e "s#@DATADIR\@#/usr/share#g" "$f" > "$f.new"; \
+	mv -f -- "$f.new" "$f"; \
+done
+make[5]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man1'
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man1'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man1'
+Making install in man5
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man5'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man5'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 ../../../../docs/man/man5/keymaps.5 '/usr/share/man/man5'
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man5'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man5'
+Making install in man8
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man8'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man8'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 ../../../../docs/man/man8/getkeycodes.8 ../../../../docs/man/man8/kbdrate.8 ../../../../docs/man/man8/setkeycodes.8 ../../../../docs/man/man8/showconsolefont.8 ../../../../docs/man/man8/setvtrgb.8 loadunimap.8 mapscrn.8 setfont.8 '/usr/share/man/man8'
+make  install-data-hook
+make[5]: Entering directory '/sources/kbd-2.0.4/build/docs/man/man8'
+cd /usr/share/man/man8 && \
+for f in loadunimap.8 mapscrn.8 setfont.8; do \
+	/bin/sed -e "s#@DATADIR\@#/usr/share#g" "$f" > "$f.new"; \
+	mv -f -- "$f.new" "$f"; \
+done
+make[5]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man8'
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man8'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs/man/man8'
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs/man'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/man'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/man'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs/man'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/docs/man'
+Making install in reference
+make[2]: Entering directory '/sources/kbd-2.0.4/build/docs/reference'
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs/reference'
+make[4]: Entering directory '/sources/kbd-2.0.4/build/docs/reference'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/kbd-2.0.4/build/docs/reference'
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs/reference'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/docs/reference'
+make[2]: Entering directory '/sources/kbd-2.0.4/build/docs'
+make[3]: Entering directory '/sources/kbd-2.0.4/build/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/kbd-2.0.4/build/docs'
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/docs'
+make[1]: Leaving directory '/sources/kbd-2.0.4/build/docs'
+Making install in tests
+make[1]: Entering directory '/sources/kbd-2.0.4/build/tests'
+make[2]: Entering directory '/sources/kbd-2.0.4/build/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/kbd-2.0.4/build/tests'
+make[1]: Leaving directory '/sources/kbd-2.0.4/build/tests'
+make[1]: Entering directory '/sources/kbd-2.0.4/build'
+make[2]: Entering directory '/sources/kbd-2.0.4/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/kbd-2.0.4/build'
+make[1]: Leaving directory '/sources/kbd-2.0.4/build'

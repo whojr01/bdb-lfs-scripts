@@ -1,0 +1,19 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.26.1
+checking for XML::Parser... ok
+checking for bzr... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating intltoolize
+config.status: creating tests/Makefile
+config.status: creating tests/cases/Makefile
+config.status: creating tests/results/Makefile
+config.status: creating tests/selftest.pl

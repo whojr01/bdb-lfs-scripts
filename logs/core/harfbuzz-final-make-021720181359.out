@@ -1,0 +1,151 @@
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5'
+Making all in src
+make[2]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src'
+  GEN      hb-gobject-enums.cc
+  GEN      hb-gobject-enums.h
+make  all-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src'
+Making all in hb-ucdn
+make[4]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src/hb-ucdn'
+  CC       libhb_ucdn_la-ucdn.lo
+  CCLD     libhb-ucdn.la
+make[4]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src/hb-ucdn'
+make[4]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src'
+  CXX      libharfbuzz_la-hb-blob.lo
+  CXX      libharfbuzz_la-hb-buffer-serialize.lo
+  CXX      libharfbuzz_la-hb-buffer.lo
+  CXX      libharfbuzz_la-hb-common.lo
+  CXX      libharfbuzz_la-hb-face.lo
+  CXX      libharfbuzz_la-hb-font.lo
+  CXX      libharfbuzz_la-hb-ot-tag.lo
+  CXX      libharfbuzz_la-hb-set.lo
+  CXX      libharfbuzz_la-hb-shape.lo
+  CXX      libharfbuzz_la-hb-shape-plan.lo
+  CXX      libharfbuzz_la-hb-shaper.lo
+  CXX      libharfbuzz_la-hb-unicode.lo
+  CXX      libharfbuzz_la-hb-warning.lo
+  CXX      libharfbuzz_la-hb-aat-layout.lo
+  CXX      libharfbuzz_la-hb-ot-font.lo
+  CXX      libharfbuzz_la-hb-ot-layout.lo
+  CXX      libharfbuzz_la-hb-ot-map.lo
+  CXX      libharfbuzz_la-hb-ot-math.lo
+  CXX      libharfbuzz_la-hb-ot-shape.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-arabic.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-default.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-hangul.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-hebrew.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-indic.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-indic-table.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-khmer.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-myanmar.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-thai.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-tibetan.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-use.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-use-table.lo
+  CXX      libharfbuzz_la-hb-ot-shape-normalize.lo
+  CXX      libharfbuzz_la-hb-ot-shape-fallback.lo
+  CXX      libharfbuzz_la-hb-ot-var.lo
+  CXX      libharfbuzz_la-hb-fallback-shape.lo
+  CXX      libharfbuzz_la-hb-glib.lo
+  CXX      libharfbuzz_la-hb-ft.lo
+  CXX      libharfbuzz_la-hb-ucdn.lo
+make[5]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src/hb-ucdn'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src/hb-ucdn'
+  GEN      libharfbuzz.la
+  CXX      libharfbuzz_icu_la-hb-icu.lo
+  CXXLD    libharfbuzz-icu.la
+  CXX      libharfbuzz_gobject_la-hb-gobject-structs.lo
+  CXX      libharfbuzz_gobject_la-hb-gobject-enums.lo
+  CXXLD    libharfbuzz-gobject.la
+  CXX      main-main.o
+  CXXLD    main
+  CXX      test-test.o
+  CXXLD    test
+  CXX      test_buffer_serialize-test-buffer-serialize.o
+  CXXLD    test-buffer-serialize
+  CXX      test_size_params-test-size-params.o
+  CXXLD    test-size-params
+  CXX      test_would_substitute-test-would-substitute.o
+  CXXLD    test-would-substitute
+  GEN      harfbuzz.pc
+  GEN      harfbuzz-icu.pc
+  GEN      harfbuzz-gobject.pc
+make[4]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src'
+make[3]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/src'
+Making all in util
+make[2]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/util'
+  CXX      hb-shape.o
+  CXX      options.o
+  CXXLD    hb-shape
+  CXX      hb-ot-shape-closure.o
+  CXXLD    hb-ot-shape-closure
+make[2]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/util'
+Making all in test
+make[2]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test'
+Making all in api
+make[3]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/api'
+  CC       test-blob.o
+  CCLD     test-blob
+  CC       test-buffer.o
+  CCLD     test-buffer
+  CC       test-common.o
+  CCLD     test-common
+  CC       test-font.o
+  CCLD     test-font
+  CC       test-object.o
+  CCLD     test-object
+  CC       test-set.o
+  CCLD     test-set
+  CC       test-shape.o
+  CCLD     test-shape
+  CC       test_unicode-test-unicode.o
+  CCLD     test-unicode
+  CC       test-version.o
+  CCLD     test-version
+  CC       test-ot-tag.o
+  CCLD     test-ot-tag
+  CC       test_ot_math-test-ot-math.o
+  CCLD     test-ot-math
+  CC       test_c-test-c.o
+  CCLD     test-c
+  CXX      test_cplusplus-test-cplusplus.o
+  CXXLD    test-cplusplus
+make[3]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/api'
+Making all in shaping
+make[3]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping'
+Making all in data
+make[4]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data'
+Making all in in-house
+make[5]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data/in-house'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data/in-house'
+Making all in text-rendering-tests
+make[5]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data/text-rendering-tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data/text-rendering-tests'
+make[5]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data'
+make[4]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping/data'
+make[4]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping'
+make[3]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/shaping'
+Making all in fuzzing
+make[3]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/fuzzing'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test/fuzzing'
+make[3]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/test'
+Making all in docs
+make[2]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5/docs'
+make[2]: Entering directory '/lfskernel/sources/boot/harfbuzz-1.7.5'
+make[2]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/harfbuzz-1.7.5'

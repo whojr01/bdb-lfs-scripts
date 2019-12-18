@@ -1,0 +1,350 @@
+###############################
+# Make xkbutils-1.0.4.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/xkbutils-1.0.4'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkbutils-1.0.4/man'
+  GEN    xkbbell.1
+  GEN    xkbvleds.1
+  GEN    xkbwatch.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbutils-1.0.4/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/xkbutils-1.0.4'
+  CC     xkbvleds-xkbvleds.o
+In file included from xkbvleds.c:39:0:
+xkbvleds.c: In function 'main':
+LED.h:65:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNon  "on"
+                ^
+xkbvleds.c:211:30: note: in expansion of macro 'XtNon'
+     static Arg onArgs[] = { {XtNon, (XtArgVal) True} };
+                              ^~~~~
+LED.h:65:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNon  "on"
+                ^
+xkbvleds.c:212:31: note: in expansion of macro 'XtNon'
+     static Arg offArgs[] = { {XtNon, (XtArgVal) False} };
+                               ^~~~~
+xkbvleds.c:214:9: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         "*Box*background: grey40",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+xkbvleds.c:273:22: warning: declaration of 'i' shadows a previous local [-Wshadow]
+         register int i, bit;
+                      ^
+xkbvleds.c:205:18: note: shadowed declaration is here
+     register int i;
+                  ^
+xkbvleds.c:273:25: warning: declaration of 'bit' shadows a previous local [-Wshadow]
+         register int i, bit;
+                         ^~~
+xkbvleds.c:206:14: note: shadowed declaration is here
+     unsigned bit;
+              ^~~
+  CC     xkbvleds-LED.o
+LED.c:47:41: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.foreground), XtRString, XtDefaultForeground},
+                                         ^~~~~~~~~~~~~~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:65:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNon  "on"
+                ^
+LED.c:48:6: note: in expansion of macro 'XtNon'
+     {XtNon, XtCOn, XtRBoolean, sizeof(Boolean),
+      ^~~~~
+LED.h:73:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCOn  "On"
+                ^
+LED.c:48:13: note: in expansion of macro 'XtCOn'
+     {XtNon, XtCOn, XtRBoolean, sizeof(Boolean),
+             ^~~~~
+LED.h:68:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNtopColor "topColor"
+                     ^
+LED.c:50:6: note: in expansion of macro 'XtNtopColor'
+     {XtNtopColor, XtCTopColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~~
+LED.h:76:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCTopColor "TopColor"
+                     ^
+LED.c:50:19: note: in expansion of macro 'XtCTopColor'
+     {XtNtopColor, XtCTopColor, XtRPixel, sizeof(Pixel),
+                   ^~~~~~~~~~~
+LED.c:51:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.top_color), XtRString, "black"},
+                                        ^~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:69:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNbottomColor "bottomColor"
+                        ^
+LED.c:52:6: note: in expansion of macro 'XtNbottomColor'
+     {XtNbottomColor, XtCBottomColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~~~~~
+LED.h:77:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCBottomColor "BottomColor"
+                        ^
+LED.c:52:22: note: in expansion of macro 'XtCBottomColor'
+     {XtNbottomColor, XtCBottomColor, XtRPixel, sizeof(Pixel),
+                      ^~~~~~~~~~~~~~
+LED.c:53:43: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.bottom_color), XtRString, "white"},
+                                           ^~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:66:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNonColor "onColor"
+                    ^
+LED.c:54:6: note: in expansion of macro 'XtNonColor'
+     {XtNonColor, XtCOnColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~
+LED.h:74:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCOnColor "OnColor"
+                    ^
+LED.c:54:18: note: in expansion of macro 'XtCOnColor'
+     {XtNonColor, XtCOnColor, XtRPixel, sizeof(Pixel),
+                  ^~~~~~~~~~
+LED.c:55:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.on_color), XtRString, "green"},
+                                       ^~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:67:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNoffColor "offColor"
+                     ^
+LED.c:56:6: note: in expansion of macro 'XtNoffColor'
+     {XtNoffColor, XtCOffColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~~
+LED.h:75:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCOffColor "OffColor"
+                     ^
+LED.c:56:19: note: in expansion of macro 'XtCOffColor'
+     {XtNoffColor, XtCOffColor, XtRPixel, sizeof(Pixel),
+                   ^~~~~~~~~~~
+LED.c:57:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.off_color), XtRString, "#005000"},
+                                        ^~~~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:64:18: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNbevel "bevel"
+                  ^
+LED.c:58:6: note: in expansion of macro 'XtNbevel'
+     {XtNbevel, XtCBevel, XtRDimension, sizeof(Dimension),
+      ^~~~~~~~
+LED.h:72:18: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCBevel "Bevel"
+                  ^
+LED.c:58:16: note: in expansion of macro 'XtCBevel'
+     {XtNbevel, XtCBevel, XtRDimension, sizeof(Dimension),
+                ^~~~~~~~
+LED.h:70:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNledWidth "ledWidth"
+                     ^
+LED.c:60:6: note: in expansion of macro 'XtNledWidth'
+     {XtNledWidth, XtCLedWidth, XtRDimension, sizeof(Dimension),
+      ^~~~~~~~~~~
+LED.h:78:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCLedWidth "LedWidth"
+                     ^
+LED.c:60:19: note: in expansion of macro 'XtCLedWidth'
+     {XtNledWidth, XtCLedWidth, XtRDimension, sizeof(Dimension),
+                   ^~~~~~~~~~~
+LED.h:71:22: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNledHeight "ledHeight"
+                      ^
+LED.c:62:6: note: in expansion of macro 'XtNledHeight'
+     {XtNledHeight, XtCLedHeight, XtRDimension, sizeof(Dimension),
+      ^~~~~~~~~~~~
+LED.h:79:22: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCLedHeight "LedHeight"
+                      ^
+LED.c:62:20: note: in expansion of macro 'XtCLedHeight'
+     {XtNledHeight, XtCLedHeight, XtRDimension, sizeof(Dimension),
+                    ^~~~~~~~~~~~
+LED.c:82:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      /* class_name               */ "LED",
+                                     ^~~~~
+  CC     xkbvleds-utils.o
+  CCLD   xkbvleds
+  CC     xkbwatch-xkbwatch.o
+xkbwatch.c:49:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-off", "*on.on", XrmoptionNoArg, "FALSE"},
+      ^~~~~~
+xkbwatch.c:49:14: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-off", "*on.on", XrmoptionNoArg, "FALSE"},
+              ^~~~~~~~
+xkbwatch.c:49:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-off", "*on.on", XrmoptionNoArg, "FALSE"},
+                                        ^~~~~~~
+xkbwatch.c:50:6: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-on", "*on.on", XrmoptionNoArg, "TRUE"}
+      ^~~~~
+xkbwatch.c:50:13: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-on", "*on.on", XrmoptionNoArg, "TRUE"}
+             ^~~~~~~~
+xkbwatch.c:50:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     {"-on", "*on.on", XrmoptionNoArg, "TRUE"}
+                                       ^~~~~~
+In file included from xkbwatch.c:39:0:
+xkbwatch.c: In function 'main':
+LED.h:65:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNon  "on"
+                ^
+xkbwatch.c:73:30: note: in expansion of macro 'XtNon'
+     static Arg onArgs[] = { {XtNon, (XtArgVal) True} };
+                              ^~~~~
+LED.h:65:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNon  "on"
+                ^
+xkbwatch.c:74:31: note: in expansion of macro 'XtNon'
+     static Arg offArgs[] = { {XtNon, (XtArgVal) False} };
+                               ^~~~~
+xkbwatch.c:76:9: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         "*Box*background: grey50",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+xkbwatch.c:77:9: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         "*Box*borderWidth: 0",
+         ^~~~~~~~~~~~~~~~~~~~~
+xkbwatch.c:78:9: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         "*Box*vSpace: 1",
+         ^~~~~~~~~~~~~~~~
+  CC     xkbwatch-LED.o
+LED.c:47:41: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.foreground), XtRString, XtDefaultForeground},
+                                         ^~~~~~~~~~~~~~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:65:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNon  "on"
+                ^
+LED.c:48:6: note: in expansion of macro 'XtNon'
+     {XtNon, XtCOn, XtRBoolean, sizeof(Boolean),
+      ^~~~~
+LED.h:73:16: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCOn  "On"
+                ^
+LED.c:48:13: note: in expansion of macro 'XtCOn'
+     {XtNon, XtCOn, XtRBoolean, sizeof(Boolean),
+             ^~~~~
+LED.h:68:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNtopColor "topColor"
+                     ^
+LED.c:50:6: note: in expansion of macro 'XtNtopColor'
+     {XtNtopColor, XtCTopColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~~
+LED.h:76:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCTopColor "TopColor"
+                     ^
+LED.c:50:19: note: in expansion of macro 'XtCTopColor'
+     {XtNtopColor, XtCTopColor, XtRPixel, sizeof(Pixel),
+                   ^~~~~~~~~~~
+LED.c:51:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.top_color), XtRString, "black"},
+                                        ^~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:69:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNbottomColor "bottomColor"
+                        ^
+LED.c:52:6: note: in expansion of macro 'XtNbottomColor'
+     {XtNbottomColor, XtCBottomColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~~~~~
+LED.h:77:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCBottomColor "BottomColor"
+                        ^
+LED.c:52:22: note: in expansion of macro 'XtCBottomColor'
+     {XtNbottomColor, XtCBottomColor, XtRPixel, sizeof(Pixel),
+                      ^~~~~~~~~~~~~~
+LED.c:53:43: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.bottom_color), XtRString, "white"},
+                                           ^~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:66:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNonColor "onColor"
+                    ^
+LED.c:54:6: note: in expansion of macro 'XtNonColor'
+     {XtNonColor, XtCOnColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~
+LED.h:74:20: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCOnColor "OnColor"
+                    ^
+LED.c:54:18: note: in expansion of macro 'XtCOnColor'
+     {XtNonColor, XtCOnColor, XtRPixel, sizeof(Pixel),
+                  ^~~~~~~~~~
+LED.c:55:39: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.on_color), XtRString, "green"},
+                                       ^~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:67:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNoffColor "offColor"
+                     ^
+LED.c:56:6: note: in expansion of macro 'XtNoffColor'
+     {XtNoffColor, XtCOffColor, XtRPixel, sizeof(Pixel),
+      ^~~~~~~~~~~
+LED.h:75:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCOffColor "OffColor"
+                     ^
+LED.c:56:19: note: in expansion of macro 'XtCOffColor'
+     {XtNoffColor, XtCOffColor, XtRPixel, sizeof(Pixel),
+                   ^~~~~~~~~~~
+LED.c:57:40: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      offset(led.off_color), XtRString, "#005000"},
+                                        ^~~~~~~~~
+In file included from LEDP.h:29:0,
+                 from LED.c:31:
+LED.h:64:18: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNbevel "bevel"
+                  ^
+LED.c:58:6: note: in expansion of macro 'XtNbevel'
+     {XtNbevel, XtCBevel, XtRDimension, sizeof(Dimension),
+      ^~~~~~~~
+LED.h:72:18: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCBevel "Bevel"
+                  ^
+LED.c:58:16: note: in expansion of macro 'XtCBevel'
+     {XtNbevel, XtCBevel, XtRDimension, sizeof(Dimension),
+                ^~~~~~~~
+LED.h:70:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNledWidth "ledWidth"
+                     ^
+LED.c:60:6: note: in expansion of macro 'XtNledWidth'
+     {XtNledWidth, XtCLedWidth, XtRDimension, sizeof(Dimension),
+      ^~~~~~~~~~~
+LED.h:78:21: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCLedWidth "LedWidth"
+                     ^
+LED.c:60:19: note: in expansion of macro 'XtCLedWidth'
+     {XtNledWidth, XtCLedWidth, XtRDimension, sizeof(Dimension),
+                   ^~~~~~~~~~~
+LED.h:71:22: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtNledHeight "ledHeight"
+                      ^
+LED.c:62:6: note: in expansion of macro 'XtNledHeight'
+     {XtNledHeight, XtCLedHeight, XtRDimension, sizeof(Dimension),
+      ^~~~~~~~~~~~
+LED.h:79:22: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ #define XtCLedHeight "LedHeight"
+                      ^
+LED.c:62:20: note: in expansion of macro 'XtCLedHeight'
+     {XtNledHeight, XtCLedHeight, XtRDimension, sizeof(Dimension),
+                    ^~~~~~~~~~~~
+LED.c:82:37: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+      /* class_name               */ "LED",
+                                     ^~~~~
+  CC     xkbwatch-utils.o
+  CCLD   xkbwatch
+  CC     xkbbell-xkbbell.o
+xkbbell.c: In function 'main':
+xkbbell.c:205:58: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+     if (!XkbQueryExtension(dpy, &i1, &i2, &i3, &i4, &i5) > 0) {
+                                                          ^
+xkbbell.c:205:9: note: add parentheses around left hand side expression to silence this warning
+     if (!XkbQueryExtension(dpy, &i1, &i2, &i3, &i4, &i5) > 0) {
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         (                                               )
+  CCLD   xkbbell
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbutils-1.0.4'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/xkbutils-1.0.4'

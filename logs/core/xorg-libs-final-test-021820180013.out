@@ -1,0 +1,377 @@
+###############################
+# Test xtrans-1.3.5.tar.bz2 #
+###############################
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/xtrans-1.3.5'
+###############################
+# Test libX11-1.6.5.tar.bz2 #
+###############################
+Making check in include
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/include'
+Making check in modules
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+Making check in im
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+Making check in ximcp
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im/ximcp'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im/ximcp'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/im'
+Making check in lc
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+Making check in Utf8
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/Utf8'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/Utf8'
+Making check in def
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/def'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/def'
+Making check in gen
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/gen'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc/gen'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/lc'
+Making check in om
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+Making check in generic
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om/generic'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om/generic'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules/om'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/modules'
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+cd util && make
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+make  check-recursive
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+Making check in util
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+Making check in xcms
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xcms'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xcms'
+Making check in xlibi18n
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xlibi18n'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xlibi18n'
+Making check in xkb
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xkb'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/xkb'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+cd util && make
+make[4]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src/util'
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/src'
+Making check in nls
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+PASS: compose-check.pl
+============================================================================
+Testsuite summary for libX11 1.6.5
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/nls'
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+Making check in xkb
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man/xkb'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man/xkb'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/man'
+Making check in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+Making check in libX11
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/libX11'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/libX11'
+Making check in i18n
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+Making check in compose
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/compose'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/compose'
+Making check in framework
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/framework'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/framework'
+Making check in localedb
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/localedb'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/localedb'
+Making check in trans
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/trans'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n/trans'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/i18n'
+Making check in XIM
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XIM'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XIM'
+Making check in XKB
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XKB'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs/XKB'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5/specs'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libX11-1.6.5'
+###############################
+# Test libXext-1.3.3.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libFS-1.0.7.tar.bz2 #
+###############################
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/src'
+Making check in test
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/test'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7/test'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libFS-1.0.7'
+###############################
+# Test libICE-1.0.9.tar.bz2 #
+###############################
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/doc'
+Making check in specs
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/specs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/specs'
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9/src'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libICE-1.0.9'
+###############################
+# Test libSM-1.2.2.tar.bz2 #
+###############################
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/src'
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libSM-1.2.2'
+###############################
+# Test libXScrnSaver-1.2.2.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXt-1.1.5.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXmu-1.1.2.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXpm-3.5.12.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXaw-1.0.13.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXfixes-5.0.3.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXcomposite-0.4.4.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXrender-0.9.10.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXcursor-1.1.15.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXdamage-1.1.4.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libfontenc-1.1.3.tar.bz2 #
+###############################
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3/src'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libfontenc-1.1.3'
+###############################
+# Test libXfont2-2.0.3.tar.bz2 #
+###############################
+Making check in doc
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libXfont2-2.0.3'
+###############################
+# Test libXft-2.3.2.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXi-1.7.9.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXinerama-1.1.3.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXrandr-1.5.1.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXres-1.2.0.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXtst-1.2.3.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXv-1.0.11.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXvMC-1.0.10.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXxf86dga-1.1.4.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libXxf86vm-1.1.4.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libdmx-1.1.3.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libpciaccess-0.14.tar.bz2 #
+###############################
+Making check in include
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/include'
+Making check in man
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/man'
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/src'
+Making check in scanpci
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/scanpci'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14/scanpci'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libpciaccess-0.14'
+###############################
+# Test libxkbfile-1.0.9.tar.bz2 #
+###############################
+make: *** No rule to make target 'check'.  Stop.
+###############################
+# Test libxshmfence-1.2.tar.bz2 #
+###############################
+Making check in src
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/src'
+Making check in test
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make  xshmfence_test
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+  CC       xshmfence_test-xshmfence_test.o
+  CCLD     xshmfence_test
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make  check-TESTS
+make[2]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[3]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+PASS: xshmfence_test
+make[4]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+============================================================================
+Testsuite summary for libxshmfence 1.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2/test'
+make[1]: Entering directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/libs/libxshmfence-1.2'

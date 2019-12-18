@@ -1,0 +1,160 @@
+Making install in dbus-gmain
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus-gmain'
+Making install in dbus
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+Making install in .
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdbus-glib-1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libdbus-glib-1.so.2.3.4 /usr/lib/libdbus-glib-1.so.2.3.4
+libtool: install: (cd /usr/lib && { ln -s -f libdbus-glib-1.so.2.3.4 libdbus-glib-1.so.2 || { rm -f libdbus-glib-1.so.2 && ln -s libdbus-glib-1.so.2.3.4 libdbus-glib-1.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdbus-glib-1.so.2.3.4 libdbus-glib-1.so || { rm -f libdbus-glib-1.so && ln -s libdbus-glib-1.so.2.3.4 libdbus-glib-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdbus-glib-1.lai /usr/lib/libdbus-glib-1.la
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-binding-tool '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/dbus-binding-tool /usr/bin/dbus-binding-tool
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-bash-completion-helper '/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/dbus-bash-completion-helper /usr/libexec/dbus-bash-completion-helper
+ /bin/mkdir -p '/etc/bash_completion.d'
+ /usr/bin/install -c dbus-bash-completion.sh '/etc/bash_completion.d'
+ /bin/mkdir -p '/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 dbus-gtype-specialized.h dbus-gvalue-parse-variant.h dbus-glib.h dbus-glib-lowlevel.h '/usr/include/dbus-1.0/dbus'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+Making install in examples
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make  install-recursive
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+Making install in .
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[5]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+Making install in statemachine
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make  install-am
+make[5]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[6]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[5]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples/statemachine'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus/examples'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/dbus'
+Making install in tools
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make  install-am
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 dbus-glib-bindings.h '/usr/include/dbus-1.0/dbus'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/tools'
+Making install in test
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+Making install in .
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+Making install in core
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make  install-am
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/core'
+Making install in interfaces
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make  install-am
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[4]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test/interfaces'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/test'
+Making install in doc
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+Making install in reference
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc/reference'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/dbus-binding-tool.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBus-GLib-low-level.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBus-GObject-related-functions.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGConnection.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGError.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGMessage.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGMethod.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGProxy.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-Specializable-GType-System.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib.devhelp2
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc/reference'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc/reference'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[3]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 dbus-binding-tool.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110/doc'
+make[1]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110'
+make[2]: Entering directory '/lfskernel/sources/boot/dbus-glib-0.110'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dbus-glib-1.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110'
+make[1]: Leaving directory '/lfskernel/sources/boot/dbus-glib-0.110'

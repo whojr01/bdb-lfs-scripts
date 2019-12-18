@@ -1,0 +1,41 @@
+Making install in lib
+make[1]: Entering directory '/sources/bc-1.07.1/build/lib'
+make[2]: Entering directory '/sources/bc-1.07.1/build/lib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/bc-1.07.1/build/lib'
+make[1]: Leaving directory '/sources/bc-1.07.1/build/lib'
+Making install in bc
+make[1]: Entering directory '/sources/bc-1.07.1/build/bc'
+make[2]: Entering directory '/sources/bc-1.07.1/build/bc'
+ /tools/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c bc '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/bc-1.07.1/build/bc'
+make[1]: Leaving directory '/sources/bc-1.07.1/build/bc'
+Making install in dc
+make[1]: Entering directory '/sources/bc-1.07.1/build/dc'
+make[2]: Entering directory '/sources/bc-1.07.1/build/dc'
+ /tools/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c dc '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/bc-1.07.1/build/dc'
+make[1]: Leaving directory '/sources/bc-1.07.1/build/dc'
+Making install in doc
+make[1]: Entering directory '/sources/bc-1.07.1/build/doc'
+make[2]: Entering directory '/sources/bc-1.07.1/build/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../doc/bc.info ../../doc/dc.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/bc.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/dc.info'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/bc.1 ../../doc/dc.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/bc-1.07.1/build/doc'
+make[1]: Leaving directory '/sources/bc-1.07.1/build/doc'
+make[1]: Entering directory '/sources/bc-1.07.1/build'
+make[2]: Entering directory '/sources/bc-1.07.1/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/bc-1.07.1/build'
+make[1]: Leaving directory '/sources/bc-1.07.1/build'

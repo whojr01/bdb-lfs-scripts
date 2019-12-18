@@ -1,0 +1,275 @@
+echo 1.9.4 > .version-t && mv .version-t .version
+make  all-recursive
+make[1]: Entering directory '/sources/inetutils-1.9.4/build'
+Making all in lib
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+  GEN      alloca.h
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      arg-nonnull.h
+  GEN      arpa/inet.h
+  GEN      configmake.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      getopt.h
+  GEN      glob.h
+  GEN      langinfo.h
+  GEN      locale.h
+  GEN      netdb.h
+  GEN      poll.h
+  GEN      pty.h
+  GEN      signal.h
+  GEN      unused-parameter.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      strings.h
+  GEN      sys/ioctl.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      sys/uio.h
+  GEN      termios.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      wchar.h
+  GEN      wctype.h
+make  all-recursive
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+  CC       argp-ba.o
+  CC       argp-eexst.o
+  CC       argp-fmtstream.o
+  CC       argp-fs-xinl.o
+  CC       argp-help.o
+  CC       argp-parse.o
+  CC       argp-pin.o
+  CC       argp-pv.o
+  CC       argp-pvh.o
+  CC       argp-xinl.o
+  CC       argp-version-etc.o
+  CC       cloexec.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exitfail.o
+  CC       fd-hook.o
+  CC       filemode.o
+  CC       filenamecat-lgpl.o
+  CC       fopen-safer.o
+  CC       getugroups.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       localcharset.o
+  CC       glthread/lock.o
+  CC       malloca.o
+  CC       mgetgroups.o
+  CC       openat-die.o
+  CC       progname.o
+  CC       read-file.o
+  CC       save-cwd.o
+  CC       sockets.o
+  CC       strnlen1.o
+  CC       sys_socket.o
+  CC       tempname.o
+  CC       glthread/threadlib.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       version-etc.o
+  CC       version-etc-fsf.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       xgetcwd.o
+  CC       xgetdomainname.o
+  CC       xgethostname.o
+  CC       xsize.o
+  CC       xvasprintf.o
+  CC       xasprintf.o
+  CC       asnprintf.o
+  CC       chdir-long.o
+  CC       fcntl.o
+  CC       getopt.o
+  CC       getopt1.o
+  CC       glob.o
+  CC       ioctl.o
+  CC       obstack.o
+  CC       openat-proc.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       readutmp.o
+  CC       vasnprintf.o
+  AR       libgnu.a
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+Making all in libinetutils
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libinetutils'
+  CC       argcv.o
+  CC       cleansess.o
+  CC       daemon.o
+  CC       defauthors.o
+  CC       if_index.o
+  CC       kcmd.o
+  CC       kerberos5.o
+  CC       krcmd.o
+  CC       localhost.o
+  CC       logwtmpko.o
+  CC       setsig.o
+  CC       shishi.o
+  CC       tftpsubs.o
+  CC       ttymsg.o
+  CC       utmp_init.o
+  CC       utmp_logout.o
+  AR       libinetutils.a
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libinetutils'
+Making all in libtelnet
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libtelnet'
+  CC       auth.o
+  CC       enc_des.o
+  CC       encrypt.o
+  CC       forward.o
+  CC       genget.o
+  CC       kerberos.o
+  CC       kerberos5.o
+  CC       misc.o
+  CC       read_passwd.o
+  CC       shishi.o
+  AR       libtelnet.a
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libtelnet'
+Making all in libicmp
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libicmp'
+  CC       icmp_echo.o
+  CC       icmp_timestamp.o
+  CC       icmp_address.o
+  CC       icmp_cksum.o
+  AR       libicmp.a
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libicmp'
+Making all in libls
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libls'
+  CC       cmp.o
+  CC       stat_flags.o
+  CC       ls.o
+  CC       print.o
+../../libls/print.c: In function 'printlong':
+../../libls/print.c:141:13: warning: In the GNU C Library, "major" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "major", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "major", you should undefine it after including <sys/types.h>.
+  printf ("%3d, %3d ", major (sp->st_rdev), minor (sp->st_rdev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                    
+../../libls/print.c:141:13: warning: In the GNU C Library, "minor" is defined
+ by <sys/sysmacros.h>. For historical compatibility, it is
+ currently defined by <sys/types.h> as well, but we plan to
+ remove this soon. To use "minor", include <sys/sysmacros.h>
+ directly. If you did not intend to use a system-defined macro
+ "minor", you should undefine it after including <sys/types.h>.
+  printf ("%3d, %3d ", major (sp->st_rdev), minor (sp->st_rdev));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                                                                                                                                                                                                                                    
+  CC       util.o
+  CC       fts.o
+  AR       libls.a
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libls'
+Making all in src
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/src'
+  CC       hostname.o
+  CCLD     hostname
+  CC       dnsdomainname.o
+  CCLD     dnsdomainname
+  CC       traceroute.o
+  CCLD     traceroute
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/src'
+Making all in telnet
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/telnet'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/telnet'
+Making all in telnetd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/telnetd'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/telnetd'
+Making all in ftp
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ftp'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ftp'
+Making all in ftpd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ftpd'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ftpd'
+Making all in talk
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/talk'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/talk'
+Making all in talkd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/talkd'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/talkd'
+Making all in whois
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/whois'
+make  all-am
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/whois'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/whois'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/whois'
+Making all in ping
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ping'
+  CC       ping.o
+  CC       ping_common.o
+  CC       ping_echo.o
+  CC       ping_address.o
+  CC       ping_router.o
+  CC       ping_timestamp.o
+  CC       libping.o
+  CCLD     ping
+  CC       ping6.o
+  CCLD     ping6
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ping'
+Making all in ifconfig
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig'
+Making all in system
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig'
+  CC       ifconfig.o
+  CC       flags.o
+  CC       changeif.o
+  CC       options.o
+  CC       printif.o
+  CC       system.o
+  CCLD     ifconfig
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig'
+Making all in doc
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/doc'
+Making all in man
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/man'
+Making all in tests
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+sed -e 's,[@]GREP[@],/usr/bin/grep,g' -e 's,[@]SED[@],/bin/sed,g' -e 's,[@]DD[@],/bin/dd,g' -e 's,[@]MKTEMP[@],/tools/bin/mktemp,g' -e 's,[@]NETSTAT[@],netstat,g' -e 's,[@]TARGET[@],127.0.0.1,g' -e 's,[@]TARGET6[@],::1,g' -e 's,[@]TEST_IPV6[@],auto,g' < ../../tests/tools.sh.in > tools.sh
+make  all-am
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+  CC       identify.o
+  CCLD     identify
+  CC       ls.o
+  CCLD     ls
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[2]: Entering directory '/sources/inetutils-1.9.4/build'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build'
+make[1]: Leaving directory '/sources/inetutils-1.9.4/build'

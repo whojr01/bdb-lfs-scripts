@@ -1,0 +1,191 @@
+make  install-recursive
+make[1]: Entering directory '/sources/inetutils-1.9.4/build'
+Making install in lib
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+make  install-recursive
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+make[5]: Entering directory '/sources/inetutils-1.9.4/build/lib'
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /sources/inetutils-1.9.4/build-aux/install-sh -d /usr/lib ; \
+fi ; \
+if test -f /usr/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/lib/charset.alias > /usr/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+  rm -f /usr/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /usr/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 /usr/lib/charset.tmp /usr/lib/charset.alias ; \
+    rm -f /usr/lib/charset.tmp ; \
+  fi ; \
+fi
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/lib'
+Making install in libinetutils
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libinetutils'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/libinetutils'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/libinetutils'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libinetutils'
+Making install in libtelnet
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libtelnet'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/libtelnet'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/libtelnet'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libtelnet'
+Making install in libicmp
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libicmp'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/libicmp'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/libicmp'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libicmp'
+Making install in libls
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/libls'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/libls'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/libls'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/libls'
+Making install in src
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/src'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/src'
+ /tools/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c hostname dnsdomainname traceroute '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/src'
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/src'
+ /tools/bin/mkdir -p '/usr/libexec'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/src'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/src'
+Making install in telnet
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/telnet'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/telnet'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/telnet'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/telnet'
+Making install in telnetd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/telnetd'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/telnetd'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/telnetd'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/telnetd'
+Making install in ftp
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ftp'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ftp'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ftp'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ftp'
+Making install in ftpd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ftpd'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ftpd'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ftpd'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ftpd'
+Making install in talk
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/talk'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/talk'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/talk'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/talk'
+Making install in talkd
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/talkd'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/talkd'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/talkd'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/talkd'
+Making install in whois
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/whois'
+make  install-am
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/whois'
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/whois'
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/whois'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/whois'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/whois'
+Making install in ping
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ping'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ping'
+ /tools/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c ping ping6 '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/ping'
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/ping'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ping'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ping'
+Making install in ifconfig
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig'
+Making install in system
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig/system'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig'
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/ifconfig'
+ /tools/bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c ifconfig '/usr/bin'
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/ifconfig'
+Making install in doc
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/doc'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ../../doc/inetutils.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/inetutils.info'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/doc'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/doc'
+Making install in man
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/man'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ../../man/hostname.1 ../../man/dnsdomainname.1 ../../man/ifconfig.1 ../../man/ping.1 ../../man/ping6.1 ../../man/traceroute.1 '/usr/share/man/man1'
+ /tools/bin/mkdir -p '/usr/share/man/man8'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/man'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/man'
+Making install in tests
+make[2]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+make  install-am
+make[3]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+make[4]: Entering directory '/sources/inetutils-1.9.4/build/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build/tests'
+make[2]: Entering directory '/sources/inetutils-1.9.4/build'
+make[3]: Entering directory '/sources/inetutils-1.9.4/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/inetutils-1.9.4/build'
+make[2]: Leaving directory '/sources/inetutils-1.9.4/build'
+make[1]: Leaving directory '/sources/inetutils-1.9.4/build'
+renamed '/usr/bin/hostname' -> '/bin/hostname'
+renamed '/usr/bin/ping' -> '/bin/ping'
+renamed '/usr/bin/ping6' -> '/bin/ping6'
+renamed '/usr/bin/traceroute' -> '/bin/traceroute'
+renamed '/usr/bin/ifconfig' -> '/sbin/ifconfig'

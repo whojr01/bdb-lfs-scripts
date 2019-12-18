@@ -1,0 +1,237 @@
+Making install in include
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/include'
+Making install in alsactl
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+Making install in init
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl/init'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl/init'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/init'
+ /usr/bin/install -c -m 644 00main default help info test hda ca0106 '/usr/share/alsa/init'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl/init'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl/init'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+ /bin/mkdir -p '/usr/sbin'
+  /usr/bin/install -c alsactl '/usr/sbin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 alsactl.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man7'
+ /bin/mkdir -p '/lib/systemd/system'
+ /usr/bin/install -c -m 644 alsa-state.service alsa-restore.service '/lib/systemd/system'
+ /bin/mkdir -p '/lib/udev/rules.d'
+ /usr/bin/install -c -m 644 90-alsa-restore.rules '/lib/udev/rules.d'
+make  install-data-hook
+make[4]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+/bin/mkdir -p -m 0755 \
+	/lib/systemd/system/sound.target.wants
+( cd /lib/systemd/system/sound.target.wants && \
+	rm -f alsa-state.service alsa-restore.service && \
+	ln -s ../alsa-state.service alsa-state.service && \
+	ln -s ../alsa-restore.service alsa-restore.service)
+make[4]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsactl'
+Making install in utils
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/utils'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/utils'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/utils'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/utils'
+Making install in m4
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/m4'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/m4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/m4'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/m4'
+Making install in po
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/po'
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/alsa-utils.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/alsa-utils.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/alsa-utils.mo
+if test "alsa-utils" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/po'
+Making install in alsa-info
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsa-info'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsa-info'
+ /bin/mkdir -p '/usr/sbin'
+ /usr/bin/install -c alsa-info.sh '/usr/sbin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 alsa-info.sh.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsa-info'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsa-info'
+Making install in alsamixer
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsamixer'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsamixer'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsamixer '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 alsamixer.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsamixer'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsamixer'
+Making install in amixer
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amixer'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amixer'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c amixer '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 amixer.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amixer'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amixer'
+Making install in amidi
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amidi'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amidi'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c amidi '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 amidi.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amidi'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/amidi'
+Making install in aplay
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aplay '/usr/bin'
+make  install-exec-hook
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+rm -f arecord
+ln -s aplay arecord
+rm -f /usr/bin/arecord
+(cd /usr/bin && ln -s aplay arecord)
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aplay.1 arecord.1 '/usr/share/man/man1'
+make  install-data-hook
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+rm -f /usr/share/man/man1/arecord.1
+(cd /usr/share/man/man1 && ln -s aplay.1 arecord.1)
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/aplay'
+Making install in iecset
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/iecset'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/iecset'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c iecset '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 iecset.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/iecset'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/iecset'
+Making install in speaker-test
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+Making install in samples
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test/samples'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test/samples'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/speaker-test'
+ /usr/bin/install -c -m 644 sample_map.csv '/usr/share/alsa/speaker-test'
+ /bin/mkdir -p '/usr/share/sounds/alsa'
+ /usr/bin/install -c -m 644 Front_Left.wav Rear_Center.wav Rear_Right.wav Side_Right.wav Front_Center.wav Front_Right.wav Noise.wav Rear_Left.wav Side_Left.wav '/usr/share/sounds/alsa'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test/samples'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test/samples'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c speaker-test '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 speaker-test.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/speaker-test'
+Making install in alsaloop
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaloop'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaloop'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsaloop '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 alsaloop.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaloop'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaloop'
+Making install in seq
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+Making install in aconnect
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aconnect'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aconnect'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aconnect '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aconnect.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aconnect'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aconnect'
+Making install in aplaymidi
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aplaymidi'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aplaymidi'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aplaymidi arecordmidi '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aplaymidi.1 arecordmidi.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aplaymidi'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aplaymidi'
+Making install in aseqdump
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqdump'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqdump'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aseqdump '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aseqdump.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqdump'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqdump'
+Making install in aseqnet
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqnet'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqnet'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aseqnet '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aseqnet.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqnet'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq/aseqnet'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/seq'
+Making install in alsaucm
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaucm'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaucm'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsaucm '/usr/bin'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaucm'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/alsaucm'
+Making install in topology
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/topology'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5/topology'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsatplg '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/topology'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5/topology'
+make[1]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5'
+make[2]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory '/lfskernel/sources/boot/alsa-utils-1.1.5'
+/bin/mkdir -p -m 0755 /var/lib/alsa
+make[3]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5'
+make[2]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5'
+make[1]: Leaving directory '/lfskernel/sources/boot/alsa-utils-1.1.5'

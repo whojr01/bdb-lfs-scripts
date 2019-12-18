@@ -1,0 +1,83 @@
+###############################
+# Make mkfontscale-1.1.2.tar.bz2 #
+###############################
+make  all-recursive
+make[1]: Entering directory '/lfskernel/sources/boot/X11/app/mkfontscale-1.1.2'
+Making all in man
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/mkfontscale-1.1.2/man'
+  GEN      mkfontscale.1
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/mkfontscale-1.1.2/man'
+make[2]: Entering directory '/lfskernel/sources/boot/X11/app/mkfontscale-1.1.2'
+  CC       hash.o
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdlib.h:25,
+                 from hash.c:27:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       ident.o
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdlib.h:25,
+                 from ident.c:54:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       list.o
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdlib.h:25,
+                 from list.c:23:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+  CC       mkfontscale.o
+In file included from /usr/include/bits/libc-header-start.h:33:0,
+                 from /usr/include/stdio.h:27,
+                 from mkfontscale.c:27:
+/usr/include/features.h:183:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+mkfontscale.c: In function 'main':
+mkfontscale.c:160:26: warning: passing argument 1 of 'makeList' from incompatible pointer type [-Wincompatible-pointer-types]
+     encodings = makeList(encodings_array, countof(encodings_array), NULL, 0);
+                          ^~~~~~~~~~~~~~~
+In file included from mkfontscale.c:50:0:
+list.h:42:9: note: expected 'char **' but argument is of type 'const char **'
+ ListPtr makeList(char **a, int n, ListPtr old, int begin);
+         ^~~~~~~~
+mkfontscale.c:162:32: warning: passing argument 1 of 'makeList' from incompatible pointer type [-Wincompatible-pointer-types]
+     extra_encodings = makeList(extra_encodings_array,
+                                ^~~~~~~~~~~~~~~~~~~~~
+In file included from mkfontscale.c:50:0:
+list.h:42:9: note: expected 'char **' but argument is of type 'const char **'
+ ListPtr makeList(char **a, int n, ListPtr old, int begin);
+         ^~~~~~~~
+mkfontscale.c: In function 'doDirectory':
+mkfontscale.c:774:66: warning: declaration of 'encodingsToDo' shadows a global declaration [-Wshadow]
+ doDirectory(const char *dirname_given, int numEncodings, ListPtr encodingsToDo)
+                                                                  ^~~~~~~~~~~~~
+mkfontscale.c:114:16: note: shadowed declaration is here
+ static ListPtr encodingsToDo;
+                ^~~~~~~~~~~~~
+mkfontscale.c:924:17: warning: declaration of 'n' shadows a previous local [-Wshadow]
+             int n = strlen(xlfd_name);
+                 ^
+mkfontscale.c:785:12: note: shadowed declaration is here
+     int i, n, found, rc;
+            ^
+mkfontscale.c: In function 'checkExtraEncoding':
+mkfontscale.c:1214:17: warning: declaration of 'found' shadows a parameter [-Wshadow]
+             int found = 0;
+                 ^~~~~
+mkfontscale.c:1208:59: note: shadowed declaration is here
+ checkExtraEncoding(FT_Face face, char *encoding_name, int found)
+                                                           ^~~~~
+mkfontscale.c: In function 'readEncodings':
+mkfontscale.c:1284:23: warning: declaration of 'encodings' shadows a global declaration [-Wshadow]
+ readEncodings(ListPtr encodings, char *dirname)
+                       ^~~~~~~~~
+mkfontscale.c:91:16: note: shadowed declaration is here
+ static ListPtr encodings, extra_encodings;
+                ^~~~~~~~~
+  CCLD     mkfontscale
+make[2]: Leaving directory '/lfskernel/sources/boot/X11/app/mkfontscale-1.1.2'
+make[1]: Leaving directory '/lfskernel/sources/boot/X11/app/mkfontscale-1.1.2'
